@@ -318,11 +318,13 @@ function render() {
   const total = places.length;
   const displayable = places.filter(p => p.status?.map_displayable).length;
   const geocoding = places.filter(p => p.needs_geocoding).length;
-  const mapPending = places.filter(p => p.status?.map_status === 'pending_approval').length;
-  const ready = places.filter(p => ['ready','published','video_linked','waiting'].includes(p.status?.map_status)).length;
+  // 지도 승인 대기 = ready(마커 생성 완료) + waiting(미승인) 중 미게시 항목
+  const mapPending = places.filter(p => ['waiting','ready','pending_approval'].includes(p.status?.map_status)).length;
+  const ready = places.filter(p => ['published','video_linked'].includes(p.status?.map_status)).length;
   const contentTotal = places.filter(p => p.status?.content_status && p.status.content_status !== 'waiting').length;
   const snsPending = places.filter(p => p.status?.content_status === 'approved').length;
   const uploaded = places.filter(p => p.status?.content_status === 'uploaded').length;
+  // 목표 진행률 = 실제 지도에 올라간 수(published)
   const marker = ready || total;
   const p1 = Math.min(100, Math.round(marker/300*100));
   const p2 = Math.min(100, Math.round(marker/1000*100));
@@ -347,7 +349,7 @@ function render() {
   // 메뉴 카운트
   document.getElementById('mm-count').textContent = total;
   document.getElementById('gq-count').textContent = geocoding;
-  document.getElementById('ma-count').textContent = mapPending || total;
+  document.getElementById('ma-count').textContent = mapPending;
   document.getElementById('ca-count').textContent = contentTotal;
   document.getElementById('sa-count').textContent = snsPending;
   document.getElementById('um-count').textContent = uploaded;
