@@ -7,6 +7,27 @@
       "region": "서울",
       "collected": 21,
       "total": 51
+    },
+    {
+      "run_time": "2026-05-05T23:11:16",
+      "mode": "A_MODE_REALTIME_SEARCH",
+      "region": "경기/인천",
+      "collected": 17,
+      "total": 68
+    },
+    {
+      "run_time": "2026-05-05T23:18:27",
+      "mode": "A_MODE_REALTIME_SEARCH",
+      "region": "충청남도·경주",
+      "collected": 21,
+      "total": 89
+    },
+    {
+      "run_time": "2026-05-05T23:21:27",
+      "mode": "A_MODE_REALTIME_SEARCH",
+      "region": "전라·경남",
+      "collected": 16,
+      "total": 105
     }
   ]
 }

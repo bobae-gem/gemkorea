@@ -9,6 +9,33 @@
       "total": 51,
       "markers_ready": 51,
       "errors": 0
+    },
+    {
+      "time": "2026-05-05T23:11:16",
+      "mode": "A",
+      "region": "경기/인천",
+      "new_collected": 17,
+      "total": 68,
+      "markers_ready": 68,
+      "errors": 0
+    },
+    {
+      "time": "2026-05-05T23:18:27",
+      "mode": "A",
+      "region": "충청남도·경주",
+      "new_collected": 21,
+      "total": 89,
+      "markers_ready": 89,
+      "errors": 0
+    },
+    {
+      "time": "2026-05-05T23:21:27",
+      "mode": "A",
+      "region": "전라·경남",
+      "new_collected": 16,
+      "total": 105,
+      "markers_ready": 105,
+      "errors": 0
     }
   ]
 }
