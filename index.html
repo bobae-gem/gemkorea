@@ -232,14 +232,14 @@ header{
   <div class="filter-row">
     <span class="filter-label">지역</span>
     <button class="f-btn act" data-region="all" onclick="setRegion(this)">전체</button>
-    <button class="f-btn" data-region="서울"     onclick="setRegion(this)">서울</button>
-    <button class="f-btn" data-region="경기"     onclick="setRegion(this)">경기</button>
-    <button class="f-btn" data-region="인천"     onclick="setRegion(this)">인천</button>
-    <button class="f-btn" data-region="충청"     onclick="setRegion(this)">충청</button>
-    <button class="f-btn" data-region="경상"     onclick="setRegion(this)">경상</button>
-    <button class="f-btn" data-region="전라"     onclick="setRegion(this)">전라</button>
-    <button class="f-btn" data-region="강원"     onclick="setRegion(this)">강원</button>
-    <button class="f-btn" data-region="제주"     onclick="setRegion(this)">제주</button>
+    <button class="f-btn" data-region="서울" onclick="setRegion(this)">🗺️ 서울</button>
+    <button class="f-btn" data-region="경기" onclick="setRegion(this)">🗺️ 경기</button>
+    <button class="f-btn" data-region="인천" onclick="setRegion(this)">🗺️ 인천</button>
+    <button class="f-btn" data-region="충청" onclick="setRegion(this)">🗺️ 충청</button>
+    <button class="f-btn" data-region="경상" onclick="setRegion(this)">🗺️ 경상</button>
+    <button class="f-btn" data-region="전라" onclick="setRegion(this)">🗺️ 전라</button>
+    <button class="f-btn" data-region="강원" onclick="setRegion(this)">🗺️ 강원</button>
+    <button class="f-btn" data-region="제주" onclick="setRegion(this)">🗺️ 제주</button>
   </div>
 </div>
 
@@ -315,6 +315,26 @@ const ERA_MAP={
 let places=[],map,naverMarkers=[];
 let fMain='all',fSub='all',fEra='all',fRegion='all',fSearch='';
 let selectedId=null;
+let regionPolygon=null;
+
+/* 지역 필터 키 → GeoJSON 파일명 매핑 */
+const REGION_FILES={
+  '서울':'seoul','경기':'gyeonggi','인천':'incheon',
+  '충청':'chungcheong','경상':'gyeongsang','전라':'jeolla',
+  '강원':'gangwon','제주':'jeju'
+};
+
+/* 지역별 색상 (상위 카테고리 색상과 구분) */
+const REGION_COLORS={
+  '서울':  {fill:'#1e3a8a',stroke:'#1e3a8a'},
+  '경기':  {fill:'#2d6a4f',stroke:'#2d6a4f'},
+  '인천':  {fill:'#0077b6',stroke:'#0077b6'},
+  '충청':  {fill:'#7c5c3a',stroke:'#7c5c3a'},
+  '경상':  {fill:'#6b5b95',stroke:'#6b5b95'},
+  '전라':  {fill:'#d4380d',stroke:'#d4380d'},
+  '강원':  {fill:'#2d6a4f',stroke:'#2d6a4f'},
+  '제주':  {fill:'#0096c7',stroke:'#0096c7'}
+};
 
 async function init(){
   // 데이터 로드 (서버 실행 중일 때만 fetch 가능)
@@ -362,7 +382,68 @@ function setMain(el){
 }
 function setSub(el){fSub=el.dataset.sub;document.querySelectorAll('[data-sub]').forEach(b=>b.classList.remove('act'));el.classList.add('act');render();}
 function setEra(el){fEra=el.dataset.era;document.querySelectorAll('[data-era]').forEach(b=>b.classList.remove('act'));el.classList.add('act');render();}
-function setRegion(el){fRegion=el.dataset.region;document.querySelectorAll('[data-region]').forEach(b=>b.classList.remove('act'));el.classList.add('act');render();}
+function setRegion(el){
+  fRegion=el.dataset.region;
+  document.querySelectorAll('[data-region]').forEach(b=>b.classList.remove('act'));
+  el.classList.add('act');
+  showRegionBoundary(fRegion);
+  render();
+}
+
+/* 지역 경계 초기화 */
+function clearRegionPolygon(){
+  if(regionPolygon){
+    if(Array.isArray(regionPolygon)){
+      regionPolygon.forEach(p=>p.setMap(null));
+    } else {
+      regionPolygon.setMap(null);
+    }
+    regionPolygon=null;
+  }
+}
+
+/* 지역 경계 표시 */
+async function showRegionBoundary(regionKey){
+  clearRegionPolygon();
+  if(regionKey==='all'||!REGION_FILES[regionKey]||typeof naver==='undefined') return;
+
+  const col = REGION_COLORS[regionKey]||{fill:'#1e3a8a',stroke:'#1e3a8a'};
+
+  try{
+    const res = await fetch('data/geojson/'+REGION_FILES[regionKey]+'.geojson');
+    if(!res.ok) throw new Error('GeoJSON 로드 실패');
+    const geojson = await res.json();
+
+    const geomType = geojson.geometry.type;
+    const coordSets = geomType==='MultiPolygon'
+      ? geojson.geometry.coordinates.map(p=>p[0])
+      : [geojson.geometry.coordinates[0]];
+
+    const polygons = coordSets.map(coords=>{
+      const paths = coords.map(c=>new naver.maps.LatLng(c[1],c[0]));
+      return new naver.maps.Polygon({
+        map,
+        paths,
+        strokeColor: col.stroke,
+        strokeOpacity: 0.75,
+        strokeWeight: 2.5,
+        strokeStyle: 'solid',
+        fillColor: col.fill,
+        fillOpacity: 0.10
+      });
+    });
+
+    regionPolygon = polygons.length===1 ? polygons[0] : polygons;
+
+    /* 선택 지역으로 지도 이동 */
+    const bounds = new naver.maps.LatLngBounds();
+    coordSets.flat().forEach(c=>bounds.extend(new naver.maps.LatLng(c[1],c[0])));
+    map.fitBounds(bounds, {top:60,right:40,bottom:60,left:40});
+
+  }catch(e){
+    console.warn('지역 경계 표시 실패:', regionKey, e.message);
+  }
+}
 
 function getFiltered(){
   return places.filter(p=>{
