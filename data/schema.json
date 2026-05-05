@@ -1,0 +1,274 @@
+{
+  "_comment": "겜코리아 역사 장소 데이터 스키마 — 서치 AI 출력 기준",
+  "_version": "1.0",
+  "_updated": "2026-05-06",
+
+  "fields": {
+    "place_id": {
+      "type": "string",
+      "required": true,
+      "format": "GK-{지역코드}-{유형코드}-{순번}",
+      "example": "GK-SE-BIS-0001",
+      "description": "데이터 정리 AI가 생성. 지도-콘텐츠 연결의 핵심 키. 절대 변경 불가.",
+      "generated_by": "data_organizer"
+    },
+    "name": {
+      "type": "string",
+      "required": true,
+      "description": "장소 공식 명칭. 국가유산청 등재명 우선."
+    },
+    "category": {
+      "type": "string",
+      "required": true,
+      "allowed_values": [
+        "고인돌", "성곽", "산성", "궁궐", "왕릉", "고분",
+        "사찰", "서원", "향교", "비석", "전쟁유적",
+        "독립운동유적", "과학유적", "생활유적", "기타"
+      ]
+    },
+    "period": {
+      "type": "string",
+      "required": true,
+      "description": "시대 상세 표기. 예: '조선 후기 (1871년 건립)'"
+    },
+    "category_main": {
+      "type": "string",
+      "required": true,
+      "allowed_values": ["역사", "자연", "문화/체험"],
+      "managed_by": "카테고리 분류 AI",
+      "description": "지도 필터 상위 카테고리"
+    },
+    "category_sub": {
+      "type": "string",
+      "required": true,
+      "allowed_values": [
+        "궁궐/왕실", "고인돌/선사유적", "성곽/산성", "사찰/불교유산",
+        "비석/기념유산", "독립운동/근현대", "고택/서원/향교",
+        "산", "바다/해변", "강/호수", "숲/공원", "자연명승",
+        "전통시장", "체험마을", "박물관", "축제", "전통문화 체험"
+      ],
+      "managed_by": "카테고리 분류 AI",
+      "description": "지도 필터 세부 카테고리"
+    },
+    "category_detail": {
+      "type": "string",
+      "required": false,
+      "managed_by": "카테고리 분류 AI",
+      "description": "더 구체적인 유형. 목록 외 자유 작성. 예: 척화비(통상거부 비석)"
+    },
+    "confidence": {
+      "type": "string",
+      "required": true,
+      "allowed_values": ["high", "low"],
+      "managed_by": "카테고리 분류 AI",
+      "description": "분류 확신도. 모호하면 low"
+    },
+    "confidence_reason": {
+      "type": "string",
+      "required": false,
+      "managed_by": "카테고리 분류 AI",
+      "description": "confidence=low일 때만 작성. high이면 빈 문자열"
+    },
+    "tags": {
+      "type": "array of string",
+      "required": true,
+      "managed_by": "카테고리 분류 AI",
+      "description": "시대·인물·사건·장소유형 키워드 3~7개",
+      "examples": ["조선후기", "흥선대원군", "병인양요", "비석", "유네스코"]
+    },
+    "period_category": {
+      "type": "string",
+      "required": true,
+      "allowed_values": [
+        "선사", "삼국", "통일신라", "고려",
+        "조선 전기", "조선 후기", "근대", "현대"
+      ]
+    },
+    "region": {
+      "type": "string",
+      "required": true,
+      "description": "시/도 단위. 예: '서울특별시', '경기도', '전라남도'"
+    },
+    "address": {
+      "type": "string",
+      "required": true,
+      "description": "도로명 주소 우선. 없으면 지번 주소. 반드시 있어야 함.",
+      "drop_if_missing": true
+    },
+    "location_marker_type": {
+      "type": "string",
+      "required": true,
+      "allowed_values": ["exact", "entrance"],
+      "description": "exact: 유물/유적 정확한 위치. entrance: 대형 유적의 입구/주차장 위치."
+    },
+    "lat": {
+      "type": "number or empty string",
+      "required": false,
+      "description": "위도. 지도 표기 AI가 주소 변환 후 채움. 서치 단계에서는 빈 문자열."
+    },
+    "lng": {
+      "type": "number or empty string",
+      "required": false,
+      "description": "경도. 지도 표기 AI가 주소 변환 후 채움. 서치 단계에서는 빈 문자열."
+    },
+    "short_description": {
+      "type": "string",
+      "required": true,
+      "length": "100~150자",
+      "rules": [
+        "객관적 사실만 작성",
+        "출처에 있는 내용만",
+        "추측·창작·감정 표현 금지"
+      ]
+    },
+    "story_summary": {
+      "type": "string",
+      "required": false,
+      "length": "200자 이내",
+      "rules": [
+        "출처에 명시된 내용만",
+        "창작 금지",
+        "확인되지 않은 내용은 빈 문자열로 둠"
+      ]
+    },
+    "hook_sentence": {
+      "type": "string",
+      "required": false,
+      "length": "30자 이내",
+      "description": "콘텐츠 생성 AI 담당. 서치 단계에서는 빈 문자열."
+    },
+    "related_people": {
+      "type": "array of string",
+      "required": false,
+      "description": "관련 인물명. 출처에서 확인된 인물만."
+    },
+    "related_events": {
+      "type": "array of string",
+      "required": false,
+      "description": "관련 사건명 (연도 포함). 예: '병인양요 (1866)'"
+    },
+    "source_urls": {
+      "type": "array of string",
+      "required": true,
+      "description": "출처 URL. 최소 1개 이상. 없으면 수집 중단.",
+      "priority_order": [
+        "1. 국가유산청 (heritage.go.kr)",
+        "2. 공공데이터포털 (data.go.kr)",
+        "3. 지자체 문화관광 공식 사이트",
+        "4. 국립/지역 박물관 공식 사이트",
+        "5. 뉴스 (보조)",
+        "6. 블로그 (최후)"
+      ]
+    },
+    "status": {
+      "type": "object",
+      "required": true,
+      "description": "지도 시스템과 콘텐츠 시스템은 분리 관리. 각 AI는 자신 권한의 status만 변경.",
+      "fields": {
+        "map_displayable": {
+          "type": "boolean",
+          "description": "name + category + period + region + (address OR lat/lng) + source_urls 모두 있으면 true. 데이터 정리 AI가 설정.",
+          "managed_by": "데이터정리AI"
+        },
+        "data_status": {
+          "allowed": ["searching", "organizing", "complete", "excluded"],
+          "managed_by": "서치AI / 데이터정리AI"
+        },
+        "map_status": {
+          "allowed": [
+            "waiting", "geocoding_needed", "ready",
+            "pending_approval", "published", "video_linked", "excluded"
+          ],
+          "managed_by": "지도표기AI / 총괄매니저 / 대표",
+          "note": "콘텐츠 없어도 published 가능. video_linked는 content_status=uploaded 후 자동"
+        },
+        "content_status": {
+          "allowed": [
+            "created", "reviewed", "approved",
+            "uploaded", "archived", "excluded"
+          ],
+          "managed_by": "숏츠AI / 검수AI / 총괄매니저 / 대표",
+          "rules": [
+            "created 이상의 모든 콘텐츠는 삭제하지 않는다",
+            "업로드 미정 콘텐츠는 archived로 보존",
+            "excluded 외에는 재사용·재편집 가능 상태 유지"
+          ]
+        },
+        "last_updated": "YYYY-MM-DDTHH:MM:SS"
+      }
+    },
+    "content_link": {
+      "type": "object",
+      "required": false,
+      "description": "SNS 최적화 AI가 업로드 완료 후 채운다. 지도 마커 클릭 시 숏츠 연결에 사용.",
+      "fields": {
+        "has_video": "boolean — 영상 존재 여부",
+        "youtube_url": "string — 유튜브 쇼츠 URL",
+        "instagram_url": "string — 인스타 릴스 URL",
+        "tiktok_url": "string — 틱톡 URL",
+        "xiaohongshu_url": "string — 샤오홍슈 URL",
+        "video_status": "없음 | 제작중 | 업로드완료"
+      }
+    },
+    "data_confidence": {
+      "type": "string",
+      "required": true,
+      "allowed_values": ["high", "medium", "low"],
+      "rules": {
+        "high": "1~2순위 출처 확인 완료",
+        "medium": "3~4순위 출처. 교차 확인 1회 이상.",
+        "low": "5~6순위 출처만. 검수 AI 필수 재확인 대상."
+      }
+    }
+  },
+
+  "drop_conditions": [
+    "address 필드 없음",
+    "위치 불명확 (건물·유물 특정 불가)",
+    "source_urls 없음",
+    "현재 접근 불가 장소 (사유지, 군사시설 등)",
+    "폐업·철거로 실물이 없어진 경우"
+  ],
+
+  "forbidden_expressions": [
+    "아마 ~일 것이다",
+    "~로 보인다",
+    "~로 추정된다 (공식 출처 인용 외)",
+    "감정 표현 (안타깝게도, 다행히도 등)",
+    "미확인 창작 스토리"
+  ],
+
+  "example": {
+    "place_id": "GK-SE-BIS-0001",
+    "name": "척화비",
+    "category": "비석",
+    "period": "조선 후기 (1871년 건립)",
+    "period_category": "조선 후기",
+    "region": "서울특별시",
+    "address": "서울특별시 종로구 세종대로 198",
+    "location_marker_type": "exact",
+    "lat": "",
+    "lng": "",
+    "short_description": "흥선대원군이 1871년 신미양요 직후 서양 세력의 통상 요구를 거부하기 위해 전국 주요 지점에 건립한 비석. '서양 오랑캐와 화친하는 것은 나라를 파는 것이다'는 내용이 새겨져 있다.",
+    "story_summary": "",
+    "hook_sentence": "",
+    "related_people": ["흥선대원군"],
+    "related_events": ["병인양요 (1866)", "신미양요 (1871)", "척화비 건립 (1871)"],
+    "source_urls": ["https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1111100380000"],
+    "data_confidence": "high",
+    "status": {
+      "data_status": "complete",
+      "map_status": "published",
+      "content_status": "uploaded",
+      "last_updated": "2026-05-06T04:00:00"
+    },
+    "content_link": {
+      "has_video": true,
+      "youtube_url": "https://youtube.com/shorts/...",
+      "instagram_url": "",
+      "tiktok_url": "",
+      "xiaohongshu_url": "",
+      "video_status": "업로드완료"
+    }
+  }
+}

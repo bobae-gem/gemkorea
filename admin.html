@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GemKorea 관리자 홈</title>
+<link rel="stylesheet" href="admin/shared.css">
+<style>
+/* 헤더 배너 */
+.hero {
+  background:linear-gradient(135deg,#eef3ff 0%,#fef6e8 100%);
+  border:1.5px solid #e8e4dc; border-radius:18px;
+  padding:22px 28px; margin-bottom:20px;
+  display:flex; align-items:center; gap:20px;
+}
+.hero-icon { font-size:40px; flex-shrink:0; }
+.hero-text h1 { font-size:22px; font-weight:900; letter-spacing:-.5px; margin-bottom:5px; }
+.hero-text p  { font-size:13px; color:var(--muted); line-height:1.7; }
+.hero-badge {
+  margin-left:auto; padding:11px 22px;
+  background:linear-gradient(135deg,#1e3a8a,#c8860a);
+  color:#fff; border-radius:12px; font-size:13px; font-weight:800;
+  white-space:nowrap; flex-shrink:0;
+}
+
+/* 목표 */
+.goal-row { display:flex; gap:14px; margin-bottom:16px; }
+.goal-card { background:var(--surface); border:1.5px solid var(--border); border-radius:14px; padding:16px 20px; flex:1; }
+.goal-label { font-size:12px; font-weight:800; color:var(--muted); text-transform:uppercase; letter-spacing:1px; margin-bottom:8px; }
+.goal-nums  { display:flex; align-items:baseline; gap:6px; margin-bottom:8px; }
+.goal-cur   { font-size:32px; font-weight:900; letter-spacing:-1px; }
+.goal-tgt   { font-size:14px; color:var(--muted); }
+.pb         { height:9px; background:var(--surface2); border-radius:5px; overflow:hidden; border:1px solid var(--border); }
+.pb-fill    { height:100%; border-radius:5px; transition:width .6s ease; }
+.pb-gem     { background:linear-gradient(90deg,#1e3a8a,#3b6fd4); }
+.pb-orange  { background:linear-gradient(90deg,#c8860a,#e8a830); }
+.goal-pct   { font-size:13px; font-weight:700; margin-top:5px; }
+
+/* KPI */
+.kpi-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:12px; margin-bottom:16px; }
+.kpi-card {
+  background:var(--surface); border:1.5px solid var(--border);
+  border-radius:12px; padding:16px 18px; transition:border-color .2s;
+}
+.kpi-card:hover { border-color:var(--gem); }
+.kpi-val   { font-size:30px; font-weight:900; letter-spacing:-1px; line-height:1; margin-bottom:5px; }
+.kpi-lbl   { font-size:12px; color:var(--muted); font-weight:600; }
+
+/* 모드 */
+.mode-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:10px; }
+.mode-btn {
+  background:var(--surface2); border:2px solid var(--border);
+  border-radius:12px; padding:14px; cursor:pointer; transition:all .2s; text-align:left;
+}
+.mode-btn:hover { border-color:var(--gem); background:var(--gem-soft); }
+.mode-btn.active { border-color:var(--green); background:var(--green-soft); }
+.mode-key  { font-size:26px; font-weight:900; letter-spacing:-.5px; margin-bottom:4px; }
+.mode-desc { font-size:12px; color:var(--muted); margin-bottom:7px; }
+.mode-tags { display:flex; gap:4px; flex-wrap:wrap; }
+.mt-s { background:var(--blue-soft);   color:var(--blue);  font-size:10px; padding:2px 7px; border-radius:5px; font-weight:700; }
+.mt-c { background:var(--green-soft);  color:var(--green); font-size:9px; padding:2px 6px; border-radius:5px; font-weight:700; }
+.mode-status { font-size:10px; margin-top:8px; font-weight:700; }
+
+/* 메뉴 카드 */
+.menu-section-title {
+  font-size:11px; font-weight:800; text-transform:uppercase;
+  letter-spacing:1.2px; color:var(--muted); margin-bottom:10px;
+  padding-bottom:8px; border-bottom:1.5px solid var(--border);
+}
+.menu-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:12px; margin-bottom:20px; }
+.menu-card {
+  background:var(--surface); border:1.5px solid var(--border);
+  border-radius:14px; padding:18px; text-decoration:none; color:var(--text);
+  display:block; transition:all .2s;
+}
+.menu-card:hover { border-color:var(--gem); box-shadow:0 4px 16px rgba(139,92,246,.12); transform:translateY(-2px); }
+.menu-icon  { font-size:30px; margin-bottom:11px; }
+.menu-name  { font-size:15px; font-weight:900; margin-bottom:5px; }
+.menu-desc  { font-size:12px; color:var(--muted); line-height:1.6; margin-bottom:12px; }
+.menu-count { font-size:26px; font-weight:900; }
+.menu-unit  { font-size:11px; color:var(--muted); }
+
+/* 리포트 */
+.report-row { display:flex; gap:10px; padding:11px 0; border-bottom:1px solid var(--border); align-items:flex-start; }
+.report-row:last-child { border-bottom:none; }
+.rn { width:24px; height:24px; border-radius:7px; font-size:11px; font-weight:900; display:flex; align-items:center; justify-content:center; flex-shrink:0; }
+.report-title { font-size:13px; font-weight:800; margin-bottom:3px; }
+.report-desc  { font-size:12px; color:var(--muted); line-height:1.6; }
+
+/* 에러 로그 */
+.log-item { padding:9px 0; border-bottom:1px solid var(--border); font-size:11px; }
+.log-item:last-child { border-bottom:none; }
+.log-time { color:var(--muted); margin-bottom:2px; }
+.log-msg  { color:var(--red); }
+</style>
+</head>
+<body>
+
+<div class="nav">
+  <div class="nav-logo">GemKorea <small>ADMIN</small></div>
+  <span class="nav-sep">/</span>
+  <span class="nav-page">관리자 홈</span>
+  <div class="nav-spacer"></div>
+  <span class="nav-time" id="now-time"></span>
+  <a href="index.html" class="nav-link">🗺️ 지도 보기</a>
+</div>
+
+<div class="page-wrap">
+
+  <!-- 헤더 배너 -->
+  <div class="hero">
+    <div class="hero-icon">🗺️</div>
+    <div class="hero-text">
+      <h1>GemKorea 운영 대시보드</h1>
+      <p>대한민국 역사 여행 지도 · 보배의 큐레이션 · <span id="mode-text">자동화 모드 미선택</span></p>
+    </div>
+    <div class="hero-badge" id="system-badge">✓ 시스템 정상</div>
+  </div>
+
+  <!-- 목표 진행바 -->
+  <div class="goal-row">
+    <div class="goal-card">
+      <div class="goal-label">🎯 1차 목표 — 지도 마커 300개</div>
+      <div class="goal-nums">
+        <span class="goal-cur" id="g1-cur" style="color:var(--gem)">0</span>
+        <span class="goal-tgt">/ 300개</span>
+      </div>
+      <div class="pb"><div class="pb-fill pb-gem" id="g1-bar" style="width:0%"></div></div>
+      <div class="goal-pct" id="g1-pct" style="color:var(--gem)">0% 달성</div>
+    </div>
+    <div class="goal-card">
+      <div class="goal-label">🚀 2차 목표 — 지도 마커 1,000개</div>
+      <div class="goal-nums">
+        <span class="goal-cur" id="g2-cur" style="color:var(--orange)">0</span>
+        <span class="goal-tgt">/ 1,000개</span>
+      </div>
+      <div class="pb"><div class="pb-fill pb-orange" id="g2-bar" style="width:0%"></div></div>
+      <div class="goal-pct" id="g2-pct" style="color:var(--orange)">0% 달성</div>
+    </div>
+  </div>
+
+  <!-- KPI 8개 -->
+  <div class="kpi-grid">
+    <div class="kpi-card" style="border-color:rgba(74,140,92,.35);">
+      <div class="kpi-val" id="kpi-total" style="color:var(--green)">0</div>
+      <div class="kpi-lbl">📦 총 수집 장소</div>
+    </div>
+    <div class="kpi-card" style="border-color:rgba(139,92,246,.35);">
+      <div class="kpi-val" id="kpi-displayable" style="color:var(--gem)">0</div>
+      <div class="kpi-lbl">🗺️ 지도 표시 가능</div>
+    </div>
+    <div class="kpi-card" style="border-color:rgba(184,134,11,.3);">
+      <div class="kpi-val" id="kpi-geocoding" style="color:var(--yellow)">0</div>
+      <div class="kpi-lbl">📍 좌표 변환 필요</div>
+    </div>
+    <div class="kpi-card" style="border-color:rgba(192,57,43,.25);">
+      <div class="kpi-val" id="kpi-map-pending" style="color:var(--red)">0</div>
+      <div class="kpi-lbl">✅ 지도 승인 대기</div>
+    </div>
+    <div class="kpi-card" style="border-color:rgba(37,99,235,.25);">
+      <div class="kpi-val" id="kpi-content" style="color:var(--blue)">0</div>
+      <div class="kpi-lbl">🎬 콘텐츠 생성 수</div>
+    </div>
+    <div class="kpi-card" style="border-color:rgba(232,129,58,.35);">
+      <div class="kpi-val" id="kpi-sns-pending" style="color:var(--orange)">0</div>
+      <div class="kpi-lbl">📲 SNS 승인 대기</div>
+    </div>
+    <div class="kpi-card" style="border-color:rgba(74,140,92,.35);">
+      <div class="kpi-val" id="kpi-uploaded" style="color:var(--green)">0</div>
+      <div class="kpi-lbl">🚀 업로드 완료</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-val" id="kpi-errors" style="color:var(--muted)">0</div>
+      <div class="kpi-lbl">⚠️ 최근 오류</div>
+    </div>
+  </div>
+
+  <!-- 자동화 모드 -->
+  <div class="card" style="margin-bottom:16px;">
+    <div class="card-head">
+      <span class="card-title">자동화 실행 모드</span>
+      <span style="font-size:10px;color:var(--muted);">선택 후 Claude Code에서 실행</span>
+    </div>
+    <div class="mode-grid">
+      <div class="mode-btn" id="mode-a" onclick="setMode('A')">
+        <div class="mode-key" style="color:#2563eb">A</div>
+        <div class="mode-desc">실시간 서치 · 8분 간격</div>
+        <div class="mode-tags"><span class="mt-s">서치만</span></div>
+        <div class="mode-status"><span class="status-dot dot-off" id="dot-a"></span><span id="lbl-a" style="color:var(--muted)">대기</span></div>
+      </div>
+      <div class="mode-btn" id="mode-b" onclick="setMode('B')">
+        <div class="mode-key" style="color:#4a8c5c">B</div>
+        <div class="mode-desc">안정 서치 · 30분 간격</div>
+        <div class="mode-tags"><span class="mt-s">서치만</span></div>
+        <div class="mode-status"><span class="status-dot dot-off" id="dot-b"></span><span id="lbl-b" style="color:var(--muted)">대기</span></div>
+      </div>
+      <div class="mode-btn" id="mode-c" onclick="setMode('C')">
+        <div class="mode-key" style="color:#c8860a">C</div>
+        <div class="mode-desc">서치+콘텐츠 · 8분 · 3개/회</div>
+        <div class="mode-tags"><span class="mt-s">서치</span><span class="mt-c">콘텐츠</span></div>
+        <div class="mode-status"><span class="status-dot dot-off" id="dot-c"></span><span id="lbl-c" style="color:var(--muted)">대기</span></div>
+      </div>
+      <div class="mode-btn" id="mode-d" onclick="setMode('D')">
+        <div class="mode-key" style="color:#1e3a8a">D</div>
+        <div class="mode-desc">안정+선별 · 30분 · 5개/회</div>
+        <div class="mode-tags"><span class="mt-s">서치</span><span class="mt-c">콘텐츠</span></div>
+        <div class="mode-status"><span class="status-dot dot-off" id="dot-d"></span><span id="lbl-d" style="color:var(--muted)">대기</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 관리 메뉴 -->
+  <div class="menu-section-title">관리 메뉴</div>
+  <div class="menu-grid">
+    <a class="menu-card" href="admin/marker-manager.html">
+      <div class="menu-icon">📍</div>
+      <div class="menu-name">마커 관리</div>
+      <div class="menu-desc">수집된 전체 장소 목록 조회 및 관리</div>
+      <div class="menu-count" id="mm-count" style="color:var(--green)">0</div>
+      <div class="menu-unit">전체 장소</div>
+    </a>
+    <a class="menu-card" href="admin/geocoding-queue.html">
+      <div class="menu-icon">🗺️</div>
+      <div class="menu-name">좌표 변환 대기</div>
+      <div class="menu-desc">주소는 있지만 좌표가 없는 장소 처리</div>
+      <div class="menu-count" id="gq-count" style="color:var(--yellow)">0</div>
+      <div class="menu-unit">변환 대기</div>
+    </a>
+    <a class="menu-card" href="admin/map-approval.html">
+      <div class="menu-icon">✅</div>
+      <div class="menu-name">지도 승인 대기</div>
+      <div class="menu-desc">지도 공개 전 대표 승인이 필요한 마커</div>
+      <div class="menu-count" id="ma-count" style="color:var(--red)">0</div>
+      <div class="menu-unit">승인 대기</div>
+    </a>
+    <a class="menu-card" href="admin/content-archive.html">
+      <div class="menu-icon">🎬</div>
+      <div class="menu-name">콘텐츠 보관함</div>
+      <div class="menu-desc">생성된 모든 숏츠 대본 및 콘텐츠 자산</div>
+      <div class="menu-count" id="ca-count" style="color:var(--blue)">0</div>
+      <div class="menu-unit">콘텐츠 자산</div>
+    </a>
+    <a class="menu-card" href="admin/sns-approval.html">
+      <div class="menu-icon">📲</div>
+      <div class="menu-name">SNS 승인 대기</div>
+      <div class="menu-desc">SNS 업로드 전 대표 승인이 필요한 콘텐츠</div>
+      <div class="menu-count" id="sa-count" style="color:var(--orange)">0</div>
+      <div class="menu-unit">승인 대기</div>
+    </a>
+    <a class="menu-card" href="admin/upload-manager.html">
+      <div class="menu-icon">🚀</div>
+      <div class="menu-name">업로드 관리</div>
+      <div class="menu-desc">예약 업로드 일정 및 완료 내역 관리</div>
+      <div class="menu-count" id="um-count" style="color:var(--gem)">0</div>
+      <div class="menu-unit">업로드 완료</div>
+    </a>
+    <a class="menu-card" href="admin/analytics.html">
+      <div class="menu-icon">📊</div>
+      <div class="menu-name">성과 분석</div>
+      <div class="menu-desc">조회수·시청시간·CTR·재활용 전략</div>
+      <div class="menu-count" style="color:var(--muted)">—</div>
+      <div class="menu-unit">업로드 후 활성화</div>
+    </a>
+    <a class="menu-card" href="admin/manager-report.html">
+      <div class="menu-icon">📋</div>
+      <div class="menu-name">총괄 매니저 리포트</div>
+      <div class="menu-desc">새벽 4시 자동 생성 일일 보고서</div>
+      <div class="menu-count" style="color:var(--muted);font-size:14px;" id="report-time">—</div>
+      <div class="menu-unit">마지막 보고</div>
+    </a>
+  </div>
+
+  <!-- 에러 로그 + 총매 보고 요약 -->
+  <div class="grid g2">
+    <div class="card hl-red">
+      <div class="card-head">
+        <span class="card-title">최근 오류 로그</span>
+        <a href="admin/manager-report.html" style="font-size:10px;color:var(--muted);text-decoration:none;">전체 →</a>
+      </div>
+      <div id="error-log"><div class="empty">✅ 최근 오류 없음</div></div>
+    </div>
+    <div class="card hl-gem">
+      <div class="card-head">
+        <span class="card-title">총괄 매니저 보고 요약</span>
+        <a href="admin/manager-report.html" style="font-size:10px;color:var(--muted);text-decoration:none;">전체 →</a>
+      </div>
+      <div class="report-row">
+        <div class="rn" style="background:var(--green-soft);color:var(--green);">✓</div>
+        <div><div class="report-title">시스템 구성 완료</div><div class="report-desc">에이전트 9개 · 자동화 4모드 준비</div></div>
+      </div>
+      <div class="report-row">
+        <div class="rn" style="background:var(--yellow-soft);color:var(--yellow);">!</div>
+        <div>
+          <div class="report-title">마커 1차 목표 달성률: <span id="report-pct">0</span>%</div>
+          <div class="report-desc">현재 <span id="report-cur">0</span>개 / 목표 300개 · 자동화 시작 권장</div>
+        </div>
+      </div>
+      <div class="report-row">
+        <div class="rn" style="background:var(--gem-soft);color:var(--gem);">→</div>
+        <div><div class="report-title">다음 단계 제안</div><div class="report-desc">A/B 모드로 서치 시작 → 300개 → C/D 모드로 콘텐츠 병행</div></div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<script>
+let places = [], errorLogs = [], activeMode = null;
+
+async function load() {
+  try {
+    const [pRes, eRes] = await Promise.all([fetch('data/heritage_all.json'), fetch('logs/error_log.json')]);
+    places = await pRes.json();
+    const eData = await eRes.json();
+    errorLogs = eData.errors || [];
+  } catch(e) { places = []; errorLogs = []; }
+  render();
+}
+
+function render() {
+  const total = places.length;
+  const displayable = places.filter(p => p.status?.map_displayable).length;
+  const geocoding = places.filter(p => p.needs_geocoding).length;
+  const mapPending = places.filter(p => p.status?.map_status === 'pending_approval').length;
+  const ready = places.filter(p => ['ready','published','video_linked','waiting'].includes(p.status?.map_status)).length;
+  const contentTotal = places.filter(p => p.status?.content_status && p.status.content_status !== 'waiting').length;
+  const snsPending = places.filter(p => p.status?.content_status === 'approved').length;
+  const uploaded = places.filter(p => p.status?.content_status === 'uploaded').length;
+  const marker = ready || total;
+  const p1 = Math.min(100, Math.round(marker/300*100));
+  const p2 = Math.min(100, Math.round(marker/1000*100));
+
+  // 목표
+  ['g1-cur','g2-cur'].forEach(id => document.getElementById(id).textContent = marker);
+  document.getElementById('g1-bar').style.width = p1+'%';
+  document.getElementById('g1-pct').textContent = p1+'% 달성';
+  document.getElementById('g2-bar').style.width = p2+'%';
+  document.getElementById('g2-pct').textContent = p2+'% 달성';
+
+  // KPI
+  document.getElementById('kpi-total').textContent = total;
+  document.getElementById('kpi-displayable').textContent = displayable;
+  document.getElementById('kpi-geocoding').textContent = geocoding;
+  document.getElementById('kpi-map-pending').textContent = mapPending;
+  document.getElementById('kpi-content').textContent = contentTotal;
+  document.getElementById('kpi-sns-pending').textContent = snsPending;
+  document.getElementById('kpi-uploaded').textContent = uploaded;
+  document.getElementById('kpi-errors').textContent = errorLogs.length;
+
+  // 메뉴 카운트
+  document.getElementById('mm-count').textContent = total;
+  document.getElementById('gq-count').textContent = geocoding;
+  document.getElementById('ma-count').textContent = mapPending || total;
+  document.getElementById('ca-count').textContent = contentTotal;
+  document.getElementById('sa-count').textContent = snsPending;
+  document.getElementById('um-count').textContent = uploaded;
+
+  // 총매 보고
+  document.getElementById('report-pct').textContent = p1;
+  document.getElementById('report-cur').textContent = marker;
+
+  // 에러 로그
+  const logEl = document.getElementById('error-log');
+  logEl.innerHTML = errorLogs.length
+    ? errorLogs.slice(-4).reverse().map(e => `<div class="log-item"><div class="log-time">${e.time||'—'}</div><div class="log-msg">${e.error||''}</div></div>`).join('')
+    : '<div class="empty">✅ 최근 오류 없음</div>';
+}
+
+function setMode(m) {
+  activeMode = activeMode === m ? null : m;
+  ['A','B','C','D'].forEach(k => {
+    const btn = document.getElementById('mode-'+k.toLowerCase());
+    const dot = document.getElementById('dot-'+k.toLowerCase());
+    const lbl = document.getElementById('lbl-'+k.toLowerCase());
+    if (k === activeMode) {
+      btn.classList.add('active');
+      dot.className = 'status-dot dot-on';
+      lbl.textContent = '실행 중'; lbl.style.color = 'var(--green)';
+    } else {
+      btn.classList.remove('active');
+      dot.className = 'status-dot dot-off';
+      lbl.textContent = '대기'; lbl.style.color = 'var(--muted)';
+    }
+  });
+  document.getElementById('mode-text').textContent = activeMode ? activeMode+'모드 실행 중' : '자동화 모드 미선택';
+  activeMode ? localStorage.setItem('gemkorea_mode', activeMode) : localStorage.removeItem('gemkorea_mode');
+}
+
+function tick() {
+  const n = new Date();
+  document.getElementById('now-time').textContent = n.toLocaleDateString('ko-KR') + ' ' + n.toLocaleTimeString('ko-KR');
+}
+setInterval(tick, 1000); tick();
+const saved = localStorage.getItem('gemkorea_mode');
+if (saved) setTimeout(() => setMode(saved), 200);
+load();
+</script>
+</body>
+</html>

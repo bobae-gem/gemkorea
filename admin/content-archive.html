@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GemKorea 콘텐츠 보관함</title>
+<link rel="stylesheet" href="shared.css">
+<style>
+.tbl{width:100%;border-collapse:collapse;}
+.tbl th{padding:10px 14px;text-align:left;font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:1px;color:var(--muted);border-bottom:1px solid var(--border);}
+.tbl td{padding:10px 14px;font-size:12px;border-bottom:1px solid var(--border);}
+.tbl tr:hover td{background:rgba(255,255,255,.02);}
+.tag{display:inline-flex;padding:2px 7px;border-radius:5px;font-size:10px;font-weight:700;}
+</style>
+</head>
+<body>
+<div class="nav">
+  <a href="../admin.html" style="text-decoration:none;"><div class="nav-logo">GemKorea <small>ADMIN</small></div></a>
+  <span class="nav-sep">/</span>
+  <span class="nav-page">🎬 콘텐츠 보관함</span>
+  <div class="nav-spacer"></div>
+  <span class="nav-time" id="now-time"></span>
+  <a href="../admin.html" class="nav-link">🏠 홈</a>
+</div>
+<div class="page-wrap">
+  <div class="grid g4" style="margin-bottom:14px;">
+    <div class="card"><div class="kpi" id="ca-total" style="color:var(--accent2)">0</div><div class="kpi-label">전체 자산</div></div>
+    <div class="card"><div class="kpi" id="ca-created" style="color:var(--green)">0</div><div class="kpi-label">생성완료</div></div>
+    <div class="card"><div class="kpi" id="ca-approved" style="color:var(--accent)">0</div><div class="kpi-label">승인됨</div></div>
+    <div class="card"><div class="kpi" id="ca-archived" style="color:var(--muted)">0</div><div class="kpi-label">보관중</div></div>
+  </div>
+  <div class="card">
+    <div class="card-head"><span class="card-title">콘텐츠 목록 (삭제 금지)</span><span style="font-size:10px;color:var(--muted);">생성된 모든 콘텐츠는 보존됩니다</span></div>
+    <table class="tbl">
+      <thead><tr><th>장소명</th><th>카테고리</th><th>콘텐츠 상태</th><th>신뢰도</th><th>태그</th></tr></thead>
+      <tbody id="content-tbody"></tbody>
+    </table>
+  </div>
+</div>
+<script>
+function tick(){const n=new Date();document.getElementById('now-time').textContent=n.toLocaleDateString('ko-KR')+' '+n.toLocaleTimeString('ko-KR');}
+setInterval(tick,1000);tick();
+const CS={waiting:'대기',generating:'생성중',review_pending:'검수대기',created:'생성완료',reviewed:'검수완료',approved:'승인됨',uploaded:'업로드',archived:'보관',excluded:'제외'};
+const CC={created:'var(--green)',approved:'var(--accent)',uploaded:'#e8813a',archived:'var(--muted)',review_pending:'var(--yellow)',generating:'var(--accent2)'};
+async function load(){
+  try{
+    const r=await fetch('../data/heritage_all.json');const data=await r.json();
+    const notWaiting=data.filter(d=>d.status?.content_status&&d.status.content_status!=='waiting');
+    document.getElementById('ca-total').textContent=notWaiting.length;
+    document.getElementById('ca-created').textContent=data.filter(d=>d.status?.content_status==='created').length;
+    document.getElementById('ca-approved').textContent=data.filter(d=>d.status?.content_status==='approved').length;
+    document.getElementById('ca-archived').textContent=data.filter(d=>d.status?.content_status==='archived').length;
+    document.getElementById('content-tbody').innerHTML=data.map(d=>{
+      const cs=d.status?.content_status||'waiting';
+      return `<tr>
+        <td style="font-weight:700;">${d.name}</td>
+        <td><span class="tag" style="background:rgba(124,92,252,.1);color:var(--accent);">${d.category_sub||''}</span></td>
+        <td><span class="tag" style="background:${CC[cs]||'#888'}22;color:${CC[cs]||'#888'};">${CS[cs]||cs}</span></td>
+        <td><span class="tag" style="background:${d.confidence==='high'?'rgba(61,220,151,.12)':'rgba(252,194,92,.12)'};color:${d.confidence==='high'?'var(--green)':'var(--yellow)'};">${d.confidence||'—'}</span></td>
+        <td style="font-size:10px;color:var(--muted);">${(d.tags||[]).slice(0,4).join(' · ')}</td>
+      </tr>`;
+    }).join('');
+  }catch(e){}
+}
+load();
+</script>
+</body>
+</html>

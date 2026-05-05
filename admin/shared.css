@@ -1,0 +1,135 @@
+:root {
+  --bg: #f9f7f4;
+  --surface: #ffffff;
+  --surface2: #f4f1ec;
+  --border: #e4dfd6;
+  --text: #1a1612;
+  --muted: #8a8278;
+
+  /* GemKorea 새 브랜드 컬러 — 딥 네이비 + 앰버 골드 */
+  --gem: #1e3a8a;        /* 딥 네이비 */
+  --gem-soft: #e8eef8;
+  --gold: #c8860a;       /* 앰버 골드 */
+  --gold-soft: #fef3e0;
+  --orange: #c8860a;     /* gold와 동일 사용 */
+  --orange-soft: #fef3e0;
+  --brown: #7c5c3a;
+  --brown-soft: #f5ede4;
+  --green: #4a8c5c;
+  --green-soft: #e8f5ee;
+  --red: #c0392b;
+  --red-soft: #fdf0ee;
+  --yellow: #b8860b;
+  --yellow-soft: #fef9e7;
+  --blue: #2563eb;
+  --blue-soft: #eff6ff;
+}
+
+* { margin:0; padding:0; box-sizing:border-box; }
+body { background:var(--bg); color:var(--text); font-family:-apple-system,'Malgun Gothic',system-ui,sans-serif; font-size:15px; min-height:100vh; }
+
+/* 네비 */
+.nav {
+  display:flex; align-items:center; gap:12px;
+  padding:14px 28px; border-bottom:1px solid var(--border);
+  background:rgba(249,247,244,.96); position:sticky; top:0; z-index:100;
+  backdrop-filter:blur(8px);
+}
+.nav-logo {
+  font-size:18px; font-weight:900;
+  background:linear-gradient(135deg,#1e3a8a,#c8860a);
+  -webkit-background-clip:text; -webkit-text-fill-color:transparent;
+  white-space:nowrap;
+}
+.nav-logo small { font-size:10px; -webkit-text-fill-color:var(--muted); display:block; letter-spacing:1.5px; }
+.nav-sep { color:var(--border); font-size:16px; }
+.nav-page { font-size:14px; font-weight:700; color:var(--text); }
+.nav-spacer { flex:1; }
+.nav-time { font-size:11px; color:var(--muted); }
+.nav-link {
+  font-size:11px; color:var(--muted); text-decoration:none;
+  padding:5px 11px; border:1px solid var(--border); border-radius:8px;
+  white-space:nowrap; transition:all .15s; background:var(--surface);
+}
+.nav-link:hover { color:var(--gem); border-color:var(--gem); }
+
+.page-wrap { padding:24px 28px; max-width:1200px; }
+
+/* 카드 */
+.card {
+  background:var(--surface); border:1px solid var(--border);
+  border-radius:14px; padding:18px 20px;
+}
+.card.hl-orange { border-color:rgba(232,129,58,.4); background:var(--orange-soft); }
+.card.hl-green  { border-color:rgba(74,140,92,.35);  background:var(--green-soft);  }
+.card.hl-gem    { border-color:rgba(139,92,246,.35); background:var(--gem-soft);    }
+.card.hl-brown  { border-color:rgba(124,92,58,.35);  background:var(--brown-soft);  }
+.card.hl-red    { border-color:rgba(192,57,43,.3);   background:var(--red-soft);    }
+.card.hl-yellow { border-color:rgba(184,134,11,.3);  background:var(--yellow-soft); }
+.card.hl-blue   { border-color:rgba(37,99,235,.3);   background:var(--blue-soft);   }
+
+.card-head {
+  display:flex; align-items:center; justify-content:space-between;
+  margin-bottom:14px; padding-bottom:12px; border-bottom:1px solid var(--border);
+}
+.card-title { font-size:12px; font-weight:800; text-transform:uppercase; letter-spacing:1.2px; color:var(--muted); }
+
+/* 그리드 */
+.grid { display:grid; gap:14px; }
+.g2  { grid-template-columns:repeat(2,1fr); }
+.g3  { grid-template-columns:repeat(3,1fr); }
+.g4  { grid-template-columns:repeat(4,1fr); }
+
+/* KPI */
+.kpi { font-size:34px; font-weight:900; letter-spacing:-1px; line-height:1; }
+.kpi-label { font-size:12px; color:var(--muted); margin-top:5px; }
+.kpi-sub   { font-size:11px; color:var(--muted); margin-top:3px; opacity:.7; }
+
+/* 뱃지 */
+.badge { display:inline-flex; align-items:center; border-radius:6px; padding:4px 10px; font-size:11px; font-weight:700; }
+.bg  { background:var(--green-soft);  color:var(--green);  border:1px solid rgba(74,140,92,.25);  }
+.by  { background:var(--yellow-soft); color:var(--yellow); border:1px solid rgba(184,134,11,.25); }
+.br  { background:var(--red-soft);    color:var(--red);    border:1px solid rgba(192,57,43,.2);   }
+.bp  { background:var(--gem-soft);    color:var(--gem);    border:1px solid rgba(139,92,246,.25); }
+.bb  { background:var(--blue-soft);   color:var(--blue);   border:1px solid rgba(37,99,235,.2);  }
+.bo  { background:var(--orange-soft); color:var(--orange); border:1px solid rgba(232,129,58,.25);}
+
+/* 행 */
+.row { display:flex; align-items:center; justify-content:space-between; padding:11px 0; border-bottom:1px solid var(--border); font-size:13px; }
+.row:last-child { border-bottom:none; }
+
+/* 버튼 */
+.btn { padding:8px 18px; border-radius:9px; font-size:13px; font-weight:700; cursor:pointer; transition:all .15s; border:none; }
+.btn-green  { background:var(--green-soft);  color:var(--green);  border:1.5px solid rgba(74,140,92,.3);  }
+.btn-green:hover  { background:rgba(74,140,92,.2); }
+.btn-red    { background:var(--red-soft);    color:var(--red);    border:1.5px solid rgba(192,57,43,.2);  }
+.btn-red:hover    { background:rgba(192,57,43,.12); }
+.btn-orange { background:var(--orange);      color:#fff; }
+.btn-orange:hover { background:#d4702e; }
+.btn-gem    { background:var(--gem);         color:#fff; }
+.btn-gem:hover    { background:#7a4de0; }
+
+/* 점 */
+.status-dot { width:7px; height:7px; border-radius:50%; display:inline-block; margin-right:5px; }
+.dot-on  { background:var(--green); animation:pulse 2s infinite; }
+.dot-off { background:var(--border); }
+@keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.35} }
+
+/* 테이블 */
+.tbl { width:100%; border-collapse:collapse; }
+.tbl th { padding:11px 15px; text-align:left; font-size:11px; font-weight:800; text-transform:uppercase; letter-spacing:1px; color:var(--muted); border-bottom:1.5px solid var(--border); background:var(--surface2); }
+.tbl td { padding:11px 15px; font-size:13px; border-bottom:1px solid var(--border); }
+.tbl tr:last-child td { border-bottom:none; }
+.tbl tr:hover td { background:var(--surface2); }
+.tag { display:inline-flex; padding:2px 7px; border-radius:5px; font-size:10px; font-weight:700; }
+
+/* 폼 */
+select, input[type=text], input[type=datetime-local], input:not([type=checkbox]):not([type=radio]) {
+  padding:7px 11px; border-radius:8px; border:1.5px solid var(--border);
+  background:var(--surface); color:var(--text); font-size:12px;
+  transition:border-color .15s;
+}
+select:focus, input:focus { outline:none; border-color:var(--gem); }
+
+.empty { text-align:center; padding:32px; color:var(--muted); font-size:12px; line-height:1.8; }
+.section-gap { margin-top:16px; }

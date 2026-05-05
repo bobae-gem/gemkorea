@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GemKorea 지도 승인 대기</title>
+<link rel="stylesheet" href="shared.css">
+<style>
+.tbl{width:100%;border-collapse:collapse;}
+.tbl th{padding:10px 14px;text-align:left;font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:1px;color:var(--muted);border-bottom:1px solid var(--border);}
+.tbl td{padding:10px 14px;font-size:12px;border-bottom:1px solid var(--border);}
+.tbl tr:hover td{background:rgba(255,255,255,.02);}
+.tag{display:inline-flex;padding:2px 7px;border-radius:5px;font-size:10px;font-weight:700;}
+</style>
+</head>
+<body>
+<div class="nav">
+  <a href="../admin.html" style="text-decoration:none;"><div class="nav-logo">GemKorea <small>ADMIN</small></div></a>
+  <span class="nav-sep">/</span>
+  <span class="nav-page">✅ 지도 승인 대기</span>
+  <div class="nav-spacer"></div>
+  <span class="nav-time" id="now-time"></span>
+  <a href="../admin.html" class="nav-link">🏠 홈</a>
+</div>
+<div class="page-wrap">
+  <div class="card" style="background:rgba(252,92,92,.04);border-color:rgba(252,92,92,.25);margin-bottom:14px;">
+    <div class="card-head">
+      <span class="card-title">⚠️ 지도 공개 전 대표 승인 필요</span>
+      <div style="display:flex;gap:8px;">
+        <button class="btn btn-green" onclick="approveAll()">✓ 전체 승인</button>
+        <button class="btn btn-red" onclick="if(confirm('전체 반려하시겠습니까?'))alert('반려 처리됨')">✕ 전체 반려</button>
+      </div>
+    </div>
+    <p style="font-size:12px;color:var(--muted);margin-bottom:14px;">승인된 마커는 웹사이트 지도에 즉시 공개됩니다. 출처 URL을 클릭하여 정보를 확인 후 승인해주세요.</p>
+    <div style="overflow-x:auto;">
+      <table class="tbl">
+        <thead><tr><th>이름</th><th>카테고리</th><th>시대</th><th>지역</th><th>주소</th><th>출처</th><th>신뢰도</th><th>승인</th></tr></thead>
+        <tbody id="map-tbody"></tbody>
+      </table>
+    </div>
+  </div>
+</div>
+<script>
+function tick(){const n=new Date();document.getElementById('now-time').textContent=n.toLocaleDateString('ko-KR')+' '+n.toLocaleTimeString('ko-KR');}
+setInterval(tick,1000);tick();
+async function load(){
+  try{
+    const r=await fetch('../data/heritage_all.json');
+    const data=await r.json();
+    const pending=data.filter(d=>['ready','waiting'].includes(d.status?.map_status));
+    document.getElementById('map-tbody').innerHTML=pending.length?pending.map(d=>`
+      <tr>
+        <td style="font-weight:700;">${d.name}</td>
+        <td><span class="tag" style="background:rgba(124,92,252,.1);color:var(--accent);">${d.category_sub||''}</span></td>
+        <td style="font-size:11px;">${d.period_category||''}</td>
+        <td style="font-size:11px;">${d.region||''}</td>
+        <td style="font-size:10px;color:var(--muted);max-width:150px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">${d.address||'—'}</td>
+        <td>${(d.source_urls||[]).length?`<a href="${d.source_urls[0]}" target="_blank" style="color:var(--accent2);font-size:11px;">출처 확인</a>`:'—'}</td>
+        <td><span class="tag" style="background:${d.data_confidence==='high'?'rgba(61,220,151,.12)':'rgba(252,194,92,.12)'};color:${d.data_confidence==='high'?'var(--green)':'var(--yellow)'};">${d.data_confidence||'—'}</span></td>
+        <td><button class="btn btn-green" style="padding:4px 10px;font-size:10px;" onclick="approve('${d.place_id}','${d.name}')">승인</button></td>
+      </tr>`).join(''):`<tr><td colspan="8" style="text-align:center;color:var(--green);padding:20px;">✅ 승인 대기 없음</td></tr>`;
+  }catch(e){}
+}
+function approve(id,name){if(confirm(name+'\n이 마커를 지도에 공개하시겠습니까?'))alert('✅ '+name+' 승인 완료.\n(서버 연동 후 실제 반영됩니다)');}
+function approveAll(){if(confirm('전체 마커를 지도에 공개하시겠습니까?'))alert('✅ 전체 승인 완료.\n(서버 연동 후 실제 반영됩니다)');}
+load();
+</script>
+</body>
+</html>

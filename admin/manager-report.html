@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GemKorea 총괄 매니저 리포트</title>
+<link rel="stylesheet" href="shared.css">
+</head>
+<body>
+<div class="nav">
+  <a href="../admin.html" style="text-decoration:none;"><div class="nav-logo">GemKorea <small>ADMIN</small></div></a>
+  <span class="nav-sep">/</span>
+  <span class="nav-page">📋 총괄 매니저 리포트</span>
+  <div class="nav-spacer"></div>
+  <span class="nav-time" id="now-time"></span>
+  <a href="../admin.html" class="nav-link">🏠 홈</a>
+</div>
+<div class="page-wrap">
+
+  <div class="card hl-purple" style="margin-bottom:14px;">
+    <div class="card-head">
+      <span class="card-title">오늘 보고서 — <span id="report-date"></span></span>
+      <span class="bg badge">새벽 04:00 자동 생성</span>
+    </div>
+    <div id="report-body"></div>
+  </div>
+
+  <div class="grid g2">
+    <div class="card">
+      <div class="card-head"><span class="card-title">마커 현황</span></div>
+      <div class="row"><span>전체 수집</span><span style="font-weight:900;color:var(--green);" id="r-total">0개</span></div>
+      <div class="row"><span>지도 표시 가능</span><span style="font-weight:900;color:var(--accent);" id="r-disp">0개</span></div>
+      <div class="row"><span>지도 게시</span><span style="font-weight:900;" id="r-pub">0개</span></div>
+      <div class="row"><span>1차 목표(300개)</span><span style="font-weight:900;color:var(--accent2);" id="r-pct1">0%</span></div>
+      <div class="row" style="border-bottom:none;"><span>2차 목표(1000개)</span><span style="font-weight:900;color:var(--muted);" id="r-pct2">0%</span></div>
+    </div>
+    <div class="card">
+      <div class="card-head"><span class="card-title">콘텐츠 현황</span></div>
+      <div class="row"><span>콘텐츠 생성</span><span style="font-weight:900;color:var(--accent2);" id="r-content">0개</span></div>
+      <div class="row"><span>검수 완료</span><span style="font-weight:900;color:var(--green);" id="r-reviewed">0개</span></div>
+      <div class="row"><span>SNS 승인 대기</span><span style="font-weight:900;color:var(--orange);" id="r-snsp">0개</span></div>
+      <div class="row"><span>업로드 완료</span><span style="font-weight:900;" id="r-up">0개</span></div>
+      <div class="row" style="border-bottom:none;"><span>오류 발생</span><span style="font-weight:900;" id="r-err">0건</span></div>
+    </div>
+  </div>
+
+  <div class="card section-gap">
+    <div class="card-head"><span class="card-title">이전 보고서</span></div>
+    <div class="empty">📋 보고서가 쌓이면 여기에 표시됩니다</div>
+  </div>
+
+</div>
+<script>
+function tick(){const n=new Date();document.getElementById('now-time').textContent=n.toLocaleDateString('ko-KR')+' '+n.toLocaleTimeString('ko-KR');}
+setInterval(tick,1000);tick();
+
+async function load(){
+  document.getElementById('report-date').textContent=new Date().toLocaleDateString('ko-KR');
+  try{
+    const r=await fetch('../data/heritage_all.json');const data=await r.json();
+    const total=data.length;
+    const disp=data.filter(d=>d.status?.map_displayable).length;
+    const pub=data.filter(d=>['published','video_linked','ready'].includes(d.status?.map_status)).length||total;
+    const p1=Math.round(pub/300*100);
+    const p2=Math.round(pub/1000*100);
+    const content=data.filter(d=>d.status?.content_status&&d.status.content_status!=='waiting').length;
+    const reviewed=data.filter(d=>['created','reviewed','approved','uploaded'].includes(d.status?.content_status)).length;
+    const snsp=data.filter(d=>d.status?.content_status==='approved').length;
+    const up=data.filter(d=>d.status?.content_status==='uploaded').length;
+
+    document.getElementById('r-total').textContent=total+'개';
+    document.getElementById('r-disp').textContent=disp+'개';
+    document.getElementById('r-pub').textContent=pub+'개';
+    document.getElementById('r-pct1').textContent=p1+'%';
+    document.getElementById('r-pct2').textContent=p2+'%';
+    document.getElementById('r-content').textContent=content+'개';
+    document.getElementById('r-reviewed').textContent=reviewed+'개';
+    document.getElementById('r-snsp').textContent=snsp+'개';
+    document.getElementById('r-up').textContent=up+'개';
+    document.getElementById('r-err').textContent='0건';
+
+    document.getElementById('report-body').innerHTML=`
+      <div style="padding:4px 0;">
+        <div class="row"><span style="font-weight:800;">📦 마커 현황</span><span style="color:var(--green);font-weight:900;">${total}개 수집 / ${pub}개 게시</span></div>
+        <div class="row"><span style="font-weight:800;">🎯 1차 목표 달성률</span><span style="color:var(--accent);font-weight:900;">${p1}% (300개 목표)</span></div>
+        <div class="row"><span style="font-weight:800;">🎬 콘텐츠 자산</span><span style="font-weight:900;">${content}개 생성</span></div>
+        <div class="row"><span style="font-weight:800;">⚠️ 오류</span><span style="color:var(--green);font-weight:900;">0건</span></div>
+        <div class="row" style="border-bottom:none;flex-direction:column;align-items:flex-start;gap:8px;padding-top:14px;">
+          <div style="font-size:11px;font-weight:800;color:var(--muted);text-transform:uppercase;letter-spacing:1px;">총매 제안</div>
+          <div style="font-size:12px;line-height:1.8;color:var(--text);">
+            • 마커 ${total}개 수집 완료 · 1차 목표까지 ${300-total}개 추가 필요<br>
+            • ${total<100?'A 또는 B 모드 서치 자동화 시작 권장':'마커 확보 진행 중 · C/D 모드 병행 검토'}<br>
+            • ${snsp>0?'SNS 승인 대기 '+snsp+'개 확인 필요':'콘텐츠 승인 대기 없음'}
+          </div>
+        </div>
+      </div>`;
+  }catch(e){}
+}
+load();
+</script>
+</body>
+</html>

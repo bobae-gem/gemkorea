@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GemKorea SNS 승인 대기</title>
+<link rel="stylesheet" href="shared.css">
+<style>
+.tbl{width:100%;border-collapse:collapse;}
+.tbl th{padding:10px 14px;text-align:left;font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:1px;color:var(--muted);border-bottom:1px solid var(--border);}
+.tbl td{padding:10px 14px;font-size:12px;border-bottom:1px solid var(--border);}
+.tbl tr:hover td{background:rgba(255,255,255,.02);}
+.tag{display:inline-flex;padding:2px 7px;border-radius:5px;font-size:10px;font-weight:700;}
+input,select{padding:6px 11px;border-radius:8px;border:1px solid var(--border);background:var(--surface2);color:var(--text);font-size:12px;}
+</style>
+</head>
+<body>
+<div class="nav">
+  <a href="../admin.html" style="text-decoration:none;"><div class="nav-logo">GemKorea <small>ADMIN</small></div></a>
+  <span class="nav-sep">/</span>
+  <span class="nav-page">📲 SNS 승인 대기</span>
+  <div class="nav-spacer"></div>
+  <span class="nav-time" id="now-time"></span>
+  <a href="../admin.html" class="nav-link">🏠 홈</a>
+</div>
+<div class="page-wrap">
+  <div class="card" style="background:rgba(252,140,92,.04);border-color:rgba(252,140,92,.3);margin-bottom:14px;">
+    <div class="card-head">
+      <span class="card-title">⚠️ SNS 업로드 전 대표 승인 필요</span>
+      <button class="btn btn-green" onclick="if(confirm('전체 SNS 업로드를 승인하시겠습니까?'))alert('전체 승인됨.')">✓ 전체 승인</button>
+    </div>
+    <p style="font-size:12px;color:var(--muted);margin-bottom:14px;">승인된 콘텐츠는 SNS 최적화 AI가 유튜브·인스타·틱톡·샤오홍슈 업로드 패키지를 생성합니다.</p>
+    <div id="sns-list"><div class="empty">📲 SNS 승인 대기 콘텐츠 없음</div></div>
+  </div>
+
+  <div class="card">
+    <div class="card-head"><span class="card-title">업로드 예약 설정</span></div>
+    <div style="display:flex;gap:10px;flex-wrap:wrap;align-items:flex-end;">
+      <div>
+        <div style="font-size:11px;color:var(--muted);margin-bottom:4px;">플랫폼</div>
+        <select>
+          <option>유튜브 쇼츠</option>
+          <option>인스타그램 릴스</option>
+          <option>틱톡</option>
+          <option>샤오홍슈</option>
+        </select>
+      </div>
+      <div>
+        <div style="font-size:11px;color:var(--muted);margin-bottom:4px;">날짜/시간</div>
+        <input type="datetime-local">
+      </div>
+      <button class="btn btn-accent" onclick="alert('예약 설정됨. (서버 연동 후 실제 적용)')">예약 설정</button>
+    </div>
+  </div>
+</div>
+<script>
+function tick(){const n=new Date();document.getElementById('now-time').textContent=n.toLocaleDateString('ko-KR')+' '+n.toLocaleTimeString('ko-KR');}
+setInterval(tick,1000);tick();
+async function load(){
+  try{
+    const r=await fetch('../data/heritage_all.json');const data=await r.json();
+    const pending=data.filter(d=>d.status?.content_status==='approved');
+    if(pending.length){
+      document.getElementById('sns-list').innerHTML=`
+        <table class="tbl">
+          <thead><tr><th>장소명</th><th>카테고리</th><th>시대</th><th>플랫폼</th><th>승인</th></tr></thead>
+          <tbody>${pending.map(d=>`<tr>
+            <td style="font-weight:700;">${d.name}</td>
+            <td><span class="tag" style="background:rgba(124,92,252,.1);color:var(--accent);">${d.category_sub||''}</span></td>
+            <td style="font-size:11px;">${d.period_category||''}</td>
+            <td style="font-size:11px;color:var(--muted);">유튜브·인스타·틱톡·샤오홍슈</td>
+            <td><button class="btn btn-green" style="padding:4px 10px;font-size:10px;" onclick="approve('${d.name}')">승인</button></td>
+          </tr>`).join('')}</tbody>
+        </table>`;
+    }
+  }catch(e){}
+}
+function approve(name){if(confirm(name+'\nSNS 업로드를 승인하시겠습니까?'))alert('✅ '+name+' SNS 업로드 승인됨.');}
+load();
+</script>
+</body>
+</html>

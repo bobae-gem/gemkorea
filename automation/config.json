@@ -1,0 +1,137 @@
+{
+  "_comment": "겜코리아 자동화 실행 모드 설정",
+  "_version": "1.0",
+  "_updated": "2026-05-06",
+
+  "modes": {
+
+    "A_MODE_REALTIME_SEARCH": {
+      "name": "A모드 — 실시간 서치",
+      "interval_minutes": 8,
+      "search_enabled": true,
+      "content_enabled": false,
+      "content_limit_per_run": 0,
+      "purpose": "지도 마커 후보를 빠르게 확보",
+      "pipeline_steps": [
+        "researcher",
+        "data_organizer",
+        "category_ai",
+        "map_marker"
+      ],
+      "status_transitions": {
+        "on_search_complete": "data_status → complete",
+        "on_map_ready": "map_status → ready",
+        "on_no_coords": "map_status → geocoding_needed"
+      }
+    },
+
+    "B_MODE_INTERVAL_SEARCH": {
+      "name": "B모드 — 안정 서치",
+      "interval_minutes": 30,
+      "search_enabled": true,
+      "content_enabled": false,
+      "content_limit_per_run": 0,
+      "purpose": "안정적으로 마커 후보 축적",
+      "pipeline_steps": [
+        "researcher",
+        "data_organizer",
+        "category_ai",
+        "map_marker"
+      ],
+      "status_transitions": {
+        "on_search_complete": "data_status → complete",
+        "on_map_ready": "map_status → ready",
+        "on_no_coords": "map_status → geocoding_needed"
+      }
+    },
+
+    "C_MODE_REALTIME_SEARCH_CONTENT": {
+      "name": "C모드 — 실시간 서치 + 선별 콘텐츠",
+      "interval_minutes": 8,
+      "search_enabled": true,
+      "content_enabled": true,
+      "content_limit_per_run": 3,
+      "purpose": "마커 확보 + 콘텐츠 자산 생성 동시 진행",
+      "pipeline_steps": [
+        "researcher",
+        "data_organizer",
+        "category_ai",
+        "map_marker",
+        "shorts_ai",
+        "review_ai"
+      ],
+      "content_conditions": {
+        "data_status": "complete",
+        "map_status": ["ready", "published"],
+        "content_status": "waiting",
+        "source_urls_required": true,
+        "data_confidence": ["high", "medium"],
+        "required_fields": ["name", "category", "period", "region", "short_description"]
+      },
+      "status_transitions": {
+        "on_search_complete": "data_status → complete",
+        "on_map_ready": "map_status → ready",
+        "on_no_coords": "map_status → geocoding_needed",
+        "on_content_start": "content_status → generating",
+        "on_content_done": "content_status → review_pending"
+      }
+    },
+
+    "D_MODE_INTERVAL_SEARCH_CONTENT": {
+      "name": "D모드 — 안정 서치 + 우선순위 콘텐츠",
+      "interval_minutes": 30,
+      "search_enabled": true,
+      "content_enabled": true,
+      "content_limit_per_run": 5,
+      "purpose": "안정적 마커 확보 + 선별 콘텐츠 생성 병행",
+      "pipeline_steps": [
+        "researcher",
+        "data_organizer",
+        "category_ai",
+        "map_marker",
+        "shorts_ai",
+        "review_ai"
+      ],
+      "content_conditions": {
+        "data_status": "complete",
+        "map_status": ["ready", "published"],
+        "content_status": "waiting",
+        "source_urls_required": true,
+        "data_confidence": ["high", "medium"],
+        "required_fields": ["name", "category", "period", "region", "short_description"]
+      },
+      "content_priority_order": [
+        "data_confidence = high 우선",
+        "source_urls 수 많은 것 우선",
+        "period_category = 근대 / 조선후기 우선 (트렌드 반영)",
+        "tags 수 많은 것 우선"
+      ],
+      "status_transitions": {
+        "on_search_complete": "data_status → complete",
+        "on_map_ready": "map_status → ready",
+        "on_no_coords": "map_status → geocoding_needed",
+        "on_content_start": "content_status → generating",
+        "on_content_done": "content_status → review_pending"
+      }
+    }
+  },
+
+  "common_rules": {
+    "dedup_key": "place_id",
+    "no_upload_before_approval": true,
+    "save_all_scripts": true,
+    "retry_on_error": true,
+    "error_log_path": "logs/error_log.json",
+    "run_log_path": "logs/automation_log.json"
+  },
+
+  "file_paths": {
+    "search_results":          "data/raw/search_results.json",
+    "heritage_places":         "data/processed/heritage_places.json",
+    "markers_ready":           "map/markers_ready.json",
+    "markers_geocoding_needed":"map/markers_geocoding_needed.json",
+    "scripts_created":         "content/scripts_created.json",
+    "automation_log":          "logs/automation_log.json",
+    "error_log":               "logs/error_log.json"
+  }
+}
