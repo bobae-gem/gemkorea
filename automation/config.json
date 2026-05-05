@@ -1,7 +1,19 @@
 {
   "_comment": "겜코리아 자동화 실행 모드 설정",
-  "_version": "1.0",
+  "_version": "2.0",
   "_updated": "2026-05-06",
+
+  "architecture": {
+    "principle": "서치팀과 콘텐츠팀은 독립적으로 작동한다",
+    "search_team": "researcher → data_organizer → category_ai → map_marker",
+    "content_team": "shorts_ai → review_ai",
+    "rules": [
+      "콘텐츠팀은 직접 서치하지 않는다",
+      "콘텐츠팀은 기존 heritage_all.json 데이터만 사용한다",
+      "콘텐츠는 삭제하지 않고 자산으로 저장한다",
+      "대표 승인 전 업로드 금지"
+    ]
+  },
 
   "modes": {
 
@@ -11,6 +23,7 @@
       "search_enabled": true,
       "content_enabled": false,
       "content_limit_per_run": 0,
+      "default_mode": false,
       "purpose": "지도 마커 후보를 빠르게 확보",
       "pipeline_steps": [
         "researcher",
@@ -26,12 +39,13 @@
     },
 
     "B_MODE_INTERVAL_SEARCH": {
-      "name": "B모드 — 안정 서치",
+      "name": "B모드 — 안정 서치 (기본 운영 모드)",
       "interval_minutes": 30,
       "search_enabled": true,
       "content_enabled": false,
       "content_limit_per_run": 0,
-      "purpose": "안정적으로 마커 후보 축적",
+      "default_mode": true,
+      "purpose": "안정적으로 마커 후보 축적. 평상시 기본 운영 모드.",
       "pipeline_steps": [
         "researcher",
         "data_organizer",
@@ -45,45 +59,43 @@
       }
     },
 
-    "C_MODE_REALTIME_SEARCH_CONTENT": {
-      "name": "C모드 — 실시간 서치 + 선별 콘텐츠",
-      "interval_minutes": 8,
-      "search_enabled": true,
+    "C_MODE_CONTENT_AUTOMATION": {
+      "name": "C모드 — 콘텐츠 생성 전용",
+      "interval_minutes": null,
+      "search_enabled": false,
       "content_enabled": true,
-      "content_limit_per_run": 3,
-      "purpose": "마커 확보 + 콘텐츠 자산 생성 동시 진행",
+      "content_limit_per_run": 5,
+      "default_mode": false,
+      "purpose": "기존 수집 데이터를 콘텐츠로 전환. 서치 없이 콘텐츠팀만 독립 실행.",
       "pipeline_steps": [
-        "researcher",
-        "data_organizer",
-        "category_ai",
-        "map_marker",
         "shorts_ai",
         "review_ai"
       ],
+      "data_source": "heritage_all.json (기존 데이터)",
       "content_conditions": {
-        "data_status": "complete",
-        "map_status": ["ready", "published"],
         "content_status": "waiting",
+        "data_status": "complete",
+        "map_status": ["ready", "published", "video_linked"],
         "source_urls_required": true,
         "data_confidence": ["high", "medium"],
         "required_fields": ["name", "category", "period", "region", "short_description"]
       },
       "status_transitions": {
-        "on_search_complete": "data_status → complete",
-        "on_map_ready": "map_status → ready",
-        "on_no_coords": "map_status → geocoding_needed",
         "on_content_start": "content_status → generating",
-        "on_content_done": "content_status → review_pending"
+        "on_content_done": "content_status → review_pending",
+        "on_review_approve": "content_status → created",
+        "on_review_revise_reject": "content_status → archived"
       }
     },
 
-    "D_MODE_INTERVAL_SEARCH_CONTENT": {
-      "name": "D모드 — 안정 서치 + 우선순위 콘텐츠",
+    "D_MODE_SEARCH_AND_CONTENT": {
+      "name": "D모드 — 서치 + 콘텐츠 결합 (집중 운영)",
       "interval_minutes": 30,
       "search_enabled": true,
       "content_enabled": true,
       "content_limit_per_run": 5,
-      "purpose": "안정적 마커 확보 + 선별 콘텐츠 생성 병행",
+      "default_mode": false,
+      "purpose": "서치와 콘텐츠 생성을 동시에. 집중 운영 시 사용하는 특수 모드.",
       "pipeline_steps": [
         "researcher",
         "data_organizer",
@@ -93,9 +105,9 @@
         "review_ai"
       ],
       "content_conditions": {
-        "data_status": "complete",
-        "map_status": ["ready", "published"],
         "content_status": "waiting",
+        "data_status": "complete",
+        "map_status": ["ready", "published", "video_linked"],
         "source_urls_required": true,
         "data_confidence": ["high", "medium"],
         "required_fields": ["name", "category", "period", "region", "short_description"]
@@ -103,7 +115,7 @@
       "content_priority_order": [
         "data_confidence = high 우선",
         "source_urls 수 많은 것 우선",
-        "period_category = 근대 / 조선후기 우선 (트렌드 반영)",
+        "period_category = 근대 / 조선 후기 우선",
         "tags 수 많은 것 우선"
       ],
       "status_transitions": {
@@ -111,7 +123,9 @@
         "on_map_ready": "map_status → ready",
         "on_no_coords": "map_status → geocoding_needed",
         "on_content_start": "content_status → generating",
-        "on_content_done": "content_status → review_pending"
+        "on_content_done": "content_status → review_pending",
+        "on_review_approve": "content_status → created",
+        "on_review_revise_reject": "content_status → archived"
       }
     }
   },
@@ -126,12 +140,12 @@
   },
 
   "file_paths": {
-    "search_results":          "data/raw/search_results.json",
-    "heritage_places":         "data/processed/heritage_places.json",
-    "markers_ready":           "map/markers_ready.json",
-    "markers_geocoding_needed":"map/markers_geocoding_needed.json",
-    "scripts_created":         "content/scripts_created.json",
-    "automation_log":          "logs/automation_log.json",
-    "error_log":               "logs/error_log.json"
+    "search_results":           "data/raw/search_results.json",
+    "heritage_places":          "data/processed/heritage_places.json",
+    "markers_ready":            "map/markers_ready.json",
+    "markers_geocoding_needed": "map/markers_geocoding_needed.json",
+    "scripts_created":          "content/scripts_created.json",
+    "automation_log":           "logs/automation_log.json",
+    "error_log":                "logs/error_log.json"
   }
 }
