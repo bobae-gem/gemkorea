@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GemKorea — 대한민국 여행 지도</title>
+<script type="text/javascript" src="https://oapi.map.naver.com/openapi/v3/maps.js?ncpKeyId=y60jsyh564"></script>
+<style>
+  :root {
+    --bg: #f9f7f4;
+    --surface: #ffffff;
+    --border: #e8e4dc;
+    --text: #1a1612;
+    --muted: #8a8278;
+    --travel: #e8813a;
+    --history: #7c5c3a;
+    --nature: #4a8c5c;
+    --gem: #8b5cf6;
+    --gem-soft: #ede9fe;
+  }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family: -apple-system, 'Malgun Gothic', sans-serif; background:var(--bg); color:var(--text); }
+
+  header {
+    background:var(--surface); border-bottom:1px solid var(--border);
+    padding:0 32px; position:sticky; top:0; z-index:100;
+    display:flex; align-items:center; height:60px; gap:24px;
+  }
+  .logo { font-size:20px; font-weight:900; background:linear-gradient(135deg,#e8813a,#8b5cf6); -webkit-background-clip:text; -webkit-text-fill-color:transparent; flex-shrink:0; }
+  .logo span { font-size:10px; color:var(--muted); -webkit-text-fill-color:var(--muted); display:block; letter-spacing:1px; }
+
+  nav { display:flex; gap:4px; }
+  .nav-btn { padding:5px 14px; border-radius:20px; border:1px solid transparent; background:none; font-size:13px; font-weight:600; cursor:pointer; color:var(--muted); transition:all 0.15s; }
+  .nav-btn:hover { background:var(--bg); color:var(--text); }
+  .nav-btn.active { background:var(--text); color:#fff; }
+
+  .search-box { margin-left:auto; display:flex; align-items:center; gap:8px; background:var(--bg); border:1px solid var(--border); border-radius:24px; padding:7px 14px; width:200px; }
+  .search-box input { border:none; background:none; outline:none; font-size:13px; width:100%; color:var(--text); }
+
+  .main { display:grid; grid-template-columns:1fr 360px; height:calc(100vh - 60px); }
+
+  /* 지도 */
+  #naver-map { width:100%; height:100%; }
+
+  /* 오른쪽 패널 */
+  .side-panel { background:var(--surface); border-left:1px solid var(--border); display:flex; flex-direction:column; overflow:hidden; }
+
+  .panel-header { padding:16px 20px; border-bottom:1px solid var(--border); display:flex; align-items:center; justify-content:space-between; flex-shrink:0; }
+  .panel-header h3 { font-size:15px; font-weight:900; }
+  .count-badge { background:var(--gem-soft); color:var(--gem); font-size:12px; font-weight:700; padding:3px 10px; border-radius:20px; }
+
+  .filter-bar { padding:12px 16px; display:flex; gap:6px; flex-wrap:wrap; border-bottom:1px solid var(--border); flex-shrink:0; }
+  .filter-btn { padding:5px 12px; border-radius:20px; border:1px solid var(--border); background:var(--surface); font-size:12px; font-weight:600; cursor:pointer; color:var(--muted); transition:all 0.15s; }
+  .filter-btn:hover { border-color:var(--gem); color:var(--gem); }
+  .filter-btn.active { background:var(--gem); color:#fff; border-color:var(--gem); }
+  .filter-btn.travel.active { background:var(--travel); border-color:var(--travel); }
+  .filter-btn.history.active { background:var(--history); border-color:var(--history); }
+  .filter-btn.nature.active { background:var(--nature); border-color:var(--nature); }
+
+  .cards-list { overflow-y:auto; flex:1; padding:12px; display:flex; flex-direction:column; gap:10px; }
+
+  .card { background:var(--bg); border:1px solid var(--border); border-radius:12px; padding:12px 14px; cursor:pointer; transition:all 0.15s; display:flex; gap:12px; align-items:flex-start; }
+  .card:hover, .card.active { border-color:var(--gem); background:#faf8ff; }
+  .card-emoji { font-size:28px; flex-shrink:0; }
+  .card-body { flex:1; min-width:0; }
+  .card-top { display:flex; align-items:center; gap:6px; margin-bottom:3px; }
+  .card-title { font-size:14px; font-weight:900; }
+  .card-region { font-size:11px; color:var(--muted); }
+  .card-desc { font-size:12px; color:var(--muted); line-height:1.5; margin-bottom:6px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+  .card-tags { display:flex; gap:3px; flex-wrap:wrap; }
+  .card-tag { font-size:10px; padding:1px 6px; border-radius:6px; background:var(--surface); color:var(--muted); border:1px solid var(--border); }
+  .badge { font-size:10px; font-weight:700; padding:2px 7px; border-radius:8px; }
+  .badge.travel { background:rgba(232,129,58,0.15); color:var(--travel); }
+  .badge.history { background:rgba(124,92,58,0.15); color:var(--history); }
+  .badge.nature { background:rgba(74,140,92,0.15); color:var(--nature); }
+
+  /* 지도 정보창 */
+  .map-info { position:absolute; bottom:32px; left:32px; background:var(--surface); border-radius:16px; padding:16px 20px; box-shadow:0 8px 32px rgba(0,0,0,0.15); max-width:300px; z-index:10; display:none; }
+  .map-info.show { display:block; }
+  .map-info-title { font-size:17px; font-weight:900; margin-bottom:4px; }
+  .map-info-region { font-size:12px; color:var(--muted); margin-bottom:8px; }
+  .map-info-desc { font-size:13px; line-height:1.6; color:var(--muted); margin-bottom:10px; }
+  .map-info-tags { display:flex; gap:4px; flex-wrap:wrap; }
+  .map-info-close { position:absolute; top:10px; right:12px; background:none; border:none; font-size:18px; cursor:pointer; color:var(--muted); }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">GemKorea <span>TRAVEL GUIDE</span></div>
+  <nav>
+    <button class="nav-btn active" onclick="filterType('all',this)">전체</button>
+    <button class="nav-btn" onclick="filterType('travel',this)">🧭 여행</button>
+    <button class="nav-btn" onclick="filterType('history',this)">🏛️ 역사</button>
+    <button class="nav-btn" onclick="filterType('nature',this)">🌿 자연</button>
+  </nav>
+  <div class="search-box">
+    <span>🔍</span>
+    <input type="text" placeholder="여행지 검색..." oninput="searchPlaces(this.value)">
+  </div>
+</header>
+
+<div class="main">
+  <div style="position:relative;">
+    <div id="naver-map"></div>
+    <!-- 지도 클릭 정보창 -->
+    <div class="map-info" id="map-info">
+      <button class="map-info-close" onclick="closeMapInfo()">✕</button>
+      <div class="map-info-title" id="info-title"></div>
+      <div class="map-info-region" id="info-region"></div>
+      <div class="map-info-desc" id="info-desc"></div>
+      <div class="map-info-tags" id="info-tags"></div>
+    </div>
+  </div>
+
+  <div class="side-panel">
+    <div class="panel-header">
+      <h3>✨ 추천 여행지</h3>
+      <span class="count-badge" id="count-badge">0곳</span>
+    </div>
+    <div class="filter-bar">
+      <button class="filter-btn active" onclick="filterType('all',this)">전체</button>
+      <button class="filter-btn travel" onclick="filterType('travel',this)">🧭 여행</button>
+      <button class="filter-btn history" onclick="filterType('history',this)">🏛️ 역사</button>
+      <button class="filter-btn nature" onclick="filterType('nature',this)">🌿 자연</button>
+    </div>
+    <div class="cards-list" id="cards-list"></div>
+  </div>
+</div>
+
+<script>
+const PLACES = [
+  { id:1,  name:'경복궁',        region:'서울', cat:'history', emoji:'🏯', lat:37.5796, lng:126.9770, desc:'조선 왕조의 정궁. 광화문·근정전·경회루가 있는 서울 대표 역사 명소', tags:['궁궐','조선','야경'] },
+  { id:2,  name:'북촌 한옥마을', region:'서울', cat:'history', emoji:'🏘️', lat:37.5826, lng:126.9832, desc:'600년 역사의 한옥 골목. 서울 한복판에서 만나는 전통의 미', tags:['한옥','전통','골목'] },
+  { id:3,  name:'남산서울타워',  region:'서울', cat:'travel',  emoji:'🗼', lat:37.5512, lng:126.9882, desc:'서울 전경이 한눈에. 야경과 일몰이 아름다운 서울 랜드마크', tags:['야경','전망','데이트'] },
+  { id:4,  name:'창덕궁 후원',   region:'서울', cat:'nature',  emoji:'🌳', lat:37.5828, lng:126.9910, desc:'조선 왕실의 비밀 정원. 자연과 건축이 어우러진 유네스코 세계유산', tags:['정원','유네스코','숲'] },
+  { id:5,  name:'인사동',        region:'서울', cat:'travel',  emoji:'🎨', lat:37.5742, lng:126.9858, desc:'전통 공예품·갤러리·찻집이 모인 문화 거리', tags:['문화','공예','골목'] },
+  { id:6,  name:'수원 화성',     region:'경기', cat:'history', emoji:'🏰', lat:37.2857, lng:127.0135, desc:'조선시대 정조가 쌓은 유네스코 세계유산 성곽', tags:['성곽','유네스코','야경'] },
+  { id:7,  name:'남이섬',        region:'경기', cat:'nature',  emoji:'🍁', lat:37.7919, lng:127.5254, desc:'사계절 다른 풍경의 섬. 자전거로 한 바퀴 돌며 힐링', tags:['섬','자연','자전거'] },
+  { id:8,  name:'강릉 경포대',   region:'강원', cat:'travel',  emoji:'🌊', lat:37.7969, lng:128.9000, desc:'동해 바다와 호수가 만나는 절경. 일출 명소', tags:['바다','일출','해변'] },
+  { id:9,  name:'속초 아바이마을', region:'강원', cat:'travel', emoji:'🐟', lat:38.2057, lng:128.5919, desc:'실향민 정착지의 독특한 감성. 오징어순대로 유명', tags:['항구','맛집','역사'] },
+  { id:10, name:'설악산',        region:'강원', cat:'nature',  emoji:'⛰️', lat:38.1196, lng:128.4656, desc:'대한민국 최고의 산. 단풍과 설경이 압도적', tags:['산','단풍','등산'] },
+  { id:11, name:'공주 공산성',   region:'충청', cat:'history', emoji:'🏯', lat:36.4600, lng:127.1128, desc:'백제의 숨결이 살아있는 산성. 금강을 내려다보는 전경', tags:['백제','산성','야경'] },
+  { id:12, name:'부여 낙화암',   region:'충청', cat:'history', emoji:'🌸', lat:36.3019, lng:126.9199, desc:'백제 멸망의 전설이 깃든 절벽. 백마강과 어우러진 비극의 미', tags:['백제','역사','강변'] },
+  { id:13, name:'전주 한옥마을', region:'전라', cat:'history', emoji:'🏘️', lat:35.8153, lng:127.1532, desc:'700여 채의 한옥이 모인 대한민국 최대 한옥 군락', tags:['한옥','전통','맛집'] },
+  { id:14, name:'순천만 국가정원', region:'전라', cat:'nature', emoji:'🌿', lat:34.9012, lng:127.4886, desc:'세계 5대 연안습지. 갈대밭과 철새가 어우러짐', tags:['습지','자연','갈대'] },
+  { id:15, name:'담양 죽녹원',   region:'전라', cat:'nature',  emoji:'🎋', lat:35.3248, lng:126.9882, desc:'울창한 대나무 숲 산책로. 초록빛 터널 속을 걷는 경험', tags:['대나무','산책','숲'] },
+  { id:16, name:'경주 불국사',   region:'경상', cat:'history', emoji:'⛩️', lat:35.7900, lng:129.3316, desc:'신라 최고의 불교 건축물. 유네스코 세계유산', tags:['신라','유네스코','불교'] },
+  { id:17, name:'경주 첨성대',   region:'경상', cat:'history', emoji:'🌙', lat:35.8350, lng:129.2194, desc:'동양 최고(最古)의 천문대. 신라의 과학 수준을 보여줌', tags:['신라','별','천문'] },
+  { id:18, name:'안동 하회마을', region:'경상', cat:'history', emoji:'🏡', lat:36.5391, lng:128.5195, desc:'600년 전통의 양반 마을. 유네스코 세계유산', tags:['양반','마을','유네스코'] },
+  { id:19, name:'부산 감천문화마을', region:'경상', cat:'travel', emoji:'🎨', lat:35.0979, lng:129.0104, desc:'산비탈의 알록달록 마을. 한국의 마추픽추', tags:['마을','벽화','뷰'] },
+  { id:20, name:'해운대 해수욕장', region:'경상', cat:'travel', emoji:'🏖️', lat:35.1588, lng:129.1604, desc:'대한민국 최대 해수욕장. 마린시티 야경과 함께', tags:['해변','야경','여름'] },
+  { id:21, name:'한라산',        region:'제주', cat:'nature',  emoji:'🌋', lat:33.3617, lng:126.5292, desc:'대한민국 최고봉. 계절마다 다른 얼굴', tags:['산','등산','유네스코'] },
+  { id:22, name:'성산일출봉',    region:'제주', cat:'nature',  emoji:'🌅', lat:33.4581, lng:126.9425, desc:'바다에서 솟아오른 기암절벽. 일출 명소', tags:['일출','해안','유네스코'] },
+  { id:23, name:'협재해수욕장',  region:'제주', cat:'travel',  emoji:'🏝️', lat:33.3940, lng:126.2394, desc:'에메랄드빛 바다. 제주 서쪽 대표 해변', tags:['해변','에메랄드','여름'] },
+  { id:24, name:'올레길',        region:'제주', cat:'nature',  emoji:'🚶', lat:33.2500, lng:126.5600, desc:'제주 해안을 따라 걷는 도보 여행길 437km', tags:['걷기','해안','힐링'] },
+
+  // 서울 추가
+  { id:25, name:'덕수궁 돌담길',  region:'서울', cat:'history', emoji:'🍂', lat:37.5657, lng:126.9749, desc:'가을이면 단풍으로 물드는 아름다운 돌담 산책로. 대한제국의 흔적', tags:['산책','단풍','궁궐'] },
+  { id:26, name:'서울 성곽길',    region:'서울', cat:'history', emoji:'🧱', lat:37.5827, lng:126.9943, desc:'조선 한양 도성을 따라 걷는 둘레길. 낙산·인왕산·남산 구간', tags:['성곽','둘레길','야경'] },
+  { id:27, name:'광화문 광장',    region:'서울', cat:'history', emoji:'🏛️', lat:37.5759, lng:126.9769, desc:'이순신·세종대왕 동상이 있는 서울의 심장부', tags:['광장','역사','랜드마크'] },
+
+  // 경기 추가
+  { id:28, name:'남한산성',       region:'경기', cat:'history', emoji:'🏰', lat:37.4794, lng:127.1761, desc:'병자호란의 역사가 담긴 산성. 유네스코 세계유산. 숲길이 아름다움', tags:['성곽','유네스코','역사'] },
+  { id:29, name:'양평 두물머리',  region:'경기', cat:'nature',  emoji:'🌅', lat:37.5298, lng:127.3618, desc:'북한강과 남한강이 만나는 지점. 물안개와 일출이 장관', tags:['일출','강','사진명소'] },
+  { id:30, name:'용인 한국민속촌',region:'경기', cat:'history', emoji:'🏡', lat:37.2394, lng:127.1218, desc:'조선시대 생활상을 재현한 민속 테마파크. 전통 공예 체험 가능', tags:['전통','조선','체험'] },
+
+  // 강원 추가
+  { id:31, name:'평창 오대산',    region:'강원', cat:'nature',  emoji:'🌲', lat:37.7947, lng:128.5437, desc:'월정사 전나무숲길이 유명. 겨울 설경이 압도적인 국립공원', tags:['숲','사찰','설경'] },
+  { id:32, name:'삼척 환선굴',    region:'강원', cat:'nature',  emoji:'🕳️', lat:37.1878, lng:129.0203, desc:'국내 최대 석회암 동굴. 억만 년의 신비를 간직한 지하 세계', tags:['동굴','신비','자연'] },
+  { id:33, name:'강화도',         region:'경기', cat:'history', emoji:'⛩️', lat:37.7469, lng:126.4875, desc:'단군이 하늘에 제사를 지낸 마니산. 고려 팔만대장경 보존지. 역사의 섬', tags:['단군','역사','섬'] },
+
+  // 충청 추가
+  { id:34, name:'단양 도담삼봉',  region:'충청', cat:'nature',  emoji:'🪨', lat:36.9851, lng:128.3624, desc:'남한강 한가운데 솟아오른 기암삼봉. 퇴계 이황이 사랑한 절경', tags:['기암','강','퇴계'] },
+  { id:35, name:'충주 수안보온천', region:'충청', cat:'travel',  emoji:'♨️', lat:36.8234, lng:128.0978, desc:'한국 최초의 자연 온천. 알칼리성 약알칼리 온천수로 유명', tags:['온천','힐링','휴식'] },
+  { id:36, name:'해인사 장경판전', region:'경상', cat:'history', emoji:'📚', lat:35.7998, lng:128.1054, desc:'팔만대장경을 보관하는 고려시대 건물. 과학적 설계로 800년간 보존', tags:['팔만대장경','고려','유네스코'] },
+
+  // 전라 추가
+  { id:37, name:'보성 녹차밭',    region:'전라', cat:'nature',  emoji:'🍵', lat:34.7720, lng:127.0804, desc:'끝없이 펼쳐지는 초록 녹차밭. 새벽 안개 속 풍경이 몽환적', tags:['녹차','안개','힐링'] },
+  { id:38, name:'고창 선운사',    region:'전라', cat:'nature',  emoji:'🌸', lat:35.4792, lng:126.5867, desc:'봄이면 동백꽃이 붉게 물드는 천년 고찰. 선운산 도립공원 안', tags:['사찰','동백','천년'] },
+  { id:39, name:'여수 돌산도',    region:'전라', cat:'travel',  emoji:'🌉', lat:34.7604, lng:127.6622, desc:'돌산대교 야경과 거북선대교가 아름다운 항구 도시', tags:['야경','항구','다리'] },
+  { id:40, name:'진도 운림산방',  region:'전라', cat:'history', emoji:'🎨', lat:34.4281, lng:126.2826, desc:'조선 최고의 화가 소치 허련의 화실. 연못과 배롱나무가 아름다운 정원', tags:['화가','정원','전통'] },
+
+  // 경상 추가
+  { id:41, name:'양동마을',       region:'경상', cat:'history', emoji:'🏡', lat:35.9156, lng:129.2225, desc:'500년 된 경주 손씨·여강 이씨 씨족마을. 하회마을과 함께 유네스코 세계유산', tags:['한옥','유네스코','씨족마을'] },
+  { id:42, name:'통영 한산도',    region:'경상', cat:'history', emoji:'⚓', lat:34.8219, lng:128.4819, desc:'이순신 장군이 왜군을 물리친 한산대첩의 현장. 제승당이 있는 섬', tags:['이순신','임진왜란','역사'] },
+  { id:43, name:'밀양 얼음골',    region:'경상', cat:'nature',  emoji:'❄️', lat:35.5392, lng:128.9726, desc:'여름에 얼음이 어는 신비의 계곡. 천연기념물', tags:['얼음','신비','여름'] },
+  { id:44, name:'군위 사유원',    region:'경상', cat:'nature',  emoji:'🌿', lat:36.2312, lng:128.6923, desc:'자연 속 예술 공간. 수목원·조각·건축이 하나로 어우러진 힐링 명소', tags:['수목원','예술','힐링'] },
+  { id:45, name:'고성 공룡발자국', region:'경상', cat:'history', emoji:'🦕', lat:34.9778, lng:128.3219, desc:'세계 최대 공룡발자국 화석 산지. 1억 년 전 공룡의 흔적', tags:['공룡','화석','신비'] },
+
+  // 제주 추가
+  { id:46, name:'우도',           region:'제주', cat:'travel',  emoji:'🏝️', lat:33.5016, lng:126.9516, desc:'소가 누운 모습을 닮은 제주 부속섬. 땅콩아이스크림과 에메랄드 바다', tags:['섬','바다','자전거'] },
+  { id:47, name:'산방산',         region:'제주', cat:'nature',  emoji:'🌋', lat:33.2403, lng:126.3133, desc:'바다 위로 솟은 종 모양의 화산. 용머리해안과 함께 절경', tags:['화산','바다','절경'] },
+  { id:48, name:'비자림',         region:'제주', cat:'nature',  emoji:'🌲', lat:33.4916, lng:126.8094, desc:'500~800년 된 비자나무 2800그루. 신비로운 숲 터널', tags:['숲','비자나무','산책'] },
+];
+
+let currentType = 'all';
+let searchQuery = '';
+let map, markers = [], activeCard = null;
+
+const catColor = { travel:'#e8813a', history:'#7c5c3a', nature:'#4a8c5c' };
+const catLabel = { travel:'여행', history:'역사', nature:'자연' };
+
+// 네이버 지도 초기화
+window.onload = function() {
+  try {
+    if (typeof naver !== 'undefined' && naver.maps) {
+      map = new naver.maps.Map('naver-map', {
+        center: new naver.maps.LatLng(36.3, 127.8),
+        zoom: 7,
+        mapTypeId: naver.maps.MapTypeId.NORMAL
+      });
+    }
+  } catch(e) {
+    console.log('지도 로딩 실패:', e);
+  }
+  renderAll();
+};
+
+function renderAll() {
+  clearMarkers();
+  const filtered = getFiltered();
+  document.getElementById('count-badge').textContent = filtered.length + '곳';
+  renderMarkers(filtered);
+  renderCards(filtered);
+}
+
+function getFiltered() {
+  return PLACES.filter(p => {
+    const t = currentType === 'all' || p.cat === currentType;
+    const s = !searchQuery || p.name.includes(searchQuery) || p.desc.includes(searchQuery);
+    return t && s;
+  });
+}
+
+function renderMarkers(places) {
+  places.forEach(p => {
+    const marker = new naver.maps.Marker({
+      position: new naver.maps.LatLng(p.lat, p.lng),
+      map: map,
+      title: p.name,
+      icon: {
+        content: `<div style="background:${catColor[p.cat]};color:#fff;padding:4px 10px;border-radius:20px;font-size:12px;font-weight:700;white-space:nowrap;box-shadow:0 2px 8px rgba(0,0,0,0.2)">${p.emoji} ${p.name}</div>`,
+        anchor: new naver.maps.Point(40, 16)
+      }
+    });
+    naver.maps.Event.addListener(marker, 'click', () => showMapInfo(p));
+    markers.push(marker);
+  });
+}
+
+function clearMarkers() {
+  markers.forEach(m => m.setMap(null));
+  markers = [];
+}
+
+function showMapInfo(p) {
+  document.getElementById('info-title').textContent = p.emoji + ' ' + p.name;
+  document.getElementById('info-region').textContent = '📍 ' + p.region + ' · ' + catLabel[p.cat];
+  document.getElementById('info-desc').textContent = p.desc;
+  document.getElementById('info-tags').innerHTML = p.tags.map(t => `<span class="card-tag">#${t}</span>`).join('');
+  document.getElementById('map-info').classList.add('show');
+  if (map && naver && naver.maps) {
+    map.panTo(new naver.maps.LatLng(p.lat, p.lng));
+  }
+  highlightCard(p.id);
+}
+
+function closeMapInfo() {
+  document.getElementById('map-info').classList.remove('show');
+}
+
+function highlightCard(id) {
+  document.querySelectorAll('.card').forEach(c => c.classList.remove('active'));
+  const el = document.getElementById('card-' + id);
+  if (el) { el.classList.add('active'); el.scrollIntoView({behavior:'smooth', block:'nearest'}); }
+}
+
+function renderCards(places) {
+  const list = document.getElementById('cards-list');
+  if (!places.length) { list.innerHTML = '<div style="text-align:center;padding:40px;color:var(--muted)">🗺️ 해당하는 여행지가 없어요</div>'; return; }
+  list.innerHTML = places.map(p => `
+    <div class="card" id="card-${p.id}" onclick="focusPlace(${p.id})">
+      <div class="card-emoji">${p.emoji}</div>
+      <div class="card-body">
+        <div class="card-top">
+          <div class="card-title">${p.name}</div>
+          <span class="badge ${p.cat}">${catLabel[p.cat]}</span>
+        </div>
+        <div class="card-region">📍 ${p.region}</div>
+        <div class="card-desc">${p.desc}</div>
+        <div class="card-tags">${p.tags.map(t=>`<span class="card-tag">#${t}</span>`).join('')}</div>
+      </div>
+    </div>`).join('');
+}
+
+function focusPlace(id) {
+  const p = PLACES.find(x => x.id === id);
+  if (p) showMapInfo(p);
+}
+
+function filterType(type, el) {
+  currentType = type;
+  document.querySelectorAll('.nav-btn, .filter-btn').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.nav-btn, .filter-btn').forEach(b => {
+    if ((type==='all' && b.textContent.trim()==='전체') || b.classList.contains(type)) b.classList.add('active');
+  });
+  el.classList.add('active');
+  renderAll();
+}
+
+function searchPlaces(q) {
+  searchQuery = q.trim();
+  renderAll();
+}
+</script>
+</body>
+</html>
