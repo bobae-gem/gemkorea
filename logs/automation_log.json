@@ -1,4 +1,14 @@
 {
   "_comment": "자동화 실행 이력",
-  "runs": []
+  "runs": [
+    {
+      "time": "2026-05-05T23:01:58",
+      "mode": "A",
+      "region": "서울",
+      "new_collected": 21,
+      "total": 51,
+      "markers_ready": 51,
+      "errors": 0
+    }
+  ]
 }

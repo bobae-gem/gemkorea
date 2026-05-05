@@ -1,5 +1,2717 @@
 {
-  "_comment": "지도 표시 준비 완료 마커",
-  "total": 0,
-  "markers": []
+  "total": 51,
+  "markers": [
+    {
+      "id": "h001",
+      "name": "강화 고인돌군",
+      "category": "고인돌",
+      "period": "청동기시대 (기원전 1000년~기원전 300년경)",
+      "region": "인천광역시",
+      "address": "인천광역시 강화군 하점면 부근리 317",
+      "lat": 37.7436,
+      "lng": 126.4305,
+      "short_description": "세계 최대 규모의 고인돌 집중 분포 지역. 강화도 전역에 157기가 남아 있으며, 2000년 유네스코 세계유산으로 등재된 청동기시대 무덤군이다.",
+      "story_summary": "지금으로부터 3000년 전, 강화도의 청동기인들은 족장 한 명을 땅에 묻기 위해 수백 명을 동원해 거대한 돌을 옮겼다. 탁자식 고인돌 하나를 세우는 데 필요한 돌 무게는 80톤에 달한다. 이 무게를 당시 기술로 옮겼다는 것 자체가 하나의 수수께끼다. 지배자의 권력이 죽어서도 이 무거운 돌로 증명되던 시대의 흔적이다.",
+      "hook_sentence": "3000년 전 사람들이 80톤 돌을 옮긴 이유",
+      "related_people": [],
+      "related_events": [
+        "청동기시대 족장 사회",
+        "유네스코 세계유산 등재(2000)"
+      ],
+      "visitable": true,
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1121100850000",
+        "https://whc.unesco.org/en/list/1091"
+      ],
+      "data_confidence": "high",
+      "place_id": "GK-IC-GID-0001",
+      "period_category": "선사",
+      "location_marker_type": "exact",
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-05T23:10:42"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      },
+      "category_main": "역사",
+      "category_sub": "고인돌/선사유적",
+      "category_detail": "탁자식 고인돌 군집",
+      "confidence": "high",
+      "confidence_reason": "",
+      "tags": [
+        "청동기시대",
+        "고인돌",
+        "선사유적",
+        "유네스코",
+        "강화도"
+      ],
+      "needs_geocoding": false
+    },
+    {
+      "id": "h002",
+      "name": "화순 고인돌 유적",
+      "category": "고인돌",
+      "period": "청동기시대 (기원전 1000년~기원전 300년경)",
+      "region": "전라남도",
+      "address": "전라남도 화순군 도곡면 효산리 산 1",
+      "lat": 35.0017,
+      "lng": 126.9603,
+      "short_description": "효산리·대신리 계곡에 596기의 고인돌이 밀집된 세계 최대 고인돌 군집지. 채석장에서 완성되지 못한 고인돌까지 남아 있어 제작 과정을 실증적으로 보여준다.",
+      "story_summary": "화순 계곡을 따라 걷다 보면 크고 작은 돌덩이들이 계속 나타난다. 그냥 바위가 아니다. 누군가의 무덤이다. 더 놀라운 건 산 위 채석장에 아직 다 떼어내지 못한 고인돌 덮개돌이 그대로 붙어 있다는 것. 3000년 전 공사 현장이 멈춘 채 지금까지 남아 있는 것이다.",
+      "hook_sentence": "3000년 전 공사 현장이 그대로 멈춰있다",
+      "related_people": [],
+      "related_events": [
+        "유네스코 세계유산 등재(2000)"
+      ],
+      "visitable": true,
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1123400160000"
+      ],
+      "data_confidence": "high",
+      "place_id": "GK-JN-GID-0001",
+      "period_category": "선사",
+      "location_marker_type": "exact",
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-05T23:10:42"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      },
+      "category_main": "역사",
+      "category_sub": "고인돌/선사유적",
+      "category_detail": "채석장 보존 고인돌",
+      "confidence": "high",
+      "confidence_reason": "",
+      "tags": [
+        "청동기시대",
+        "고인돌",
+        "선사유적",
+        "유네스코",
+        "전남"
+      ],
+      "needs_geocoding": false
+    },
+    {
+      "id": "h003",
+      "name": "수원 화성",
+      "category": "성곽",
+      "period": "조선시대 (1796년 완공)",
+      "region": "경기도",
+      "address": "경기도 수원시 장안구 연무동 190",
+      "lat": 37.2888,
+      "lng": 127.0136,
+      "short_description": "조선 정조가 아버지 사도세자의 묘를 옮기고 새 도시를 건설하며 쌓은 성곽. 총 5.74km, 거중기 등 근대 기계를 활용해 2년 9개월 만에 완공했으며 1997년 유네스코 세계유산으로 등재됐다.",
+      "story_summary": "정조는 아버지를 죽인 자들과 같은 하늘 아래 살 수 없었다. 뒤주에 갇혀 죽은 사도세자의 한을 풀기 위해 그는 화성에 새 도시를 만들기로 했다. 당시 실학자 정약용이 설계한 거중기로 공사 기간을 획기적으로 줄였고, 노동자에게 임금을 지급하는 파격적인 방식을 택했다. 복수와 개혁, 두 가지 목표가 동시에 담긴 성곽이다.",
+      "hook_sentence": "아버지의 한을 담아 쌓은 조선 최고의 성곽",
+      "related_people": [
+        "정조",
+        "사도세자",
+        "정약용"
+      ],
+      "related_events": [
+        "사도세자 죽음(1762)",
+        "화성 축성(1794~1796)",
+        "유네스코 세계유산 등재(1997)"
+      ],
+      "visitable": true,
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1131100010000",
+        "https://whc.unesco.org/en/list/816"
+      ],
+      "data_confidence": "high",
+      "place_id": "GK-GG-SEO-0001",
+      "period_category": "조선 후기",
+      "location_marker_type": "entrance",
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-05T23:10:42"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      },
+      "category_main": "역사",
+      "category_sub": "성곽/산성",
+      "category_detail": "정조 축성 성곽",
+      "confidence": "high",
+      "confidence_reason": "",
+      "tags": [
+        "조선후기",
+        "정조",
+        "사도세자",
+        "성곽",
+        "유네스코",
+        "정약용"
+      ],
+      "needs_geocoding": false
+    },
+    {
+      "id": "h004",
+      "name": "남한산성",
+      "category": "산성",
+      "period": "조선시대 (17세기 초 현재 형태 완성)",
+      "region": "경기도",
+      "address": "경기도 광주시 남한산성면 산성리 산 1",
+      "lat": 37.4803,
+      "lng": 127.1783,
+      "short_description": "조선시대 임시 수도 역할을 했던 산성. 병자호란(1636~1637) 때 인조가 45일간 청나라에 포위된 역사의 현장으로, 2014년 유네스코 세계유산으로 등재됐다.",
+      "story_summary": "1637년 1월, 조선의 왕 인조는 이 산성에서 45일을 버텼다. 바깥에는 청나라 군대, 안에는 추위와 굶주림. 결국 그는 이 산에서 내려가 청 태종 앞에 세 번 절하고 아홉 번 머리를 조아렸다. 삼전도의 굴욕이다. 지금도 산성 안 행궁에는 그 치욕의 시간이 조용히 새겨져 있다.",
+      "hook_sentence": "왕이 45일 버티다 무릎 꿇은 그 산",
+      "related_people": [
+        "인조",
+        "소현세자",
+        "최명길",
+        "김상헌"
+      ],
+      "related_events": [
+        "병자호란(1636~1637)",
+        "삼전도 굴욕(1637)",
+        "유네스코 세계유산 등재(2014)"
+      ],
+      "visitable": true,
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1131100030000",
+        "https://whc.unesco.org/en/list/1439"
+      ],
+      "data_confidence": "high",
+      "place_id": "GK-GG-SAN-0001",
+      "period_category": "조선 후기",
+      "location_marker_type": "entrance",
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-05T23:10:42"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      },
+      "category_main": "역사",
+      "category_sub": "성곽/산성",
+      "category_detail": "병자호란 항전지 산성",
+      "confidence": "high",
+      "confidence_reason": "",
+      "tags": [
+        "조선후기",
+        "인조",
+        "병자호란",
+        "삼전도굴욕",
+        "산성",
+        "유네스코"
+      ],
+      "needs_geocoding": false
+    },
+    {
+      "id": "h005",
+      "name": "경복궁",
+      "category": "궁궐",
+      "period": "조선시대 (1395년 창건)",
+      "region": "서울특별시",
+      "address": "서울특별시 종로구 사직로 161",
+      "lat": 37.5796,
+      "lng": 126.977,
+      "short_description": "조선의 법궁(法宮). 태조 이성계가 1395년 창건했으며 임진왜란으로 소실된 후 흥선대원군이 1868년 중건했다. '경복'은 '큰 복을 누린다'는 뜻이다.",
+      "story_summary": "조선이 세워진 지 3년 만에 완성된 경복궁은 개국의 기상을 담은 공간이었다. 그러나 200년 뒤 임진왜란으로 잿더미가 됐고, 이후 270년간 폐허로 방치됐다. 흥선대원군이 권력을 잡으며 무리하게 중건을 추진하자 백성들의 원성이 높아졌다. 그리고 1895년, 이 궁에서 일본인들이 명성황후를 시해했다. 조선의 시작과 끝이 모두 이 한 공간에 담겨 있다.",
+      "hook_sentence": "왕비가 시해된 조선의 법궁",
+      "related_people": [
+        "태조 이성계",
+        "흥선대원군",
+        "명성황후"
+      ],
+      "related_events": [
+        "조선 개국(1392)",
+        "임진왜란 소실(1592)",
+        "경복궁 중건(1868)",
+        "을미사변(1895)"
+      ],
+      "visitable": true,
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1111100010000",
+        "https://www.royalpalace.go.kr"
+      ],
+      "data_confidence": "high",
+      "place_id": "GK-SE-GUN-0001",
+      "period_category": "조선 전기",
+      "location_marker_type": "entrance",
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-05T23:10:42"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      },
+      "category_main": "역사",
+      "category_sub": "궁궐/왕실",
+      "category_detail": "조선 법궁",
+      "confidence": "high",
+      "confidence_reason": "",
+      "tags": [
+        "조선전기",
+        "태조",
+        "을미사변",
+        "명성황후",
+        "궁궐",
+        "흥선대원군"
+      ],
+      "needs_geocoding": false
+    },
+    {
+      "id": "h006",
+      "name": "창덕궁",
+      "category": "궁궐",
+      "period": "조선시대 (1405년 창건)",
+      "region": "서울특별시",
+      "address": "서울특별시 종로구 율곡로 99",
+      "lat": 37.5794,
+      "lng": 126.991,
+      "short_description": "조선 태종이 1405년 창건한 이궁(離宮). 경복궁 소실 이후 실질적 법궁으로 기능했으며, 후원의 자연 지형을 살린 건축으로 1997년 유네스코 세계유산에 등재됐다.",
+      "story_summary": "창덕궁 후원은 조선 왕들이 가장 사랑한 정원이었다. 인공적으로 다듬는 대신 자연 지형 그대로를 살렸다. 연못 하나를 파도, 산세 하나를 건드려도 자연스러움을 잃지 않으려 했다. 유네스코는 이 철학에 주목했다. 자연과 인공의 경계를 허문 동아시아 최고의 정원이라는 평가다.",
+      "hook_sentence": "조선 왕들이 가장 사랑했던 비밀 정원",
+      "related_people": [
+        "태종",
+        "정조"
+      ],
+      "related_events": [
+        "창덕궁 창건(1405)",
+        "유네스코 세계유산 등재(1997)"
+      ],
+      "visitable": true,
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1111100020000",
+        "https://whc.unesco.org/en/list/816"
+      ],
+      "data_confidence": "high",
+      "place_id": "GK-SE-GUN-0002",
+      "period_category": "조선 전기",
+      "location_marker_type": "entrance",
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-05T23:10:42"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      },
+      "category_main": "역사",
+      "category_sub": "궁궐/왕실",
+      "category_detail": "후원 정원 이궁",
+      "confidence": "high",
+      "confidence_reason": "",
+      "tags": [
+        "조선전기",
+        "태종",
+        "창덕궁후원",
+        "궁궐",
+        "유네스코"
+      ],
+      "needs_geocoding": false
+    },
+    {
+      "id": "h007",
+      "name": "경주 대릉원",
+      "category": "고분",
+      "period": "신라시대 (4~6세기)",
+      "region": "경상북도",
+      "address": "경상북도 경주시 황남동 51",
+      "lat": 35.8342,
+      "lng": 129.2197,
+      "short_description": "신라 왕과 귀족의 고분 23기가 밀집한 왕릉 군. 1973년 발굴된 천마총에서 천마도, 금관 등 1만 1500여 점의 유물이 출토됐다.",
+      "story_summary": "1973년 천마총 발굴이 시작됐을 때, 무덤 속에서 1500년 전 신라인의 손때가 묻은 유물들이 쏟아졌다. 순금으로 만든 왕관, 말 가죽에 그린 하늘을 나는 말 그림. 도굴꾼도 들어오지 못한 봉토분의 구조 덕분에 온전히 살아남은 기적 같은 유물들이다. 무덤 자체가 지상에 거대한 언덕으로 남아 경주 시내 한복판에 지금도 자리하고 있다.",
+      "hook_sentence": "1500년간 아무도 못 열었던 신라 왕의 금고",
+      "related_people": [
+        "미추왕",
+        "천마총 피장자(미상)"
+      ],
+      "related_events": [
+        "천마총 발굴(1973)",
+        "금관 및 천마도 출토"
+      ],
+      "visitable": true,
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1123600400000"
+      ],
+      "data_confidence": "high",
+      "place_id": "GK-GB-GOB-0001",
+      "period_category": "삼국",
+      "location_marker_type": "entrance",
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-05T23:10:42"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      },
+      "category_main": "역사",
+      "category_sub": "고인돌/선사유적",
+      "category_detail": "신라 왕릉 고분군",
+      "confidence": "high",
+      "confidence_reason": "",
+      "tags": [
+        "신라",
+        "천마총",
+        "금관",
+        "고분",
+        "경주"
+      ],
+      "needs_geocoding": false
+    },
+    {
+      "id": "h008",
+      "name": "해인사 장경판전",
+      "category": "사찰",
+      "period": "고려시대 (팔만대장경 1251년 완성) / 조선시대 (판전 15세기)",
+      "region": "경상남도",
+      "address": "경상남도 합천군 가야면 해인사길 122",
+      "lat": 35.7985,
+      "lng": 128.1057,
+      "short_description": "팔만대장경(고려대장경)을 보관하는 목조 창고. 1995년 유네스코 세계유산으로 등재됐으며, 750년이 지난 지금도 경판 8만여 장이 원형 그대로 보존돼 있다.",
+      "story_summary": "몽골이 고려를 짓밟던 시절, 고려인들은 부처의 힘으로 나라를 구하려 했다. 16년에 걸쳐 8만 장이 넘는 나무판에 대장경을 새겼다. 놀라운 건 이 판들이 750년 뒤에도 뒤틀리거나 썩지 않았다는 사실이다. 판전 건물의 환기 구조, 나무를 소금물에 삶고 바닷바람에 말린 경판 제작법. 과학이 아니라 신앙과 장인 정신이 만들어낸 기적이다.",
+      "hook_sentence": "750년을 버텨낸 나무판의 비밀",
+      "related_people": [
+        "고종(고려)",
+        "최우"
+      ],
+      "related_events": [
+        "몽골 침입(1231~1259)",
+        "팔만대장경 조성(1236~1251)",
+        "유네스코 세계유산 등재(1995)"
+      ],
+      "visitable": true,
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1124800140000",
+        "https://whc.unesco.org/en/list/737"
+      ],
+      "data_confidence": "high",
+      "place_id": "GK-GN-SAJ-0001",
+      "period_category": "고려",
+      "location_marker_type": "entrance",
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-05T23:10:42"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      },
+      "category_main": "역사",
+      "category_sub": "사찰/불교유산",
+      "category_detail": "팔만대장경 보관 사찰",
+      "confidence": "high",
+      "confidence_reason": "",
+      "tags": [
+        "고려",
+        "팔만대장경",
+        "몽골침입",
+        "사찰",
+        "유네스코",
+        "합천"
+      ],
+      "needs_geocoding": false
+    },
+    {
+      "id": "h009",
+      "name": "불국사",
+      "category": "사찰",
+      "period": "통일신라시대 (751년 창건)",
+      "region": "경상북도",
+      "address": "경상북도 경주시 불국로 385",
+      "lat": 35.7897,
+      "lng": 129.3317,
+      "short_description": "신라 경덕왕 때 재상 김대성이 창건한 사찰. 다보탑·석가탑 등 국보급 유물을 품고 있으며, 1995년 석굴암과 함께 유네스코 세계유산으로 등재됐다.",
+      "story_summary": "김대성은 이번 생의 부모를 위해 불국사를, 전생의 부모를 위해 석굴암을 지었다고 전해진다. 그가 죽자 나라가 공사를 이어받았다. 다보탑과 석가탑은 쌍둥이처럼 마주 보고 있지만 완전히 다른 모양이다. 하나는 화려함의 극치, 하나는 단순함의 극치. 신라인의 미감이 두 탑에 고스란히 담겨 있다.",
+      "hook_sentence": "전생 부모를 위해 지은 절이 천년을 버텼다",
+      "related_people": [
+        "김대성",
+        "경덕왕"
+      ],
+      "related_events": [
+        "불국사 창건(751)",
+        "임진왜란 소실 및 복원",
+        "유네스코 세계유산 등재(1995)"
+      ],
+      "visitable": true,
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1123600020000",
+        "https://whc.unesco.org/en/list/736"
+      ],
+      "data_confidence": "high",
+      "place_id": "GK-GB-SAJ-0001",
+      "period_category": "통일신라",
+      "location_marker_type": "entrance",
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-05T23:10:42"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      },
+      "category_main": "역사",
+      "category_sub": "사찰/불교유산",
+      "category_detail": "통일신라 대표 사찰",
+      "confidence": "high",
+      "confidence_reason": "",
+      "tags": [
+        "통일신라",
+        "김대성",
+        "다보탑",
+        "석가탑",
+        "사찰",
+        "유네스코",
+        "경주"
+      ],
+      "needs_geocoding": false
+    },
+    {
+      "id": "h010",
+      "name": "도산서원",
+      "category": "서원",
+      "period": "조선시대 (1574년 건립)",
+      "region": "경상북도",
+      "address": "경상북도 안동시 도산면 도산서원길 154",
+      "lat": 36.7178,
+      "lng": 128.9408,
+      "short_description": "퇴계 이황이 생전에 세운 도산서당을 바탕으로 그의 제자들이 사후 건립한 서원. 선비의 단아한 건축 철학이 반영된 공간으로 2019년 유네스코 세계유산에 등재됐다.",
+      "story_summary": "퇴계 이황은 죽기 전 제자들에게 말했다. 자신의 묘에 장례 행렬이 필요 없고, 비석도 세우지 말라고. 그가 죽자 제자들은 그 뜻을 어기고 서원을 세웠다. 스승의 겸손을 기리는 방식이 결국 스승을 기리는 거대한 건물이 된 아이러니. 조선 성리학의 정신이 이 단출한 건물 안에 응축돼 있다.",
+      "hook_sentence": "비석도 비우라던 스승을 위해 세운 서원",
+      "related_people": [
+        "이황(퇴계)"
+      ],
+      "related_events": [
+        "이황 도산서당 설립(1561)",
+        "도산서원 건립(1574)",
+        "유네스코 세계유산 등재(2019)"
+      ],
+      "visitable": true,
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1133500050000",
+        "https://whc.unesco.org/en/list/1498"
+      ],
+      "data_confidence": "high",
+      "place_id": "GK-GB-SWO-0001",
+      "period_category": "조선 전기",
+      "location_marker_type": "entrance",
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-05T23:10:42"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      },
+      "category_main": "역사",
+      "category_sub": "고택/서원/향교",
+      "category_detail": "퇴계 이황 서원",
+      "confidence": "high",
+      "confidence_reason": "",
+      "tags": [
+        "조선전기",
+        "이황",
+        "퇴계",
+        "서원",
+        "유네스코",
+        "안동"
+      ],
+      "needs_geocoding": false
+    },
+    {
+      "id": "h011",
+      "name": "병산서원",
+      "category": "서원",
+      "period": "조선시대 (1613년 사액)",
+      "region": "경상북도",
+      "address": "경상북도 안동시 풍천면 병산길 386",
+      "lat": 36.5368,
+      "lng": 128.5059,
+      "short_description": "류성룡을 배향한 서원. 낙동강과 병산을 배경으로 한 만대루의 풍경이 한국 서원 건축의 백미로 손꼽히며, 2019년 유네스코 세계유산으로 등재됐다.",
+      "story_summary": "임진왜란 때 조선을 구한 류성룡은 전쟁이 끝난 뒤 낙향해 이곳에서 『징비록』을 썼다. '징비'는 '앞으로의 경계를 위해 과거를 돌아본다'는 뜻이다. 전쟁의 참혹함을 직접 겪은 그가 미래를 위해 남긴 반성문. 만대루에서 낙동강을 바라보며 그 글을 써 내려갔을 류성룡을 생각하면, 이 장소가 그냥 아름다운 풍경이 아님을 알 수 있다.",
+      "hook_sentence": "임진왜란을 겪은 재상이 쓴 반성문의 탄생지",
+      "related_people": [
+        "류성룡"
+      ],
+      "related_events": [
+        "임진왜란(1592~1598)",
+        "징비록 집필",
+        "유네스코 세계유산 등재(2019)"
+      ],
+      "visitable": true,
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1133500030000",
+        "https://whc.unesco.org/en/list/1498"
+      ],
+      "data_confidence": "high",
+      "place_id": "GK-GB-SWO-0002",
+      "period_category": "조선 전기",
+      "location_marker_type": "entrance",
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-05T23:10:42"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      },
+      "category_main": "역사",
+      "category_sub": "고택/서원/향교",
+      "category_detail": "류성룡 배향 서원",
+      "confidence": "high",
+      "confidence_reason": "",
+      "tags": [
+        "조선전기",
+        "류성룡",
+        "징비록",
+        "임진왜란",
+        "서원",
+        "유네스코",
+        "안동"
+      ],
+      "needs_geocoding": false
+    },
+    {
+      "id": "h012",
+      "name": "서대문형무소",
+      "category": "독립운동 유적",
+      "period": "일제강점기 (1908년~1945년)",
+      "region": "서울특별시",
+      "address": "서울특별시 서대문구 통일로 251",
+      "lat": 37.5726,
+      "lng": 126.959,
+      "short_description": "일제가 1908년 건립한 감옥. 독립운동가 수천 명이 이곳에서 투옥되고 고문당하고 처형됐다. 현재 서대문형무소역사관으로 운영 중이다.",
+      "story_summary": "유관순은 3.1운동으로 이곳에 갇혔다. 지하 옥사에서도 만세를 외쳤고, 고문 끝에 1920년 열여덟의 나이로 숨을 거뒀다. 그녀만이 아니었다. 안창호, 김구, 강우규 등 수천 명의 독립운동가들이 이 담장 안에서 버텼다. 사형장 뒤 미루나무는 그들이 마지막으로 본 나무다. 지금 그 나무는 아직 살아 있다.",
+      "hook_sentence": "유관순이 갇혀서도 만세를 외친 그 감옥",
+      "related_people": [
+        "유관순",
+        "안창호",
+        "강우규",
+        "김구"
+      ],
+      "related_events": [
+        "서대문형무소 개소(1908)",
+        "3.1운동(1919)",
+        "유관순 순국(1920)"
+      ],
+      "visitable": true,
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1111100150000",
+        "https://www.sscmc.or.kr"
+      ],
+      "data_confidence": "high",
+      "place_id": "GK-SE-DOK-0001",
+      "period_category": "근대",
+      "location_marker_type": "exact",
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-05T23:10:42"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      },
+      "category_main": "역사",
+      "category_sub": "비석/기념유산",
+      "category_detail": "일제 독립운동가 수감 형무소",
+      "confidence": "high",
+      "confidence_reason": "",
+      "tags": [
+        "일제강점기",
+        "유관순",
+        "독립운동",
+        "3.1운동",
+        "안창호",
+        "근대"
+      ],
+      "needs_geocoding": false
+    },
+    {
+      "id": "h013",
+      "name": "행주산성",
+      "category": "산성",
+      "period": "고려~조선시대 (임진왜란 1593년 격전지)",
+      "region": "경기도",
+      "address": "경기도 고양시 덕양구 행주내동 산26-1",
+      "lat": 37.6108,
+      "lng": 126.8376,
+      "short_description": "임진왜란 행주대첩(1593)의 현장. 권율 장군이 병사 2300명으로 왜군 3만 명을 격퇴한 전투지로, 한국 3대 대첩 중 하나로 꼽힌다.",
+      "story_summary": "1593년 2월, 권율의 군사 2300명과 백성들은 이 작은 산에서 왜군 3만 명을 막아냈다. 무기가 부족하자 여성들이 앞치마(행주치마)로 돌을 날랐다는 이야기가 전해진다. 학자들 사이에 '행주치마'의 어원에 대한 이견이 있지만, 이 전투에서 백성과 군인이 함께 싸웠다는 사실은 변하지 않는다. 한 나라가 무너지는 것을 막아낸 하루의 이야기다.",
+      "hook_sentence": "2300명이 3만 명을 막아낸 하루",
+      "related_people": [
+        "권율"
+      ],
+      "related_events": [
+        "임진왜란(1592~1598)",
+        "행주대첩(1593.2.12)"
+      ],
+      "visitable": true,
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1131100180000"
+      ],
+      "data_confidence": "high",
+      "place_id": "GK-GG-SAN-0002",
+      "period_category": "조선 전기",
+      "location_marker_type": "entrance",
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-05T23:10:42"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      },
+      "category_main": "역사",
+      "category_sub": "성곽/산성",
+      "category_detail": "임진왜란 행주대첩 격전지",
+      "confidence": "high",
+      "confidence_reason": "",
+      "tags": [
+        "조선전기",
+        "임진왜란",
+        "권율",
+        "행주대첩",
+        "산성",
+        "경기"
+      ],
+      "needs_geocoding": false
+    },
+    {
+      "id": "h014",
+      "name": "진주성",
+      "category": "성곽",
+      "period": "고려~조선시대 (임진왜란 1592년, 1593년 격전지)",
+      "region": "경상남도",
+      "address": "경상남도 진주시 남강로 626",
+      "lat": 35.188,
+      "lng": 128.0818,
+      "short_description": "남강 가에 자리한 고려~조선 시대 성곽. 임진왜란 제1차 진주성 전투(1592)에서 김시민 장군이 왜군을 격퇴했으나, 제2차 전투(1593)에서는 함락되어 7만 명이 희생됐다.",
+      "story_summary": "1592년 10월, 김시민은 4000명으로 3만 왜군을 막아냈다. 그리고 이듬해 6월, 왜군은 10만 명을 이끌고 다시 왔다. 9일간의 전투 끝에 성은 함락됐고 7만 명이 죽었다. 논개는 적장을 끌어안고 남강에 뛰어들었다. 승리와 패배, 영웅과 희생이 같은 공간에 겹쳐 있는 곳이 진주성이다.",
+      "hook_sentence": "영웅의 승리와 7만 명의 죽음이 같은 곳에",
+      "related_people": [
+        "김시민",
+        "논개"
+      ],
+      "related_events": [
+        "제1차 진주성 전투(1592.10)",
+        "제2차 진주성 전투(1593.6)",
+        "논개 순국(1593)"
+      ],
+      "visitable": true,
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1124800010000"
+      ],
+      "data_confidence": "high",
+      "place_id": "GK-GN-SEO-0001",
+      "period_category": "조선 전기",
+      "location_marker_type": "entrance",
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-05T23:10:42"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      },
+      "category_main": "역사",
+      "category_sub": "성곽/산성",
+      "category_detail": "임진왜란 진주대첩 및 논개 순국지",
+      "confidence": "high",
+      "confidence_reason": "",
+      "tags": [
+        "조선전기",
+        "임진왜란",
+        "김시민",
+        "논개",
+        "성곽",
+        "경남"
+      ],
+      "needs_geocoding": false
+    },
+    {
+      "id": "h015",
+      "name": "척화비 (서울 종로)",
+      "category": "비석",
+      "period": "조선시대 (1871년 건립)",
+      "region": "서울특별시",
+      "address": "서울특별시 종로구 세종대로 198 (경복궁 앞 일대)",
+      "lat": 37.5752,
+      "lng": 126.9769,
+      "short_description": "흥선대원군이 1871년 신미양요 직후 전국에 세운 비석. '서양 오랑캐가 침략하는데 싸우지 않으면 화친하는 것이요, 화친을 주장하면 나라를 파는 것이다'는 내용을 담고 있다.",
+      "story_summary": "흥선대원군은 프랑스(병인양요)와 미국(신미양요)의 침략을 물리친 뒤, 서양에 대한 강경 입장을 전국에 알리기 위해 척화비를 세웠다. 수백 개가 전국 곳곳에 세워졌다. 그러나 불과 10년 뒤 조선은 강화도조약을 맺고 문을 열었다. 이 비석은 그 문을 닫으려 했던 마지막 몸부림의 흔적이다.",
+      "hook_sentence": "문을 닫으려 했던 조선의 마지막 선언",
+      "related_people": [
+        "흥선대원군"
+      ],
+      "related_events": [
+        "병인양요(1866)",
+        "신미양요(1871)",
+        "척화비 건립(1871)",
+        "강화도조약(1876)"
+      ],
+      "visitable": true,
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1111100380000"
+      ],
+      "data_confidence": "high",
+      "place_id": "GK-SE-BIS-0001",
+      "period_category": "조선 후기",
+      "location_marker_type": "exact",
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-05T23:10:42"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      },
+      "category_main": "역사",
+      "category_sub": "비석/기념유산",
+      "category_detail": "흥선대원군 서양 통상거부 비석",
+      "confidence": "high",
+      "confidence_reason": "",
+      "tags": [
+        "조선후기",
+        "흥선대원군",
+        "병인양요",
+        "신미양요",
+        "비석",
+        "쇄국정책"
+      ],
+      "needs_geocoding": false
+    },
+    {
+      "id": "h016",
+      "name": "전주향교",
+      "category": "향교",
+      "period": "조선시대 (1603년 현재 위치 이전)",
+      "region": "전라북도",
+      "address": "전라북도 전주시 완산구 향교길 139",
+      "lat": 35.8147,
+      "lng": 127.1538,
+      "short_description": "전라도 최대 규모의 향교. 공자를 비롯한 선현을 모시고 조선시대 지방 유생을 교육했던 교육기관으로, 조선 태조의 어진(御眞)을 모신 경기전과 가까이 위치한다.",
+      "story_summary": "조선은 유학을 국가 이념으로 삼았고, 그 교육을 전국의 향교를 통해 실현했다. 전주향교는 전라도 유생의 정신적 중심지였다. 임진왜란 때 불타 없어진 뒤 여러 차례 재건됐다. 지금도 봄가을 공자에게 제사를 올리는 석전제(釋奠祭)가 이어지고 있다. 디지털 시대에도 수백 년 된 의례가 그대로 살아있는 공간이다.",
+      "hook_sentence": "조선 유생들의 학교가 아직 살아있다",
+      "related_people": [
+        "공자"
+      ],
+      "related_events": [
+        "조선 향교 제도 확립",
+        "임진왜란 소실 및 재건(1603 이전)"
+      ],
+      "visitable": true,
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1135500020000"
+      ],
+      "data_confidence": "high",
+      "place_id": "GK-JB-HYO-0001",
+      "period_category": "조선 전기",
+      "location_marker_type": "entrance",
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-05T23:10:42"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      },
+      "category_main": "역사",
+      "category_sub": "고택/서원/향교",
+      "category_detail": "전라도 최대 향교",
+      "confidence": "high",
+      "confidence_reason": "",
+      "tags": [
+        "조선전기",
+        "향교",
+        "공자",
+        "유교",
+        "전통교육",
+        "전주"
+      ],
+      "needs_geocoding": false
+    },
+    {
+      "id": "h017",
+      "name": "한양도성",
+      "category": "성곽",
+      "period": "조선시대 (1396년 최초 완공)",
+      "region": "서울특별시",
+      "address": "서울특별시 종로구 창의문로 118 (창의문 일대)",
+      "lat": 37.6001,
+      "lng": 126.97,
+      "short_description": "조선의 수도 한양을 둘러싼 총 18.6km의 도성. 1396년 태조 때 처음 쌓은 뒤 세종·숙종 때 개축됐으며, 현재 12.7km 구간이 남아 있다.",
+      "story_summary": "1396년, 태조는 한양을 도읍으로 정한 뒤 도성 공사를 시작했다. 전국에서 19만 7400명이 동원됐다. 구간마다 담당 고을이 달랐고, 그 고을 이름을 돌에 새겨 책임을 명확히 했다. 지금도 성돌에서 '경상도○○현'이라는 글씨를 찾아볼 수 있다. 600년 전 이름 모를 백성들의 손길이 돌 위에 새겨져 있다.",
+      "hook_sentence": "성돌에 새겨진 600년 전 백성들의 이름",
+      "related_people": [
+        "태조 이성계",
+        "세종",
+        "숙종"
+      ],
+      "related_events": [
+        "한양 천도(1394)",
+        "도성 축성(1396)",
+        "세종 개축(1422)",
+        "숙종 개축(1704)"
+      ],
+      "visitable": true,
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1111100010000",
+        "https://www.ihansando.or.kr"
+      ],
+      "data_confidence": "high",
+      "place_id": "GK-SE-SEO-0001",
+      "period_category": "조선 전기",
+      "location_marker_type": "entrance",
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-05T23:10:42"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      },
+      "category_main": "역사",
+      "category_sub": "성곽/산성",
+      "category_detail": "조선 수도 방어 성곽",
+      "confidence": "high",
+      "confidence_reason": "",
+      "tags": [
+        "조선전기",
+        "태조",
+        "세종",
+        "숙종",
+        "성곽",
+        "서울"
+      ],
+      "needs_geocoding": false
+    },
+    {
+      "id": "h018",
+      "name": "동구릉 (조선 왕릉)",
+      "category": "왕릉",
+      "period": "조선시대 (1408년~1856년 조성)",
+      "region": "경기도",
+      "address": "경기도 구리시 동구릉로 197",
+      "lat": 37.6147,
+      "lng": 127.1539,
+      "short_description": "조선 왕릉 중 가장 규모가 큰 군집 능역. 태조를 비롯한 9기의 능이 모여 있으며, 2009년 조선 왕릉 전체가 유네스코 세계유산으로 등재됐다.",
+      "story_summary": "태조 이성계가 묻히기를 원했던 곳, 동구릉. 그는 죽기 전 이 자리를 직접 골랐다고 전해진다. 이후 500년간 역대 왕과 왕비들이 이 숲 안에 차례로 자리를 잡았다. 능마다 석물 양식이 조금씩 다르다. 시대가 흐를수록 장식이 화려해지는 것을 보면 조선 미술사의 흐름을 그대로 읽을 수 있다.",
+      "hook_sentence": "태조가 직접 고른 잠자리, 500년의 왕릉 숲",
+      "related_people": [
+        "태조 이성계",
+        "현종",
+        "영조",
+        "문종"
+      ],
+      "related_events": [
+        "태조 건원릉 조성(1408)",
+        "유네스코 세계유산 등재(2009)"
+      ],
+      "visitable": true,
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1131100370000",
+        "https://whc.unesco.org/en/list/1319"
+      ],
+      "data_confidence": "high",
+      "place_id": "GK-GG-RYU-0001",
+      "period_category": "조선 전기",
+      "location_marker_type": "entrance",
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-05T23:10:42"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      },
+      "category_main": "역사",
+      "category_sub": "궁궐/왕실",
+      "category_detail": "태조 포함 9기 조선 왕릉",
+      "confidence": "high",
+      "confidence_reason": "",
+      "tags": [
+        "조선전기",
+        "태조",
+        "왕릉",
+        "유네스코",
+        "경기",
+        "구리"
+      ],
+      "needs_geocoding": false
+    },
+    {
+      "id": "h019",
+      "name": "안중근 의사 기념관",
+      "category": "독립운동 유적",
+      "period": "일제강점기 (1909년 의거)",
+      "region": "서울특별시",
+      "address": "서울특별시 중구 소월로 91",
+      "lat": 37.5538,
+      "lng": 126.9791,
+      "short_description": "1909년 이토 히로부미를 저격한 안중근 의사를 기리는 기념관. 남산 자락에 위치하며 의사의 유묵(遺墨), 재판 기록, 순국 관련 자료 등을 전시하고 있다.",
+      "story_summary": "1909년 10월 26일, 안중근은 하얼빈 역에서 조선 침략의 핵심 인물 이토 히로부미에게 총을 쏘았다. 뤼순 감옥에서 사형 선고를 받은 뒤 그는 동양 평화론을 집필하다 미완으로 순국했다. 재판정에서 그는 자신을 살인범이 아닌 '대한의군 참모중장'으로 규정했다. 의거 115년이 지난 지금도 그의 손가락 도장은 독립의 서명으로 남아 있다.",
+      "hook_sentence": "재판장에서 당당하게 '나는 군인이다' 말한 그",
+      "related_people": [
+        "안중근",
+        "이토 히로부미"
+      ],
+      "related_events": [
+        "하얼빈 의거(1909.10.26)",
+        "안중근 순국(1910.3.26)"
+      ],
+      "visitable": true,
+      "source_urls": [
+        "https://www.ahnjunggeun.or.kr"
+      ],
+      "data_confidence": "high",
+      "place_id": "GK-SE-DOK-0002",
+      "period_category": "근대",
+      "location_marker_type": "exact",
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-05T23:10:42"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      },
+      "category_main": "역사",
+      "category_sub": "비석/기념유산",
+      "category_detail": "하얼빈 의거 안중근 기념관",
+      "confidence": "high",
+      "confidence_reason": "",
+      "tags": [
+        "근대",
+        "안중근",
+        "이토히로부미",
+        "독립운동",
+        "하얼빈의거",
+        "일제강점기"
+      ],
+      "needs_geocoding": false
+    },
+    {
+      "id": "h020",
+      "name": "첨성대",
+      "category": "과학 유적",
+      "period": "통일신라 이전 (선덕여왕 재위, 632~647년)",
+      "region": "경상북도",
+      "address": "경상북도 경주시 인왕동 839-1",
+      "lat": 35.8349,
+      "lng": 129.2192,
+      "short_description": "동아시아에서 현존하는 가장 오래된 천문 관측 시설로 추정되는 석조 구조물. 선덕여왕 시기 신라에서 건립했으며 362개의 돌로 쌓아 올렸다.",
+      "story_summary": "1400년 전 신라 사람들은 하늘을 보며 나라의 운명을 읽었다. 별의 움직임, 일식과 월식이 곧 왕의 권력과 직결됐던 시대. 첨성대는 그 하늘을 체계적으로 관측하기 위한 도구였다. 사용된 돌 365개(이설 있음)는 1년의 날수와 같다는 해석도 있다. 하늘과 땅을 연결하려 했던 신라인의 열망이 이 돌탑에 담겨 있다.",
+      "hook_sentence": "1400년 전 신라인이 하늘을 읽던 탑",
+      "related_people": [
+        "선덕여왕"
+      ],
+      "related_events": [
+        "첨성대 건립(632~647년 추정)"
+      ],
+      "visitable": true,
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1123600310000"
+      ],
+      "data_confidence": "high",
+      "place_id": "GK-GB-GWA-0001",
+      "period_category": "삼국",
+      "location_marker_type": "exact",
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-05T23:10:42"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      },
+      "category_main": "역사",
+      "category_sub": "비석/기념유산",
+      "category_detail": "신라 천문 관측 구조물",
+      "confidence": "high",
+      "confidence_reason": "",
+      "tags": [
+        "신라",
+        "선덕여왕",
+        "천문관측",
+        "과학유적",
+        "경주"
+      ],
+      "needs_geocoding": false
+    },
+    {
+      "id": "h021",
+      "name": "삼년산성",
+      "category": "산성",
+      "period": "삼국시대 신라 (470년 축성)",
+      "region": "충청북도",
+      "address": "충청북도 보은군 보은읍 성주1길 104",
+      "lat": 36.4789,
+      "lng": 127.7422,
+      "short_description": "신라 자비왕 13년(470년)에 쌓은 석성. 3년에 걸쳐 완성했다 하여 '삼년산성'이라 불리며, 삼국통일 과정에서 신라의 핵심 요새 역할을 했다.",
+      "story_summary": "신라는 백제·고구려와 싸우는 동안 충청도 방어의 핵심으로 이 산성을 활용했다. 삼국통일 이후에도 당나라와 맞서는 전초기지가 됐다. 성벽을 쌓는 데 3년이 걸렸고, 이후에도 수차례 보수됐다. 지금도 외벽이 거의 온전히 남아 있어 삼국시대 석성 축조 기술의 교과서로 불린다.",
+      "hook_sentence": "삼국통일의 열쇠가 된 1500년 된 산성",
+      "related_people": [
+        "자비왕"
+      ],
+      "related_events": [
+        "삼년산성 축성(470)",
+        "삼국통일 전쟁",
+        "나당전쟁"
+      ],
+      "visitable": true,
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1133300010000"
+      ],
+      "data_confidence": "high",
+      "place_id": "GK-CB-SAN-0001",
+      "period_category": "삼국",
+      "location_marker_type": "exact",
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-05T23:10:42"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      },
+      "category_main": "역사",
+      "category_sub": "성곽/산성",
+      "category_detail": "신라 축성 삼국통일 요새",
+      "confidence": "high",
+      "confidence_reason": "",
+      "tags": [
+        "삼국시대",
+        "신라",
+        "자비왕",
+        "삼국통일",
+        "산성",
+        "충북"
+      ],
+      "needs_geocoding": false
+    },
+    {
+      "id": "h022",
+      "name": "3.1운동 기념지 (탑골공원)",
+      "category": "독립운동 유적",
+      "period": "일제강점기 (1919년)",
+      "region": "서울특별시",
+      "address": "서울특별시 종로구 종로 99",
+      "lat": 37.5713,
+      "lng": 126.9874,
+      "short_description": "1919년 3월 1일 기미독립선언서가 낭독되고 만세 운동이 시작된 역사의 발원지. 고종의 국장을 앞두고 전국에서 모인 민중이 일제히 독립을 외쳤다.",
+      "story_summary": "1919년 3월 1일 오후 2시, 탑골공원에 수천 명의 사람이 모였다. 누군가 기미독립선언서를 낭독했고, '대한독립만세'가 터졌다. 이 함성은 서울에서 시작해 전국으로, 해외 동포에게까지 번졌다. 독립운동가만이 아니라 학생, 상인, 농민, 승려가 모두 거리로 나왔다. 이 운동은 가장 많은 민중이 참여한 한국 역사상 최대의 비폭력 저항이었다.",
+      "hook_sentence": "200만 명이 같은 날 거리로 나온 그날",
+      "related_people": [
+        "유관순",
+        "손병희",
+        "33인 민족대표"
+      ],
+      "related_events": [
+        "3.1운동(1919.3.1)",
+        "기미독립선언서 발표",
+        "제암리 학살(1919.4)"
+      ],
+      "visitable": true,
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1111100110000"
+      ],
+      "data_confidence": "high",
+      "place_id": "GK-SE-DOK-0003",
+      "period_category": "근대",
+      "location_marker_type": "exact",
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-05T23:10:42"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      },
+      "category_main": "역사",
+      "category_sub": "독립운동/근현대",
+      "category_detail": "3.1운동 독립선언 발원지",
+      "confidence": "high",
+      "confidence_reason": "",
+      "tags": [
+        "근대",
+        "3.1운동",
+        "독립선언",
+        "유관순",
+        "손병희",
+        "일제강점기"
+      ],
+      "needs_geocoding": false
+    },
+    {
+      "id": "h023",
+      "name": "소수서원",
+      "category": "서원",
+      "period": "조선시대 (1543년 건립, 최초의 사액서원)",
+      "region": "경상북도",
+      "address": "경상북도 영주시 순흥면 소백로 2740",
+      "lat": 36.876,
+      "lng": 128.6137,
+      "short_description": "조선 최초의 사액서원(1550). 중종 때 풍기군수 주세붕이 안향의 위패를 모시고 세웠으며, 명종 때 퇴계 이황의 건의로 '소수서원'이라는 이름을 하사받았다.",
+      "story_summary": "1543년, 주세붕은 고려 유학의 선구자 안향을 기리기 위해 서원을 세웠다. 7년 뒤 퇴계 이황이 '이 서원을 조정이 공인해야 한다'고 건의했고, 명종이 '소수(紹修)'라는 이름을 내렸다. '무너진 교학을 다시 잇는다'는 뜻이다. 조선의 지식인 교육 시스템이 이 서원 하나에서 시작됐다.",
+      "hook_sentence": "조선 사립학교의 시작, 최초의 국가 공인 서원",
+      "related_people": [
+        "안향",
+        "주세붕",
+        "이황(퇴계)",
+        "명종"
+      ],
+      "related_events": [
+        "소수서원 건립(1543)",
+        "사액서원 지정(1550)",
+        "유네스코 세계유산 등재(2019)"
+      ],
+      "visitable": true,
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1133500060000",
+        "https://whc.unesco.org/en/list/1498"
+      ],
+      "data_confidence": "high",
+      "place_id": "GK-GB-SWO-0003",
+      "period_category": "조선 전기",
+      "location_marker_type": "entrance",
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-05T23:10:42"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      },
+      "category_main": "역사",
+      "category_sub": "고택/서원/향교",
+      "category_detail": "조선 최초 사액서원",
+      "confidence": "high",
+      "confidence_reason": "",
+      "tags": [
+        "조선전기",
+        "안향",
+        "주세붕",
+        "이황",
+        "서원",
+        "유네스코",
+        "영주"
+      ],
+      "needs_geocoding": false
+    },
+    {
+      "id": "h024",
+      "name": "강화 고려궁지",
+      "category": "궁궐터",
+      "period": "고려시대 (1232~1270년 임시 수도)",
+      "region": "인천광역시",
+      "address": "인천광역시 강화군 강화읍 북문길 42",
+      "lat": 37.7479,
+      "lng": 126.4876,
+      "short_description": "몽골 침입에 맞서 고려 조정이 38년간 강화도로 천도했던 시기의 궁궐 터. 현재는 건물이 남아 있지 않으며 조선시대 행궁과 관아 건물 일부가 자리하고 있다.",
+      "story_summary": "1232년, 고려 왕실은 몽골의 침입을 피해 강화도로 도읍을 옮겼다. 바다를 건너오지 못하는 몽골군의 약점을 이용한 선택이었다. 그러나 백성들은 본토에서 38년간 몽골의 약탈을 견뎌야 했다. 왕실이 섬에서 개경의 삶을 재현하는 동안, 육지에서는 수십만 명이 죽거나 노예로 끌려갔다. 화려한 궁궐은 없어졌지만 그 빈터가 오히려 더 많은 이야기를 전한다.",
+      "hook_sentence": "왕은 섬에서 38년, 백성은 육지에서 38년을 버텼다",
+      "related_people": [
+        "고종(고려)",
+        "최우",
+        "최항"
+      ],
+      "related_events": [
+        "강화 천도(1232)",
+        "팔만대장경 조성",
+        "개경 환도(1270)"
+      ],
+      "visitable": true,
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1121100030000"
+      ],
+      "data_confidence": "high",
+      "place_id": "GK-IC-GUN-0001",
+      "period_category": "고려",
+      "location_marker_type": "entrance",
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-05T23:10:42"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      },
+      "category_main": "역사",
+      "category_sub": "궁궐/왕실",
+      "category_detail": "고려 몽골 피란 임시 수도 궁터",
+      "confidence": "high",
+      "confidence_reason": "",
+      "tags": [
+        "고려",
+        "몽골침입",
+        "강화천도",
+        "최우",
+        "궁궐터",
+        "인천"
+      ],
+      "needs_geocoding": false
+    },
+    {
+      "id": "h025",
+      "name": "칠백의총",
+      "category": "전쟁 유적",
+      "period": "조선시대 (임진왜란 1592년)",
+      "region": "충청남도",
+      "address": "충청남도 금산군 금산읍 의총길 23",
+      "lat": 36.1074,
+      "lng": 127.4881,
+      "short_description": "임진왜란 금산 전투(1592)에서 전사한 조중봉 조헌과 의병 700명의 무덤. 관군 지원 없이 의병만으로 싸우다 전원 전사한 비극적 전투의 현장이다.",
+      "story_summary": "1592년 8월, 조헌이 이끄는 700명의 의병이 금산성을 포위한 왜군에 맞섰다. 무기도 훈련도 부족했지만 나라를 지키겠다는 마음 하나로 뛰어들었다. 전투가 끝났을 때 살아남은 사람이 없었다. 이를 전해 들은 승장 영규가 달려왔지만 이미 너무 늦었다. 남은 건 700구의 시신과 칼도 녹슨 의지뿐이었다. 패배했지만 비겁하지 않았던 700명의 이야기.",
+      "hook_sentence": "700명이 싸우다 전원 죽었다. 도망친 사람이 없었다",
+      "related_people": [
+        "조헌",
+        "영규"
+      ],
+      "related_events": [
+        "임진왜란(1592)",
+        "금산 전투(1592.8.18)",
+        "700의병 전사"
+      ],
+      "visitable": true,
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1133100010000"
+      ],
+      "data_confidence": "high",
+      "place_id": "GK-CN-JEN-0001",
+      "period_category": "조선 전기",
+      "location_marker_type": "exact",
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-05T23:10:42"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      },
+      "category_main": "역사",
+      "category_sub": "독립운동/근현대",
+      "category_detail": "임진왜란 조헌 의병 700인 순절지",
+      "confidence": "high",
+      "confidence_reason": "",
+      "tags": [
+        "조선전기",
+        "임진왜란",
+        "조헌",
+        "의병",
+        "금산전투",
+        "충남"
+      ],
+      "needs_geocoding": false
+    },
+    {
+      "id": "h026",
+      "name": "신미양요 격전지 (광성보)",
+      "category": "전쟁 유적",
+      "period": "조선시대 (1871년)",
+      "region": "인천광역시",
+      "address": "인천광역시 강화군 불은면 덕진로 34",
+      "lat": 37.7094,
+      "lng": 126.4394,
+      "short_description": "1871년 미국 아시아 함대가 조선을 침략한 신미양요의 핵심 격전지. 어재연 장군이 이끈 조선군이 최신 무기로 무장한 미군에 맞서 총검과 돌로 싸우다 전사한 현장이다.",
+      "story_summary": "1871년 6월, 미군 병사들이 강화도에 상륙했다. 압도적인 화력 차이에도 불구하고 조선군은 광성보를 쉽게 내주지 않았다. 총알이 떨어지자 돌을 던지고 맨주먹으로 싸웠다. 어재연 장군을 포함한 수백 명이 그 자리에서 전사했다. 미군은 전투에서 이겼지만 협상에는 실패했다. 조선은 끝까지 문을 열지 않았다.",
+      "hook_sentence": "총알이 없어지자 돌을 던진 조선 군사들",
+      "related_people": [
+        "어재연",
+        "흥선대원군"
+      ],
+      "related_events": [
+        "신미양요(1871)",
+        "광성보 전투(1871.6.11)",
+        "척화비 건립(1871)"
+      ],
+      "visitable": true,
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1121100060000"
+      ],
+      "data_confidence": "high",
+      "place_id": "GK-IC-JEN-0001",
+      "period_category": "조선 후기",
+      "location_marker_type": "exact",
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-05T23:10:42"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      },
+      "category_main": "역사",
+      "category_sub": "성곽/산성",
+      "category_detail": "신미양요 미군 격전 돈대",
+      "confidence": "high",
+      "confidence_reason": "",
+      "tags": [
+        "조선후기",
+        "신미양요",
+        "어재연",
+        "흥선대원군",
+        "쇄국정책",
+        "강화도"
+      ],
+      "needs_geocoding": false
+    },
+    {
+      "id": "h027",
+      "name": "독립문",
+      "category": "독립운동 유적",
+      "period": "조선 말기 (1897년 건립)",
+      "region": "서울특별시",
+      "address": "서울특별시 서대문구 현저동 941",
+      "lat": 37.5722,
+      "lng": 126.9603,
+      "short_description": "1897년 독립협회가 청나라에 대한 자주독립을 선언하기 위해 건립한 문. 사대의 상징이었던 영은문(迎恩門)을 허문 자리에 세웠으며 프랑스 개선문을 모델로 했다.",
+      "story_summary": "조선은 수백 년간 중국 황제의 사신을 영은문(迎恩門)에서 맞이하며 예를 표했다. 1897년, 서재필이 주도한 독립협회는 그 굴욕의 문을 허물고 바로 그 자리에 독립문을 세웠다. 아이러니하게도 독립문이 세워진 지 3년 뒤, 조선은 일본의 보호국이 됐다. 독립을 향한 간절함이 담긴 문이 식민지의 입구 가까이에 남아 있다.",
+      "hook_sentence": "굴욕의 문을 허물고 그 자리에 독립문을 세웠다",
+      "related_people": [
+        "서재필",
+        "이완용(건립 당시 독립협회 참여)"
+      ],
+      "related_events": [
+        "독립협회 창설(1896)",
+        "독립문 건립(1897)",
+        "대한제국 선포(1897)"
+      ],
+      "visitable": true,
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1111100040000"
+      ],
+      "data_confidence": "high",
+      "place_id": "GK-SE-DOK-0004",
+      "period_category": "근대",
+      "location_marker_type": "exact",
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-05T23:10:42"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      },
+      "category_main": "역사",
+      "category_sub": "비석/기념유산",
+      "category_detail": "대한 자주독립 선언 기념문",
+      "confidence": "high",
+      "confidence_reason": "",
+      "tags": [
+        "근대",
+        "독립협회",
+        "서재필",
+        "독립운동",
+        "자주독립",
+        "대한제국"
+      ],
+      "needs_geocoding": false
+    },
+    {
+      "id": "h028",
+      "name": "제주 4·3 유적지 (너븐숭이 기념관)",
+      "category": "독립운동 유적",
+      "period": "현대 (1948~1954년)",
+      "region": "제주특별자치도",
+      "address": "제주특별자치도 제주시 조천읍 북촌로 2-1",
+      "lat": 33.5529,
+      "lng": 126.7189,
+      "short_description": "1948년 4월 3일 시작된 제주 4·3 사건 당시 북촌리에서 발생한 집단 학살의 현장. 마을 주민 300여 명이 희생됐으며 현재 기념관과 위령비가 조성돼 있다.",
+      "story_summary": "1949년 1월 17일, 북촌리 주민들은 마을 초등학교 운동장에 집결하라는 명령을 받았다. 그리고 그날 하루 동안 300명 이상이 이름도 모른 채 희생됐다. 생존자들은 수십 년간 이 사실을 입 밖에도 낼 수 없었다. 2003년 노무현 대통령이 국가 공식 사과를 했고, 2024년에야 국가기념일로 지정됐다. 잊혀지지 않기 위해 살아남은 자들이 수십 년을 싸웠다.",
+      "hook_sentence": "수십 년간 말할 수 없었던 섬의 비밀",
+      "related_people": [],
+      "related_events": [
+        "제주 4·3 사건(1948~1954)",
+        "북촌리 학살(1949.1.17)",
+        "노무현 대통령 공식 사과(2003)",
+        "국가기념일 지정(2024)"
+      ],
+      "visitable": true,
+      "source_urls": [
+        "https://jeju43peace.or.kr"
+      ],
+      "data_confidence": "high",
+      "place_id": "GK-JJ-DOK-0001",
+      "period_category": "현대",
+      "location_marker_type": "exact",
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-05T23:10:42"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      },
+      "category_main": "역사",
+      "category_sub": "독립운동/근현대",
+      "category_detail": "제주 4.3 북촌리 집단학살 현장",
+      "confidence": "high",
+      "confidence_reason": "",
+      "tags": [
+        "현대",
+        "제주4.3",
+        "학살",
+        "민주화",
+        "제주",
+        "근현대"
+      ],
+      "needs_geocoding": false
+    },
+    {
+      "id": "h029",
+      "name": "고창 고인돌 유적",
+      "category": "고인돌",
+      "period": "청동기시대 (기원전 1000년~기원전 300년경)",
+      "region": "전라북도",
+      "address": "전라북도 고창군 고창읍 도산리 산 4",
+      "lat": 35.437,
+      "lng": 126.7091,
+      "short_description": "죽림리·도산리 일대 447기의 고인돌이 분포한 세계 최대 군집 중 하나. 탁자식·바둑판식·개석식 등 다양한 형식이 한 곳에 공존해 고인돌 변천사를 연구할 수 있는 곳이다.",
+      "story_summary": "고창 고인돌 군은 언덕 하나에 다양한 형태의 고인돌이 섞여 있다. 탁자처럼 생긴 것, 바둑판 모양인 것, 덮개돌만 남은 것. 학자들은 이것이 시대와 지역에 따라 고인돌 양식이 변화해온 과정을 보여준다고 설명한다. 한 공간에서 청동기 무덤의 진화사를 볼 수 있는 희귀한 현장이다.",
+      "hook_sentence": "한 언덕 위에 청동기 무덤의 진화사가 있다",
+      "related_people": [],
+      "related_events": [
+        "유네스코 세계유산 등재(2000)"
+      ],
+      "visitable": true,
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1135500010000"
+      ],
+      "data_confidence": "high",
+      "place_id": "GK-JB-GID-0001",
+      "period_category": "선사",
+      "location_marker_type": "exact",
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-05T23:10:42"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      },
+      "category_main": "역사",
+      "category_sub": "고인돌/선사유적",
+      "category_detail": "다양한 형식 고인돌 군집지",
+      "confidence": "high",
+      "confidence_reason": "",
+      "tags": [
+        "청동기시대",
+        "고인돌",
+        "선사유적",
+        "유네스코",
+        "전북",
+        "고창"
+      ],
+      "needs_geocoding": false
+    },
+    {
+      "id": "h030",
+      "name": "낙안읍성",
+      "category": "성곽",
+      "period": "조선시대 (1397년 초축)",
+      "region": "전라남도",
+      "address": "전라남도 순천시 낙안면 충민길 30",
+      "lat": 34.9834,
+      "lng": 127.3632,
+      "short_description": "조선시대 지방 행정 단위인 읍성이 원형에 가깝게 보존된 곳. 성 안에 주민이 실제 거주하는 민속 마을로도 유명하며 임경업 장군이 군수로 재임하며 성을 정비했다는 기록이 있다.",
+      "story_summary": "낙안읍성은 성곽이 완성된 곳이 아니라 지금도 사람이 살고 있는 마을이다. 성 안에 수십 세대가 초가집에 거주하며 이 공간을 유지한다. 임경업 장군이 군수 시절 성을 확장했다는 기록이 남아 있다. 조선시대 지방 행정과 주거 문화를 실제 생활 공간에서 체험할 수 있는 유일한 읍성이라는 점에서 특별하다.",
+      "hook_sentence": "지금도 사람이 사는 600년 된 성곽 마을",
+      "related_people": [
+        "임경업"
+      ],
+      "related_events": [
+        "낙안읍성 초축(1397)",
+        "임경업 군수 재임 및 성 정비(1626~1628)"
+      ],
+      "visitable": true,
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1123400010000"
+      ],
+      "data_confidence": "high",
+      "place_id": "GK-JN-SEO-0001",
+      "period_category": "조선 전기",
+      "location_marker_type": "entrance",
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-05T23:10:42"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      },
+      "category_main": "역사",
+      "category_sub": "성곽/산성",
+      "category_detail": "주민 거주 조선 읍성",
+      "confidence": "high",
+      "confidence_reason": "",
+      "tags": [
+        "조선전기",
+        "임경업",
+        "읍성",
+        "성곽",
+        "민속마을",
+        "전남",
+        "순천"
+      ],
+      "needs_geocoding": false
+    },
+    {
+      "name": "창경궁",
+      "category": "궁궐",
+      "period": "조선시대 (1483년 창건)",
+      "period_category": "조선 전기",
+      "region": "서울특별시",
+      "address": "서울특별시 종로구 창경궁로 185",
+      "location_marker_type": "entrance",
+      "lat": 37.5784,
+      "lng": 126.996,
+      "short_description": "조선 성종이 세 명의 대비를 위해 1483년 창건한 궁궐. 일제강점기 동물원으로 격하되었다가 1983년 복원되었으며, 창덕궁과 하나의 궁역을 이룬다.",
+      "source_urls": [
+        "https://cgg.cha.go.kr/"
+      ],
+      "data_confidence": "high",
+      "place_id": "GK-SE-GUN-0003",
+      "category_main": "역사",
+      "category_sub": "궁궐/왕실",
+      "category_detail": "조선 성종이 세 명의 대비를 위해 1483년 창건한 궁궐",
+      "confidence": "high",
+      "confidence_reason": "",
+      "tags": [
+        "조선전기",
+        "성종",
+        "궁궐",
+        "서울",
+        "일제강점기"
+      ],
+      "needs_geocoding": false,
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-05T23:10:42"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      }
+    },
+    {
+      "name": "덕수궁",
+      "category": "궁궐",
+      "period": "조선 후기 · 대한제국기 (1897년 황궁)",
+      "period_category": "조선 후기",
+      "region": "서울특별시",
+      "address": "서울특별시 중구 세종대로 99",
+      "location_marker_type": "entrance",
+      "lat": 37.5653,
+      "lng": 126.9748,
+      "short_description": "고종이 아관파천 후 환궁하여 대한제국을 선포한 궁궐. 석조전 등 근대 서양식 건물과 전통 전각이 공존하며 수문장 교대식이 매일 열린다.",
+      "source_urls": [
+        "https://www.deoksugung.go.kr/"
+      ],
+      "data_confidence": "high",
+      "place_id": "GK-SE-GUN-0004",
+      "category_main": "역사",
+      "category_sub": "궁궐/왕실",
+      "category_detail": "고종이 아관파천 후 환궁하여 대한제국을 선포한 궁궐",
+      "confidence": "high",
+      "confidence_reason": "",
+      "tags": [
+        "조선후기",
+        "고종",
+        "대한제국",
+        "궁궐",
+        "서울"
+      ],
+      "needs_geocoding": false,
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-05T23:10:42"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      }
+    },
+    {
+      "name": "경희궁",
+      "category": "궁궐",
+      "period": "조선 후기 (1617년 창건)",
+      "period_category": "조선 후기",
+      "region": "서울특별시",
+      "address": "서울특별시 종로구 새문안로 45",
+      "location_marker_type": "entrance",
+      "lat": 37.5717,
+      "lng": 126.9689,
+      "short_description": "광해군이 창건하여 인조부터 철종까지 10명의 왕이 사용한 서궐. 일제강점기 대부분 훼철되었으며 현재 일부가 복원되어 서울역사박물관 옆에 위치한다.",
+      "source_urls": [
+        "https://heritage.go.kr/"
+      ],
+      "data_confidence": "medium",
+      "place_id": "GK-SE-GUN-0005",
+      "category_main": "역사",
+      "category_sub": "궁궐/왕실",
+      "category_detail": "광해군이 창건하여 인조부터 철종까지 10명의 왕이 사용한 서궐",
+      "confidence": "low",
+      "confidence_reason": "",
+      "tags": [
+        "조선후기",
+        "광해군",
+        "궁궐",
+        "서울"
+      ],
+      "needs_geocoding": false,
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "waiting",
+        "content_status": "waiting",
+        "last_updated": "2026-05-05T23:01:58"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      }
+    },
+    {
+      "name": "종묘",
+      "category": "왕릉",
+      "period": "조선 전기 (1395년 창건, 유네스코)",
+      "period_category": "조선 전기",
+      "region": "서울특별시",
+      "address": "서울특별시 종로구 종로 157",
+      "location_marker_type": "entrance",
+      "lat": 37.5715,
+      "lng": 126.9897,
+      "short_description": "조선 역대 왕과 왕비의 신위를 모신 사당. 세계에서 가장 긴 목조 건물 중 하나인 정전이 있으며 종묘제례악은 유네스코 인류무형유산이다.",
+      "source_urls": [
+        "https://jm.cha.go.kr/"
+      ],
+      "data_confidence": "high",
+      "place_id": "GK-SE-RYU-0001",
+      "category_main": "역사",
+      "category_sub": "궁궐/왕실",
+      "category_detail": "조선 역대 왕과 왕비의 신위를 모신 사당",
+      "confidence": "high",
+      "confidence_reason": "",
+      "tags": [
+        "조선전기",
+        "태조",
+        "왕실",
+        "유네스코",
+        "서울",
+        "제례"
+      ],
+      "needs_geocoding": false,
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-05T23:10:42"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      }
+    },
+    {
+      "name": "사직단",
+      "category": "비석",
+      "period": "조선 전기 (1395년 창건)",
+      "period_category": "조선 전기",
+      "region": "서울특별시",
+      "address": "서울특별시 종로구 사직로 89",
+      "location_marker_type": "exact",
+      "lat": 37.5763,
+      "lng": 126.9697,
+      "short_description": "토지신과 곡식신에게 제사를 지내던 조선의 국가 제례 시설. 조선 건국과 함께 경복궁 서쪽에 설치되었으며 현재 사직공원 내에 복원되어 있다.",
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1111100800000"
+      ],
+      "data_confidence": "medium",
+      "place_id": "GK-SE-BIS-0002",
+      "category_main": "역사",
+      "category_sub": "비석/기념유산",
+      "category_detail": "토지신과 곡식신에게 제사를 지내던 조선의 국가 제례 시설",
+      "confidence": "low",
+      "confidence_reason": "",
+      "tags": [
+        "조선전기",
+        "제례",
+        "서울"
+      ],
+      "needs_geocoding": false,
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "waiting",
+        "content_status": "waiting",
+        "last_updated": "2026-05-05T23:01:58"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      }
+    },
+    {
+      "name": "성균관 문묘",
+      "category": "향교",
+      "period": "조선 전기 (1398년 창건)",
+      "period_category": "조선 전기",
+      "region": "서울특별시",
+      "address": "서울특별시 종로구 성균관로 31",
+      "location_marker_type": "entrance",
+      "lat": 37.5827,
+      "lng": 126.9983,
+      "short_description": "공자와 유교 성현을 모신 문묘와 조선 최고 국립 교육 기관인 성균관이 함께 있는 유적. 명륜당·대성전 등 조선시대 건물이 성균관대학교 내에 보존되어 있다.",
+      "source_urls": [
+        "https://encykorea.aks.ac.kr/Article/E0027994"
+      ],
+      "data_confidence": "medium",
+      "place_id": "GK-SE-HYO-0001",
+      "category_main": "역사",
+      "category_sub": "고택/서원/향교",
+      "category_detail": "공자와 유교 성현을 모신 문묘와 조선 최고 국립 교육 기관인 성균관이 함께 있는 유적",
+      "confidence": "low",
+      "confidence_reason": "",
+      "tags": [
+        "조선전기",
+        "유교",
+        "성균관",
+        "서울",
+        "교육"
+      ],
+      "needs_geocoding": false,
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "waiting",
+        "content_status": "waiting",
+        "last_updated": "2026-05-05T23:01:58"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      }
+    },
+    {
+      "name": "환구단",
+      "category": "과학유적",
+      "period": "근대 (1897년 건립)",
+      "period_category": "근대",
+      "region": "서울특별시",
+      "address": "서울특별시 중구 소공로 112",
+      "location_marker_type": "exact",
+      "lat": 37.5644,
+      "lng": 126.9815,
+      "short_description": "고종이 황제 즉위식과 하늘에 제사를 지내기 위해 1897년 건립한 제단. 일제강점기 대부분 철거되어 현재 황궁우와 석고만 남아 조선호텔 경내에 있다.",
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1111100980000"
+      ],
+      "data_confidence": "medium",
+      "place_id": "GK-SE-GWA-0001",
+      "category_main": "역사",
+      "category_sub": "비석/기념유산",
+      "category_detail": "고종이 황제 즉위식과 하늘에 제사를 지내기 위해 1897년 건립한 제단",
+      "confidence": "low",
+      "confidence_reason": "",
+      "tags": [
+        "근대",
+        "고종",
+        "대한제국",
+        "서울"
+      ],
+      "needs_geocoding": false,
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "waiting",
+        "content_status": "waiting",
+        "last_updated": "2026-05-05T23:01:58"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      }
+    },
+    {
+      "name": "숭례문",
+      "category": "성곽",
+      "period": "조선 전기 (1395년 건립, 국보)",
+      "period_category": "조선 전기",
+      "region": "서울특별시",
+      "address": "서울특별시 중구 세종대로 40",
+      "location_marker_type": "exact",
+      "lat": 37.5598,
+      "lng": 126.9753,
+      "short_description": "한양도성 남쪽 대문으로 국보 제1호. 1396년 완공된 2층 누각 형식 목조 성문으로 2008년 방화 소실 후 2013년 복원되었다.",
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1111100010000"
+      ],
+      "data_confidence": "high",
+      "place_id": "GK-SE-SEO-0002",
+      "category_main": "역사",
+      "category_sub": "성곽/산성",
+      "category_detail": "한양도성 남쪽 대문으로 국보 제1호",
+      "confidence": "high",
+      "confidence_reason": "",
+      "tags": [
+        "조선전기",
+        "국보",
+        "서울",
+        "한양도성",
+        "성문"
+      ],
+      "needs_geocoding": false,
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-05T23:10:42"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      }
+    },
+    {
+      "name": "흥인지문",
+      "category": "성곽",
+      "period": "조선 전기 (1398년 건립, 보물)",
+      "period_category": "조선 전기",
+      "region": "서울특별시",
+      "address": "서울특별시 종로구 종로 288",
+      "location_marker_type": "exact",
+      "lat": 37.5712,
+      "lng": 127.0096,
+      "short_description": "한양도성 동쪽 대문으로 보물 제1호. 속칭 동대문으로 불리며 현존 한양도성 성문 중 유일하게 반원형 옹성을 갖춘 성문이다.",
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1121100010000"
+      ],
+      "data_confidence": "high",
+      "place_id": "GK-SE-SEO-0003",
+      "category_main": "역사",
+      "category_sub": "성곽/산성",
+      "category_detail": "한양도성 동쪽 대문으로 보물 제1호",
+      "confidence": "high",
+      "confidence_reason": "",
+      "tags": [
+        "조선전기",
+        "보물",
+        "동대문",
+        "서울",
+        "한양도성"
+      ],
+      "needs_geocoding": false,
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-05T23:10:42"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      }
+    },
+    {
+      "name": "북한산성",
+      "category": "산성",
+      "period": "조선 후기 (1711년 완공)",
+      "period_category": "조선 후기",
+      "region": "서울특별시",
+      "address": "경기도 고양시 덕양구 대서문길 375",
+      "location_marker_type": "entrance",
+      "lat": 37.6275,
+      "lng": 127.0087,
+      "short_description": "숙종 37년(1711) 완성된 총 길이 12.7km의 조선 후기 산성. 북한산 국립공원 내에 위치하며 서울 도성을 보완하는 방어 기능을 담당했다.",
+      "source_urls": [
+        "https://heritage.go.kr/"
+      ],
+      "data_confidence": "high",
+      "place_id": "GK-SE-SAN-0001",
+      "category_main": "역사",
+      "category_sub": "성곽/산성",
+      "category_detail": "숙종 37년(1711) 완성된 총 길이 12",
+      "confidence": "high",
+      "confidence_reason": "",
+      "tags": [
+        "조선후기",
+        "숙종",
+        "산성",
+        "서울",
+        "국립공원"
+      ],
+      "needs_geocoding": false,
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-05T23:10:42"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      }
+    },
+    {
+      "name": "서울 암사동 유적",
+      "category": "고인돌",
+      "period": "신석기시대 (기원전 4000~3000년경)",
+      "period_category": "선사",
+      "region": "서울특별시",
+      "address": "서울특별시 강동구 올림픽로 875",
+      "location_marker_type": "entrance",
+      "lat": 37.5511,
+      "lng": 127.1297,
+      "short_description": "한강변 신석기시대 집터 유적으로 사적 제267호. 약 6,000년 전 빗살무늬토기인들의 취락지로 원형 복원된 움집과 선사박물관이 함께 운영된다.",
+      "source_urls": [
+        "https://sunsa.gangdong.go.kr/",
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1331102670000"
+      ],
+      "data_confidence": "high",
+      "place_id": "GK-SE-GID-0001",
+      "category_main": "역사",
+      "category_sub": "고인돌/선사유적",
+      "category_detail": "한강변 신석기시대 집터 유적으로 사적 제267호",
+      "confidence": "high",
+      "confidence_reason": "",
+      "tags": [
+        "선사시대",
+        "신석기",
+        "빗살무늬토기",
+        "서울",
+        "한강"
+      ],
+      "needs_geocoding": false,
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-05T23:10:42"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      }
+    },
+    {
+      "name": "풍납토성",
+      "category": "성곽",
+      "period": "삼국시대 백제 (기원전 1~기원후 4세기)",
+      "period_category": "삼국",
+      "region": "서울특별시",
+      "address": "서울특별시 송파구 풍납동 73-1",
+      "location_marker_type": "exact",
+      "lat": 37.5303,
+      "lng": 127.1162,
+      "short_description": "한강변 백제 초기 왕성 추정 토성으로 사적 제11호. 둘레 약 3.5km의 평지 토성으로 발굴 조사에서 왕실 관련 유물이 다수 출토되었다.",
+      "source_urls": [
+        "https://encykorea.aks.ac.kr/Article/E0005300"
+      ],
+      "data_confidence": "high",
+      "place_id": "GK-SE-SEO-0004",
+      "category_main": "역사",
+      "category_sub": "성곽/산성",
+      "category_detail": "한강변 백제 초기 왕성 추정 토성으로 사적 제11호",
+      "confidence": "high",
+      "confidence_reason": "",
+      "tags": [
+        "삼국시대",
+        "백제",
+        "한성백제",
+        "서울",
+        "한강"
+      ],
+      "needs_geocoding": false,
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-05T23:10:42"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      }
+    },
+    {
+      "name": "몽촌토성",
+      "category": "성곽",
+      "period": "삼국시대 백제 (3~4세기)",
+      "period_category": "삼국",
+      "region": "서울특별시",
+      "address": "서울특별시 송파구 올림픽로 424",
+      "location_marker_type": "entrance",
+      "lat": 37.5196,
+      "lng": 127.1226,
+      "short_description": "올림픽공원 내 백제 한성기 토성으로 사적 제297호. 1988년 서울올림픽 준비 과정에서 발굴 조사되어 백제 생활상을 밝혔다.",
+      "source_urls": [
+        "https://heritage.go.kr/"
+      ],
+      "data_confidence": "high",
+      "place_id": "GK-SE-SEO-0005",
+      "category_main": "역사",
+      "category_sub": "성곽/산성",
+      "category_detail": "올림픽공원 내 백제 한성기 토성으로 사적 제297호",
+      "confidence": "high",
+      "confidence_reason": "",
+      "tags": [
+        "삼국시대",
+        "백제",
+        "한성백제",
+        "서울",
+        "올림픽공원"
+      ],
+      "needs_geocoding": false,
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-05T23:10:42"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      }
+    },
+    {
+      "name": "서울 선릉·정릉",
+      "category": "왕릉",
+      "period": "조선 전기 (1495년·1562년 조성)",
+      "period_category": "조선 전기",
+      "region": "서울특별시",
+      "address": "서울특별시 강남구 선릉로100길 1",
+      "location_marker_type": "entrance",
+      "lat": 37.507,
+      "lng": 127.0522,
+      "short_description": "강남 도심 속 조선 제9대 성종(선릉)과 제11대 중종(정릉)의 왕릉. 유네스코 세계유산으로 등재된 조선왕릉의 일부다.",
+      "source_urls": [
+        "https://royaltombs.cha.go.kr/"
+      ],
+      "data_confidence": "high",
+      "place_id": "GK-SE-RYU-0002",
+      "category_main": "역사",
+      "category_sub": "궁궐/왕실",
+      "category_detail": "강남 도심 속 조선 제9대 성종(선릉)과 제11대 중종(정릉)의 왕릉",
+      "confidence": "high",
+      "confidence_reason": "",
+      "tags": [
+        "조선전기",
+        "성종",
+        "중종",
+        "왕릉",
+        "유네스코",
+        "강남"
+      ],
+      "needs_geocoding": false,
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-05T23:10:42"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      }
+    },
+    {
+      "name": "서울 태릉·강릉",
+      "category": "왕릉",
+      "period": "조선 전기 (1565년·1569년 조성)",
+      "period_category": "조선 전기",
+      "region": "서울특별시",
+      "address": "서울특별시 노원구 화랑로 681",
+      "location_marker_type": "entrance",
+      "lat": 37.6259,
+      "lng": 127.0834,
+      "short_description": "중종의 계비 문정왕후의 태릉과 명종·인순왕후의 강릉이 있는 조선왕릉. 유네스코 세계유산으로 등재되어 있다.",
+      "source_urls": [
+        "https://royaltombs.cha.go.kr/"
+      ],
+      "data_confidence": "medium",
+      "place_id": "GK-SE-RYU-0003",
+      "category_main": "역사",
+      "category_sub": "궁궐/왕실",
+      "category_detail": "중종의 계비 문정왕후의 태릉과 명종·인순왕후의 강릉이 있는 조선왕릉",
+      "confidence": "low",
+      "confidence_reason": "",
+      "tags": [
+        "조선전기",
+        "문정왕후",
+        "명종",
+        "왕릉",
+        "유네스코",
+        "노원"
+      ],
+      "needs_geocoding": false,
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "waiting",
+        "content_status": "waiting",
+        "last_updated": "2026-05-05T23:01:58"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      }
+    },
+    {
+      "name": "서울 헌릉·인릉",
+      "category": "왕릉",
+      "period": "조선 전기·후기 (1420년·1835년 조성)",
+      "period_category": "조선 전기",
+      "region": "서울특별시",
+      "address": "서울특별시 서초구 헌인릉길 36-10",
+      "location_marker_type": "entrance",
+      "lat": 37.4523,
+      "lng": 127.0707,
+      "short_description": "조선 태종(헌릉)과 순조(인릉)의 왕릉. 사적 제194호로 서초구 내곡동 청계산 자락에 위치한다.",
+      "source_urls": [
+        "https://royaltombs.cha.go.kr/"
+      ],
+      "data_confidence": "medium",
+      "place_id": "GK-SE-RYU-0004",
+      "category_main": "역사",
+      "category_sub": "궁궐/왕실",
+      "category_detail": "조선 태종(헌릉)과 순조(인릉)의 왕릉",
+      "confidence": "low",
+      "confidence_reason": "",
+      "tags": [
+        "조선전기",
+        "태종",
+        "순조",
+        "왕릉",
+        "서초"
+      ],
+      "needs_geocoding": false,
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "waiting",
+        "content_status": "waiting",
+        "last_updated": "2026-05-05T23:01:58"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      }
+    },
+    {
+      "name": "절두산 순교성지",
+      "category": "독립운동유적",
+      "period": "근대 (1866년 병인박해)",
+      "period_category": "근대",
+      "region": "서울특별시",
+      "address": "서울특별시 마포구 토정로 6",
+      "location_marker_type": "exact",
+      "lat": 37.5491,
+      "lng": 126.9048,
+      "short_description": "1866년 병인박해 때 수천 명의 천주교 신자들이 순교한 한강변 언덕. 현재 순교 박물관과 기념관이 운영된다.",
+      "source_urls": [
+        "http://www.jeoldusan.or.kr/"
+      ],
+      "data_confidence": "high",
+      "place_id": "GK-SE-DOK-0005",
+      "category_main": "역사",
+      "category_sub": "독립운동/근현대",
+      "category_detail": "1866년 병인박해 때 수천 명의 천주교 신자들이 순교한 한강변 언덕",
+      "confidence": "high",
+      "confidence_reason": "",
+      "tags": [
+        "근대",
+        "병인박해",
+        "천주교",
+        "순교",
+        "서울",
+        "마포"
+      ],
+      "needs_geocoding": false,
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-05T23:10:42"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      }
+    },
+    {
+      "name": "봉은사",
+      "category": "사찰",
+      "period": "통일신라 (794년 창건)",
+      "period_category": "통일신라",
+      "region": "서울특별시",
+      "address": "서울특별시 강남구 봉은사로 531",
+      "location_marker_type": "entrance",
+      "lat": 37.5093,
+      "lng": 127.0543,
+      "short_description": "794년 창건된 서울 강남 대표 사찰. 조선 명종 때 선종 수사찰로 지정되어 중흥했으며 강남 COEX 인근 도심 속 고찰이다.",
+      "source_urls": [
+        "http://www.bongeunsa.org/"
+      ],
+      "data_confidence": "high",
+      "place_id": "GK-SE-SAJ-0001",
+      "category_main": "역사",
+      "category_sub": "사찰/불교유산",
+      "category_detail": "794년 창건된 서울 강남 대표 사찰",
+      "confidence": "high",
+      "confidence_reason": "",
+      "tags": [
+        "통일신라",
+        "사찰",
+        "강남",
+        "서울"
+      ],
+      "needs_geocoding": false,
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-05T23:10:42"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      }
+    },
+    {
+      "name": "백범 김구 기념관",
+      "category": "독립운동유적",
+      "period": "근대 (임시정부 주석 김구)",
+      "period_category": "근대",
+      "region": "서울특별시",
+      "address": "서울특별시 용산구 임정로 26",
+      "location_marker_type": "entrance",
+      "lat": 37.5389,
+      "lng": 126.9606,
+      "short_description": "대한민국 임시정부 주석 김구 선생의 삶과 독립운동을 기리는 기념관. 효창공원 내 선생 묘소 인근에 위치하며 임시정부 관련 자료와 유품을 전시한다.",
+      "source_urls": [
+        "https://www.kimkoomuseum.org/"
+      ],
+      "data_confidence": "high",
+      "place_id": "GK-SE-DOK-0006",
+      "category_main": "역사",
+      "category_sub": "독립운동/근현대",
+      "category_detail": "대한민국 임시정부 주석 김구 선생의 삶과 독립운동을 기리는 기념관",
+      "confidence": "high",
+      "confidence_reason": "",
+      "tags": [
+        "근대",
+        "김구",
+        "독립운동",
+        "임시정부",
+        "서울",
+        "용산"
+      ],
+      "needs_geocoding": false,
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-05T23:10:42"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      }
+    },
+    {
+      "name": "윤봉길 의사 기념관",
+      "category": "독립운동유적",
+      "period": "근대 (1932년 훙커우공원 의거)",
+      "period_category": "근대",
+      "region": "서울특별시",
+      "address": "서울특별시 서초구 매헌로 99",
+      "location_marker_type": "entrance",
+      "lat": 37.4684,
+      "lng": 127.0343,
+      "short_description": "1932년 중국 훙커우공원에서 의거를 일으킨 윤봉길 의사를 기리는 기념관. 양재동 매헌시민의 숲 입구에 위치하며 유품과 의거 자료를 전시한다.",
+      "source_urls": [
+        "http://www.yunbonggil.or.kr/"
+      ],
+      "data_confidence": "high",
+      "place_id": "GK-SE-DOK-0007",
+      "category_main": "역사",
+      "category_sub": "독립운동/근현대",
+      "category_detail": "1932년 중국 훙커우공원에서 의거를 일으킨 윤봉길 의사를 기리는 기념관",
+      "confidence": "high",
+      "confidence_reason": "",
+      "tags": [
+        "근대",
+        "윤봉길",
+        "독립운동",
+        "의거",
+        "서울",
+        "서초"
+      ],
+      "needs_geocoding": false,
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-05T23:10:42"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      }
+    },
+    {
+      "name": "낙성대 강감찬 유적",
+      "category": "생활유적",
+      "period": "고려 (983년 강감찬 출생)",
+      "period_category": "고려",
+      "region": "서울특별시",
+      "address": "서울특별시 관악구 낙성대로 77",
+      "location_marker_type": "exact",
+      "lat": 37.4749,
+      "lng": 126.9632,
+      "short_description": "1019년 귀주대첩으로 거란군을 물리친 고려 명장 강감찬 장군의 생가터. 낙성대공원 내에 사당과 삼층석탑이 있다.",
+      "source_urls": [
+        "https://encykorea.aks.ac.kr/Article/E0011608"
+      ],
+      "data_confidence": "high",
+      "place_id": "GK-SE-SAE-0001",
+      "category_main": "역사",
+      "category_sub": "고택/서원/향교",
+      "category_detail": "1019년 귀주대첩으로 거란군을 물리친 고려 명장 강감찬 장군의 생가터",
+      "confidence": "high",
+      "confidence_reason": "",
+      "tags": [
+        "고려",
+        "강감찬",
+        "귀주대첩",
+        "서울",
+        "관악"
+      ],
+      "needs_geocoding": false,
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-05T23:10:42"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      }
+    }
+  ]
 }

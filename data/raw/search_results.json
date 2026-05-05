@@ -1,4 +1,12 @@
 {
   "_comment": "서치 원본 결과",
-  "results": []
+  "results": [
+    {
+      "run_time": "2026-05-05T23:01:58",
+      "mode": "A_MODE_REALTIME_SEARCH",
+      "region": "서울",
+      "collected": 21,
+      "total": 51
+    }
+  ]
 }
