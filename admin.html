@@ -47,7 +47,7 @@
 .kpi-lbl   { font-size:12px; color:var(--muted); font-weight:600; }
 
 /* 모드 */
-.mode-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:10px; }
+.mode-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:10px; }
 .mode-btn {
   background:var(--surface2); border:2px solid var(--border);
   border-radius:12px; padding:14px; cursor:pointer; transition:all .2s; text-align:left;
@@ -184,27 +184,24 @@
     <div class="mode-grid">
       <div class="mode-btn" id="mode-a" onclick="setMode('A')">
         <div class="mode-key" style="color:#2563eb">A</div>
-        <div class="mode-desc">실시간 서치 · 8분 간격</div>
-        <div class="mode-tags"><span class="mt-s">서치만</span></div>
+        <div class="mode-desc" style="font-weight:700;">빠른 서치 전용</div>
+        <div class="mode-desc" style="margin-top:2px;">8분 간격 · 초기 마커 확보용</div>
+        <div class="mode-tags" style="margin-top:6px;"><span class="mt-s">서치만</span></div>
         <div class="mode-status"><span class="status-dot dot-off" id="dot-a"></span><span id="lbl-a" style="color:var(--muted)">대기</span></div>
       </div>
       <div class="mode-btn" id="mode-b" onclick="setMode('B')" style="border-color:rgba(74,140,92,.35);background:rgba(74,140,92,.04);">
         <div class="mode-key" style="color:#4a8c5c">B</div>
-        <div class="mode-desc">안정 서치 · 30분 · <b style="color:#4a8c5c">기본 모드</b></div>
-        <div class="mode-tags"><span class="mt-s">서치만</span></div>
+        <div class="mode-desc" style="font-weight:700;">품질 중심 서치 <span style="color:#4a8c5c;font-size:10px;">기본</span></div>
+        <div class="mode-desc" style="margin-top:2px;">30분 간격 · 주소·좌표·카테고리 보강</div>
+        <div class="mode-tags" style="margin-top:6px;"><span class="mt-s">서치만</span></div>
         <div class="mode-status"><span class="status-dot dot-off" id="dot-b"></span><span id="lbl-b" style="color:var(--muted)">대기</span></div>
       </div>
       <div class="mode-btn" id="mode-c" onclick="setMode('C')">
         <div class="mode-key" style="color:#c8860a">C</div>
-        <div class="mode-desc">콘텐츠 전용 · 서치 없음 · 5개/회</div>
-        <div class="mode-tags"><span class="mt-c">콘텐츠만</span></div>
+        <div class="mode-desc" style="font-weight:700;">숏츠 콘텐츠 전용</div>
+        <div class="mode-desc" style="margin-top:2px;">수동 실행 · 대본·후킹·썸네일·캡션</div>
+        <div class="mode-tags" style="margin-top:6px;"><span class="mt-c">숏츠만</span></div>
         <div class="mode-status"><span class="status-dot dot-off" id="dot-c"></span><span id="lbl-c" style="color:var(--muted)">대기</span></div>
-      </div>
-      <div class="mode-btn" id="mode-d" onclick="setMode('D')">
-        <div class="mode-key" style="color:#1e3a8a">D</div>
-        <div class="mode-desc">서치+콘텐츠 · 30분 · 집중 운영</div>
-        <div class="mode-tags"><span class="mt-s">서치</span><span class="mt-c">콘텐츠</span></div>
-        <div class="mode-status"><span class="status-dot dot-off" id="dot-d"></span><span id="lbl-d" style="color:var(--muted)">대기</span></div>
       </div>
     </div>
   </div>
@@ -368,7 +365,7 @@ function render() {
 
 function setMode(m) {
   activeMode = activeMode === m ? null : m;
-  ['A','B','C','D'].forEach(k => {
+  ['A','B','C'].forEach(k => {
     const btn = document.getElementById('mode-'+k.toLowerCase());
     const dot = document.getElementById('dot-'+k.toLowerCase());
     const lbl = document.getElementById('lbl-'+k.toLowerCase());

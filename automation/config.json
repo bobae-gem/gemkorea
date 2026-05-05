@@ -1,36 +1,37 @@
 {
   "_comment": "겜코리아 자동화 실행 모드 설정",
-  "_version": "2.0",
+  "_version": "3.0",
   "_updated": "2026-05-06",
 
   "architecture": {
-    "principle": "서치팀과 콘텐츠팀은 독립적으로 작동한다",
+    "principle": "서치팀과 숏츠팀은 독립적으로 운영한다",
     "search_team": "researcher → data_organizer → category_ai → map_marker",
-    "content_team": "shorts_ai → review_ai",
+    "shorts_team": "shorts_ai → review_ai",
     "rules": [
       "콘텐츠팀은 직접 서치하지 않는다",
-      "콘텐츠팀은 기존 heritage_all.json 데이터만 사용한다",
+      "콘텐츠팀은 heritage_all.json 기존 데이터만 사용한다",
       "콘텐츠는 삭제하지 않고 자산으로 저장한다",
+      "중복 장소는 병합 관리한다",
       "대표 승인 전 업로드 금지"
     ]
   },
 
   "modes": {
 
-    "A_MODE_REALTIME_SEARCH": {
-      "name": "A모드 — 실시간 서치",
+    "A_MODE_FAST_SEARCH": {
+      "name": "A모드 — 빠른 서치 전용",
       "interval_minutes": 8,
       "search_enabled": true,
       "content_enabled": false,
-      "content_limit_per_run": 0,
       "default_mode": false,
-      "purpose": "지도 마커 후보를 빠르게 확보",
+      "purpose": "초기 마커 확보용. 가능한 많은 역사문화유산 데이터를 빠르게 수집한다.",
       "pipeline_steps": [
         "researcher",
         "data_organizer",
         "category_ai",
         "map_marker"
       ],
+      "quality_tasks": [],
       "status_transitions": {
         "on_search_complete": "data_status → complete",
         "on_map_ready": "map_status → ready",
@@ -38,71 +39,52 @@
       }
     },
 
-    "B_MODE_INTERVAL_SEARCH": {
-      "name": "B모드 — 안정 서치 (기본 운영 모드)",
+    "B_MODE_QUALITY_SEARCH": {
+      "name": "B모드 — 품질 중심 서치 (기본 운영 모드)",
       "interval_minutes": 30,
       "search_enabled": true,
       "content_enabled": false,
-      "content_limit_per_run": 0,
       "default_mode": true,
-      "purpose": "안정적으로 마커 후보 축적. 평상시 기본 운영 모드.",
+      "purpose": "공식 출처 기반 데이터 품질 강화. 기본 운영 모드.",
       "pipeline_steps": [
         "researcher",
         "data_organizer",
         "category_ai",
         "map_marker"
       ],
+      "quality_tasks": [
+        "중복 검토: place_id 기준 기존 데이터와 비교 병합",
+        "주소 보강: 지번 주소 → 도로명 주소로 교체",
+        "좌표 확인: 기존 좌표 정확도 재검토 (needs_geocoding 재판정)",
+        "카테고리 보강: category_sub·tags 누락 항목 보완"
+      ],
       "status_transitions": {
         "on_search_complete": "data_status → complete",
         "on_map_ready": "map_status → ready",
-        "on_no_coords": "map_status → geocoding_needed"
+        "on_no_coords": "map_status → geocoding_needed",
+        "on_quality_updated": "last_updated → 현재 시각"
       }
     },
 
-    "C_MODE_CONTENT_AUTOMATION": {
-      "name": "C모드 — 콘텐츠 생성 전용",
+    "C_MODE_SHORTS_AUTOMATION": {
+      "name": "C모드 — 숏츠 콘텐츠 생성 전용",
       "interval_minutes": null,
       "search_enabled": false,
       "content_enabled": true,
       "content_limit_per_run": 5,
       "default_mode": false,
-      "purpose": "기존 수집 데이터를 콘텐츠로 전환. 서치 없이 콘텐츠팀만 독립 실행.",
+      "purpose": "기존 데이터를 숏츠 콘텐츠로 전환. 서치 없이 독립 실행.",
       "pipeline_steps": [
         "shorts_ai",
         "review_ai"
       ],
-      "data_source": "heritage_all.json (기존 데이터)",
-      "content_conditions": {
-        "content_status": "waiting",
-        "data_status": "complete",
-        "map_status": ["ready", "published", "video_linked"],
-        "source_urls_required": true,
-        "data_confidence": ["high", "medium"],
-        "required_fields": ["name", "category", "period", "region", "short_description"]
-      },
-      "status_transitions": {
-        "on_content_start": "content_status → generating",
-        "on_content_done": "content_status → review_pending",
-        "on_review_approve": "content_status → created",
-        "on_review_revise_reject": "content_status → archived"
-      }
-    },
-
-    "D_MODE_SEARCH_AND_CONTENT": {
-      "name": "D모드 — 서치 + 콘텐츠 결합 (집중 운영)",
-      "interval_minutes": 30,
-      "search_enabled": true,
-      "content_enabled": true,
-      "content_limit_per_run": 5,
-      "default_mode": false,
-      "purpose": "서치와 콘텐츠 생성을 동시에. 집중 운영 시 사용하는 특수 모드.",
-      "pipeline_steps": [
-        "researcher",
-        "data_organizer",
-        "category_ai",
-        "map_marker",
-        "shorts_ai",
-        "review_ai"
+      "data_source": "heritage_all.json (기존 데이터만 사용)",
+      "generates": [
+        "숏츠 대본 (30초 / 60초)",
+        "후킹 문장 5개",
+        "썸네일 문구 5개",
+        "플랫폼별 캡션 (유튜브·인스타·틱톡·샤오홍슈)",
+        "해시태그"
       ],
       "content_conditions": {
         "content_status": "waiting",
@@ -112,16 +94,13 @@
         "data_confidence": ["high", "medium"],
         "required_fields": ["name", "category", "period", "region", "short_description"]
       },
-      "content_priority_order": [
+      "priority_order": [
         "data_confidence = high 우선",
         "source_urls 수 많은 것 우선",
         "period_category = 근대 / 조선 후기 우선",
         "tags 수 많은 것 우선"
       ],
       "status_transitions": {
-        "on_search_complete": "data_status → complete",
-        "on_map_ready": "map_status → ready",
-        "on_no_coords": "map_status → geocoding_needed",
         "on_content_start": "content_status → generating",
         "on_content_done": "content_status → review_pending",
         "on_review_approve": "content_status → created",
