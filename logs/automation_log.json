@@ -203,6 +203,19 @@
       "region": "자연·역사 전국",
       "new_collected": 16,
       "total": 286
+    },
+    {
+      "time": "2026-05-06T05:36:01",
+      "mode": "C",
+      "content_generated": 5,
+      "places": [
+        "GK-SE-SAN-0001",
+        "GK-SE-SEO-0004",
+        "GK-SE-SEO-0005",
+        "GK-SE-RYU-0002",
+        "GK-SE-DOK-0005"
+      ],
+      "total_scripts": 45
     }
   ]
 }
