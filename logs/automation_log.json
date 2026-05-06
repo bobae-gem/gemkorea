@@ -149,6 +149,14 @@
         "GK-IC-GUN-0001"
       ],
       "total_scripts": 25
+    },
+    {
+      "time": "2026-05-06T05:01:20",
+      "mode": "B",
+      "region": "경기·충남·전라·경상·강원",
+      "new_collected": 18,
+      "approved": 13,
+      "total": 229
     }
   ]
 }
