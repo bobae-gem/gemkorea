@@ -1737,8 +1737,8 @@
       "map_displayable": true,
       "data_status": "complete",
       "map_status": "published",
-      "content_status": "waiting",
-      "last_updated": "2026-05-05T23:10:42"
+      "content_status": "review_pending",
+      "last_updated": "2026-05-06T05:18:41"
     },
     "content_link": {
       "has_video": false,
@@ -4742,8 +4742,8 @@
       "map_displayable": true,
       "data_status": "complete",
       "map_status": "published",
-      "content_status": "waiting",
-      "last_updated": "2026-05-05T23:21:40"
+      "content_status": "review_pending",
+      "last_updated": "2026-05-06T05:18:41"
     },
     "content_link": {
       "has_video": false,
@@ -6877,8 +6877,8 @@
       "map_displayable": true,
       "data_status": "complete",
       "map_status": "published",
-      "content_status": "waiting",
-      "last_updated": "2026-05-06T00:47:07"
+      "content_status": "review_pending",
+      "last_updated": "2026-05-06T05:18:41"
     },
     "content_link": {
       "has_video": false,
@@ -11257,8 +11257,8 @@
       "map_displayable": true,
       "data_status": "complete",
       "map_status": "published",
-      "content_status": "waiting",
-      "last_updated": "2026-05-06T10:00:00"
+      "content_status": "review_pending",
+      "last_updated": "2026-05-06T05:18:41"
     },
     "content_link": {
       "has_video": false,
@@ -11352,8 +11352,8 @@
       "map_displayable": true,
       "data_status": "complete",
       "map_status": "published",
-      "content_status": "waiting",
-      "last_updated": "2026-05-06T10:00:00"
+      "content_status": "review_pending",
+      "last_updated": "2026-05-06T05:18:41"
     },
     "content_link": {
       "has_video": false,
@@ -11635,8 +11635,8 @@
       "map_displayable": true,
       "data_status": "complete",
       "map_status": "published",
-      "content_status": "waiting",
-      "last_updated": "2026-05-06T10:00:00"
+      "content_status": "review_pending",
+      "last_updated": "2026-05-06T05:18:41"
     },
     "content_link": {
       "has_video": false,
@@ -11777,8 +11777,8 @@
       "map_displayable": true,
       "data_status": "complete",
       "map_status": "published",
-      "content_status": "waiting",
-      "last_updated": "2026-05-06T10:00:00"
+      "content_status": "review_pending",
+      "last_updated": "2026-05-06T05:18:41"
     },
     "content_link": {
       "has_video": false,
