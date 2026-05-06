@@ -70,6 +70,13 @@
       "region": "충청·경상·전라·서울·경기",
       "collected": 17,
       "total": 197
+    },
+    {
+      "run_time": "2026-05-06T03:23:56",
+      "mode": "A_MODE_FAST_SEARCH",
+      "region": "경상·전라·충남·제주·경기",
+      "collected": 14,
+      "total": 211
     }
   ]
 }

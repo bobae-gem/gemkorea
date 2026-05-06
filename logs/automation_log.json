@@ -128,6 +128,14 @@
         "GK-JB-HYO-0001"
       ],
       "total_scripts": 20
+    },
+    {
+      "time": "2026-05-06T03:23:56",
+      "mode": "A",
+      "region": "경상·전라·충남·제주·경기",
+      "new_collected": 14,
+      "approved": 13,
+      "total": 211
     }
   ]
 }
