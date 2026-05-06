@@ -197,5 +197,34 @@
       ],
       "note": "2026-05-06 활성화"
     }
+  },
+  "operation_check": {
+    "mode": "OFF",
+    "mode_updated": "",
+    "max_per_run": 20,
+    "priority_filter": [
+      "candidate",
+      "approved"
+    ],
+    "check_fields": [
+      "operation_status",
+      "operating_hours",
+      "phone",
+      "website",
+      "reservation_link",
+      "price_confirmed"
+    ],
+    "on_commands": [
+      "체험 운영 체크 켜줘",
+      "운영여부 확인 시작",
+      "젬투어 후보 운영상태 확인해줘"
+    ],
+    "off_commands": [
+      "체험 운영 체크 꺼줘",
+      "운영여부 확인 중지",
+      "자동 체크 멈춰"
+    ],
+    "last_run": "",
+    "log_path": "logs/operation_check_log.json"
   }
 }

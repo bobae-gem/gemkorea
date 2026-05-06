@@ -44,7 +44,16 @@
       ],
       "tour_status": "candidate",
       "shorts_status": "waiting",
-      "created_at": "2026-05-06T02:13:45"
+      "created_at": "2026-05-06T02:13:45",
+      "operation_status": "needs_check",
+      "operating_hours": "",
+      "phone": "",
+      "website": "https://korean.visitkorea.or.kr/",
+      "reservation_link": "",
+      "price_confirmed": "무료 입장 (먹거리 별도)",
+      "price_last_checked": "",
+      "last_verified": "",
+      "change_log": []
     },
     {
       "experience_id": "EX-BS-MKT-001",
@@ -80,7 +89,16 @@
       ],
       "tour_status": "candidate",
       "shorts_status": "waiting",
-      "created_at": "2026-05-06T02:13:45"
+      "created_at": "2026-05-06T02:13:45",
+      "operation_status": "needs_check",
+      "operating_hours": "",
+      "phone": "",
+      "website": "https://korean.visitkorea.or.kr/",
+      "reservation_link": "",
+      "price_confirmed": "무료 입장 (먹거리 별도)",
+      "price_last_checked": "",
+      "last_verified": "",
+      "change_log": []
     },
     {
       "experience_id": "EX-JB-MKT-001",
@@ -120,7 +138,16 @@
       ],
       "tour_status": "candidate",
       "shorts_status": "waiting",
-      "created_at": "2026-05-06T02:13:45"
+      "created_at": "2026-05-06T02:13:45",
+      "operation_status": "needs_check",
+      "operating_hours": "",
+      "phone": "",
+      "website": "https://korean.visitkorea.or.kr/",
+      "reservation_link": "",
+      "price_confirmed": "무료 입장 (먹거리 별도)",
+      "price_last_checked": "",
+      "last_verified": "",
+      "change_log": []
     },
     {
       "experience_id": "EX-GN-MKT-001",
@@ -156,7 +183,16 @@
       ],
       "tour_status": "candidate",
       "shorts_status": "waiting",
-      "created_at": "2026-05-06T02:13:45"
+      "created_at": "2026-05-06T02:13:45",
+      "operation_status": "needs_check",
+      "operating_hours": "",
+      "phone": "",
+      "website": "https://korean.visitkorea.or.kr/",
+      "reservation_link": "",
+      "price_confirmed": "무료 입장",
+      "price_last_checked": "",
+      "last_verified": "",
+      "change_log": []
     },
     {
       "experience_id": "EX-GW-MKT-001",
@@ -194,7 +230,16 @@
       ],
       "tour_status": "candidate",
       "shorts_status": "waiting",
-      "created_at": "2026-05-06T02:13:45"
+      "created_at": "2026-05-06T02:13:45",
+      "operation_status": "needs_check",
+      "operating_hours": "",
+      "phone": "",
+      "website": "https://korean.visitkorea.or.kr/",
+      "reservation_link": "",
+      "price_confirmed": "무료 입장",
+      "price_last_checked": "",
+      "last_verified": "",
+      "change_log": []
     },
     {
       "experience_id": "EX-SE-MUS-001",
@@ -232,7 +277,16 @@
       ],
       "tour_status": "candidate",
       "shorts_status": "waiting",
-      "created_at": "2026-05-06T02:13:45"
+      "created_at": "2026-05-06T02:13:45",
+      "operation_status": "needs_check",
+      "operating_hours": "",
+      "phone": "",
+      "website": "https://www.museum.go.kr/",
+      "reservation_link": "",
+      "price_confirmed": "무료 (특별전 유료)",
+      "price_last_checked": "",
+      "last_verified": "",
+      "change_log": []
     },
     {
       "experience_id": "EX-SE-MUS-002",
@@ -272,7 +326,16 @@
       ],
       "tour_status": "candidate",
       "shorts_status": "waiting",
-      "created_at": "2026-05-06T02:13:45"
+      "created_at": "2026-05-06T02:13:45",
+      "operation_status": "needs_check",
+      "operating_hours": "",
+      "phone": "",
+      "website": "https://www.nfm.go.kr/",
+      "reservation_link": "",
+      "price_confirmed": "무료",
+      "price_last_checked": "",
+      "last_verified": "",
+      "change_log": []
     },
     {
       "experience_id": "EX-SE-ART-001",
@@ -309,7 +372,16 @@
       ],
       "tour_status": "candidate",
       "shorts_status": "waiting",
-      "created_at": "2026-05-06T02:13:45"
+      "created_at": "2026-05-06T02:13:45",
+      "operation_status": "needs_check",
+      "operating_hours": "",
+      "phone": "",
+      "website": "https://www.leeumhoam.org/",
+      "reservation_link": "",
+      "price_confirmed": "유료 (성인 10,000원 내외)",
+      "price_last_checked": "",
+      "last_verified": "",
+      "change_log": []
     },
     {
       "experience_id": "EX-GG-ART-001",
@@ -344,7 +416,16 @@
       ],
       "tour_status": "candidate",
       "shorts_status": "waiting",
-      "created_at": "2026-05-06T02:13:45"
+      "created_at": "2026-05-06T02:13:45",
+      "operation_status": "needs_check",
+      "operating_hours": "",
+      "phone": "",
+      "website": "https://www.mmca.go.kr/",
+      "reservation_link": "",
+      "price_confirmed": "유료 (성인 4,000원 내외)",
+      "price_last_checked": "",
+      "last_verified": "",
+      "change_log": []
     },
     {
       "experience_id": "EX-BS-ART-001",
@@ -380,7 +461,16 @@
       ],
       "tour_status": "candidate",
       "shorts_status": "waiting",
-      "created_at": "2026-05-06T02:13:45"
+      "created_at": "2026-05-06T02:13:45",
+      "operation_status": "needs_check",
+      "operating_hours": "",
+      "phone": "",
+      "website": "https://art.busan.go.kr/",
+      "reservation_link": "",
+      "price_confirmed": "무료~유료 (기획전 별도)",
+      "price_last_checked": "",
+      "last_verified": "",
+      "change_log": []
     },
     {
       "experience_id": "EX-SE-FUD-001",
@@ -421,7 +511,16 @@
       ],
       "tour_status": "candidate",
       "shorts_status": "waiting",
-      "created_at": "2026-05-06T02:13:45"
+      "created_at": "2026-05-06T02:13:45",
+      "operation_status": "needs_check",
+      "operating_hours": "",
+      "phone": "",
+      "website": "https://korean.visitkorea.or.kr/",
+      "reservation_link": "",
+      "price_confirmed": "무료 (쇼핑·체험 별도)",
+      "price_last_checked": "",
+      "last_verified": "",
+      "change_log": []
     },
     {
       "experience_id": "EX-JB-HAN-001",
@@ -460,7 +559,16 @@
       ],
       "tour_status": "candidate",
       "shorts_status": "waiting",
-      "created_at": "2026-05-06T02:13:45"
+      "created_at": "2026-05-06T02:13:45",
+      "operation_status": "needs_check",
+      "operating_hours": "",
+      "phone": "",
+      "website": "https://hanok.jeonju.go.kr/",
+      "reservation_link": "",
+      "price_confirmed": "유료 (한복 대여 10,000~30,000원)",
+      "price_last_checked": "",
+      "last_verified": "",
+      "change_log": []
     },
     {
       "experience_id": "EX-GB-HAN-001",
@@ -501,7 +609,16 @@
       ],
       "tour_status": "candidate",
       "shorts_status": "waiting",
-      "created_at": "2026-05-06T02:13:45"
+      "created_at": "2026-05-06T02:13:45",
+      "operation_status": "needs_check",
+      "operating_hours": "",
+      "phone": "",
+      "website": "https://korean.visitkorea.or.kr/",
+      "reservation_link": "",
+      "price_confirmed": "유료 (한복 대여 10,000~25,000원)",
+      "price_last_checked": "",
+      "last_verified": "",
+      "change_log": []
     },
     {
       "experience_id": "EX-GB-TRD-001",
@@ -539,7 +656,16 @@
       ],
       "tour_status": "candidate",
       "shorts_status": "waiting",
-      "created_at": "2026-05-06T02:13:45"
+      "created_at": "2026-05-06T02:13:45",
+      "operation_status": "needs_check",
+      "operating_hours": "",
+      "phone": "",
+      "website": "http://www.hahoe.or.kr/",
+      "reservation_link": "",
+      "price_confirmed": "입장료 별도 (탈춤 공연 무료)",
+      "price_last_checked": "",
+      "last_verified": "",
+      "change_log": []
     },
     {
       "experience_id": "EX-SE-CRF-001",
@@ -579,7 +705,16 @@
       ],
       "tour_status": "candidate",
       "shorts_status": "waiting",
-      "created_at": "2026-05-06T02:13:45"
+      "created_at": "2026-05-06T02:13:45",
+      "operation_status": "needs_check",
+      "operating_hours": "",
+      "phone": "",
+      "website": "https://hanok.seoul.go.kr/",
+      "reservation_link": "",
+      "price_confirmed": "유료 (체험 10,000~50,000원)",
+      "price_last_checked": "",
+      "last_verified": "",
+      "change_log": []
     },
     {
       "experience_id": "EX-JN-TEM-001",
@@ -618,7 +753,16 @@
       ],
       "tour_status": "candidate",
       "shorts_status": "waiting",
-      "created_at": "2026-05-06T02:13:45"
+      "created_at": "2026-05-06T02:13:45",
+      "operation_status": "needs_check",
+      "operating_hours": "",
+      "phone": "",
+      "website": "http://www.daeheungsa.co.kr/",
+      "reservation_link": "",
+      "price_confirmed": "유료 (1박 50,000~70,000원)",
+      "price_last_checked": "",
+      "last_verified": "",
+      "change_log": []
     },
     {
       "experience_id": "EX-BS-TEM-001",
@@ -655,7 +799,16 @@
       ],
       "tour_status": "candidate",
       "shorts_status": "waiting",
-      "created_at": "2026-05-06T02:13:45"
+      "created_at": "2026-05-06T02:13:45",
+      "operation_status": "needs_check",
+      "operating_hours": "",
+      "phone": "",
+      "website": "https://www.beomeo.kr/",
+      "reservation_link": "",
+      "price_confirmed": "유료 (1박 50,000~70,000원)",
+      "price_last_checked": "",
+      "last_verified": "",
+      "change_log": []
     },
     {
       "experience_id": "EX-GB-TEM-001",
@@ -695,7 +848,16 @@
       ],
       "tour_status": "candidate",
       "shorts_status": "waiting",
-      "created_at": "2026-05-06T02:13:45"
+      "created_at": "2026-05-06T02:13:45",
+      "operation_status": "needs_check",
+      "operating_hours": "",
+      "phone": "",
+      "website": "https://bulguksa.templestay.com/",
+      "reservation_link": "",
+      "price_confirmed": "유료 (1박 50,000~80,000원)",
+      "price_last_checked": "",
+      "last_verified": "",
+      "change_log": []
     },
     {
       "experience_id": "EX-JB-HAO-001",
@@ -736,7 +898,16 @@
       ],
       "tour_status": "candidate",
       "shorts_status": "waiting",
-      "created_at": "2026-05-06T02:13:45"
+      "created_at": "2026-05-06T02:13:45",
+      "operation_status": "needs_check",
+      "operating_hours": "",
+      "phone": "",
+      "website": "https://hanok.jeonju.go.kr/",
+      "reservation_link": "",
+      "price_confirmed": "유료 (1박 50,000~200,000원)",
+      "price_last_checked": "",
+      "last_verified": "",
+      "change_log": []
     },
     {
       "experience_id": "EX-JN-TEA-001",
@@ -772,7 +943,16 @@
       ],
       "tour_status": "candidate",
       "shorts_status": "waiting",
-      "created_at": "2026-05-06T02:13:45"
+      "created_at": "2026-05-06T02:13:45",
+      "operation_status": "needs_check",
+      "operating_hours": "",
+      "phone": "",
+      "website": "https://bstea.kr/",
+      "reservation_link": "",
+      "price_confirmed": "무료 입장 (체험 별도 유료)",
+      "price_last_checked": "",
+      "last_verified": "",
+      "change_log": []
     },
     {
       "experience_id": "EX-JN-FRM-001",
@@ -807,7 +987,16 @@
       ],
       "tour_status": "candidate",
       "shorts_status": "waiting",
-      "created_at": "2026-05-06T02:13:45"
+      "created_at": "2026-05-06T02:13:45",
+      "operation_status": "needs_check",
+      "operating_hours": "",
+      "phone": "",
+      "website": "https://korean.visitkorea.or.kr/",
+      "reservation_link": "",
+      "price_confirmed": "유료 (체험별 상이)",
+      "price_last_checked": "",
+      "last_verified": "",
+      "change_log": []
     },
     {
       "experience_id": "EX-GN-FSH-001",
@@ -843,7 +1032,16 @@
       ],
       "tour_status": "candidate",
       "shorts_status": "waiting",
-      "created_at": "2026-05-06T02:13:45"
+      "created_at": "2026-05-06T02:13:45",
+      "operation_status": "needs_check",
+      "operating_hours": "",
+      "phone": "",
+      "website": "https://korean.visitkorea.or.kr/",
+      "reservation_link": "",
+      "price_confirmed": "유료 (체험별 상이)",
+      "price_last_checked": "",
+      "last_verified": "",
+      "change_log": []
     },
     {
       "experience_id": "EX-GN-VIL-001",
@@ -879,7 +1077,16 @@
       ],
       "tour_status": "candidate",
       "shorts_status": "waiting",
-      "created_at": "2026-05-06T02:13:45"
+      "created_at": "2026-05-06T02:13:45",
+      "operation_status": "needs_check",
+      "operating_hours": "",
+      "phone": "",
+      "website": "https://german-village.kr/",
+      "reservation_link": "",
+      "price_confirmed": "무료 입장",
+      "price_last_checked": "",
+      "last_verified": "",
+      "change_log": []
     },
     {
       "experience_id": "EX-GB-FES-001",
@@ -916,7 +1123,16 @@
       ],
       "tour_status": "candidate",
       "shorts_status": "waiting",
-      "created_at": "2026-05-06T02:13:45"
+      "created_at": "2026-05-06T02:13:45",
+      "operation_status": "needs_check",
+      "operating_hours": "",
+      "phone": "",
+      "website": "https://www.maskdance.com/",
+      "reservation_link": "",
+      "price_confirmed": "무료~유료 (일부 공연 유료)",
+      "price_last_checked": "",
+      "last_verified": "",
+      "change_log": []
     },
     {
       "experience_id": "EX-GN-FES-001",
@@ -953,7 +1169,16 @@
       ],
       "tour_status": "candidate",
       "shorts_status": "waiting",
-      "created_at": "2026-05-06T02:13:45"
+      "created_at": "2026-05-06T02:13:45",
+      "operation_status": "needs_check",
+      "operating_hours": "",
+      "phone": "",
+      "website": "https://yudeung.com/",
+      "reservation_link": "",
+      "price_confirmed": "무료~유료",
+      "price_last_checked": "",
+      "last_verified": "",
+      "change_log": []
     },
     {
       "experience_id": "EX-CN-FES-001",
@@ -989,7 +1214,16 @@
       ],
       "tour_status": "candidate",
       "shorts_status": "waiting",
-      "created_at": "2026-05-06T02:13:45"
+      "created_at": "2026-05-06T02:13:45",
+      "operation_status": "needs_check",
+      "operating_hours": "",
+      "phone": "",
+      "website": "https://www.mudfestival.or.kr/",
+      "reservation_link": "",
+      "price_confirmed": "무료~유료",
+      "price_last_checked": "",
+      "last_verified": "",
+      "change_log": []
     },
     {
       "experience_id": "EX-GW-FES-001",
@@ -1025,7 +1259,16 @@
       ],
       "tour_status": "candidate",
       "shorts_status": "waiting",
-      "created_at": "2026-05-06T02:13:45"
+      "created_at": "2026-05-06T02:13:45",
+      "operation_status": "needs_check",
+      "operating_hours": "",
+      "phone": "",
+      "website": "https://www.narafestival.com/",
+      "reservation_link": "",
+      "price_confirmed": "유료 (낚시 체험 별도)",
+      "price_last_checked": "",
+      "last_verified": "",
+      "change_log": []
     },
     {
       "experience_id": "EX-JN-FES-001",
@@ -1062,7 +1305,16 @@
       ],
       "tour_status": "candidate",
       "shorts_status": "waiting",
-      "created_at": "2026-05-06T02:13:45"
+      "created_at": "2026-05-06T02:13:45",
+      "operation_status": "needs_check",
+      "operating_hours": "",
+      "phone": "",
+      "website": "https://www.hpftf.or.kr/",
+      "reservation_link": "",
+      "price_confirmed": "유료 (성인 3,000~5,000원)",
+      "price_last_checked": "",
+      "last_verified": "",
+      "change_log": []
     },
     {
       "experience_id": "EX-SE-KID-001",
@@ -1098,7 +1350,16 @@
       ],
       "tour_status": "candidate",
       "shorts_status": "waiting",
-      "created_at": "2026-05-06T02:13:45"
+      "created_at": "2026-05-06T02:13:45",
+      "operation_status": "needs_check",
+      "operating_hours": "",
+      "phone": "",
+      "website": "https://www.sisul.or.kr/",
+      "reservation_link": "",
+      "price_confirmed": "무료 (놀이기구 별도)",
+      "price_last_checked": "",
+      "last_verified": "",
+      "change_log": []
     },
     {
       "experience_id": "EX-GG-FAM-001",
@@ -1135,7 +1396,16 @@
       ],
       "tour_status": "candidate",
       "shorts_status": "waiting",
-      "created_at": "2026-05-06T02:13:45"
+      "created_at": "2026-05-06T02:13:45",
+      "operation_status": "needs_check",
+      "operating_hours": "",
+      "phone": "",
+      "website": "https://grandpark.seoul.go.kr/",
+      "reservation_link": "",
+      "price_confirmed": "유료 (입장+이용권 40,000~60,000원)",
+      "price_last_checked": "",
+      "last_verified": "",
+      "change_log": []
     },
     {
       "experience_id": "EX-GG-VIL-001",
@@ -1172,7 +1442,17 @@
       ],
       "tour_status": "candidate",
       "shorts_status": "waiting",
-      "created_at": "2026-05-06T02:13:45"
+      "created_at": "2026-05-06T02:13:45",
+      "operation_status": "needs_check",
+      "operating_hours": "",
+      "phone": "",
+      "website": "https://www.koreanfolk.co.kr",
+      "reservation_link": "",
+      "price_confirmed": "유료 (성인 20,000~25,000원)",
+      "price_last_checked": "",
+      "last_verified": "",
+      "change_log": []
     }
-  ]
+  ],
+  "last_updated": "2026-05-06T02:25:15"
 }

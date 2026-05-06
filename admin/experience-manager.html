@@ -40,11 +40,25 @@ select, input { padding:6px 11px; border-radius:8px; border:1.5px solid var(--bo
 
 <div class="page-wrap">
 
+  <!-- 운영 확인 모드 토글 -->
+  <div class="card" style="margin-bottom:14px;display:flex;align-items:center;gap:16px;padding:14px 20px;">
+    <div>
+      <div style="font-size:13px;font-weight:800;">체험 운영 확인 모드</div>
+      <div style="font-size:11px;color:var(--muted);" id="check-mode-desc">현재: OFF — 대표 명령 시에만 실행</div>
+    </div>
+    <div style="margin-left:auto;display:flex;gap:8px;align-items:center;">
+      <span id="last-run-label" style="font-size:10px;color:var(--muted);"></span>
+      <button class="btn btn-green" id="btn-check-on" onclick="setCheckMode('ON')" style="display:none;">▶ 운영 확인 시작</button>
+      <button class="btn btn-red" id="btn-check-off" onclick="setCheckMode('OFF')" style="display:none;">⏹ 확인 중지</button>
+      <div id="mode-badge" style="padding:6px 14px;border-radius:10px;font-size:12px;font-weight:800;background:var(--surface2);color:var(--muted);border:1.5px solid var(--border);">OFF</div>
+    </div>
+  </div>
+
   <div class="grid g4" style="margin-bottom:16px;">
     <div class="card"><div class="kpi" id="kpi-total" style="color:var(--gold)">0</div><div class="kpi-label">전체 체험</div></div>
-    <div class="card"><div class="kpi" id="kpi-candidate" style="color:var(--gem)">0</div><div class="kpi-label">젬투어 후보</div></div>
-    <div class="card"><div class="kpi" id="kpi-shorts" style="color:var(--green)">0</div><div class="kpi-label">숏츠 대기</div></div>
-    <div class="card"><div class="kpi" id="kpi-reservation" style="color:var(--orange)">0</div><div class="kpi-label">예약 필요</div></div>
+    <div class="card"><div class="kpi" id="kpi-active" style="color:var(--green)">0</div><div class="kpi-label">✅ 운영 확인</div></div>
+    <div class="card"><div class="kpi" id="kpi-needs-check" style="color:var(--gem)">0</div><div class="kpi-label">🔍 확인 필요</div></div>
+    <div class="card"><div class="kpi" id="kpi-issue" style="color:var(--red)">0</div><div class="kpi-label">⚠️ 이슈 의심</div></div>
   </div>
 
   <div class="card" style="margin-bottom:14px;">
@@ -107,9 +121,9 @@ function render() {
   });
 
   document.getElementById('kpi-total').textContent = exps.length;
-  document.getElementById('kpi-candidate').textContent = exps.filter(e=>e.tour_status==='candidate').length;
-  document.getElementById('kpi-shorts').textContent = exps.filter(e=>e.shorts_status==='waiting').length;
-  document.getElementById('kpi-reservation').textContent = exps.filter(e=>e.reservation_required).length;
+  document.getElementById('kpi-active').textContent = exps.filter(e=>e.operation_status==='active').length;
+  document.getElementById('kpi-needs-check').textContent = exps.filter(e=>!e.operation_status||e.operation_status==='needs_check'||e.operation_status==='unknown').length;
+  document.getElementById('kpi-issue').textContent = exps.filter(e=>['temporarily_closed','ended'].includes(e.operation_status)).length;
 
   const list = document.getElementById('exp-list');
   if (!f.length) { list.innerHTML = '<div class="empty" style="grid-column:1/-1;">해당 체험이 없습니다</div>'; return; }
@@ -130,14 +144,54 @@ function render() {
       </div>
       ${e.related_heritage_ids?.length ? `<div style="font-size:10px;color:var(--muted);margin-top:6px;">🏛️ 연결 유산: ${e.related_heritage_ids.slice(0,2).join(', ')}${e.related_heritage_ids.length>2?' 외 '+( e.related_heritage_ids.length-2)+'곳':''}</div>` : ''}
       <div class="exp-status">
+        <span class="s-${e.operation_status||'needs_check'}" style="${opStyle(e.operation_status)}">${opLabel(e.operation_status)}</span>
         <span class="s-candidate">젬투어: ${e.tour_status}</span>
         <span class="s-waiting">숏츠: ${e.shorts_status}</span>
       </div>
+      ${e.last_verified ? `<div style="font-size:9px;color:var(--muted);margin-top:4px;">마지막 확인: ${e.last_verified}</div>` : ''}
     </div>`).join('');
+}
+
+function opLabel(s) {
+  return {active:'✅ 운영중',temporarily_closed:'⚠️ 임시휴무',ended:'❌ 종료',unknown:'❓ 불명',needs_check:'🔍 확인필요'}[s||'needs_check']||'🔍 확인필요';
+}
+function opStyle(s) {
+  const m={active:'background:var(--green-soft);color:var(--green);border:1px solid rgba(74,140,92,.2)',temporarily_closed:'background:var(--yellow-soft);color:var(--yellow);border:1px solid rgba(184,134,11,.2)',ended:'background:var(--red-soft);color:var(--red);border:1px solid rgba(192,57,43,.2)',unknown:'background:var(--surface2);color:var(--muted);border:1px solid var(--border)',needs_check:'background:var(--gem-soft);color:var(--gem);border:1px solid rgba(30,58,138,.2)'};
+  return (m[s||'needs_check']||m.needs_check)+';font-size:9px;font-weight:700;padding:2px 7px;border-radius:5px;';
+}
+
+async function loadModeStatus() {
+  try {
+    const r = await fetch('../automation/config.json');
+    const c = await r.json();
+    const mode = c.operation_check?.mode || 'OFF';
+    const lastRun = c.operation_check?.last_run || '';
+    const badge = document.getElementById('mode-badge');
+    const desc = document.getElementById('check-mode-desc');
+    const btnOn = document.getElementById('btn-check-on');
+    const btnOff = document.getElementById('btn-check-off');
+    const lastLabel = document.getElementById('last-run-label');
+
+    if (mode === 'ON') {
+      badge.textContent = 'ON'; badge.style.cssText='padding:6px 14px;border-radius:10px;font-size:12px;font-weight:800;background:var(--green-soft);color:var(--green);border:1.5px solid rgba(74,140,92,.3);';
+      desc.textContent = '현재: ON — 우선순위 체험부터 자동 확인 중';
+      btnOn.style.display='none'; btnOff.style.display='block';
+    } else {
+      badge.textContent = 'OFF'; badge.style.cssText='padding:6px 14px;border-radius:10px;font-size:12px;font-weight:800;background:var(--surface2);color:var(--muted);border:1.5px solid var(--border);';
+      desc.textContent = '현재: OFF — "체험 운영 체크 켜줘" 명령으로 ON 전환';
+      btnOn.style.display='block'; btnOff.style.display='none';
+    }
+    if (lastRun) lastLabel.textContent = '마지막 실행: '+lastRun;
+  } catch(e) {}
+}
+
+function setCheckMode(mode) {
+  alert((mode==='ON'?'▶ 운영 확인 모드 ON으로 전환합니다.\nClaude Code에서 실제 확인이 실행됩니다.':'⏹ 운영 확인 모드 OFF로 전환합니다.')+'\n\n실제 전환은 Claude Code에서 check_operations.js를 실행해 주세요.\n\n명령어:\nnode automation/check_operations.js '+(mode==='ON'?'on':'off'));
 }
 
 function tick(){const n=new Date();document.getElementById('now-time').textContent=n.toLocaleDateString('ko-KR')+' '+n.toLocaleTimeString('ko-KR');}
 setInterval(tick,1000);tick();
+loadModeStatus();
 load();
 </script>
 </body>
