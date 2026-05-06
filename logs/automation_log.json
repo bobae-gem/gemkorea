@@ -85,6 +85,14 @@
       "total": 180,
       "approved": 13,
       "errors": 0
+    },
+    {
+      "time": "2026-05-06T02:10:26",
+      "mode": "문화·체험 서치",
+      "category": "문화/체험",
+      "new_collected": 30,
+      "approved": 27,
+      "total": 210
     }
   ]
 }
