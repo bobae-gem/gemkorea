@@ -59,8 +59,12 @@ header{
 .filter-row{
   display:flex;align-items:center;gap:7px;
   padding:7px 18px;border-bottom:1px solid var(--border);
-  flex-wrap:wrap;min-height:42px;
+  flex-wrap:nowrap;min-height:42px;overflow-x:auto;
+  scrollbar-width:none;
 }
+.filter-row::-webkit-scrollbar{display:none;}
+#sub-filter-row{flex-wrap:nowrap;overflow-x:auto;}
+#sub-btns{display:flex;gap:7px;flex-wrap:nowrap;}
 .filter-row:last-child{border-bottom:none;}
 .filter-label{
   font-size:11px;font-weight:800;color:var(--muted);
@@ -297,9 +301,16 @@ const SUB_FILTERS = {
   ],
   '문화/체험': [
     {v:'all',l:'전체'},
-    {v:'전통시장',l:'🏪 전통시장'},{v:'박물관',l:'🏛️ 박물관'},{v:'미술관',l:'🎨 미술관'},
-    {v:'체험마을',l:'🏘️ 체험마을'},{v:'축제',l:'🎉 축제'},{v:'전통문화 체험',l:'🎎 전통체험'},
-    {v:'공방 체험',l:'🏺 공방'},{v:'지역 먹거리',l:'🍜 먹거리'},{v:'로컬 여행 코스',l:'🚶 로컬코스'},{v:'가족 체험',l:'👨‍👩‍👧 가족체험'}
+    {v:'전통시장',l:'🏪 전통시장'},{v:'지역 먹거리',l:'🍜 먹거리'},{v:'전통주 체험',l:'🍶 전통주'},
+    {v:'박물관',l:'🏛️ 박물관'},{v:'미술관',l:'🎨 미술관'},{v:'과학관',l:'🔭 과학관'},
+    {v:'한복 체험',l:'👘 한복'},{v:'전통음식 체험',l:'🍱 전통음식'},{v:'도예/공방 체험',l:'🏺 공방'},
+    {v:'한지/서예 체험',l:'✍️ 한지·서예'},{v:'국궁/활쏘기 체험',l:'🏹 국궁'},{v:'탈춤/풍물 체험',l:'🎭 탈춤·풍물'},
+    {v:'차 체험',l:'🍵 다도'},{v:'사찰 체험',l:'🛕 템플스테이'},{v:'한옥 숙박',l:'🏘️ 한옥숙박'},
+    {v:'농촌 체험',l:'🌾 농촌'},{v:'어촌 체험',l:'🐟 어촌'},{v:'해녀 체험',l:'🤿 해녀'},{v:'갯벌 체험',l:'🦀 갯벌'},
+    {v:'축제',l:'🎉 축제'},{v:'공연/전시',l:'🎪 공연·전시'},
+    {v:'트레킹/둘레길',l:'🚶 트레킹'},{v:'캠핑',l:'⛺ 캠핑'},{v:'해양 스포츠 체험',l:'🌊 해양스포츠'},
+    {v:'가족 체험',l:'👨‍👩‍👧 가족'},{v:'어린이 체험',l:'🧒 어린이'},
+    {v:'체험마을',l:'🏡 체험마을'},{v:'로컬 여행 코스',l:'🗺️ 로컬코스'}
   ]
 };
 
