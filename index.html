@@ -260,6 +260,7 @@ header{
         </div>
       </div>
       <div class="pp-tags" id="pp-tags"></div>
+      <div id="pp-exp-info" style="display:none;margin-bottom:10px;"></div>
       <div class="pp-btns" id="pp-btns"></div>
     </div>
   </div>
@@ -353,7 +354,7 @@ const ERA_MAP={
   '근대':'근현대','현대':'근현대'
 };
 
-let places=[],map,naverMarkers=[];
+let places=[],experiences=[],map,naverMarkers=[];
 let fMain='all',fSub='all',fEra='all',fRegion='all',fSearch='';
 let selectedId=null;
 let regionPolygon=null;
@@ -401,13 +402,41 @@ function showMapError(msg){
 }
 
 async function init(){
-  // 데이터 로드
+  // 역사/자연 데이터 + 체험 데이터 동시 로드
   try{
-    const r=await fetch('data/heritage_all.json');
-    if(r.ok) places=await r.json();
-    else throw new Error('HTTP '+r.status);
+    const [hr, er] = await Promise.all([
+      fetch('data/heritage_all.json'),
+      fetch('data/experiences.json').catch(()=>({ok:false}))
+    ]);
+    if(hr.ok) places = await hr.json();
+    if(er.ok){
+      const expLib = await er.json();
+      // experiences.json → places 배열 형태로 변환
+      experiences = (expLib.experiences||[]).map(e=>({
+        place_id: e.experience_id,
+        name: e.name,
+        category_main: '문화/체험',
+        category_sub: e.category_sub,
+        category_detail: e.category_detail,
+        period_category: '현대',
+        region: e.region_sub || e.region_main,
+        address: e.address,
+        lat: e.lat, lng: e.lng,
+        short_description: e.short_description,
+        tags: e.tags||[],
+        source_urls: e.source_urls||[],
+        data_confidence: e.data_confidence,
+        content_link: {has_video:false},
+        status:{map_displayable:true,map_status:'published'},
+        _isExperience: true,  // 체험 마커 구분 플래그
+        _price: e.price,
+        _duration: e.duration,
+        _reservation: e.reservation_required,
+        _opStatus: e.operation_status
+      }));
+    }
   }catch(e){
-    console.warn('데이터 로드 실패:', e.message, '→ http://localhost:4000 또는 GitHub Pages에서 접속');
+    console.warn('데이터 로드 실패:', e.message);
     places=[];
   }
 
@@ -514,13 +543,25 @@ async function showRegionBoundary(regionKey){
   }
 }
 
+function getAllPlaces(){
+  // 역사/자연 + 체험 합산 (문화/체험 필터 선택 시 체험만, 전체면 모두)
+  if(fMain==='문화/체험') return experiences.filter(e=>e.lat&&e.lng);
+  if(fMain==='all') return [...places, ...experiences.filter(e=>e.lat&&e.lng)];
+  return places;
+}
+
 function getFiltered(){
-  return places.filter(p=>{
+  return getAllPlaces().filter(p=>{
     if(fMain!=='all'&&p.category_main!==fMain)return false;
     if(fSub!=='all'&&p.category_sub!==fSub)return false;
-    if(fEra!=='all'&&(ERA_MAP[p.period_category]||p.period_category)!==fEra)return false;
+    if(fEra!=='all'){
+      // 체험은 시대 필터 미적용
+      if(!p._isExperience){
+        if((ERA_MAP[p.period_category]||p.period_category)!==fEra)return false;
+      }
+    }
     if(fRegion!=='all'&&(REGION_MAP[p.region]||p.region)!==fRegion)return false;
-    if(fSearch){const q=fSearch.toLowerCase();const h=[p.name,p.region,p.short_description,...(p.tags||[]),p.period_category].join(' ').toLowerCase();if(!h.includes(q))return false;}
+    if(fSearch){const q=fSearch.toLowerCase();const h=[p.name,p.region,p.short_description,...(p.tags||[])].join(' ').toLowerCase();if(!h.includes(q))return false;}
     return true;
   });
 }
@@ -537,15 +578,22 @@ function renderMarkers(f){
   if(!map||typeof naver==='undefined')return;
   f.forEach(p=>{
     if(!p.lat||!p.lng)return;
-    const col=SUB_COLOR[p.category_sub]||'#888';
-    const ico=SUB_ICON[p.category_sub]||'📍';
-    const dot=p.content_link?.has_video?'<span style="width:6px;height:6px;background:#ff0000;border-radius:50%;display:inline-block;margin-left:3px;vertical-align:middle;"></span>':'';
+    let markerHtml;
+    if(p._isExperience){
+      // 체험 마커 — 오렌지 육각형 스타일 (역사 마커와 구분)
+      const ico=SUB_ICON[p.category_sub]||'🎭';
+      const opDot = p._opStatus==='active'?'<span style="width:6px;height:6px;background:#4a8;border-radius:50%;display:inline-block;margin-left:3px;"></span>':'';
+      markerHtml=`<div style="background:#c8860a;color:#fff;padding:5px 11px;border-radius:8px;font-size:11px;font-weight:700;white-space:nowrap;box-shadow:0 2px 10px rgba(0,0,0,.22);display:flex;align-items:center;gap:3px;border:2px solid rgba(255,255,255,.4);">${ico} ${p.name}${opDot}</div>`;
+    } else {
+      // 역사/자연 마커 — 기존 pill 스타일
+      const col=SUB_COLOR[p.category_sub]||'#888';
+      const ico=SUB_ICON[p.category_sub]||'📍';
+      const dot=p.content_link?.has_video?'<span style="width:6px;height:6px;background:#ff0000;border-radius:50%;display:inline-block;margin-left:3px;vertical-align:middle;"></span>':'';
+      markerHtml=`<div style="background:${col};color:#fff;padding:5px 11px;border-radius:18px;font-size:12px;font-weight:700;white-space:nowrap;box-shadow:0 2px 10px rgba(0,0,0,.22);display:flex;align-items:center;gap:3px;">${ico} ${p.name}${dot}</div>`;
+    }
     const mk=new naver.maps.Marker({
       position:new naver.maps.LatLng(p.lat,p.lng),map,title:p.name,
-      icon:{
-        content:`<div style="background:${col};color:#fff;padding:5px 11px;border-radius:18px;font-size:12px;font-weight:700;white-space:nowrap;box-shadow:0 2px 10px rgba(0,0,0,.22);display:flex;align-items:center;gap:3px;">${ico} ${p.name}${dot}</div>`,
-        anchor:new naver.maps.Point(40,15)
-      }
+      icon:{ content:markerHtml, anchor:new naver.maps.Point(40,15) }
     });
     naver.maps.Event.addListener(mk,'click',()=>showPopup(p));
     naverMarkers.push(mk);
@@ -563,10 +611,13 @@ function renderCards(f){
       <div class="sc-body">
         <div class="sc-top">
           <div class="sc-name">${p.name}</div>
-          <span class="sc-badge" style="background:${col}20;color:${col};">${p.category_sub||''}</span>
+          ${p._isExperience
+            ? `<span class="sc-badge" style="background:#c8860a20;color:#c8860a;border:1px solid rgba(200,134,10,.3);">🎭 체험</span>`
+            : `<span class="sc-badge" style="background:${col}20;color:${col};">${p.category_sub||''}</span>`
+          }
           ${p.content_link?.has_video?'<div class="sc-video" title="숏츠 있음"></div>':''}
         </div>
-        <div class="sc-meta">📍 ${REGION_MAP[p.region]||p.region} · ${ERA_MAP[p.period_category]||p.period_category}</div>
+        <div class="sc-meta">📍 ${REGION_MAP[p.region]||p.region} · ${p._isExperience?'체험':ERA_MAP[p.period_category]||p.period_category}</div>
         <div class="sc-desc">${p.short_description||''}</div>
       </div>
     </div>`;
@@ -597,6 +648,24 @@ function showPopup(p){
   }else{srcRow.style.display='none';}
 
   document.getElementById('pp-tags').innerHTML=(p.tags||[]).map(t=>`<span class="pp-tag">#${t}</span>`).join('');
+
+  // 체험 전용 추가 정보
+  const expInfoEl = document.getElementById('pp-exp-info');
+  if(expInfoEl){
+    if(p._isExperience){
+      const opLabel={'active':'✅ 운영 중','temporarily_closed':'⚠️ 임시휴무','ended':'❌ 종료','unknown':'❓ 미확인','needs_check':'🔍 확인 필요'};
+      expInfoEl.style.display='block';
+      expInfoEl.innerHTML=`
+        <div style="background:var(--gold-soft,#fef3e0);border:1px solid rgba(200,134,10,.2);border-radius:10px;padding:10px 12px;font-size:12px;">
+          ${p._price?`<div style="margin-bottom:4px;">💰 ${p._price}</div>`:''}
+          ${p._duration?`<div style="margin-bottom:4px;">⏱️ 소요 ${p._duration}</div>`:''}
+          ${p._reservation?`<div style="margin-bottom:4px;">📋 예약 필요</div>`:'<div style="margin-bottom:4px;">🚶 예약 불필요</div>'}
+          ${p._opStatus?`<div style="font-weight:700;color:var(--orange,#c8860a);">${opLabel[p._opStatus]||''}</div>`:''}
+        </div>`;
+    } else {
+      expInfoEl.style.display='none';
+    }
+  }
 
   const cl=p.content_link;
   const videoUrl=cl?.youtube_url||cl?.instagram_url||cl?.tiktok_url||'';
