@@ -1,5 +1,5 @@
 {
-  "total": 416,
+  "total": 421,
   "markers": [
     {
       "id": "h001",
@@ -8208,8 +8208,8 @@
         "map_displayable": true,
         "data_status": "complete",
         "map_status": "published",
-        "content_status": "waiting",
-        "last_updated": "2026-05-06T01:38:51"
+        "content_status": "review_pending",
+        "last_updated": "2026-05-06T07:10:26"
       },
       "content_link": {
         "has_video": false,
@@ -8300,8 +8300,8 @@
         "map_displayable": true,
         "data_status": "complete",
         "map_status": "waiting",
-        "content_status": "waiting",
-        "last_updated": "2026-05-06T01:38:51"
+        "content_status": "review_pending",
+        "last_updated": "2026-05-06T07:10:26"
       },
       "content_link": {
         "has_video": false,
@@ -8345,8 +8345,8 @@
         "map_displayable": true,
         "data_status": "complete",
         "map_status": "waiting",
-        "content_status": "waiting",
-        "last_updated": "2026-05-06T01:38:51"
+        "content_status": "review_pending",
+        "last_updated": "2026-05-06T07:10:26"
       },
       "content_link": {
         "has_video": false,
@@ -8391,8 +8391,8 @@
         "map_displayable": true,
         "data_status": "complete",
         "map_status": "published",
-        "content_status": "waiting",
-        "last_updated": "2026-05-06T01:38:51"
+        "content_status": "review_pending",
+        "last_updated": "2026-05-06T07:10:26"
       },
       "content_link": {
         "has_video": false,
@@ -8436,8 +8436,8 @@
         "map_displayable": true,
         "data_status": "complete",
         "map_status": "published",
-        "content_status": "waiting",
-        "last_updated": "2026-05-06T01:38:51"
+        "content_status": "review_pending",
+        "last_updated": "2026-05-06T07:10:26"
       },
       "content_link": {
         "has_video": false,
@@ -19539,6 +19539,239 @@
         "map_status": "published",
         "content_status": "waiting",
         "last_updated": "2026-05-06T07:08:06"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      }
+    },
+    {
+      "name": "김해 봉황동 유적",
+      "category_main": "역사",
+      "category_sub": "고인돌",
+      "period": "가야 1~5세기",
+      "period_category": "삼국시대",
+      "region": "경상남도",
+      "address": "경상남도 김해시 봉황동 253",
+      "location_marker_type": "entrance",
+      "lat": 35.2271,
+      "lng": 128.8821,
+      "short_description": "가야 금관가야 수도 김해의 대규모 패총·생활유적지. 서기 1~5세기 가야인의 주거지·무덤·창고 등이 발굴됐으며 봉황대 구릉 일대에 유적공원으로 조성되어 있다.",
+      "source_urls": [
+        "https://ko.wikipedia.org/wiki/%EC%A7%80%EC%82%B0%EB%8F%99_%EA%B3%A0%EB%B6%84%EA%B5%B0"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "가야",
+        "금관가야",
+        "패총",
+        "선사유적",
+        "김해",
+        "국가사적",
+        "봉황대"
+      ],
+      "place_id": "GK-GN-GOI-0001",
+      "category_detail": "가야 금관가야 수도 김해의 대규모 패총·생활유적지",
+      "confidence": "high",
+      "confidence_reason": "",
+      "needs_geocoding": false,
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-06T07:11:28"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      }
+    },
+    {
+      "name": "광주 충장로",
+      "category_main": "역사",
+      "category_sub": "생활유적",
+      "period": "근현대",
+      "period_category": "현대",
+      "region": "광주광역시",
+      "address": "광주광역시 동구 충장로 1~5가",
+      "location_marker_type": "entrance",
+      "lat": 35.1467,
+      "lng": 126.9175,
+      "short_description": "광주 구도심의 대표 역사 상업거리로 임진왜란 의병장 김덕령의 충장 시호에서 이름이 유래했다. 5·18 민주화운동의 핵심 거점이었으며 일제강점기부터 이어진 상권과 문화 골목이 공존한다.",
+      "source_urls": [
+        "https://www.gwangju.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "5.18민주화운동",
+        "광주",
+        "충장로",
+        "김덕령",
+        "근현대",
+        "상업거리",
+        "역사거리"
+      ],
+      "place_id": "GK-GJ-SAE-0001",
+      "category_detail": "광주 구도심의 대표 역사 상업거리로 임진왜란 의병장 김덕령의 충장 시호에서 이름이 유래했다",
+      "confidence": "high",
+      "confidence_reason": "",
+      "needs_geocoding": false,
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-06T07:11:28"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      }
+    },
+    {
+      "name": "광주 양림동 역사문화마을",
+      "category_main": "역사",
+      "category_sub": "생활유적",
+      "period": "근대 20세기 초",
+      "period_category": "근대",
+      "region": "광주광역시",
+      "address": "광주광역시 남구 양림동 58-1",
+      "location_marker_type": "entrance",
+      "lat": 35.1387,
+      "lng": 126.9076,
+      "short_description": "1904년 미국 선교사들이 정착하며 형성된 광주 최초의 근대화 마을. 오웬기념각과 선교사 사택 등 근대 건축물과 항일 유적이 공존하며 펭귄마을 등 문화예술 공간이 어우러진다.",
+      "source_urls": [
+        "https://www.gwangju.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "선교사",
+        "근대건축",
+        "광주",
+        "양림동",
+        "펭귄마을",
+        "독립운동",
+        "오웬기념각",
+        "역사문화마을"
+      ],
+      "place_id": "GK-GJ-SAE-0002",
+      "category_detail": "1904년 미국 선교사들이 정착하며 형성된 광주 최초의 근대화 마을",
+      "confidence": "high",
+      "confidence_reason": "",
+      "needs_geocoding": false,
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-06T07:11:28"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      }
+    },
+    {
+      "name": "경기 궁평항",
+      "category_main": "자연",
+      "category_sub": "일출/일몰 명소",
+      "period": "",
+      "period_category": "",
+      "region": "경기도",
+      "address": "경기도 화성시 서신면 궁평리 1097",
+      "location_marker_type": "exact",
+      "lat": 37.1543,
+      "lng": 126.6248,
+      "short_description": "경기도 화성시 서해안의 소박한 어항. 낙조 명소로 손꼽히며 해 질 녘 수평선으로 빠져드는 붉은 노을이 압권이다. 인근 궁평해수욕장과 연계한 드라이브 코스로 수도권 서해 여행의 핵심 기착지다.",
+      "source_urls": [
+        "https://www.hwaseong.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "낙조",
+        "서해",
+        "어항",
+        "화성",
+        "경기도",
+        "해산물",
+        "드라이브",
+        "궁평해수욕장"
+      ],
+      "place_id": "GK-GG-SUN-0001",
+      "category_detail": "경기도 화성시 서해안의 소박한 어항",
+      "confidence": "high",
+      "confidence_reason": "",
+      "needs_geocoding": false,
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-06T07:11:28"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      }
+    },
+    {
+      "name": "보령 대천해수욕장",
+      "category_main": "자연",
+      "category_sub": "바다/해변",
+      "period": "",
+      "period_category": "",
+      "region": "충청남도",
+      "address": "충청남도 보령시 신흑동 945-4",
+      "location_marker_type": "exact",
+      "lat": 36.3275,
+      "lng": 126.5131,
+      "short_description": "충남 보령의 서해안 대표 해수욕장으로 길이 3.5km의 광활한 백사장을 자랑한다. 매년 7월 열리는 머드축제는 국내 최대 규모의 여름 축제로 세계적으로도 유명하다.",
+      "source_urls": [
+        "https://www.boryeong.go.kr/boryeong/mud/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "머드축제",
+        "보령",
+        "대천",
+        "서해",
+        "충남",
+        "해수욕장",
+        "여름축제",
+        "백사장"
+      ],
+      "place_id": "GK-CN-SEA-0002",
+      "category_detail": "충남 보령의 서해안 대표 해수욕장으로 길이 3",
+      "confidence": "high",
+      "confidence_reason": "",
+      "needs_geocoding": false,
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-06T07:11:28"
       },
       "content_link": {
         "has_video": false,

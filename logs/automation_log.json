@@ -644,6 +644,25 @@
       "mode": "B",
       "new_collected": 7,
       "total": 433
+    },
+    {
+      "time": "2026-05-06T07:10:26",
+      "mode": "C",
+      "content_generated": 5,
+      "places": [
+        "GK-GB-SAJ-0010",
+        "GK-GB-SAJ-0011",
+        "GK-GB-SEO-0001",
+        "GK-JN-SAE-0005",
+        "GK-JN-SAJ-0005"
+      ],
+      "total_scripts": 180
+    },
+    {
+      "time": "2026-05-06T07:11:28",
+      "mode": "B",
+      "new_collected": 5,
+      "total": 438
     }
   ]
 }
