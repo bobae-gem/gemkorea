@@ -785,6 +785,25 @@
         "GK-CN-SEO-0002"
       ],
       "total_scripts": 220
+    },
+    {
+      "time": "2026-05-06T09:50:23",
+      "mode": "C",
+      "content_generated": 5,
+      "places": [
+        "GK-GG-SAJ-0009",
+        "GK-CN-SAJ-0008",
+        "GK-JN-SAE-0009",
+        "GK-JB-SAJ-0006",
+        "GK-GN-SAE-0004"
+      ],
+      "total_scripts": 225
+    },
+    {
+      "time": "2026-05-06T09:51:29",
+      "mode": "B",
+      "new_collected": 8,
+      "total": 471
     }
   ]
 }
