@@ -727,6 +727,38 @@
       "mode": "B",
       "new_collected": 8,
       "total": 453
+    },
+    {
+      "time": "2026-05-06T09:41:45",
+      "mode": "C",
+      "content_generated": 5,
+      "places": [
+        "GK-SE-SAE-0003",
+        "GK-GG-SAJ-0005",
+        "GK-GB-SAJ-0015",
+        "GK-JN-DOK-0002",
+        "GK-JN-SAE-0007"
+      ],
+      "total_scripts": 205
+    },
+    {
+      "time": "2026-05-06T09:43:28",
+      "mode": "C",
+      "content_generated": 5,
+      "places": [
+        "GK-JN-SAE-0006",
+        "GK-JN-SAE-0008",
+        "GK-JJ-JEN-0001",
+        "GK-JJ-SAE-0003",
+        "GK-CN-SWO-0001"
+      ],
+      "total_scripts": 210
+    },
+    {
+      "time": "2026-05-06T09:44:44",
+      "mode": "B",
+      "new_collected": 10,
+      "total": 463
     }
   ]
 }
