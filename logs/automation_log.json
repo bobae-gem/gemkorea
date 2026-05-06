@@ -465,6 +465,25 @@
         "GK-GB-SAJ-0006"
       ],
       "total_scripts": 120
+    },
+    {
+      "time": "2026-05-06T06:38:21",
+      "mode": "B",
+      "new_collected": 9,
+      "total": 400
+    },
+    {
+      "time": "2026-05-06T06:38:21",
+      "mode": "C",
+      "content_generated": 5,
+      "places": [
+        "GK-GB-SAE-0004",
+        "GK-GB-BIS-0001",
+        "GK-GB-GOB-0002",
+        "GK-GB-SAJ-0007",
+        "GK-JJ-SAE-0001"
+      ],
+      "total_scripts": 125
     }
   ]
 }
