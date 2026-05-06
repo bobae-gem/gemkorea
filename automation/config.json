@@ -2,7 +2,6 @@
   "_comment": "겜코리아 자동화 실행 모드 설정",
   "_version": "3.0",
   "_updated": "2026-05-06",
-
   "architecture": {
     "principle": "서치팀과 숏츠팀은 독립적으로 운영한다",
     "search_team": "researcher → data_organizer → category_ai → map_marker",
@@ -15,9 +14,7 @@
       "대표 승인 전 업로드 금지"
     ]
   },
-
   "modes": {
-
     "A_MODE_FAST_SEARCH": {
       "name": "A모드 — 빠른 서치 전용",
       "interval_minutes": 8,
@@ -38,7 +35,6 @@
         "on_no_coords": "map_status → geocoding_needed"
       }
     },
-
     "B_MODE_QUALITY_SEARCH": {
       "name": "B모드 — 품질 중심 서치 (기본 운영 모드)",
       "interval_minutes": 30,
@@ -65,7 +61,6 @@
         "on_quality_updated": "last_updated → 현재 시각"
       }
     },
-
     "C_MODE_SHORTS_AUTOMATION": {
       "name": "C모드 — 숏츠 콘텐츠 생성 전용",
       "interval_minutes": null,
@@ -89,10 +84,23 @@
       "content_conditions": {
         "content_status": "waiting",
         "data_status": "complete",
-        "map_status": ["ready", "published", "video_linked"],
+        "map_status": [
+          "ready",
+          "published",
+          "video_linked"
+        ],
         "source_urls_required": true,
-        "data_confidence": ["high", "medium"],
-        "required_fields": ["name", "category", "period", "region", "short_description"]
+        "data_confidence": [
+          "high",
+          "medium"
+        ],
+        "required_fields": [
+          "name",
+          "category",
+          "period",
+          "region",
+          "short_description"
+        ]
       },
       "priority_order": [
         "data_confidence = high 우선",
@@ -108,7 +116,6 @@
       }
     }
   },
-
   "common_rules": {
     "dedup_key": "place_id",
     "no_upload_before_approval": true,
@@ -117,14 +124,60 @@
     "error_log_path": "logs/error_log.json",
     "run_log_path": "logs/automation_log.json"
   },
-
   "file_paths": {
-    "search_results":           "data/raw/search_results.json",
-    "heritage_places":          "data/processed/heritage_places.json",
-    "markers_ready":            "map/markers_ready.json",
+    "search_results": "data/raw/search_results.json",
+    "heritage_places": "data/processed/heritage_places.json",
+    "markers_ready": "map/markers_ready.json",
     "markers_geocoding_needed": "map/markers_geocoding_needed.json",
-    "scripts_created":          "content/scripts_created.json",
-    "automation_log":           "logs/automation_log.json",
-    "error_log":                "logs/error_log.json"
+    "scripts_created": "content/scripts_created.json",
+    "automation_log": "logs/automation_log.json",
+    "error_log": "logs/error_log.json"
+  },
+  "category_scope": {
+    "역사": {
+      "status": "active",
+      "subcategories": [
+        "고인돌/선사유적",
+        "궁궐/왕실",
+        "성곽/산성",
+        "사찰/불교유산",
+        "비석/기념유산",
+        "독립운동/근현대",
+        "고택/서원/향교"
+      ],
+      "note": "현재 수집 중"
+    },
+    "자연": {
+      "status": "prepared",
+      "subcategories": [
+        "산",
+        "바다/해변",
+        "강/호수",
+        "숲/공원",
+        "폭포",
+        "동굴",
+        "섬",
+        "자연명승",
+        "일출/일몰 명소",
+        "계절 명소"
+      ],
+      "note": "자연 서치 시작 명령 시 활성화"
+    },
+    "문화/체험": {
+      "status": "prepared",
+      "subcategories": [
+        "전통시장",
+        "박물관",
+        "미술관",
+        "체험마을",
+        "축제",
+        "전통문화 체험",
+        "공방 체험",
+        "지역 먹거리",
+        "로컬 여행 코스",
+        "가족 체험"
+      ],
+      "note": "문화·체험 서치 시작 명령 시 활성화"
+    }
   }
 }

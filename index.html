@@ -203,20 +203,10 @@ header{
     <button class="f-btn"              data-main="자연"       onclick="setMain(this)">🌿 자연</button>
     <button class="f-btn"              data-main="문화/체험"  onclick="setMain(this)">🎭 문화·체험</button>
   </div>
-  <!-- 세부 카테고리 -->
-  <div class="filter-row">
+  <!-- 세부 카테고리 (상위 카테고리에 따라 동적 변경) -->
+  <div class="filter-row" id="sub-filter-row">
     <span class="filter-label">세부</span>
-    <button class="f-btn act" data-sub="all"             onclick="setSub(this)">전체</button>
-    <button class="f-btn" data-sub="궁궐/왕실"           onclick="setSub(this)">👑 궁궐·왕실</button>
-    <button class="f-btn" data-sub="고인돌/선사유적"      onclick="setSub(this)">🪨 고인돌·선사</button>
-    <button class="f-btn" data-sub="성곽/산성"           onclick="setSub(this)">🏰 성곽·산성</button>
-    <button class="f-btn" data-sub="사찰/불교유산"        onclick="setSub(this)">🛕 사찰·불교</button>
-    <button class="f-btn" data-sub="비석/기념유산"        onclick="setSub(this)">🪧 비석·기념</button>
-    <button class="f-btn" data-sub="독립운동/근현대"      onclick="setSub(this)">🏴 독립운동</button>
-    <button class="f-btn" data-sub="고택/서원/향교"       onclick="setSub(this)">📚 서원·향교</button>
-    <button class="f-btn" data-sub="산"                  onclick="setSub(this)">⛰️ 산</button>
-    <button class="f-btn" data-sub="바다/해변"            onclick="setSub(this)">🌊 바다</button>
-    <button class="f-btn" data-sub="박물관"               onclick="setSub(this)">🏛️ 박물관</button>
+    <span id="sub-btns"></span>
   </div>
   <!-- 시대 -->
   <div class="filter-row">
@@ -281,6 +271,46 @@ header{
 </div>
 
 <script>
+/* 카테고리별 세부 필터 정의 */
+const SUB_FILTERS = {
+  'all': [
+    {v:'all',l:'전체'},
+    {v:'궁궐/왕실',l:'👑 궁궐·왕실'},{v:'고인돌/선사유적',l:'🪨 고인돌·선사'},{v:'성곽/산성',l:'🏰 성곽·산성'},
+    {v:'사찰/불교유산',l:'🛕 사찰·불교'},{v:'비석/기념유산',l:'🪧 비석·기념'},{v:'독립운동/근현대',l:'🏴 독립운동'},
+    {v:'고택/서원/향교',l:'📚 서원·향교'},
+    {v:'산',l:'⛰️ 산'},{v:'바다/해변',l:'🌊 바다'},{v:'강/호수',l:'💧 강·호수'},{v:'자연명승',l:'🌄 자연명승'},
+    {v:'박물관',l:'🏛️ 박물관'},{v:'체험마을',l:'🏘️ 체험마을'},{v:'전통시장',l:'🏪 전통시장'}
+  ],
+  '역사': [
+    {v:'all',l:'전체'},
+    {v:'궁궐/왕실',l:'👑 궁궐·왕실'},{v:'고인돌/선사유적',l:'🪨 고인돌·선사'},
+    {v:'성곽/산성',l:'🏰 성곽·산성'},{v:'사찰/불교유산',l:'🛕 사찰·불교'},
+    {v:'비석/기념유산',l:'🪧 비석·기념'},{v:'독립운동/근현대',l:'🏴 독립운동'},
+    {v:'고택/서원/향교',l:'📚 서원·향교'}
+  ],
+  '자연': [
+    {v:'all',l:'전체'},
+    {v:'산',l:'⛰️ 산'},{v:'바다/해변',l:'🌊 바다·해변'},
+    {v:'강/호수',l:'💧 강·호수'},{v:'숲/공원',l:'🌲 숲·공원'},
+    {v:'폭포',l:'💦 폭포'},{v:'동굴',l:'🕳️ 동굴'},{v:'섬',l:'🏝️ 섬'},
+    {v:'자연명승',l:'🌄 자연명승'},{v:'일출/일몰 명소',l:'🌅 일출·일몰'},{v:'계절 명소',l:'🌸 계절 명소'}
+  ],
+  '문화/체험': [
+    {v:'all',l:'전체'},
+    {v:'전통시장',l:'🏪 전통시장'},{v:'박물관',l:'🏛️ 박물관'},{v:'미술관',l:'🎨 미술관'},
+    {v:'체험마을',l:'🏘️ 체험마을'},{v:'축제',l:'🎉 축제'},{v:'전통문화 체험',l:'🎎 전통체험'},
+    {v:'공방 체험',l:'🏺 공방'},{v:'지역 먹거리',l:'🍜 먹거리'},{v:'로컬 여행 코스',l:'🚶 로컬코스'},{v:'가족 체험',l:'👨‍👩‍👧 가족체험'}
+  ]
+};
+
+function renderSubFilter() {
+  const subs = SUB_FILTERS[fMain] || SUB_FILTERS['all'];
+  const wrap = document.getElementById('sub-btns');
+  wrap.innerHTML = subs.map(s =>
+    `<button class="f-btn${fSub===s.v?' act':''}" data-sub="${s.v}" onclick="setSub(this)">${s.l}</button>`
+  ).join('');
+}
+
 const SUB_COLOR={
   '궁궐/왕실':'#C8860A','고인돌/선사유적':'#6B5B95','성곽/산성':'#8B6914',
   '사찰/불교유산':'#D4380D','비석/기념유산':'#495057','독립운동/근현대':'#1B4332',
@@ -388,6 +418,8 @@ async function init(){
     },200);
   }
 
+  // 초기 세부 필터 렌더
+  renderSubFilter();
   // 검색 이벤트 (지도와 독립)
   document.getElementById('search-input').addEventListener('input',e=>{fSearch=e.target.value.trim();render();});
   render(); // 사이드 패널은 지도 없이도 표시
@@ -398,11 +430,15 @@ function setMain(el){
   document.querySelectorAll('[data-main]').forEach(b=>b.className='f-btn');
   const cls=fMain==='all'?'act-all':fMain==='역사'?'act-history':fMain==='자연'?'act-nature':'act-culture';
   el.classList.add(cls);
-  document.querySelectorAll('[data-sub]').forEach(b=>b.classList.remove('act'));
-  document.querySelector('[data-sub="all"]').classList.add('act');
+  renderSubFilter();
   render();
 }
-function setSub(el){fSub=el.dataset.sub;document.querySelectorAll('[data-sub]').forEach(b=>b.classList.remove('act'));el.classList.add('act');render();}
+function setSub(el){
+  fSub=el.dataset.sub;
+  document.querySelectorAll('#sub-btns .f-btn').forEach(b=>b.classList.remove('act'));
+  el.classList.add('act');
+  render();
+}
 function setEra(el){fEra=el.dataset.era;document.querySelectorAll('[data-era]').forEach(b=>b.classList.remove('act'));el.classList.add('act');render();}
 function setRegion(el){
   fRegion=el.dataset.region;
