@@ -157,6 +157,19 @@
       "new_collected": 18,
       "approved": 13,
       "total": 229
+    },
+    {
+      "time": "2026-05-06T05:04:54",
+      "mode": "C",
+      "content_generated": 5,
+      "places": [
+        "GK-CN-JEN-0001",
+        "GK-IC-JEN-0001",
+        "GK-SE-DOK-0004",
+        "GK-JJ-DOK-0001",
+        "GK-JB-GID-0001"
+      ],
+      "total_scripts": 30
     }
   ]
 }
