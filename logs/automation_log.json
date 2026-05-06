@@ -76,6 +76,15 @@
         "GK-SE-DOK-0001"
       ],
       "total_scripts": 10
+    },
+    {
+      "time": "2026-05-06T01:38:51",
+      "mode": "B",
+      "region": "경기·충청·경상·전라",
+      "new_collected": 16,
+      "total": 180,
+      "approved": 13,
+      "errors": 0
     }
   ]
 }

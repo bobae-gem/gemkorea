@@ -49,6 +49,13 @@
       "region": "경기·서울·충남·전남·경북",
       "collected": 16,
       "total": 164
+    },
+    {
+      "run_time": "2026-05-06T01:38:51",
+      "mode": "B_MODE_QUALITY_SEARCH",
+      "region": "경기·충청·경상·전라",
+      "collected": 16,
+      "total": 180
     }
   ]
 }
