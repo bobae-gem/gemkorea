@@ -93,6 +93,19 @@
       "new_collected": 30,
       "approved": 27,
       "total": 210
+    },
+    {
+      "time": "2026-05-06T03:06:03",
+      "mode": "C",
+      "content_generated": 5,
+      "places": [
+        "GK-SE-SEO-0001",
+        "GK-GG-RYU-0001",
+        "GK-GB-SWO-0003",
+        "GK-SE-GID-0001",
+        "GK-JN-GID-0001"
+      ],
+      "total_scripts": 15
     }
   ]
 }
