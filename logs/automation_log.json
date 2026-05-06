@@ -484,6 +484,51 @@
         "GK-JJ-SAE-0001"
       ],
       "total_scripts": 125
+    },
+    {
+      "time": "2026-05-06T06:44:45",
+      "mode": "C",
+      "content_generated": 5,
+      "places": [
+        "GK-JJ-GID-0001",
+        "GK-JJ-SAE-0002",
+        "GK-GN-SAE-0002",
+        "GK-GN-SWO-0001",
+        "GK-GN-SAE-0003"
+      ],
+      "total_scripts": 130
+    },
+    {
+      "time": "2026-05-06T06:46:27",
+      "mode": "C",
+      "content_generated": 5,
+      "places": [
+        "GK-CB-SAJ-0001",
+        "GK-CB-JEN-0001",
+        "GK-CB-SAE-0001",
+        "GK-CB-BIS-0001",
+        "GK-CB-SAN-0002"
+      ],
+      "total_scripts": 135
+    },
+    {
+      "time": "2026-05-06T06:47:23",
+      "mode": "B",
+      "new_collected": 7,
+      "total": 407
+    },
+    {
+      "time": "2026-05-06T06:49:19",
+      "mode": "C",
+      "content_generated": 5,
+      "places": [
+        "GK-CB-SAN-0003",
+        "GK-GB-GOB-0003",
+        "GK-GB-SAE-0005",
+        "GK-GB-SAE-0006",
+        "GK-GB-RYU-0004"
+      ],
+      "total_scripts": 140
     }
   ]
 }

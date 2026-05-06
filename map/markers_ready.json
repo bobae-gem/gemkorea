@@ -1,5 +1,5 @@
 {
-  "total": 383,
+  "total": 390,
   "markers": [
     {
       "id": "h001",
@@ -5651,8 +5651,8 @@
         "map_displayable": true,
         "data_status": "complete",
         "map_status": "published",
-        "content_status": "waiting",
-        "last_updated": "2026-05-06T00:20:39"
+        "content_status": "review_pending",
+        "last_updated": "2026-05-06T06:38:21"
       },
       "content_link": {
         "has_video": false,
@@ -5743,8 +5743,8 @@
         "map_displayable": true,
         "data_status": "complete",
         "map_status": "published",
-        "content_status": "waiting",
-        "last_updated": "2026-05-06T00:20:39"
+        "content_status": "review_pending",
+        "last_updated": "2026-05-06T06:38:21"
       },
       "content_link": {
         "has_video": false,
@@ -5789,8 +5789,8 @@
         "map_displayable": true,
         "data_status": "complete",
         "map_status": "published",
-        "content_status": "waiting",
-        "last_updated": "2026-05-06T00:20:39"
+        "content_status": "review_pending",
+        "last_updated": "2026-05-06T06:38:21"
       },
       "content_link": {
         "has_video": false,
@@ -5834,8 +5834,8 @@
         "map_displayable": true,
         "data_status": "complete",
         "map_status": "published",
-        "content_status": "waiting",
-        "last_updated": "2026-05-06T00:20:39"
+        "content_status": "review_pending",
+        "last_updated": "2026-05-06T06:38:21"
       },
       "content_link": {
         "has_video": false,
@@ -5879,8 +5879,8 @@
         "map_displayable": true,
         "data_status": "complete",
         "map_status": "published",
-        "content_status": "waiting",
-        "last_updated": "2026-05-06T00:20:39"
+        "content_status": "review_pending",
+        "last_updated": "2026-05-06T06:38:21"
       },
       "content_link": {
         "has_video": false,
@@ -5924,8 +5924,8 @@
         "map_displayable": true,
         "data_status": "complete",
         "map_status": "published",
-        "content_status": "waiting",
-        "last_updated": "2026-05-06T00:20:39"
+        "content_status": "review_pending",
+        "last_updated": "2026-05-06T06:44:45"
       },
       "content_link": {
         "has_video": false,
@@ -5969,8 +5969,8 @@
         "map_displayable": true,
         "data_status": "complete",
         "map_status": "published",
-        "content_status": "waiting",
-        "last_updated": "2026-05-06T00:20:39"
+        "content_status": "review_pending",
+        "last_updated": "2026-05-06T06:44:45"
       },
       "content_link": {
         "has_video": false,
@@ -6014,8 +6014,8 @@
         "map_displayable": true,
         "data_status": "complete",
         "map_status": "published",
-        "content_status": "waiting",
-        "last_updated": "2026-05-06T00:20:39"
+        "content_status": "review_pending",
+        "last_updated": "2026-05-06T06:44:45"
       },
       "content_link": {
         "has_video": false,
@@ -6059,8 +6059,8 @@
         "map_displayable": true,
         "data_status": "complete",
         "map_status": "published",
-        "content_status": "waiting",
-        "last_updated": "2026-05-06T00:20:39"
+        "content_status": "review_pending",
+        "last_updated": "2026-05-06T06:44:45"
       },
       "content_link": {
         "has_video": false,
@@ -6104,8 +6104,8 @@
         "map_displayable": true,
         "data_status": "complete",
         "map_status": "waiting",
-        "content_status": "waiting",
-        "last_updated": "2026-05-06T05:09:26"
+        "content_status": "review_pending",
+        "last_updated": "2026-05-06T06:44:45"
       },
       "content_link": {
         "has_video": false,
@@ -6152,8 +6152,8 @@
         "map_displayable": true,
         "data_status": "complete",
         "map_status": "published",
-        "content_status": "waiting",
-        "last_updated": "2026-05-06T00:47:07"
+        "content_status": "review_pending",
+        "last_updated": "2026-05-06T06:46:27"
       },
       "content_link": {
         "has_video": false,
@@ -6197,8 +6197,8 @@
         "map_displayable": true,
         "data_status": "complete",
         "map_status": "published",
-        "content_status": "waiting",
-        "last_updated": "2026-05-06T00:47:07"
+        "content_status": "review_pending",
+        "last_updated": "2026-05-06T06:46:27"
       },
       "content_link": {
         "has_video": false,
@@ -6242,8 +6242,8 @@
         "map_displayable": true,
         "data_status": "complete",
         "map_status": "published",
-        "content_status": "waiting",
-        "last_updated": "2026-05-06T00:47:07"
+        "content_status": "review_pending",
+        "last_updated": "2026-05-06T06:46:27"
       },
       "content_link": {
         "has_video": false,
@@ -6288,8 +6288,8 @@
         "map_displayable": true,
         "data_status": "complete",
         "map_status": "published",
-        "content_status": "waiting",
-        "last_updated": "2026-05-06T00:47:07"
+        "content_status": "review_pending",
+        "last_updated": "2026-05-06T06:46:27"
       },
       "content_link": {
         "has_video": false,
@@ -6332,8 +6332,8 @@
         "map_displayable": true,
         "data_status": "complete",
         "map_status": "published",
-        "content_status": "waiting",
-        "last_updated": "2026-05-06T00:47:07"
+        "content_status": "review_pending",
+        "last_updated": "2026-05-06T06:46:27"
       },
       "content_link": {
         "has_video": false,
@@ -18021,6 +18021,328 @@
         "map_status": "published",
         "content_status": "waiting",
         "last_updated": "2026-05-06T06:38:21"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      }
+    },
+    {
+      "name": "합천 해인사",
+      "category_main": "역사",
+      "category_sub": "사찰",
+      "period": "통일신라 802년 창건",
+      "period_category": "통일신라",
+      "region": "경상남도",
+      "address": "경상남도 합천군 가야면 해인사길 122",
+      "location_marker_type": "entrance",
+      "lat": 35.7989,
+      "lng": 128.0989,
+      "short_description": "802년 창건된 화엄종 주요 사찰로 고려대장경판(팔만대장경)을 보관하는 장경판전이 있다. 장경판전은 1995년 유네스코 세계문화유산에, 팔만대장경은 유네스코 세계기록유산에 각각 등재되었다.",
+      "source_urls": [
+        "https://ko.wikipedia.org/wiki/%ED%95%B4%EC%9D%B8%EC%82%AC"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "통일신라",
+        "팔만대장경",
+        "유네스코",
+        "장경판전",
+        "합천",
+        "화엄종",
+        "사찰"
+      ],
+      "place_id": "GK-GN-SAJ-0008",
+      "category_detail": "802년 창건된 화엄종 주요 사찰로 고려대장경판(팔만대장경)을 보관하는 장경판전이 있다",
+      "confidence": "high",
+      "confidence_reason": "",
+      "needs_geocoding": false,
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-06T06:47:23"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      }
+    },
+    {
+      "name": "고령 대가야 고분군",
+      "category_main": "역사",
+      "category_sub": "고분군",
+      "period": "가야 4~6세기",
+      "period_category": "삼국시대",
+      "region": "경상북도",
+      "address": "경상북도 고령군 고령읍 지산리 산8",
+      "location_marker_type": "entrance",
+      "lat": 35.7258,
+      "lng": 128.2625,
+      "short_description": "대가야 왕도였던 고령 지산동에 분포한 200여 기의 봉토분. 왕급 고분에서 순장 흔적이 발견되어 연구의 핵심 유적이며 2023년 유네스코 세계문화유산 가야고분군에 포함되었다.",
+      "source_urls": [
+        "https://ko.wikipedia.org/wiki/%EC%A7%80%EC%82%B0%EB%8F%99_%EA%B3%A0%EB%B6%84%EA%B5%B0"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "가야",
+        "대가야",
+        "고분군",
+        "유네스코",
+        "순장",
+        "고령",
+        "삼국시대"
+      ],
+      "place_id": "GK-GB-GOB-0004",
+      "category_detail": "대가야 왕도였던 고령 지산동에 분포한 200여 기의 봉토분",
+      "confidence": "high",
+      "confidence_reason": "",
+      "needs_geocoding": false,
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-06T06:47:23"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      }
+    },
+    {
+      "name": "창녕 교동고분군",
+      "category_main": "역사",
+      "category_sub": "고분군",
+      "period": "가야 5~6세기",
+      "period_category": "삼국시대",
+      "region": "경상남도",
+      "address": "경상남도 창녕군 창녕읍 교리 산1",
+      "location_marker_type": "entrance",
+      "lat": 35.5427,
+      "lng": 128.4958,
+      "short_description": "비화가야의 지배층 묘역으로 추정되는 고분군. 교동과 송현동 일대에 200기 이상의 봉토분이 분포하며 2023년 유네스코 세계문화유산 가야고분군에 포함되었다.",
+      "source_urls": [
+        "https://ko.wikipedia.org/wiki/%EC%B0%BD%EB%85%95_%EA%B5%90%EB%8F%99%C2%B7%EC%86%A1%ED%98%84%EB%8F%99_%EA%B3%A0%EB%B6%84%EA%B5%B0"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "가야",
+        "비화가야",
+        "고분군",
+        "유네스코",
+        "창녕",
+        "삼국시대",
+        "봉토분"
+      ],
+      "place_id": "GK-GN-GOB-0001",
+      "category_detail": "비화가야의 지배층 묘역으로 추정되는 고분군",
+      "confidence": "high",
+      "confidence_reason": "",
+      "needs_geocoding": false,
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-06T06:47:23"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      }
+    },
+    {
+      "name": "진도 운림산방",
+      "category_main": "자연",
+      "category_sub": "자연명승",
+      "period": "",
+      "period_category": "",
+      "region": "전라남도",
+      "address": "전라남도 진도군 의신면 운림산방로 315",
+      "location_marker_type": "exact",
+      "lat": 34.3689,
+      "lng": 126.2231,
+      "short_description": "조선 말기 남종화 대가 소치 허련이 만년에 은거하며 작품 활동을 한 화실과 연못이 어우러진 정원. 첨찰산 자락에 위치하며 연못 위 운무와 노송이 만들어내는 경관으로 유명하다.",
+      "source_urls": [
+        "https://ko.wikipedia.org/wiki/%EC%9A%B4%EB%A6%BC%EC%82%B0%EB%B0%A9"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "진도",
+        "소치허련",
+        "남종화",
+        "운림산방",
+        "정원",
+        "첨찰산",
+        "전남"
+      ],
+      "place_id": "GK-JN-SCN-0007",
+      "category_detail": "조선 말기 남종화 대가 소치 허련이 만년에 은거하며 작품 활동을 한 화실과 연못이 어우러진 정원",
+      "confidence": "high",
+      "confidence_reason": "",
+      "needs_geocoding": false,
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-06T06:47:23"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      }
+    },
+    {
+      "name": "보성 녹차밭",
+      "category_main": "자연",
+      "category_sub": "계절 명소",
+      "period": "",
+      "period_category": "",
+      "region": "전라남도",
+      "address": "전라남도 보성군 보성읍 녹차로 775",
+      "location_marker_type": "entrance",
+      "lat": 34.8281,
+      "lng": 127.0797,
+      "short_description": "한국 최대 녹차 생산지 보성의 대한다원으로 삼나무 숲과 물결치는 녹차밭이 어우러진 독특한 경관이다. 1939년 조성된 이래 국내 녹차 재배의 역사를 간직하고 있다.",
+      "source_urls": [
+        "https://www.boseong.go.kr/tour"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "보성",
+        "녹차",
+        "대한다원",
+        "차밭",
+        "삼나무숲",
+        "전남",
+        "계절여행"
+      ],
+      "place_id": "GK-JN-GAD-0002",
+      "category_detail": "한국 최대 녹차 생산지 보성의 대한다원으로 삼나무 숲과 물결치는 녹차밭이 어우러진 독특한 경관이다",
+      "confidence": "high",
+      "confidence_reason": "",
+      "needs_geocoding": false,
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-06T06:47:23"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      }
+    },
+    {
+      "name": "여수 향일암",
+      "category_main": "자연",
+      "category_sub": "일출/일몰 명소",
+      "period": "",
+      "period_category": "",
+      "region": "전라남도",
+      "address": "전라남도 여수시 돌산읍 향일암로 60",
+      "location_marker_type": "entrance",
+      "lat": 34.6192,
+      "lng": 127.7844,
+      "short_description": "돌산도 금오산 남쪽 기암절벽에 위치한 사찰로 한국의 4대 관음성지 중 하나다. 일출 명소로 유명하며 바다를 향한 기암괴석과 동백나무 숲이 절경을 이룬다.",
+      "source_urls": [
+        "https://ko.wikipedia.org/wiki/%ED%96%A5%EC%9D%BC%EC%95%94"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "여수",
+        "향일암",
+        "일출",
+        "관음성지",
+        "돌산도",
+        "사찰",
+        "기암절벽"
+      ],
+      "place_id": "GK-JN-SUN-0001",
+      "category_detail": "돌산도 금오산 남쪽 기암절벽에 위치한 사찰로 한국의 4대 관음성지 중 하나다",
+      "confidence": "high",
+      "confidence_reason": "",
+      "needs_geocoding": false,
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-06T06:47:23"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      }
+    },
+    {
+      "name": "순천 낙안읍성",
+      "category_main": "역사",
+      "category_sub": "생활유적",
+      "period": "조선시대",
+      "period_category": "조선시대",
+      "region": "전라남도",
+      "address": "전라남도 순천시 낙안면 충민길 30",
+      "location_marker_type": "entrance",
+      "lat": 34.9611,
+      "lng": 127.3872,
+      "short_description": "조선시대 읍성과 초가마을이 원형에 가깝게 보존된 민속마을. 사적 제302호로 100여 가구의 주민이 실제 거주하는 살아있는 문화유산이다.",
+      "source_urls": [
+        "https://ko.wikipedia.org/wiki/%EB%82%99%EC%95%88%EC%9D%8D%EC%84%B1"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "순천",
+        "낙안읍성",
+        "민속마을",
+        "초가",
+        "사적",
+        "조선시대",
+        "생활유산"
+      ],
+      "place_id": "GK-JN-SAE-0010",
+      "category_detail": "조선시대 읍성과 초가마을이 원형에 가깝게 보존된 민속마을",
+      "confidence": "high",
+      "confidence_reason": "",
+      "needs_geocoding": false,
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-06T06:47:23"
       },
       "content_link": {
         "has_video": false,
