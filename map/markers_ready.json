@@ -1,5 +1,5 @@
 {
-  "total": 248,
+  "total": 270,
   "markers": [
     {
       "id": "h001",
@@ -1739,8 +1739,8 @@
         "map_displayable": true,
         "data_status": "complete",
         "map_status": "published",
-        "content_status": "waiting",
-        "last_updated": "2026-05-05T23:10:42"
+        "content_status": "review_pending",
+        "last_updated": "2026-05-06T05:18:41"
       },
       "content_link": {
         "has_video": false,
@@ -4744,8 +4744,8 @@
         "map_displayable": true,
         "data_status": "complete",
         "map_status": "published",
-        "content_status": "waiting",
-        "last_updated": "2026-05-05T23:21:40"
+        "content_status": "review_pending",
+        "last_updated": "2026-05-06T05:18:41"
       },
       "content_link": {
         "has_video": false,
@@ -6879,8 +6879,8 @@
         "map_displayable": true,
         "data_status": "complete",
         "map_status": "published",
-        "content_status": "waiting",
-        "last_updated": "2026-05-06T00:47:07"
+        "content_status": "review_pending",
+        "last_updated": "2026-05-06T05:18:41"
       },
       "content_link": {
         "has_video": false,
@@ -11259,8 +11259,8 @@
         "map_displayable": true,
         "data_status": "complete",
         "map_status": "published",
-        "content_status": "waiting",
-        "last_updated": "2026-05-06T10:00:00"
+        "content_status": "review_pending",
+        "last_updated": "2026-05-06T05:18:41"
       },
       "content_link": {
         "has_video": false,
@@ -11354,8 +11354,8 @@
         "map_displayable": true,
         "data_status": "complete",
         "map_status": "published",
-        "content_status": "waiting",
-        "last_updated": "2026-05-06T10:00:00"
+        "content_status": "review_pending",
+        "last_updated": "2026-05-06T05:18:41"
       },
       "content_link": {
         "has_video": false,
@@ -11637,8 +11637,8 @@
         "map_displayable": true,
         "data_status": "complete",
         "map_status": "published",
-        "content_status": "waiting",
-        "last_updated": "2026-05-06T10:00:00"
+        "content_status": "review_pending",
+        "last_updated": "2026-05-06T05:18:41"
       },
       "content_link": {
         "has_video": false,
@@ -11779,8 +11779,1058 @@
         "map_displayable": true,
         "data_status": "complete",
         "map_status": "published",
+        "content_status": "review_pending",
+        "last_updated": "2026-05-06T05:18:41"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      }
+    },
+    {
+      "name": "설악산",
+      "category_main": "자연",
+      "category_sub": "산",
+      "category": "산",
+      "period": "",
+      "period_category": "",
+      "region": "강원도",
+      "address": "강원특별자치도 속초시 설악산로 1167",
+      "location_marker_type": "entrance",
+      "lat": 38.1196,
+      "lng": 128.4656,
+      "short_description": "대한민국 대표 명산으로 해발 1,708m 대청봉을 중심으로 공룡능선·울산바위·비선대 등 기암절벽과 계곡이 어우러진 국립공원. 사계절 절경이 뛰어나며 천연기념물과 희귀 식물이 서식한다.",
+      "source_urls": [
+        "https://www.knps.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "국립공원",
+        "설악산",
+        "대청봉",
+        "울산바위",
+        "공룡능선",
+        "단풍",
+        "강원",
+        "등산"
+      ],
+      "place_id": "GK-GW-MTN-0001",
+      "category_detail": "대한민국 대표 명산으로 해발 1,708m 대청봉을 중심으로 공룡능선·울산바위·비선대 등 기암절벽과 계곡이 어우러진 국립공원",
+      "confidence": "high",
+      "confidence_reason": "",
+      "needs_geocoding": false,
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
         "content_status": "waiting",
-        "last_updated": "2026-05-06T10:00:00"
+        "last_updated": "2026-05-06T05:22:07"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      }
+    },
+    {
+      "name": "지리산",
+      "category_main": "자연",
+      "category_sub": "산",
+      "category": "산",
+      "period": "",
+      "period_category": "",
+      "region": "전라남도",
+      "address": "전라남도 구례군 마산면 화엄사로 539 일원",
+      "location_marker_type": "entrance",
+      "lat": 35.3372,
+      "lng": 127.7302,
+      "short_description": "해발 1,915m 천왕봉을 최고봉으로 하는 우리나라 최초의 국립공원. 3개 도·5개 시군에 걸친 광활한 면적에 노고단·반야봉·화엄사 등 명소와 반달가슴곰 서식지로 유명하다.",
+      "source_urls": [
+        "https://www.knps.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "국립공원",
+        "지리산",
+        "천왕봉",
+        "노고단",
+        "반달가슴곰",
+        "화엄사",
+        "둘레길",
+        "등산"
+      ],
+      "place_id": "GK-JN-MTN-0001",
+      "category_detail": "해발 1,915m 천왕봉을 최고봉으로 하는 우리나라 최초의 국립공원",
+      "confidence": "high",
+      "confidence_reason": "",
+      "needs_geocoding": false,
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-06T05:22:07"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      }
+    },
+    {
+      "name": "한라산",
+      "category_main": "자연",
+      "category_sub": "산",
+      "category": "산",
+      "period": "",
+      "period_category": "",
+      "region": "제주특별자치도",
+      "address": "제주특별자치도 제주시 아라동 산220",
+      "location_marker_type": "entrance",
+      "lat": 33.3617,
+      "lng": 126.5292,
+      "short_description": "해발 1,950m 대한민국 최고봉으로 제주도 중심의 순상화산. 유네스코 세계자연유산으로 등재되었으며 백록담 화구호와 고산 식물군락, 오름 군락이 장관을 이룬다.",
+      "source_urls": [
+        "https://www.knps.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "국립공원",
+        "한라산",
+        "백록담",
+        "유네스코",
+        "세계자연유산",
+        "제주",
+        "최고봉",
+        "등산"
+      ],
+      "place_id": "GK-JJ-MTN-0001",
+      "category_detail": "해발 1,950m 대한민국 최고봉으로 제주도 중심의 순상화산",
+      "confidence": "high",
+      "confidence_reason": "",
+      "needs_geocoding": false,
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-06T05:22:07"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      }
+    },
+    {
+      "name": "오대산",
+      "category_main": "자연",
+      "category_sub": "산",
+      "category": "산",
+      "period": "",
+      "period_category": "",
+      "region": "강원도",
+      "address": "강원특별자치도 평창군 진부면 오대산로 374-8 일원",
+      "location_marker_type": "entrance",
+      "lat": 37.7956,
+      "lng": 128.5428,
+      "short_description": "해발 1,563m 비로봉을 중심으로 다섯 봉우리가 연꽃처럼 펼쳐진 강원 명산. 월정사와 상원사를 품은 불교 성지이며 울창한 전나무 숲길과 선재길이 사계절 탐방객을 맞이한다.",
+      "source_urls": [
+        "https://www.knps.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "국립공원",
+        "오대산",
+        "월정사",
+        "전나무숲",
+        "비로봉",
+        "선재길",
+        "강원",
+        "등산"
+      ],
+      "place_id": "GK-GW-MTN-0002",
+      "category_detail": "해발 1,563m 비로봉을 중심으로 다섯 봉우리가 연꽃처럼 펼쳐진 강원 명산",
+      "confidence": "high",
+      "confidence_reason": "",
+      "needs_geocoding": false,
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-06T05:22:07"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      }
+    },
+    {
+      "name": "태백산",
+      "category_main": "자연",
+      "category_sub": "산",
+      "category": "산",
+      "period": "",
+      "period_category": "",
+      "region": "강원도",
+      "address": "강원특별자치도 태백시 소도동 산 1-1",
+      "location_marker_type": "entrance",
+      "lat": 37.0958,
+      "lng": 128.9167,
+      "short_description": "해발 1,567m로 한강·낙동강·오십천의 발원지인 민족의 영산. 국립공원으로 지정되어 있으며 천제단과 주목군락지가 유명하고 겨울철 설경과 눈꽃 축제로 많은 탐방객이 찾는다.",
+      "source_urls": [
+        "https://www.knps.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "국립공원",
+        "태백산",
+        "천제단",
+        "주목",
+        "눈꽃",
+        "설경",
+        "강원",
+        "등산"
+      ],
+      "place_id": "GK-GW-MTN-0003",
+      "category_detail": "해발 1,567m로 한강·낙동강·오십천의 발원지인 민족의 영산",
+      "confidence": "high",
+      "confidence_reason": "",
+      "needs_geocoding": false,
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-06T05:22:07"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      }
+    },
+    {
+      "name": "정동진",
+      "category_main": "자연",
+      "category_sub": "일출/일몰 명소",
+      "category": "일출/일몰 명소",
+      "period": "",
+      "period_category": "",
+      "region": "강원도",
+      "address": "강원특별자치도 강릉시 강동면 정동진리 50-1",
+      "location_marker_type": "exact",
+      "lat": 37.686,
+      "lng": 129.06,
+      "short_description": "세계에서 바다와 가장 가까운 기차역으로 기네스북에 등재된 일출 명소. 매년 새해 해돋이 행사에 수만 명이 몰리며 드라마 모래시계 촬영지로도 유명해 연중 관광객의 발길이 끊이지 않는다.",
+      "source_urls": [
+        "https://korean.visitkorea.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "일출",
+        "기차역",
+        "강릉",
+        "강원",
+        "해돋이",
+        "새해",
+        "모래시계",
+        "동해"
+      ],
+      "place_id": "GK-GW-SNS-0001",
+      "category_detail": "세계에서 바다와 가장 가까운 기차역으로 기네스북에 등재된 일출 명소",
+      "confidence": "high",
+      "confidence_reason": "",
+      "needs_geocoding": false,
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-06T05:22:07"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      }
+    },
+    {
+      "name": "간절곶",
+      "category_main": "자연",
+      "category_sub": "일출/일몰 명소",
+      "category": "일출/일몰 명소",
+      "period": "",
+      "period_category": "",
+      "region": "경상남도",
+      "address": "울산광역시 울주군 서생면 대송리 967-1",
+      "location_marker_type": "exact",
+      "lat": 35.3611,
+      "lng": 129.3817,
+      "short_description": "한반도 육지에서 새해 일출이 가장 먼저 보이는 최동단 해안 절경지. 정동진보다 1분 빠른 일출로 유명하며 대형 소망우체통과 아름다운 등대가 랜드마크로 자리잡고 있다.",
+      "source_urls": [
+        "https://korean.visitkorea.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "일출",
+        "최동단",
+        "한반도",
+        "울산",
+        "소망우체통",
+        "해돋이",
+        "동해"
+      ],
+      "place_id": "GK-GN-SNS-0001",
+      "category_detail": "한반도 육지에서 새해 일출이 가장 먼저 보이는 최동단 해안 절경지",
+      "confidence": "high",
+      "confidence_reason": "",
+      "needs_geocoding": false,
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-06T05:22:07"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      }
+    },
+    {
+      "name": "호미곶",
+      "category_main": "자연",
+      "category_sub": "일출/일몰 명소",
+      "category": "일출/일몰 명소",
+      "period": "",
+      "period_category": "",
+      "region": "경상북도",
+      "address": "경상북도 포항시 남구 호미곶면 대보리 221",
+      "location_marker_type": "exact",
+      "lat": 36.0775,
+      "lng": 129.5681,
+      "short_description": "한반도 지형에서 호랑이 꼬리에 해당하는 동쪽 끝 해안 명소. 바다에서 솟아오르는 상생의 손 조형물과 국립등대박물관으로 유명하며 매년 1월 1일 해맞이 축제가 열린다.",
+      "source_urls": [
+        "https://korean.visitkorea.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "일출",
+        "포항",
+        "경북",
+        "상생의손",
+        "해맞이",
+        "등대박물관",
+        "호랑이꼬리",
+        "동해"
+      ],
+      "place_id": "GK-GB-SNS-0001",
+      "category_detail": "한반도 지형에서 호랑이 꼬리에 해당하는 동쪽 끝 해안 명소",
+      "confidence": "high",
+      "confidence_reason": "",
+      "needs_geocoding": false,
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-06T05:22:07"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      }
+    },
+    {
+      "name": "협재해변",
+      "category_main": "자연",
+      "category_sub": "바다/해변",
+      "category": "바다/해변",
+      "period": "",
+      "period_category": "",
+      "region": "제주특별자치도",
+      "address": "제주특별자치도 제주시 한림읍 협재리 2497-1",
+      "location_marker_type": "exact",
+      "lat": 33.3942,
+      "lng": 126.2392,
+      "short_description": "에메랄드빛 투명한 바다와 새하얀 백사장으로 제주에서 가장 아름다운 해변 중 하나. 앞바다에 떠 있는 비양도 풍경이 그림 같으며 해수욕과 스노클링을 즐기기에 최적인 서해안 명소다.",
+      "source_urls": [
+        "https://korean.visitkorea.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "해변",
+        "제주",
+        "협재",
+        "에메랄드",
+        "비양도",
+        "스노클링",
+        "백사장",
+        "한림"
+      ],
+      "place_id": "GK-JJ-SEA-0001",
+      "category_detail": "에메랄드빛 투명한 바다와 새하얀 백사장으로 제주에서 가장 아름다운 해변 중 하나",
+      "confidence": "high",
+      "confidence_reason": "",
+      "needs_geocoding": false,
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-06T05:22:07"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      }
+    },
+    {
+      "name": "해운대",
+      "category_main": "자연",
+      "category_sub": "바다/해변",
+      "category": "바다/해변",
+      "period": "",
+      "period_category": "",
+      "region": "부산광역시",
+      "address": "부산광역시 해운대구 해운대해변로 264",
+      "location_marker_type": "exact",
+      "lat": 35.1587,
+      "lng": 129.1603,
+      "short_description": "대한민국 최대 규모의 해수욕장으로 1.8km 백사장에 여름 성수기 100만 명 이상이 찾는 부산의 상징. 동백섬·달맞이고개·마린시티 야경과 어우러져 사계절 활기찬 해안 문화를 자랑한다.",
+      "source_urls": [
+        "https://korean.visitkorea.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "해변",
+        "부산",
+        "해운대",
+        "백사장",
+        "해수욕",
+        "동백섬",
+        "야경",
+        "마린시티"
+      ],
+      "place_id": "GK-BS-SEA-0001",
+      "category_detail": "대한민국 최대 규모의 해수욕장으로 1",
+      "confidence": "high",
+      "confidence_reason": "",
+      "needs_geocoding": false,
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-06T05:22:07"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      }
+    },
+    {
+      "name": "경포해변",
+      "category_main": "자연",
+      "category_sub": "바다/해변",
+      "category": "바다/해변",
+      "period": "",
+      "period_category": "",
+      "region": "강원도",
+      "address": "강원특별자치도 강릉시 창해로 307",
+      "location_marker_type": "exact",
+      "lat": 37.805,
+      "lng": 128.91,
+      "short_description": "강릉을 대표하는 동해안 해변으로 약 6km의 백사장이 펼쳐진다. 인근 경포호와 아름다운 자연경관을 이루며 관동팔경의 하나인 경포대에서 조망하는 바다 풍경이 일품이다.",
+      "source_urls": [
+        "https://korean.visitkorea.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "해변",
+        "강릉",
+        "강원",
+        "경포호",
+        "경포대",
+        "동해",
+        "관동팔경",
+        "백사장"
+      ],
+      "place_id": "GK-GW-SEA-0001",
+      "category_detail": "강릉을 대표하는 동해안 해변으로 약 6km의 백사장이 펼쳐진다",
+      "confidence": "high",
+      "confidence_reason": "",
+      "needs_geocoding": false,
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-06T05:22:07"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      }
+    },
+    {
+      "name": "정방폭포",
+      "category_main": "자연",
+      "category_sub": "폭포",
+      "category": "폭포",
+      "period": "",
+      "period_category": "",
+      "region": "제주특별자치도",
+      "address": "제주특별자치도 서귀포시 칠십리로214번길 37",
+      "location_marker_type": "exact",
+      "lat": 33.2458,
+      "lng": 126.5681,
+      "short_description": "아시아에서 유일하게 폭포수가 바다로 직접 떨어지는 해안 폭포. 높이 23m의 장대한 물줄기가 서귀포 앞바다로 쏟아지는 장관은 제주 3대 폭포 중 가장 장엄한 풍경으로 꼽힌다.",
+      "source_urls": [
+        "https://korean.visitkorea.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "폭포",
+        "제주",
+        "서귀포",
+        "해안폭포",
+        "바다폭포",
+        "3대폭포",
+        "아시아유일"
+      ],
+      "place_id": "GK-JJ-WAT-0001",
+      "category_detail": "아시아에서 유일하게 폭포수가 바다로 직접 떨어지는 해안 폭포",
+      "confidence": "high",
+      "confidence_reason": "",
+      "needs_geocoding": false,
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-06T05:22:07"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      }
+    },
+    {
+      "name": "천지연폭포",
+      "category_main": "자연",
+      "category_sub": "폭포",
+      "category": "폭포",
+      "period": "",
+      "period_category": "",
+      "region": "제주특별자치도",
+      "address": "제주특별자치도 서귀포시 천지동 667-7",
+      "location_marker_type": "exact",
+      "lat": 33.2486,
+      "lng": 126.5581,
+      "short_description": "높이 22m의 폭포가 깊이 20m의 담소에 쏟아지는 서귀포 대표 명소. 천연기념물 천연보호구역으로 지정되어 있으며 무태장어가 서식하는 생태적으로도 귀중한 공간이다.",
+      "source_urls": [
+        "https://korean.visitkorea.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "폭포",
+        "제주",
+        "서귀포",
+        "천연기념물",
+        "무태장어",
+        "3대폭포",
+        "난대식물"
+      ],
+      "place_id": "GK-JJ-WAT-0002",
+      "category_detail": "높이 22m의 폭포가 깊이 20m의 담소에 쏟아지는 서귀포 대표 명소",
+      "confidence": "high",
+      "confidence_reason": "",
+      "needs_geocoding": false,
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-06T05:22:07"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      }
+    },
+    {
+      "name": "환선굴",
+      "category_main": "자연",
+      "category_sub": "동굴",
+      "category": "동굴",
+      "period": "",
+      "period_category": "",
+      "region": "강원도",
+      "address": "강원특별자치도 삼척시 신기면 환선로 800",
+      "location_marker_type": "entrance",
+      "lat": 37.2061,
+      "lng": 129.1017,
+      "short_description": "국내 최대 규모의 석회암 동굴로 총 길이 6.2km 중 1.6km가 공개되어 있다. 약 5억 년 전에 형성된 동굴로 석순·종유석·석주 등 다양한 동굴 생성물이 있는 천연기념물이다.",
+      "source_urls": [
+        "https://korean.visitkorea.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "동굴",
+        "삼척",
+        "강원",
+        "석회암",
+        "천연기념물",
+        "종유석",
+        "석순",
+        "국내최대"
+      ],
+      "place_id": "GK-GW-CAV-0001",
+      "category_detail": "국내 최대 규모의 석회암 동굴로 총 길이 6",
+      "confidence": "high",
+      "confidence_reason": "",
+      "needs_geocoding": false,
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-06T05:22:07"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      }
+    },
+    {
+      "name": "고씨동굴",
+      "category_main": "자연",
+      "category_sub": "동굴",
+      "category": "동굴",
+      "period": "",
+      "period_category": "",
+      "region": "강원도",
+      "address": "강원특별자치도 영월군 김삿갓면 영월동로 1117",
+      "location_marker_type": "entrance",
+      "lat": 37.1667,
+      "lng": 128.5167,
+      "short_description": "임진왜란 당시 고씨 일가가 피난 생활을 했다는 전설이 깃든 석회암 동굴. 총 길이 3.5km 중 1.2km가 개방되어 있으며 동굴 내 지하 하천이 흐르는 신비로운 공간이다.",
+      "source_urls": [
+        "https://korean.visitkorea.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "동굴",
+        "영월",
+        "강원",
+        "석회암",
+        "천연기념물",
+        "지하하천",
+        "종유석"
+      ],
+      "place_id": "GK-GW-CAV-0002",
+      "category_detail": "임진왜란 당시 고씨 일가가 피난 생활을 했다는 전설이 깃든 석회암 동굴",
+      "confidence": "high",
+      "confidence_reason": "",
+      "needs_geocoding": false,
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-06T05:22:07"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      }
+    },
+    {
+      "name": "순천만",
+      "category_main": "자연",
+      "category_sub": "자연명승",
+      "category": "자연명승",
+      "period": "",
+      "period_category": "",
+      "region": "전라남도",
+      "address": "전라남도 순천시 순천만길 513-25",
+      "location_marker_type": "exact",
+      "lat": 34.8981,
+      "lng": 127.5069,
+      "short_description": "동아시아 최대의 갈대 군락지와 드넓은 갯벌이 펼쳐진 국제 생태 보전 지역. 람사르협약 등록 습지로 흑두루미 등 희귀 철새 수만 마리가 도래하며 S자형 수로의 일몰 풍경이 장관이다.",
+      "source_urls": [
+        "https://korean.visitkorea.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "갯벌",
+        "순천",
+        "전남",
+        "람사르",
+        "갈대밭",
+        "흑두루미",
+        "철새",
+        "습지"
+      ],
+      "place_id": "GK-JN-SCN-0001",
+      "category_detail": "동아시아 최대의 갈대 군락지와 드넓은 갯벌이 펼쳐진 국제 생태 보전 지역",
+      "confidence": "high",
+      "confidence_reason": "",
+      "needs_geocoding": false,
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-06T05:22:07"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      }
+    },
+    {
+      "name": "변산반도",
+      "category_main": "자연",
+      "category_sub": "자연명승",
+      "category": "자연명승",
+      "period": "",
+      "period_category": "",
+      "region": "전라북도",
+      "address": "전라북도 부안군 변산면 일원",
+      "location_marker_type": "entrance",
+      "lat": 35.6544,
+      "lng": 126.54,
+      "short_description": "내륙 산지와 해안이 함께 있는 대한민국 유일의 반도형 국립공원. 내변산의 울창한 숲과 직소폭포, 외변산의 채석강·적벽강 해안 절경이 어우러진다.",
+      "source_urls": [
+        "https://www.knps.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "국립공원",
+        "부안",
+        "전북",
+        "채석강",
+        "직소폭포",
+        "해안절경",
+        "반도형",
+        "변산"
+      ],
+      "place_id": "GK-JB-SCN-0001",
+      "category_detail": "내륙 산지와 해안이 함께 있는 대한민국 유일의 반도형 국립공원",
+      "confidence": "high",
+      "confidence_reason": "",
+      "needs_geocoding": false,
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-06T05:22:07"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      }
+    },
+    {
+      "name": "주왕산",
+      "category_main": "자연",
+      "category_sub": "자연명승",
+      "category": "자연명승",
+      "period": "",
+      "period_category": "",
+      "region": "경상북도",
+      "address": "경상북도 청송군 주왕산면 공원길 169-7",
+      "location_marker_type": "entrance",
+      "lat": 36.395,
+      "lng": 129.1522,
+      "short_description": "기암괴석과 깊은 계곡이 만들어내는 신비로운 경관의 국립공원. 주왕이 숨었다는 전설이 깃든 기암절벽과 3개의 폭포로 유명하며 청송사과와 함께 경북 대표 관광지로 꼽힌다.",
+      "source_urls": [
+        "https://www.knps.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "국립공원",
+        "청송",
+        "경북",
+        "기암절벽",
+        "폭포",
+        "주왕전설",
+        "계곡"
+      ],
+      "place_id": "GK-GB-SCN-0001",
+      "category_detail": "기암괴석과 깊은 계곡이 만들어내는 신비로운 경관의 국립공원",
+      "confidence": "high",
+      "confidence_reason": "",
+      "needs_geocoding": false,
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-06T05:22:07"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      }
+    },
+    {
+      "name": "월출산",
+      "category_main": "자연",
+      "category_sub": "자연명승",
+      "category": "자연명승",
+      "period": "",
+      "period_category": "",
+      "region": "전라남도",
+      "address": "전라남도 영암군 군서면 월출산길 200",
+      "location_marker_type": "entrance",
+      "lat": 34.7742,
+      "lng": 126.7056,
+      "short_description": "호남의 소금강으로 불리는 기암괴석의 명산으로 해발 809m. 천황봉에서 바라보는 남도 들판과 다도해 풍경이 장관이며 구름다리와 도갑사 등 문화유산이 자연과 조화를 이룬다.",
+      "source_urls": [
+        "https://www.knps.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "국립공원",
+        "영암",
+        "전남",
+        "기암괴석",
+        "구름다리",
+        "천황봉",
+        "호남소금강",
+        "등산"
+      ],
+      "place_id": "GK-JN-SCN-0002",
+      "category_detail": "호남의 소금강으로 불리는 기암괴석의 명산으로 해발 809m",
+      "confidence": "high",
+      "confidence_reason": "",
+      "needs_geocoding": false,
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-06T05:22:07"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      }
+    },
+    {
+      "name": "청산도",
+      "category_main": "자연",
+      "category_sub": "섬",
+      "category": "섬",
+      "period": "",
+      "period_category": "",
+      "region": "전라남도",
+      "address": "전라남도 완도군 청산면 청산리",
+      "location_marker_type": "exact",
+      "lat": 34.1781,
+      "lng": 126.8803,
+      "short_description": "완도에서 남쪽으로 19.2km 떨어진 섬으로 아시아 최초 슬로시티에 선정된 느림의 섬. 구들장 논·청보리밭·범바위 등 수려한 자연과 전통 마을이 어우러진 드라마 봄의 왈츠 촬영지다.",
+      "source_urls": [
+        "https://korean.visitkorea.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "섬",
+        "완도",
+        "전남",
+        "슬로시티",
+        "청보리",
+        "구들장논",
+        "느림여행"
+      ],
+      "place_id": "GK-JN-ISL-0001",
+      "category_detail": "완도에서 남쪽으로 19",
+      "confidence": "high",
+      "confidence_reason": "",
+      "needs_geocoding": false,
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-06T05:22:07"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      }
+    },
+    {
+      "name": "공주 석장리 구석기 유적",
+      "category_main": "역사",
+      "category_sub": "고인돌/선사유적",
+      "category": "생활유적",
+      "period": "선사시대 (약 30만~5만 년 전)",
+      "period_category": "선사",
+      "region": "충청남도",
+      "address": "충청남도 공주시 석장리동 석장리로 990",
+      "location_marker_type": "exact",
+      "lat": 36.4606,
+      "lng": 127.1122,
+      "short_description": "1964년 발굴된 한국 최초의 구석기 유적지로 한반도 구석기 문화 연구의 출발점. 금강변에 위치하며 뗀석기·동물 뼈 화석 등이 출토됐고 인근 석장리박물관에서 구석기 생활상을 전시한다.",
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1333300150000"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "구석기",
+        "선사유적",
+        "공주",
+        "충남",
+        "금강",
+        "뗀석기",
+        "한국최초",
+        "석장리박물관"
+      ],
+      "place_id": "GK-CN-GID-0001",
+      "category_detail": "1964년 발굴된 한국 최초의 구석기 유적지로 한반도 구석기 문화 연구의 출발점",
+      "confidence": "high",
+      "confidence_reason": "",
+      "needs_geocoding": false,
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-06T05:22:07"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      }
+    },
+    {
+      "name": "김해 대성동 고분군",
+      "category_main": "역사",
+      "category_sub": "고인돌/선사유적",
+      "category": "고분",
+      "period": "삼국시대 금관가야 (1~5세기)",
+      "period_category": "삼국",
+      "region": "경상남도",
+      "address": "경상남도 김해시 대성동 317",
+      "location_marker_type": "exact",
+      "lat": 35.2306,
+      "lng": 128.8847,
+      "short_description": "금관가야 왕들의 무덤 군집으로 추정되는 사적지. 1990년 발굴에서 청동·철기 유물과 순장 흔적이 발견되어 가야 왕권의 실체를 증명했으며 인근 대성동고분박물관에서 출토 유물을 전시한다.",
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1333101410000"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "가야",
+        "금관가야",
+        "고분",
+        "김해",
+        "경남",
+        "순장",
+        "철기",
+        "사적"
+      ],
+      "place_id": "GK-GN-GID-0002",
+      "category_detail": "금관가야 왕들의 무덤 군집으로 추정되는 사적지",
+      "confidence": "high",
+      "confidence_reason": "",
+      "needs_geocoding": false,
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-06T05:22:07"
       },
       "content_link": {
         "has_video": false,

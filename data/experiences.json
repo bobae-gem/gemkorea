@@ -2,7 +2,7 @@
   "_comment": "겜코리아 체험 데이터 — 역사/자연 마커와 분리. 삭제 금지. 젬투어 상품 후보.",
   "_version": "1.0",
   "_updated": "2026-05-06T02:13:45",
-  "total": 31,
+  "total": 34,
   "experiences": [
     {
       "experience_id": "EX-SE-MKT-001",
@@ -1595,7 +1595,150 @@
       "price_last_checked": "",
       "last_verified": "",
       "change_log": []
+    },
+    {
+      "experience_id": "EX-GW-FUD-001",
+      "name": "속초 아바이마을 순대골목",
+      "category_main": "문화/체험",
+      "category_sub": "지역 먹거리",
+      "category_detail": "한국전쟁 이후 함경도 피란민이 정착하며 형성된 실향민 마을",
+      "region_main": "GW",
+      "region_sub": "강원도",
+      "address": "강원특별자치도 속초시 청호동 일원",
+      "lat": 38.2072,
+      "lng": 128.5925,
+      "price": "무료 입장 (음식 별도)",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "모든연령",
+        "미식여행"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "한국전쟁 이후 함경도 피란민이 정착하며 형성된 실향민 마을. 갯배를 타고 건너가야 하는 독특한 접근 방식과 함경도식 오징어순대·아바이순대가 유명하며 드라마 가을동화 촬영지다.",
+      "source_urls": [
+        "https://korean.visitkorea.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "속초",
+        "강원",
+        "실향민",
+        "아바이순대",
+        "오징어순대",
+        "갯배",
+        "함경도"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "operation_status": "needs_check",
+      "operating_hours": "",
+      "phone": "",
+      "website": "https://korean.visitkorea.or.kr/",
+      "reservation_link": "",
+      "price_confirmed": "무료 입장 (음식 별도)",
+      "price_last_checked": "",
+      "last_verified": "",
+      "change_log": [],
+      "created_at": "2026-05-06T05:22:07"
+    },
+    {
+      "experience_id": "EX-BS-LCL-001",
+      "name": "부산 영도다리",
+      "category_main": "문화/체험",
+      "category_sub": "로컬 여행 코스",
+      "category_detail": "1934년 개통된 한국 최초의 도개교로 한국전쟁 피란민의 애환이 깃든 역사의 현장",
+      "region_main": "BS",
+      "region_sub": "부산광역시",
+      "address": "부산광역시 중구 대교동 1가~영도구 대교동 1가",
+      "lat": 35.0975,
+      "lng": 129.0361,
+      "price": "무료",
+      "duration": "1시간",
+      "reservation_required": false,
+      "target_user": [
+        "모든연령",
+        "역사여행"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "1934년 개통된 한국 최초의 도개교로 한국전쟁 피란민의 애환이 깃든 역사의 현장. 영도다리에서 만나자는 말이 생겨날 만큼 이산가족 상봉의 상징이며 2013년 복원 후 하루 한 번 다리를 든다.",
+      "source_urls": [
+        "https://korean.visitkorea.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "부산",
+        "도개교",
+        "근대역사",
+        "피란민",
+        "영도",
+        "한국전쟁"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "operation_status": "needs_check",
+      "operating_hours": "",
+      "phone": "",
+      "website": "https://korean.visitkorea.or.kr/",
+      "reservation_link": "",
+      "price_confirmed": "무료",
+      "price_last_checked": "",
+      "last_verified": "",
+      "change_log": [],
+      "created_at": "2026-05-06T05:22:07"
+    },
+    {
+      "experience_id": "EX-SE-LCL-001",
+      "name": "인사동 쌈지길",
+      "category_main": "문화/체험",
+      "category_sub": "로컬 여행 코스",
+      "category_detail": "인사동 문화 거리 한복판에 자리한 나선형 쇼핑 공간",
+      "region_main": "SE",
+      "region_sub": "서울특별시",
+      "address": "서울특별시 종로구 인사동길 44",
+      "lat": 37.5741,
+      "lng": 126.9859,
+      "price": "무료 입장",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "모든연령",
+        "외국인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [
+        "GK-SE-DOK-0010"
+      ],
+      "short_description": "인사동 문화 거리 한복판에 자리한 나선형 쇼핑 공간. 전통 찻집·갤러리·공방 등 200여 개의 개성 있는 상점이 독특한 구조물 속에 들어서 서울 대표 문화 명소가 됐다.",
+      "source_urls": [
+        "https://korean.visitkorea.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "인사동",
+        "서울",
+        "종로",
+        "공예",
+        "전통문화",
+        "갤러리",
+        "쇼핑"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "operation_status": "needs_check",
+      "operating_hours": "",
+      "phone": "",
+      "website": "https://korean.visitkorea.or.kr/",
+      "reservation_link": "",
+      "price_confirmed": "무료 입장",
+      "price_last_checked": "",
+      "last_verified": "",
+      "change_log": [],
+      "created_at": "2026-05-06T05:22:07"
     }
   ],
-  "last_updated": "2026-05-06T02:48:23"
+  "last_updated": "2026-05-06T05:22:07"
 }
