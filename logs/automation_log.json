@@ -115,6 +115,19 @@
       "approved": 15,
       "total": 197,
       "markers_ready": 197
+    },
+    {
+      "time": "2026-05-06T03:21:08",
+      "mode": "C",
+      "content_generated": 5,
+      "places": [
+        "GK-GB-GOB-0001",
+        "GK-GG-SAN-0002",
+        "GK-GN-SEO-0001",
+        "GK-SE-BIS-0001",
+        "GK-JB-HYO-0001"
+      ],
+      "total_scripts": 20
     }
   ]
 }
