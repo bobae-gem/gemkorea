@@ -216,6 +216,12 @@
         "GK-SE-DOK-0005"
       ],
       "total_scripts": 45
+    },
+    {
+      "time": "2026-05-06T05:40:15",
+      "mode": "B",
+      "new_collected": 18,
+      "total": 304
     }
   ]
 }
