@@ -7426,8 +7426,8 @@
       "map_displayable": true,
       "data_status": "complete",
       "map_status": "published",
-      "content_status": "waiting",
-      "last_updated": "2026-05-06T05:09:26"
+      "content_status": "review_pending",
+      "last_updated": "2026-05-06T07:03:26"
     },
     "content_link": {
       "has_video": false,
@@ -7472,8 +7472,8 @@
       "map_displayable": true,
       "data_status": "complete",
       "map_status": "published",
-      "content_status": "waiting",
-      "last_updated": "2026-05-06T01:02:53"
+      "content_status": "review_pending",
+      "last_updated": "2026-05-06T07:03:26"
     },
     "content_link": {
       "has_video": false,
@@ -7656,8 +7656,8 @@
       "map_displayable": true,
       "data_status": "complete",
       "map_status": "published",
-      "content_status": "waiting",
-      "last_updated": "2026-05-06T01:02:53"
+      "content_status": "review_pending",
+      "last_updated": "2026-05-06T07:03:26"
     },
     "content_link": {
       "has_video": false,
@@ -7702,8 +7702,8 @@
       "map_displayable": true,
       "data_status": "complete",
       "map_status": "published",
-      "content_status": "waiting",
-      "last_updated": "2026-05-06T01:02:53"
+      "content_status": "review_pending",
+      "last_updated": "2026-05-06T07:05:00"
     },
     "content_link": {
       "has_video": false,
@@ -7749,8 +7749,8 @@
       "map_displayable": true,
       "data_status": "complete",
       "map_status": "published",
-      "content_status": "waiting",
-      "last_updated": "2026-05-06T05:10:36"
+      "content_status": "review_pending",
+      "last_updated": "2026-05-06T07:05:00"
     },
     "content_link": {
       "has_video": false,
@@ -7795,8 +7795,8 @@
       "map_displayable": true,
       "data_status": "complete",
       "map_status": "published",
-      "content_status": "waiting",
-      "last_updated": "2026-05-06T01:02:53"
+      "content_status": "review_pending",
+      "last_updated": "2026-05-06T07:03:26"
     },
     "content_link": {
       "has_video": false,
@@ -7841,8 +7841,8 @@
       "map_displayable": true,
       "data_status": "complete",
       "map_status": "published",
-      "content_status": "waiting",
-      "last_updated": "2026-05-06T01:02:53"
+      "content_status": "review_pending",
+      "last_updated": "2026-05-06T07:03:26"
     },
     "content_link": {
       "has_video": false,
@@ -7886,8 +7886,8 @@
       "map_displayable": true,
       "data_status": "complete",
       "map_status": "published",
-      "content_status": "waiting",
-      "last_updated": "2026-05-06T05:09:26"
+      "content_status": "review_pending",
+      "last_updated": "2026-05-06T07:05:00"
     },
     "content_link": {
       "has_video": false,
@@ -7931,8 +7931,8 @@
       "map_displayable": true,
       "data_status": "complete",
       "map_status": "published",
-      "content_status": "waiting",
-      "last_updated": "2026-05-06T01:38:51"
+      "content_status": "review_pending",
+      "last_updated": "2026-05-06T07:05:00"
     },
     "content_link": {
       "has_video": false,
@@ -7976,8 +7976,8 @@
       "map_displayable": true,
       "data_status": "complete",
       "map_status": "published",
-      "content_status": "waiting",
-      "last_updated": "2026-05-06T01:38:51"
+      "content_status": "review_pending",
+      "last_updated": "2026-05-06T07:05:00"
     },
     "content_link": {
       "has_video": false,

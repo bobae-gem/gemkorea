@@ -599,6 +599,32 @@
       "mode": "B",
       "new_collected": 5,
       "total": 426
+    },
+    {
+      "time": "2026-05-06T07:03:26",
+      "mode": "C",
+      "content_generated": 5,
+      "places": [
+        "GK-SE-SAJ-0002",
+        "GK-SE-SEO-0006",
+        "GK-JN-GOB-0001",
+        "GK-GB-SAE-0007",
+        "GK-GB-DOK-0001"
+      ],
+      "total_scripts": 165
+    },
+    {
+      "time": "2026-05-06T07:05:00",
+      "mode": "C",
+      "content_generated": 5,
+      "places": [
+        "GK-JN-SAJ-0004",
+        "GK-GB-SAJ-0009",
+        "GK-GG-SAE-0002",
+        "GK-GG-SAJ-0004",
+        "GK-GG-SAE-0003"
+      ],
+      "total_scripts": 170
     }
   ]
 }
