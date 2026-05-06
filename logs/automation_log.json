@@ -36,6 +36,15 @@
       "total": 105,
       "markers_ready": 105,
       "errors": 0
+    },
+    {
+      "time": "2026-05-06T00:20:39",
+      "mode": "A",
+      "region": "강원·경북·제주·경남",
+      "new_collected": 21,
+      "total": 126,
+      "markers_ready": 126,
+      "errors": 0
     }
   ]
 }
