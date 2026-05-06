@@ -529,6 +529,25 @@
         "GK-GB-RYU-0004"
       ],
       "total_scripts": 140
+    },
+    {
+      "time": "2026-05-06T06:50:55",
+      "mode": "B",
+      "new_collected": 8,
+      "total": 415
+    },
+    {
+      "time": "2026-05-06T06:52:50",
+      "mode": "C",
+      "content_generated": 6,
+      "places": [
+        "GK-GB-SAN-0001",
+        "GK-GB-SAJ-0008",
+        "GK-JN-SEO-0002",
+        "GK-JN-SAE-0003",
+        "GK-JB-SAJ-0002"
+      ],
+      "total_scripts": 145
     }
   ]
 }
