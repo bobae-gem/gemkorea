@@ -663,6 +663,32 @@
       "mode": "B",
       "new_collected": 5,
       "total": 438
+    },
+    {
+      "time": "2026-05-06T07:13:38",
+      "mode": "C",
+      "content_generated": 5,
+      "places": [
+        "GK-JN-SWO-0001",
+        "GK-JB-SAJ-0005",
+        "GK-GN-SAJ-0003",
+        "GK-CB-SAE-0002",
+        "GK-GB-SAJ-0012"
+      ],
+      "total_scripts": 185
+    },
+    {
+      "time": "2026-05-06T07:15:20",
+      "mode": "C",
+      "content_generated": 5,
+      "places": [
+        "GK-GB-SAE-0008",
+        "GK-GB-SAJ-0013",
+        "GK-GB-SAJ-0014",
+        "GK-GN-SAJ-0004",
+        "GK-GN-SAJ-0006"
+      ],
+      "total_scripts": 190
     }
   ]
 }
