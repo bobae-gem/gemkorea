@@ -183,6 +183,19 @@
         "GK-JN-SEO-0001"
       ],
       "total_scripts": 35
+    },
+    {
+      "time": "2026-05-06T05:31:30",
+      "mode": "C",
+      "content_generated": 5,
+      "places": [
+        "GK-SE-GUN-0003",
+        "GK-SE-GUN-0004",
+        "GK-SE-RYU-0001",
+        "GK-SE-SEO-0002",
+        "GK-SE-SEO-0003"
+      ],
+      "total_scripts": 40
     }
   ]
 }
