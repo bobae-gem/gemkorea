@@ -289,7 +289,7 @@
         <div style="font-size:11px;color:var(--muted);" id="op-last-run">마지막 실행: —</div>
       </div>
       <div style="display:flex;gap:8px;">
-        <button id="btn-op-on" class="btn btn-green" onclick="toggleOpCheck('ON')" style="display:none;">▶ 확인 시작</button>
+        <button id="btn-op-on" class="btn btn-green" onclick="toggleOpCheck('ON')">▶ 확인 시작</button>
         <button id="btn-op-off" class="btn btn-red" onclick="toggleOpCheck('OFF')" style="display:none;">⏹ 확인 중지</button>
       </div>
     </div>
@@ -338,13 +338,28 @@
 <script>
 let places = [], errorLogs = [], activeMode = null;
 
+let contentTotal = 0;
+
 async function load() {
   try {
-    const [pRes, eRes, expRes] = await Promise.all([fetch('data/heritage_all.json'), fetch('logs/error_log.json'), fetch('data/experiences.json').catch(()=>({ok:false}))]);
-    if (expRes.ok) { const expData = await expRes.json(); const expEl=document.getElementById('exp-count'); if(expEl)expEl.textContent=expData.total||0; }
+    const [pRes, eRes, expRes, libRes] = await Promise.all([
+      fetch('data/heritage_all.json'),
+      fetch('logs/error_log.json'),
+      fetch('data/experiences.json').catch(()=>({ok:false})),
+      fetch('content/library.json').catch(()=>({ok:false}))
+    ]);
     places = await pRes.json();
     const eData = await eRes.json();
     errorLogs = eData.errors || [];
+    if (expRes.ok) {
+      const expData = await expRes.json();
+      const expEl = document.getElementById('exp-count');
+      if (expEl) expEl.textContent = expData.total || 0;
+    }
+    if (libRes.ok) {
+      const lib = await libRes.json();
+      contentTotal = lib.total || 0;
+    }
   } catch(e) { places = []; errorLogs = []; }
   render();
 }
@@ -353,17 +368,8 @@ function render() {
   const total = places.length;
   const displayable = places.filter(p => p.status?.map_displayable).length;
   const geocoding = places.filter(p => p.needs_geocoding).length;
-  // 지도 승인 대기 = ready(마커 생성 완료) + waiting(미승인) 중 미게시 항목
   const mapPending = places.filter(p => ['waiting','ready','pending_approval'].includes(p.status?.map_status)).length;
   const ready = places.filter(p => ['published','video_linked'].includes(p.status?.map_status)).length;
-  // 콘텐츠 자산은 library.json 기준
-  let contentTotal = 0;
-  try {
-    const libRes = await fetch('content/library.json');
-    if (libRes.ok) { const lib = await libRes.json(); contentTotal = lib.total || 0; }
-  } catch(e) {
-    contentTotal = places.filter(p => p.status?.content_status && p.status.content_status !== 'waiting').length;
-  }
   const snsPending = places.filter(p => p.status?.content_status === 'approved').length;
   const uploaded = places.filter(p => p.status?.content_status === 'uploaded').length;
   // 목표 진행률 = 실제 지도에 올라간 수(published)
@@ -415,28 +421,34 @@ async function loadOpCheckStatus() {
       fetch('logs/operation_check_log.json').catch(()=>({ok:false}))
     ]);
 
-    if (cfgRes.ok) {
-      const cfg = await cfgRes.json();
-      const oc = cfg.operation_check || {};
-      const mode = oc.mode || 'OFF';
-      const badge = document.getElementById('op-mode-badge');
-      const desc  = document.getElementById('op-mode-desc');
-      const btnOn  = document.getElementById('btn-op-on');
-      const btnOff = document.getElementById('btn-op-off');
-      const lastRun = document.getElementById('op-last-run');
+    const badge  = document.getElementById('op-mode-badge');
+    const desc   = document.getElementById('op-mode-desc');
+    const btnOn  = document.getElementById('btn-op-on');
+    const btnOff = document.getElementById('btn-op-off');
+    const lastRun = document.getElementById('op-last-run');
 
-      if (mode === 'ON') {
-        badge.textContent = 'ON';
-        badge.style.cssText = 'padding:5px 14px;border-radius:10px;font-size:13px;font-weight:800;background:var(--green-soft);color:var(--green);border:1.5px solid rgba(74,140,92,.3);';
-        desc.textContent = '우선순위 체험부터 자동 확인 중 (최대 20개/회)';
-        btnOn.style.display='none'; btnOff.style.display='block';
-      } else {
-        badge.textContent = 'OFF';
-        badge.style.cssText = 'padding:5px 14px;border-radius:10px;font-size:13px;font-weight:800;background:var(--surface2);color:var(--muted);border:1.5px solid var(--border);';
-        desc.textContent = '"체험 운영 체크 켜줘" 명령으로 ON 전환';
-        btnOn.style.display='block'; btnOff.style.display='none';
-      }
-      if (oc.last_run) lastRun.textContent = '마지막 실행: '+oc.last_run;
+    let mode = 'OFF';
+    if (cfgRes && cfgRes.ok) {
+      try {
+        const cfg = await cfgRes.json();
+        const oc = cfg.operation_check || {};
+        mode = oc.mode || 'OFF';
+        if (oc.last_run) lastRun.textContent = '마지막 실행: '+oc.last_run;
+      } catch(e) {}
+    }
+
+    if (mode === 'ON') {
+      badge.textContent = 'ON';
+      badge.style.cssText = 'padding:5px 14px;border-radius:10px;font-size:13px;font-weight:800;background:var(--green-soft);color:var(--green);border:1.5px solid rgba(74,140,92,.3);';
+      desc.textContent = '우선순위 체험부터 자동 확인 중 (최대 20개/회)';
+      if(btnOn) btnOn.style.display='none';
+      if(btnOff) btnOff.style.display='block';
+    } else {
+      badge.textContent = 'OFF';
+      badge.style.cssText = 'padding:5px 14px;border-radius:10px;font-size:13px;font-weight:800;background:var(--surface2);color:var(--muted);border:1.5px solid var(--border);';
+      desc.textContent = '"체험 운영 체크 켜줘" 명령으로 ON 전환';
+      if(btnOn) btnOn.style.display='block';
+      if(btnOff) btnOff.style.display='none';
     }
 
     if (logRes.ok) {
