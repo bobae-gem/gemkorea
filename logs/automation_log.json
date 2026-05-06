@@ -222,6 +222,19 @@
       "mode": "B",
       "new_collected": 18,
       "total": 304
+    },
+    {
+      "time": "2026-05-06T05:42:55",
+      "mode": "C",
+      "content_generated": 5,
+      "places": [
+        "GK-JN-SNS-0001",
+        "GK-SE-SAJ-0001",
+        "GK-SE-DOK-0006",
+        "GK-SE-DOK-0007",
+        "GK-SE-SAE-0001"
+      ],
+      "total_scripts": 50
     }
   ]
 }
