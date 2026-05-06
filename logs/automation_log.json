@@ -136,6 +136,19 @@
       "new_collected": 14,
       "approved": 13,
       "total": 211
+    },
+    {
+      "time": "2026-05-06T04:54:04",
+      "mode": "C",
+      "content_generated": 5,
+      "places": [
+        "GK-SE-DOK-0002",
+        "GK-GB-GWA-0001",
+        "GK-CB-SAN-0001",
+        "GK-SE-DOK-0003",
+        "GK-IC-GUN-0001"
+      ],
+      "total_scripts": 25
     }
   ]
 }
