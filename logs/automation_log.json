@@ -54,6 +54,15 @@
       "total": 148,
       "markers_ready": 148,
       "errors": 0
+    },
+    {
+      "time": "2026-05-06T01:02:53",
+      "mode": "B+C",
+      "region": "B:경기·서울·충남·전남·경북 / C:5개콘텐츠",
+      "new_collected": 16,
+      "total": 164,
+      "content_generated": 5,
+      "errors": 0
     }
   ]
 }
