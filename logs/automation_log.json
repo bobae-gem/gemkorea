@@ -689,6 +689,25 @@
         "GK-GN-SAJ-0006"
       ],
       "total_scripts": 190
+    },
+    {
+      "time": "2026-05-06T07:17:11",
+      "mode": "B",
+      "new_collected": 7,
+      "total": 445
+    },
+    {
+      "time": "2026-05-06T07:19:11",
+      "mode": "C",
+      "content_generated": 5,
+      "places": [
+        "GK-GN-SAJ-0005",
+        "GK-GN-SAJ-0007",
+        "GK-JN-SAJ-0006",
+        "GK-JN-SAJ-0007",
+        "GK-JB-DOK-0002"
+      ],
+      "total_scripts": 195
     }
   ]
 }
