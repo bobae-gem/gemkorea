@@ -279,6 +279,83 @@
       "mode": "B",
       "new_collected": 14,
       "total": 353
+    },
+    {
+      "time": "2026-05-06T06:09:04",
+      "mode": "C",
+      "content_generated": 6,
+      "places": [
+        "GK-GG-RYU-0007",
+        "GK-GG-GID-0001",
+        "GK-GG-SAJ-0001",
+        "GK-GG-DOK-0001",
+        "GK-GG-GUN-0001"
+      ],
+      "total_scripts": 65
+    },
+    {
+      "time": "2026-05-06T06:10:44",
+      "mode": "C",
+      "content_generated": 5,
+      "places": [
+        "GK-SE-GUN-0005",
+        "GK-SE-BIS-0002",
+        "GK-SE-HYO-0001",
+        "GK-SE-GWA-0001",
+        "GK-SE-RYU-0003"
+      ],
+      "total_scripts": 70
+    },
+    {
+      "time": "2026-05-06T06:12:24",
+      "mode": "C",
+      "content_generated": 5,
+      "places": [
+        "GK-SE-RYU-0004",
+        "GK-IC-SAE-0001",
+        "GK-IC-DOK-0001",
+        "GK-CN-RYU-0001",
+        "GK-CN-SAN-0001"
+      ],
+      "total_scripts": 75
+    },
+    {
+      "time": "2026-05-06T06:13:50",
+      "mode": "B",
+      "new_collected": 17,
+      "total": 370
+    },
+    {
+      "time": "2026-05-06T06:15:40",
+      "mode": "C",
+      "content_generated": 5,
+      "places": [
+        "GK-CN-SAN-0002",
+        "GK-CN-SAJ-0001",
+        "GK-CN-GOB-0001",
+        "GK-CN-SAE-0001",
+        "GK-CN-SAJ-0002"
+      ],
+      "total_scripts": 80
+    },
+    {
+      "time": "2026-05-06T06:17:01",
+      "mode": "B",
+      "new_collected": 7,
+      "total": 377
+    },
+    {
+      "time": "2026-05-06T06:19:04",
+      "mode": "C",
+      "content_generated": 6,
+      "places": [
+        "GK-CN-SEO-0001",
+        "GK-CN-DOK-0001",
+        "GK-CN-DOK-0002",
+        "GK-CN-DOK-0003",
+        "GK-GB-SAJ-0002"
+      ],
+      "total_scripts": 85
     }
   ]
 }
