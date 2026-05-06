@@ -321,7 +321,14 @@ function render() {
   // 지도 승인 대기 = ready(마커 생성 완료) + waiting(미승인) 중 미게시 항목
   const mapPending = places.filter(p => ['waiting','ready','pending_approval'].includes(p.status?.map_status)).length;
   const ready = places.filter(p => ['published','video_linked'].includes(p.status?.map_status)).length;
-  const contentTotal = places.filter(p => p.status?.content_status && p.status.content_status !== 'waiting').length;
+  // 콘텐츠 자산은 library.json 기준
+  let contentTotal = 0;
+  try {
+    const libRes = await fetch('content/library.json');
+    if (libRes.ok) { const lib = await libRes.json(); contentTotal = lib.total || 0; }
+  } catch(e) {
+    contentTotal = places.filter(p => p.status?.content_status && p.status.content_status !== 'waiting').length;
+  }
   const snsPending = places.filter(p => p.status?.content_status === 'approved').length;
   const uploaded = places.filter(p => p.status?.content_status === 'uploaded').length;
   // 목표 진행률 = 실제 지도에 올라간 수(published)
