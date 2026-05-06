@@ -251,6 +251,13 @@
       <div class="menu-count" id="um-count" style="color:var(--gem)">0</div>
       <div class="menu-unit">업로드 완료</div>
     </a>
+    <a class="menu-card" href="admin/experience-manager.html" style="border-color:rgba(200,134,10,.25);">
+      <div class="menu-icon">🎭</div>
+      <div class="menu-name">체험 관리</div>
+      <div class="menu-desc">문화·체험 데이터 관리 · 젬투어 후보 · 숏츠 연계</div>
+      <div class="menu-count" id="exp-count" style="color:var(--gold)">0</div>
+      <div class="menu-unit">체험 자산</div>
+    </a>
     <a class="menu-card" href="admin/analytics.html">
       <div class="menu-icon">📊</div>
       <div class="menu-name">성과 분석</div>
@@ -306,7 +313,8 @@ let places = [], errorLogs = [], activeMode = null;
 
 async function load() {
   try {
-    const [pRes, eRes] = await Promise.all([fetch('data/heritage_all.json'), fetch('logs/error_log.json')]);
+    const [pRes, eRes, expRes] = await Promise.all([fetch('data/heritage_all.json'), fetch('logs/error_log.json'), fetch('data/experiences.json').catch(()=>({ok:false}))]);
+    if (expRes.ok) { const expData = await expRes.json(); const expEl=document.getElementById('exp-count'); if(expEl)expEl.textContent=expData.total||0; }
     places = await pRes.json();
     const eData = await eRes.json();
     errorLogs = eData.errors || [];

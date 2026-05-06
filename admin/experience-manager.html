@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GemKorea 체험 관리</title>
+<link rel="stylesheet" href="shared.css">
+<style>
+.exp-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:12px; }
+.exp-card {
+  background:var(--surface); border:1.5px solid var(--border);
+  border-radius:12px; padding:16px; cursor:pointer; transition:all .15s;
+}
+.exp-card:hover { border-color:var(--gold); box-shadow:0 2px 12px rgba(200,134,10,.1); }
+.exp-id { font-size:10px; color:var(--muted); font-weight:700; margin-bottom:4px; }
+.exp-name { font-size:14px; font-weight:900; margin-bottom:6px; }
+.exp-meta { display:flex; gap:6px; flex-wrap:wrap; margin-bottom:8px; }
+.exp-desc { font-size:11px; color:var(--muted); line-height:1.5; margin-bottom:8px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.exp-info { display:flex; gap:12px; font-size:11px; color:var(--muted); }
+.info-item { display:flex; align-items:center; gap:3px; }
+.exp-status { display:flex; gap:6px; margin-top:8px; }
+
+/* 상태 뱃지 */
+.s-candidate { background:var(--gem-soft); color:var(--gem); border:1px solid rgba(30,58,138,.2); font-size:9px; font-weight:700; padding:2px 7px; border-radius:5px; }
+.s-waiting   { background:var(--yellow-soft); color:var(--yellow); border:1px solid rgba(184,134,11,.2); font-size:9px; font-weight:700; padding:2px 7px; border-radius:5px; }
+.s-created   { background:var(--green-soft); color:var(--green); border:1px solid rgba(74,140,92,.2); font-size:9px; font-weight:700; padding:2px 7px; border-radius:5px; }
+
+select, input { padding:6px 11px; border-radius:8px; border:1.5px solid var(--border); background:var(--surface); color:var(--text); font-size:12px; }
+</style>
+</head>
+<body>
+<div class="nav">
+  <a href="../admin.html" style="text-decoration:none;"><div class="nav-logo">GemKorea <small>ADMIN</small></div></a>
+  <span class="nav-sep">/</span>
+  <span class="nav-page">🎭 체험 관리</span>
+  <div class="nav-spacer"></div>
+  <span class="nav-time" id="now-time"></span>
+  <a href="../admin.html" class="nav-link">🏠 홈</a>
+</div>
+
+<div class="page-wrap">
+
+  <div class="grid g4" style="margin-bottom:16px;">
+    <div class="card"><div class="kpi" id="kpi-total" style="color:var(--gold)">0</div><div class="kpi-label">전체 체험</div></div>
+    <div class="card"><div class="kpi" id="kpi-candidate" style="color:var(--gem)">0</div><div class="kpi-label">젬투어 후보</div></div>
+    <div class="card"><div class="kpi" id="kpi-shorts" style="color:var(--green)">0</div><div class="kpi-label">숏츠 대기</div></div>
+    <div class="card"><div class="kpi" id="kpi-reservation" style="color:var(--orange)">0</div><div class="kpi-label">예약 필요</div></div>
+  </div>
+
+  <div class="card" style="margin-bottom:14px;">
+    <div class="card-head"><span class="card-title">안내</span></div>
+    <div style="font-size:12px;line-height:1.8;color:var(--text);">
+      체험 데이터는 <strong>역사/자연 마커와 별도로 관리</strong>됩니다.<br>
+      • <strong>tour_status = candidate</strong> → 젬투어 상품 후보<br>
+      • <strong>shorts_status = waiting</strong> → 숏츠 콘텐츠 제작 대기<br>
+      • 체험 데이터는 삭제하지 않고 상태 변경으로만 관리합니다.
+    </div>
+  </div>
+
+  <div style="display:flex;gap:8px;margin-bottom:14px;flex-wrap:wrap;">
+    <select id="filter-sub">
+      <option value="">전체 유형</option>
+      <option>전통시장</option><option>박물관</option><option>미술관</option>
+      <option>한복 체험</option><option>도예/공방 체험</option><option>탈춤/풍물 체험</option>
+      <option>사찰 체험</option><option>한옥 숙박</option><option>차 체험</option>
+      <option>농촌 체험</option><option>어촌 체험</option><option>체험마을</option>
+      <option>축제</option><option>가족 체험</option><option>어린이 체험</option>
+    </select>
+    <select id="filter-region">
+      <option value="">전체 지역</option>
+      <option value="SE">서울</option><option value="GG">경기</option><option value="BS">부산</option>
+      <option value="GB">경북</option><option value="GN">경남</option><option value="JB">전북</option>
+      <option value="JN">전남</option><option value="GW">강원</option><option value="CN">충남</option>
+    </select>
+    <input id="search" placeholder="체험명 검색..." style="flex:1;min-width:160px;">
+  </div>
+
+  <div class="exp-grid" id="exp-list"></div>
+
+</div>
+
+<script>
+let exps = [];
+
+async function load() {
+  try {
+    const r = await fetch('../data/experiences.json');
+    const d = await r.json();
+    exps = d.experiences || [];
+  } catch(e) { exps = []; }
+  render();
+  ['filter-sub','filter-region','search'].forEach(id =>
+    document.getElementById(id).addEventListener('input', render)
+  );
+}
+
+function render() {
+  const fsub = document.getElementById('filter-sub').value;
+  const freg = document.getElementById('filter-region').value;
+  const fsq  = document.getElementById('search').value.toLowerCase();
+
+  const f = exps.filter(e => {
+    if (fsub && e.category_sub !== fsub) return false;
+    if (freg && e.region_main !== freg) return false;
+    if (fsq && !e.name.toLowerCase().includes(fsq)) return false;
+    return true;
+  });
+
+  document.getElementById('kpi-total').textContent = exps.length;
+  document.getElementById('kpi-candidate').textContent = exps.filter(e=>e.tour_status==='candidate').length;
+  document.getElementById('kpi-shorts').textContent = exps.filter(e=>e.shorts_status==='waiting').length;
+  document.getElementById('kpi-reservation').textContent = exps.filter(e=>e.reservation_required).length;
+
+  const list = document.getElementById('exp-list');
+  if (!f.length) { list.innerHTML = '<div class="empty" style="grid-column:1/-1;">해당 체험이 없습니다</div>'; return; }
+
+  list.innerHTML = f.map(e => `
+    <div class="exp-card">
+      <div class="exp-id">${e.experience_id}</div>
+      <div class="exp-name">${e.name}</div>
+      <div class="exp-meta">
+        <span class="badge bo">${e.category_sub}</span>
+        <span class="badge" style="background:var(--surface2);color:var(--muted);">📍 ${e.region_sub||''}</span>
+      </div>
+      <div class="exp-desc">${e.short_description||''}</div>
+      <div class="exp-info">
+        <span class="info-item">💰 ${e.price||'—'}</span>
+        <span class="info-item">⏱️ ${e.duration||'—'}</span>
+        <span class="info-item">${e.reservation_required?'📋 예약 필요':'🚶 자유 방문'}</span>
+      </div>
+      ${e.related_heritage_ids?.length ? `<div style="font-size:10px;color:var(--muted);margin-top:6px;">🏛️ 연결 유산: ${e.related_heritage_ids.slice(0,2).join(', ')}${e.related_heritage_ids.length>2?' 외 '+( e.related_heritage_ids.length-2)+'곳':''}</div>` : ''}
+      <div class="exp-status">
+        <span class="s-candidate">젬투어: ${e.tour_status}</span>
+        <span class="s-waiting">숏츠: ${e.shorts_status}</span>
+      </div>
+    </div>`).join('');
+}
+
+function tick(){const n=new Date();document.getElementById('now-time').textContent=n.toLocaleDateString('ko-KR')+' '+n.toLocaleTimeString('ko-KR');}
+setInterval(tick,1000);tick();
+load();
+</script>
+</body>
+</html>
