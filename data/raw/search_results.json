@@ -35,6 +35,13 @@
       "region": "강원·경북·제주·경남",
       "collected": 21,
       "total": 126
+    },
+    {
+      "run_time": "2026-05-06T00:47:07",
+      "mode": "A_MODE_FAST_SEARCH",
+      "region": "충청북도·경북·전라·경남",
+      "collected": 22,
+      "total": 148
     }
   ]
 }

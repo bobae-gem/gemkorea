@@ -45,6 +45,15 @@
       "total": 126,
       "markers_ready": 126,
       "errors": 0
+    },
+    {
+      "time": "2026-05-06T00:47:07",
+      "mode": "A",
+      "region": "충청북도·경북·전라·경남",
+      "new_collected": 22,
+      "total": 148,
+      "markers_ready": 148,
+      "errors": 0
     }
   ]
 }
