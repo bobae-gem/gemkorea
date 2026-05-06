@@ -235,6 +235,12 @@
         "GK-SE-SAE-0001"
       ],
       "total_scripts": 50
+    },
+    {
+      "time": "2026-05-06T05:48:28",
+      "mode": "B",
+      "new_collected": 0,
+      "total": 321
     }
   ]
 }
