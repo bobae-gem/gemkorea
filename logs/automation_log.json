@@ -625,6 +625,25 @@
         "GK-GG-SAE-0003"
       ],
       "total_scripts": 170
+    },
+    {
+      "time": "2026-05-06T07:06:54",
+      "mode": "C",
+      "content_generated": 5,
+      "places": [
+        "GK-CB-SWO-0001",
+        "GK-CN-SAJ-0004",
+        "GK-CN-SAJ-0005",
+        "GK-CN-SAE-0002",
+        "GK-GN-GID-0001"
+      ],
+      "total_scripts": 175
+    },
+    {
+      "time": "2026-05-06T07:08:06",
+      "mode": "B",
+      "new_collected": 7,
+      "total": 433
     }
   ]
 }
