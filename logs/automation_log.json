@@ -708,6 +708,25 @@
         "GK-JB-DOK-0002"
       ],
       "total_scripts": 195
+    },
+    {
+      "time": "2026-05-06T07:21:12",
+      "mode": "C",
+      "content_generated": 5,
+      "places": [
+        "GK-SE-DOK-0010",
+        "GK-SE-SAE-0002",
+        "GK-GG-SEO-0002",
+        "GK-GB-SAE-0009",
+        "GK-GB-SAE-0010"
+      ],
+      "total_scripts": 200
+    },
+    {
+      "time": "2026-05-06T07:22:15",
+      "mode": "B",
+      "new_collected": 8,
+      "total": 453
     }
   ]
 }
