@@ -14395,5 +14395,414 @@
       "xiaohongshu_url": "",
       "video_status": "없음"
     }
+  },
+  {
+    "name": "남한강",
+    "category_main": "자연",
+    "category_sub": "강/호수",
+    "period": "",
+    "period_category": "",
+    "region": "경기도",
+    "address": "경기도 여주시 강변유원지길 일대",
+    "location_marker_type": "exact",
+    "lat": 37.298,
+    "lng": 127.635,
+    "short_description": "강원도 태백에서 발원해 경기도 양평에서 북한강과 합류하는 한강의 본류. 여주·충주 일대의 수려한 수변 경관을 자랑하며 황포돛배, 신륵사, 세종대왕릉 등 역사 명소와 어우러진 강변 드라이브 코스로 사랑받는다.",
+    "source_urls": [
+      "https://ko.wikipedia.org/wiki/남한강"
+    ],
+    "data_confidence": "high",
+    "tags": [
+      "강",
+      "수변경관",
+      "여주",
+      "드라이브",
+      "황포돛배"
+    ]
+  },
+  {
+    "name": "낙동강",
+    "category_main": "자연",
+    "category_sub": "강/호수",
+    "period": "",
+    "period_category": "",
+    "region": "경상남도",
+    "address": "경상남도 창녕군 남지읍 낙동강변 일대",
+    "location_marker_type": "exact",
+    "lat": 35.438,
+    "lng": 128.412,
+    "short_description": "강원도 태백에서 발원해 부산 을숙도를 지나 남해로 흘러드는 한국에서 가장 긴 강(525km). 경북·경남을 종단하며 우포늪, 낙동강 하구 철새도래지 등 풍부한 생태 자원을 품고 있다.",
+    "source_urls": [
+      "https://ko.wikipedia.org/wiki/낙동강"
+    ],
+    "data_confidence": "high",
+    "tags": [
+      "강",
+      "생태",
+      "철새",
+      "우포늪",
+      "경남경북"
+    ]
+  },
+  {
+    "name": "금강",
+    "category_main": "자연",
+    "category_sub": "강/호수",
+    "period": "",
+    "period_category": "",
+    "region": "충청남도",
+    "address": "충청남도 부여군 부여읍 강변로 일대",
+    "location_marker_type": "exact",
+    "lat": 36.275,
+    "lng": 126.913,
+    "short_description": "전북 장수에서 발원해 충청남북도를 관통하고 서해로 흘러드는 강. 공주·부여 등 백제 문화권의 역사 도시를 품으며, 백마강 낙화암과 고란사 등 아름다운 강변 절경과 역사 유적이 어우러진다.",
+    "source_urls": [
+      "https://ko.wikipedia.org/wiki/금강_(강)"
+    ],
+    "data_confidence": "high",
+    "tags": [
+      "강",
+      "백제",
+      "공주",
+      "부여",
+      "백마강"
+    ]
+  },
+  {
+    "name": "영산강",
+    "category_main": "자연",
+    "category_sub": "강/호수",
+    "period": "",
+    "period_category": "",
+    "region": "전라남도",
+    "address": "전라남도 나주시 영강동 영산강변 일대",
+    "location_marker_type": "exact",
+    "lat": 35.012,
+    "lng": 126.713,
+    "short_description": "전남 담양에서 발원해 나주 평야를 관통하고 목포 앞바다로 흘러드는 강. 전라도의 젖줄로 불리며 나주 평야의 비옥한 농경지를 형성했고, 영산포 홍어 문화의 발상지이자 수변 생태 탐방로로 유명하다.",
+    "source_urls": [
+      "https://ko.wikipedia.org/wiki/영산강"
+    ],
+    "data_confidence": "high",
+    "tags": [
+      "강",
+      "전남",
+      "나주",
+      "영산포",
+      "생태"
+    ]
+  },
+  {
+    "name": "대청호",
+    "category_main": "자연",
+    "category_sub": "강/호수",
+    "period": "",
+    "period_category": "",
+    "region": "충청북도",
+    "address": "충청북도 청주시 상당구 문의면 대청호 일대",
+    "location_marker_type": "exact",
+    "lat": 36.539,
+    "lng": 127.498,
+    "short_description": "1980년 대청댐 완공으로 조성된 충북 최대 인공호수. 면적 72.8㎢, 저수량 14억 9천만 톤으로 중부권 식수원이며, 대청호 오백리길 트레킹 코스와 수변 드라이브로 사계절 여행자를 불러모은다.",
+    "source_urls": [
+      "https://ko.wikipedia.org/wiki/대청호"
+    ],
+    "data_confidence": "high",
+    "tags": [
+      "호수",
+      "댐",
+      "충북",
+      "수변드라이브",
+      "트레킹"
+    ]
+  },
+  {
+    "name": "망상해변",
+    "category_main": "자연",
+    "category_sub": "바다/해변",
+    "period": "",
+    "period_category": "",
+    "region": "강원도",
+    "address": "강원도 동해시 망상동 망상해수욕장",
+    "location_marker_type": "exact",
+    "lat": 37.589,
+    "lng": 129.088,
+    "short_description": "강원도 동해시에 위치한 길이 2.5km의 넓고 완만한 동해안 해변. 깨끗한 백사장과 맑은 수질로 여름 피서지로 인기가 높으며, 오토캠핑장과 망상해수욕장역이 인접해 기차 여행의 종착지로도 사랑받는다.",
+    "source_urls": [
+      "https://korean.visitkorea.or.kr/detail/ms_detail.do?cotid=54f697c8-b7c5-4b55-8f8d-d3a34b0f5bde"
+    ],
+    "data_confidence": "high",
+    "tags": [
+      "해변",
+      "동해",
+      "백사장",
+      "캠핑",
+      "기차여행"
+    ]
+  },
+  {
+    "name": "낙산해변",
+    "category_main": "자연",
+    "category_sub": "바다/해변",
+    "period": "",
+    "period_category": "",
+    "region": "강원도",
+    "address": "강원도 양양군 강현면 낙산해수욕장길 일대",
+    "location_marker_type": "exact",
+    "lat": 38.113,
+    "lng": 128.639,
+    "short_description": "강원도 양양의 동해안 대표 해변. 낙산사·의상대가 배후에 자리하며 1.5km의 백사장이 펼쳐진다. 동해안 서퍼들의 성지로 유명하며 낙산사 홍련암과 어우러진 일출 풍경이 압권이다.",
+    "source_urls": [
+      "https://korean.visitkorea.or.kr/detail/ms_detail.do?cotid=c00c8e2a-85cc-43fd-8c2a-74ba2d2b90e1"
+    ],
+    "data_confidence": "high",
+    "tags": [
+      "해변",
+      "양양",
+      "낙산사",
+      "서핑",
+      "일출"
+    ]
+  },
+  {
+    "name": "함덕해변",
+    "category_main": "자연",
+    "category_sub": "바다/해변",
+    "period": "",
+    "period_category": "",
+    "region": "제주특별자치도",
+    "address": "제주특별자치도 제주시 조천읍 함덕리 169-1",
+    "location_marker_type": "exact",
+    "lat": 33.543,
+    "lng": 126.67,
+    "short_description": "제주 북동쪽 조천읍의 에메랄드빛 해변. 얕고 잔잔한 수심과 투명한 바닷물로 가족 피서지로 손꼽히며, 뒤편 서우봉 올레길과 연계해 제주의 자연을 더욱 풍성하게 즐길 수 있다.",
+    "source_urls": [
+      "https://korean.visitkorea.or.kr/detail/ms_detail.do?cotid=e5e14c87-d1fe-4cd2-af77-2e5e31fc01fa"
+    ],
+    "data_confidence": "high",
+    "tags": [
+      "해변",
+      "제주",
+      "에메랄드",
+      "조천",
+      "올레길"
+    ]
+  },
+  {
+    "name": "이호테우해변",
+    "category_main": "자연",
+    "category_sub": "바다/해변",
+    "period": "",
+    "period_category": "",
+    "region": "제주특별자치도",
+    "address": "제주특별자치도 제주시 이호일동 1665",
+    "location_marker_type": "exact",
+    "lat": 33.504,
+    "lng": 126.443,
+    "short_description": "제주시 도심에서 가장 가까운 해변으로 빨강·하양 말 모양 등대가 상징. 제주공항에서 10분 거리로 접근성이 뛰어나며, 서쪽 낙조가 아름다워 저녁 산책과 사진 명소로 각광받는다.",
+    "source_urls": [
+      "https://korean.visitkorea.or.kr/detail/ms_detail.do?cotid=49f62d61-4e0e-4ad1-8b57-bd0f21793cae"
+    ],
+    "data_confidence": "high",
+    "tags": [
+      "해변",
+      "제주",
+      "말등대",
+      "낙조",
+      "제주시"
+    ]
+  },
+  {
+    "name": "월정리해변",
+    "category_main": "자연",
+    "category_sub": "바다/해변",
+    "period": "",
+    "period_category": "",
+    "region": "제주특별자치도",
+    "address": "제주특별자치도 제주시 구좌읍 월정리 33-3",
+    "location_marker_type": "exact",
+    "lat": 33.559,
+    "lng": 126.798,
+    "short_description": "제주 북동쪽 구좌읍의 에메랄드빛 해변. 비행기 이착륙 경로 바로 아래에 위치해 활주로 뷰가 유명하다. 테이블야자 카페들이 늘어선 감성적 분위기로 MZ세대 여행자들 사이에서 특히 인기가 높다.",
+    "source_urls": [
+      "https://korean.visitkorea.or.kr/detail/ms_detail.do?cotid=d0d59de2-4e76-4e13-887a-f1eb5eea5de3"
+    ],
+    "data_confidence": "high",
+    "tags": [
+      "해변",
+      "제주",
+      "비행기뷰",
+      "카페",
+      "구좌"
+    ]
+  },
+  {
+    "name": "봉래폭포",
+    "category_main": "자연",
+    "category_sub": "폭포",
+    "period": "",
+    "period_category": "",
+    "region": "경상북도",
+    "address": "경상북도 울릉군 북면 나리길 155",
+    "location_marker_type": "entrance",
+    "lat": 37.539,
+    "lng": 130.839,
+    "short_description": "울릉도 북면 나리분지 위쪽에 위치한 3단 폭포. 총 낙차 30m의 웅장한 물줄기가 울릉도 최대 폭포로 꼽힌다. 울릉도 식수원으로도 이용되며 주변 원시림과 어우러진 비경이 압권이다.",
+    "source_urls": [
+      "https://korean.visitkorea.or.kr/detail/ms_detail.do?cotid=c5e4bf08-a9c9-4ecf-916c-e7e10e1a3dbe"
+    ],
+    "data_confidence": "high",
+    "tags": [
+      "폭포",
+      "울릉도",
+      "나리분지",
+      "원시림",
+      "3단폭포"
+    ]
+  },
+  {
+    "name": "천아숲길",
+    "category_main": "자연",
+    "category_sub": "숲/공원",
+    "period": "",
+    "period_category": "",
+    "region": "제주특별자치도",
+    "address": "제주특별자치도 제주시 애월읍 유수암리 산 138",
+    "location_marker_type": "entrance",
+    "lat": 33.406,
+    "lng": 126.379,
+    "short_description": "한라산 서쪽 중산간 해발 600~800m에 펼쳐진 삼나무·편백 숲길. 제주도립공원 내 천아오름 아래 계곡을 따라 조성된 트레킹 코스로, 여름에도 서늘한 숲 그늘과 맑은 계곡물이 인상적이다.",
+    "source_urls": [
+      "https://www.jeju.go.kr/tour/nature/forest.htm"
+    ],
+    "data_confidence": "medium",
+    "tags": [
+      "숲길",
+      "제주",
+      "삼나무",
+      "편백",
+      "트레킹"
+    ]
+  },
+  {
+    "name": "신안 증도",
+    "category_main": "자연",
+    "category_sub": "섬",
+    "period": "",
+    "period_category": "",
+    "region": "전라남도",
+    "address": "전라남도 신안군 증도면 증도리 일대",
+    "location_marker_type": "exact",
+    "lat": 35.003,
+    "lng": 126.161,
+    "short_description": "전남 신안군 소속 아시아 최초 슬로시티 인증 섬. 국내 최대 규모의 태평염전과 우전해변, 짱뚱어 다리 등 자연 그대로의 갯벌과 섬 문화를 간직하며, 자전거로 섬 전체를 여유롭게 탐방할 수 있다.",
+    "source_urls": [
+      "https://www.shinan.go.kr/tour/"
+    ],
+    "data_confidence": "high",
+    "tags": [
+      "섬",
+      "슬로시티",
+      "신안",
+      "태평염전",
+      "갯벌"
+    ]
+  },
+  {
+    "name": "서천 국립해양생물자원관",
+    "category_main": "자연",
+    "category_sub": "자연명승",
+    "period": "",
+    "period_category": "",
+    "region": "충청남도",
+    "address": "충청남도 서천군 장항읍 장산로101번길 75",
+    "location_marker_type": "exact",
+    "lat": 36.004,
+    "lng": 126.694,
+    "short_description": "서해안 장항 앞바다를 내다보는 국내 유일의 해양생물 전문 자연사박물관. 2015년 개관하여 해양생물 표본 5만여 점을 소장한다. 독특한 외관의 건축물이 서해안 드라이브 코스의 새 명소로 각광받는다.",
+    "source_urls": [
+      "https://www.mabik.re.kr/"
+    ],
+    "data_confidence": "high",
+    "tags": [
+      "해양생물",
+      "박물관",
+      "서천",
+      "서해",
+      "장항"
+    ]
+  },
+  {
+    "name": "서산 개심사",
+    "category_main": "역사",
+    "category_sub": "사찰",
+    "period": "654년 (백제)",
+    "period_category": "삼국",
+    "region": "충청남도",
+    "address": "충청남도 서산시 운산면 개심사로 321-86",
+    "location_marker_type": "entrance",
+    "lat": 36.729,
+    "lng": 126.563,
+    "short_description": "충남 서산 상왕산 자락의 백제시대 고찰. 654년 혜감국사가 창건했으며, 봄이면 청벚꽃·겹벚꽃이 만발해 전국적인 사진 명소가 된다. 단아한 대웅전은 조선 초기 목조건축의 아름다움을 잘 보여준다.",
+    "source_urls": [
+      "https://www.kaesimsa.org/"
+    ],
+    "data_confidence": "high",
+    "tags": [
+      "사찰",
+      "백제",
+      "서산",
+      "벚꽃",
+      "충남"
+    ]
+  },
+  {
+    "name": "강진 무위사",
+    "category_main": "역사",
+    "category_sub": "사찰",
+    "period": "875년 (신라)",
+    "period_category": "남북국",
+    "region": "전라남도",
+    "address": "전라남도 강진군 성전면 무위사로 308",
+    "location_marker_type": "entrance",
+    "lat": 34.59,
+    "lng": 126.69,
+    "short_description": "전남 강진 월출산 기슭의 천년 고찰. 875년 도선국사가 창건했으며 극락보전(국보)은 조선 초기 목조건축의 백미다. 경내에서 백련사까지 이어지는 동백 숲길이 봄철 특히 아름답다.",
+    "source_urls": [
+      "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1333400130000"
+    ],
+    "data_confidence": "high",
+    "tags": [
+      "사찰",
+      "국보",
+      "강진",
+      "월출산",
+      "동백"
+    ]
+  },
+  {
+    "name": "통도사",
+    "category_main": "역사",
+    "category_sub": "사찰",
+    "period": "646년 (신라)",
+    "period_category": "삼국",
+    "region": "경상남도",
+    "address": "경상남도 양산시 하북면 통도사로 108",
+    "location_marker_type": "entrance",
+    "lat": 35.489,
+    "lng": 129.058,
+    "short_description": "경남 양산 영축산의 신라 고찰. 646년 자장율사가 당나라에서 가져온 부처의 진신사리를 봉안하며 창건한 불보사찰(佛寶寺刹). 해인사·송광사와 함께 삼보사찰로 불리며 2018년 유네스코 세계유산에 등재됐다.",
+    "source_urls": [
+      "https://www.tongdosa.or.kr/",
+      "https://whc.unesco.org/en/list/1562"
+    ],
+    "data_confidence": "high",
+    "tags": [
+      "사찰",
+      "유네스코",
+      "신라",
+      "양산",
+      "삼보사찰"
+    ]
   }
 ]
