@@ -433,6 +433,38 @@
         "GK-GW-SAE-0001"
       ],
       "total_scripts": 110
+    },
+    {
+      "time": "2026-05-06T06:32:28",
+      "mode": "C",
+      "content_generated": 5,
+      "places": [
+        "GK-GW-SAE-0002",
+        "GK-GW-SAE-0003",
+        "GK-GW-SAJ-0001",
+        "GK-GW-SAJ-0002",
+        "GK-GW-SAJ-0003"
+      ],
+      "total_scripts": 115
+    },
+    {
+      "time": "2026-05-06T06:33:17",
+      "mode": "B",
+      "new_collected": 4,
+      "total": 391
+    },
+    {
+      "time": "2026-05-06T06:35:05",
+      "mode": "C",
+      "content_generated": 5,
+      "places": [
+        "GK-GW-SAE-0004",
+        "GK-GW-JEN-0001",
+        "GK-GW-SAE-0005",
+        "GK-GB-SAJ-0005",
+        "GK-GB-SAJ-0006"
+      ],
+      "total_scripts": 120
     }
   ]
 }
