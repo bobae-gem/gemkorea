@@ -199,8 +199,8 @@
     }
   },
   "operation_check": {
-    "mode": "ON",
-    "mode_updated": "2026-05-06T02:45:31",
+    "mode": "OFF",
+    "mode_updated": "2026-05-06T02:55:03",
     "max_per_run": 20,
     "priority_filter": [
       "candidate",
