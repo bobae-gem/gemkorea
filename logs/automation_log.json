@@ -241,6 +241,19 @@
       "mode": "B",
       "new_collected": 0,
       "total": 321
+    },
+    {
+      "time": "2026-05-06T05:51:35",
+      "mode": "C",
+      "content_generated": 5,
+      "places": [
+        "GK-IC-SAJ-0001",
+        "GK-IC-GWA-0001",
+        "GK-IC-JEN-0002",
+        "GK-IC-SAN-0001",
+        "GK-IC-SAJ-0002"
+      ],
+      "total_scripts": 55
     }
   ]
 }
