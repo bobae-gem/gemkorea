@@ -548,6 +548,25 @@
         "GK-JB-SAJ-0002"
       ],
       "total_scripts": 145
+    },
+    {
+      "time": "2026-05-06T06:54:57",
+      "mode": "C",
+      "content_generated": 5,
+      "places": [
+        "GK-JN-SAJ-0003",
+        "GK-JB-SAJ-0004",
+        "GK-GN-SAJ-0002",
+        "GK-GN-JEN-0003",
+        "GK-GN-SEO-0002"
+      ],
+      "total_scripts": 150
+    },
+    {
+      "time": "2026-05-06T06:55:47",
+      "mode": "B",
+      "new_collected": 6,
+      "total": 421
     }
   ]
 }
