@@ -401,6 +401,38 @@
         "GK-JB-SAN-0001"
       ],
       "total_scripts": 100
+    },
+    {
+      "time": "2026-05-06T06:27:35",
+      "mode": "C",
+      "content_generated": 5,
+      "places": [
+        "GK-JN-JEN-0001",
+        "GK-JN-JEN-0002",
+        "GK-JN-SAJ-0002",
+        "GK-JN-SAE-0001",
+        "GK-JN-SAE-0002"
+      ],
+      "total_scripts": 105
+    },
+    {
+      "time": "2026-05-06T06:28:49",
+      "mode": "B",
+      "new_collected": 6,
+      "total": 387
+    },
+    {
+      "time": "2026-05-06T06:30:37",
+      "mode": "C",
+      "content_generated": 5,
+      "places": [
+        "GK-JN-DOK-0001",
+        "GK-GN-JEN-0001",
+        "GK-GN-SAE-0001",
+        "GK-GN-JEN-0002",
+        "GK-GW-SAE-0001"
+      ],
+      "total_scripts": 110
     }
   ]
 }

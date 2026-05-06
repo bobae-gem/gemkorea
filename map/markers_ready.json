@@ -1,5 +1,5 @@
 {
-  "total": 364,
+  "total": 370,
   "markers": [
     {
       "id": "h001",
@@ -4518,8 +4518,8 @@
         "map_displayable": true,
         "data_status": "complete",
         "map_status": "published",
-        "content_status": "waiting",
-        "last_updated": "2026-05-05T23:21:40"
+        "content_status": "review_pending",
+        "last_updated": "2026-05-06T06:25:41"
       },
       "content_link": {
         "has_video": false,
@@ -4564,8 +4564,8 @@
         "map_displayable": true,
         "data_status": "complete",
         "map_status": "published",
-        "content_status": "waiting",
-        "last_updated": "2026-05-05T23:21:40"
+        "content_status": "review_pending",
+        "last_updated": "2026-05-06T06:25:41"
       },
       "content_link": {
         "has_video": false,
@@ -4608,8 +4608,8 @@
         "map_displayable": true,
         "data_status": "complete",
         "map_status": "published",
-        "content_status": "waiting",
-        "last_updated": "2026-05-06T05:09:26"
+        "content_status": "review_pending",
+        "last_updated": "2026-05-06T06:25:41"
       },
       "content_link": {
         "has_video": false,
@@ -4653,8 +4653,8 @@
         "map_displayable": true,
         "data_status": "complete",
         "map_status": "published",
-        "content_status": "waiting",
-        "last_updated": "2026-05-06T05:10:36"
+        "content_status": "review_pending",
+        "last_updated": "2026-05-06T06:25:41"
       },
       "content_link": {
         "has_video": false,
@@ -4699,8 +4699,8 @@
         "map_displayable": true,
         "data_status": "complete",
         "map_status": "waiting",
-        "content_status": "waiting",
-        "last_updated": "2026-05-05T23:21:27"
+        "content_status": "review_pending",
+        "last_updated": "2026-05-06T06:25:41"
       },
       "content_link": {
         "has_video": false,
@@ -4790,8 +4790,8 @@
         "map_displayable": true,
         "data_status": "complete",
         "map_status": "published",
-        "content_status": "waiting",
-        "last_updated": "2026-05-05T23:21:40"
+        "content_status": "review_pending",
+        "last_updated": "2026-05-06T06:27:35"
       },
       "content_link": {
         "has_video": false,
@@ -4835,8 +4835,8 @@
         "map_displayable": true,
         "data_status": "complete",
         "map_status": "published",
-        "content_status": "waiting",
-        "last_updated": "2026-05-05T23:21:40"
+        "content_status": "review_pending",
+        "last_updated": "2026-05-06T06:27:35"
       },
       "content_link": {
         "has_video": false,
@@ -4880,8 +4880,8 @@
         "map_displayable": true,
         "data_status": "complete",
         "map_status": "published",
-        "content_status": "waiting",
-        "last_updated": "2026-05-05T23:21:40"
+        "content_status": "review_pending",
+        "last_updated": "2026-05-06T06:27:35"
       },
       "content_link": {
         "has_video": false,
@@ -4926,8 +4926,8 @@
         "map_displayable": true,
         "data_status": "complete",
         "map_status": "published",
-        "content_status": "waiting",
-        "last_updated": "2026-05-06T05:09:26"
+        "content_status": "review_pending",
+        "last_updated": "2026-05-06T06:27:35"
       },
       "content_link": {
         "has_video": false,
@@ -4972,8 +4972,8 @@
         "map_displayable": true,
         "data_status": "complete",
         "map_status": "published",
-        "content_status": "waiting",
-        "last_updated": "2026-05-05T23:21:40"
+        "content_status": "review_pending",
+        "last_updated": "2026-05-06T06:27:35"
       },
       "content_link": {
         "has_video": false,
@@ -11118,8 +11118,8 @@
         "map_displayable": true,
         "data_status": "complete",
         "map_status": "published",
-        "content_status": "waiting",
-        "last_updated": "2026-05-06T10:00:00"
+        "content_status": "review_pending",
+        "last_updated": "2026-05-06T06:25:41"
       },
       "content_link": {
         "has_video": false,
@@ -17147,6 +17147,282 @@
         "map_status": "published",
         "content_status": "waiting",
         "last_updated": "2026-05-06T06:23:49"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      }
+    },
+    {
+      "name": "경주 원성왕릉",
+      "category_main": "역사",
+      "category_sub": "왕릉",
+      "period": "통일신라 798년",
+      "period_category": "통일신라",
+      "region": "경상북도",
+      "address": "경상북도 경주시 외동읍 괘릉리 산17",
+      "location_marker_type": "exact",
+      "lat": 35.7482,
+      "lng": 129.3414,
+      "short_description": "신라 38대 원성왕의 능으로 추정되는 무덤(괘릉). 능 앞에 서역인 외모의 무인석·문인석·사자상이 배치되어 당시 신라와 서역의 교류를 보여주는 중요한 자료다. 사적 제26호.",
+      "source_urls": [
+        "https://ko.wikipedia.org/wiki/%EC%B6%94%EC%A0%95_%EA%B2%BD%EC%A3%BC_%EC%9B%90%EC%84%B1%EC%99%95%EB%A6%89"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "통일신라",
+        "원성왕",
+        "왕릉",
+        "서역인석상",
+        "실크로드",
+        "사적",
+        "무인석"
+      ],
+      "place_id": "GK-GB-RYU-0005",
+      "category_detail": "신라 38대 원성왕의 능으로 추정되는 무덤(괘릉)",
+      "confidence": "high",
+      "confidence_reason": "",
+      "needs_geocoding": false,
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-06T06:28:49"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      }
+    },
+    {
+      "name": "봉화 닭실마을",
+      "category_main": "역사",
+      "category_sub": "생활유적",
+      "period": "조선 중기 16세기 형성",
+      "period_category": "조선시대",
+      "region": "경상북도",
+      "address": "경상북도 봉화군 봉화읍 유곡리 277",
+      "location_marker_type": "entrance",
+      "lat": 36.9009,
+      "lng": 128.7312,
+      "short_description": "안동 권씨 충재 권벌의 후손이 세거한 전통 씨족 마을로 청암정·충재고택(보물)이 현존한다. 금닭이 알을 품은 형국이라는 풍수 지명에서 닭실이라 불리며 자연 계류와 한옥이 어우러진 경관이 아름답다.",
+      "source_urls": [
+        "https://www.bonghwa.go.kr"
+      ],
+      "data_confidence": "medium",
+      "tags": [
+        "조선중기",
+        "권벌",
+        "씨족마을",
+        "안동권씨",
+        "청암정",
+        "보물",
+        "풍수"
+      ],
+      "place_id": "GK-GB-SAE-0013",
+      "category_detail": "안동 권씨 충재 권벌의 후손이 세거한 전통 씨족 마을로 청암정·충재고택(보물)이 현존한다",
+      "confidence": "low",
+      "confidence_reason": "",
+      "needs_geocoding": false,
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-06T06:28:49"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      }
+    },
+    {
+      "name": "경주 나원리 오층석탑",
+      "category_main": "역사",
+      "category_sub": "석조유물",
+      "period": "통일신라 8세기 후반",
+      "period_category": "통일신라",
+      "region": "경상북도",
+      "address": "경상북도 경주시 현곡면 나원리 608",
+      "location_marker_type": "exact",
+      "lat": 35.8537,
+      "lng": 129.1893,
+      "short_description": "통일신라 시대 화강암 오층석탑(국보 제39호)으로 야산 위에 단독으로 서 있다. 기단부와 탑신부의 비례가 균형 잡혀 통일신라 석탑 양식의 전형으로 평가받으며 해체 수리 당시 사리장엄구가 발견되었다.",
+      "source_urls": [
+        "https://ko.wikipedia.org/wiki/%EA%B2%BD%EC%A3%BC_%EB%82%98%EC%9B%90%EB%A6%AC_%EC%98%A4%EC%B8%B5%EC%84%9D%ED%83%91"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "통일신라",
+        "오층석탑",
+        "국보",
+        "사리장엄구",
+        "석탑",
+        "경주",
+        "불교유산"
+      ],
+      "place_id": "GK-GB-SAJ-0019",
+      "category_detail": "통일신라 시대 화강암 오층석탑(국보 제39호)으로 야산 위에 단독으로 서 있다",
+      "confidence": "high",
+      "confidence_reason": "",
+      "needs_geocoding": false,
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-06T06:28:49"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      }
+    },
+    {
+      "name": "통영 미륵산 케이블카",
+      "category_main": "자연",
+      "category_sub": "산",
+      "period": "",
+      "period_category": "",
+      "region": "경상남도",
+      "address": "경상남도 통영시 발개로 205",
+      "location_marker_type": "entrance",
+      "lat": 34.8628,
+      "lng": 128.3944,
+      "short_description": "해발 461m 미륵산 정상까지 운행하는 케이블카. 정상에서 한려해상국립공원의 다도해 전망과 통영 시가지가 한눈에 펼쳐지고 맑은 날에는 일본 대마도까지 조망된다.",
+      "source_urls": [
+        "https://www.ttdc.kr/cable"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "미륵산",
+        "케이블카",
+        "다도해",
+        "한려해상국립공원",
+        "통영",
+        "조망",
+        "곤돌라"
+      ],
+      "place_id": "GK-GN-MTN-0001",
+      "category_detail": "해발 461m 미륵산 정상까지 운행하는 케이블카",
+      "confidence": "high",
+      "confidence_reason": "",
+      "needs_geocoding": false,
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-06T06:28:49"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      }
+    },
+    {
+      "name": "사천 삼천포대교 노을",
+      "category_main": "자연",
+      "category_sub": "일출/일몰 명소",
+      "period": "",
+      "period_category": "",
+      "region": "경상남도",
+      "address": "경상남도 사천시 대방동 810",
+      "location_marker_type": "exact",
+      "lat": 34.9244,
+      "lng": 128.0596,
+      "short_description": "사천시와 남해군을 연결하는 5개 교량·4개 섬을 잇는 연륙교. 일몰 무렵 노을빛이 수면과 교량에 반사되는 장면이 드라이브 명소·사진 촬영지로 인기가 높다.",
+      "source_urls": [
+        "https://www.sacheon.go.kr"
+      ],
+      "data_confidence": "medium",
+      "tags": [
+        "노을",
+        "연륙교",
+        "드라이브",
+        "일몰",
+        "사천",
+        "삼천포",
+        "다리경관"
+      ],
+      "place_id": "GK-GN-SUN-0002",
+      "category_detail": "사천시와 남해군을 연결하는 5개 교량·4개 섬을 잇는 연륙교",
+      "confidence": "low",
+      "confidence_reason": "",
+      "needs_geocoding": false,
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-06T06:28:49"
+      },
+      "content_link": {
+        "has_video": false,
+        "youtube_url": "",
+        "instagram_url": "",
+        "tiktok_url": "",
+        "xiaohongshu_url": "",
+        "video_status": "없음"
+      }
+    },
+    {
+      "name": "순천만국가정원",
+      "category_main": "자연",
+      "category_sub": "자연명승",
+      "period": "",
+      "period_category": "",
+      "region": "전라남도",
+      "address": "전라남도 순천시 국가정원1호길 47",
+      "location_marker_type": "entrance",
+      "lat": 34.9349,
+      "lng": 127.4956,
+      "short_description": "2013년 순천만국제정원박람회를 계기로 조성된 대한민국 1호 국가정원. 습지보호구역인 순천만 갈대밭과 연계되며 세계 각국의 정원 테마존이 조성되어 있다.",
+      "source_urls": [
+        "https://www.scgarden.go.kr"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "국가정원",
+        "순천만",
+        "갈대밭",
+        "습지",
+        "박람회",
+        "생태",
+        "꽃정원"
+      ],
+      "place_id": "GK-JN-SCN-0006",
+      "category_detail": "2013년 순천만국제정원박람회를 계기로 조성된 대한민국 1호 국가정원",
+      "confidence": "high",
+      "confidence_reason": "",
+      "needs_geocoding": false,
+      "status": {
+        "map_displayable": true,
+        "data_status": "complete",
+        "map_status": "published",
+        "content_status": "waiting",
+        "last_updated": "2026-05-06T06:28:49"
       },
       "content_link": {
         "has_video": false,
