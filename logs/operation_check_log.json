@@ -1,4 +1,121 @@
 {
   "_comment": "체험 운영 확인 로그 (ON 상태에서만 기록)",
-  "runs": []
+  "runs": [
+    {
+      "date": "2026-05-06",
+      "checked": 20,
+      "result": {
+        "active": 16,
+        "temporarily_closed": 0,
+        "ended": 0,
+        "needs_check": 3,
+        "unknown": 1
+      },
+      "price_changed": 1,
+      "changes": [
+        {
+          "name": "서울 광장시장",
+          "field": "operation_status",
+          "before": "needs_check",
+          "after": "active"
+        },
+        {
+          "name": "부산 자갈치시장",
+          "field": "operation_status",
+          "before": "needs_check",
+          "after": "active"
+        },
+        {
+          "name": "전주 남부시장 야시장",
+          "field": "operation_status",
+          "before": "needs_check",
+          "after": "active"
+        },
+        {
+          "name": "통영 중앙전통시장",
+          "field": "operation_status",
+          "before": "needs_check",
+          "after": "active"
+        },
+        {
+          "name": "강릉 중앙시장",
+          "field": "operation_status",
+          "before": "needs_check",
+          "after": "active"
+        },
+        {
+          "name": "국립중앙박물관",
+          "field": "operation_status",
+          "before": "needs_check",
+          "after": "active"
+        },
+        {
+          "name": "리움미술관",
+          "field": "operation_status",
+          "before": "needs_check",
+          "after": "active"
+        },
+        {
+          "name": "국립현대미술관 과천",
+          "field": "operation_status",
+          "before": "needs_check",
+          "after": "active"
+        },
+        {
+          "name": "서울 인사동 전통문화거리",
+          "field": "operation_status",
+          "before": "needs_check",
+          "after": "active"
+        },
+        {
+          "name": "전주 한옥마을 한복체험",
+          "field": "operation_status",
+          "before": "needs_check",
+          "after": "active"
+        },
+        {
+          "name": "경주 교촌마을 한복체험",
+          "field": "operation_status",
+          "before": "needs_check",
+          "after": "active"
+        },
+        {
+          "name": "안동 하회마을 탈춤체험",
+          "field": "operation_status",
+          "before": "needs_check",
+          "after": "active"
+        },
+        {
+          "name": "해남 대흥사 템플스테이",
+          "field": "operation_status",
+          "before": "needs_check",
+          "after": "active"
+        },
+        {
+          "name": "부산 범어사 템플스테이",
+          "field": "operation_status",
+          "before": "needs_check",
+          "after": "active"
+        },
+        {
+          "name": "경주 불국사 템플스테이",
+          "field": "operation_status",
+          "before": "needs_check",
+          "after": "active"
+        },
+        {
+          "name": "전주 한옥마을 한옥숙박",
+          "field": "operation_status",
+          "before": "needs_check",
+          "after": "active"
+        },
+        {
+          "name": "보성 녹차밭 체험",
+          "field": "operation_status",
+          "before": "needs_check",
+          "after": "unknown"
+        }
+      ]
+    }
+  ]
 }

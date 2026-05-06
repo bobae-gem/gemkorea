@@ -199,8 +199,8 @@
     }
   },
   "operation_check": {
-    "mode": "OFF",
-    "mode_updated": "",
+    "mode": "ON",
+    "mode_updated": "2026-05-06T02:45:31",
     "max_per_run": 20,
     "priority_filter": [
       "candidate",
@@ -224,7 +224,7 @@
       "운영여부 확인 중지",
       "자동 체크 멈춰"
     ],
-    "last_run": "",
+    "last_run": "2026-05-06",
     "log_path": "logs/operation_check_log.json"
   }
 }
