@@ -254,6 +254,12 @@
         "GK-IC-SAJ-0002"
       ],
       "total_scripts": 55
+    },
+    {
+      "time": "2026-05-06T05:57:55",
+      "mode": "B",
+      "new_collected": 18,
+      "total": 339
     }
   ]
 }
