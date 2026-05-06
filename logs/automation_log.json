@@ -273,6 +273,12 @@
         "GK-GG-RYU-0006"
       ],
       "total_scripts": 60
+    },
+    {
+      "time": "2026-05-06T06:04:46",
+      "mode": "B",
+      "new_collected": 14,
+      "total": 353
     }
   ]
 }
