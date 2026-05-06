@@ -260,6 +260,19 @@
       "mode": "B",
       "new_collected": 18,
       "total": 339
+    },
+    {
+      "time": "2026-05-06T06:00:22",
+      "mode": "C",
+      "content_generated": 5,
+      "places": [
+        "GK-GG-RYU-0002",
+        "GK-GG-RYU-0003",
+        "GK-GG-RYU-0004",
+        "GK-GG-RYU-0005",
+        "GK-GG-RYU-0006"
+      ],
+      "total_scripts": 60
     }
   ]
 }
