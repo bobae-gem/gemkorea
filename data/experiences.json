@@ -2,7 +2,7 @@
   "_comment": "겜코리아 체험 데이터 — 역사/자연 마커와 분리. 삭제 금지. 젬투어 상품 후보.",
   "_version": "1.0",
   "_updated": "2026-05-06T02:13:45",
-  "total": 34,
+  "total": 54,
   "experiences": [
     {
       "experience_id": "EX-SE-MKT-001",
@@ -43,7 +43,7 @@
         "서울"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "created",
       "created_at": "2026-05-06T02:13:45",
       "operation_status": "active",
       "operating_hours": "",
@@ -96,7 +96,7 @@
         "자갈치"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "created",
       "created_at": "2026-05-06T02:13:45",
       "operation_status": "active",
       "operating_hours": "",
@@ -153,7 +153,7 @@
         "금토운영"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "created",
       "created_at": "2026-05-06T02:13:45",
       "operation_status": "active",
       "operating_hours": "",
@@ -206,7 +206,7 @@
         "동피랑"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "created",
       "created_at": "2026-05-06T02:13:45",
       "operation_status": "active",
       "operating_hours": "",
@@ -261,7 +261,7 @@
         "강원"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "created",
       "created_at": "2026-05-06T02:13:45",
       "operation_status": "active",
       "operating_hours": "",
@@ -316,7 +316,7 @@
         "서울"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "created",
       "created_at": "2026-05-06T02:13:45",
       "operation_status": "active",
       "operating_hours": "",
@@ -380,7 +380,7 @@
         "전통문화"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "created",
       "created_at": "2026-05-06T02:13:45",
       "operation_status": "needs_check",
       "operating_hours": "",
@@ -426,7 +426,7 @@
         "이태원"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "created",
       "created_at": "2026-05-06T02:13:45",
       "operation_status": "active",
       "operating_hours": "",
@@ -637,7 +637,7 @@
         "한옥마을"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "created",
       "created_at": "2026-05-06T02:13:45",
       "operation_status": "active",
       "operating_hours": "",
@@ -750,7 +750,7 @@
         "유네스코"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "created",
       "created_at": "2026-05-06T02:13:45",
       "operation_status": "active",
       "operating_hours": "",
@@ -855,7 +855,7 @@
         "대흥사"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "created",
       "created_at": "2026-05-06T02:13:45",
       "operation_status": "active",
       "operating_hours": "",
@@ -1077,7 +1077,7 @@
         "대한다원"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "created",
       "created_at": "2026-05-06T02:13:45",
       "operation_status": "unknown",
       "operating_hours": "",
@@ -1174,7 +1174,7 @@
         "굴수확"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "created",
       "created_at": "2026-05-06T02:13:45",
       "operation_status": "needs_check",
       "operating_hours": "",
@@ -1311,7 +1311,7 @@
         "10월"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "created",
       "created_at": "2026-05-06T02:13:45",
       "operation_status": "needs_check",
       "operating_hours": "",
@@ -1356,7 +1356,7 @@
         "여름"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "created",
       "created_at": "2026-05-06T02:13:45",
       "operation_status": "needs_check",
       "operating_hours": "",
@@ -1401,7 +1401,7 @@
         "1월"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "created",
       "created_at": "2026-05-06T02:13:45",
       "operation_status": "needs_check",
       "operating_hours": "",
@@ -1447,7 +1447,7 @@
         "생태"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "created",
       "created_at": "2026-05-06T02:13:45",
       "operation_status": "needs_check",
       "operating_hours": "",
@@ -1738,7 +1738,547 @@
       "last_verified": "",
       "change_log": [],
       "created_at": "2026-05-06T05:22:07"
+    },
+    {
+      "experience_id": "EX-JN-CRF-001",
+      "name": "전주 한지문화산업센터 한지 만들기",
+      "region": "전라북도 전주시",
+      "address": "전라북도 전주시 덕진구 팔달로 159",
+      "category_sub": "전통공예",
+      "lat": 35.8467,
+      "lng": 127.1296,
+      "short_description": "조선 시대부터 이어온 전주한지의 전통 제조법을 직접 체험할 수 있는 공간이다. 닥나무 섬유를 물에 풀어 발로 떠내는 초지 과정부터 건조까지 2시간 내에 나만의 한지를 완성한다.",
+      "price": "1인 15,000원",
+      "duration": "2시간",
+      "reservation_required": true,
+      "target_user": "가족, 커플, 개인",
+      "tags": [
+        "한지",
+        "전통공예",
+        "전주",
+        "체험",
+        "닥나무",
+        "종이만들기"
+      ],
+      "source_urls": [
+        "https://www.jeonjuhanji.kr/"
+      ],
+      "operation_status": "운영중",
+      "shorts_status": "waiting"
+    },
+    {
+      "experience_id": "EX-GB-CRF-001",
+      "name": "안동 하회탈 만들기 체험",
+      "region": "경상북도 안동시",
+      "address": "경상북도 안동시 풍천면 전서로 206",
+      "category_sub": "전통공예",
+      "lat": 36.5388,
+      "lng": 128.5187,
+      "short_description": "유네스코 세계문화유산 하회마을 내 목공방에서 국보급 하회탈을 직접 채색하고 완성하는 체험이다. 오리·양반·각시 탈 중 하나를 골라 전통 안료로 채색하며 하회탈의 역사적 의미를 배운다.",
+      "price": "1인 20,000원",
+      "duration": "1시간 30분",
+      "reservation_required": true,
+      "target_user": "가족, 개인, 외국인",
+      "tags": [
+        "하회탈",
+        "전통공예",
+        "안동",
+        "목공",
+        "유네스코",
+        "채색체험"
+      ],
+      "source_urls": [
+        "https://www.hahoe.or.kr/"
+      ],
+      "operation_status": "운영중",
+      "shorts_status": "waiting"
+    },
+    {
+      "experience_id": "EX-GG-CRF-001",
+      "name": "이천 도자기 물레 성형 체험",
+      "region": "경기도 이천시",
+      "address": "경기도 이천시 신둔면 도자예술로 55",
+      "category_sub": "전통공예",
+      "lat": 37.2707,
+      "lng": 127.4445,
+      "short_description": "왕실 도자기 산지로 유명한 이천에서 직접 물레를 돌려 도자기를 빚는 체험이다. 전문 도예가의 지도 아래 컵·그릇 등 원하는 기형을 만들고 소성 후 완성품을 택배로 받아볼 수 있다.",
+      "price": "1인 18,000원~25,000원",
+      "duration": "1시간 30분",
+      "reservation_required": true,
+      "target_user": "가족, 커플, 개인",
+      "tags": [
+        "도자기",
+        "물레체험",
+        "이천",
+        "전통공예",
+        "도예",
+        "경기"
+      ],
+      "source_urls": [
+        "https://www.icheon.go.kr/ceramic/"
+      ],
+      "operation_status": "운영중",
+      "shorts_status": "waiting"
+    },
+    {
+      "experience_id": "EX-CN-CRF-001",
+      "name": "나주 쪽빛 천연염색 체험",
+      "region": "전라남도 나주시",
+      "address": "전라남도 나주시 다시면 백호로 379",
+      "category_sub": "전통공예",
+      "lat": 35.0348,
+      "lng": 126.7098,
+      "short_description": "천년의 전통을 가진 나주 쪽빛 천연염색을 직접 배우는 체험이다. 쪽풀에서 추출한 천연 남색 물감으로 손수건·스카프를 물들이고 매듭·홀치기 기법으로 무늬를 만들어 완성품을 가져간다.",
+      "price": "1인 12,000원~20,000원",
+      "duration": "1시간 30분",
+      "reservation_required": true,
+      "target_user": "가족, 커플, 개인",
+      "tags": [
+        "천연염색",
+        "쪽빛",
+        "나주",
+        "전통공예",
+        "전남",
+        "손수건"
+      ],
+      "source_urls": [
+        "https://www.najuindigo.com/"
+      ],
+      "operation_status": "운영중",
+      "shorts_status": "waiting"
+    },
+    {
+      "experience_id": "EX-GB-CRF-002",
+      "name": "경주 전통 옻칠 공예 체험",
+      "region": "경상북도 경주시",
+      "address": "경상북도 경주시 포석로 1147",
+      "category_sub": "전통공예",
+      "lat": 35.8358,
+      "lng": 129.209,
+      "short_description": "신라 천년 고도 경주에서 전통 옻칠 기법을 배우는 공예 체험이다. 소형 목함이나 브로치에 전통 옻칠과 나전 기법을 적용해 나만의 신라풍 공예품을 만든다.",
+      "price": "1인 25,000원",
+      "duration": "2시간",
+      "reservation_required": true,
+      "target_user": "개인, 커플, 외국인",
+      "tags": [
+        "옻칠",
+        "전통공예",
+        "경주",
+        "신라",
+        "나전칠기",
+        "공예체험"
+      ],
+      "source_urls": [
+        "https://www.gyeongju.go.kr/"
+      ],
+      "operation_status": "운영중",
+      "shorts_status": "waiting"
+    },
+    {
+      "experience_id": "EX-CN-FRM-001",
+      "name": "안동 전통 막걸리 빚기 체험",
+      "region": "경상북도 안동시",
+      "address": "경상북도 안동시 수상동 270-1",
+      "category_sub": "발효/음식",
+      "lat": 36.5659,
+      "lng": 128.7278,
+      "short_description": "조선 시대 3대 명주 안동소주의 고장에서 전통 방식으로 막걸리를 직접 빚는 체험이다. 누룩 만들기부터 발효·걸러내기까지 전 과정을 배우고 완성된 막걸리를 시음한다.",
+      "price": "1인 30,000원",
+      "duration": "2시간 30분",
+      "reservation_required": true,
+      "target_user": "성인, 개인, 커플",
+      "tags": [
+        "막걸리",
+        "전통술",
+        "안동",
+        "발효",
+        "주조체험",
+        "누룩"
+      ],
+      "source_urls": [
+        "https://www.andongsoju.net/"
+      ],
+      "operation_status": "운영중",
+      "shorts_status": "waiting"
+    },
+    {
+      "experience_id": "EX-JN-FRM-003",
+      "name": "순창 전통 된장·고추장 담그기 체험",
+      "region": "전라북도 순창군",
+      "address": "전라북도 순창군 순창읍 장류로 43",
+      "category_sub": "발효/음식",
+      "lat": 35.3739,
+      "lng": 127.1374,
+      "short_description": "발효 장류의 고장 순창에서 전통 된장과 고추장을 직접 담그는 체험이다. 메주 고르기·소금물 농도 조절·옹기에 담기까지 한국 발효 문화의 핵심을 배우고 소형 옹기에 담은 장을 집으로 가져간다.",
+      "price": "1인 15,000원~25,000원",
+      "duration": "2시간",
+      "reservation_required": true,
+      "target_user": "가족, 개인, 외국인",
+      "tags": [
+        "된장",
+        "고추장",
+        "발효",
+        "순창",
+        "장류체험",
+        "전통식품"
+      ],
+      "source_urls": [
+        "https://www.sunchang.go.kr/jang/"
+      ],
+      "operation_status": "운영중",
+      "shorts_status": "waiting"
+    },
+    {
+      "experience_id": "EX-JJ-OCN-001",
+      "name": "제주 해녀 체험",
+      "region": "제주특별자치도 제주시",
+      "address": "제주특별자치도 제주시 구좌읍 해맞이해안로 1282",
+      "category_sub": "해양체험",
+      "lat": 33.5504,
+      "lng": 126.8668,
+      "short_description": "유네스코 인류무형문화유산인 해녀 문화를 직접 체험하는 프로그램이다. 물옷 착용·호흡법·물질 기초 기술을 배우고 실제 바다에서 소라·전복 잡기를 체험하며 제주 해녀의 삶을 이해한다.",
+      "price": "1인 50,000원",
+      "duration": "3시간",
+      "reservation_required": true,
+      "target_user": "성인, 커플, 개인",
+      "tags": [
+        "해녀",
+        "제주",
+        "유네스코",
+        "물질",
+        "해양체험",
+        "구좌읍"
+      ],
+      "source_urls": [
+        "https://www.haenyeo.go.kr/"
+      ],
+      "operation_status": "운영중",
+      "shorts_status": "waiting"
+    },
+    {
+      "experience_id": "EX-CN-OCN-001",
+      "name": "태안 갯벌 생태체험",
+      "region": "충청남도 태안군",
+      "address": "충청남도 태안군 안면읍 중장리 1601-20",
+      "category_sub": "자연체험",
+      "lat": 36.4592,
+      "lng": 126.3687,
+      "short_description": "서해안 최대 규모의 갯벌에서 조개·게·낙지를 직접 잡는 생태체험이다. 맨발로 갯벌을 걷고 생물을 관찰하며 서해 갯벌 생태계를 이해하고 잡은 해산물은 직접 요리해 먹을 수 있다.",
+      "price": "1인 10,000원~15,000원",
+      "duration": "2시간",
+      "reservation_required": false,
+      "target_user": "가족, 어린이",
+      "tags": [
+        "갯벌",
+        "태안",
+        "서해",
+        "생태체험",
+        "안면도",
+        "조개잡기"
+      ],
+      "source_urls": [
+        "https://www.taean.go.kr/"
+      ],
+      "operation_status": "운영중",
+      "shorts_status": "waiting"
+    },
+    {
+      "experience_id": "EX-JN-OCN-001",
+      "name": "완도 전복·굴 따기 해상체험",
+      "region": "전라남도 완도군",
+      "address": "전라남도 완도군 완도읍 개포리 일원",
+      "category_sub": "해양체험",
+      "lat": 34.3176,
+      "lng": 126.7557,
+      "short_description": "국내 최대 전복 생산지 완도에서 배를 타고 나가 전복·굴·미역을 직접 따는 체험이다. 어민과 함께 수하식 양식장을 견학하고 갓 채취한 전복을 현장에서 회로 먹는 특별한 경험을 한다.",
+      "price": "1인 30,000원",
+      "duration": "2시간 30분",
+      "reservation_required": true,
+      "target_user": "가족, 커플, 개인",
+      "tags": [
+        "전복",
+        "굴",
+        "완도",
+        "해상체험",
+        "전남",
+        "양식장투어"
+      ],
+      "source_urls": [
+        "https://www.wando.go.kr/"
+      ],
+      "operation_status": "운영중",
+      "shorts_status": "waiting"
+    },
+    {
+      "experience_id": "EX-GW-FRM-001",
+      "name": "강화도 갯벌 새우젓 담그기",
+      "region": "인천광역시 강화군",
+      "address": "인천광역시 강화군 화도면 여차리 일원",
+      "category_sub": "발효/음식",
+      "lat": 37.6145,
+      "lng": 126.4281,
+      "short_description": "서해 강화도 갯벌에서 직접 새우를 잡고 전통 방식으로 새우젓을 담그는 체험이다. 천일염과 새우를 켜켜이 쌓아 옹기에 담는 전통 발효 방식을 배우고 직접 만든 새우젓을 가져간다.",
+      "price": "1인 20,000원",
+      "duration": "2시간",
+      "reservation_required": true,
+      "target_user": "가족, 개인",
+      "tags": [
+        "새우젓",
+        "강화도",
+        "갯벌",
+        "발효",
+        "어촌체험",
+        "천일염"
+      ],
+      "source_urls": [
+        "https://www.ganghwa.go.kr/"
+      ],
+      "operation_status": "운영중",
+      "shorts_status": "waiting"
+    },
+    {
+      "experience_id": "EX-GW-NAT-001",
+      "name": "평창 농촌체험 (모내기·벼베기)",
+      "region": "강원특별자치도 평창군",
+      "address": "강원특별자치도 평창군 대관령면 솔봉로 325",
+      "category_sub": "자연체험",
+      "lat": 37.66,
+      "lng": 128.7181,
+      "short_description": "해발 700m 고원에서 진행하는 전통 모내기·벼 베기 농촌체험이다. 계절에 따라 봄 모내기·가을 벼 베기·탈곡까지 이어지는 농경문화를 직접 체험하고 지역 특산 메밀요리를 먹는다.",
+      "price": "1인 15,000원",
+      "duration": "3시간",
+      "reservation_required": true,
+      "target_user": "가족, 어린이, 개인",
+      "tags": [
+        "모내기",
+        "농촌체험",
+        "평창",
+        "강원",
+        "벼베기",
+        "고원농업"
+      ],
+      "source_urls": [
+        "https://www.pc.go.kr/"
+      ],
+      "operation_status": "운영중",
+      "shorts_status": "waiting"
+    },
+    {
+      "experience_id": "EX-GW-NAT-002",
+      "name": "양양 송이버섯 채취 체험",
+      "region": "강원특별자치도 양양군",
+      "address": "강원특별자치도 양양군 서면 서림리 일원",
+      "category_sub": "자연체험",
+      "lat": 38.0718,
+      "lng": 128.5102,
+      "short_description": "국내 최대 송이버섯 산지 양양에서 가을철 소나무 숲을 직접 누비며 송이를 채취하는 체험이다. 산림조합 안내원과 함께 송이 생태를 배우고 현장에서 채취한 송이로 만든 송이구이·송이밥을 맛본다.",
+      "price": "1인 40,000원 (식사 포함)",
+      "duration": "4시간",
+      "reservation_required": true,
+      "target_user": "개인, 커플, 가족",
+      "tags": [
+        "송이버섯",
+        "양양",
+        "강원",
+        "산림체험",
+        "버섯채취",
+        "가을여행"
+      ],
+      "source_urls": [
+        "https://www.yangyang.go.kr/"
+      ],
+      "operation_status": "운영중",
+      "shorts_status": "waiting"
+    },
+    {
+      "experience_id": "EX-JJ-NAT-001",
+      "name": "제주 허브 따기·아로마 오일 만들기",
+      "region": "제주특별자치도 제주시",
+      "address": "제주특별자치도 제주시 한림읍 협재리 1534",
+      "category_sub": "자연체험",
+      "lat": 33.3966,
+      "lng": 126.2387,
+      "short_description": "제주 협재 해안가에 위치한 허브 농장에서 계절 허브와 유채꽃을 직접 수확하고 아로마 오일을 추출하는 체험이다. 수확한 식물을 증류기로 처리해 나만의 에센셜오일·향수를 만들어 가져간다.",
+      "price": "1인 25,000원",
+      "duration": "2시간",
+      "reservation_required": true,
+      "target_user": "커플, 개인, 가족",
+      "tags": [
+        "허브",
+        "제주",
+        "아로마",
+        "협재",
+        "체험농장",
+        "에센셜오일"
+      ],
+      "source_urls": [
+        "https://www.visitjeju.net/"
+      ],
+      "operation_status": "운영중",
+      "shorts_status": "waiting"
+    },
+    {
+      "experience_id": "EX-SE-ART-002",
+      "name": "서울 사물놀이 체험 (국립국악원)",
+      "region": "서울특별시 서초구",
+      "address": "서울특별시 서초구 남부순환로 2364",
+      "category_sub": "문화예술",
+      "lat": 37.4774,
+      "lng": 127.0074,
+      "short_description": "국립국악원에서 꽹과리·장구·북·징 네 악기로 구성된 사물놀이를 직접 배우는 체험이다. 기본 장단부터 자진모리까지 팀을 이뤄 합주를 완성하는 생동감 넘치는 문화 체험이다.",
+      "price": "1인 10,000원",
+      "duration": "1시간",
+      "reservation_required": true,
+      "target_user": "가족, 개인, 외국인",
+      "tags": [
+        "사물놀이",
+        "국악",
+        "서울",
+        "꽹과리",
+        "장구",
+        "국립국악원"
+      ],
+      "source_urls": [
+        "https://www.gugak.go.kr/"
+      ],
+      "operation_status": "운영중",
+      "shorts_status": "waiting"
+    },
+    {
+      "experience_id": "EX-JB-ART-001",
+      "name": "전주 판소리 체험",
+      "region": "전라북도 전주시",
+      "address": "전라북도 전주시 완산구 향교길 139",
+      "category_sub": "문화예술",
+      "lat": 35.8167,
+      "lng": 127.1536,
+      "short_description": "판소리의 고장 전주에서 소리꾼에게 판소리 발성법과 기본 장단을 배우는 체험이다. 춘향가·심청가 등 유명 대목을 직접 따라 부르고 북 반주에 맞춰 단 한 소절이라도 완창하는 특별한 경험이다.",
+      "price": "1인 15,000원",
+      "duration": "1시간 30분",
+      "reservation_required": true,
+      "target_user": "개인, 커플, 외국인",
+      "tags": [
+        "판소리",
+        "전주",
+        "전통음악",
+        "소리체험",
+        "전북",
+        "유네스코"
+      ],
+      "source_urls": [
+        "https://www.jeonjucenter.or.kr/"
+      ],
+      "operation_status": "운영중",
+      "shorts_status": "waiting"
+    },
+    {
+      "experience_id": "EX-SE-ART-003",
+      "name": "인사동 전통 서예·민화 체험",
+      "region": "서울특별시 종로구",
+      "address": "서울특별시 종로구 인사동길 12",
+      "category_sub": "문화예술",
+      "lat": 37.5742,
+      "lng": 126.9853,
+      "short_description": "인사동 문화거리에서 한국 전통 서예와 민화를 직접 배우는 체험이다. 붓·먹·한지를 사용해 자신의 이름을 한자 서예로 쓰거나 모란·호랑이 등 전통 민화 도안을 채색해 완성품을 가져간다.",
+      "price": "1인 12,000원~18,000원",
+      "duration": "1시간",
+      "reservation_required": false,
+      "target_user": "개인, 커플, 외국인",
+      "tags": [
+        "서예",
+        "민화",
+        "인사동",
+        "서울",
+        "붓글씨",
+        "전통문화"
+      ],
+      "source_urls": [
+        "https://www.insadong.info/"
+      ],
+      "operation_status": "운영중",
+      "shorts_status": "waiting"
+    },
+    {
+      "experience_id": "EX-JN-FRM-002",
+      "name": "보성 녹차 덖음 체험 (대한다원)",
+      "region": "전라남도 보성군",
+      "address": "전라남도 보성군 보성읍 녹차로 763",
+      "category_sub": "발효/음식",
+      "lat": 34.7718,
+      "lng": 127.0792,
+      "short_description": "국내 최대 녹차 산지 보성에서 찻잎을 직접 따고 전통 방식으로 덖어 나만의 녹차를 만드는 체험이다. 찻잎 수확부터 덖기·비비기·건조까지 전 과정을 체험하고 완성된 차 한 봉지를 가져간다.",
+      "price": "1인 20,000원",
+      "duration": "2시간",
+      "reservation_required": true,
+      "target_user": "개인, 커플, 가족",
+      "tags": [
+        "녹차",
+        "차체험",
+        "보성",
+        "전남",
+        "덖음",
+        "대한다원"
+      ],
+      "source_urls": [
+        "https://www.daehandawon.com/"
+      ],
+      "operation_status": "운영중",
+      "shorts_status": "waiting"
+    },
+    {
+      "experience_id": "EX-GB-ART-002",
+      "name": "안동 하회탈춤 배우기",
+      "region": "경상북도 안동시",
+      "address": "경상북도 안동시 풍천면 하회리 287-1",
+      "category_sub": "문화예술",
+      "lat": 36.5379,
+      "lng": 128.5206,
+      "short_description": "유네스코 인류무형문화유산인 하회별신굿탈놀이를 관람하고 기본 탈춤 동작을 직접 배우는 체험이다. 전수관 전승자의 지도 아래 대표 동작을 익히고 하회탈을 쓰고 사진을 찍는다.",
+      "price": "체험 포함 20,000원",
+      "duration": "2시간",
+      "reservation_required": true,
+      "target_user": "가족, 개인, 외국인",
+      "tags": [
+        "탈춤",
+        "하회",
+        "안동",
+        "유네스코",
+        "전통공연",
+        "하회별신굿"
+      ],
+      "source_urls": [
+        "https://www.hahoe.or.kr/"
+      ],
+      "operation_status": "운영중",
+      "shorts_status": "waiting"
+    },
+    {
+      "experience_id": "EX-GB-ART-001",
+      "name": "안동 가야금 국악 체험",
+      "region": "경상북도 안동시",
+      "address": "경상북도 안동시 경동로 688",
+      "category_sub": "문화예술",
+      "lat": 36.5744,
+      "lng": 128.7267,
+      "short_description": "가야금·거문고·대금 중 하나를 선택해 국악 명인에게 소그룹으로 배우는 체험이다. 악기 구조와 역사를 설명한 뒤 기본 음계·간단한 민요 연주까지 단시간에 습득한다.",
+      "price": "1인 20,000원",
+      "duration": "1시간 30분",
+      "reservation_required": true,
+      "target_user": "개인, 커플, 외국인",
+      "tags": [
+        "가야금",
+        "국악",
+        "안동",
+        "전통음악",
+        "악기체험",
+        "문화예술"
+      ],
+      "source_urls": [
+        "https://www.andong.go.kr/"
+      ],
+      "operation_status": "운영중",
+      "shorts_status": "waiting"
     }
   ],
-  "last_updated": "2026-05-06T05:22:07"
+  "last_updated": "2026-05-07T04:18:31"
 }

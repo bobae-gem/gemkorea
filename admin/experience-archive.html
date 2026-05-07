@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GemKorea 체험 숏츠 보관함</title>
+<link rel="stylesheet" href="shared.css">
+<style>
+.filter-bar { display:flex; flex-direction:column; gap:10px; margin-bottom:16px; }
+.filter-row { display:flex; gap:6px; flex-wrap:wrap; align-items:center; }
+.filter-label { font-size:11px; font-weight:800; color:var(--muted); min-width:36px; }
+.stab { padding:6px 14px; border-radius:20px; border:1.5px solid var(--border); background:var(--surface); font-size:12px; font-weight:700; cursor:pointer; color:var(--muted); transition:all .15s; }
+.stab:hover { border-color:var(--orange); color:var(--orange); }
+.stab.active { background:var(--orange); color:#fff; border-color:var(--orange); }
+.stab.active-cat { background:#7c3aed; color:#fff; border-color:#7c3aed; }
+.stab-count { font-size:10px; margin-left:3px; opacity:.7; }
+
+.search-wrap { position:relative; margin-bottom:12px; }
+.search-input { width:100%; padding:10px 14px 10px 36px; border:1.5px solid var(--border); border-radius:10px; background:var(--surface); font-size:13px; color:var(--text); box-sizing:border-box; }
+.search-input:focus { outline:none; border-color:var(--orange); }
+.search-icon { position:absolute; left:12px; top:50%; transform:translateY(-50%); color:var(--muted); font-size:14px; pointer-events:none; }
+.result-count { font-size:11px; color:var(--muted); margin-bottom:8px; }
+
+.content-list { display:flex; flex-direction:column; gap:10px; }
+.content-card {
+  background:var(--surface); border:1.5px solid var(--border);
+  border-radius:12px; padding:16px 18px; cursor:pointer;
+  transition:all .15s; display:flex; align-items:flex-start; gap:14px;
+}
+.content-card:hover { border-color:var(--orange); box-shadow:0 2px 12px rgba(200,134,10,.1); }
+.content-card.selected { border-color:var(--orange); background:rgba(200,134,10,.04); }
+.cc-id { font-size:10px; color:var(--muted); font-weight:700; min-width:50px; margin-top:2px; }
+.cc-body { flex:1; min-width:0; }
+.cc-name { font-size:14px; font-weight:900; margin-bottom:4px; }
+.cc-meta { font-size:11px; color:var(--muted); margin-bottom:6px; display:flex; gap:8px; flex-wrap:wrap; }
+.cc-hook { font-size:12px; color:var(--text); background:var(--surface2); border-radius:6px; padding:4px 10px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.cc-right { display:flex; flex-direction:column; align-items:flex-end; gap:6px; flex-shrink:0; }
+.status-badge { font-size:10px; font-weight:700; padding:3px 9px; border-radius:7px; white-space:nowrap; }
+.sb-review  { background:var(--yellow-soft); color:var(--yellow); border:1px solid rgba(184,134,11,.2); }
+.sb-created { background:var(--green-soft); color:var(--green); border:1px solid rgba(74,140,92,.2); }
+.sb-approved{ background:var(--gem-soft); color:var(--gem); border:1px solid rgba(30,58,138,.2); }
+.sb-uploaded{ background:rgba(232,129,58,.1); color:var(--orange); border:1px solid rgba(232,129,58,.2); }
+.cat-badge { font-size:9px; font-weight:700; padding:2px 7px; border-radius:5px; background:rgba(124,58,237,.1); color:#7c3aed; border:1px solid rgba(124,58,237,.2); white-space:nowrap; }
+
+/* 디테일 패널 */
+.detail-panel {
+  position:fixed; right:0; top:0; bottom:0; width:540px;
+  background:var(--surface); border-left:1.5px solid var(--border);
+  overflow-y:auto; z-index:200; transform:translateX(100%);
+  transition:transform .25s ease; display:flex; flex-direction:column;
+}
+.detail-panel.open { transform:translateX(0); }
+.dp-header { padding:16px 20px; border-bottom:1.5px solid var(--border); display:flex; align-items:center; gap:10px; position:sticky; top:0; background:var(--surface); z-index:10; }
+.dp-close { width:28px; height:28px; border-radius:50%; background:var(--surface2); border:1px solid var(--border); cursor:pointer; display:flex; align-items:center; justify-content:center; font-size:14px; color:var(--muted); margin-left:auto; }
+.dp-title { font-size:16px; font-weight:900; }
+.dp-body { padding:20px; flex:1; }
+.dp-section { margin-bottom:20px; }
+.dp-section-title { font-size:11px; font-weight:800; text-transform:uppercase; letter-spacing:1px; color:var(--muted); margin-bottom:8px; padding-bottom:6px; border-bottom:1px solid var(--border); }
+.script-box { background:var(--surface2); border:1px solid var(--border); border-radius:10px; padding:14px; font-size:13px; line-height:1.8; color:var(--text); white-space:pre-wrap; }
+.char-count { font-size:10px; color:var(--muted); margin-top:4px; text-align:right; }
+.hook-list { display:flex; flex-direction:column; gap:6px; }
+.hook-item { background:var(--surface2); border:1px solid var(--border); border-radius:8px; padding:8px 12px; font-size:12px; font-weight:600; display:flex; align-items:center; gap:8px; }
+.hook-num { width:20px; height:20px; border-radius:50%; background:rgba(200,134,10,.1); color:var(--orange); font-size:10px; font-weight:900; display:flex; align-items:center; justify-content:center; flex-shrink:0; }
+.thumb-list { display:grid; grid-template-columns:1fr 1fr; gap:6px; }
+.thumb-item { background:var(--surface2); border:1px solid var(--border); border-radius:8px; padding:8px 10px; font-size:11px; font-weight:700; text-align:center; }
+.caption-grid { display:flex; flex-direction:column; gap:10px; }
+.caption-item { background:var(--surface2); border:1px solid var(--border); border-radius:10px; overflow:hidden; }
+.caption-header { display:flex; align-items:center; justify-content:space-between; padding:8px 12px; border-bottom:1px solid var(--border); background:var(--surface); }
+.caption-platform { font-size:11px; font-weight:800; color:var(--text); }
+.caption-actions { display:flex; gap:4px; }
+.cap-btn { padding:3px 10px; border-radius:6px; font-size:10px; font-weight:700; cursor:pointer; border:none; transition:all .15s; text-decoration:none; display:inline-flex; align-items:center; gap:3px; }
+.cap-btn-link { background:rgba(200,134,10,.1); color:var(--orange); }
+.cap-btn-link:hover { background:var(--orange); color:#fff; }
+.cap-btn-copy { background:var(--surface2); color:var(--muted); border:1px solid var(--border); }
+.cap-btn-copy:hover { border-color:var(--green); color:var(--green); }
+.caption-text { padding:10px 12px; font-size:12px; line-height:1.7; color:var(--text); }
+.hashtag-wrap { display:flex; gap:4px; flex-wrap:wrap; }
+.hashtag { font-size:10px; padding:2px 8px; border-radius:6px; background:rgba(200,134,10,.1); color:var(--orange); font-weight:600; cursor:pointer; }
+.hashtag:hover { background:var(--orange); color:#fff; }
+.exp-info-box { background:rgba(200,134,10,.06); border:1.5px solid rgba(200,134,10,.2); border-radius:10px; padding:12px 14px; }
+.exp-info-row { display:flex; justify-content:space-between; font-size:12px; margin-bottom:4px; }
+.exp-info-label { color:var(--muted); font-weight:600; }
+.exp-info-val { font-weight:700; }
+.dp-actions { display:flex; gap:8px; padding:16px 20px; border-top:1.5px solid var(--border); background:var(--surface); position:sticky; bottom:0; }
+.dp-btn { flex:1; padding:10px; border-radius:10px; font-size:12px; font-weight:700; cursor:pointer; border:none; transition:all .15s; }
+.dp-btn-approve { background:var(--orange); color:#fff; }
+.dp-btn-approve:hover { opacity:.88; }
+.dp-btn-archive { background:var(--surface2); color:var(--muted); border:1.5px solid var(--border); }
+.overlay { position:fixed; inset:0; background:rgba(0,0,0,.2); z-index:190; display:none; }
+.overlay.show { display:block; }
+.empty { text-align:center; padding:48px; color:var(--muted); font-size:13px; }
+.toast { position:fixed; bottom:24px; left:50%; transform:translateX(-50%); background:#c8860a; color:#fff; padding:8px 20px; border-radius:20px; font-size:12px; font-weight:700; z-index:999; opacity:0; transition:opacity .2s; pointer-events:none; }
+.toast.show { opacity:1; }
+</style>
+</head>
+<body>
+
+<div class="nav">
+  <a href="../admin.html" style="text-decoration:none;"><div class="nav-logo">GemKorea <small>ADMIN</small></div></a>
+  <span class="nav-sep">/</span>
+  <span class="nav-page">🎪 체험 숏츠 보관함</span>
+  <div class="nav-spacer"></div>
+  <span class="nav-time" id="now-time"></span>
+  <a href="content-archive.html" class="nav-link">🎬 일반 숏츠</a>
+  <a href="../index.html" class="nav-link">🗺️ 지도</a>
+  <a href="../admin.html" class="nav-link">🏠 홈</a>
+</div>
+
+<div class="page-wrap">
+
+  <!-- KPI -->
+  <div class="grid g4" style="margin-bottom:16px;">
+    <div class="card"><div class="kpi" id="kpi-total" style="color:var(--orange)">0</div><div class="kpi-label">전체 체험 숏츠</div></div>
+    <div class="card"><div class="kpi" id="kpi-review" style="color:var(--yellow)">0</div><div class="kpi-label">검수 대기</div></div>
+    <div class="card"><div class="kpi" id="kpi-approved" style="color:var(--green)">0</div><div class="kpi-label">승인됨</div></div>
+    <div class="card"><div class="kpi" id="kpi-uploaded" style="color:var(--gem)">0</div><div class="kpi-label">업로드 완료</div></div>
+  </div>
+
+  <!-- 필터 -->
+  <div class="filter-bar">
+    <div class="filter-row">
+      <span class="filter-label">상태</span>
+      <button class="stab active" data-status="all" onclick="filterStatus(this)">전체 <span class="stab-count" id="cnt-all"></span></button>
+      <button class="stab" data-status="review_pending" onclick="filterStatus(this)">검수 대기 <span class="stab-count" id="cnt-review"></span></button>
+      <button class="stab" data-status="approved" onclick="filterStatus(this)">승인됨 <span class="stab-count" id="cnt-approved"></span></button>
+      <button class="stab" data-status="uploaded" onclick="filterStatus(this)">업로드 <span class="stab-count" id="cnt-uploaded"></span></button>
+      <button class="stab" data-status="archived" onclick="filterStatus(this)">보관 <span class="stab-count" id="cnt-archived"></span></button>
+    </div>
+    <div class="filter-row">
+      <span class="filter-label">분류</span>
+      <button class="stab active-cat" data-cat="all" onclick="filterCat(this)">전체</button>
+      <button class="stab" data-cat="전통시장" onclick="filterCat(this)">전통시장</button>
+      <button class="stab" data-cat="전통공예" onclick="filterCat(this)">전통공예</button>
+      <button class="stab" data-cat="발효/음식" onclick="filterCat(this)">발효·음식</button>
+      <button class="stab" data-cat="해양체험" onclick="filterCat(this)">해양체험</button>
+      <button class="stab" data-cat="자연체험" onclick="filterCat(this)">자연체험</button>
+      <button class="stab" data-cat="문화예술" onclick="filterCat(this)">문화예술</button>
+      <button class="stab" data-cat="사찰 체험" onclick="filterCat(this)">템플스테이</button>
+      <button class="stab" data-cat="축제" onclick="filterCat(this)">축제</button>
+      <button class="stab" data-cat="박물관" onclick="filterCat(this)">박물관</button>
+      <button class="stab" data-cat="미술관" onclick="filterCat(this)">미술관</button>
+    </div>
+  </div>
+
+  <div class="search-wrap">
+    <span class="search-icon">🔍</span>
+    <input class="search-input" id="search-input" type="text" placeholder="체험명으로 검색..." oninput="render()">
+  </div>
+
+  <div class="result-count" id="result-count"></div>
+  <div class="content-list" id="content-list"></div>
+</div>
+
+<!-- 디테일 패널 -->
+<div class="overlay" id="overlay" onclick="closeDetail()"></div>
+<div class="detail-panel" id="detail-panel">
+  <div class="dp-header">
+    <div>
+      <div class="dp-title" id="dp-name"></div>
+      <div style="font-size:11px;color:var(--muted);margin-top:2px;" id="dp-meta"></div>
+    </div>
+    <button class="dp-close" onclick="closeDetail()">✕</button>
+  </div>
+  <div class="dp-body" id="dp-body"></div>
+  <div class="dp-actions" id="dp-actions"></div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+let library = [], expMap = {}, currentStatus = 'all', currentCat = 'all', selectedId = null;
+
+const STATUS_LABEL = { review_pending:'검수 대기', created:'생성 완료', approved:'승인됨', uploaded:'업로드', archived:'보관' };
+const STATUS_CLASS = { review_pending:'sb-review', created:'sb-created', approved:'sb-approved', uploaded:'sb-uploaded', archived:'sb-archived' };
+const PLATFORM_LINKS = {
+  youtube:     { label:'📺 YouTube',  url:'https://studio.youtube.com/' },
+  instagram:   { label:'📸 Instagram',url:'https://www.instagram.com/create/select/' },
+  tiktok:      { label:'🎵 TikTok',   url:'https://www.tiktok.com/upload' },
+  xiaohongshu: { label:'🌸 小红书',   url:'https://creator.xiaohongshu.com/creator/home' }
+};
+
+async function load() {
+  try {
+    const [libRes, expRes] = await Promise.all([
+      fetch('../content/experience_library.json'),
+      fetch('../data/experiences.json')
+    ]);
+    const libData = await libRes.json();
+    library = libData.contents || [];
+    const expData = await expRes.json();
+    (expData.experiences||[]).forEach(e => expMap[e.experience_id]=e);
+  } catch(e) { library = []; }
+  render();
+}
+
+function getFiltered() {
+  const q = (document.getElementById('search-input')?.value||'').trim().toLowerCase();
+  return library.filter(c => {
+    const statusOk = currentStatus === 'all' || c.content_status === currentStatus;
+    const expInfo = expMap[c.experience_id] || {};
+    const catOk = currentCat === 'all' || expInfo.category_sub === currentCat;
+    const searchOk = !q || c.place_name?.toLowerCase().includes(q);
+    return statusOk && catOk && searchOk;
+  });
+}
+
+function render() {
+  const filtered = getFiltered();
+  document.getElementById('kpi-total').textContent = library.length;
+  document.getElementById('kpi-review').textContent = library.filter(c=>c.content_status==='review_pending').length;
+  document.getElementById('kpi-approved').textContent = library.filter(c=>c.content_status==='approved').length;
+  document.getElementById('kpi-uploaded').textContent = library.filter(c=>c.content_status==='uploaded').length;
+  const counts = {};
+  library.forEach(c => { counts[c.content_status]=(counts[c.content_status]||0)+1; });
+  document.getElementById('cnt-all').textContent = library.length;
+  document.getElementById('cnt-review').textContent = counts['review_pending']||0;
+  document.getElementById('cnt-approved').textContent = counts['approved']||0;
+  document.getElementById('cnt-uploaded').textContent = counts['uploaded']||0;
+  document.getElementById('cnt-archived').textContent = counts['archived']||0;
+  const rc = document.getElementById('result-count');
+  if (rc) rc.textContent = filtered.length + '개 체험 콘텐츠';
+
+  const list = document.getElementById('content-list');
+  if (!filtered.length) { list.innerHTML = '<div class="empty">🎪 해당 체험 콘텐츠가 없습니다</div>'; return; }
+  list.innerHTML = filtered.map(c => {
+    const exp = expMap[c.experience_id] || {};
+    return `<div class="content-card${c.id===selectedId?' selected':''}" onclick="openDetail('${c.id}')">
+      <div class="cc-id">${c.id}</div>
+      <div class="cc-body">
+        <div class="cc-name">${c.place_name}</div>
+        <div class="cc-meta">
+          <span>📍 ${exp.region||''}</span>
+          <span>💰 ${exp.price||'—'}</span>
+          <span>⏱ ${exp.duration||'—'}</span>
+          <span style="color:var(--muted);">${c.generated_at?.slice(0,10)||'—'}</span>
+        </div>
+        <div class="cc-hook">💬 ${c.hooks?.[0]||'후킹 없음'}</div>
+      </div>
+      <div class="cc-right">
+        <span class="status-badge ${STATUS_CLASS[c.content_status]||'sb-review'}">${STATUS_LABEL[c.content_status]||c.content_status}</span>
+        <span class="cat-badge">${exp.category_sub||'체험'}</span>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+function filterStatus(el) {
+  currentStatus = el.dataset.status;
+  document.querySelectorAll('[data-status]').forEach(b=>b.classList.remove('active'));
+  el.classList.add('active');
+  render();
+}
+
+function filterCat(el) {
+  currentCat = el.dataset.cat;
+  document.querySelectorAll('[data-cat]').forEach(b=>b.classList.remove('active-cat'));
+  el.classList.add('active-cat');
+  render();
+}
+
+function captionHtml(platform, text, videoUrl) {
+  const info = PLATFORM_LINKS[platform];
+  if (!info || !text) return '';
+  return `<div class="caption-item">
+    <div class="caption-header">
+      <span class="caption-platform">${info.label}</span>
+      <div class="caption-actions">
+        <a class="cap-btn cap-btn-link" href="${videoUrl||info.url}" target="_blank" rel="noopener">🔗 열기</a>
+        <button class="cap-btn cap-btn-copy" onclick="copyText(this,\`${text.replace(/`/g,"'")}\`)">📋 복사</button>
+      </div>
+    </div>
+    <div class="caption-text">${text}</div>
+  </div>`;
+}
+
+function copyText(btn, text) {
+  navigator.clipboard.writeText(text).then(()=>{
+    showToast('📋 복사됐습니다!');
+    btn.textContent='✓ 복사됨';
+    setTimeout(()=>btn.textContent='📋 복사',1500);
+  });
+}
+
+function showToast(msg) {
+  const t=document.getElementById('toast');
+  t.textContent=msg; t.classList.add('show');
+  setTimeout(()=>t.classList.remove('show'),1800);
+}
+
+function openDetail(id) {
+  selectedId = id;
+  render();
+  const c = library.find(x=>x.id===id);
+  if (!c) return;
+  const exp = expMap[c.experience_id] || {};
+
+  document.getElementById('dp-name').textContent = c.place_name;
+  document.getElementById('dp-meta').textContent = c.id + ' · ' + (exp.category_sub||'체험') + ' · ' + (exp.region||'');
+
+  const srcUrls = (exp.source_urls||[]).filter(u=>u&&u.startsWith('http'));
+
+  document.getElementById('dp-body').innerHTML = `
+    <div class="dp-section">
+      <div class="dp-section-title">🎪 체험 정보</div>
+      <div class="exp-info-box">
+        <div class="exp-info-row"><span class="exp-info-label">분류</span><span class="exp-info-val">${exp.category_sub||'—'}</span></div>
+        <div class="exp-info-row"><span class="exp-info-label">가격</span><span class="exp-info-val">${exp.price||'—'}</span></div>
+        <div class="exp-info-row"><span class="exp-info-label">소요시간</span><span class="exp-info-val">${exp.duration||'—'}</span></div>
+        <div class="exp-info-row"><span class="exp-info-label">예약</span><span class="exp-info-val">${exp.reservation_required?'필요':'불필요'}</span></div>
+        <div class="exp-info-row"><span class="exp-info-label">대상</span><span class="exp-info-val">${exp.target_user||'—'}</span></div>
+      </div>
+      ${srcUrls.length ? `<div style="margin-top:10px;">
+        <div style="font-size:10px;font-weight:800;color:var(--muted);margin-bottom:6px;">🔗 조사 출처</div>
+        <div style="display:flex;flex-direction:column;gap:5px;">
+          ${srcUrls.map(u=>{
+            let domain='';try{domain=new URL(u).hostname.replace('www.','');}catch(e){domain=u.slice(0,30);}
+            return `<a href="${u}" target="_blank" rel="noopener"
+              style="display:flex;align-items:center;gap:6px;padding:6px 10px;background:var(--surface2);border:1px solid var(--border);border-radius:8px;text-decoration:none;color:var(--orange);font-size:11px;font-weight:600;transition:all .15s;"
+              onmouseover="this.style.background='rgba(200,134,10,.08)'" onmouseout="this.style.background='var(--surface2)'">
+              <span>🌐</span><span style="flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">${domain}</span><span style="color:var(--muted);font-size:10px;">↗</span>
+            </a>`;
+          }).join('')}
+        </div>
+      </div>` : ''}
+      <div class="map-card-box" style="margin-top:10px;background:rgba(200,134,10,.06);">🎪 ${c.map_card_intro||'—'}</div>
+    </div>
+
+    <div class="dp-section">
+      <div class="dp-section-title">🎬 30초 대본</div>
+      <div class="script-box">${c.script_30s||'—'}</div>
+      <div style="display:flex;justify-content:flex-end;gap:6px;margin-top:4px;">
+        <button class="cap-btn cap-btn-copy" onclick="copyText(this,\`${(c.script_30s||'').replace(/`/g,"'")}\`)">📋 복사</button>
+        <span style="font-size:10px;color:var(--muted);align-self:center;">${(c.script_30s||'').length}자</span>
+      </div>
+    </div>
+
+    <div class="dp-section">
+      <div class="dp-section-title">🎬 60초 대본</div>
+      <div class="script-box">${c.script_60s||'—'}</div>
+      <div style="display:flex;justify-content:flex-end;gap:6px;margin-top:4px;">
+        <button class="cap-btn cap-btn-copy" onclick="copyText(this,\`${(c.script_60s||'').replace(/`/g,"'")}\`)">📋 복사</button>
+        <span style="font-size:10px;color:var(--muted);align-self:center;">${(c.script_60s||'').length}자</span>
+      </div>
+    </div>
+
+    <div class="dp-section">
+      <div class="dp-section-title">⚡ 후킹 문장 (5개)</div>
+      <div class="hook-list">
+        ${(c.hooks||[]).map((h,i)=>`<div class="hook-item"><div class="hook-num">${i+1}</div>${h}</div>`).join('')||'<div style="color:var(--muted);font-size:12px;">없음</div>'}
+      </div>
+    </div>
+
+    <div class="dp-section">
+      <div class="dp-section-title">🖼️ 썸네일 문구</div>
+      <div class="thumb-list">
+        ${(c.thumbnails||[]).map(t=>`<div class="thumb-item">${t}</div>`).join('')||'없음'}
+      </div>
+    </div>
+
+    <div class="dp-section">
+      <div class="dp-section-title">📱 플랫폼별 캡션 — 🔗 열기로 플랫폼 이동, 📋 복사 후 붙여넣기</div>
+      <div class="caption-grid">
+        ${captionHtml('youtube', c.captions?.youtube)}
+        ${captionHtml('instagram', c.captions?.instagram)}
+        ${captionHtml('tiktok', c.captions?.tiktok)}
+        ${captionHtml('xiaohongshu', c.captions?.xiaohongshu)}
+      </div>
+    </div>
+
+    <div class="dp-section">
+      <div class="dp-section-title">#️⃣ 해시태그</div>
+      <div style="display:flex;flex-direction:column;gap:8px;">
+        ${c.hashtags?.korean?.length?`<div><div style="font-size:10px;font-weight:700;color:var(--muted);margin-bottom:4px;">공통 <small style="opacity:.6;">(클릭 복사)</small></div><div class="hashtag-wrap">${c.hashtags.korean.map(h=>`<span class="hashtag" onclick="copyText(this,'${h}')">${h}</span>`).join('')}</div></div>`:''}
+        ${c.hashtags?.place_specific?.length?`<div><div style="font-size:10px;font-weight:700;color:var(--muted);margin-bottom:4px;">장소 전용</div><div class="hashtag-wrap">${c.hashtags.place_specific.map(h=>`<span class="hashtag" onclick="copyText(this,'${h}')">${h}</span>`).join('')}</div></div>`:''}
+      </div>
+    </div>
+  `;
+
+  document.getElementById('dp-actions').innerHTML = `
+    ${c.content_status==='review_pending'?`<button class="dp-btn dp-btn-approve" onclick="updateStatus('${c.id}','approved')">✓ 승인</button>`:''}
+    ${c.content_status==='approved'?`<button class="dp-btn dp-btn-approve" onclick="updateStatus('${c.id}','uploaded')">🚀 업로드 완료</button>`:''}
+    ${c.content_status!=='archived'?`<button class="dp-btn dp-btn-archive" onclick="updateStatus('${c.id}','archived')">보관함으로</button>`:'<div style="font-size:11px;color:var(--muted);text-align:center;padding:10px;">📦 보관 중</div>'}
+  `;
+
+  document.getElementById('detail-panel').classList.add('open');
+  document.getElementById('overlay').classList.add('show');
+}
+
+function closeDetail() {
+  selectedId = null;
+  document.getElementById('detail-panel').classList.remove('open');
+  document.getElementById('overlay').classList.remove('show');
+  render();
+}
+
+function updateStatus(id, newStatus) {
+  const c = library.find(x=>x.id===id);
+  if (!c) return;
+  c.content_status = newStatus;
+  showToast('✅ ' + c.place_name + ' → ' + STATUS_LABEL[newStatus]);
+  openDetail(id);
+  render();
+}
+
+function tick() {
+  const n = new Date();
+  document.getElementById('now-time').textContent = n.toLocaleDateString('ko-KR')+' '+n.toLocaleTimeString('ko-KR');
+}
+setInterval(tick,1000); tick();
+load();
+</script>
+</body>
+</html>

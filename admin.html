@@ -258,6 +258,13 @@
       <div class="menu-count" id="exp-count" style="color:var(--gold)">0</div>
       <div class="menu-unit">체험 자산</div>
     </a>
+    <a class="menu-card" href="admin/experience-archive.html" style="border-color:rgba(200,134,10,.35);background:rgba(200,134,10,.03);">
+      <div class="menu-icon">🎪</div>
+      <div class="menu-name">체험 숏츠 보관함</div>
+      <div class="menu-desc">체험 전용 숏츠 대본·캡션·출처 · 역사/자연 숏츠와 분리</div>
+      <div class="menu-count" id="exp-shorts-count" style="color:var(--orange)">0</div>
+      <div class="menu-unit">체험 콘텐츠</div>
+    </a>
     <a class="menu-card" href="admin/analytics.html">
       <div class="menu-icon">📊</div>
       <div class="menu-name">성과 분석</div>
@@ -337,8 +344,7 @@
 
 <script>
 let places = [], errorLogs = [], activeMode = null;
-
-let contentTotal = 0;
+let contentTotal = 0, expContentTotal = 0;
 
 async function load() {
   try {
@@ -360,6 +366,14 @@ async function load() {
       const lib = await libRes.json();
       contentTotal = lib.total || 0;
     }
+    // 체험 숏츠
+    try {
+      const expLibRes = await fetch('content/experience_library.json');
+      if (expLibRes.ok) {
+        const expLib = await expLibRes.json();
+        expContentTotal = expLib.total || 0;
+      }
+    } catch(e) {}
   } catch(e) { places = []; errorLogs = []; }
   render();
 }
@@ -401,6 +415,8 @@ function render() {
   document.getElementById('ca-count').textContent = contentTotal;
   document.getElementById('sa-count').textContent = snsPending;
   document.getElementById('um-count').textContent = uploaded;
+  const expEl2 = document.getElementById('exp-shorts-count');
+  if (expEl2) expEl2.textContent = expContentTotal;
 
   // 총매 보고
   document.getElementById('report-pct').textContent = p1;
