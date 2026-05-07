@@ -203,7 +203,7 @@
 <div class="toast" id="toast"></div>
 
 <script>
-let library = [], currentStatus = 'all', currentRegion = 'all', selectedId = null;
+let library = [], heritageMap = {}, currentStatus = 'all', currentRegion = 'all', selectedId = null;
 
 const STATUS_LABEL = {
   review_pending: '검수 대기', created: '생성 완료',
@@ -253,9 +253,14 @@ function regionOf(r) {
 
 async function load() {
   try {
-    const r = await fetch('../content/library.json');
-    const data = await r.json();
-    library = data.contents || [];
+    const [libRes, hRes] = await Promise.all([
+      fetch('../content/library.json'),
+      fetch('../data/heritage_all.json')
+    ]);
+    const libData = await libRes.json();
+    library = libData.contents || [];
+    const heritage = await hRes.json();
+    heritage.forEach(h => { heritageMap[h.place_id] = h; });
   } catch(e) { library = []; }
   render();
 }
@@ -377,6 +382,8 @@ function openDetail(id) {
   document.getElementById('dp-meta').textContent = c.id + ' · ' + (c.region||'') + ' · ' + (c.category_sub||'');
 
   const cl = c.content_link || {};
+  const hPlace = heritageMap[c.place_id] || {};
+  const sourceUrls = hPlace.source_urls || [];
 
   document.getElementById('dp-body').innerHTML = `
     <div class="dp-section">
@@ -388,6 +395,23 @@ function openDetail(id) {
         <span class="badge" style="background:var(--surface2);color:var(--muted);">생성: ${c.generated_at?.slice(0,10)||'—'}</span>
       </div>
       ${c.map_card_intro ? `<div class="map-card-box">🗺️ 지도 카드: ${c.map_card_intro}</div>` : ''}
+      ${sourceUrls.length ? `
+      <div style="margin-top:10px;">
+        <div style="font-size:10px;font-weight:800;color:var(--muted);margin-bottom:6px;">🔗 조사 출처</div>
+        <div style="display:flex;flex-direction:column;gap:5px;">
+          ${sourceUrls.map(u => {
+            let domain = '';
+            try { domain = new URL(u).hostname.replace('www.',''); } catch(e) { domain = u.slice(0,30); }
+            return `<a href="${u}" target="_blank" rel="noopener"
+              style="display:flex;align-items:center;gap:6px;padding:6px 10px;background:var(--surface2);border:1px solid var(--border);border-radius:8px;text-decoration:none;color:var(--gem);font-size:11px;font-weight:600;transition:all .15s;"
+              onmouseover="this.style.background='var(--gem-soft)'" onmouseout="this.style.background='var(--surface2)'">
+              <span>🌐</span>
+              <span style="flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">${domain}</span>
+              <span style="color:var(--muted);font-size:10px;">↗</span>
+            </a>`;
+          }).join('')}
+        </div>
+      </div>` : ''}
     </div>
 
     <div class="dp-section">
