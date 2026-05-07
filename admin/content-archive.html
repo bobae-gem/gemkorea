@@ -6,12 +6,23 @@
 <title>GemKorea 콘텐츠 보관함</title>
 <link rel="stylesheet" href="shared.css">
 <style>
-/* 상태 탭 */
-.status-tabs { display:flex; gap:6px; margin-bottom:16px; flex-wrap:wrap; }
-.stab { padding:6px 16px; border-radius:20px; border:1.5px solid var(--border); background:var(--surface); font-size:12px; font-weight:700; cursor:pointer; color:var(--muted); transition:all .15s; }
+/* 필터 바 */
+.filter-bar { display:flex; flex-direction:column; gap:10px; margin-bottom:16px; }
+.filter-row { display:flex; gap:6px; flex-wrap:wrap; align-items:center; }
+.filter-label { font-size:11px; font-weight:800; color:var(--muted); min-width:36px; }
+
+.stab { padding:6px 14px; border-radius:20px; border:1.5px solid var(--border); background:var(--surface); font-size:12px; font-weight:700; cursor:pointer; color:var(--muted); transition:all .15s; }
 .stab:hover { border-color:var(--gem); color:var(--gem); }
 .stab.active { background:var(--gem); color:#fff; border-color:var(--gem); }
-.stab-count { font-size:10px; margin-left:4px; opacity:.7; }
+.stab.active-region { background:var(--orange); color:#fff; border-color:var(--orange); }
+.stab-count { font-size:10px; margin-left:3px; opacity:.7; }
+
+/* 검색창 */
+.search-wrap { position:relative; margin-bottom:12px; }
+.search-input { width:100%; padding:10px 14px 10px 36px; border:1.5px solid var(--border); border-radius:10px; background:var(--surface); font-size:13px; color:var(--text); box-sizing:border-box; }
+.search-input:focus { outline:none; border-color:var(--gem); }
+.search-icon { position:absolute; left:12px; top:50%; transform:translateY(-50%); color:var(--muted); font-size:14px; pointer-events:none; }
+.result-count { font-size:11px; color:var(--muted); margin-bottom:8px; }
 
 /* 콘텐츠 카드 목록 */
 .content-list { display:flex; flex-direction:column; gap:10px; }
@@ -35,9 +46,12 @@
 .sb-uploaded{ background:rgba(232,129,58,.1);color:var(--orange); border:1px solid rgba(232,129,58,.2); }
 .sb-archived{ background:var(--surface2);    color:var(--muted);  border:1px solid var(--border); }
 
+/* 지역 뱃지 */
+.region-badge { font-size:9px; font-weight:700; padding:2px 7px; border-radius:5px; background:rgba(232,129,58,.1); color:var(--orange); border:1px solid rgba(232,129,58,.2); white-space:nowrap; }
+
 /* 디테일 패널 */
 .detail-panel {
-  position:fixed; right:0; top:0; bottom:0; width:520px;
+  position:fixed; right:0; top:0; bottom:0; width:540px;
   background:var(--surface); border-left:1.5px solid var(--border);
   overflow-y:auto; z-index:200; transform:translateX(100%);
   transition:transform .25s ease; display:flex; flex-direction:column;
@@ -65,15 +79,33 @@
 .thumb-list { display:grid; grid-template-columns:1fr 1fr; gap:6px; }
 .thumb-item { background:var(--surface2); border:1px solid var(--border); border-radius:8px; padding:8px 10px; font-size:11px; font-weight:700; text-align:center; }
 
-.caption-grid { display:flex; flex-direction:column; gap:8px; }
-.caption-item { background:var(--surface2); border:1px solid var(--border); border-radius:8px; padding:10px 12px; }
-.caption-platform { font-size:10px; font-weight:800; color:var(--muted); text-transform:uppercase; letter-spacing:1px; margin-bottom:4px; }
-.caption-text { font-size:12px; line-height:1.6; color:var(--text); }
+/* 캡션 영역 */
+.caption-grid { display:flex; flex-direction:column; gap:10px; }
+.caption-item { background:var(--surface2); border:1px solid var(--border); border-radius:10px; overflow:hidden; }
+.caption-header {
+  display:flex; align-items:center; justify-content:space-between;
+  padding:8px 12px; border-bottom:1px solid var(--border);
+  background:var(--surface);
+}
+.caption-platform-row { display:flex; align-items:center; gap:6px; }
+.caption-platform { font-size:11px; font-weight:800; color:var(--text); }
+.caption-actions { display:flex; gap:4px; }
+.cap-btn {
+  padding:3px 10px; border-radius:6px; font-size:10px; font-weight:700;
+  cursor:pointer; border:none; transition:all .15s; text-decoration:none;
+  display:inline-flex; align-items:center; gap:3px;
+}
+.cap-btn-link { background:var(--gem-soft); color:var(--gem); }
+.cap-btn-link:hover { background:var(--gem); color:#fff; }
+.cap-btn-copy { background:var(--surface2); color:var(--muted); border:1px solid var(--border); }
+.cap-btn-copy:hover { border-color:var(--green); color:var(--green); }
+.caption-text { padding:10px 12px; font-size:12px; line-height:1.7; color:var(--text); }
 
 .hashtag-groups { display:flex; flex-direction:column; gap:8px; }
 .hashtag-group-title { font-size:10px; font-weight:700; color:var(--muted); margin-bottom:4px; }
 .hashtag-wrap { display:flex; gap:4px; flex-wrap:wrap; }
-.hashtag { font-size:10px; padding:2px 8px; border-radius:6px; background:var(--gem-soft); color:var(--gem); font-weight:600; }
+.hashtag { font-size:10px; padding:2px 8px; border-radius:6px; background:var(--gem-soft); color:var(--gem); font-weight:600; cursor:pointer; }
+.hashtag:hover { background:var(--gem); color:#fff; }
 
 .map-card-box { background:var(--surface2); border-radius:10px; padding:12px; font-size:13px; font-weight:700; line-height:1.6; }
 
@@ -89,6 +121,10 @@
 .overlay.show { display:block; }
 
 .empty { text-align:center; padding:48px; color:var(--muted); font-size:13px; }
+
+/* toast */
+.toast { position:fixed; bottom:24px; left:50%; transform:translateX(-50%); background:#1e3a8a; color:#fff; padding:8px 20px; border-radius:20px; font-size:12px; font-weight:700; z-index:999; opacity:0; transition:opacity .2s; pointer-events:none; }
+.toast.show { opacity:1; }
 </style>
 </head>
 <body>
@@ -113,17 +149,39 @@
     <div class="card"><div class="kpi" id="kpi-uploaded" style="color:var(--orange)">0</div><div class="kpi-label">업로드 완료</div></div>
   </div>
 
-  <!-- 상태 탭 -->
-  <div class="status-tabs">
-    <button class="stab active" data-status="all" onclick="filterStatus(this)">전체 <span class="stab-count" id="cnt-all"></span></button>
-    <button class="stab" data-status="review_pending" onclick="filterStatus(this)">검수 대기 <span class="stab-count" id="cnt-review"></span></button>
-    <button class="stab" data-status="created" onclick="filterStatus(this)">생성 완료 <span class="stab-count" id="cnt-created"></span></button>
-    <button class="stab" data-status="approved" onclick="filterStatus(this)">승인됨 <span class="stab-count" id="cnt-approved"></span></button>
-    <button class="stab" data-status="uploaded" onclick="filterStatus(this)">업로드 <span class="stab-count" id="cnt-uploaded"></span></button>
-    <button class="stab" data-status="archived" onclick="filterStatus(this)">보관 <span class="stab-count" id="cnt-archived"></span></button>
+  <!-- 필터 바 -->
+  <div class="filter-bar">
+    <!-- 상태 탭 -->
+    <div class="filter-row">
+      <span class="filter-label">상태</span>
+      <button class="stab active" data-status="all" onclick="filterStatus(this)">전체 <span class="stab-count" id="cnt-all"></span></button>
+      <button class="stab" data-status="review_pending" onclick="filterStatus(this)">검수 대기 <span class="stab-count" id="cnt-review"></span></button>
+      <button class="stab" data-status="created" onclick="filterStatus(this)">생성 완료 <span class="stab-count" id="cnt-created"></span></button>
+      <button class="stab" data-status="approved" onclick="filterStatus(this)">승인됨 <span class="stab-count" id="cnt-approved"></span></button>
+      <button class="stab" data-status="uploaded" onclick="filterStatus(this)">업로드 <span class="stab-count" id="cnt-uploaded"></span></button>
+      <button class="stab" data-status="archived" onclick="filterStatus(this)">보관 <span class="stab-count" id="cnt-archived"></span></button>
+    </div>
+    <!-- 지역 탭 -->
+    <div class="filter-row">
+      <span class="filter-label">지역</span>
+      <button class="stab active-region" data-region="all" onclick="filterRegion(this)">전체</button>
+      <button class="stab" data-region="서울" onclick="filterRegion(this)">서울</button>
+      <button class="stab" data-region="경기/인천" onclick="filterRegion(this)">경기·인천</button>
+      <button class="stab" data-region="강원" onclick="filterRegion(this)">강원</button>
+      <button class="stab" data-region="충청" onclick="filterRegion(this)">충청</button>
+      <button class="stab" data-region="전라" onclick="filterRegion(this)">전라</button>
+      <button class="stab" data-region="경상" onclick="filterRegion(this)">경상</button>
+      <button class="stab" data-region="제주" onclick="filterRegion(this)">제주</button>
+    </div>
   </div>
 
-  <!-- 콘텐츠 목록 -->
+  <!-- 검색 -->
+  <div class="search-wrap">
+    <span class="search-icon">🔍</span>
+    <input class="search-input" id="search-input" type="text" placeholder="장소명 또는 지역으로 검색..." oninput="render()">
+  </div>
+
+  <div class="result-count" id="result-count"></div>
   <div class="content-list" id="content-list"></div>
 
 </div>
@@ -142,8 +200,10 @@
   <div class="dp-actions" id="dp-actions"></div>
 </div>
 
+<div class="toast" id="toast"></div>
+
 <script>
-let library = [], currentStatus = 'all', selectedId = null;
+let library = [], currentStatus = 'all', currentRegion = 'all', selectedId = null;
 
 const STATUS_LABEL = {
   review_pending: '검수 대기', created: '생성 완료',
@@ -154,6 +214,43 @@ const STATUS_CLASS = {
   approved: 'sb-approved', uploaded: 'sb-uploaded', archived: 'sb-archived'
 };
 
+// 지역 그루핑
+const REGION_MAP = {
+  '서울': ['서울특별시'],
+  '경기/인천': ['경기도','인천광역시'],
+  '강원': ['강원도','강원특별자치도'],
+  '충청': ['충청북도','충청남도','대전광역시','세종특별자치시'],
+  '전라': ['전라북도','전북특별자치도','전라남도','광주광역시'],
+  '경상': ['경상북도','경상남도','대구광역시','부산광역시','울산광역시'],
+  '제주': ['제주특별자치도']
+};
+
+// 플랫폼 링크
+const PLATFORM_LINKS = {
+  youtube:      { label:'📺 YouTube',  color:'#ff0000', url:'https://studio.youtube.com/' },
+  instagram:    { label:'📸 Instagram',color:'#e1306c', url:'https://www.instagram.com/create/select/' },
+  tiktok:       { label:'🎵 TikTok',   color:'#000',    url:'https://www.tiktok.com/upload' },
+  xiaohongshu:  { label:'🌸 小红书',   color:'#ff2442', url:'https://creator.xiaohongshu.com/creator/home' }
+};
+
+function regionOf(r) {
+  if (!r) return 'etc';
+  for (const [key, vals] of Object.entries(REGION_MAP)) {
+    if (vals.some(v => r.includes(v.replace('특별자치도','').replace('특별자치시','').replace('광역시','').replace('특별시','').replace('도','').replace('시','')
+        || r === v || r.includes(v.slice(0,2))))) return key;
+    if (vals.includes(r)) return key;
+  }
+  // 부분 매칭 fallback
+  if (r.includes('서울')) return '서울';
+  if (r.includes('경기') || r.includes('인천')) return '경기/인천';
+  if (r.includes('강원')) return '강원';
+  if (r.includes('충청') || r.includes('대전') || r.includes('세종')) return '충청';
+  if (r.includes('전라') || r.includes('전북') || r.includes('광주')) return '전라';
+  if (r.includes('경상') || r.includes('대구') || r.includes('부산') || r.includes('울산')) return '경상';
+  if (r.includes('제주')) return '제주';
+  return 'etc';
+}
+
 async function load() {
   try {
     const r = await fetch('../content/library.json');
@@ -163,10 +260,18 @@ async function load() {
   render();
 }
 
+function getFiltered() {
+  const q = (document.getElementById('search-input')?.value||'').trim().toLowerCase();
+  return library.filter(c => {
+    const statusOk = currentStatus === 'all' || c.content_status === currentStatus;
+    const regionOk = currentRegion === 'all' || regionOf(c.region) === currentRegion;
+    const searchOk = !q || c.place_name?.toLowerCase().includes(q) || c.region?.toLowerCase().includes(q);
+    return statusOk && regionOk && searchOk;
+  });
+}
+
 function render() {
-  const filtered = currentStatus === 'all'
-    ? library
-    : library.filter(c => c.content_status === currentStatus);
+  const filtered = getFiltered();
 
   // KPI
   document.getElementById('kpi-total').textContent = library.length;
@@ -174,15 +279,19 @@ function render() {
   document.getElementById('kpi-approved').textContent = library.filter(c=>c.content_status==='approved').length;
   document.getElementById('kpi-uploaded').textContent = library.filter(c=>c.content_status==='uploaded').length;
 
-  // 탭 카운트
+  // 탭 카운트 (상태별)
   const counts = {};
   library.forEach(c => { counts[c.content_status] = (counts[c.content_status]||0)+1; });
   document.getElementById('cnt-all').textContent = library.length;
-  ['review_pending','created','approved','uploaded','archived'].forEach(s => {
-    const el = document.getElementById('cnt-'+s.replace('_pending',''));
-    if(el) el.textContent = counts[s]||0;
-  });
   document.getElementById('cnt-review').textContent = counts['review_pending']||0;
+  document.getElementById('cnt-created').textContent = counts['created']||0;
+  document.getElementById('cnt-approved').textContent = counts['approved']||0;
+  document.getElementById('cnt-uploaded').textContent = counts['uploaded']||0;
+  document.getElementById('cnt-archived').textContent = counts['archived']||0;
+
+  // 결과 카운트
+  const rc = document.getElementById('result-count');
+  if (rc) rc.textContent = filtered.length + '개 콘텐츠';
 
   // 목록
   const list = document.getElementById('content-list');
@@ -197,14 +306,14 @@ function render() {
         <div class="cc-name">${c.place_name}</div>
         <div class="cc-meta">
           <span>📍 ${c.region||''}</span>
-          <span>🕰️ ${c.period_category||''}</span>
-          <span>${c.category_sub||''}</span>
-          <span style="color:var(--muted);">생성: ${c.generated_at?.slice(0,10)||'—'}</span>
+          <span>🏷 ${c.category_sub||''}</span>
+          <span style="color:var(--muted);">${c.generated_at?.slice(0,10)||'—'}</span>
         </div>
         <div class="cc-hook">💬 ${c.hooks?.[0]||'후킹 없음'}</div>
       </div>
       <div class="cc-right">
         <span class="status-badge ${STATUS_CLASS[c.content_status]||'sb-review'}">${STATUS_LABEL[c.content_status]||c.content_status}</span>
+        <span class="region-badge">${regionOf(c.region)||'기타'}</span>
         <span style="font-size:10px;color:var(--muted);">30초 ${c.script_30s?.length||0}자</span>
       </div>
     </div>`).join('');
@@ -212,9 +321,50 @@ function render() {
 
 function filterStatus(el) {
   currentStatus = el.dataset.status;
-  document.querySelectorAll('.stab').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.filter-row:first-child .stab').forEach(b => b.classList.remove('active'));
   el.classList.add('active');
   render();
+}
+
+function filterRegion(el) {
+  currentRegion = el.dataset.region;
+  document.querySelectorAll('[data-region]').forEach(b => b.classList.remove('active-region'));
+  el.classList.add('active-region');
+  render();
+}
+
+function captionHtml(platform, text, videoUrl) {
+  const info = PLATFORM_LINKS[platform];
+  if (!info || !text) return '';
+  const linkUrl = videoUrl || info.url;
+  return `
+    <div class="caption-item">
+      <div class="caption-header">
+        <div class="caption-platform-row">
+          <span class="caption-platform">${info.label}</span>
+        </div>
+        <div class="caption-actions">
+          <a class="cap-btn cap-btn-link" href="${linkUrl}" target="_blank" rel="noopener">🔗 열기</a>
+          <button class="cap-btn cap-btn-copy" onclick="copyText(this, \`${text.replace(/`/g,"'")}\`)">📋 복사</button>
+        </div>
+      </div>
+      <div class="caption-text">${text}</div>
+    </div>`;
+}
+
+function copyText(btn, text) {
+  navigator.clipboard.writeText(text).then(() => {
+    showToast('📋 복사됐습니다!');
+    btn.textContent = '✓ 복사됨';
+    setTimeout(() => btn.textContent = '📋 복사', 1500);
+  });
+}
+
+function showToast(msg) {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  setTimeout(() => t.classList.remove('show'), 1800);
 }
 
 function openDetail(id) {
@@ -224,15 +374,18 @@ function openDetail(id) {
   if (!c) return;
 
   document.getElementById('dp-name').textContent = c.place_name;
-  document.getElementById('dp-meta').textContent = c.id + ' · ' + (c.period_category||'') + ' · ' + (c.region||'');
+  document.getElementById('dp-meta').textContent = c.id + ' · ' + (c.region||'') + ' · ' + (c.category_sub||'');
+
+  const cl = c.content_link || {};
 
   document.getElementById('dp-body').innerHTML = `
     <div class="dp-section">
       <div class="dp-section-title">📍 기본 정보</div>
       <div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:8px;">
         <span class="status-badge ${STATUS_CLASS[c.content_status]||'sb-review'}">${STATUS_LABEL[c.content_status]||c.content_status}</span>
+        <span class="region-badge">${regionOf(c.region)||'기타'}</span>
         <span class="badge bb">${c.category_sub||''}</span>
-        <span class="badge" style="background:var(--surface2);color:var(--muted);">생성: ${c.generated_at||'—'}</span>
+        <span class="badge" style="background:var(--surface2);color:var(--muted);">생성: ${c.generated_at?.slice(0,10)||'—'}</span>
       </div>
       ${c.map_card_intro ? `<div class="map-card-box">🗺️ 지도 카드: ${c.map_card_intro}</div>` : ''}
     </div>
@@ -240,13 +393,25 @@ function openDetail(id) {
     <div class="dp-section">
       <div class="dp-section-title">🎬 30초 대본</div>
       <div class="script-box">${c.script_30s||'—'}</div>
-      <div class="char-count">${(c.script_30s||'').length}자</div>
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-top:4px;">
+        <span></span>
+        <div style="display:flex;gap:6px;align-items:center;">
+          <button class="cap-btn cap-btn-copy" onclick="copyText(this, \`${(c.script_30s||'').replace(/`/g,"'")}\`)">📋 복사</button>
+          <span class="char-count" style="margin:0;">${(c.script_30s||'').length}자</span>
+        </div>
+      </div>
     </div>
 
     <div class="dp-section">
       <div class="dp-section-title">🎬 60초 대본</div>
       <div class="script-box">${c.script_60s||'—'}</div>
-      <div class="char-count">${(c.script_60s||'').length}자</div>
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-top:4px;">
+        <span></span>
+        <div style="display:flex;gap:6px;align-items:center;">
+          <button class="cap-btn cap-btn-copy" onclick="copyText(this, \`${(c.script_60s||'').replace(/`/g,"'")}\`)">📋 복사</button>
+          <span class="char-count" style="margin:0;">${(c.script_60s||'').length}자</span>
+        </div>
+      </div>
     </div>
 
     <div class="dp-section">
@@ -264,21 +429,21 @@ function openDetail(id) {
     </div>
 
     <div class="dp-section">
-      <div class="dp-section-title">📱 플랫폼별 캡션</div>
+      <div class="dp-section-title">📱 플랫폼별 캡션 — 🔗 열기로 플랫폼 이동, 📋 복사 후 붙여넣기</div>
       <div class="caption-grid">
-        ${c.captions?.youtube ? `<div class="caption-item"><div class="caption-platform">📺 YouTube</div><div class="caption-text">${c.captions.youtube}</div></div>` : ''}
-        ${c.captions?.instagram ? `<div class="caption-item"><div class="caption-platform">📸 Instagram</div><div class="caption-text">${c.captions.instagram}</div></div>` : ''}
-        ${c.captions?.tiktok ? `<div class="caption-item"><div class="caption-platform">🎵 TikTok</div><div class="caption-text">${c.captions.tiktok}</div></div>` : ''}
-        ${c.captions?.xiaohongshu ? `<div class="caption-item"><div class="caption-platform">🌸 小红书</div><div class="caption-text">${c.captions.xiaohongshu}</div></div>` : ''}
+        ${captionHtml('youtube',    c.captions?.youtube,    cl.youtube_url)}
+        ${captionHtml('instagram',  c.captions?.instagram,  cl.instagram_url)}
+        ${captionHtml('tiktok',     c.captions?.tiktok,     cl.tiktok_url)}
+        ${captionHtml('xiaohongshu',c.captions?.xiaohongshu,cl.xiaohongshu_url)}
       </div>
     </div>
 
     <div class="dp-section">
       <div class="dp-section-title">#️⃣ 해시태그</div>
       <div class="hashtag-groups">
-        ${c.hashtags?.korean?.length ? `<div><div class="hashtag-group-title">한국어</div><div class="hashtag-wrap">${c.hashtags.korean.map(h=>`<span class="hashtag">${h}</span>`).join('')}</div></div>` : ''}
-        ${c.hashtags?.place_specific?.length ? `<div><div class="hashtag-group-title">장소 전용</div><div class="hashtag-wrap">${c.hashtags.place_specific.map(h=>`<span class="hashtag">${h}</span>`).join('')}</div></div>` : ''}
-        ${c.hashtags?.english?.length ? `<div><div class="hashtag-group-title">English</div><div class="hashtag-wrap">${c.hashtags.english.map(h=>`<span class="hashtag" style="background:var(--blue-soft);color:var(--blue);">${h}</span>`).join('')}</div></div>` : ''}
+        ${c.hashtags?.korean?.length ? `<div><div class="hashtag-group-title">한국어 <small style="opacity:.6;">(클릭하면 복사)</small></div><div class="hashtag-wrap">${c.hashtags.korean.map(h=>`<span class="hashtag" onclick="copyText(this,'${h}')">${h}</span>`).join('')}</div></div>` : ''}
+        ${c.hashtags?.place_specific?.length ? `<div><div class="hashtag-group-title">장소 전용</div><div class="hashtag-wrap">${c.hashtags.place_specific.map(h=>`<span class="hashtag" onclick="copyText(this,'${h}')">${h}</span>`).join('')}</div></div>` : ''}
+        ${c.hashtags?.english?.length ? `<div><div class="hashtag-group-title">English</div><div class="hashtag-wrap">${c.hashtags.english.map(h=>`<span class="hashtag" style="background:var(--blue-soft);color:var(--blue);" onclick="copyText(this,'${h}')">${h}</span>`).join('')}</div></div>` : ''}
       </div>
     </div>
 
@@ -306,7 +471,7 @@ function updateStatus(id, newStatus) {
   const c = library.find(x => x.id === id);
   if (!c) return;
   c.content_status = newStatus;
-  alert('✅ '+c.place_name+' → '+STATUS_LABEL[newStatus]+'로 변경됨\n(서버 연동 후 실제 반영됩니다)');
+  showToast('✅ ' + c.place_name + ' → ' + STATUS_LABEL[newStatus]);
   openDetail(id);
   render();
 }
