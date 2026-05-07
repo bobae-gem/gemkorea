@@ -1,7 +1,7 @@
 {
   "_comment": "겜코리아 콘텐츠 라이브러리 — 삭제 금지, archived로만 관리",
   "total": 245,
-  "last_updated": "2026-05-06T10:00:02",
+  "last_updated": "2026-05-07T03:15:38",
   "contents": [
     {
       "id": "CL-001",
@@ -62,7 +62,11 @@
         ]
       },
       "map_card_intro": "3000년 전 80톤 돌로 만든 무덤, 유네스코 세계유산",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1121100850000",
+        "https://whc.unesco.org/en/list/1091"
+      ]
     },
     {
       "id": "CL-002",
@@ -124,7 +128,11 @@
         ]
       },
       "map_card_intro": "아버지의 한을 담아 쌓은 조선 최고의 성곽, 유네스코 세계유산",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1131100010000",
+        "https://whc.unesco.org/en/list/816"
+      ]
     },
     {
       "id": "CL-003",
@@ -186,7 +194,12 @@
         ]
       },
       "map_card_intro": "왕이 45일 버티다 무릎 꿇은 치욕의 산, 유네스코 세계유산",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://ko.wikipedia.org/wiki/%EC%B2%98%EC%9D%B8%EC%84%B1",
+        "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=2333100440000",
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1336101320000"
+      ]
     },
     {
       "id": "CL-004",
@@ -248,7 +261,11 @@
         ]
       },
       "map_card_intro": "조선의 법궁, 270년 폐허와 왕비 시해의 역사가 담긴 곳",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1111100010000",
+        "https://www.royalpalace.go.kr"
+      ]
     },
     {
       "id": "CL-005",
@@ -309,7 +326,11 @@
         ]
       },
       "map_card_intro": "조선 왕들이 가장 오래 살았던 궁, 자연 철학이 담긴 유네스코 후원",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1111100020000",
+        "https://whc.unesco.org/en/list/816"
+      ]
     },
     {
       "id": "CL-006",
@@ -366,7 +387,10 @@
         ]
       },
       "map_card_intro": "750년간 썩지 않은 팔만대장경의 비밀, 고려 항몽의 유산",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://encykorea.aks.ac.kr/Article/E0022992"
+      ]
     },
     {
       "id": "CL-007",
@@ -422,7 +446,11 @@
         ]
       },
       "map_card_intro": "전생 부모를 위해 지은 절, 다보탑과 석가탑이 마주보는 유네스코 유산",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://www.yongmunsa.biz",
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1123400610000"
+      ]
     },
     {
       "id": "CL-008",
@@ -478,7 +506,11 @@
         ]
       },
       "map_card_intro": "비석도 말라던 퇴계를 위해 세운 서원, 유네스코 세계유산",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1133500050000",
+        "https://whc.unesco.org/en/list/1498"
+      ]
     },
     {
       "id": "CL-009",
@@ -535,7 +567,11 @@
         ]
       },
       "map_card_intro": "임진왜란 반성문 징비록을 쓴 자리, 유네스코 세계유산",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1133500030000",
+        "https://whc.unesco.org/en/list/1498"
+      ]
     },
     {
       "id": "CL-010",
@@ -593,7 +629,11 @@
         ]
       },
       "map_card_intro": "유관순이 만세 외치다 숨진 감옥, 사형장 뒤 미루나무는 아직 살아있다",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1111100150000",
+        "https://www.sscmc.or.kr"
+      ]
     },
     {
       "id": "CL-011",
@@ -649,7 +689,11 @@
         ]
       },
       "map_card_intro": "성돌에 새긴 600년 전 백성들의 이름, 서울을 감싼 18.6km 조선 도성",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1111100010000",
+        "https://www.ihansando.or.kr"
+      ]
     },
     {
       "id": "CL-012",
@@ -705,7 +749,11 @@
         ]
       },
       "map_card_intro": "태조가 직접 고른 자리, 500년에 걸쳐 쌓인 9기 왕릉 숲",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1131100370000",
+        "https://whc.unesco.org/en/list/1319"
+      ]
     },
     {
       "id": "CL-013",
@@ -762,7 +810,11 @@
         ]
       },
       "map_card_intro": "조선 최초의 서원, 사립학교의 시작 — 유네스코 세계유산",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1133500060000",
+        "https://whc.unesco.org/en/list/1498"
+      ]
     },
     {
       "id": "CL-014",
@@ -817,7 +869,11 @@
         ]
       },
       "map_card_intro": "서울 한복판 6,000년 전 신석기 집터 — 빗살무늬토기를 만든 사람들의 마을",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://sunsa.gangdong.go.kr/",
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1331102670000"
+      ]
     },
     {
       "id": "CL-015",
@@ -873,7 +929,10 @@
         ]
       },
       "map_card_intro": "3,000년 전 공사 현장이 멈춘 채로 — 고인돌 제작법을 보여주는 유네스코 유산",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1123400160000"
+      ]
     },
     {
       "id": "CL-016",
@@ -930,7 +989,10 @@
         ]
       },
       "map_card_intro": "1500년 봉인된 신라 황금 왕관의 무덤, 경주 도심의 거대한 고분군",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1123600400000"
+      ]
     },
     {
       "id": "CL-017",
@@ -987,7 +1049,10 @@
         ]
       },
       "map_card_intro": "2300명이 3만 명을 막아낸 임진왜란 행주대첩 현장",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1131100180000"
+      ]
     },
     {
       "id": "CL-018",
@@ -1044,7 +1109,10 @@
         ]
       },
       "map_card_intro": "승리와 패배, 논개의 순국이 함께 담긴 진주성",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1124800010000"
+      ]
     },
     {
       "id": "CL-019",
@@ -1101,7 +1169,10 @@
         ]
       },
       "map_card_intro": "조선의 마지막 서양 거부 선언 — 5년 뒤 문을 열었다",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1111100380000"
+      ]
     },
     {
       "id": "CL-020",
@@ -1156,7 +1227,10 @@
         ]
       },
       "map_card_intro": "수백 년 석전제가 이어지는 살아있는 조선의 학교",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1135500020000"
+      ]
     },
     {
       "id": "CL-021",
@@ -1213,7 +1287,10 @@
         ]
       },
       "map_card_intro": "\"나는 군인이다\" — 하얼빈 의거 안중근 의사를 기리는 기념관",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://www.ahnjunggeun.or.kr"
+      ]
     },
     {
       "id": "CL-022",
@@ -1269,7 +1346,10 @@
         ]
       },
       "map_card_intro": "1,400년 전 신라인이 하늘을 읽던 탑 — 동아시아 최고 천문 관측 시설",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1123600310000"
+      ]
     },
     {
       "id": "CL-023",
@@ -1326,7 +1406,10 @@
         ]
       },
       "map_card_intro": "3년 쌓아 1,500년 버틴 신라의 요새 — 삼국통일의 핵심 거점",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1133300010000"
+      ]
     },
     {
       "id": "CL-024",
@@ -1383,7 +1466,10 @@
         ]
       },
       "map_card_intro": "1919년 3월 1일, 200만 명의 만세가 시작된 역사의 현장",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1111100110000"
+      ]
     },
     {
       "id": "CL-025",
@@ -1440,7 +1526,10 @@
         ]
       },
       "map_card_intro": "왕은 섬에서 38년, 백성은 육지에서 — 고려 대몽항쟁의 빈터",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1121100030000"
+      ]
     },
     {
       "id": "CL-026",
@@ -1497,7 +1586,10 @@
         ]
       },
       "map_card_intro": "700명 전원 전사, 도망친 사람 없었다 — 임진왜란 가장 비장한 전투지",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1133100010000"
+      ]
     },
     {
       "id": "CL-027",
@@ -1554,7 +1646,10 @@
         ]
       },
       "map_card_intro": "총알 없어지자 돌을 던진 조선 군사들 — 1871년 신미양요 격전지",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1121100060000"
+      ]
     },
     {
       "id": "CL-028",
@@ -1611,7 +1706,10 @@
         ]
       },
       "map_card_intro": "사대의 상징 허물고 세운 독립문 — 3년 뒤 보호국이 된 아이러니",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1111100040000"
+      ]
     },
     {
       "id": "CL-029",
@@ -1668,7 +1766,10 @@
         ]
       },
       "map_card_intro": "수십 년간 말할 수 없었던 제주 4·3, 잊혀지지 않기 위해 싸운 사람들의 기념관",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://jeju43peace.or.kr"
+      ]
     },
     {
       "id": "CL-030",
@@ -1723,7 +1824,10 @@
         ]
       },
       "map_card_intro": "청동기 무덤 진화사를 한 언덕에서 — 세 형식 447기 유네스코 세계유산",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1135500010000"
+      ]
     },
     {
       "id": "CL-031",
@@ -1780,7 +1884,11 @@
         ]
       },
       "map_card_intro": "한국 선불교 시작점 — 구산선문 최초, 지리산 들판의 천년 고찰",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://www.silsangsa.or.kr",
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1373505130000"
+      ]
     },
     {
       "id": "CL-032",
@@ -1836,7 +1944,11 @@
         ]
       },
       "map_card_intro": "한반도 불교 첫 전래지, 매년 9월 붉은 꽃무릇으로 물드는 사찰",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://www.bulgapsa.org",
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1343101990000"
+      ]
     },
     {
       "id": "CL-033",
@@ -1892,7 +2004,11 @@
         ]
       },
       "map_card_intro": "한 번 돌리면 경전 다 읽은 공덕 — 국보 윤장대와 대장전의 절",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://www.yongmunsa.biz",
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1123400610000"
+      ]
     },
     {
       "id": "CL-034",
@@ -1949,7 +2065,11 @@
         ]
       },
       "map_card_intro": "강이 360도 감싸는 육지 속 섬마을 — 400년 고택 40채에 아직 사람이 산다",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://www.yeongju.go.kr/tour/contents.do?key=2523",
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1323302560000"
+      ]
     },
     {
       "id": "CL-035",
@@ -2006,7 +2126,10 @@
         ]
       },
       "map_card_intro": "600년 된 성에 지금도 사람이 사는 유일한 조선 읍성",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1123400010000"
+      ]
     },
     {
       "id": "CL-036",
@@ -2063,7 +2186,10 @@
         ]
       },
       "map_card_intro": "효심의 궁이 일제 동물원이 됐다가 다시 궁으로 — 창경궁의 굴욕과 복원",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://cgg.cha.go.kr/"
+      ]
     },
     {
       "id": "CL-037",
@@ -2121,7 +2247,13 @@
         ]
       },
       "map_card_intro": "대한제국 선포지, 을사늑약 체결지 — 근대와 전통이 뒤섞인 고종의 마지막 궁",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://ko.wikipedia.org/wiki/%EB%8D%95%EC%88%98%EA%B6%81",
+        "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1331101240000",
+        "https://encykorea.aks.ac.kr/Article/E0015361",
+        "https://www.deoksugung.go.kr/"
+      ]
     },
     {
       "id": "CL-038",
@@ -2176,7 +2308,10 @@
         ]
       },
       "map_card_intro": "500년째 제사를 지내는 조선 왕들의 사당 — 세계 최장 목조 건물",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://jm.cha.go.kr/"
+      ]
     },
     {
       "id": "CL-039",
@@ -2233,7 +2368,10 @@
         ]
       },
       "map_card_intro": "600년 국보가 하룻밤에 불탔다 — 방화와 복원, 국보 제1호 숭례문",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1111100010000"
+      ]
     },
     {
       "id": "CL-040",
@@ -2288,7 +2426,10 @@
         ]
       },
       "map_card_intro": "현존 유일 반원형 옹성 한양도성 동문 — 600년 성문과 패션타운이 공존",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1121100010000"
+      ]
     },
     {
       "id": "CL-041",
@@ -2345,7 +2486,10 @@
         ]
       },
       "map_card_intro": "병자호란 교훈으로 쌓은 12.7km 산성 — 지금은 서울 시민의 국립공원",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/"
+      ]
     },
     {
       "id": "CL-042",
@@ -2399,7 +2543,10 @@
         ]
       },
       "map_card_intro": "서울 아파트 단지 옆 1,600년 전 백제 왕성 — 아직도 발굴 중",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://encykorea.aks.ac.kr/Article/E0005300"
+      ]
     },
     {
       "id": "CL-043",
@@ -2452,7 +2599,10 @@
         ]
       },
       "map_card_intro": "올림픽공원 만들다 나온 백제 토성 — 1,600년 된 성벽이 지금 산책로",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/"
+      ]
     },
     {
       "id": "CL-044",
@@ -2508,7 +2658,10 @@
         ]
       },
       "map_card_intro": "강남 빌딩 숲 속 조선 왕릉 — 500년과 현대가 공존하는 세계 유일 풍경",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://royaltombs.cha.go.kr/"
+      ]
     },
     {
       "id": "CL-045",
@@ -2565,7 +2718,10 @@
         ]
       },
       "map_card_intro": "수천 명이 처형된 한강변 언덕 — 처형장이 순교 기념관이 된 절두산",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "http://www.jeoldusan.or.kr/"
+      ]
     },
     {
       "id": "CL-046",
@@ -2619,7 +2775,11 @@
         ]
       },
       "map_card_intro": "기상청 선정 한반도 제일 낙조 — 다도해가 노을에 물드는 진도의 절경",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://jindo.go.kr/",
+        "https://korean.visitkorea.or.kr/"
+      ]
     },
     {
       "id": "CL-047",
@@ -2674,7 +2834,10 @@
         ]
       },
       "map_card_intro": "COEX 옆 천년 고찰 — 강남 한복판 도심 속 1000년 사찰",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "http://www.bongeunsa.org/"
+      ]
     },
     {
       "id": "CL-048",
@@ -2731,7 +2894,10 @@
         ]
       },
       "map_card_intro": "임시정부 마지막 청사 — 통일을 꿈꾸다 암살당한 김구의 현장",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://www.kimkoomuseum.org/"
+      ]
     },
     {
       "id": "CL-049",
@@ -2787,7 +2953,10 @@
         ]
       },
       "map_card_intro": "24세 청년이 100만 대군도 못 한 일을 해낸 날 — 훙커우공원 의거",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "http://www.yunbonggil.or.kr/"
+      ]
     },
     {
       "id": "CL-050",
@@ -2843,7 +3012,10 @@
         ]
       },
       "map_card_intro": "별이 떨어진 곳에서 태어난 장군 — 귀주대첩으로 고려를 구한 강감찬의 탄생지",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://encykorea.aks.ac.kr/Article/E0011608"
+      ]
     },
     {
       "id": "CL-051",
@@ -2899,7 +3071,10 @@
         ]
       },
       "map_card_intro": "임진왜란에서 조선왕조실록을 지킨 유일한 사찰 — 381년 강화도 천년 고찰",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://www.jeondeungsa.org"
+      ]
     },
     {
       "id": "CL-052",
@@ -2954,7 +3129,13 @@
         ]
       },
       "map_card_intro": "단군이 하늘에 제사 지낸 돌단 — 개천절 제천행사와 성화 채화의 성지",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://ko.wikipedia.org/wiki/%EA%B0%95%ED%99%94_%EC%B0%B8%EC%84%B1%EB%8B%A8",
+        "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1332303060000",
+        "https://encykorea.aks.ac.kr/Article/E0055281",
+        "https://www.ganghwa.go.kr"
+      ]
     },
     {
       "id": "CL-053",
@@ -3010,7 +3191,13 @@
         ]
       },
       "map_card_intro": "프랑스·미국군과 두 번 싸운 강화해협 수비 돈대 — 조선의 저항 흔적",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://ko.wikipedia.org/wiki/%EA%B0%95%ED%99%94_%EA%B0%91%EA%B3%B6%EB%8F%88",
+        "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1332303060000",
+        "https://encykorea.aks.ac.kr/Article/E0000891",
+        "https://www.ganghwa.go.kr"
+      ]
     },
     {
       "id": "CL-054",
@@ -3066,7 +3253,13 @@
         ]
       },
       "map_card_intro": "38년 몽골 피해 버틴 고려 왕실의 섬 — 대몽항쟁 핵심 거점 강화산성",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://ko.wikipedia.org/wiki/%EA%B0%95%ED%99%94%EC%82%B0%EC%84%B1",
+        "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1332301320000",
+        "https://encykorea.aks.ac.kr/Article/E0001518",
+        "https://www.ganghwa.go.kr"
+      ]
     },
     {
       "id": "CL-055",
@@ -3120,7 +3313,10 @@
         ]
       },
       "map_card_intro": "한국 3대 관음성지 — 석모도 절벽에 서해를 바라보는 마애불의 천년 고찰",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://www.bomunsa.me"
+      ]
     },
     {
       "id": "CL-056",
@@ -3176,7 +3372,10 @@
         ]
       },
       "map_card_intro": "조선 왕릉 형식의 시작 — 600년 금지 숲이 유네스코 생물권보전지역",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://royaltombs.cha.go.kr"
+      ]
     },
     {
       "id": "CL-057",
@@ -3234,7 +3433,10 @@
         ]
       },
       "map_card_intro": "뒤주에서 죽은 사도세자와 아들 정조가 나란히 잠든 유네스코 왕릉",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://royaltombs.cha.go.kr"
+      ]
     },
     {
       "id": "CL-058",
@@ -3291,7 +3493,10 @@
         ]
       },
       "map_card_intro": "13년 대한제국 황제들의 능 — 을미사변·망국의 역사가 담긴 왕릉",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://royaltombs.cha.go.kr"
+      ]
     },
     {
       "id": "CL-059",
@@ -3346,7 +3551,10 @@
         ]
       },
       "map_card_intro": "17·19세에 요절한 왕비들의 능 — 파주 소나무 숲 유네스코 왕릉",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://royaltombs.cha.go.kr"
+      ]
     },
     {
       "id": "CL-060",
@@ -3401,7 +3609,10 @@
         ]
       },
       "map_card_intro": "반정으로 왕이 된 인조가 아버지를 왕으로 만든 능 — 유네스코 세계유산",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://royaltombs.cha.go.kr"
+      ]
     },
     {
       "id": "CL-061",
@@ -3456,7 +3667,10 @@
         ]
       },
       "map_card_intro": "한글·측우기 창제자 세종대왕이 잠든 유네스코 세계유산",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://royaltombs.cha.go.kr"
+      ]
     },
     {
       "id": "CL-062",
@@ -3510,7 +3724,13 @@
         ]
       },
       "map_card_intro": "세계 구석기 연구를 바꾼 35만 년 전 주먹도끼 발견지",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://ko.wikipedia.org/wiki/%EC%97%B0%EC%B2%9C_%EC%A0%84%EA%B3%A1%EB%A6%AC_%EC%9C%A0%EC%A0%81",
+        "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1333102680000",
+        "https://encykorea.aks.ac.kr/Article/E0049243",
+        "https://www.jeongokmuseum.go.kr"
+      ]
     },
     {
       "id": "CL-063",
@@ -3565,7 +3785,10 @@
         ]
       },
       "map_card_intro": "남한강 절벽 위 천년 고찰 — 나옹화상 입적지, 세종의 기도처",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://www.hoeryongsa.org"
+      ]
     },
     {
       "id": "CL-064",
@@ -3621,7 +3844,13 @@
         ]
       },
       "map_card_intro": "교회에 가두고 불을 지른 제암리 학살 — 캐나다 선교사가 세계에 알린 현장",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://ko.wikipedia.org/wiki/%ED%99%94%EC%84%B1_%EC%A0%9C%EC%95%94%EB%A6%AC_3%C2%B71%EC%9A%B4%EB%8F%99_%EC%88%9C%EA%B5%AD_%EC%9C%A0%EC%A0%81",
+        "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1333102990000",
+        "https://encykorea.aks.ac.kr/Article/E0051323",
+        "https://www.hwaseong.go.kr"
+      ]
     },
     {
       "id": "CL-065",
@@ -3677,7 +3906,13 @@
         ]
       },
       "map_card_intro": "정조가 아버지 위해 만든 전국 최대 행궁 576칸 — 유네스코 세계유산",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://ko.wikipedia.org/wiki/%EC%88%98%EC%9B%90_%ED%99%94%EC%84%B1%ED%96%89%EA%B6%81",
+        "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1333104780000",
+        "https://encykorea.aks.ac.kr/Article/E0064690",
+        "https://www.suwon.go.kr/hwaseong"
+      ]
     },
     {
       "id": "CL-066",
@@ -3732,7 +3967,10 @@
         ]
       },
       "map_card_intro": "조선의 서궐 — 일제강점기에 헐렸지만 숭정전이 남은 서울의 숨겨진 궁궐",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/"
+      ]
     },
     {
       "id": "CL-067",
@@ -3787,7 +4025,10 @@
         ]
       },
       "map_card_intro": "왕이 해마다 풍년을 빌던 500년 국가 제례 터",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1111100800000"
+      ]
     },
     {
       "id": "CL-068",
@@ -3842,7 +4083,10 @@
         ]
       },
       "map_card_intro": "공자에게 제사 지내며 조선 인재를 키운 최고 국립교육기관",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://encykorea.aks.ac.kr/Article/E0027994"
+      ]
     },
     {
       "id": "CL-069",
@@ -3898,7 +4142,10 @@
         ]
       },
       "map_card_intro": "고종이 황제로 즉위하며 대한제국을 선포한 제천단",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1111100980000"
+      ]
     },
     {
       "id": "CL-070",
@@ -3953,7 +4200,10 @@
         ]
       },
       "map_card_intro": "조선 최강 여성 권력자 문정왕후가 잠든 유네스코 세계유산 왕릉",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://royaltombs.cha.go.kr/"
+      ]
     },
     {
       "id": "CL-071",
@@ -4008,7 +4258,10 @@
         ]
       },
       "map_card_intro": "왕자의 난 태종 이방원이 잠든 유네스코 세계유산 조선왕릉",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://royaltombs.cha.go.kr/"
+      ]
     },
     {
       "id": "CL-072",
@@ -4063,7 +4316,10 @@
         ]
       },
       "map_card_intro": "1883년 개항 당시 일본·청·미국 조계지의 건물들이 지금도 남은 현장",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://www.icha.go.kr"
+      ]
     },
     {
       "id": "CL-073",
@@ -4118,7 +4374,10 @@
         ]
       },
       "map_card_intro": "맥아더 동상과 인천상륙작전 — 개항기부터 한국전쟁까지 역사가 겹친 공원",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://www.icha.go.kr"
+      ]
     },
     {
       "id": "CL-074",
@@ -4173,7 +4432,10 @@
         ]
       },
       "map_card_intro": "도굴 없이 발견된 백제 왕릉 — 4,600점 유물, 국보 19점, 유네스코 세계유산",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1333400130000"
+      ]
     },
     {
       "id": "CL-075",
@@ -4228,7 +4490,10 @@
         ]
       },
       "map_card_intro": "고구려에 밀려 내려온 백제가 64년간 부흥을 꾀한 왕성 — 유네스코 세계유산",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Gongsanseong"
+      ]
     },
     {
       "id": "CL-076",
@@ -4284,7 +4549,10 @@
         ]
       },
       "map_card_intro": "3,000 궁녀의 전설 낙화암이 있는 백제 마지막 왕성 — 유네스코 세계유산",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Busosanseong"
+      ]
     },
     {
       "id": "CL-077",
@@ -4339,7 +4607,10 @@
         ]
       },
       "map_card_intro": "백제 멸망의 치욕이 새겨진 1400년 된 국보 석탑 — 유네스코 세계유산",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1113400090000"
+      ]
     },
     {
       "id": "CL-078",
@@ -4394,7 +4665,10 @@
         ]
       },
       "map_card_intro": "국보 백제금동대향로가 발견된 백제 왕릉군 — 유네스코 세계유산",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1333400140000"
+      ]
     },
     {
       "id": "CL-079",
@@ -4449,7 +4723,10 @@
         ]
       },
       "map_card_intro": "서동요의 무왕이 만든 한국 최고(最古) 인공 연못 — 여름 연꽃 명소",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/"
+      ]
     },
     {
       "id": "CL-080",
@@ -4504,7 +4781,10 @@
         ]
       },
       "map_card_intro": "빛에 따라 표정이 달라지는 백제의 미소 — 서산 국보 마애여래삼존상",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Rock-carved_triad_buddha_in_Seosan"
+      ]
     },
     {
       "id": "CL-081",
@@ -4560,7 +4840,10 @@
         ]
       },
       "map_card_intro": "천주교 순교자 1,000명이 처형된 조선 최대 읍성 — 완전한 형태로 남은 역사 현장",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Haemieupseong"
+      ]
     },
     {
       "id": "CL-082",
@@ -4615,7 +4898,10 @@
         ]
       },
       "map_card_intro": "이순신 장군이 어린 시절 보낸 생가 터 — 일제 철거 위기를 전국 성금으로 막은 사당",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=111771"
+      ]
     },
     {
       "id": "CL-083",
@@ -4670,7 +4956,10 @@
         ]
       },
       "map_card_intro": "일본 교과서 왜곡에 분노한 2,500만 명의 성금으로 세워진 독립운동 기념관",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Independence_Hall_of_Korea"
+      ]
     },
     {
       "id": "CL-084",
@@ -4726,7 +5015,10 @@
         ]
       },
       "map_card_intro": "16세에 아우내 장터 봉기를 이끌고 18세에 옥중 순국한 유관순 열사의 고향",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1333402300000"
+      ]
     },
     {
       "id": "CL-085",
@@ -4782,7 +5074,10 @@
         ]
       },
       "map_card_intro": "설계도 없이 수학적 계산으로만 완성한 신라의 인공 석굴 — 유네스코 세계유산",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://encykorea.aks.ac.kr/Article/E0001528"
+      ]
     },
     {
       "id": "CL-086",
@@ -4837,7 +5132,10 @@
         ]
       },
       "map_card_intro": "달빛이 물에 잠기는 신라 별궁의 인공 연못 — 경주 최고의 야경",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Donggung_Palace_and_Wolji_Pond"
+      ]
     },
     {
       "id": "CL-087",
@@ -4892,7 +5190,10 @@
         ]
       },
       "map_card_intro": "80m 9층 목탑이 몽골의 침략으로 소실된 신라 최대 사찰 터",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Hwangryongsa"
+      ]
     },
     {
       "id": "CL-088",
@@ -4947,7 +5248,10 @@
         ]
       },
       "map_card_intro": "원효대사가 화엄경을 저술한 634년 창건 사찰 — 신라 현존 최고(最古) 석탑",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Bunhwangsa"
+      ]
     },
     {
       "id": "CL-089",
@@ -5002,7 +5306,10 @@
         ]
       },
       "map_card_intro": "알에서 태어난 신라 시조 박혁거세의 무덤 — 유네스코 경주역사유적지구",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Oreung"
+      ]
     },
     {
       "id": "CL-090",
@@ -5057,7 +5364,10 @@
         ]
       },
       "map_card_intro": "왕이 연회 중에 후백제에 잡혀 죽은 신라 멸망의 현장",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/"
+      ]
     },
     {
       "id": "CL-091",
@@ -5112,7 +5422,10 @@
         ]
       },
       "map_card_intro": "삼국통일을 이룬 김유신 장군의 무덤 — 12지신상 호석이 둘러진 왕급 예우",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/"
+      ]
     },
     {
       "id": "CL-092",
@@ -5167,7 +5480,10 @@
         ]
       },
       "map_card_intro": "삼국통일의 기반을 닦은 태종 무열왕 김춘추의 왕릉 — 국보 귀부가 있는 현장",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Tomb_of_King_Muyeol"
+      ]
     },
     {
       "id": "CL-093",
@@ -5222,7 +5538,10 @@
         ]
       },
       "map_card_intro": "500년 역사를 이어온 살아있는 조선 양반 마을 — 유네스코 세계유산",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Yangdong_Folk_Village"
+      ]
     },
     {
       "id": "CL-094",
@@ -5277,7 +5596,10 @@
         ]
       },
       "map_card_intro": "이황에게 영향을 준 성리학자 이언적을 배향한 계곡 속 서원 — 유네스코 세계유산",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Oksan_Seowon,_Gyeongju"
+      ]
     },
     {
       "id": "CL-095",
@@ -5332,7 +5654,13 @@
         ]
       },
       "map_card_intro": "태조 이성계의 어진이 모셔진 조선왕조 발상지의 상징 — 임진왜란에도 지킨 어진",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://ko.wikipedia.org/wiki/%EC%A0%84%EC%A3%BC_%EA%B2%BD%EA%B8%B0%EC%A0%84",
+        "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1333503390000",
+        "https://encykorea.aks.ac.kr/Article/E0069100",
+        "https://www.jeonju.go.kr/"
+      ]
     },
     {
       "id": "CL-096",
@@ -5387,7 +5715,10 @@
         ]
       },
       "map_card_intro": "보수 중 사리장엄이 발견된 백제 최대 사찰 터 — 유네스코 세계유산",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1213600500000"
+      ]
     },
     {
       "id": "CL-097",
@@ -5442,7 +5773,10 @@
         ]
       },
       "map_card_intro": "백제 무왕의 새 수도 건설 흔적 — 왕궁 터 위에 세운 고려 국보 탑",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/"
+      ]
     },
     {
       "id": "CL-098",
@@ -5498,7 +5832,13 @@
         ]
       },
       "map_card_intro": "춘향전에서 이몽룡과 성춘향이 처음 만난 1434년 조성 조선의 정원",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://ko.wikipedia.org/wiki/%EA%B4%91%ED%95%9C%EB%A3%A8%EC%9B%90",
+        "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1333500330000",
+        "https://encykorea.aks.ac.kr/Article/E0005333",
+        "https://www.namwon.go.kr/"
+      ]
     },
     {
       "id": "CL-099",
@@ -5554,7 +5894,13 @@
         ]
       },
       "map_card_intro": "동학농민군이 관군을 격파한 1894년 첫 승전 현장 — 조선 최대 민중 혁명의 불꽃",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://ko.wikipedia.org/wiki/%EC%A0%95%EC%9D%8D_%ED%99%A9%ED%86%A0%ED%98%84_%EC%A0%84%EC%A0%81",
+        "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1333502950000",
+        "https://encykorea.aks.ac.kr/Article/E0065370",
+        "https://www.jeongup.go.kr/"
+      ]
     },
     {
       "id": "CL-100",
@@ -5609,7 +5955,13 @@
         ]
       },
       "map_card_intro": "조선왕조실록을 보관하던 덕유산 안 1,034m 산성 — 단풍 명소",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://ko.wikipedia.org/wiki/%EB%AC%B4%EC%A3%BC_%EC%A0%81%EC%83%81%EC%82%B0%EC%84%B1",
+        "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1333501460000",
+        "https://encykorea.aks.ac.kr/Article/E0049159",
+        "https://www.muju.go.kr/"
+      ]
     },
     {
       "id": "CL-101",
@@ -5664,7 +6016,10 @@
         ]
       },
       "map_card_intro": "이순신이 23전 23승을 지휘한 전라 좌수영 본부 — 국내 최대 단층 목조 건물",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1123403040000"
+      ]
     },
     {
       "id": "CL-102",
@@ -5719,7 +6074,12 @@
         ]
       },
       "map_card_intro": "여수 밤바다를 배경으로 이순신 동상과 거북선이 있는 역사·낭만의 광장",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://ko.wikipedia.org/wiki/%EC%97%AC%EC%88%98%EC%8B%9C",
+        "https://ko.wikipedia.org/wiki/%EC%97%AC%EC%88%98_%EC%A7%84%EB%82%A8%EA%B4%80",
+        "https://www.yeosu.go.kr/"
+      ]
     },
     {
       "id": "CL-103",
@@ -5774,7 +6134,10 @@
         ]
       },
       "map_card_intro": "임진왜란 의승군을 이끈 서산대사의 의발이 봉안된 두륜산 천년 고찰 — 유네스코 세계유산",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/"
+      ]
     },
     {
       "id": "CL-104",
@@ -5829,7 +6192,10 @@
         ]
       },
       "map_card_intro": "고려청자 90%가 생산된 비색청자의 탄생지 — 200여 기 가마 터가 남은 도자기 성지",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/"
+      ]
     },
     {
       "id": "CL-105",
@@ -5884,7 +6250,13 @@
         ]
       },
       "map_card_intro": "김인후·정철이 찾아와 시를 지은 조선 최고의 민간 정원 — 자연 지형을 살린 선비의 이상향",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://ko.wikipedia.org/wiki/%EC%86%8C%EC%87%84%EC%9B%90",
+        "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1353600400000",
+        "https://encykorea.aks.ac.kr/Article/E0013811",
+        "https://www.damyang.go.kr/"
+      ]
     },
     {
       "id": "CL-106",
@@ -5940,7 +6312,12 @@
         ]
       },
       "map_card_intro": "1980년 5월 계엄군에 맞서 민주주의를 외친 광주 시민들의 항쟁 현장",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://ko.wikipedia.org/wiki/5%C2%B718_%EA%B4%91%EC%A3%BC_%EB%AF%BC%EC%A3%BC%ED%99%94_%EC%9A%B4%EB%8F%99",
+        "https://encykorea.aks.ac.kr/Article/E0038496",
+        "https://www.518.go.kr/"
+      ]
     },
     {
       "id": "CL-107",
@@ -5995,7 +6372,13 @@
         ]
       },
       "map_card_intro": "한산대첩 승리 후 이순신이 난중일기를 쓴 삼도수군통제영 — 배 타고 가는 역사 섬",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://ko.wikipedia.org/wiki/%ED%86%B5%EC%98%81_%ED%95%9C%EC%82%B0%EB%8F%84_%EC%9D%B4%EC%B6%A9%EB%AC%B4%EA%B3%B5_%EC%9C%A0%EC%A0%81",
+        "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1333801130000",
+        "https://encykorea.aks.ac.kr/Article/E0051314",
+        "https://www.tongyeong.go.kr/"
+      ]
     },
     {
       "id": "CL-108",
@@ -6050,7 +6433,13 @@
         ]
       },
       "map_card_intro": "1억 년 전 백악기 공룡의 발자국이 새겨진 세계 3대 공룡 발자국 화석지",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://ko.wikipedia.org/wiki/%EA%B3%A0%EC%84%B1_%EB%8D%95%EB%AA%85%EB%A6%AC_%EA%B3%B5%EB%A3%A1%EA%B3%BC_%EC%83%88%EB%B0%9C%EC%9E%90%EA%B5%AD_%ED%99%94%EC%84%9D%EC%82%B0%EC%A7%80",
+        "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1363804110000",
+        "https://encykorea.aks.ac.kr/Article/E0003709",
+        "https://www.goseong.go.kr/"
+      ]
     },
     {
       "id": "CL-109",
@@ -6106,7 +6495,12 @@
         ]
       },
       "map_card_intro": "노량해전에서 전사한 이순신 장군이 처음 안치된 사당 — 이순신의 마지막 성지",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1333802330000",
+        "https://encykorea.aks.ac.kr/Article/E0012300",
+        "https://www.namhae.go.kr/"
+      ]
     },
     {
       "id": "CL-110",
@@ -6161,7 +6555,10 @@
         ]
       },
       "map_card_intro": "5만원권 신사임당과 5000원권 율곡 이이가 태어난 조선의 집 — 국보",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://encykorea.aks.ac.kr/Article/E0001111"
+      ]
     },
     {
       "id": "CL-111",
@@ -6216,7 +6613,10 @@
         ]
       },
       "map_card_intro": "전주 이씨 10대가 300년에 걸쳐 지은 조선 99칸 상류 가옥 — 활래정이 있는 강릉의 보물",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1483200050000"
+      ]
     },
     {
       "id": "CL-112",
@@ -6271,7 +6671,10 @@
         ]
       },
       "map_card_intro": "달이 다섯 곳에 뜬다는 경포호 위 조선 누각 — 율곡이 10세에 글을 쓴 관동팔경",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1113200570000"
+      ]
     },
     {
       "id": "CL-113",
@@ -6326,7 +6729,10 @@
         ]
       },
       "map_card_intro": "652년 자장율사가 창건한 설악산 천년 고찰 — 국내 최대 청동 좌불 통일대불",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Sinheungsa"
+      ]
     },
     {
       "id": "CL-114",
@@ -6381,7 +6787,10 @@
         ]
       },
       "map_card_intro": "520년 창건 — 석가모니 치아 사리가 봉안된 한국 4대 적멸보궁",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Geonbongsa"
+      ]
     },
     {
       "id": "CL-115",
@@ -6437,7 +6846,10 @@
         ]
       },
       "map_card_intro": "전나무숲 1km를 걸으면 만나는 643년 창건 천년 고찰 — 팔각구층석탑 국보",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Woljeongsa"
+      ]
     },
     {
       "id": "CL-116",
@@ -6492,7 +6904,10 @@
         ]
       },
       "map_card_intro": "동양 최대 사력댐이 만든 소양호 — 배 타고 청평사로 가는 춘천의 명소",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Soyang_Dam"
+      ]
     },
     {
       "id": "CL-117",
@@ -6547,7 +6962,10 @@
         ]
       },
       "map_card_intro": "1946년 북한이 지은 건물에 총탄 자국이 그대로 남은 분단의 현장",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Korean_Workers%27_Party_Headquarters,_Cheorwon"
+      ]
     },
     {
       "id": "CL-118",
@@ -6602,7 +7020,10 @@
         ]
       },
       "map_card_intro": "관동팔경 제1경 — 자연 암반 위에 기둥 높이가 모두 다른 고려 시대 절벽 누각",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1115103430000"
+      ]
     },
     {
       "id": "CL-119",
@@ -6657,7 +7078,10 @@
         ]
       },
       "map_card_intro": "한국 현존 최고(最古) 목조 건물 12세기 극락전이 있는 절 — 유네스코 세계유산",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Bongjeongsa"
+      ]
     },
     {
       "id": "CL-120",
@@ -6712,7 +7136,10 @@
         ]
       },
       "map_card_intro": "소백산맥 전망과 고려 목조 무량수전이 공존하는 676년 창건 화엄종 사찰 — 유네스코 세계유산",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Buseoksa"
+      ]
     },
     {
       "id": "CL-121",
@@ -6767,7 +7194,10 @@
         ]
       },
       "map_card_intro": "이순신을 천거하고 징비록을 쓴 류성룡의 고향 — 유네스코 세계유산 역사마을",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Hahoe_Village"
+      ]
     },
     {
       "id": "CL-122",
@@ -6822,7 +7252,10 @@
         ]
       },
       "map_card_intro": "소원을 한 가지 꼭 들어준다는 전설의 통일신라 석불 — 수능 성지 팔공산 갓바위",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://encykorea.aks.ac.kr/Article/E0004853"
+      ]
     },
     {
       "id": "CL-123",
@@ -6877,7 +7310,10 @@
         ]
       },
       "map_card_intro": "신라의 노천 박물관 — 계곡마다 석불·마애불·석탑이 숨어 있는 유네스코 세계유산",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Namsan_(Gyeongju)"
+      ]
     },
     {
       "id": "CL-124",
@@ -6932,7 +7368,13 @@
         ]
       },
       "map_card_intro": "내연산 12폭포 트레킹의 시작점 — 602년 창건 보물 두 개가 있는 포항 천년 고찰",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://ko.wikipedia.org/wiki/%EB%B3%B4%EA%B2%BD%EC%82%AC",
+        "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1123718680000",
+        "https://encykorea.aks.ac.kr/Article/E0023204",
+        "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=94537"
+      ]
     },
     {
       "id": "CL-125",
@@ -6987,7 +7429,10 @@
         ]
       },
       "map_card_intro": "1448년 세종이 지은 제주 최고 건물 — 제주 4·3의 도화선이 된 그 광장",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1123501410000"
+      ]
     },
     {
       "id": "CL-126",
@@ -7042,7 +7487,10 @@
         ]
       },
       "map_card_intro": "5,000년 전 바다 아래 화산 폭발로 탄생한 99개 봉우리의 분화구 — 유네스코 세계자연유산",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Seongsan_Ilchulbong"
+      ]
     },
     {
       "id": "CL-127",
@@ -7097,7 +7545,10 @@
         ]
       },
       "map_card_intro": "탐라국을 세운 세 신인 고·양·부씨가 땅에서 솟아난 제주 건국 신화의 원점",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Samseonghyeol"
+      ]
     },
     {
       "id": "CL-128",
@@ -7152,7 +7603,10 @@
         ]
       },
       "map_card_intro": "1억 4천만 년 전부터 형성된 국내 최대 자연 내륙 습지 — 황새의 람사르 등록 생태 보고",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Upo_Wetland"
+      ]
     },
     {
       "id": "CL-129",
@@ -7207,7 +7661,10 @@
         ]
       },
       "map_card_intro": "임금이 최초로 이름을 내린 한국 최초 사액서원 — 유네스코 세계유산",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Namgye_Seowon"
+      ]
     },
     {
       "id": "CL-130",
@@ -7262,7 +7719,10 @@
         ]
       },
       "map_card_intro": "퇴계 이황이 이름을 지어준 거북 바위 위 정자 — 신라부터 알려진 계곡 명승",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1353800530000"
+      ]
     },
     {
       "id": "CL-131",
@@ -7317,7 +7777,10 @@
         ]
       },
       "map_card_intro": "한국 유일의 현존 5층 목탑 팔상전 — 국보 4개, 33m 미륵대불이 있는 유네스코 세계유산",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr"
+      ]
     },
     {
       "id": "CL-132",
@@ -7372,7 +7835,10 @@
         ]
       },
       "map_card_intro": "가야금의 우륵과 임진왜란 신립 장군의 역사가 겹친 남한강 절벽 — 명승 제42호",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr"
+      ]
     },
     {
       "id": "CL-133",
@@ -7427,7 +7893,10 @@
         ]
       },
       "map_card_intro": "구텐베르크보다 78년 앞선 세계 최초 금속활자 인쇄본 직지가 만들어진 곳 — 유네스코 세계기록유산",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr"
+      ]
     },
     {
       "id": "CL-134",
@@ -7482,7 +7951,10 @@
         ]
       },
       "map_card_intro": "고구려가 한강 중부까지 진출했음을 증명하는 5세기 석비 — 국보 제205호",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr"
+      ]
     },
     {
       "id": "CL-135",
@@ -7537,7 +8009,10 @@
         ]
       },
       "map_card_intro": "성 안에 마을이 있는 삼국 시대 요새 — 조선 숙종이 정비한 4.4km 성벽 산성",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr"
+      ]
     },
     {
       "id": "CL-136",
@@ -7592,7 +8067,10 @@
         ]
       },
       "map_card_intro": "바보 온달 장군의 전설이 서린 남한강 절벽 위 고구려 산성",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr"
+      ]
     },
     {
       "id": "CL-137",
@@ -7647,7 +8125,10 @@
         ]
       },
       "map_card_intro": "40명 이상이 순장된 대가야 왕릉 200기 — 유네스코 세계문화유산 가야고분군",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr"
+      ]
     },
     {
       "id": "CL-138",
@@ -7702,7 +8183,10 @@
         ]
       },
       "map_card_intro": "과거 보러 가던 선비들이 걷던 조선 영남대로의 핵심 고갯길 — 3관문이 남은 국가명승",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr"
+      ]
     },
     {
       "id": "CL-139",
@@ -7757,7 +8241,10 @@
         ]
       },
       "map_card_intro": "벽돌처럼 다듬은 돌로 쌓은 통일신라 모전석탑 — 의성의 숨겨진 국보 제77호",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr"
+      ]
     },
     {
       "id": "CL-140",
@@ -7812,7 +8299,10 @@
         ]
       },
       "map_card_intro": "신라 천년 왕들이 다스리던 월성 — 성벽 아래 인신공희 흔적이 발견된 왕성 터",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr"
+      ]
     },
     {
       "id": "CL-141",
@@ -7867,7 +8357,10 @@
         ]
       },
       "map_card_intro": "임진왜란 이후 조선이 쌓은 영남 최대 3중 구조 산성 — 7.6km 성벽 트레킹",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr"
+      ]
     },
     {
       "id": "CL-142",
@@ -7922,7 +8415,10 @@
         ]
       },
       "map_card_intro": "연못에 부처 그림자가 비친다는 651년 창건 고찰 — 30km 불영계곡 트레킹의 중심",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr"
+      ]
     },
     {
       "id": "CL-143",
@@ -7977,7 +8473,10 @@
         ]
       },
       "map_card_intro": "고려가 몽골에 굴복하자 삼별초가 임시 정부를 세우고 저항한 마지막 거점",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr"
+      ]
     },
     {
       "id": "CL-144",
@@ -8032,7 +8531,10 @@
         ]
       },
       "map_card_intro": "해상왕 장보고가 동아시아 무역을 장악한 9세기 해상 거점 — 장도 청해진",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr"
+      ]
     },
     {
       "id": "CL-145",
@@ -8087,7 +8589,10 @@
         ]
       },
       "map_card_intro": "후백제 견훤이 아들에게 유폐된 역사의 절 — 국내 유일 3층 법당 미륵전",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://encykorea.aks.ac.kr/Article/E0026617"
+      ]
     },
     {
       "id": "CL-146",
@@ -8142,7 +8647,10 @@
         ]
       },
       "map_card_intro": "임진왜란 의승군이 출전한 절 — 나라를 일으킨다는 이름의 국보 대웅전 사찰",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr"
+      ]
     },
     {
       "id": "CL-147",
@@ -8197,7 +8705,10 @@
         ]
       },
       "map_card_intro": "삼별초가 몽골 저항 시 기도 도량으로 사용한 634년 창건 변산 고찰",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr"
+      ]
     },
     {
       "id": "CL-148",
@@ -8252,7 +8763,10 @@
         ]
       },
       "map_card_intro": "임진왜란 의승군을 이끌고 포로 3,000명을 귀환시킨 사명대사의 사찰",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr"
+      ]
     },
     {
       "id": "CL-149",
@@ -8307,7 +8821,10 @@
         ]
       },
       "map_card_intro": "한국전쟁 당시 북한·중국 포로 17만 명을 수용한 현장 — 수용소장 납치 폭동이 일어난 섬",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr"
+      ]
     },
     {
       "id": "CL-150",
@@ -8362,7 +8879,10 @@
         ]
       },
       "map_card_intro": "정유재란 왜군이 쌓은 성에 봄마다 벚꽃이 피는 역사의 아이러니 — 이순신 사천해전 앞바다",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr"
+      ]
     },
     {
       "id": "CL-151",
@@ -8417,7 +8937,10 @@
         ]
       },
       "map_card_intro": "논개가 왜장을 껴안고 뛰어내린 의암 위 조선 누각 — 임진왜란 진주대첩의 상징",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr"
+      ]
     },
     {
       "id": "CL-152",
@@ -8472,7 +8995,10 @@
         ]
       },
       "map_card_intro": "뒤주에 갇혀 죽은 사도세자의 명복을 빌기 위해 정조가 창건한 효심의 절",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1213700010000"
+      ]
     },
     {
       "id": "CL-153",
@@ -8527,7 +9053,10 @@
         ]
       },
       "map_card_intro": "한강과 임진강이 만나는 곳 — 2km 거리 북한 땅이 육안으로 보이는 통일전망대",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://www.jmd.co.kr/unity/odooSan"
+      ]
     },
     {
       "id": "CL-154",
@@ -8582,7 +9111,10 @@
         ]
       },
       "map_card_intro": "50만 년 전 화산 용암이 임진강을 따라 식어 만들어진 수직 현무암 주상절리",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://www.hantangeopark.kr"
+      ]
     },
     {
       "id": "CL-155",
@@ -8637,7 +9169,10 @@
         ]
       },
       "map_card_intro": "경복궁 규모의 고려 최대 사찰 — 이성계가 왕위 버리고 은거한 절터",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1116100940000"
+      ]
     },
     {
       "id": "CL-156",
@@ -8692,7 +9227,10 @@
         ]
       },
       "map_card_intro": "독립운동의 거인 김구 선생이 1949년 암살된 임시정부 마지막 청사",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1111100570000"
+      ]
     },
     {
       "id": "CL-157",
@@ -8747,7 +9285,10 @@
         ]
       },
       "map_card_intro": "이봉창·윤봉길·김구가 잠든 독립운동가들의 성지 — 서울 도심 효창공원",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1111100580000"
+      ]
     },
     {
       "id": "CL-158",
@@ -8802,7 +9343,10 @@
         ]
       },
       "map_card_intro": "37년에 걸쳐 완성한 한국 최대 18m 석조 미륵불 — 논산의 상징 국보",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1333600210000"
+      ]
     },
     {
       "id": "CL-159",
@@ -8857,7 +9401,10 @@
         ]
       },
       "map_card_intro": "3,000 궁녀 전설이 깃든 백마강 절벽 — 백제 멸망의 비극이 서린 낙화암",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1333100040000"
+      ]
     },
     {
       "id": "CL-160",
@@ -8912,7 +9459,10 @@
         ]
       },
       "map_card_intro": "어부사시사를 지은 조선 최고 시인 윤선도의 고택 — 500년 은행나무가 있는 녹우당",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=3413700080000"
+      ]
     },
     {
       "id": "CL-161",
@@ -8967,7 +9517,10 @@
         ]
       },
       "map_card_intro": "유네스코 무형유산 영산재를 이어가는 이성계 원당 — 서울 도심 속 천년 고찰",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr"
+      ]
     },
     {
       "id": "CL-162",
@@ -9022,7 +9575,10 @@
         ]
       },
       "map_card_intro": "일제강점기에도 살아남은 유일한 조선 소문 — 인조반정군이 통과한 역사의 성문",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1111100030000"
+      ]
     },
     {
       "id": "CL-163",
@@ -9077,7 +9633,10 @@
         ]
       },
       "map_card_intro": "사람을 항아리에 넣어 묻는 독자적 마한 문화 — 영산강 유역의 숨겨진 역사",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1343400220000"
+      ]
     },
     {
       "id": "CL-164",
@@ -9132,7 +9691,10 @@
         ]
       },
       "map_card_intro": "300년 만석꾼을 지키며 100리 안 굶는 이 없게 한 조선 노블레스 오블리주의 집",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1543600370000"
+      ]
     },
     {
       "id": "CL-165",
@@ -9187,7 +9749,10 @@
         ]
       },
       "map_card_intro": "집을 팔아 독립운동 자금으로 쓰고 만주로 망명한 이상룡의 고택 — 임시정부 초대 국무령",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1543600010000"
+      ]
     },
     {
       "id": "CL-166",
@@ -9242,7 +9807,10 @@
         ]
       },
       "map_card_intro": "한국 풍수지리를 집대성한 도선국사가 입적한 절터 — 봄이면 동백꽃이 가득",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1363700280000"
+      ]
     },
     {
       "id": "CL-167",
@@ -9297,7 +9865,10 @@
         ]
       },
       "map_card_intro": "퇴계 이황이 청량산가를 지을 만큼 사랑한 산의 원효대사 창건 고찰",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1543700040000"
+      ]
     },
     {
       "id": "CL-168",
@@ -9352,7 +9923,10 @@
         ]
       },
       "map_card_intro": "18년 유배에서 500권을 저술한 조선 최고 실학자 정약용의 생가와 묘소",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/"
+      ]
     },
     {
       "id": "CL-169",
@@ -9407,7 +9981,10 @@
         ]
       },
       "map_card_intro": "고려 왕실 국찰 터 — 국보 원종대사탑비·승탑이 있는 숨겨진 석조 예술 보고",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1113100040000"
+      ]
     },
     {
       "id": "CL-170",
@@ -9462,7 +10039,12 @@
         ]
       },
       "map_card_intro": "240여 채 전통 가옥에 마상무예·줄타기 공연이 매일 열리는 조선 일상 야외 박물관",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://ko.wikipedia.org/wiki/%ED%95%9C%EA%B5%AD%EB%AF%BC%EC%86%8D%EC%B4%8C",
+        "https://encykorea.aks.ac.kr/Article/E0061180",
+        "https://www.koreanfolk.co.kr"
+      ]
     },
     {
       "id": "CL-171",
@@ -9517,7 +10099,10 @@
         ]
       },
       "map_card_intro": "주자를 그리워해 이름 붙인 계곡에 세운 노론 수장 송시열의 서원",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1333100740000"
+      ]
     },
     {
       "id": "CL-172",
@@ -9572,7 +10157,10 @@
         ]
       },
       "map_card_intro": "최치원이 비문을 쓴 국보 탑비와 5개의 탑이 있는 신라 말 대사찰 터",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/"
+      ]
     },
     {
       "id": "CL-173",
@@ -9627,7 +10215,10 @@
         ]
       },
       "map_card_intro": "명성황후 복수 후 도피한 김구가 머리 깎고 숨은 절 — 유네스코 세계유산",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://www.magoksa.or.kr"
+      ]
     },
     {
       "id": "CL-174",
@@ -9682,7 +10273,10 @@
         ]
       },
       "map_card_intro": "9년 제주 유배로 추사체를 완성한 조선 최고 서예가 김정희의 고택",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/"
+      ]
     },
     {
       "id": "CL-175",
@@ -9737,7 +10331,10 @@
         ]
       },
       "map_card_intro": "7,000년 전 세계에서 가장 오래된 고래 사냥 그림이 새겨진 바위 — 국보 제285호",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1112802850000"
+      ]
     },
     {
       "id": "CL-176",
@@ -9792,7 +10389,10 @@
         ]
       },
       "map_card_intro": "용이 된 문무왕이 출입하도록 금당 아래 바닷물이 드나드는 구조로 만든 사찰 터",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1113600990000"
+      ]
     },
     {
       "id": "CL-177",
@@ -9847,7 +10447,10 @@
         ]
       },
       "map_card_intro": "아도화상이 신라에 불교를 처음 전한 신라 최초의 사찰 — 불교 공인 150년 전에 세워진 원점",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/"
+      ]
     },
     {
       "id": "CL-178",
@@ -9902,7 +10505,10 @@
         ]
       },
       "map_card_intro": "삼한 시대부터 조선까지 1,500년 역사의 도심 토성 — 임진왜란 경상감영 자리",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1273400620000"
+      ]
     },
     {
       "id": "CL-179",
@@ -9957,7 +10563,10 @@
         ]
       },
       "map_card_intro": "400년 된 조선 최대 지방관 살림집 — 한옥스테이로 운영 중인 나주 목사내아",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/"
+      ]
     },
     {
       "id": "CL-180",
@@ -10012,7 +10621,10 @@
         ]
       },
       "map_card_intro": "한국 선종 불교의 첫 씨앗이 뿌려진 신라 가지산파 본사 — 국보 두 개가 있는 천년 고찰",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1243500550000"
+      ]
     },
     {
       "id": "CL-181",
@@ -10067,7 +10679,10 @@
         ]
       },
       "map_card_intro": "왕이 죽자 평생 상복을 입고 벼슬을 거부한 의리의 학자 김인후 배향 서원 — 유네스코",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/"
+      ]
     },
     {
       "id": "CL-182",
@@ -10122,7 +10737,10 @@
         ]
       },
       "map_card_intro": "한국 최고의 단풍 사찰 — 내장산 단풍터널의 중심 636년 창건 신라 고찰",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://www.naejangsa.org"
+      ]
     },
     {
       "id": "CL-183",
@@ -10177,7 +10795,10 @@
         ]
       },
       "map_card_intro": "두드리면 금속 소리가 나는 물고기 형상 돌 수천 개가 있는 가야 전설의 사찰",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/"
+      ]
     },
     {
       "id": "CL-184",
@@ -10232,7 +10853,10 @@
         ]
       },
       "map_card_intro": "2,000년이 넘은 한국 최고(最古) 저수지 — 삼한 시대 유산 제천 의림지",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://encykorea.aks.ac.kr/Article/E0043208"
+      ]
     },
     {
       "id": "CL-185",
@@ -10287,7 +10911,10 @@
         ]
       },
       "map_card_intro": "국내 최대 비구니 전문 강원 — 천연기념물 처진 소나무와 보물이 있는 운문산 고찰",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://encykorea.aks.ac.kr/Article/E0040278"
+      ]
     },
     {
       "id": "CL-186",
@@ -10342,7 +10969,11 @@
         ]
       },
       "map_card_intro": "낙동강 제1경 — 태조 왕건이 이름을 새겼다는 전설의 기암절벽 명승 제1호",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://ko.wikipedia.org/wiki/%EA%B2%BD%EC%B2%9C%EB%8C%80",
+        "https://www.sangju.go.kr/tour/"
+      ]
     },
     {
       "id": "CL-187",
@@ -10397,7 +11028,12 @@
         ]
       },
       "map_card_intro": "구름 안개 바다처럼 신비로운 이름의 조선 인조 원찰 — 국보 500나한상이 있는 팔공산 고찰",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://ko.wikipedia.org/wiki/%EC%9D%80%ED%95%B4%EC%82%AC",
+        "https://encykorea.aks.ac.kr/Article/E0042914",
+        "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=89729"
+      ]
     },
     {
       "id": "CL-188",
@@ -10452,7 +11088,10 @@
         ]
       },
       "map_card_intro": "418년 창건 — 임진왜란 사명대사 의승군 조직의 거점이자 보물 20여 개를 품은 고찰",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Jikjisa"
+      ]
     },
     {
       "id": "CL-189",
@@ -10507,7 +11146,10 @@
         ]
       },
       "map_card_intro": "548년 창건 지리산 깊은 계곡의 비구니 사찰 — 대원계곡 단풍 명소",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Daewonsa"
+      ]
     },
     {
       "id": "CL-190",
@@ -10562,7 +11204,10 @@
         ]
       },
       "map_card_intro": "화개장터에서 이어지는 6km 십리벚꽃길의 끝 — 유네스코 세계유산 한국의 산사",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Ssanggyesa"
+      ]
     },
     {
       "id": "CL-191",
@@ -10617,7 +11262,12 @@
         ]
       },
       "map_card_intro": "최치원이 사랑해 이름을 새긴 해인사 가는 길 — 가을 단풍이 물드는 홍류동계곡",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://ko.wikipedia.org/wiki/%ED%95%B4%EC%9D%B8%EC%82%AC",
+        "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1333805040000",
+        "https://www.hc.go.kr/"
+      ]
     },
     {
       "id": "CL-192",
@@ -10672,7 +11322,10 @@
         ]
       },
       "map_card_intro": "670년 의상대사 창건 — 임진왜란 구국 의승군의 거점이 된 연화산 고찰",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://encykorea.aks.ac.kr/Article/E0038783"
+      ]
     },
     {
       "id": "CL-193",
@@ -10727,7 +11380,10 @@
         ]
       },
       "map_card_intro": "국보 세 개가 있는 지리산 화엄종의 성지 — 유네스코 세계유산",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Hwaeomsa"
+      ]
     },
     {
       "id": "CL-194",
@@ -10782,7 +11438,10 @@
         ]
       },
       "map_card_intro": "16명의 국사를 배출한 삼보 사찰의 승보 사찰 — 유네스코 세계유산",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Songgwangsa"
+      ]
     },
     {
       "id": "CL-195",
@@ -10837,7 +11496,12 @@
         ]
       },
       "map_card_intro": "일제강점기 건물들이 고스란히 남은 쌀 수탈 항구 — 군산 근대역사거리",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://ko.wikipedia.org/wiki/%EA%B5%B0%EC%82%B0%EA%B7%BC%EB%8C%80%EC%97%AD%EC%82%AC%EB%B0%95%EB%AC%BC%EA%B4%80",
+        "https://ko.wikipedia.org/wiki/%EA%B5%B0%EC%82%B0_%EB%82%B4%ED%95%AD_%EC%97%AD%EC%82%AC%EB%AC%B8%ED%99%94%EA%B3%B5%EA%B0%84",
+        "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=174257"
+      ]
     },
     {
       "id": "CL-196",
@@ -10892,7 +11556,10 @@
         ]
       },
       "map_card_intro": "1925년 일제강점기에 지어진 르네상스 양식 역사 — 문화역서울284로 재탄생한 근대의 관문",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1331102840000"
+      ]
     },
     {
       "id": "CL-197",
@@ -10947,7 +11614,12 @@
         ]
       },
       "map_card_intro": "걸으면 헤어진다는 전설이 오히려 더 유명하게 만든 서울 도심 가을 산책길",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://ko.wikipedia.org/wiki/%EB%8D%95%EC%88%98%EA%B6%81",
+        "https://ko.wikipedia.org/wiki/%EC%A0%95%EB%8F%99%EA%B8%B8_(%EC%84%9C%EC%9A%B8)",
+        "https://english.visitkorea.or.kr/"
+      ]
     },
     {
       "id": "CL-198",
@@ -11002,7 +11674,10 @@
         ]
       },
       "map_card_intro": "수원 화성 4문 중 가장 크고 웅장한 북문 — 정조의 행차가 통과한 유네스코 세계유산",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Hwaseong_Fortress"
+      ]
     },
     {
       "id": "CL-199",
@@ -11057,7 +11732,10 @@
         ]
       },
       "map_card_intro": "황금 궤에서 아기가 나와 경주 김씨 시조가 됐다는 신라 신화의 숲",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://encykorea.aks.ac.kr/Article/E0002821"
+      ]
     },
     {
       "id": "CL-200",
@@ -11112,7 +11790,10 @@
         ]
       },
       "map_card_intro": "흰 말이 무릎 꿇은 자리의 알에서 신라 시조 박혁거세가 탄생한 신화의 우물 터",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://ko.wikipedia.org/wiki/%EA%B2%BD%EC%A3%BC_%EB%82%98%EC%A0%95"
+      ]
     },
     {
       "id": "CL-201",
@@ -11167,7 +11848,10 @@
         ]
       },
       "map_card_intro": "일제가 철거한 조선 서궁 경희궁 터 위에 세운 서울 600년 역사관 — 무료입장",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://ko.wikipedia.org/wiki/%EA%B2%BD%ED%9D%AC%EA%B6%81"
+      ]
     },
     {
       "id": "CL-202",
@@ -11222,7 +11906,10 @@
         ]
       },
       "map_card_intro": "이성계에게 왕이 될 것을 예언한 무학대사를 위해 창건한 절 — 수락산 단풍 명소",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://ko.wikipedia.org/wiki/%ED%9D%A5%EA%B5%AD%EC%82%AC_(%EB%82%A8%EC%96%91%EC%A3%BC%EC%8B%9C)"
+      ]
     },
     {
       "id": "CL-203",
@@ -11277,7 +11964,10 @@
         ]
       },
       "map_card_intro": "원효대사와 혜공대사가 물고기를 두고 다퉈 이름이 생긴 절 — 오어지 호수 절경",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://encykorea.aks.ac.kr/Article/E0038405"
+      ]
     },
     {
       "id": "CL-204",
@@ -11332,7 +12022,10 @@
         ]
       },
       "map_card_intro": "1900년 일본 영사관이 목포 수탈의 역사를 담은 박물관으로 — 근대역사문화공간의 핵심",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://ko.wikipedia.org/wiki/%EB%AA%A9%ED%8F%AC%EA%B7%BC%EB%8C%80%EC%97%AD%EC%82%AC%EA%B4%80"
+      ]
     },
     {
       "id": "CL-205",
@@ -11387,7 +12080,10 @@
         ]
       },
       "map_card_intro": "정약용이 10년 유배 생활 중 500여 권을 저술한 조선 실학의 정점 — 강진 다산초당",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://encykorea.aks.ac.kr/Article/E0013467"
+      ]
     },
     {
       "id": "CL-206",
@@ -11442,7 +12138,10 @@
         ]
       },
       "map_card_intro": "9세기 동아시아 해상 무역을 지배한 해상왕 장보고를 기리는 청해진 현장의 기념관",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://ko.wikipedia.org/wiki/%EC%9E%A5%EB%B3%B4%EA%B3%A0%EA%B8%B0%EB%85%90%EA%B4%80"
+      ]
     },
     {
       "id": "CL-207",
@@ -11497,7 +12196,12 @@
         ]
       },
       "map_card_intro": "조정래 대하소설 태백산맥의 무대 벌교 — 소설 속 장소를 직접 걸을 수 있는 문학 기행지",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://ko.wikipedia.org/wiki/%ED%83%9C%EB%B0%B1%EC%82%B0%EB%A7%A5%EB%AC%B8%ED%95%99%EA%B4%80",
+        "https://ko.wikipedia.org/wiki/%ED%83%9C%EB%B0%B1%EC%82%B0%EB%A7%A5_(%EC%86%8C%EC%84%A4)",
+        "https://www.boseong.go.kr/tbsm"
+      ]
     },
     {
       "id": "CL-208",
@@ -11552,7 +12256,10 @@
         ]
       },
       "map_card_intro": "삼별초의 마지막 거점 — 3년을 버티다 1273년 함락된 고려 반몽 저항의 끝",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://encykorea.aks.ac.kr/Article/E0051473"
+      ]
     },
     {
       "id": "CL-209",
@@ -11607,7 +12314,12 @@
         ]
       },
       "map_card_intro": "제주 유배 9년이 추사체와 국보 세한도를 탄생시킨 조선 최고 서예가의 유배지 박물관",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://ko.wikipedia.org/wiki/%EC%84%9C%EA%B7%80%ED%8F%AC_%EA%B9%80%EC%A0%95%ED%9D%AC_%EC%9C%A0%EB%B0%B0%EC%A7%80",
+        "https://encykorea.aks.ac.kr/Article/E0010433",
+        "https://www.visitjeju.net/kr/detail/view?contentsid=CNTS_000000000000970"
+      ]
     },
     {
       "id": "CL-210",
@@ -11662,7 +12374,10 @@
         ]
       },
       "map_card_intro": "임진왜란 후 조선을 예법으로 재건한 김장생의 서원 — 국보 응도당, 유네스코 세계유산",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://encykorea.aks.ac.kr/Article/E0013025"
+      ]
     },
     {
       "id": "CL-211",
@@ -11717,7 +12432,10 @@
         ]
       },
       "map_card_intro": "1,500년 역사 — 한 필에 두 달 걸리는 조선 왕실 진상품 한산모시의 유네스코 무형유산",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://encykorea.aks.ac.kr/Article/E0061679"
+      ]
     },
     {
       "id": "CL-212",
@@ -11772,7 +12490,10 @@
         ]
       },
       "map_card_intro": "순조가 아버지 정조를 기리기 위해 어진을 모신 수원 화성 안의 조선 왕실 전각",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/"
+      ]
     },
     {
       "id": "CL-213",
@@ -11827,7 +12548,10 @@
         ]
       },
       "map_card_intro": "17.4m 두 불상이 나란히 서 있는 고려 시대 바위 마애불 — 파주 보물 제93호",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://encykorea.aks.ac.kr/Article/E0059609"
+      ]
     },
     {
       "id": "CL-214",
@@ -11882,7 +12606,10 @@
         ]
       },
       "map_card_intro": "2,300명이 왜군 3만 명을 격퇴한 임진왜란 3대 대첩 현장 — 행주치마 전설이 깃든 고양 행주산성",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://gjicp.ggcf.kr/"
+      ]
     },
     {
       "id": "CL-215",
@@ -11937,7 +12664,10 @@
         ]
       },
       "map_card_intro": "예종이 아버지 세조의 명복을 빌기 위해 광릉 옆에 세운 조선 왕실 능침 사찰",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Bongseonsa"
+      ]
     },
     {
       "id": "CL-216",
@@ -11992,7 +12722,10 @@
         ]
       },
       "map_card_intro": "고구려 아도화상 창건 전설의 운악산 천년 고찰 — 가평 단풍 명소",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://ko.wikipedia.org/wiki/%ED%98%84%EB%93%B1%EC%82%AC"
+      ]
     },
     {
       "id": "CL-217",
@@ -12047,7 +12780,10 @@
         ]
       },
       "map_card_intro": "태조 이성계가 왕위 전 원찰로 삼은 고려 창건 사찰 — 보물 대웅전이 있는 안성 서운산",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://encykorea.aks.ac.kr/Article/E0056413"
+      ]
     },
     {
       "id": "CL-218",
@@ -12102,7 +12838,10 @@
         ]
       },
       "map_card_intro": "이 절에서만 자라는 고란초와 마시면 3년 젊어진다는 약수 — 낙화암 아래 백마강 절",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://encykorea.aks.ac.kr/Article/E0003413"
+      ]
     },
     {
       "id": "CL-219",
@@ -12157,7 +12896,10 @@
         ]
       },
       "map_card_intro": "고려 1308년 건립 국보 대웅전 — 만공 스님이 독립운동을 지원한 유네스코 세계유산",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Sudeoksa"
+      ]
     },
     {
       "id": "CL-220",
@@ -12212,7 +12954,10 @@
         ]
       },
       "map_card_intro": "천주교 순교와 홍주의병 항쟁, 두 역사적 비극이 깃든 충남 홍성 읍성",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://ko.wikipedia.org/wiki/%ED%99%8D%EC%84%B1_%ED%99%8D%EC%A3%BC%EC%9D%8D%EC%84%B1"
+      ]
     },
     {
       "id": "CL-221",
@@ -12267,7 +13012,10 @@
         ]
       },
       "map_card_intro": "7세기 신라 창건 — 설봉산 절벽 위에 아슬아슬하게 얹힌 이천의 숨겨진 암자",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://ko.wikipedia.org/wiki/%EC%9D%B4%EC%B2%9C_%EC%98%81%EC%9B%94%EC%95%94"
+      ]
     },
     {
       "id": "CL-222",
@@ -12322,7 +13070,10 @@
         ]
       },
       "map_card_intro": "한국 유일 — 국보 철불 두 개와 두 개의 대웅전이 있는 칠갑산 신라 고찰",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://encykorea.aks.ac.kr/Article/E0058844"
+      ]
     },
     {
       "id": "CL-223",
@@ -12377,7 +13128,10 @@
         ]
       },
       "map_card_intro": "관동별곡을 쓴 정철이 찾아와 배운 조선 가사 문학의 요람 — 1533년 담양 면앙정",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://ko.wikipedia.org/wiki/%EB%A9%B4%EC%95%99%EC%A0%95"
+      ]
     },
     {
       "id": "CL-224",
@@ -12432,7 +13186,10 @@
         ]
       },
       "map_card_intro": "한 사람이 혼자 30년에 걸쳐 쌓은 80여 개 돌탑 — 강풍에도 무너지지 않는 마이산 탑사",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Tapsa"
+      ]
     },
     {
       "id": "CL-225",
@@ -12487,7 +13244,10 @@
         ]
       },
       "map_card_intro": "진주 촉석루와 함께 꼽히는 조선 3대 누각 — 밀양강 절벽 위 영남대로의 관문",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Yeongnamnu_(Miryang)"
+      ]
     },
     {
       "id": "CL-226",
@@ -12542,7 +13302,10 @@
         ]
       },
       "map_card_intro": "670년 의상대사 창건 — 임진왜란 의승군 군영, 다도해가 내려다보이는 고흥 고찰",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://ko.wikipedia.org/wiki/%EB%8A%A5%EA%B0%80%EC%82%AC"
+      ]
     },
     {
       "id": "CL-227",
@@ -12597,7 +13360,10 @@
         ]
       },
       "map_card_intro": "신라 진흥왕 창건 — 경북 전탑 문화를 보여주는 보물 오층전탑이 있는 소나무숲 고찰",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://ko.wikipedia.org/wiki/%EC%86%A1%EB%A6%BC%EC%82%AC_(%EC%B9%A0%EA%B3%A1%EA%B5%B0)"
+      ]
     },
     {
       "id": "CL-228",
@@ -12652,7 +13418,10 @@
         ]
       },
       "map_card_intro": "835년 신라 창건 — 보물 대웅전과 수령 600년 은행나무가 있는 팔공산 자락 고찰",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Hwanseongsa"
+      ]
     },
     {
       "id": "CL-229",
@@ -12707,7 +13476,10 @@
         ]
       },
       "map_card_intro": "일제가 빼앗아 간 국보 지광국사현묘탑이 있던 절터 — 70년 만에 귀환한 고려의 보물",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://ko.wikipedia.org/wiki/%EC%9B%90%EC%A3%BC_%EB%B2%95%EC%B2%9C%EC%82%AC%EC%A7%80"
+      ]
     },
     {
       "id": "CL-230",
@@ -12762,7 +13534,10 @@
         ]
       },
       "map_card_intro": "708년 원효대사가 창건한 공작산 고찰 — 12km 계곡이 흐르는 홍천 최고의 피서지",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://ko.wikipedia.org/wiki/%ED%99%8D%EC%B2%9C_%EC%88%98%ED%83%80%EC%82%AC"
+      ]
     },
     {
       "id": "CL-231",
@@ -12817,7 +13592,10 @@
         ]
       },
       "map_card_intro": "만해 한용운이 독립선언서 공약 3장을 초안한 설악산 깊은 곳 — 백담사",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Baekdamsa"
+      ]
     },
     {
       "id": "CL-232",
@@ -12872,7 +13650,12 @@
         ]
       },
       "map_card_intro": "명성산을 배경으로 사계절 아름다운 1925년 산속 호수 — 포천 국민관광지",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://ko.wikipedia.org/wiki/%EC%82%B0%EC%A0%95%ED%98%B8%EC%88%98",
+        "https://encykorea.aks.ac.kr/Article/E0026330",
+        "https://www.pocheon.go.kr/tour/contents.do?key=2094"
+      ]
     },
     {
       "id": "CL-233",
@@ -12927,7 +13710,12 @@
         ]
       },
       "map_card_intro": "승려 김윤후가 화살 하나로 몽골 총사령관을 사살한 1232년 기적의 전투 현장",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://ko.wikipedia.org/wiki/%EC%B2%98%EC%9D%B8%EC%84%B1",
+        "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=2333100440000",
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1336101320000"
+      ]
     },
     {
       "id": "CL-234",
@@ -12982,7 +13770,10 @@
         ]
       },
       "map_card_intro": "진주 의암에서 왜장을 껴안고 투신한 의기 논개의 고향 — 전북 장수 생가지",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1373500590000"
+      ]
     },
     {
       "id": "CL-235",
@@ -13037,7 +13828,10 @@
         ]
       },
       "map_card_intro": "견훤과 왕건이 쟁패한 후삼국 통일의 요충지 — 나주 평야가 내려다보이는 금성산성",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1343803370000"
+      ]
     },
     {
       "id": "CL-236",
@@ -13092,7 +13886,10 @@
         ]
       },
       "map_card_intro": "운석 충돌로 만들어진 분지에서 한반도 최고(最古) 신석기 유물이 발굴된 양구 선사박물관",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "http://ygpm.or.kr/"
+      ]
     },
     {
       "id": "CL-237",
@@ -13147,7 +13944,10 @@
         ]
       },
       "map_card_intro": "전봉준이 이끄는 농민군이 처음 봉기를 선포한 동학농민혁명의 출발점 — 고창 무장기포지",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1363803460000"
+      ]
     },
     {
       "id": "CL-238",
@@ -13202,7 +14002,12 @@
         ]
       },
       "map_card_intro": "500년 돌담이 두른 이씨·최씨·하씨 세 씨족의 조선 집성촌 — 드라마 촬영지",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://ko.wikipedia.org/wiki/%EC%82%B0%EC%B2%AD%EA%B5%B0",
+        "https://encykorea.aks.ac.kr/Article/E0026351",
+        "https://www.sancheong.go.kr/tour/contents.do?key=2523"
+      ]
     },
     {
       "id": "CL-239",
@@ -13257,7 +14062,10 @@
         ]
       },
       "map_card_intro": "서산대사와 사명대사가 수행한 조선 선불교의 중심 도량 — 지리산 칠선계곡 입구 벽송사",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://encykorea.aks.ac.kr/Article/E0022992"
+      ]
     },
     {
       "id": "CL-240",
@@ -13312,7 +14120,10 @@
         ]
       },
       "map_card_intro": "경회루·진남관과 함께 현존 조선 최대 규모 건축물 — 통영 세병관 국보 제305호",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1123403050000"
+      ]
     },
     {
       "id": "CL-241",
@@ -13367,7 +14178,10 @@
         ]
       },
       "map_card_intro": "공룡능선·울산바위·천불동계곡의 절경 — 사계절 모두 다른 얼굴의 유네스코 생물권보전지역",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://www.knps.or.kr/"
+      ]
     },
     {
       "id": "CL-242",
@@ -13422,7 +14236,10 @@
         ]
       },
       "map_card_intro": "한국 최초 국립공원 — 천왕봉 1,915m 내륙 최고봉의 40km 대종주 코스",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://www.knps.or.kr/"
+      ]
     },
     {
       "id": "CL-243",
@@ -13477,7 +14294,10 @@
         ]
       },
       "map_card_intro": "남한 최고봉 1,950m — 백록담 분화구 호수와 유네스코 3관왕 한라산",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://www.knps.or.kr/"
+      ]
     },
     {
       "id": "CL-244",
@@ -13532,7 +14352,10 @@
         ]
       },
       "map_card_intro": "다섯 부처님이 머문다는 불교 성지 — 월정사 전나무숲과 선재길의 오대산",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://www.knps.or.kr/"
+      ]
     },
     {
       "id": "CL-245",
@@ -13587,7 +14410,10 @@
         ]
       },
       "map_card_intro": "단군이 처음 하늘에 제사를 지낸 천제단이 있는 민족의 영산 — 태백산",
-      "filming_ideas": []
+      "filming_ideas": [],
+      "source_urls": [
+        "https://www.knps.or.kr/"
+      ]
     }
   ]
 }

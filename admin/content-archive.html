@@ -383,7 +383,12 @@ function openDetail(id) {
 
   const cl = c.content_link || {};
   const hPlace = heritageMap[c.place_id] || {};
-  const sourceUrls = hPlace.source_urls || [];
+  // library.json source_urls 우선, 없으면 heritage_all.json source_urls 사용
+  const libUrls = (c.source_urls || []).filter(u => u && u.startsWith('http'));
+  const hUrls = (hPlace.source_urls || []).filter(u => u && u.startsWith('http'));
+  // 중복 제거 후 합치기
+  const allUrls = [...new Set([...libUrls, ...hUrls])];
+  const sourceUrls = allUrls;
 
   document.getElementById('dp-body').innerHTML = `
     <div class="dp-section">

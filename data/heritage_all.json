@@ -193,6 +193,8 @@
     ],
     "visitable": true,
     "source_urls": [
+      "https://ko.wikipedia.org/wiki/%EC%B2%98%EC%9D%B8%EC%84%B1",
+      "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=2333100440000",
       "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1131100030000",
       "https://whc.unesco.org/en/list/1439"
     ],
@@ -1821,6 +1823,9 @@
     "lng": 126.9748,
     "short_description": "고종이 아관파천 후 환궁하여 대한제국을 선포한 궁궐. 석조전 등 근대 서양식 건물과 전통 전각이 공존하며 매일 수문장 교대식이 열린다. 중구 정동에 위치한다.",
     "source_urls": [
+      "https://ko.wikipedia.org/wiki/%EB%8D%95%EC%88%98%EA%B6%81",
+      "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1331101240000",
+      "https://encykorea.aks.ac.kr/Article/E0015361",
       "https://www.deoksugung.go.kr/"
     ],
     "data_confidence": "high",
@@ -2768,6 +2773,9 @@
     "lng": 126.4194,
     "short_description": "해발 469m 마니산 정상에 위치한 단군 제천단으로 사적 제136호. 하늘에 제사를 지내던 돌단으로 매년 개천절 전통 제천행사가 열리고 전국체전 성화 채화지로도 유명하다.",
     "source_urls": [
+      "https://ko.wikipedia.org/wiki/%EA%B0%95%ED%99%94_%EC%B0%B8%EC%84%B1%EB%8B%A8",
+      "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1332303060000",
+      "https://encykorea.aks.ac.kr/Article/E0055281",
       "https://www.ganghwa.go.kr"
     ],
     "data_confidence": "high",
@@ -2812,6 +2820,9 @@
     "lng": 126.505,
     "short_description": "강화해협 수비를 위해 1679년 축조된 돈대(소규모 포대 방어시설). 병인양요·신미양요 격전지이며 사적 제306호로 인근에 강화역사박물관이 있다.",
     "source_urls": [
+      "https://ko.wikipedia.org/wiki/%EA%B0%95%ED%99%94_%EA%B0%91%EA%B3%B6%EB%8F%88",
+      "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1332303060000",
+      "https://encykorea.aks.ac.kr/Article/E0000891",
       "https://www.ganghwa.go.kr"
     ],
     "data_confidence": "high",
@@ -2858,6 +2869,9 @@
     "lng": 126.4881,
     "short_description": "몽골 침략에 대항해 1232년 강화도 천도 시 축조한 토성. 조선 숙종 때 석성으로 개축되었으며 사적 제132호로 총 길이 약 7.1km 성벽이 남아 있다.",
     "source_urls": [
+      "https://ko.wikipedia.org/wiki/%EA%B0%95%ED%99%94%EC%82%B0%EC%84%B1",
+      "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1332301320000",
+      "https://encykorea.aks.ac.kr/Article/E0001518",
       "https://www.ganghwa.go.kr"
     ],
     "data_confidence": "high",
@@ -3221,6 +3235,9 @@
     "lng": 127.0581,
     "short_description": "1978년 발견된 동아시아 최초의 아슐리안형 주먹도끼 출토지. 유럽·아프리카에서만 사용됐다고 알려진 아슐리안 석기가 동아시아에서도 제작됐음을 증명한 사적 제268호이다.",
     "source_urls": [
+      "https://ko.wikipedia.org/wiki/%EC%97%B0%EC%B2%9C_%EC%A0%84%EA%B3%A1%EB%A6%AC_%EC%9C%A0%EC%A0%81",
+      "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1333102680000",
+      "https://encykorea.aks.ac.kr/Article/E0049243",
       "https://www.jeongokmuseum.go.kr"
     ],
     "data_confidence": "high",
@@ -3310,6 +3327,9 @@
     "lng": 126.9133,
     "short_description": "1919년 4월 15일 일본 군경이 주민을 교회에 가두고 방화·총살한 제암리 학살사건 현장. 23명이 희생되었으며 사적 제299호로 기념관과 순국묘역이 조성되어 있다.",
     "source_urls": [
+      "https://ko.wikipedia.org/wiki/%ED%99%94%EC%84%B1_%EC%A0%9C%EC%95%94%EB%A6%AC_3%C2%B71%EC%9A%B4%EB%8F%99_%EC%88%9C%EA%B5%AD_%EC%9C%A0%EC%A0%81",
+      "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1333102990000",
+      "https://encykorea.aks.ac.kr/Article/E0051323",
       "https://www.hwaseong.go.kr"
     ],
     "data_confidence": "high",
@@ -3355,6 +3375,9 @@
     "lng": 127.0131,
     "short_description": "정조가 아버지 사도세자의 능 참배와 수원 신도시 경영을 위해 조성한 행궁. 전국 행궁 중 가장 규모가 크며 576칸에 달한다. 수원화성과 함께 유네스코 세계유산이다.",
     "source_urls": [
+      "https://ko.wikipedia.org/wiki/%EC%88%98%EC%9B%90_%ED%99%94%EC%84%B1%ED%96%89%EA%B6%81",
+      "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1333104780000",
+      "https://encykorea.aks.ac.kr/Article/E0064690",
       "https://www.suwon.go.kr/hwaseong"
     ],
     "data_confidence": "high",
@@ -4449,6 +4472,9 @@
     "lng": 127.1527,
     "short_description": "조선 태조 이성계의 어진을 봉안하기 위해 1410년 건립된 조선 왕조의 발상지. 전주사고가 위치했으며 임진왜란 때도 어진이 보존된 역사적 성지다.",
     "source_urls": [
+      "https://ko.wikipedia.org/wiki/%EC%A0%84%EC%A3%BC_%EA%B2%BD%EA%B8%B0%EC%A0%84",
+      "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1333503390000",
+      "https://encykorea.aks.ac.kr/Article/E0069100",
       "https://www.jeonju.go.kr/"
     ],
     "data_confidence": "high",
@@ -4586,6 +4612,9 @@
     "lng": 127.3895,
     "short_description": "조선 시대 대표 누각 광한루와 호수·정원이 어우러진 명승지. 판소리 춘향전의 배경으로 춘향과 이몽룡이 만난 곳으로 유명하며 매년 춘향제가 열리는 전통문화 성지다.",
     "source_urls": [
+      "https://ko.wikipedia.org/wiki/%EA%B4%91%ED%95%9C%EB%A3%A8%EC%9B%90",
+      "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1333500330000",
+      "https://encykorea.aks.ac.kr/Article/E0005333",
       "https://www.namwon.go.kr/"
     ],
     "data_confidence": "high",
@@ -4630,6 +4659,9 @@
     "lng": 126.9114,
     "short_description": "1894년 동학농민군이 관군에게 첫 대승을 거둔 역사적 전적지. 갑오동학혁명의 시작점으로 동학농민혁명기념관과 기념탑이 조성되어 있다.",
     "source_urls": [
+      "https://ko.wikipedia.org/wiki/%EC%A0%95%EC%9D%8D_%ED%99%A9%ED%86%A0%ED%98%84_%EC%A0%84%EC%A0%81",
+      "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1333502950000",
+      "https://encykorea.aks.ac.kr/Article/E0065370",
       "https://www.jeongup.go.kr/"
     ],
     "data_confidence": "high",
@@ -4675,6 +4707,9 @@
     "lng": 127.6787,
     "short_description": "해발 1,000m 적상산 정상부를 둘러싼 산성. 조선 광해군 때 실록을 보관한 사고가 설치되었으며 머루와 단풍으로 유명한 적상산 안에 위치해 자연과 역사가 공존한다.",
     "source_urls": [
+      "https://ko.wikipedia.org/wiki/%EB%AC%B4%EC%A3%BC_%EC%A0%81%EC%83%81%EC%82%B0%EC%84%B1",
+      "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1333501460000",
+      "https://encykorea.aks.ac.kr/Article/E0049159",
       "https://www.muju.go.kr/"
     ],
     "data_confidence": "medium",
@@ -4812,6 +4847,8 @@
     "lng": 127.7447,
     "short_description": "이순신 장군 동상과 거북선 복원 전시물이 있는 여수 구항 광장. 임진왜란 승전의 거점 전라좌수영 인근에 조성되어 해양 영웅 이순신의 업적을 기린다.",
     "source_urls": [
+      "https://ko.wikipedia.org/wiki/%EC%97%AC%EC%88%98%EC%8B%9C",
+      "https://ko.wikipedia.org/wiki/%EC%97%AC%EC%88%98_%EC%A7%84%EB%82%A8%EA%B4%80",
       "https://www.yeosu.go.kr/"
     ],
     "data_confidence": "high",
@@ -4948,6 +4985,9 @@
     "lng": 126.9194,
     "short_description": "양산보가 조성한 조선시대 대표 민간 원림으로 명승 제40호. 광풍각·제월당 등 자연 지형을 살린 전통 조경의 걸작이며 호남 사림 문화와 가사문학의 산실이다.",
     "source_urls": [
+      "https://ko.wikipedia.org/wiki/%EC%86%8C%EC%87%84%EC%9B%90",
+      "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1353600400000",
+      "https://encykorea.aks.ac.kr/Article/E0013811",
       "https://www.damyang.go.kr/"
     ],
     "data_confidence": "high",
@@ -4994,6 +5034,8 @@
     "lng": 126.9175,
     "short_description": "1980년 5·18 민주화운동의 중심지인 구 전남도청 앞 광장. 유네스코 세계기록유산에 등재된 5·18 관련 기록물의 역사 현장이자 한국 민주주의의 성지다.",
     "source_urls": [
+      "https://ko.wikipedia.org/wiki/5%C2%B718_%EA%B4%91%EC%A3%BC_%EB%AF%BC%EC%A3%BC%ED%99%94_%EC%9A%B4%EB%8F%99",
+      "https://encykorea.aks.ac.kr/Article/E0038496",
       "https://www.518.go.kr/"
     ],
     "data_confidence": "high",
@@ -5039,6 +5081,9 @@
     "lng": 128.5004,
     "short_description": "이순신 장군이 삼도수군통제영을 설치하고 한산대첩을 지휘한 전략 본부. 장군이 직접 지은 운주당 터에 제승당이 복원되었으며 한산섬 달 밝은 밤에 시조를 지은 역사의 현장이다.",
     "source_urls": [
+      "https://ko.wikipedia.org/wiki/%ED%86%B5%EC%98%81_%ED%95%9C%EC%82%B0%EB%8F%84_%EC%9D%B4%EC%B6%A9%EB%AC%B4%EA%B3%B5_%EC%9C%A0%EC%A0%81",
+      "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1333801130000",
+      "https://encykorea.aks.ac.kr/Article/E0051314",
       "https://www.tongyeong.go.kr/"
     ],
     "data_confidence": "high",
@@ -5084,6 +5129,9 @@
     "lng": 128.1244,
     "short_description": "천연기념물 제411호로 세계 3대 공룡 발자국 화석지 중 하나. 약 1억 년 전 백악기 공룡 발자국 5,000여 점이 해안 암반에 보존되어 있다.",
     "source_urls": [
+      "https://ko.wikipedia.org/wiki/%EA%B3%A0%EC%84%B1_%EB%8D%95%EB%AA%85%EB%A6%AC_%EA%B3%B5%EB%A3%A1%EA%B3%BC_%EC%83%88%EB%B0%9C%EC%9E%90%EA%B5%AD_%ED%99%94%EC%84%9D%EC%82%B0%EC%A7%80",
+      "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1363804110000",
+      "https://encykorea.aks.ac.kr/Article/E0003709",
       "https://www.goseong.go.kr/"
     ],
     "data_confidence": "high",
@@ -5129,6 +5177,8 @@
     "lng": 127.8867,
     "short_description": "노량해전에서 순국한 이순신 장군의 유해가 처음 안치된 사적지. 사적 제233호로 지정되어 있으며 임진왜란 마지막 해전 현장인 노량 앞바다를 바라본다.",
     "source_urls": [
+      "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1333802330000",
+      "https://encykorea.aks.ac.kr/Article/E0012300",
       "https://www.namhae.go.kr/"
     ],
     "data_confidence": "high",
@@ -5811,6 +5861,9 @@
     "lng": 129.3382,
     "short_description": "602년 창건된 내연산 자락의 고찰로 12폭포를 품은 내연계곡을 끼고 있다. 적광전(보물)을 비롯한 문화재와 함께 계곡 트레킹의 시작점으로 유명하다.",
     "source_urls": [
+      "https://ko.wikipedia.org/wiki/%EB%B3%B4%EA%B2%BD%EC%82%AC",
+      "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1123718680000",
+      "https://encykorea.aks.ac.kr/Article/E0023204",
       "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=94537"
     ],
     "data_confidence": "high",
@@ -7955,6 +8008,8 @@
     "lng": 127.1156,
     "short_description": "조선시대 각 지방의 전통 건축과 생활양식을 재현한 야외 민속박물관. 270여 채의 전통 가옥과 농경·공예 문화를 체험할 수 있는 살아있는 역사 교육의 장.",
     "source_urls": [
+      "https://ko.wikipedia.org/wiki/%ED%95%9C%EA%B5%AD%EB%AF%BC%EC%86%8D%EC%B4%8C",
+      "https://encykorea.aks.ac.kr/Article/E0061180",
       "https://www.koreanfolk.co.kr"
     ],
     "data_confidence": "high",
@@ -8690,6 +8745,7 @@
     "lng": 128.244,
     "short_description": "낙동강 1,300리 중 경관이 가장 빼어난 절승지로 낙동강 제1경으로 꼽힌다. 1628년 병자호란 후 채득기가 조성한 정자 무우정이 있으며 국민관광지로 지정됐다.",
     "source_urls": [
+      "https://ko.wikipedia.org/wiki/%EA%B2%BD%EC%B2%9C%EB%8C%80",
       "https://www.sangju.go.kr/tour/"
     ],
     "data_confidence": "high",
@@ -8737,6 +8793,8 @@
     "lng": 128.7897,
     "short_description": "809년 창건된 팔공산 남쪽 기슭의 통일신라 사찰. 조선 선조 때 현재 이름으로 바뀌었으며 국보·보물급 문화재를 다수 보유한 경북 대표 산사다.",
     "source_urls": [
+      "https://ko.wikipedia.org/wiki/%EC%9D%80%ED%95%B4%EC%82%AC",
+      "https://encykorea.aks.ac.kr/Article/E0042914",
       "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=89729"
     ],
     "data_confidence": "high",
@@ -8876,6 +8934,8 @@
     "lng": 128.0933,
     "short_description": "해인사로 이어지는 4km 계곡으로 가야산 국립공원의 핵심 경관. 붉게 물드는 단풍과 맑은 물소리로 유명하며 세계문화유산 해인사와 함께 역사·자연을 동시에 감상할 수 있다.",
     "source_urls": [
+      "https://ko.wikipedia.org/wiki/%ED%95%B4%EC%9D%B8%EC%82%AC",
+      "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1333805040000",
       "https://www.hc.go.kr/"
     ],
     "data_confidence": "medium",
@@ -9114,6 +9174,8 @@
     "lng": 126.7108,
     "short_description": "일제강점기 수탈의 역사를 간직한 근대 건축 밀집 지구. 군산근대역사박물관·조선은행 군산지점·신흥동 일본식 가옥 등이 남아 드라마 촬영지로도 유명하다.",
     "source_urls": [
+      "https://ko.wikipedia.org/wiki/%EA%B5%B0%EC%82%B0%EA%B7%BC%EB%8C%80%EC%97%AD%EC%82%AC%EB%B0%95%EB%AC%BC%EA%B4%80",
+      "https://ko.wikipedia.org/wiki/%EA%B5%B0%EC%82%B0_%EB%82%B4%ED%95%AD_%EC%97%AD%EC%82%AC%EB%AC%B8%ED%99%94%EA%B3%B5%EA%B0%84",
       "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=174257"
     ],
     "data_confidence": "high",
@@ -9206,6 +9268,8 @@
     "lng": 126.9749,
     "short_description": "덕수궁 외곽을 따라 이어지는 900m 돌담길. 고종이 나라를 잃어가던 대한제국의 마지막 기억을 품고 있으며 정동 근대 건축군과 함께 산책코스로 인기다.",
     "source_urls": [
+      "https://ko.wikipedia.org/wiki/%EB%8D%95%EC%88%98%EA%B6%81",
+      "https://ko.wikipedia.org/wiki/%EC%A0%95%EB%8F%99%EA%B8%B8_(%EC%84%9C%EC%9A%B8)",
       "https://english.visitkorea.or.kr/"
     ],
     "data_confidence": "high",
@@ -9670,6 +9734,8 @@
     "lng": 127.346,
     "short_description": "조정래 소설 태백산맥의 배경지 벌교에 조성된 문학관. 분단과 한국전쟁을 담은 대하소설 자료 621점 전시. 단일 문학작품 전용관으로 국내 최대 규모다.",
     "source_urls": [
+      "https://ko.wikipedia.org/wiki/%ED%83%9C%EB%B0%B1%EC%82%B0%EB%A7%A5%EB%AC%B8%ED%95%99%EA%B4%80",
+      "https://ko.wikipedia.org/wiki/%ED%83%9C%EB%B0%B1%EC%82%B0%EB%A7%A5_(%EC%86%8C%EC%84%A4)",
       "https://www.boseong.go.kr/tbsm"
     ],
     "data_confidence": "high",
@@ -9764,6 +9830,8 @@
     "lng": 126.259,
     "short_description": "추사 김정희가 9년간 유배 생활을 하며 추사체를 완성하고 세한도를 그린 유배지. 대정현 강도순 집터에 유배지를 복원하고 2010년 추사관을 개관했다.",
     "source_urls": [
+      "https://ko.wikipedia.org/wiki/%EC%84%9C%EA%B7%80%ED%8F%AC_%EA%B9%80%EC%A0%95%ED%9D%AC_%EC%9C%A0%EB%B0%B0%EC%A7%80",
+      "https://encykorea.aks.ac.kr/Article/E0010433",
       "https://www.visitjeju.net/kr/detail/view?contentsid=CNTS_000000000000970"
     ],
     "data_confidence": "high",
@@ -10908,6 +10976,8 @@
     "lng": 127.1878,
     "short_description": "명성산 자락에 자리한 인공 호수로, 1925년 농업용 저수지로 조성됐다. 화강암 봉우리와 맑은 호수가 어우러진 수려한 경관으로 경기 북부 대표 관광지이며 가을 억새 군락이 절경을 이룬다.",
     "source_urls": [
+      "https://ko.wikipedia.org/wiki/%EC%82%B0%EC%A0%95%ED%98%B8%EC%88%98",
+      "https://encykorea.aks.ac.kr/Article/E0026330",
       "https://www.pocheon.go.kr/tour/contents.do?key=2094"
     ],
     "data_confidence": "high",
@@ -11000,6 +11070,8 @@
     "lng": 127.1878,
     "short_description": "1232년 몽골 2차 침입 당시 승장 김윤후가 이끈 민병이 몽골 총사령관 살리타이를 사살한 역사적 전투지. 소규모 토성이지만 외적 격퇴의 상징으로 사적 제 132호에 지정된 유적이다.",
     "source_urls": [
+      "https://ko.wikipedia.org/wiki/%EC%B2%98%EC%9D%B8%EC%84%B1",
+      "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=2333100440000",
       "https://heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1336101320000"
     ],
     "data_confidence": "high",
@@ -11423,6 +11495,8 @@
     "lng": 127.9017,
     "short_description": "지리산 자락 남사마을에 형성된 고택 집성촌으로 최씨·이씨 문중의 조선 후기 고가옥 수십 채가 군집한다. 담장 너머 옛 선비의 삶이 고스란히 남아 있는 전통마을 체험 명소다.",
     "source_urls": [
+      "https://ko.wikipedia.org/wiki/%EC%82%B0%EC%B2%AD%EA%B5%B0",
+      "https://encykorea.aks.ac.kr/Article/E0026351",
       "https://www.sancheong.go.kr/tour/contents.do?key=2523"
     ],
     "data_confidence": "high",
@@ -12043,6 +12117,9 @@
     "lng": 129.06,
     "short_description": "세계에서 바다와 가장 가까운 기차역으로 기네스북에 등재된 일출 명소. 매년 새해 해돋이 행사에 수만 명이 몰리며 드라마 모래시계 촬영지로도 유명해 연중 관광객의 발길이 끊이지 않는다.",
     "source_urls": [
+      "https://ko.wikipedia.org/wiki/%EC%A0%95%EB%8F%99%EC%A7%84",
+      "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1363204370000",
+      "https://encykorea.aks.ac.kr/Article/E0068834",
       "https://korean.visitkorea.or.kr/"
     ],
     "data_confidence": "high",
@@ -12091,6 +12168,8 @@
     "lng": 129.3817,
     "short_description": "한반도 육지에서 새해 일출이 가장 먼저 보이는 최동단 해안 절경지. 정동진보다 1분 빠른 일출로 유명하며 대형 소망우체통과 아름다운 등대가 랜드마크로 자리잡고 있다.",
     "source_urls": [
+      "https://ko.wikipedia.org/wiki/%EA%B0%84%EC%A0%88%EA%B3%B6",
+      "https://encykorea.aks.ac.kr/Article/E0074993",
       "https://korean.visitkorea.or.kr/"
     ],
     "data_confidence": "high",
@@ -12138,6 +12217,8 @@
     "lng": 129.5681,
     "short_description": "한반도 지형에서 호랑이 꼬리에 해당하는 동쪽 끝 해안 명소. 바다에서 솟아오르는 상생의 손 조형물과 국립등대박물관으로 유명하며 매년 1월 1일 해맞이 축제가 열린다.",
     "source_urls": [
+      "https://ko.wikipedia.org/wiki/%ED%98%B8%EB%AF%B8%EA%B3%B6",
+      "https://encykorea.aks.ac.kr/Article/E0048326",
       "https://korean.visitkorea.or.kr/"
     ],
     "data_confidence": "high",
@@ -12234,6 +12315,8 @@
     "lng": 129.1603,
     "short_description": "대한민국 최대 규모의 해수욕장으로 1.8km 백사장에 여름 성수기 100만 명 이상이 찾는 부산의 상징. 동백섬·달맞이고개·마린시티 야경과 어우러져 사계절 활기찬 해안 문화를 자랑한다.",
     "source_urls": [
+      "https://ko.wikipedia.org/wiki/%ED%95%B4%EC%9A%B4%EB%8C%80%ED%95%B4%EC%88%98%EC%9A%95%EC%9E%A5",
+      "https://encykorea.aks.ac.kr/Article/E0062678",
       "https://korean.visitkorea.or.kr/"
     ],
     "data_confidence": "high",
@@ -12282,6 +12365,8 @@
     "lng": 128.91,
     "short_description": "강릉을 대표하는 동해안 해변으로 약 6km의 백사장이 펼쳐진다. 인근 경포호와 아름다운 자연경관을 이루며 관동팔경의 하나인 경포대에서 조망하는 바다 풍경이 일품이다.",
     "source_urls": [
+      "https://ko.wikipedia.org/wiki/%EA%B2%BD%ED%8F%AC%ED%95%B4%EC%88%98%EC%9A%95%EC%9E%A5",
+      "https://encykorea.aks.ac.kr/Article/E0002982",
       "https://korean.visitkorea.or.kr/"
     ],
     "data_confidence": "high",
@@ -12424,6 +12509,9 @@
     "lng": 129.1017,
     "short_description": "국내 최대 규모의 석회암 동굴로 총 길이 6.2km 중 1.6km가 공개되어 있다. 약 5억 년 전에 형성된 동굴로 석순·종유석·석주 등 다양한 동굴 생성물이 있는 천연기념물이다.",
     "source_urls": [
+      "https://ko.wikipedia.org/wiki/%EC%82%BC%EC%B2%99_%EB%8C%80%EC%9D%B4%EB%A6%AC_%EB%8F%99%EA%B5%B4%EC%A7%80%EB%8C%80",
+      "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1363201780000",
+      "https://encykorea.aks.ac.kr/Article/E0064989",
       "https://korean.visitkorea.or.kr/"
     ],
     "data_confidence": "high",
@@ -12472,6 +12560,9 @@
     "lng": 128.5167,
     "short_description": "임진왜란 당시 고씨 일가가 피난 생활을 했다는 전설이 깃든 석회암 동굴. 총 길이 3.5km 중 1.2km가 개방되어 있으며 동굴 내 지하 하천이 흐르는 신비로운 공간이다.",
     "source_urls": [
+      "https://ko.wikipedia.org/wiki/%EC%98%81%EC%9B%94_%EA%B3%A0%EC%94%A8%EA%B5%B4",
+      "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1363202190000",
+      "https://encykorea.aks.ac.kr/Article/E0037592",
       "https://korean.visitkorea.or.kr/"
     ],
     "data_confidence": "high",
@@ -12519,6 +12610,8 @@
     "lng": 127.5069,
     "short_description": "동아시아 최대의 갈대 군락지와 드넓은 갯벌이 펼쳐진 국제 생태 보전 지역. 람사르협약 등록 습지로 흑두루미 등 희귀 철새 수만 마리가 도래하며 S자형 수로의 일몰 풍경이 장관이다.",
     "source_urls": [
+      "https://ko.wikipedia.org/wiki/%EC%88%9C%EC%B2%9C%EB%A7%8C",
+      "https://encykorea.aks.ac.kr/Article/E0031976",
       "https://korean.visitkorea.or.kr/"
     ],
     "data_confidence": "high",
@@ -12710,6 +12803,8 @@
     "lng": 126.8803,
     "short_description": "완도에서 남쪽으로 19.2km 떨어진 섬으로 아시아 최초 슬로시티에 선정된 느림의 섬. 구들장 논·청보리밭·범바위 등 수려한 자연과 전통 마을이 어우러진 드라마 봄의 왈츠 촬영지다.",
     "source_urls": [
+      "https://ko.wikipedia.org/wiki/%EC%B2%AD%EC%82%B0%EB%8F%84",
+      "https://encykorea.aks.ac.kr/Article/E0056467",
       "https://korean.visitkorea.or.kr/"
     ],
     "data_confidence": "high",
@@ -13083,6 +13178,8 @@
     "lng": 128.9005,
     "short_description": "강릉 경포해변 옆에 위치한 자연 석호. 호수 위로 뜨는 달이 다섯 개로 보인다는 오월의 전설이 유명하다. 경포대에서 바라보는 호수 풍경과 벚꽃 시즌의 경관이 아름다우며 관동팔경 중 하나로 꼽힌다.",
     "source_urls": [
+      "https://ko.wikipedia.org/wiki/%EA%B2%BD%ED%8F%AC%ED%98%B8",
+      "https://encykorea.aks.ac.kr/Article/E0002983",
       "https://korean.visitkorea.or.kr/"
     ],
     "data_confidence": "high",
@@ -13129,6 +13226,8 @@
     "lng": 127.7014,
     "short_description": "춘천 북한강 상류에 조성된 인공 호수. 호반도시 춘천의 상징으로 물레길 카약 체험과 스카이워크에서 바라보는 호수 전망이 인상적이며 사계절 방문객이 찾는 드라이브 코스다.",
     "source_urls": [
+      "https://ko.wikipedia.org/wiki/%EC%9D%98%EC%95%94%ED%98%B8",
+      "https://encykorea.aks.ac.kr/Article/E0043326",
       "https://korean.visitkorea.or.kr/"
     ],
     "data_confidence": "high",
@@ -13175,6 +13274,9 @@
     "lng": 126.8129,
     "short_description": "천연기념물 제374호로 지정된 세계 최대 규모의 비자나무 군락지. 약 2,800그루의 비자나무가 울창하게 우거진 숲길을 걸으며 피톤치드를 흡입하는 힐링 코스다. 800년 이상 수령의 나무들이 신비로운 분위기를 만든다.",
     "source_urls": [
+      "https://ko.wikipedia.org/wiki/%EC%A0%9C%EC%A3%BC_%ED%8F%89%EB%8C%80%EB%A6%AC_%EB%B9%84%EC%9E%90%EB%82%98%EB%AC%B4_%EC%88%B2",
+      "https://encykorea.aks.ac.kr/Article/E0051468",
+      "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1363903740000",
       "https://www.visitjeju.net/"
     ],
     "data_confidence": "high",
@@ -13220,6 +13322,9 @@
     "lng": 126.4942,
     "short_description": "제주시 해안가에 우뚝 솟은 높이 10m의 현무암 바위. 용이 하늘로 오르려다 굳어버린 모습이라는 전설을 가지고 있으며 제주를 대표하는 상징적 자연 명소다. 일몰 무렵 붉게 물드는 바다와의 조화가 특히 아름답다.",
     "source_urls": [
+      "https://ko.wikipedia.org/wiki/%EC%9A%A9%EB%91%90%EC%95%94",
+      "https://encykorea.aks.ac.kr/Article/E0074975",
+      "https://www.visitjeju.net/kr/detail/view?contentsid=CONT_000000000500469",
       "https://www.visitjeju.net/"
     ],
     "data_confidence": "high",
@@ -13265,6 +13370,8 @@
     "lng": 126.3764,
     "short_description": "인천 영종도 서쪽 끝의 서해안 대표 해수욕장. 수도권에서 가까워 당일치기 여행지로 인기가 높으며 썰물 때 드러나는 갯벌에서 조개잡이 체험을 즐길 수 있다. 서해 특유의 붉은 석양이 장관인 일몰 명소다.",
     "source_urls": [
+      "https://ko.wikipedia.org/wiki/%EC%9D%84%EC%99%95%EB%A6%AC%ED%95%B4%EC%88%98%EC%9A%95%EC%9E%A5",
+      "https://encykorea.aks.ac.kr/Article/E0042961",
       "https://korean.visitkorea.or.kr/"
     ],
     "data_confidence": "high",
@@ -13311,6 +13418,8 @@
     "lng": 130.9057,
     "short_description": "동해 한가운데 위치한 화산섬으로 청정 자연의 비경. 성인봉(984m)·나리분지·봉래폭포·해안 드라이브 코스 등 볼거리가 풍부하다. 오징어와 호박엿 등 특산물이 유명하며 여객선으로만 접근 가능한 특별한 여행지다.",
     "source_urls": [
+      "https://ko.wikipedia.org/wiki/%EC%9A%B8%EB%A6%89%EB%8F%84",
+      "https://encykorea.aks.ac.kr/Article/E0040443",
       "https://korean.visitkorea.or.kr/"
     ],
     "data_confidence": "high",
@@ -13358,6 +13467,8 @@
     "lng": 131.8648,
     "short_description": "대한민국 최동단에 위치한 천연기념물 제336호 화산섬. 동도와 서도 두 개의 큰 섬과 89개 부속 도서로 구성된 우리나라 고유의 영토다. 괭이갈매기 번식지이자 희귀 해양생물의 서식처로 생태적 가치가 높다.",
     "source_urls": [
+      "https://ko.wikipedia.org/wiki/%EB%8F%85%EB%8F%84",
+      "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1363703360000",
       "https://www.dokdo.go.kr"
     ],
     "data_confidence": "high",
@@ -13404,6 +13515,7 @@
     "lng": 129.437,
     "short_description": "울산 동구 해안의 기암괴석과 울창한 소나무 숲이 어우러진 명소. 통일신라 문무왕비가 호국룡이 되어 바위 밑에 잠들었다는 전설이 깃든 대왕암이 상징이다. 출렁다리와 등대, 해안 산책로가 조성되어 있다.",
     "source_urls": [
+      "https://ko.wikipedia.org/wiki/%EB%8C%80%EC%99%95%EC%95%94%EA%B3%B5%EC%9B%90",
       "https://www.ulsan.go.kr/"
     ],
     "data_confidence": "high",
@@ -13450,6 +13562,8 @@
     "lng": 127.7609,
     "short_description": "여수 앞바다의 작은 섬으로 동백꽃으로 유명한 동백섬. 방파제 산책로를 따라 걸어 들어갈 수 있으며 2~3월 붉게 피어나는 동백꽃이 장관이다. 동굴과 등대, 해안 절경을 갖추고 있어 사계절 여행지로 사랑받는다.",
     "source_urls": [
+      "https://ko.wikipedia.org/wiki/%EC%98%A4%EB%8F%99%EB%8F%84",
+      "https://encykorea.aks.ac.kr/Article/E0038176",
       "https://korean.visitkorea.or.kr/"
     ],
     "data_confidence": "high",
@@ -13542,6 +13656,8 @@
     "lng": 127.0822,
     "short_description": "보성 제암산(807m) 정상 일대에 펼쳐지는 드넓은 철쭉 군락지. 매년 5월이면 분홍빛 철쭉이 산 전체를 뒤덮어 장관을 이룬다. 인근 보성 차밭과 함께 전남 봄 여행의 필수 코스다.",
     "source_urls": [
+      "https://ko.wikipedia.org/wiki/%EB%B3%B4%EC%84%B1%EA%B5%B0",
+      "https://encykorea.aks.ac.kr/Article/E0023405",
       "https://korean.visitkorea.or.kr/"
     ],
     "data_confidence": "medium",
@@ -13859,6 +13975,8 @@
     "lng": 128.621,
     "short_description": "우리나라 두 번째로 큰 섬으로 거가대교로 부산과 연결된다. 해금강·외도 보타니아·학동해변·바람의 언덕 등 절경이 집중된 경남 대표 관광지로 청정 남해 비경을 자랑한다.",
     "source_urls": [
+      "https://ko.wikipedia.org/wiki/%EA%B1%B0%EC%A0%9C%EB%8F%84",
+      "https://encykorea.aks.ac.kr/Article/E0001872",
       "https://www.geoje.go.kr/"
     ],
     "data_confidence": "high",
@@ -14041,6 +14159,7 @@
     "lng": 128.45,
     "short_description": "정선에서 발원해 영월까지 흐르는 51km의 비경 강. S자로 굽이치는 협곡과 기암절벽이 절경을 이루며 어라연 명승지가 유명하다. 래프팅과 트레킹으로 사랑받는 생태 보고다.",
     "source_urls": [
+      "https://ko.wikipedia.org/wiki/%EB%8F%99%EA%B0%95",
       "https://korean.visitkorea.or.kr/"
     ],
     "data_confidence": "medium",
@@ -14953,6 +15072,9 @@
     "lng": 126.6181,
     "short_description": "효돈천 하류에 형성된 독특한 협곡 하구. 민물과 바닷물이 만나는 신비로운 풍경이 펼쳐지며 투명카약·테우 체험으로 제주 자연의 정수를 만끽할 수 있다.",
     "source_urls": [
+      "https://ko.wikipedia.org/wiki/%EC%87%A0%EC%86%8C%EA%B9%8D",
+      "https://encykorea.aks.ac.kr/Article/E0070028",
+      "https://www.visitjeju.net/kr/detail/view?contentsid=CONT_000000000500384",
       "https://www.visitjeju.net/"
     ],
     "data_confidence": "high",
@@ -15229,6 +15351,7 @@
     "lng": 129.4521,
     "short_description": "울산 동구 해안의 몽돌 해변. 검은 자갈이 파도와 부딪혀 내는 청아한 소리가 특징이며 봉대산 해안 드라이브와 함께 즐기기 좋은 동해의 숨은 명소다.",
     "source_urls": [
+      "https://ulsan.grandculture.net/Contents/Index?local=ulsan&gcode=03&contents_id=GC80030111",
       "https://korean.visitkorea.or.kr/"
     ],
     "data_confidence": "high",
@@ -15274,6 +15397,7 @@
     "lng": 129.3656,
     "short_description": "포항 시내에 인접한 동해 대표 해수욕장. 영일대 해상누각과 야경이 아름다우며 포항운하·죽도시장 등 주변 관광지와 연계해 즐길 수 있는 포항 관광의 거점이다.",
     "source_urls": [
+      "https://ko.wikipedia.org/wiki/%EC%98%81%EC%9D%BC%EB%8C%80%ED%95%B4%EC%88%98%EC%9A%95%EC%9E%A5",
       "https://korean.visitkorea.or.kr/"
     ],
     "data_confidence": "high",
@@ -15320,6 +15444,7 @@
     "lng": 128.9481,
     "short_description": "강릉 커피거리로 유명한 해변. 동해를 바라보며 커피를 즐길 수 있는 카페들이 늘어서 있으며 일출 명소로도 손꼽힌다. 한국 커피 문화의 상징적인 장소다.",
     "source_urls": [
+      "https://ko.wikipedia.org/wiki/%EC%95%88%EB%AA%A9%ED%95%B4%EB%B3%80",
       "https://korean.visitkorea.or.kr/"
     ],
     "data_confidence": "high",
@@ -15779,6 +15904,7 @@
     "lng": 128.842,
     "short_description": "죽도산을 사이에 두고 인구해변과 이어지는 2km 백사장. 완만한 경사·얕은 수심으로 가족 피서지로 인기가 높으며 서퍼들이 즐겨 찾는 양양 서핑 성지의 중심 해변이다.",
     "source_urls": [
+      "https://ko.wikipedia.org/wiki/%EA%B0%95%EB%A6%89%EC%8B%9C",
       "https://korean.visitkorea.or.kr/"
     ],
     "data_confidence": "medium",
@@ -16377,6 +16503,8 @@
     "lng": 127.2947,
     "short_description": "북한강과 남한강이 합류하는 지점에 팔당댐이 세워져 형성된 호수. 수도권 최대 식수원이자 아름다운 수변 경관으로 유명하며 주변 자전거길과 카페거리가 드라이브 명소로 사랑받는다.",
     "source_urls": [
+      "https://ko.wikipedia.org/wiki/%ED%8C%94%EB%8B%B9%ED%98%B8",
+      "https://encykorea.aks.ac.kr/Article/E0059715",
       "https://www.hanam.go.kr"
     ],
     "data_confidence": "high",
@@ -16469,6 +16597,8 @@
     "lng": 128.0232,
     "short_description": "남해에서 가장 아름다운 해변으로 꼽히는 곳. 은빛 모래와 에메랄드빛 바다가 어우러지고 뒤로 소나무 숲이 펼쳐져 환상적인 경관을 자랑하는 남해 여름 대표 피서지다.",
     "source_urls": [
+      "https://ko.wikipedia.org/wiki/%EC%83%81%EC%A3%BC%EC%9D%80%EB%AA%A8%EB%9E%98%EB%B9%84%EC%B9%98%ED%95%B4%EB%B3%80",
+      "https://encykorea.aks.ac.kr/Article/E0027336",
       "https://www.namhae.go.kr"
     ],
     "data_confidence": "high",
@@ -16515,6 +16645,9 @@
     "lng": 126.5024,
     "short_description": "채석강으로 유명한 격포 앞바다에 자리한 해변. 격포항과 연계해 싱싱한 해산물을 즐길 수 있으며 수억 년 지층이 쌓인 채석강 절벽이 웅장한 풍경을 선사한다.",
     "source_urls": [
+      "https://ko.wikipedia.org/wiki/%EB%B6%80%EC%95%88_%EC%B1%84%EC%84%9D%EA%B0%95%C2%B7%EC%A0%81%EB%B2%BD%EA%B0%95_%EC%9D%BC%EC%9B%90",
+      "https://encykorea.aks.ac.kr/Article/E0055605",
+      "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1353500130000",
       "https://www.buan.go.kr"
     ],
     "data_confidence": "high",
@@ -16561,6 +16694,7 @@
     "lng": 128.9321,
     "short_description": "경포호와 동해 바다 사이 아담한 해변. 강문 솟대다리와 강릉항이 가까워 독특한 분위기를 풍기며 파도가 좋아 서퍼들에게도 인기 있는 강릉의 숨은 서핑 명소다.",
     "source_urls": [
+      "https://ko.wikipedia.org/wiki/%EA%B0%95%EB%AC%B8%ED%95%B4%EB%B3%80",
       "https://www.gangneung.go.kr"
     ],
     "data_confidence": "high",
@@ -16607,6 +16741,7 @@
     "lng": 129.5009,
     "short_description": "경주 동쪽 해안의 감포항은 신라 문무왕 수중릉인 대왕암 인근에 위치한다. 아담한 어항과 맑은 동해 바다, 해돋이 명소로 유명하며 활어 직판장에서 싱싱한 회를 즐길 수 있다.",
     "source_urls": [
+      "https://ko.wikipedia.org/wiki/%EA%B0%90%ED%8F%AC%ED%95%AD",
       "https://www.gyeongju.go.kr"
     ],
     "data_confidence": "high",
@@ -16654,6 +16789,7 @@
     "lng": 126.8431,
     "short_description": "썰물 때 360도로 넓은 백사장이 드러나는 독특한 원형 해변. 수심이 얕아 가족 피서지로 인기 높으며 맑고 투명한 물빛과 드넓은 백사장이 제주 동부의 대표 해변으로 손꼽힌다.",
     "source_urls": [
+      "https://www.visitjeju.net/kr/detail/view?contentsid=CNTS_000000000001196",
       "https://www.seogwipo.go.kr"
     ],
     "data_confidence": "high",
@@ -16700,6 +16836,8 @@
     "lng": 129.2007,
     "short_description": "해운대 옆에 위치하지만 조용하고 아담한 분위기로 서퍼와 현지인에게 더 사랑받는 해변. 울창한 소나무 숲이 해변을 감싸고 있으며 부산의 서핑 성지로 연중 파도를 즐길 수 있다.",
     "source_urls": [
+      "https://ko.wikipedia.org/wiki/%EC%86%A1%EC%A0%95%ED%95%B4%EC%88%98%EC%9A%95%EC%9E%A5_(%EB%B6%80%EC%82%B0)",
+      "https://encykorea.aks.ac.kr/Article/E0031047",
       "https://www.haeundae.go.kr"
     ],
     "data_confidence": "high",
@@ -16746,6 +16884,7 @@
     "lng": 128.3721,
     "short_description": "통영 미륵도 남단에 위치한 일몰 명소. 한려해상국립공원의 크고 작은 섬들이 눈앞에 펼쳐지며 해질 무렵 노을이 섬들과 어우러져 경남 최고의 일몰 뷰포인트로 꼽힌다.",
     "source_urls": [
+      "https://ko.wikipedia.org/wiki/%ED%86%B5%EC%98%81%EC%8B%9C",
       "https://www.tongyeong.go.kr"
     ],
     "data_confidence": "high",
@@ -16792,6 +16931,8 @@
     "lng": 126.5303,
     "short_description": "한반도 최남단 육지인 해남 땅끝마을. 땅끝탑에서 바라보는 다도해 풍경이 장엄하며 서울까지 이어지는 국토 종주 출발점으로도 유명하다. 땅끝전망대에서 일몰이 아름답다.",
     "source_urls": [
+      "https://ko.wikipedia.org/wiki/%EB%95%85%EB%81%9D%EB%A7%88%EC%9D%84",
+      "https://encykorea.aks.ac.kr/Article/E0017185",
       "https://www.haenam.go.kr"
     ],
     "data_confidence": "high",
@@ -16838,6 +16979,9 @@
     "lng": 128.0445,
     "short_description": "해발 705m의 금산은 기암괴석과 울창한 숲, 한려해상 조망이 어우러진 명산. 보리암은 낙산사·강화 보문사와 함께 3대 기도처로 유명하며 정상에서 남해 앞바다 풍경이 탁월하다.",
     "source_urls": [
+      "https://ko.wikipedia.org/wiki/%EA%B8%88%EC%82%B0_(%EA%B2%BD%EB%82%A8)",
+      "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1353800390000",
+      "https://encykorea.aks.ac.kr/Article/E0012274",
       "https://www.namhae.go.kr"
     ],
     "data_confidence": "high",
@@ -16884,6 +17028,9 @@
     "lng": 129.3747,
     "short_description": "천연기념물 제155호 석회암 동굴로 약 1억7천만 년 전 형성된 것으로 추정된다. 불영사계곡 인근에 위치하며 12개의 광장과 종유석·석순이 장관을 이루는 경북 대표 동굴 명소다.",
     "source_urls": [
+      "https://ko.wikipedia.org/wiki/%EC%84%B1%EB%A5%98%EA%B5%B4",
+      "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1363701550000",
+      "https://encykorea.aks.ac.kr/Article/E0040516",
       "https://www.uljin.go.kr"
     ],
     "data_confidence": "high",
@@ -16930,6 +17077,9 @@
     "lng": 127.9203,
     "short_description": "조선시대 강원도 관찰사가 집무하던 감영. 선화당·포정루 등이 복원되어 조선 지방행정의 모습을 엿볼 수 있다. 2000년대 복원 공사를 거쳐 역사공원으로 개방된 원주의 역사 명소다.",
     "source_urls": [
+      "https://ko.wikipedia.org/wiki/%EA%B0%95%EC%9B%90%EA%B0%90%EC%98%81",
+      "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1333204390000",
+      "https://encykorea.aks.ac.kr/Article/E0067289",
       "https://www.wonju.go.kr"
     ],
     "data_confidence": "high",
@@ -16977,6 +17127,9 @@
     "lng": 128.5942,
     "short_description": "조선시대 경상도 관찰사의 관청이었던 경상감영 자리에 조성된 공원. 선화당과 징청각이 원형을 간직하며 대구 근대골목투어와 연계해 조선 지방행정의 역사를 체험할 수 있다.",
     "source_urls": [
+      "https://ko.wikipedia.org/wiki/%EB%8C%80%EA%B5%AC_%EA%B2%BD%EC%83%81%EA%B0%90%EC%98%81%EA%B3%B5%EC%9B%90",
+      "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1332205380000",
+      "https://encykorea.aks.ac.kr/Article/E0077035",
       "https://www.daegu.go.kr"
     ],
     "data_confidence": "high",
@@ -17024,6 +17177,9 @@
     "lng": 127.1483,
     "short_description": "전주 객사로도 불리는 풍패지관은 조선왕조 발상지 전주의 상징 건물. 태조 이성계의 어진을 봉안했던 곳으로 전패를 모시며 왕실의 안녕을 빌었다. 보물로 지정된 조선 관청 건축의 정수다.",
     "source_urls": [
+      "https://ko.wikipedia.org/wiki/%EC%A0%84%EC%A3%BC_%ED%92%8D%ED%8C%A8%EC%A7%80%EA%B4%80",
+      "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1123505830000",
+      "https://encykorea.aks.ac.kr/Article/E0049646",
       "https://www.jeonju.go.kr"
     ],
     "data_confidence": "high",
@@ -17301,6 +17457,8 @@
     "lng": 126.6416,
     "short_description": "한라산 백록담 정상(1,950m)에 오를 수 있는 대표 코스로 왕복 약 19.2km의 가장 긴 탐방로다. 사라오름·진달래밭 대피소를 거치며 유네스코 세계자연유산으로 지정된 한라산의 다양한 화산 지형을 경험할 수 있다.",
     "source_urls": [
+      "https://ko.wikipedia.org/wiki/%ED%95%9C%EB%9D%BC%EC%82%B0",
+      "https://encykorea.aks.ac.kr/Article/E0061564",
       "https://hallasan.go.kr"
     ],
     "data_confidence": "high",
@@ -19049,6 +19207,7 @@
     "lng": 126.7128,
     "short_description": "해발 500~600m의 한라산 중턱에 조성된 15km 구간의 숲길. 삼나무·졸참나무 등이 우거진 원시림 속 트레킹 코스로 국가산림문화자산으로 지정되어 있다.",
     "source_urls": [
+      "https://ko.wikipedia.org/wiki/%EC%82%AC%EB%A0%A4%EB%8B%88%EC%88%B2%EA%B8%B8",
       "https://www.visitjeju.net"
     ],
     "data_confidence": "high",
@@ -19095,6 +19254,7 @@
     "lng": 126.2393,
     "short_description": "에메랄드빛 바다와 새하얀 모래사장으로 유명한 제주 서쪽 대표 해변. 수심이 얕고 파도가 잔잔해 가족 단위 방문객이 많으며 앞바다 비양도가 수평선을 장식한다.",
     "source_urls": [
+      "https://encykorea.aks.ac.kr/Article/E0063508",
       "https://www.visitjeju.net"
     ],
     "data_confidence": "high",
@@ -20984,6 +21144,8 @@
     "lng": 126.1618,
     "short_description": "약 1만 8000년 전 수성화산 분출로 형성된 화산쇄설층이 해안 절벽에 드러난 세계지질공원 핵심 명소. 수월이·녹고 남매의 설화가 전해지며 제주 서쪽 끝 절경 일몰 명소다.",
     "source_urls": [
+      "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1363905130000",
+      "https://encykorea.aks.ac.kr/Article/E0074960",
       "https://www.jeju.go.kr/geopark/sites/suwolbong.htm"
     ],
     "data_confidence": "high",
@@ -21030,6 +21192,8 @@
     "lng": 130.8762,
     "short_description": "울릉도 망향봉(324m) 정상에 설치된 전망대로 날씨가 맑은 날 독도를 육안으로 조망할 수 있는 유일한 육상 지점이다. 케이블카를 이용해 오를 수 있으며 울릉도 최고 경관과 동해 조망을 즐길 수 있다.",
     "source_urls": [
+      "https://ko.wikipedia.org/wiki/%EC%9A%B8%EB%A6%89%EB%8F%84",
+      "https://encykorea.aks.ac.kr/Article/E0040443",
       "https://www.ulleung.go.kr/tour"
     ],
     "data_confidence": "medium",
@@ -21076,6 +21240,7 @@
     "lng": 130.9108,
     "short_description": "울릉도 성인봉에서 발원하는 3단 폭포로 낙차 약 30m에 달한다. 연중 수량이 풍부하며 울릉도 용천수의 주요 공급원 중 하나다. 저동항 인근에서 도보로 접근 가능하다.",
     "source_urls": [
+      "https://ko.wikipedia.org/wiki/%EB%B4%89%EB%9E%98%ED%8F%AD%ED%8F%AC",
       "https://www.ulleung.go.kr/tour"
     ],
     "data_confidence": "high",
@@ -21122,6 +21287,8 @@
     "lng": 130.8642,
     "short_description": "울릉도 유일의 평지로 화산 칼데라가 두 번 분출해 형성된 이중 분화구 내에 자리한다. 나리마을이 형성되어 있으며 울릉도 전통 가옥 투막집과 너와집이 남아 있다.",
     "source_urls": [
+      "https://ko.wikipedia.org/wiki/%EB%82%98%EB%A6%AC%EB%B6%84%EC%A7%80",
+      "https://encykorea.aks.ac.kr/Article/E0011334",
       "https://www.ulleung.go.kr/tour"
     ],
     "data_confidence": "high",
@@ -21398,6 +21565,8 @@
     "lng": 126.9863,
     "short_description": "해발 440m 계명산에 자리한 국내 최대 규모의 천문 테마파크로 자체 제작 60cm 대형 망원경과 플라네타리움을 갖추고 있다. 케이블카를 타고 오르며 별빛 관측부터 우주 체험까지 즐길 수 있다.",
     "source_urls": [
+      "https://ko.wikipedia.org/wiki/%EC%B2%9C%EB%AC%B8%EB%8C%80",
+      "https://www.yangju.go.kr/tour/contents.do?key=836",
       "https://www.yangju.go.kr/tour/"
     ],
     "data_confidence": "high",
@@ -21536,6 +21705,9 @@
     "lng": 126.5127,
     "short_description": "1679년 축조된 조선시대 해안 포대로 강화 해협을 내려다보는 전략적 요충지다. 사적 제306호로 8문의 원형 포좌와 성벽이 잘 보존되어 있고 강화전쟁박물관과 함께 조선 해양 방어 역사를 전달한다.",
     "source_urls": [
+      "https://ko.wikipedia.org/wiki/%EA%B0%95%ED%99%94_%EA%B0%91%EA%B3%B6%EB%8F%88",
+      "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1332303060000",
+      "https://encykorea.aks.ac.kr/Article/E0000891",
       "https://www.ganghwa.go.kr/open_content/tour/"
     ],
     "data_confidence": "high",
@@ -21582,7 +21754,9 @@
     "lng": 126.4412,
     "short_description": "단군의 세 아들이 쌓았다는 삼랑성으로 사적 제130호다. 1866년 병인양요 때 양헌수 장군이 프랑스군을 격퇴한 전적지이며 성내에 조선왕조실록을 보관한 정족산사고가 남아 있다.",
     "source_urls": [
-      "https://ko.wikipedia.org/wiki/%EA%B0%95%ED%99%94_%EC%82%BC%EB%9E%91%EC%84%B1"
+      "https://ko.wikipedia.org/wiki/%EA%B0%95%ED%99%94_%EC%82%BC%EB%9E%91%EC%84%B1",
+      "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1332301300000",
+      "https://encykorea.aks.ac.kr/Article/E0026539"
     ],
     "data_confidence": "high",
     "tags": [
