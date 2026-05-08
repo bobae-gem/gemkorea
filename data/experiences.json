@@ -1,8 +1,8 @@
 {
   "_comment": "겜코리아 체험 데이터 — 역사/자연 마커와 분리. 삭제 금지. 젬투어 상품 후보.",
   "_version": "1.0",
-  "_updated": "2026-05-06T02:13:45",
-  "total": 54,
+  "_updated": "2026-05-08T09:27:54",
+  "total": 83,
   "experiences": [
     {
       "experience_id": "EX-SE-MKT-001",
@@ -2278,6 +2278,1190 @@
       ],
       "operation_status": "운영중",
       "shorts_status": "waiting"
+    },
+    {
+      "experience_id": "EX-GG-FAM-002",
+      "name": "에버랜드",
+      "category_main": "문화/체험",
+      "category_sub": "테마파크",
+      "region_main": "GG",
+      "region_sub": "경기도 용인시",
+      "address": "경기도 용인시 처인구 포곡읍 에버랜드로 199",
+      "lat": 37.2952,
+      "lng": 127.2025,
+      "price": "성인 62,000원 (온라인 할인 가능)",
+      "duration": "6~10시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "어린이",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "국내 최대 면적의 복합 테마파크로 4개 테마존에 40여 가지 어트랙션을 갖추고 있다. 봄 튤립·여름 장미·가을 핼러윈·겨울 빛 축제 등 계절별 대형 이벤트가 열리며 사파리월드와 워터파크 캐리비안베이도 인접해 있다.",
+      "source_urls": [
+        "https://www.everland.com/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "에버랜드",
+        "테마파크",
+        "용인",
+        "경기",
+        "어트랙션",
+        "계절축제",
+        "가족여행"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-08T09:22:53",
+      "operation_status": "active",
+      "operating_hours": "10:00~22:00 (시즌별 상이)",
+      "phone": "031-320-5000"
+    },
+    {
+      "experience_id": "EX-SE-FAM-001",
+      "name": "롯데월드 어드벤처",
+      "category_main": "문화/체험",
+      "category_sub": "테마파크",
+      "region_main": "SE",
+      "region_sub": "서울특별시 송파구",
+      "address": "서울특별시 송파구 올림픽로 240",
+      "lat": 37.5111,
+      "lng": 127.0983,
+      "price": "성인 62,000원 (온라인 할인 가능)",
+      "duration": "4~8시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "어린이",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "세계 최대 규모의 실내 테마파크를 포함한 복합 놀이공원이다. 실내 어드벤처와 야외 매직아일랜드로 구성되어 날씨에 상관없이 즐길 수 있으며 잠실 석촌호수와 인접해 봄 벚꽃 시즌이 특히 아름답다.",
+      "source_urls": [
+        "https://adventure.lotteworld.com/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "롯데월드",
+        "테마파크",
+        "서울",
+        "잠실",
+        "실내놀이공원",
+        "석촌호수",
+        "가족여행"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-08T09:22:53",
+      "operation_status": "active",
+      "operating_hours": "09:30~22:00 (금·토·일 23:00)",
+      "phone": "02-411-2000"
+    },
+    {
+      "experience_id": "EX-GB-FAM-001",
+      "name": "경주월드",
+      "category_main": "문화/체험",
+      "category_sub": "테마파크",
+      "region_main": "GB",
+      "region_sub": "경상북도 경주시",
+      "address": "경상북도 경주시 보문로 544",
+      "lat": 37.2952,
+      "lng": 129.2625,
+      "price": "성인 42,000원",
+      "duration": "4~8시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "어린이",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "신라 천년 고도 경주 보문관광단지 내에 위치한 테마파크다. 어트랙션과 함께 캘리포니아비치 워터파크를 함께 운영하며, 불국사·석굴암·동궁과 월지 등 세계문화유산 관광과 연계할 수 있는 특별한 위치에 있다.",
+      "source_urls": [
+        "https://www.gjworld.com/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "경주월드",
+        "테마파크",
+        "경주",
+        "경북",
+        "보문단지",
+        "워터파크",
+        "신라문화"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-08T09:22:53",
+      "operation_status": "active",
+      "operating_hours": "10:00~18:00 (시즌·요일별 상이)",
+      "phone": "054-740-2000"
+    },
+    {
+      "experience_id": "EX-JJ-FAM-001",
+      "name": "제주 신화테마파크",
+      "category_main": "문화/체험",
+      "category_sub": "테마파크",
+      "region_main": "JJ",
+      "region_sub": "제주특별자치도 서귀포시",
+      "address": "제주특별자치도 서귀포시 안덕면 신화역사로 304번길 38",
+      "lat": 33.3097,
+      "lng": 126.268,
+      "price": "성인 37,000원",
+      "duration": "4~8시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "어린이",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "2017년 개장한 제주 최대 복합 리조트형 테마파크다. 신화·어드벤처랜드와 워터파크, 카지노, 5성급 호텔이 한 단지에 있으며 한국·중국·서양 신화를 테마로 한 독특한 어트랙션이 특징이다.",
+      "source_urls": [
+        "https://www.shinhwaworld.com/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "신화테마파크",
+        "제주",
+        "테마파크",
+        "서귀포",
+        "리조트",
+        "워터파크"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-08T09:22:53",
+      "operation_status": "active",
+      "operating_hours": "10:00~20:00 (시즌별 상이)",
+      "phone": "064-908-8000"
+    },
+    {
+      "experience_id": "EX-GN-FAM-001",
+      "name": "통도환타지아",
+      "category_main": "문화/체험",
+      "category_sub": "테마파크",
+      "region_main": "GN",
+      "region_sub": "경상남도 양산시",
+      "address": "경상남도 양산시 하북면 통도로 1218",
+      "lat": 35.4467,
+      "lng": 129.0431,
+      "price": "성인 37,000원",
+      "duration": "4~8시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "어린이"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "영남권 대표 테마파크로 1984년 개장해 40년 역사를 자랑한다. 롤러코스터·바이킹·자이로드롭 등 30여 가지 어트랙션과 함께 통도사, 홍룡폭포 등 인근 자연경관과 묶어 가족 여행 코스로 즐기기 좋다.",
+      "source_urls": [
+        "https://www.fantasia.co.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "통도환타지아",
+        "양산",
+        "테마파크",
+        "경남",
+        "영남권",
+        "가족여행"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-08T09:22:53",
+      "operation_status": "active",
+      "operating_hours": "09:30~18:00 (성수기 연장)",
+      "phone": "055-350-5000"
+    },
+    {
+      "experience_id": "EX-GG-WAT-001",
+      "name": "캐리비안베이 워터파크",
+      "category_main": "문화/체험",
+      "category_sub": "워터파크",
+      "region_main": "GG",
+      "region_sub": "경기도 용인시",
+      "address": "경기도 용인시 처인구 포곡읍 에버랜드로 199",
+      "lat": 37.2918,
+      "lng": 127.2003,
+      "price": "성인 55,000원 (시즌별 상이)",
+      "duration": "4~8시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "어린이",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "아시아 최대 규모의 워터파크로 에버랜드와 인접해 있다. 실내 스파와 야외 풀을 결합한 형태로 파도풀·워터슬라이드·유수풀 등 다양한 시설을 갖추고 있어 여름철 대표 피서지로 꼽힌다.",
+      "source_urls": [
+        "https://www.everland.com/caribbean/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "캐리비안베이",
+        "워터파크",
+        "용인",
+        "경기",
+        "여름피서",
+        "물놀이",
+        "에버랜드"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-08T09:22:53",
+      "operation_status": "seasonal",
+      "operating_hours": "10:00~20:00 (하계 운영, 실내관 연중)",
+      "phone": "031-320-5000"
+    },
+    {
+      "experience_id": "EX-GW-WAT-001",
+      "name": "오션월드 워터파크",
+      "category_main": "문화/체험",
+      "category_sub": "워터파크",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 홍천군",
+      "address": "강원특별자치도 홍천군 서면 한치골길 262",
+      "lat": 37.6832,
+      "lng": 127.9211,
+      "price": "성인 60,000원 (시즌별 상이)",
+      "duration": "4~8시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "어린이",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "강원도 홍천의 피닉스 파크 리조트 내 워터파크로 아시아 최대 규모의 인공 파도풀을 자랑한다. 지하 온천수를 활용한 스파시설과 각종 워터슬라이드, 어린이 전용 수영장을 갖추고 있다.",
+      "source_urls": [
+        "https://www.phoenixhnc.com/oceanworld/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "오션월드",
+        "홍천",
+        "강원",
+        "워터파크",
+        "여름피서",
+        "인공파도풀",
+        "리조트"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-08T09:22:53",
+      "operation_status": "seasonal",
+      "operating_hours": "10:00~18:00 (하계 운영)",
+      "phone": "033-440-6000"
+    },
+    {
+      "experience_id": "EX-GW-SKI-001",
+      "name": "용평리조트 스키장",
+      "category_main": "문화/체험",
+      "category_sub": "스키/겨울 레포츠",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 평창군",
+      "address": "강원특별자치도 평창군 대관령면 올림픽로 715",
+      "lat": 37.6662,
+      "lng": 128.6927,
+      "price": "리프트권 성인 65,000원~",
+      "duration": "4~8시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "어린이",
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "1975년 개장한 국내 최초 대규모 스키장으로 2018 평창동계올림픽 알파인스키 경기장이다. 31개 슬로프와 15개 리프트를 갖추고 있으며 초보자부터 전문가까지 모든 레벨의 코스가 마련되어 있다.",
+      "source_urls": [
+        "https://www.yongpyong.co.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "용평리조트",
+        "스키장",
+        "평창",
+        "강원",
+        "평창올림픽",
+        "대관령",
+        "겨울여행"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-08T09:22:53",
+      "operation_status": "seasonal",
+      "operating_hours": "08:30~22:00 (야간 스키)",
+      "phone": "033-335-5757"
+    },
+    {
+      "experience_id": "EX-GW-SKI-002",
+      "name": "하이원리조트 스키장",
+      "category_main": "문화/체험",
+      "category_sub": "스키/겨울 레포츠",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 정선군",
+      "address": "강원특별자치도 정선군 고한읍 하이원길 424",
+      "lat": 37.2197,
+      "lng": 128.8592,
+      "price": "리프트권 성인 68,000원~",
+      "duration": "4~8시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "어린이",
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "해발 1,340m 고지에 위치한 강원도 대표 스키 리조트다. 최장 5.8km 슬로프를 포함한 27개 코스와 전국 최대 규모의 곤돌라를 갖추고 있으며 야간 스키와 눈썰매장을 함께 운영한다.",
+      "source_urls": [
+        "https://www.high1.com/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "하이원리조트",
+        "스키장",
+        "정선",
+        "강원",
+        "겨울여행",
+        "고한",
+        "눈썰매"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-08T09:22:53",
+      "operation_status": "seasonal",
+      "operating_hours": "08:30~22:00 (야간)",
+      "phone": "1588-7789"
+    },
+    {
+      "experience_id": "EX-JB-SKI-001",
+      "name": "무주리조트 스키장",
+      "category_main": "문화/체험",
+      "category_sub": "스키/겨울 레포츠",
+      "region_main": "JB",
+      "region_sub": "전라북도 무주군",
+      "address": "전라북도 무주군 설천면 만선로 185",
+      "lat": 35.8986,
+      "lng": 127.6578,
+      "price": "리프트권 성인 60,000원~",
+      "duration": "4~8시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "어린이",
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "덕유산 국립공원 품에 안긴 남부권 최대 스키 리조트다. 천혜의 자연 속 22개 슬로프와 야간 스키, 눈썰매장을 갖추고 있으며 곤돌라를 타고 덕유산 정상 향적봉(1,614m) 설경을 감상할 수 있다.",
+      "source_urls": [
+        "https://www.mujuresort.com/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "무주리조트",
+        "스키장",
+        "무주",
+        "전북",
+        "덕유산",
+        "남부스키",
+        "겨울여행"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-08T09:22:53",
+      "operation_status": "seasonal",
+      "operating_hours": "08:30~21:00",
+      "phone": "063-322-9000"
+    },
+    {
+      "experience_id": "EX-GW-SRF-001",
+      "name": "양양 서핑 체험",
+      "category_main": "문화/체험",
+      "category_sub": "해양 레포츠",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 양양군",
+      "address": "강원특별자치도 양양군 현남면 인구리 해변 일원",
+      "lat": 38.0783,
+      "lng": 128.7112,
+      "price": "입문 강습 1인 50,000원~",
+      "duration": "2~3시간",
+      "reservation_required": true,
+      "target_user": [
+        "개인",
+        "커플",
+        "청년"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "동해안 최고의 서핑 명소로 수도권에서 2시간 거리의 접근성 덕에 연간 100만 명 이상이 찾는 서핑 성지다. 인구해변을 중심으로 수십 개의 서핑 스쿨이 운영되며 초보자 입문 강습부터 프리 서핑까지 즐길 수 있다.",
+      "source_urls": [
+        "https://www.yangyang.go.kr/tour/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "서핑",
+        "양양",
+        "강원",
+        "동해",
+        "인구해변",
+        "해양레포츠",
+        "여름여행"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-08T09:22:53",
+      "operation_status": "seasonal",
+      "operating_hours": "상시 (성수기 4~10월)",
+      "phone": ""
+    },
+    {
+      "experience_id": "EX-JJ-OCN-002",
+      "name": "서귀포 잠수함 체험",
+      "category_main": "문화/체험",
+      "category_sub": "해양체험",
+      "region_main": "JJ",
+      "region_sub": "제주특별자치도 서귀포시",
+      "address": "제주특별자치도 서귀포시 칠십리로 156-1",
+      "lat": 33.2456,
+      "lng": 126.5636,
+      "price": "성인 74,000원",
+      "duration": "1시간 30분",
+      "reservation_required": true,
+      "target_user": [
+        "가족",
+        "어린이",
+        "개인",
+        "외국인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "서귀포 바닷속 30~40m 깊이까지 내려가 제주 열대어와 산호초를 유리창 너머로 감상하는 잠수함 체험이다. 별도의 수영 기술 없이도 탑승 가능하며 운항 시간은 약 45분이다.",
+      "source_urls": [
+        "https://www.submarines.co.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "잠수함",
+        "서귀포",
+        "제주",
+        "바닷속",
+        "산호초",
+        "해양체험",
+        "가족여행"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-08T09:22:53",
+      "operation_status": "active",
+      "operating_hours": "09:00~17:00",
+      "phone": "064-732-6060"
+    },
+    {
+      "experience_id": "EX-DJ-MUS-001",
+      "name": "국립중앙과학관",
+      "category_main": "문화/체험",
+      "category_sub": "과학관",
+      "region_main": "DJ",
+      "region_sub": "대전광역시 유성구",
+      "address": "대전광역시 유성구 대덕대로 481",
+      "lat": 36.3718,
+      "lng": 127.3672,
+      "price": "무료 (일부 유료 전시)",
+      "duration": "2~4시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "어린이",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "국내 최대 규모의 과학 전시·체험 기관으로 상설 전시관과 자연사관, 천체관, 생물탐구관 등 다양한 시설을 운영한다. 공룡 화석·우주 탐험·첨단 과학 체험 등 어린이와 학생을 위한 교육 프로그램이 풍부하다.",
+      "source_urls": [
+        "https://www.science.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "국립중앙과학관",
+        "대전",
+        "과학체험",
+        "교육여행",
+        "어린이",
+        "공룡",
+        "천체"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-08T09:22:53",
+      "operation_status": "active",
+      "operating_hours": "09:30~17:30 (월요일 휴관)",
+      "phone": "042-601-7894"
+    },
+    {
+      "experience_id": "EX-BS-MUS-002",
+      "name": "국립해양박물관",
+      "category_main": "문화/체험",
+      "category_sub": "박물관",
+      "region_main": "BS",
+      "region_sub": "부산광역시 영도구",
+      "address": "부산광역시 영도구 해양로 301번길 45",
+      "lat": 35.0702,
+      "lng": 129.0683,
+      "price": "무료",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "어린이",
+        "개인",
+        "외국인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "우리나라 유일의 국립 해양 전문 박물관으로 해양 역사·문화·과학·산업을 아우르는 전시가 펼쳐진다. 옥포해전 모형·해양 탐험 체험관·수족관을 갖추고 있으며 부산항과 영도 앞바다 전망이 일품이다.",
+      "source_urls": [
+        "https://www.knmm.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "국립해양박물관",
+        "부산",
+        "영도",
+        "해양문화",
+        "수족관",
+        "어린이체험",
+        "부산항"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-08T09:22:53",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00 (월요일 휴관)",
+      "phone": "051-309-1900"
+    },
+    {
+      "experience_id": "EX-GG-MUS-002",
+      "name": "국립과천과학관",
+      "category_main": "문화/체험",
+      "category_sub": "과학관",
+      "region_main": "GG",
+      "region_sub": "경기도 과천시",
+      "address": "경기도 과천시 상하벌로 110",
+      "lat": 37.4272,
+      "lng": 126.9886,
+      "price": "성인 4,000원",
+      "duration": "2~4시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "어린이",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "서울 근교 대표 가족 나들이 명소로 최첨단 과학기술 체험 전시와 천체투영관, 인터랙티브 과학 놀이터를 운영한다. 상상홀 대형 공룡 로봇과 4D영상관이 특히 어린이들에게 인기가 높다.",
+      "source_urls": [
+        "https://www.sciencecenter.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "국립과천과학관",
+        "과천",
+        "경기",
+        "과학체험",
+        "어린이",
+        "천체투영관",
+        "서울근교"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-08T09:22:53",
+      "operation_status": "active",
+      "operating_hours": "09:30~17:30 (월요일 휴관)",
+      "phone": "02-3677-1500"
+    },
+    {
+      "experience_id": "EX-JB-VIL-001",
+      "name": "임실치즈마을",
+      "category_main": "문화/체험",
+      "category_sub": "농촌 체험",
+      "region_main": "JB",
+      "region_sub": "전라북도 임실군",
+      "address": "전라북도 임실군 임실읍 치즈마을로 2",
+      "lat": 35.6163,
+      "lng": 127.2794,
+      "price": "체험 프로그램 1인 12,000원~",
+      "duration": "2~3시간",
+      "reservation_required": true,
+      "target_user": [
+        "가족",
+        "어린이"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "1967년 지정환 신부가 시작한 국내 첫 치즈 제조지에서 운영하는 농촌 체험 마을이다. 치즈 만들기·피자 만들기·양젖 짜기 등 유제품 전 과정을 체험할 수 있으며 가족 단위 어린이 농촌 교육 프로그램이 풍부하다.",
+      "source_urls": [
+        "https://www.cheesemaul.com/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "임실치즈마을",
+        "치즈체험",
+        "임실",
+        "전북",
+        "농촌체험",
+        "피자만들기",
+        "어린이체험"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-08T09:27:54",
+      "operation_status": "active",
+      "operating_hours": "09:00~17:00",
+      "phone": "063-643-3700"
+    },
+    {
+      "experience_id": "EX-GN-VIL-002",
+      "name": "산청 지리산 한방 약초 체험",
+      "category_main": "문화/체험",
+      "category_sub": "농촌 체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 산청군",
+      "address": "경상남도 산청군 산청읍 동의보감로 555",
+      "lat": 35.4136,
+      "lng": 127.8734,
+      "price": "체험 1인 10,000원~",
+      "duration": "2시간",
+      "reservation_required": true,
+      "target_user": [
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "동의보감 한방 테마파크 내 약초 채취·한방차 만들기·약재 탕전 체험을 운영한다. 지리산 청정 자연 속 진귀한 약초를 직접 관찰하고 허준의 동의보감을 테마로 한 한의학 체험관을 함께 둘러볼 수 있다.",
+      "source_urls": [
+        "https://www.donguibogam.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "동의보감",
+        "한방체험",
+        "약초",
+        "산청",
+        "지리산",
+        "한의학",
+        "경남"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-08T09:27:54",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00 (월요일 휴관)",
+      "phone": "055-970-8762"
+    },
+    {
+      "experience_id": "EX-IC-VIL-001",
+      "name": "강화 고려 역사 체험마을",
+      "category_main": "문화/체험",
+      "category_sub": "체험마을",
+      "region_main": "IC",
+      "region_sub": "인천광역시 강화군",
+      "address": "인천광역시 강화군 강화읍 고려궁지길 35",
+      "lat": 37.7478,
+      "lng": 126.4893,
+      "price": "체험 1인 5,000원~",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "어린이",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "고려 대몽항쟁기 수도였던 강화도에서 고려 갑옷 입기·전통 활쏘기·고려청자 문양 찍기 등을 체험하는 역사 테마 마을이다. 고려궁지·강화산성과 함께 방문하면 몽골 항쟁 700년 역사를 입체적으로 느낄 수 있다.",
+      "source_urls": [
+        "https://www.ganghwa.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "강화도",
+        "고려역사",
+        "갑옷체험",
+        "활쏘기",
+        "고려청자",
+        "대몽항쟁",
+        "인천"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-08T09:27:54",
+      "operation_status": "active",
+      "operating_hours": "09:00~17:00",
+      "phone": "032-934-7887"
+    },
+    {
+      "experience_id": "EX-GW-ADV-001",
+      "name": "인제 합강 래프팅",
+      "category_main": "문화/체험",
+      "category_sub": "어드벤처/레포츠",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 인제군",
+      "address": "강원특별자치도 인제군 인제읍 합강로 8",
+      "lat": 38.0608,
+      "lng": 128.1711,
+      "price": "1인 40,000원~",
+      "duration": "2~3시간",
+      "reservation_required": true,
+      "target_user": [
+        "개인",
+        "커플",
+        "청년"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "내린천 협곡을 따라 내려오는 강원도 대표 래프팅 코스다. 수위에 따라 난이도가 달라지는 자연 급류와 드라마틱한 바위 협곡 경관이 어우러지며, 초보자 코스부터 상급자 코스까지 선택할 수 있다.",
+      "source_urls": [
+        "https://www.inje.go.kr/tour/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "래프팅",
+        "인제",
+        "강원",
+        "내린천",
+        "어드벤처",
+        "급류",
+        "여름여행"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-08T09:27:54",
+      "operation_status": "seasonal",
+      "operating_hours": "08:00~17:00 (5~10월)",
+      "phone": "033-461-4296"
+    },
+    {
+      "experience_id": "EX-GW-ADV-002",
+      "name": "평창 짚와이어 체험 (알펜시아)",
+      "category_main": "문화/체험",
+      "category_sub": "어드벤처/레포츠",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 평창군",
+      "address": "강원특별자치도 평창군 대관령면 올림픽로 715",
+      "lat": 37.6637,
+      "lng": 128.6935,
+      "price": "1인 30,000원~",
+      "duration": "1시간",
+      "reservation_required": true,
+      "target_user": [
+        "개인",
+        "커플",
+        "청년"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "평창 알펜시아 리조트의 높은 지점에서 스키 점프대 방향으로 활강하는 짚와이어 체험이다. 최고 시속 100km로 대관령 고원과 올림픽 시설 전경을 내려다보며 스릴 넘치는 경험을 할 수 있다.",
+      "source_urls": [
+        "https://www.alpensia.com/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "짚와이어",
+        "평창",
+        "알펜시아",
+        "어드벤처",
+        "대관령",
+        "강원",
+        "스릴체험"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-08T09:27:54",
+      "operation_status": "active",
+      "operating_hours": "09:00~17:00",
+      "phone": "033-339-0000"
+    },
+    {
+      "experience_id": "EX-GJ-ADV-001",
+      "name": "광주 무등산 패러글라이딩",
+      "category_main": "문화/체험",
+      "category_sub": "어드벤처/레포츠",
+      "region_main": "GJ",
+      "region_sub": "광주광역시 동구",
+      "address": "광주광역시 동구 무등산로 781 (원효사 상단)",
+      "lat": 35.143,
+      "lng": 126.9897,
+      "price": "1인 100,000원~",
+      "duration": "1~2시간 (비행 10~15분)",
+      "reservation_required": true,
+      "target_user": [
+        "개인",
+        "커플",
+        "청년"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "무등산 상단에서 이륙해 광주 시내와 영산강 평야를 조망하며 하강하는 패러글라이딩 체험이다. 전문 교관 동반 2인승 탠덤 비행으로 운영되어 초보자도 안전하게 즐길 수 있다.",
+      "source_urls": [
+        "https://www.gwangju.go.kr/tour/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "패러글라이딩",
+        "무등산",
+        "광주",
+        "어드벤처",
+        "탠덤비행",
+        "광주시내전망"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-08T09:27:54",
+      "operation_status": "active",
+      "operating_hours": "날씨 좋은 날 운영 (요일 무관)",
+      "phone": "062-226-3434"
+    },
+    {
+      "experience_id": "EX-GG-HAO-001",
+      "name": "수원 화성행궁 한옥 스테이",
+      "category_main": "문화/체험",
+      "category_sub": "한옥 숙박",
+      "region_main": "GG",
+      "region_sub": "경기도 수원시",
+      "address": "경기도 수원시 팔달구 행궁로 11",
+      "lat": 37.279,
+      "lng": 126.993,
+      "price": "1박 80,000원~",
+      "duration": "1박 2일",
+      "reservation_required": true,
+      "target_user": [
+        "커플",
+        "개인",
+        "외국인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "유네스코 세계문화유산 수원화성 내 화성행궁 인근의 전통 한옥 숙박 시설이다. 한복 대여·전통 다도 체험·밤 화성 성곽 산책을 포함한 패키지를 운영하며 정조대왕의 효심이 담긴 화성의 역사를 느끼며 하룻밤을 보낼 수 있다.",
+      "source_urls": [
+        "https://www.swcf.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "수원화성",
+        "한옥스테이",
+        "행궁",
+        "유네스코",
+        "경기",
+        "전통숙박",
+        "정조대왕"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-08T09:27:54",
+      "operation_status": "active",
+      "operating_hours": "연중 (예약 필수)",
+      "phone": "031-290-3600"
+    },
+    {
+      "experience_id": "EX-GN-HAO-001",
+      "name": "하동 악양 최참판댁 고택 체험",
+      "category_main": "문화/체험",
+      "category_sub": "한옥 숙박",
+      "region_main": "GN",
+      "region_sub": "경상남도 하동군",
+      "address": "경상남도 하동군 악양면 평사리길 66-7",
+      "lat": 35.0672,
+      "lng": 127.6543,
+      "price": "1박 70,000원~",
+      "duration": "1박 2일",
+      "reservation_required": true,
+      "target_user": [
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "소설 토지의 배경 평사리에 재현된 최참판댁 고택에서의 하룻밤 숙박 체험이다. 악양 들판과 지리산 섬진강을 배경으로 한 고택에서 전통 한식 조식을 즐기고 박경리 토지 문학관과 연계한 문학 여행을 즐길 수 있다.",
+      "source_urls": [
+        "https://www.hadong.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "최참판댁",
+        "고택체험",
+        "하동",
+        "토지",
+        "박경리",
+        "섬진강",
+        "지리산",
+        "경남"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-08T09:27:54",
+      "operation_status": "active",
+      "operating_hours": "연중 (예약 필수)",
+      "phone": "055-880-2960"
+    },
+    {
+      "experience_id": "EX-GG-MUS-003",
+      "name": "파주 출판도시 지혜의 숲",
+      "category_main": "문화/체험",
+      "category_sub": "박물관",
+      "region_main": "GG",
+      "region_sub": "경기도 파주시",
+      "address": "경기도 파주시 회동길 145",
+      "lat": 37.7374,
+      "lng": 126.7224,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "파주 출판도시 내 50만 권의 책이 천장까지 가득 쌓인 거대 도서 창고형 도서관이다. 총 길이 200m, 3개 관에 걸쳐 출판사·학자들이 기증한 책들로 채워진 독특한 공간으로 책 향기와 압도적인 서가 미감이 특별하다.",
+      "source_urls": [
+        "https://www.forestofwisdom.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "지혜의숲",
+        "파주",
+        "출판도시",
+        "도서관",
+        "책",
+        "경기",
+        "무료체험"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-08T09:27:54",
+      "operation_status": "active",
+      "operating_hours": "10:00~20:00 (연중무휴)",
+      "phone": "031-955-0050"
+    },
+    {
+      "experience_id": "EX-GG-MUS-004",
+      "name": "수원 국립농업박물관",
+      "category_main": "문화/체험",
+      "category_sub": "박물관",
+      "region_main": "GG",
+      "region_sub": "경기도 수원시",
+      "address": "경기도 수원시 권선구 수인로 154",
+      "lat": 37.2471,
+      "lng": 127.0208,
+      "price": "무료",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "어린이",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "2022년 개관한 아시아 최대 규모의 농업 전문 박물관이다. 선사 시대부터 현대 스마트 팜까지 농업의 역사를 체험하는 공간으로 볍씨·모내기·수확 시뮬레이션, 씨앗 도서관, 어린이 농업 체험 시설이 갖춰져 있다.",
+      "source_urls": [
+        "https://www.namuk.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "국립농업박물관",
+        "수원",
+        "경기",
+        "농업역사",
+        "어린이체험",
+        "스마트팜",
+        "무료박물관"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-08T09:27:54",
+      "operation_status": "active",
+      "operating_hours": "09:30~17:30 (월요일 휴관)",
+      "phone": "031-8030-6400"
+    },
+    {
+      "experience_id": "EX-CB-MUS-001",
+      "name": "청주 국립청주박물관",
+      "category_main": "문화/체험",
+      "category_sub": "박물관",
+      "region_main": "CB",
+      "region_sub": "충청북도 청주시",
+      "address": "충청북도 청주시 상당구 명암로 143",
+      "lat": 36.657,
+      "lng": 127.5198,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "청주 지역 출토 선사~조선 시대 유물과 세계 최초 금속활자본 직지심체요절 복원본을 전시하는 국립 박물관이다. 직지 관련 체험과 인쇄 역사 전시가 특색 있으며 상당산성과 함께 청주 역사 여행 거점으로 활용할 수 있다.",
+      "source_urls": [
+        "https://cheongju.museum.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "청주박물관",
+        "직지심체요절",
+        "금속활자",
+        "충북",
+        "청주",
+        "역사박물관",
+        "무료"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-08T09:27:54",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00 (월요일 휴관)",
+      "phone": "043-229-6300"
+    },
+    {
+      "experience_id": "EX-JN-MUS-001",
+      "name": "목포 국립해양유물전시관",
+      "category_main": "문화/체험",
+      "category_sub": "박물관",
+      "region_main": "JN",
+      "region_sub": "전라남도 목포시",
+      "address": "전라남도 목포시 남농로 136",
+      "lat": 34.7894,
+      "lng": 126.3764,
+      "price": "성인 3,000원",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "신안 앞바다에서 인양된 원·고려 시대 도자기 2만여 점과 조선 시대 선박 실물을 전시하는 해양 유물 전문 박물관이다. 난파선 목선 복원 전시와 수중 발굴 체험 코너가 특색 있으며 고려청자의 실물 규모를 한눈에 볼 수 있다.",
+      "source_urls": [
+        "https://www.seamuse.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "국립해양유물전시관",
+        "목포",
+        "고려청자",
+        "해양유물",
+        "신안",
+        "난파선",
+        "전남"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-08T09:27:54",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00 (월요일 휴관)",
+      "phone": "061-270-2000"
+    },
+    {
+      "experience_id": "EX-DG-MUS-001",
+      "name": "대구 국립대구박물관",
+      "category_main": "문화/체험",
+      "category_sub": "박물관",
+      "region_main": "DG",
+      "region_sub": "대구광역시 수성구",
+      "address": "대구광역시 수성구 청호로 321",
+      "lat": 35.8419,
+      "lng": 128.6316,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "삼국 시대 가야·신라 유물과 영남 지역 불교 문화재를 중심으로 전시하는 국립 박물관이다. 복원 가야 철기·신라 금관 복원품·불화 특별전시 등을 운영하며 대구 근대역사관과 함께 대구 역사 여행의 거점이 된다.",
+      "source_urls": [
+        "https://daegu.museum.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "국립대구박물관",
+        "대구",
+        "가야",
+        "신라",
+        "영남",
+        "불교문화재",
+        "무료박물관"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-08T09:27:54",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00 (월요일 휴관)",
+      "phone": "053-768-6051"
+    },
+    {
+      "experience_id": "EX-US-MUS-001",
+      "name": "울산 암각화박물관",
+      "category_main": "문화/체험",
+      "category_sub": "박물관",
+      "region_main": "US",
+      "region_sub": "울산광역시 울주군",
+      "address": "울산광역시 울주군 두동면 반구대안길 254",
+      "lat": 35.6106,
+      "lng": 129.1622,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "국보 반구대 암각화(약 7,000년 전)와 천전리 각석의 신석기·청동기 암각화를 실물 크기 복제·해설로 이해하는 박물관이다. 선사인의 사냥·고래잡이 장면이 새겨진 반구대 암각화는 인류 최초의 포경 기록으로 유네스코 세계유산 등재가 추진 중이다.",
+      "source_urls": [
+        "https://bangudae.ulsan.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "반구대암각화",
+        "울산",
+        "선사시대",
+        "암각화",
+        "국보",
+        "고래잡이",
+        "울주군"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-08T09:27:54",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00 (월요일 휴관)",
+      "phone": "052-229-4797"
     }
   ],
   "last_updated": "2026-05-07T04:18:31"

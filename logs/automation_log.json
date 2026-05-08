@@ -868,6 +868,46 @@
       "mode": "B",
       "new_collected": 9,
       "total": 489
+    },
+    {
+      "time": "2026-05-08T09:22:53",
+      "mode": "B",
+      "type": "체험학습",
+      "new_collected": 15,
+      "total_experiences": 69
+    },
+    {
+      "time": "2026-05-08T09:26:14",
+      "mode": "C",
+      "content_generated": 5,
+      "places": [
+        "GK-GW-SNS-0001",
+        "GK-JJ-SEA-0001",
+        "GK-BS-SEA-0001",
+        "GK-GW-SEA-0001",
+        "GK-JJ-WAT-0001"
+      ],
+      "total_scripts": 250
+    },
+    {
+      "time": "2026-05-08T09:27:54",
+      "mode": "B",
+      "type": "체험학습",
+      "new_collected": 14,
+      "total_experiences": 83
+    },
+    {
+      "time": "2026-05-08T09:31:04",
+      "mode": "C",
+      "content_generated": 5,
+      "places": [
+        "GK-GG-MUS-0001",
+        "GK-GN-BIS-0001",
+        "GK-GB-WAN-0001",
+        "GK-GN-SNS-0001",
+        "GK-GB-SNS-0001"
+      ],
+      "total_scripts": 255
     }
   ]
 }
