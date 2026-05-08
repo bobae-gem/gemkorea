@@ -908,6 +908,26 @@
         "GK-GB-SNS-0001"
       ],
       "total_scripts": 255
+    },
+    {
+      "time": "2026-05-08T09:35:30",
+      "mode": "B",
+      "type": "체험학습",
+      "new_collected": 13,
+      "total_experiences": 96
+    },
+    {
+      "time": "2026-05-08T09:35:30",
+      "mode": "C",
+      "content_generated": 5,
+      "places": [
+        "GK-JJ-WAT-0002",
+        "GK-GW-CAV-0001",
+        "GK-JN-SCN-0001",
+        "GK-GB-SCN-0001",
+        "GK-JN-ISL-0001"
+      ],
+      "total_scripts": 260
     }
   ]
 }
