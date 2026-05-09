@@ -1,8 +1,8 @@
 {
   "_comment": "겜코리아 체험 데이터 — 역사/자연 마커와 분리. 삭제 금지. 젬투어 상품 후보.",
   "_version": "1.0",
-  "_updated": "2026-05-09T12:50:27",
-  "total": 182,
+  "_updated": "2026-05-09T12:54:12",
+  "total": 194,
   "experiences": [
     {
       "experience_id": "EX-SE-MKT-001",
@@ -7492,6 +7492,488 @@
       "operation_status": "active",
       "operating_hours": "롯데월드 운영시간 동일",
       "phone": "02-411-2000"
+    },
+    {
+      "experience_id": "EX-GG-ART-003",
+      "name": "양주 장욱진미술관",
+      "category_main": "문화/체험",
+      "category_sub": "미술관",
+      "region_main": "GG",
+      "region_sub": "경기도 양주시",
+      "address": "경기도 양주시 장흥면 권율로 193",
+      "lat": 37.8085,
+      "lng": 127.0116,
+      "price": "성인 4,000원",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "한국 근현대 화가 장욱진의 독특한 소우주 그림들을 전시한 전문 미술관이다. 자연 속 아담한 미술관으로 산책로와 함께 수도권 당일 드라이브 코스로 인기가 높다.",
+      "source_urls": [
+        "https://www.changucchin.com/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "장욱진미술관",
+        "양주",
+        "경기",
+        "미술관",
+        "한국화",
+        "드라이브",
+        "자연속미술관"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-09T12:54:12",
+      "operation_status": "active",
+      "operating_hours": "10:00~18:00 (월요일 휴관)",
+      "phone": "031-8082-4245"
+    },
+    {
+      "experience_id": "EX-SE-ART-006",
+      "name": "서울 DDP 디자인플라자 야경",
+      "category_main": "문화/체험",
+      "category_sub": "야경/야간투어",
+      "region_main": "SE",
+      "region_sub": "서울특별시 중구",
+      "address": "서울특별시 중구 을지로 281",
+      "lat": 37.567,
+      "lng": 127.0096,
+      "price": "무료 (전시 유료)",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인",
+        "외국인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "자하 하디드 설계의 DDP(동대문디자인플라자) 야간 조명이 켜지면 은빛 UFO 같은 비정형 건물이 더욱 초현실적인 풍경을 만들어낸다. 패션·디자인 전시와 함께 야경 사진 명소로 외국인 관광객에게 인기가 높다.",
+      "source_urls": [
+        "https://www.ddp.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "DDP",
+        "동대문디자인플라자",
+        "서울",
+        "야경",
+        "자하하디드",
+        "건축",
+        "외국인"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-09T12:54:12",
+      "operation_status": "active",
+      "operating_hours": "10:00~21:00 (야경: 일몰~24:00)",
+      "phone": "02-2153-0000"
+    },
+    {
+      "experience_id": "EX-CN-OCN-002",
+      "name": "보령 천북 굴 구이 체험",
+      "category_main": "문화/체험",
+      "category_sub": "발효/음식",
+      "region_main": "CN",
+      "region_sub": "충청남도 보령시",
+      "address": "충청남도 보령시 천북면 천북로 일원",
+      "lat": 36.4258,
+      "lng": 126.5997,
+      "price": "굴 한 망 15,000원~",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "서해안 굴 집산지 보령 천북에서 직접 굴을 구워 먹는 체험이다. 11~3월 굴 시즌에 갯벌에서 갓 수확한 굴을 직화로 구워 먹는 천북 굴 구이 문화는 50년 전통의 서해안 대표 먹거리 체험이다.",
+      "source_urls": [
+        "https://www.boryeong.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "천북굴구이",
+        "보령",
+        "충남",
+        "서해굴",
+        "굴구이",
+        "먹거리체험",
+        "겨울여행"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-09T12:54:12",
+      "operation_status": "seasonal",
+      "operating_hours": "11~3월 굴 시즌",
+      "phone": "041-930-3241"
+    },
+    {
+      "experience_id": "EX-GN-OCN-001",
+      "name": "남해 미조항 멸치 액젓 담그기",
+      "category_main": "문화/체험",
+      "category_sub": "발효/음식",
+      "region_main": "GN",
+      "region_sub": "경상남도 남해군",
+      "address": "경상남도 남해군 미조면 미조항 일원",
+      "lat": 34.8233,
+      "lng": 127.8789,
+      "price": "1인 20,000원",
+      "duration": "2시간",
+      "reservation_required": true,
+      "target_user": [
+        "개인",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "남해 미조항에서 봄철 멸치잡이 조업을 견학하고 전통 방식으로 멸치액젓을 직접 담그는 체험이다. 남해 멸치가 전국에서 가장 유명한 이유와 액젓 발효 과정을 배우고 옹기에 담은 액젓을 가져간다.",
+      "source_urls": [
+        "https://www.namhae.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "멸치액젓",
+        "남해",
+        "경남",
+        "미조항",
+        "멸치잡이",
+        "발효음식",
+        "어촌체험"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-09T12:54:12",
+      "operation_status": "seasonal",
+      "operating_hours": "4~6월 멸치 시즌",
+      "phone": "055-860-3542"
+    },
+    {
+      "experience_id": "EX-CB-HST-002",
+      "name": "충주 탄금대 열두대 투어",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "CB",
+      "region_sub": "충청북도 충주시",
+      "address": "충청북도 충주시 탄금대로 40",
+      "lat": 36.9815,
+      "lng": 127.9352,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "가야금을 만든 신라 가야고국 우륵이 음악을 연주하던 탄금대와 임진왜란 신립 장군 전투지를 탐방하는 역사 투어다. 남한강이 내려다보이는 절벽 위에서 두 개의 역사가 교차하는 현장을 걷는다.",
+      "source_urls": [
+        "https://www.chungju.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "탄금대",
+        "충주",
+        "충북",
+        "우륵",
+        "가야금",
+        "임진왜란",
+        "신립장군"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-09T12:54:12",
+      "operation_status": "active",
+      "operating_hours": "연중 (무료)",
+      "phone": "043-850-6754"
+    },
+    {
+      "experience_id": "EX-GG-HST-002",
+      "name": "행주산성 역사 탐방",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GG",
+      "region_sub": "경기도 고양시",
+      "address": "경기도 고양시 덕양구 행주로 15번길 89",
+      "lat": 37.6089,
+      "lng": 126.8366,
+      "price": "성인 1,000원",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "임진왜란 3대 대첩 중 하나인 행주대첩 현장을 탐방한다. 권율 장군이 부녀자들의 치마 돌 나르기로 왜군을 물리친 산성과 전승 기념관을 둘러보며 의병 항쟁의 역사를 이해한다.",
+      "source_urls": [
+        "https://www.goyang.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "행주산성",
+        "고양",
+        "경기",
+        "행주대첩",
+        "권율",
+        "임진왜란",
+        "3대대첩"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-09T12:54:12",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00 (동절기 17:00)",
+      "phone": "031-924-9520"
+    },
+    {
+      "experience_id": "EX-JB-FUD-003",
+      "name": "남원 추어탕 골목 투어",
+      "category_main": "문화/체험",
+      "category_sub": "지역 먹거리",
+      "region_main": "JB",
+      "region_sub": "전라북도 남원시",
+      "address": "전라북도 남원시 남문로 일원",
+      "lat": 35.4162,
+      "lng": 127.3915,
+      "price": "1만원~",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "전국 추어탕 맛집의 원조 남원 추어탕 골목을 탐방하는 로컬 먹거리 투어다. 미꾸라지를 통째로 갈아 넣은 진한 남원식 추어탕을 본고장에서 맛보며 50년 이상 이어온 노포 식당들을 방문한다.",
+      "source_urls": [
+        "https://www.namwon.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "추어탕",
+        "남원",
+        "전북",
+        "남원추어탕",
+        "로컬먹거리",
+        "노포",
+        "미꾸라지"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-09T12:54:12",
+      "operation_status": "active",
+      "operating_hours": "11:00~21:00",
+      "phone": "063-620-6655"
+    },
+    {
+      "experience_id": "EX-GG-FUD-003",
+      "name": "이천 도자기 축제 + 쌀밥 투어",
+      "category_main": "문화/체험",
+      "category_sub": "지역 먹거리",
+      "region_main": "GG",
+      "region_sub": "경기도 이천시",
+      "address": "경기도 이천시 경충대로2709번길 일원",
+      "lat": 37.2707,
+      "lng": 127.4445,
+      "price": "축제 무료 (밥 별도)",
+      "duration": "3~5시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "이천 도예 마을에서 왕실 도자기 물레 체험 후 이천 임금님표 쌀밥 정식을 먹는 코스다. 조선 왕실에 진상하던 이천 쌀로 지은 돌솥밥과 제철 나물 반찬을 이천 향토 식당에서 맛본다.",
+      "source_urls": [
+        "https://www.icheon.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "이천쌀밥",
+        "이천",
+        "경기",
+        "도자기",
+        "쌀밥정식",
+        "임금님표",
+        "도예체험"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-09T12:54:12",
+      "operation_status": "active",
+      "operating_hours": "11:00~21:00",
+      "phone": "031-644-2538"
+    },
+    {
+      "experience_id": "EX-GN-NAT-001",
+      "name": "창녕 우포늪 생태 탐방",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 창녕군",
+      "address": "경상남도 창녕군 유어면 우포길 220",
+      "lat": 35.5556,
+      "lng": 128.4258,
+      "price": "무료",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "국내 최대 자연 내륙 습지 우포늪을 탐방하는 생태 코스다. 람사르 협약 보호 습지로 천연기념물 황새·가창오리·재두루미가 겨울에 서식하며, 수상 탐방로를 걸으며 습지 생태계를 관찰할 수 있다.",
+      "source_urls": [
+        "https://www.upo.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "우포늪",
+        "창녕",
+        "경남",
+        "람사르습지",
+        "황새",
+        "생태탐방",
+        "내륙습지"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-09T12:54:12",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00",
+      "phone": "055-532-1403"
+    },
+    {
+      "experience_id": "EX-GG-NAT-002",
+      "name": "포천 허브아일랜드 야경",
+      "category_main": "문화/체험",
+      "category_sub": "야경/야간투어",
+      "region_main": "GG",
+      "region_sub": "경기도 포천시",
+      "address": "경기도 포천시 신북면 청신로947번길 35",
+      "lat": 38.0152,
+      "lng": 127.2152,
+      "price": "성인 12,000원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "허브 정원이 가득한 포천 허브아일랜드는 야간에 수십만 개의 조명이 켜지며 환상적인 일루미네이션 정원이 된다. 서울 근교 겨울 야경 명소로 허브차 체험·향수 만들기와 함께 즐길 수 있다.",
+      "source_urls": [
+        "https://www.herbisland.co.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "허브아일랜드",
+        "포천",
+        "경기",
+        "야경",
+        "일루미네이션",
+        "허브정원",
+        "커플"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-09T12:54:12",
+      "operation_status": "active",
+      "operating_hours": "09:00~22:00",
+      "phone": "031-535-6494"
+    },
+    {
+      "experience_id": "EX-GG-MUS-005",
+      "name": "수원 수원박물관 역사 체험",
+      "category_main": "문화/체험",
+      "category_sub": "박물관",
+      "region_main": "GG",
+      "region_sub": "경기도 수원시",
+      "address": "경기도 수원시 영통구 이의로 160",
+      "lat": 37.2992,
+      "lng": 127.0574,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "수원화성 건설 과정과 정조대왕의 개혁 정치를 체험형 전시로 이해하는 박물관이다. 어린이 역사 체험관과 정조 어가 행렬 복원 전시, 수원 지역사 자료가 특색 있게 구성되어 있다.",
+      "source_urls": [
+        "https://swmuseum.suwon.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "수원박물관",
+        "수원",
+        "경기",
+        "정조대왕",
+        "수원화성",
+        "무료",
+        "역사교육"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-09T12:54:12",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00 (월요일 휴관)",
+      "phone": "031-228-4150"
+    },
+    {
+      "experience_id": "EX-GW-MUS-001",
+      "name": "강릉 오죽헌·시립박물관",
+      "category_main": "문화/체험",
+      "category_sub": "박물관",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 강릉시",
+      "address": "강원특별자치도 강릉시 율곡로3139번길 24",
+      "lat": 37.7704,
+      "lng": 128.8978,
+      "price": "성인 3,000원",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인",
+        "외국인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "5000원권 지폐의 율곡 이이와 어머니 신사임당이 태어난 오죽헌 고택과 강릉시립박물관을 함께 관람하는 코스다. 오죽(검은 대나무) 숲이 있는 고택에서 조선 최고 유학자의 생가를 직접 방문하는 역사 체험이다.",
+      "source_urls": [
+        "https://ojukheon.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "오죽헌",
+        "율곡이이",
+        "신사임당",
+        "강릉",
+        "강원",
+        "5000원지폐",
+        "역사"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-09T12:54:12",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00",
+      "phone": "033-660-3301"
     }
   ],
   "last_updated": "2026-05-07T04:18:31"
