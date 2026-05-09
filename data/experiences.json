@@ -1,8 +1,8 @@
 {
   "_comment": "겜코리아 체험 데이터 — 역사/자연 마커와 분리. 삭제 금지. 젬투어 상품 후보.",
   "_version": "1.0",
-  "_updated": "2026-05-09T13:25:12",
-  "total": 206,
+  "_updated": "2026-05-09T23:54:37",
+  "total": 218,
   "experiences": [
     {
       "experience_id": "EX-SE-MKT-001",
@@ -478,7 +478,7 @@
         "서울대공원"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-06T02:13:45",
       "operation_status": "active",
       "operating_hours": "",
@@ -531,7 +531,7 @@
         "이우환"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-06T02:13:45",
       "operation_status": "needs_check",
       "operating_hours": "",
@@ -807,7 +807,7 @@
         "종로"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-06T02:13:45",
       "operation_status": "needs_check",
       "operating_hours": "",
@@ -8466,6 +8466,495 @@
       "operation_status": "active",
       "operating_hours": "09:30~18:00 (연중)",
       "phone": "055-632-0362"
+    },
+    {
+      "experience_id": "EX-SE-MUS-003",
+      "name": "서울 전쟁기념관",
+      "category_main": "문화/체험",
+      "category_sub": "박물관",
+      "region_main": "SE",
+      "region_sub": "서울특별시 용산구",
+      "address": "서울특별시 용산구 이태원로 29",
+      "lat": 37.5364,
+      "lng": 126.977,
+      "price": "무료",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인",
+        "외국인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "6·25 전쟁과 한국 군사 역사를 전시하는 국내 최대 규모의 전쟁 기념 박물관이다. 실내 전시관과 옥외 장비 전시장에 전차·전투기·함선이 전시되어 있으며 무료로 관람할 수 있다.",
+      "source_urls": [
+        "https://www.warmemo.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "전쟁기념관",
+        "서울",
+        "용산",
+        "6·25전쟁",
+        "무료",
+        "군사역사",
+        "전차"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-09T23:54:37",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00 (월요일 휴관)",
+      "phone": "02-709-3139"
+    },
+    {
+      "experience_id": "EX-GG-CUL-001",
+      "name": "수원 화성행궁 정조대왕 능행차",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GG",
+      "region_sub": "경기도 수원시",
+      "address": "경기도 수원시 팔달구 행궁로 11",
+      "lat": 37.2791,
+      "lng": 126.993,
+      "price": "무료 관람",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인",
+        "외국인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "매년 10월 정조대왕의 어머니 혜경궁 홍씨를 위한 능행차 행렬을 재현하는 수원 최대 문화 축제다. 화성행궁부터 수원화성 성곽을 따라 이어지는 1,700명 규모의 왕실 행렬이 장관이다.",
+      "source_urls": [
+        "https://www.swcf.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "정조능행차",
+        "수원화성",
+        "행궁",
+        "경기",
+        "역사재현",
+        "가을축제",
+        "정조대왕"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-09T23:54:37",
+      "operation_status": "annual",
+      "operating_hours": "매년 10월 (2일간)",
+      "phone": "031-290-3600"
+    },
+    {
+      "experience_id": "EX-JN-CRF-006",
+      "name": "나주 천연 쪽염색 심화 체험",
+      "category_main": "문화/체험",
+      "category_sub": "전통공예",
+      "region_main": "JN",
+      "region_sub": "전라남도 나주시",
+      "address": "전라남도 나주시 다시면 백호로 379",
+      "lat": 35.0348,
+      "lng": 126.7098,
+      "price": "1인 25,000원",
+      "duration": "2~3시간",
+      "reservation_required": true,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "천년 역사의 나주 쪽빛 천연염색을 심화 체험하는 프로그램이다. 기본 홀치기는 물론 비틀기·묶기·주름잡기 등 다양한 기법으로 스카프·티셔츠를 물들이고 나만의 패턴을 만든다.",
+      "source_urls": [
+        "https://www.najuindigo.com/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "쪽염색",
+        "나주",
+        "전남",
+        "천연염색",
+        "공예체험",
+        "쪽빛",
+        "심화체험"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-09T23:54:37",
+      "operation_status": "active",
+      "operating_hours": "10:00~17:00",
+      "phone": "061-335-0091"
+    },
+    {
+      "experience_id": "EX-GB-CUL-001",
+      "name": "경주 신라 전통 금속공예 체험",
+      "category_main": "문화/체험",
+      "category_sub": "전통공예",
+      "region_main": "GB",
+      "region_sub": "경상북도 경주시",
+      "address": "경상북도 경주시 황남동 90-1",
+      "lat": 35.8347,
+      "lng": 129.2171,
+      "price": "1인 25,000원",
+      "duration": "1~2시간",
+      "reservation_required": true,
+      "target_user": [
+        "개인",
+        "커플",
+        "외국인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "황리단길 인근 공방에서 신라 시대 금·은세공 기법을 현대 방식으로 재현하는 금속 공예 체험이다. 순은 반지·팔찌를 직접 두드려 만들고 신라 전통 문양을 새긴다.",
+      "source_urls": [
+        "https://www.gyeongju.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "신라금속공예",
+        "경주",
+        "경북",
+        "황리단길",
+        "반지만들기",
+        "은공예",
+        "외국인체험"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-09T23:54:37",
+      "operation_status": "active",
+      "operating_hours": "10:00~18:00",
+      "phone": "054-779-6100"
+    },
+    {
+      "experience_id": "EX-GW-CUL-002",
+      "name": "강릉 단오제 체험",
+      "category_main": "문화/체험",
+      "category_sub": "축제",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 강릉시",
+      "address": "강원특별자치도 강릉시 남대천 단오장 일원",
+      "lat": 37.7476,
+      "lng": 128.8979,
+      "price": "무료 (체험 별도)",
+      "duration": "3~5시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인",
+        "외국인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "유네스코 인류무형문화유산 강릉 단오제에서 씨름·그네뛰기·창포 머리감기·탈놀이를 직접 체험하는 한국 최대 전통 축제다. 매년 음력 5월 단오에 1주일간 열린다.",
+      "source_urls": [
+        "https://www.danojefestival.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "강릉단오제",
+        "강릉",
+        "유네스코",
+        "단오",
+        "씨름",
+        "그네뛰기",
+        "강원"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-09T23:54:37",
+      "operation_status": "annual",
+      "operating_hours": "매년 음력 5월 단오 전후 (1주일)",
+      "phone": "033-641-1593"
+    },
+    {
+      "experience_id": "EX-SE-CUL-003",
+      "name": "서울 국립극장 전통 공연",
+      "category_main": "문화/체험",
+      "category_sub": "문화예술",
+      "region_main": "SE",
+      "region_sub": "서울특별시 중구",
+      "address": "서울특별시 중구 장충단로 59",
+      "lat": 37.5559,
+      "lng": 126.9974,
+      "price": "10,000원~",
+      "duration": "2시간",
+      "reservation_required": true,
+      "target_user": [
+        "개인",
+        "커플",
+        "외국인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "남산 자락 국립극장에서 판소리·국악 관현악·전통무용 공연을 감상하는 체험이다. 한국 전통 공연 예술의 정수를 현대적 무대에서 만나는 특별한 경험으로 외국인 관광객에게도 인기가 높다.",
+      "source_urls": [
+        "https://www.ntok.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "국립극장",
+        "서울",
+        "전통공연",
+        "판소리",
+        "국악",
+        "남산",
+        "외국인"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-09T23:54:37",
+      "operation_status": "active",
+      "operating_hours": "공연별 상이 (예약 필수)",
+      "phone": "02-2280-4114"
+    },
+    {
+      "experience_id": "EX-JB-CUL-003",
+      "name": "전주 전통 부채 합죽선 만들기",
+      "category_main": "문화/체험",
+      "category_sub": "전통공예",
+      "region_main": "JB",
+      "region_sub": "전라북도 전주시",
+      "address": "전라북도 전주시 완산구 경기전길 일원",
+      "lat": 35.8155,
+      "lng": 127.1518,
+      "price": "1인 25,000원",
+      "duration": "1~2시간",
+      "reservation_required": true,
+      "target_user": [
+        "개인",
+        "커플",
+        "외국인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "전주 한옥마을에서 조선 시대 선비들이 사용했던 합죽선(접이식 부채)을 직접 만드는 체험이다. 대나무 살을 고르고 한지를 붙이고 단청 문양을 그려 나만의 합죽선을 완성한다.",
+      "source_urls": [
+        "https://www.jeonju.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "합죽선",
+        "부채만들기",
+        "전주",
+        "전북",
+        "전통공예",
+        "한옥마을",
+        "조선시대"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-09T23:54:37",
+      "operation_status": "active",
+      "operating_hours": "10:00~17:00",
+      "phone": "063-282-1330"
+    },
+    {
+      "experience_id": "EX-GG-CUL-002",
+      "name": "남한산성 역사 트레킹",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GG",
+      "region_sub": "경기도 광주시",
+      "address": "경기도 광주시 남한산성면 남한산성로 784-16",
+      "lat": 37.4803,
+      "lng": 127.1754,
+      "price": "무료",
+      "duration": "3~4시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "가족",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "유네스코 세계문화유산 남한산성 성곽 9km를 걸으며 병자호란 역사를 체험하는 트레킹이다. 인조가 청나라에 굴복한 항복의 역사와 47일간 항전의 흔적을 성벽 위에서 직접 밟아본다.",
+      "source_urls": [
+        "https://www.namhansansung.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "남한산성",
+        "광주",
+        "경기",
+        "유네스코",
+        "병자호란",
+        "트레킹",
+        "역사"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-09T23:54:37",
+      "operation_status": "active",
+      "operating_hours": "연중 (탐방 안내소 09:00~18:00)",
+      "phone": "031-743-6610"
+    },
+    {
+      "experience_id": "EX-JN-CUL-001",
+      "name": "여수 이순신 광장 야간 역사 투어",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 여수시",
+      "address": "전라남도 여수시 이순신광장로 1",
+      "lat": 34.739,
+      "lng": 127.7381,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인",
+        "외국인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "여수 이순신 광장에서 거북선 복원 모형·이순신 동상·종포 해전 유적을 야간에 조명과 함께 탐방하는 투어다. 여수 밤바다와 함께 이순신 장군의 명량·노량 해전 이야기를 현장에서 들을 수 있다.",
+      "source_urls": [
+        "https://www.yeosu.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "이순신광장",
+        "여수",
+        "이순신",
+        "거북선",
+        "야간투어",
+        "전남",
+        "여수밤바다"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-09T23:54:37",
+      "operation_status": "active",
+      "operating_hours": "연중 야간 (조명: 일몰~22:00)",
+      "phone": "061-659-3746"
+    },
+    {
+      "experience_id": "EX-CB-CUL-001",
+      "name": "제천 의림지 국악 소풍",
+      "category_main": "문화/체험",
+      "category_sub": "문화예술",
+      "region_main": "CB",
+      "region_sub": "충청북도 제천시",
+      "address": "충청북도 제천시 의림대로 62",
+      "lat": 37.1481,
+      "lng": 128.1897,
+      "price": "공연 무료·소풍 패키지 유료",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "삼한 시대에 만들어진 국내 최고(最古) 저수지 의림지 주변에서 야외 국악 공연을 감상하며 소풍하는 체험이다. 호수와 소나무 숲을 배경으로 가야금·해금 연주를 들으며 전통 도시락을 즐긴다.",
+      "source_urls": [
+        "https://www.okjc.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "의림지",
+        "제천",
+        "충북",
+        "국악소풍",
+        "가야금",
+        "해금",
+        "전통도시락"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-09T23:54:37",
+      "operation_status": "seasonal",
+      "operating_hours": "봄·가을 주말 (4~5월·9~10월)",
+      "phone": "043-641-6731"
+    },
+    {
+      "experience_id": "EX-GN-CUL-001",
+      "name": "통영 나전칠기 체험",
+      "category_main": "문화/체험",
+      "category_sub": "전통공예",
+      "region_main": "GN",
+      "region_sub": "경상남도 통영시",
+      "address": "경상남도 통영시 통영해안로 일원",
+      "lat": 34.8545,
+      "lng": 128.4347,
+      "price": "1인 30,000원",
+      "duration": "2시간",
+      "reservation_required": true,
+      "target_user": [
+        "개인",
+        "커플",
+        "외국인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "한국 나전칠기의 발상지 통영에서 조개껍데기를 갈고 옻칠 위에 붙여 소품을 만드는 전통 공예 체험이다. 반짝이는 자개 조각으로 나만의 명함집·브로치를 완성한다.",
+      "source_urls": [
+        "https://www.tongyeong.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "나전칠기",
+        "통영",
+        "경남",
+        "자개",
+        "옻칠",
+        "전통공예",
+        "외국인체험"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-09T23:54:37",
+      "operation_status": "active",
+      "operating_hours": "10:00~17:00",
+      "phone": "055-650-4680"
+    },
+    {
+      "experience_id": "EX-GJ-CUL-001",
+      "name": "광주 비엔날레 현대미술 체험",
+      "category_main": "문화/체험",
+      "category_sub": "문화예술",
+      "region_main": "GJ",
+      "region_sub": "광주광역시 북구",
+      "address": "광주광역시 북구 비엔날레로 111",
+      "lat": 35.1702,
+      "lng": 126.9004,
+      "price": "성인 20,000원",
+      "duration": "3~4시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "세계 3대 비엔날레 중 하나인 광주 비엔날레(격년, 짝수 해)에서 전 세계 현대 미술가의 작품을 체험한다. 비엔날레 기간 외에도 광주비엔날레 전시관에서 상설 현대미술 전시가 운영된다.",
+      "source_urls": [
+        "https://www.gwangjubiennale.org/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "광주비엔날레",
+        "광주",
+        "현대미술",
+        "세계3대비엔날레",
+        "국제미술",
+        "전시체험"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-09T23:54:37",
+      "operation_status": "annual",
+      "operating_hours": "09:00~18:00 (비엔날레 기간/상설 운영)",
+      "phone": "062-608-4114"
     }
   ],
   "last_updated": "2026-05-07T04:18:31"
