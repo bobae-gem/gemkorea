@@ -1088,6 +1088,15 @@
         "GK-JN-ISL-0003"
       ],
       "total_scripts": 300
+    },
+    {
+      "time": "2026-05-09T13:25:12",
+      "mode": "B+C (통합)",
+      "type": "체험학습+체험숏츠",
+      "new_collected": 12,
+      "content_generated": 14,
+      "total_experiences": 206,
+      "total_experience_shorts": 31
     }
   ]
 }

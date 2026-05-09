@@ -1,8 +1,8 @@
 {
   "_comment": "겜코리아 체험 데이터 — 역사/자연 마커와 분리. 삭제 금지. 젬투어 상품 후보.",
   "_version": "1.0",
-  "_updated": "2026-05-09T12:54:12",
-  "total": 194,
+  "_updated": "2026-05-09T13:25:12",
+  "total": 206,
   "experiences": [
     {
       "experience_id": "EX-SE-MKT-001",
@@ -2930,7 +2930,7 @@
         "어린이체험"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-08T09:27:54",
       "operation_status": "active",
       "operating_hours": "09:00~17:00",
@@ -3498,7 +3498,7 @@
         "제주"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-08T09:35:30",
       "operation_status": "active",
       "operating_hours": "연중 (일출 전후 입산 제한)",
@@ -7122,7 +7122,7 @@
         "자전거"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:50:27",
       "operation_status": "active",
       "operating_hours": "09:00~17:00 (연중)",
@@ -7974,6 +7974,498 @@
       "operation_status": "active",
       "operating_hours": "09:00~18:00",
       "phone": "033-660-3301"
+    },
+    {
+      "experience_id": "EX-SE-TAE-001",
+      "name": "서울 국기원 태권도 체험",
+      "category_main": "문화/체험",
+      "category_sub": "문화예술",
+      "region_main": "SE",
+      "region_sub": "서울특별시 강남구",
+      "address": "서울특별시 강남구 테헤란로7길 32",
+      "lat": 37.5087,
+      "lng": 127.0532,
+      "price": "1인 30,000원~",
+      "duration": "2시간",
+      "reservation_required": true,
+      "target_user": [
+        "외국인",
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "세계 태권도 총본산 국기원에서 공인 시범단의 격파·고난도 발차기 공연을 관람하고 기본 품새와 발차기를 직접 배우는 체험이다. 전 세계 8,000만 수련자의 무술 성지에서 한국 대표 무형 문화를 몸으로 익힌다.",
+      "source_urls": [
+        "https://www.kukkiwon.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "태권도",
+        "국기원",
+        "서울",
+        "무술",
+        "외국인체험",
+        "강남",
+        "세계무술"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-09T13:25:12",
+      "operation_status": "active",
+      "operating_hours": "토·일 체험 운영 09:00~17:00",
+      "phone": "02-3453-4700"
+    },
+    {
+      "experience_id": "EX-GW-FOR-001",
+      "name": "인제 원대리 자작나무숲",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 인제군",
+      "address": "강원특별자치도 인제군 인제읍 원대리 산 일원",
+      "lat": 38.0833,
+      "lng": 128.1667,
+      "price": "무료 (탐방 예약 필수)",
+      "duration": "2~3시간",
+      "reservation_required": true,
+      "target_user": [
+        "커플",
+        "개인",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "국내 최대 규모의 자작나무 숲으로 순백의 나무껍질이 빽빽하게 서있는 장관이 펼쳐진다. 1990년대 조림한 700ha 자작나무 군락이 성장해 지금은 북유럽 풍경 같은 신비로운 숲이 됐다.",
+      "source_urls": [
+        "https://www.inje.go.kr/tour/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "자작나무숲",
+        "인제",
+        "강원",
+        "북유럽분위기",
+        "힐링",
+        "탐방",
+        "겨울여행"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-09T13:25:12",
+      "operation_status": "active",
+      "operating_hours": "09:00~15:00 (탐방 예약 필수)",
+      "phone": "033-460-8036"
+    },
+    {
+      "experience_id": "EX-GJ-ART-002",
+      "name": "광주 국립아시아문화전당 미디어아트",
+      "category_main": "문화/체험",
+      "category_sub": "문화예술",
+      "region_main": "GJ",
+      "region_sub": "광주광역시 동구",
+      "address": "광주광역시 동구 문화전당로 38",
+      "lat": 35.1461,
+      "lng": 126.9175,
+      "price": "상설전 무료 (특별전 유료)",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인",
+        "외국인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "아시아 최대 복합 문화 기관인 국립아시아문화전당에서 인터랙티브 미디어아트와 몰입형 디지털 전시를 체험한다. 지하 공간에 펼쳐지는 독특한 건축 구조와 아시아 현대 예술이 어우러지는 광주 대표 문화 명소다.",
+      "source_urls": [
+        "https://www.acc.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "아시아문화전당",
+        "광주",
+        "미디어아트",
+        "문화예술",
+        "인터랙티브",
+        "ACC",
+        "5·18"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-09T13:25:12",
+      "operation_status": "active",
+      "operating_hours": "10:00~18:00 (월요일 휴관)",
+      "phone": "1899-6252"
+    },
+    {
+      "experience_id": "EX-GG-NIG-001",
+      "name": "남양주 별빛정원 우주 야경",
+      "category_main": "문화/체험",
+      "category_sub": "야경/야간투어",
+      "region_main": "GG",
+      "region_sub": "경기도 남양주시",
+      "address": "경기도 남양주시 조안면 북한강로 1291",
+      "lat": 37.6358,
+      "lng": 127.3764,
+      "price": "성인 12,000원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "서울 근교 북한강변에 위치한 별빛정원 우주는 수십만 개의 조명과 미디어아트로 꾸며진 야간 테마파크다. 우주 여행을 테마로 한 포토존과 빛의 터널이 이어지며 커플 야경 명소로 인기가 높다.",
+      "source_urls": [
+        "https://www.starlight-zoo.co.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "별빛정원우주",
+        "남양주",
+        "야경",
+        "조명",
+        "커플",
+        "북한강",
+        "경기"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-09T13:25:12",
+      "operation_status": "active",
+      "operating_hours": "17:00~22:00",
+      "phone": "031-595-7773"
+    },
+    {
+      "experience_id": "EX-BS-NIG-001",
+      "name": "부산 야경 크루즈 (광안대교)",
+      "category_main": "문화/체험",
+      "category_sub": "야경/야간투어",
+      "region_main": "BS",
+      "region_sub": "부산광역시 수영구",
+      "address": "부산광역시 수영구 민락수변공원 선착장",
+      "lat": 35.1546,
+      "lng": 129.1227,
+      "price": "성인 20,000원~",
+      "duration": "1~2시간",
+      "reservation_required": true,
+      "target_user": [
+        "커플",
+        "개인",
+        "외국인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "부산 광안대교 조명을 배 위에서 감상하는 야경 크루즈다. 해상에서 바라보는 광안대교 야경과 마린시티 불빛이 어우러지는 부산 최고의 야경 코스로 커플과 외국인 관광객에게 인기가 높다.",
+      "source_urls": [
+        "https://www.busancruise.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "야경크루즈",
+        "광안대교",
+        "부산",
+        "야경",
+        "커플",
+        "수영구",
+        "해상투어"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-09T13:25:12",
+      "operation_status": "active",
+      "operating_hours": "19:00·20:30 운항",
+      "phone": "051-753-0030"
+    },
+    {
+      "experience_id": "EX-GG-NIG-002",
+      "name": "수원 화성 미디어 파사드 야경",
+      "category_main": "문화/체험",
+      "category_sub": "야경/야간투어",
+      "region_main": "GG",
+      "region_sub": "경기도 수원시",
+      "address": "경기도 수원시 팔달구 수원화성 장안문 일대",
+      "lat": 37.2854,
+      "lng": 126.9908,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "가족",
+        "외국인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "유네스코 세계문화유산 수원화성 성벽에 계절마다 다른 미디어아트 파사드 공연이 펼쳐진다. 조선 정조대왕의 이야기를 빛과 영상으로 표현한 공연으로 수원 야경의 하이라이트다.",
+      "source_urls": [
+        "https://www.swcf.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "수원화성",
+        "미디어파사드",
+        "야경",
+        "유네스코",
+        "정조",
+        "수원",
+        "무료"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-09T13:25:12",
+      "operation_status": "seasonal",
+      "operating_hours": "일몰 후 ~ 22:00 (행사 시즌)",
+      "phone": "031-290-3600"
+    },
+    {
+      "experience_id": "EX-CB-AGR-001",
+      "name": "충주 사과 따기 체험",
+      "category_main": "문화/체험",
+      "category_sub": "농촌 체험",
+      "region_main": "CB",
+      "region_sub": "충청북도 충주시",
+      "address": "충청북도 충주시 신니면 사과길 일원",
+      "lat": 36.9716,
+      "lng": 127.9285,
+      "price": "1인 15,000원~",
+      "duration": "1~2시간",
+      "reservation_required": true,
+      "target_user": [
+        "가족",
+        "어린이",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "충주 사과 농장에서 직접 사과를 따는 농촌 체험이다. 9~11월 사과 수확 시즌에 운영하며 직접 딴 사과를 한 봉지 가져갈 수 있다. 충주 사과는 일교차가 커서 당도가 높기로 유명하다.",
+      "source_urls": [
+        "https://www.chungju.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "사과따기",
+        "충주",
+        "충북",
+        "농촌체험",
+        "가을여행",
+        "사과",
+        "가족체험"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-09T13:25:12",
+      "operation_status": "seasonal",
+      "operating_hours": "9~11월 수확 시즌",
+      "phone": "043-850-6790"
+    },
+    {
+      "experience_id": "EX-JN-CRF-005",
+      "name": "순천 전통 갓 만들기 체험",
+      "category_main": "문화/체험",
+      "category_sub": "전통공예",
+      "region_main": "JN",
+      "region_sub": "전라남도 순천시",
+      "address": "전라남도 순천시 갓전길 일원",
+      "lat": 34.9505,
+      "lng": 127.4876,
+      "price": "1인 30,000원",
+      "duration": "2시간",
+      "reservation_required": true,
+      "target_user": [
+        "개인",
+        "외국인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "조선 시대 양반의 상징 갓(전통 모자)을 직접 만드는 공예 체험이다. 순천은 전국 갓 생산의 70%를 담당하는 갓 전통공예 마을로 국내 유일의 전통 갓 제작 기술을 보유하고 있다.",
+      "source_urls": [
+        "https://www.suncheon.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "갓만들기",
+        "순천",
+        "전남",
+        "전통모자",
+        "전통공예",
+        "외국인체험",
+        "조선시대"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-09T13:25:12",
+      "operation_status": "active",
+      "operating_hours": "10:00~17:00",
+      "phone": "061-749-3728"
+    },
+    {
+      "experience_id": "EX-GW-CUL-001",
+      "name": "강원 정선 아리랑 공연·체험",
+      "category_main": "문화/체험",
+      "category_sub": "문화예술",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 정선군",
+      "address": "강원특별자치도 정선군 정선읍 봉양리 아리랑공연장",
+      "lat": 37.3803,
+      "lng": 128.6608,
+      "price": "성인 5,000원",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인",
+        "외국인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "유네스코 인류무형문화유산 정선아리랑의 본고장에서 전통 공연을 관람하고 아리랑 가창과 장구 치기를 직접 배우는 체험이다. 정선의 한서린 역사와 함께 한국 민요의 대표격인 정선아리랑의 감동을 느낀다.",
+      "source_urls": [
+        "https://www.jeongseon.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "정선아리랑",
+        "정선",
+        "강원",
+        "유네스코",
+        "민요",
+        "장구",
+        "아리랑공연"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-09T13:25:12",
+      "operation_status": "active",
+      "operating_hours": "토·일 공연 14:00",
+      "phone": "033-560-2711"
+    },
+    {
+      "experience_id": "EX-JJ-CUL-001",
+      "name": "제주 해녀학교 물질 입문",
+      "category_main": "문화/체험",
+      "category_sub": "해양체험",
+      "region_main": "JJ",
+      "region_sub": "제주특별자치도 제주시",
+      "address": "제주특별자치도 제주시 구좌읍 해녀박물관길 26",
+      "lat": 33.5603,
+      "lng": 126.8481,
+      "price": "1인 50,000원",
+      "duration": "3시간",
+      "reservation_required": true,
+      "target_user": [
+        "개인",
+        "커플",
+        "외국인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "해녀박물관 부설 해녀학교에서 유네스코 인류무형문화유산 해녀의 숨비소리·잠수 기술·물질 도구를 배우는 입문 체험이다. 현직 해녀 선생님에게 직접 배우며 제주 해녀 문화의 깊이를 이해한다.",
+      "source_urls": [
+        "https://www.haenyeo.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "해녀학교",
+        "해녀",
+        "제주",
+        "유네스코",
+        "물질",
+        "구좌읍",
+        "외국인체험"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-09T13:25:12",
+      "operation_status": "active",
+      "operating_hours": "10:00~13:00 (화·목·토)",
+      "phone": "064-782-9898"
+    },
+    {
+      "experience_id": "EX-GG-ART-005",
+      "name": "파주 DMZ 평화 스튜디오 투어",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GG",
+      "region_sub": "경기도 파주시",
+      "address": "경기도 파주시 문산읍 통일로 등",
+      "lat": 37.8389,
+      "lng": 126.7728,
+      "price": "투어 1인 20,000원~",
+      "duration": "4~5시간",
+      "reservation_required": true,
+      "target_user": [
+        "개인",
+        "외국인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "한국 분단의 상징 DMZ와 판문점 공동경비구역을 방문하는 역사 탐방 투어다. 제3땅굴·도라전망대·도라산역 등 분단의 현장을 직접 걸으며 한반도 평화의 의미를 체험한다.",
+      "source_urls": [
+        "https://www.jstour.com/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "DMZ투어",
+        "판문점",
+        "파주",
+        "분단",
+        "도라전망대",
+        "제3땅굴",
+        "외국인"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-09T13:25:12",
+      "operation_status": "active",
+      "operating_hours": "사전 예약 필수 (여권 지참)",
+      "phone": "031-950-7000"
+    },
+    {
+      "experience_id": "EX-GN-ART-001",
+      "name": "거제 씨월드 돌고래 수중 관람",
+      "category_main": "문화/체험",
+      "category_sub": "어린이 체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 거제시",
+      "address": "경상남도 거제시 일운면 지세포로 305",
+      "lat": 34.8869,
+      "lng": 128.6823,
+      "price": "성인 25,000원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "어린이",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "거제 씨월드에서 돌고래·바다사자 공연을 관람하고 수중 터널을 통해 상어·가오리를 관찰하는 체험이다. 남해 바다를 배경으로 다양한 해양 생물을 가까이서 만나는 가족 여행 명소다.",
+      "source_urls": [
+        "https://www.geojesiworld.com/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "씨월드",
+        "거제",
+        "돌고래",
+        "수중관람",
+        "가족여행",
+        "해양생물",
+        "경남"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-09T13:25:12",
+      "operation_status": "active",
+      "operating_hours": "09:30~18:00 (연중)",
+      "phone": "055-632-0362"
     }
   ],
   "last_updated": "2026-05-07T04:18:31"
