@@ -1008,6 +1008,26 @@
         "GK-JB-MTN-0002"
       ],
       "total_scripts": 280
+    },
+    {
+      "time": "2026-05-09T12:43:01",
+      "mode": "B",
+      "type": "체험학습",
+      "new_collected": 12,
+      "total_experiences": 158
+    },
+    {
+      "time": "2026-05-09T12:43:01",
+      "mode": "C",
+      "content_generated": 5,
+      "places": [
+        "GK-CB-MTN-0002",
+        "GK-JN-SEA-0001",
+        "GK-GN-ISL-0001",
+        "GK-CN-ISL-0001",
+        "GK-GW-SCN-0001"
+      ],
+      "total_scripts": 285
     }
   ]
 }
