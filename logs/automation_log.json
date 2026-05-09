@@ -948,6 +948,26 @@
         "GK-GN-GID-0002"
       ],
       "total_scripts": 265
+    },
+    {
+      "time": "2026-05-09T12:31:29",
+      "mode": "B",
+      "type": "체험학습",
+      "new_collected": 13,
+      "total_experiences": 122
+    },
+    {
+      "time": "2026-05-09T12:31:29",
+      "mode": "C",
+      "content_generated": 5,
+      "places": [
+        "GK-JB-MTN-0001",
+        "GK-CB-MTN-0001",
+        "GK-GW-LKE-0001",
+        "GK-JJ-FOR-0001",
+        "GK-JJ-SCN-0001"
+      ],
+      "total_scripts": 270
     }
   ]
 }
