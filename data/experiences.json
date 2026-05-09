@@ -1,8 +1,8 @@
 {
   "_comment": "겜코리아 체험 데이터 — 역사/자연 마커와 분리. 삭제 금지. 젬투어 상품 후보.",
   "_version": "1.0",
-  "_updated": "2026-05-09T12:31:29",
-  "total": 122,
+  "_updated": "2026-05-09T12:35:31",
+  "total": 134,
   "experiences": [
     {
       "experience_id": "EX-SE-MKT-001",
@@ -5049,6 +5049,496 @@
       "operation_status": "active",
       "operating_hours": "09:00~22:00 (야간 조명: 일몰~22:00)",
       "phone": "054-779-6100"
+    },
+    {
+      "experience_id": "EX-GW-FSH-001",
+      "name": "인제 빙어낚시 체험",
+      "category_main": "문화/체험",
+      "category_sub": "낚시/어촌 체험",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 인제군",
+      "address": "강원특별자치도 인제군 남면 소양호 일원",
+      "lat": 38.0628,
+      "lng": 128.1711,
+      "price": "1인 20,000원~",
+      "duration": "2~4시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "어린이",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "1~2월 얼음 위에서 구멍을 뚫고 빙어를 낚는 강원도 겨울 체험이다. 잡은 빙어를 즉석에서 튀김으로 먹으며 눈썰매·얼음 축구 등 겨울 레포츠도 함께 즐길 수 있다.",
+      "source_urls": [
+        "https://www.inje.go.kr/tour/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "빙어낚시",
+        "인제",
+        "강원",
+        "겨울체험",
+        "얼음낚시",
+        "빙어튀김",
+        "겨울여행"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-09T12:35:31",
+      "operation_status": "seasonal",
+      "operating_hours": "1~2월 결빙 기간",
+      "phone": "033-461-4296"
+    },
+    {
+      "experience_id": "EX-GW-FSH-002",
+      "name": "화천 산천어축제 얼음낚시",
+      "category_main": "문화/체험",
+      "category_sub": "낚시/어촌 체험",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 화천군",
+      "address": "강원특별자치도 화천군 화천읍 산천어길 일원",
+      "lat": 38.1064,
+      "lng": 127.7082,
+      "price": "1인 30,000원~",
+      "duration": "3~5시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "어린이",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "매년 1월 세계 4대 겨울 축제로 선정된 화천 산천어축제에서 얼음낚시와 썰매를 즐기는 체험이다. 화천천 결빙 구간에서 산천어를 직접 잡고 맨손으로 잡기·얼음수영까지 즐길 수 있다.",
+      "source_urls": [
+        "https://www.narafestival.com/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "산천어축제",
+        "화천",
+        "강원",
+        "얼음낚시",
+        "겨울축제",
+        "세계4대축제",
+        "산천어"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-09T12:35:31",
+      "operation_status": "annual",
+      "operating_hours": "매년 1월 (3주간)",
+      "phone": "033-440-2732"
+    },
+    {
+      "experience_id": "EX-GW-WAT-002",
+      "name": "춘천 수상스키·웨이크보드",
+      "category_main": "문화/체험",
+      "category_sub": "해양 레포츠",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 춘천시",
+      "address": "강원특별자치도 춘천시 남산면 소양강로 일원",
+      "lat": 37.8745,
+      "lng": 127.7369,
+      "price": "1인 40,000원~",
+      "duration": "1시간",
+      "reservation_required": true,
+      "target_user": [
+        "개인",
+        "커플",
+        "청년"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "소양강 의암호에서 수상스키와 웨이크보드를 즐기는 체험이다. 잔잔한 호수 수면 위에서 즐기는 수상 레포츠로 초보자 강습 프로그램도 운영하며, 강원도 산과 호수를 배경으로 스피드를 즐길 수 있다.",
+      "source_urls": [
+        "https://www.chuncheon.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "수상스키",
+        "웨이크보드",
+        "춘천",
+        "의암호",
+        "강원",
+        "수상레포츠",
+        "여름여행"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-09T12:35:31",
+      "operation_status": "seasonal",
+      "operating_hours": "5~10월",
+      "phone": "033-242-4255"
+    },
+    {
+      "experience_id": "EX-GN-CAB-001",
+      "name": "통영 한려수도 케이블카",
+      "category_main": "문화/체험",
+      "category_sub": "어드벤처/레포츠",
+      "region_main": "GN",
+      "region_sub": "경상남도 통영시",
+      "address": "경상남도 통영시 발개로 205",
+      "lat": 34.8555,
+      "lng": 128.4241,
+      "price": "성인 왕복 15,000원",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "미륵산(해발 461m) 정상으로 올라가는 케이블카로 탑승 시 한려해상국립공원의 140여 개 섬과 다도해 절경이 파노라마로 펼쳐진다. 맑은 날에는 대마도까지 보이며 일몰 시간 탑승이 특히 아름답다.",
+      "source_urls": [
+        "https://www.cablecar.co.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "통영케이블카",
+        "한려수도",
+        "통영",
+        "미륵산",
+        "다도해",
+        "경남",
+        "케이블카"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-09T12:35:31",
+      "operation_status": "active",
+      "operating_hours": "09:30~18:00 (연중)",
+      "phone": "055-649-3804"
+    },
+    {
+      "experience_id": "EX-GW-CAB-001",
+      "name": "설악산 권금성 케이블카",
+      "category_main": "문화/체험",
+      "category_sub": "어드벤처/레포츠",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 속초시",
+      "address": "강원특별자치도 속초시 설악산로 1091",
+      "lat": 38.1192,
+      "lng": 128.4668,
+      "price": "성인 왕복 14,000원",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "설악산 권금성(해발 862m)까지 오르는 케이블카로 설악산 기암절벽과 울산바위를 압도적으로 조망한다. 케이블카를 타지 않으면 볼 수 없는 대청봉 능선과 동해 바다가 한눈에 들어온다.",
+      "source_urls": [
+        "https://www.sorakcablecar.co.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "설악산케이블카",
+        "권금성",
+        "속초",
+        "강원",
+        "설악산",
+        "울산바위",
+        "케이블카"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-09T12:35:31",
+      "operation_status": "active",
+      "operating_hours": "08:30~17:00 (연중, 기상 악화 시 운휴)",
+      "phone": "033-636-4300"
+    },
+    {
+      "experience_id": "EX-GG-ADV-001",
+      "name": "가평 번지점프",
+      "category_main": "문화/체험",
+      "category_sub": "어드벤처/레포츠",
+      "region_main": "GG",
+      "region_sub": "경기도 가평군",
+      "address": "경기도 가평군 청평면 호명로 580",
+      "lat": 37.7581,
+      "lng": 127.4912,
+      "price": "1인 55,000원",
+      "duration": "1~2시간",
+      "reservation_required": true,
+      "target_user": [
+        "개인",
+        "커플",
+        "청년"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "청평호 상공 63m 높이에서 뛰어내리는 번지점프 체험이다. 점프 후 호수 위를 날아다니는 느낌과 함께 북한강의 절경을 몸으로 느낄 수 있다.",
+      "source_urls": [
+        "https://www.gapyeong.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "번지점프",
+        "가평",
+        "청평호",
+        "경기",
+        "어드벤처",
+        "스릴",
+        "청년여행"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-09T12:35:31",
+      "operation_status": "active",
+      "operating_hours": "10:00~18:00",
+      "phone": "031-585-7401"
+    },
+    {
+      "experience_id": "EX-SE-SPT-001",
+      "name": "서울 전통 씨름 체험 (국기원)",
+      "category_main": "문화/체험",
+      "category_sub": "문화예술",
+      "region_main": "SE",
+      "region_sub": "서울특별시 강남구",
+      "address": "서울특별시 강남구 테헤란로7길 32 (국기원)",
+      "lat": 37.5087,
+      "lng": 127.0532,
+      "price": "1인 10,000원",
+      "duration": "1시간",
+      "reservation_required": true,
+      "target_user": [
+        "가족",
+        "개인",
+        "외국인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "국기원에서 태권도 시범과 기본 동작을 배우는 체험 프로그램이다. 세계 최고의 태권도 성지에서 공인 시범단의 공연을 관람하고 기본 품새와 발차기를 직접 익힌다.",
+      "source_urls": [
+        "https://www.kukkiwon.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "태권도",
+        "국기원",
+        "서울",
+        "강남",
+        "외국인체험",
+        "한국무술",
+        "태권도성지"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-09T12:35:31",
+      "operation_status": "active",
+      "operating_hours": "09:00~17:00 (토·일 체험 프로그램)",
+      "phone": "02-3453-4700"
+    },
+    {
+      "experience_id": "EX-JN-OCN-002",
+      "name": "신안 증도 갯벌 체험",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 신안군",
+      "address": "전라남도 신안군 증도면 증도해변로 일원",
+      "lat": 34.9672,
+      "lng": 126.1881,
+      "price": "무료 (체험 프로그램 1인 10,000원~)",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "어린이",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "유네스코 생물권보전지역 증도에서 세계 최고 등급 갯벌 위를 맨발로 걷고 바지락·갯지렁이를 채취하는 체험이다. 슬로시티 증도의 천일염 생산 과정 견학과 갯벌 생태계 교육도 함께 진행된다.",
+      "source_urls": [
+        "https://www.sinan.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "증도갯벌",
+        "신안",
+        "전남",
+        "갯벌체험",
+        "슬로시티",
+        "천일염",
+        "유네스코"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-09T12:35:31",
+      "operation_status": "active",
+      "operating_hours": "조석표 참고 (썰물 때 운영)",
+      "phone": "061-240-8556"
+    },
+    {
+      "experience_id": "EX-GG-CRF-004",
+      "name": "수원 화성 전통 활쏘기 체험",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GG",
+      "region_sub": "경기도 수원시",
+      "address": "경기도 수원시 팔달구 창룡문로 19 (연무대)",
+      "lat": 37.2833,
+      "lng": 127.0178,
+      "price": "1인 3,000원",
+      "duration": "30분~1시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인",
+        "외국인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "수원화성 연무대에서 전통 국궁(활쏘기)을 체험하는 프로그램이다. 조선 시대 군사 훈련 장소였던 연무대에서 전통 각궁을 들고 10m 거리 과녁에 화살을 쏜다.",
+      "source_urls": [
+        "https://www.swcf.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "활쏘기",
+        "국궁",
+        "수원화성",
+        "연무대",
+        "경기",
+        "전통무예",
+        "조선군사"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-09T12:35:31",
+      "operation_status": "active",
+      "operating_hours": "10:00~17:00 (화요일 휴무)",
+      "phone": "031-290-3600"
+    },
+    {
+      "experience_id": "EX-GN-HAN-001",
+      "name": "산청 동의보감 한방 체험관",
+      "category_main": "문화/체험",
+      "category_sub": "한방 체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 산청군",
+      "address": "경상남도 산청군 금서면 동의보감로 555",
+      "lat": 35.4136,
+      "lng": 127.8734,
+      "price": "체험 1인 5,000원~",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "동의보감 한방테마파크 내 한방 체험관에서 맥박 측정·한방차 만들기·족욕 체험을 즐길 수 있다. 허준의 동의보감을 주제로 한 전시와 한약재 향 채취 등 오감으로 한의학을 체험하는 공간이다.",
+      "source_urls": [
+        "https://www.donguibogam.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "한방체험",
+        "동의보감",
+        "산청",
+        "경남",
+        "족욕",
+        "허준",
+        "한약재"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-09T12:35:31",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00 (월요일 휴관)",
+      "phone": "055-970-8762"
+    },
+    {
+      "experience_id": "EX-GG-TEM-001",
+      "name": "양주 천보산 사찰 음식 체험",
+      "category_main": "문화/체험",
+      "category_sub": "사찰 체험",
+      "region_main": "GG",
+      "region_sub": "경기도 양주시",
+      "address": "경기도 양주시 백석읍 기산로 305 (회암사)",
+      "lat": 37.8367,
+      "lng": 127.0619,
+      "price": "1인 20,000원",
+      "duration": "2~3시간",
+      "reservation_required": true,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "경기도 대표 고찰 회암사 부속 도량에서 사찰 음식을 직접 만들어 먹는 체험이다. 오신채 없이 자연 재료로만 만드는 사찰 음식의 철학과 조리법을 배우고 나물 비빔밥·된장국·두부조림을 직접 만든다.",
+      "source_urls": [
+        "https://www.haeoamsa.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "사찰음식",
+        "회암사",
+        "양주",
+        "경기",
+        "사찰체험",
+        "한국음식",
+        "채식"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-09T12:35:31",
+      "operation_status": "active",
+      "operating_hours": "10:00~15:00 (예약 필수)",
+      "phone": "031-856-6030"
+    },
+    {
+      "experience_id": "EX-JN-CRF-003",
+      "name": "강진 청자 도요지 체험",
+      "category_main": "문화/체험",
+      "category_sub": "전통공예",
+      "region_main": "JN",
+      "region_sub": "전라남도 강진군",
+      "address": "전라남도 강진군 대구면 청자촌길 33",
+      "lat": 34.5747,
+      "lng": 126.7342,
+      "price": "1인 15,000원~",
+      "duration": "1~2시간",
+      "reservation_required": true,
+      "target_user": [
+        "가족",
+        "개인",
+        "외국인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "고려청자의 발상지 강진에서 전통 청자 물레 성형과 청자 문양 새기기를 체험한다. 900년 전 고려 장인들이 도자기를 구워낸 도요지에서 직접 청자를 빚고 초벌구이 과정을 견학한다.",
+      "source_urls": [
+        "https://www.gangjin.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "청자체험",
+        "강진",
+        "고려청자",
+        "전남",
+        "도자기",
+        "도요지",
+        "고려문화"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-09T12:35:31",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00",
+      "phone": "061-430-3524"
     }
   ],
   "last_updated": "2026-05-07T04:18:31"
