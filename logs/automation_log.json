@@ -1028,6 +1028,26 @@
         "GK-GW-SCN-0001"
       ],
       "total_scripts": 285
+    },
+    {
+      "time": "2026-05-09T12:46:43",
+      "mode": "B",
+      "type": "체험학습",
+      "new_collected": 12,
+      "total_experiences": 170
+    },
+    {
+      "time": "2026-05-09T12:46:43",
+      "mode": "C",
+      "content_generated": 5,
+      "places": [
+        "GK-JN-MTN-0002",
+        "GK-JJ-MTN-0002",
+        "GK-IC-ISL-0001",
+        "GK-GN-ISL-0002",
+        "GK-JN-LKE-0001"
+      ],
+      "total_scripts": 290
     }
   ]
 }
