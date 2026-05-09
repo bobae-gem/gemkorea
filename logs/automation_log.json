@@ -988,6 +988,26 @@
         "GK-GW-LKE-0002"
       ],
       "total_scripts": 275
+    },
+    {
+      "time": "2026-05-09T12:39:16",
+      "mode": "B",
+      "type": "체험학습",
+      "new_collected": 12,
+      "total_experiences": 146
+    },
+    {
+      "time": "2026-05-09T12:39:16",
+      "mode": "C",
+      "content_generated": 5,
+      "places": [
+        "GK-IC-SEA-0001",
+        "GK-GB-SAN-0002",
+        "GK-GB-MTN-0001",
+        "GK-BS-MTN-0001",
+        "GK-JB-MTN-0002"
+      ],
+      "total_scripts": 280
     }
   ]
 }
