@@ -1,8 +1,8 @@
 {
   "_comment": "겜코리아 체험 데이터 — 역사/자연 마커와 분리. 삭제 금지. 젬투어 상품 후보.",
   "_version": "1.0",
-  "_updated": "2026-05-09T12:46:43",
-  "total": 170,
+  "_updated": "2026-05-09T12:50:27",
+  "total": 182,
   "experiences": [
     {
       "experience_id": "EX-SE-MKT-001",
@@ -7004,6 +7004,494 @@
       "operation_status": "active",
       "operating_hours": "07:30~21:00",
       "phone": "031-580-8114"
+    },
+    {
+      "experience_id": "EX-JJ-FAR-001",
+      "name": "제주 성산 일출봉 해녀 공연",
+      "category_main": "문화/체험",
+      "category_sub": "문화예술",
+      "region_main": "JJ",
+      "region_sub": "제주특별자치도 서귀포시",
+      "address": "제주특별자치도 서귀포시 성산읍 일출로 284-12",
+      "lat": 33.4591,
+      "lng": 126.9428,
+      "price": "무료",
+      "duration": "30분",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "외국인",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "성산일출봉 입구 성산포 해녀 공연장에서 매일 열리는 무료 해녀 시연이다. 실제 해녀들이 물질 준비·잠수·해산물 채취 과정을 보여주며 제주 해녀 문화의 생생한 현장을 체험할 수 있다.",
+      "source_urls": [
+        "https://www.visitjeju.net/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "해녀공연",
+        "성산일출봉",
+        "제주",
+        "서귀포",
+        "무료공연",
+        "해녀문화",
+        "유네스코"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-09T12:50:27",
+      "operation_status": "active",
+      "operating_hours": "11:00·13:00·14:00 (일 3회)",
+      "phone": "064-760-3645"
+    },
+    {
+      "experience_id": "EX-JJ-AGR-001",
+      "name": "제주 감귤 따기 체험",
+      "category_main": "문화/체험",
+      "category_sub": "농촌 체험",
+      "region_main": "JJ",
+      "region_sub": "제주특별자치도 서귀포시",
+      "address": "제주특별자치도 서귀포시 남원읍 감귤로 일원",
+      "lat": 33.2929,
+      "lng": 126.7003,
+      "price": "1인 10,000원~",
+      "duration": "1~2시간",
+      "reservation_required": true,
+      "target_user": [
+        "가족",
+        "어린이",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "제주 서귀포 감귤 농장에서 직접 귤을 따는 체험이다. 11~12월 귤 수확 시즌에 가장 알차고, 직접 딴 귤을 한 바구니 가져갈 수 있다. 서귀포 감귤 역사와 재배 과정을 배우는 교육 프로그램도 운영된다.",
+      "source_urls": [
+        "https://www.visitjeju.net/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "감귤따기",
+        "제주",
+        "서귀포",
+        "귤",
+        "농촌체험",
+        "가족체험",
+        "겨울여행"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-09T12:50:27",
+      "operation_status": "seasonal",
+      "operating_hours": "11~1월 감귤 시즌",
+      "phone": "064-730-3500"
+    },
+    {
+      "experience_id": "EX-GW-ADV-003",
+      "name": "정선 레일바이크",
+      "category_main": "문화/체험",
+      "category_sub": "어드벤처/레포츠",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 정선군",
+      "address": "강원특별자치도 정선군 여량면 레일바이크길 230",
+      "lat": 37.3456,
+      "lng": 128.7419,
+      "price": "2인 25,000원~",
+      "duration": "1~2시간",
+      "reservation_required": true,
+      "target_user": [
+        "커플",
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "폐광 철도 구간을 활용한 정선 레일바이크로 동강과 어우러진 절경을 자전거처럼 달리는 체험이다. 7.2km 구간을 왕복하며 굴다리·협곡·강변을 통과하는 코스로 커플에게 특히 인기가 높다.",
+      "source_urls": [
+        "https://www.jsrailbike.com/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "레일바이크",
+        "정선",
+        "강원",
+        "동강",
+        "폐광철도",
+        "커플",
+        "자전거"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-09T12:50:27",
+      "operation_status": "active",
+      "operating_hours": "09:00~17:00 (연중)",
+      "phone": "033-563-8787"
+    },
+    {
+      "experience_id": "EX-GW-ECO-002",
+      "name": "양구 두타연 생태 투어",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 양구군",
+      "address": "강원특별자치도 양구군 방산면 두타연로 일원",
+      "lat": 38.2308,
+      "lng": 128.0358,
+      "price": "무료 (출입 신청 필요)",
+      "duration": "2~3시간",
+      "reservation_required": true,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "민간인 출입 통제선 인근에 위치해 자연이 잘 보존된 두타연 폭포와 계곡을 탐방하는 생태 투어다. 출입 허가를 받아야 들어갈 수 있어 아직 때묻지 않은 자연이 남아있으며, 1급수 어종 열목어가 서식한다.",
+      "source_urls": [
+        "https://www.yanggu.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "두타연",
+        "양구",
+        "강원",
+        "생태투어",
+        "민통선",
+        "열목어",
+        "폭포"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-09T12:50:27",
+      "operation_status": "active",
+      "operating_hours": "09:00~17:00 (사전 출입 신청)",
+      "phone": "033-480-2251"
+    },
+    {
+      "experience_id": "EX-GN-TEM-001",
+      "name": "통도사 연꽃 축제 탐방",
+      "category_main": "문화/체험",
+      "category_sub": "사찰 체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 양산시",
+      "address": "경상남도 양산시 하북면 통도사로 108",
+      "lat": 35.4809,
+      "lng": 129.0594,
+      "price": "어른 4,000원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "영취산 통도사 경내 무풍한송로와 연지(蓮池)에서 7~8월 연꽃이 만발하는 시기에 탐방하는 프로그램이다. 우리나라 3대 사찰 중 하나인 통도사의 유서 깊은 경내를 천천히 거닐며 연꽃 향기를 맡는 조용한 힐링 코스다.",
+      "source_urls": [
+        "https://www.tongdosa.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "통도사",
+        "연꽃",
+        "양산",
+        "경남",
+        "사찰",
+        "연지",
+        "힐링"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-09T12:50:27",
+      "operation_status": "seasonal",
+      "operating_hours": "07:30~18:00 (7~8월 연꽃 시즌)",
+      "phone": "055-382-7182"
+    },
+    {
+      "experience_id": "EX-JN-AGR-001",
+      "name": "담양 대나무 숯 비누 만들기",
+      "category_main": "문화/체험",
+      "category_sub": "전통공예",
+      "region_main": "JN",
+      "region_sub": "전라남도 담양군",
+      "address": "전라남도 담양군 담양읍 죽향문화로 일원",
+      "lat": 35.3179,
+      "lng": 126.9817,
+      "price": "1인 15,000원",
+      "duration": "1~2시간",
+      "reservation_required": true,
+      "target_user": [
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "담양 대나무 숯을 이용한 천연 비누 만들기 체험이다. 대나무 숯 추출물의 피부 효능을 배우고 직접 비누를 제조하며 완성품을 포장해 가져간다.",
+      "source_urls": [
+        "https://www.damyang.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "대나무숯비누",
+        "담양",
+        "전남",
+        "천연비누",
+        "공방체험",
+        "대나무",
+        "전통공예"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-09T12:50:27",
+      "operation_status": "active",
+      "operating_hours": "10:00~17:00",
+      "phone": "061-380-2910"
+    },
+    {
+      "experience_id": "EX-JN-OCN-004",
+      "name": "보성 율포해수욕장 녹차 갯벌 체험",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 보성군",
+      "address": "전라남도 보성군 회천면 율포리 율포해수욕장",
+      "lat": 34.7536,
+      "lng": 127.0747,
+      "price": "녹차 해수풀 성인 5,000원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "보성 녹차 산지 앞바다 율포해수욕장에서 갯벌 체험과 녹차 해수풀 족욕을 즐기는 힐링 체험이다. 전국 유일 녹차 우린 물로 채운 해수풀에서 피부 미용 족욕을 즐기고 갯벌에서 바지락도 캔다.",
+      "source_urls": [
+        "https://www.boseong.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "율포해수욕장",
+        "보성",
+        "녹차해수풀",
+        "갯벌",
+        "전남",
+        "족욕",
+        "힐링"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-09T12:50:27",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00",
+      "phone": "061-850-5210"
+    },
+    {
+      "experience_id": "EX-GB-HAN-002",
+      "name": "안동 하회마을 무형문화재 탈춤 관람",
+      "category_main": "문화/체험",
+      "category_sub": "탈춤/풍물 체험",
+      "region_main": "GB",
+      "region_sub": "경상북도 안동시",
+      "address": "경상북도 안동시 풍천면 하회리 하회마을",
+      "lat": 36.5388,
+      "lng": 128.5188,
+      "price": "성인 5,000원",
+      "duration": "1시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "외국인",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "유네스코 세계문화유산 하회마을에서 매주 토·일요일 상설로 공연되는 하회별신굿탈놀이 관람이다. 양반·각시·선비·초랭이 등 다양한 탈을 쓰고 공연하는 조선 시대 풍자 탈춤을 직접 감상할 수 있다.",
+      "source_urls": [
+        "https://www.hahoe.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "하회탈춤",
+        "하회마을",
+        "안동",
+        "유네스코",
+        "무형문화재",
+        "경북",
+        "탈놀이"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-09T12:50:27",
+      "operation_status": "active",
+      "operating_hours": "토·일 14:00 (하절기), 15:00 (동절기)",
+      "phone": "054-853-0109"
+    },
+    {
+      "experience_id": "EX-CN-AGR-001",
+      "name": "아산 세계꽃식물원",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "CN",
+      "region_sub": "충청남도 아산시",
+      "address": "충청남도 아산시 도고면 아산만로 60",
+      "lat": 36.7883,
+      "lng": 126.9878,
+      "price": "성인 8,000원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "아산에 위치한 국내 최대 실내 꽃 식물원으로 4,000여 종의 세계 희귀 식물을 전시한다. 계절에 관계없이 꽃을 즐길 수 있으며 봄 튤립 축제·여름 수국·가을 국화·겨울 포인세티아 시즌별로 다른 테마 전시가 펼쳐진다.",
+      "source_urls": [
+        "https://www.segaeflower.com/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "세계꽃식물원",
+        "아산",
+        "충남",
+        "식물원",
+        "꽃",
+        "가족여행",
+        "실내관광"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-09T12:50:27",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00",
+      "phone": "041-544-0746"
+    },
+    {
+      "experience_id": "EX-SE-ART-005",
+      "name": "서울 국립중앙박물관 야간개장",
+      "category_main": "문화/체험",
+      "category_sub": "박물관",
+      "region_main": "SE",
+      "region_sub": "서울특별시 용산구",
+      "address": "서울특별시 용산구 서빙고로 137",
+      "lat": 37.5238,
+      "lng": 126.9801,
+      "price": "무료 (특별전 유료)",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인",
+        "외국인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "매주 수요일·토요일 21:00까지 야간 개방하는 국립중앙박물관 야간 관람이다. 조명이 바뀐 경천사지 10층 석탑과 전시품을 여유롭게 감상할 수 있으며, 박물관 야외 연못 공원이 야경 명소로도 유명하다.",
+      "source_urls": [
+        "https://www.museum.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "국립중앙박물관",
+        "야간개장",
+        "서울",
+        "용산",
+        "무료관람",
+        "국보",
+        "야경"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-09T12:50:27",
+      "operation_status": "active",
+      "operating_hours": "수·토 21:00까지 야간 개장",
+      "phone": "02-2077-9000"
+    },
+    {
+      "experience_id": "EX-IC-CUL-001",
+      "name": "인천 차이나타운 + 자장면박물관",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "IC",
+      "region_sub": "인천광역시 중구",
+      "address": "인천광역시 중구 차이나타운로 56",
+      "lat": 37.4758,
+      "lng": 126.6168,
+      "price": "박물관 성인 1,000원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인",
+        "외국인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "한국 최초의 중국인 거리 인천 차이나타운을 탐방하고 자장면 역사를 배우는 투어다. 1883년 개항 이후 형성된 차이나타운에서 자장면 발원지를 방문하고 최초의 자장면을 먹었던 공화춘 자리에 세워진 자장면박물관을 관람한다.",
+      "source_urls": [
+        "https://www.icjgss.or.kr/chinatown/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "차이나타운",
+        "인천",
+        "자장면박물관",
+        "개항역사",
+        "중구",
+        "자장면발원지",
+        "외국인체험"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-09T12:50:27",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00",
+      "phone": "032-773-9988"
+    },
+    {
+      "experience_id": "EX-GG-FAM-004",
+      "name": "롯데월드 어드벤처 자이로스윙",
+      "category_main": "문화/체험",
+      "category_sub": "테마파크",
+      "region_main": "GG",
+      "region_sub": "서울특별시 송파구",
+      "address": "서울특별시 송파구 올림픽로 240",
+      "lat": 37.5111,
+      "lng": 127.0983,
+      "price": "롯데월드 입장권 포함",
+      "duration": "4~8시간",
+      "reservation_required": false,
+      "target_user": [
+        "청년",
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "롯데월드 내 최고 인기 어트랙션 자이로스윙 탑승 체험이다. 18m 높이에서 360도 회전하며 매직아일랜드 전경과 석촌호수를 내려다보는 체험으로 롯데월드 대표 스릴 어트랙션이다.",
+      "source_urls": [
+        "https://adventure.lotteworld.com/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "자이로스윙",
+        "롯데월드",
+        "서울",
+        "잠실",
+        "어트랙션",
+        "스릴",
+        "석촌호수"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-09T12:50:27",
+      "operation_status": "active",
+      "operating_hours": "롯데월드 운영시간 동일",
+      "phone": "02-411-2000"
     }
   ],
   "last_updated": "2026-05-07T04:18:31"
