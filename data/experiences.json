@@ -1,8 +1,8 @@
 {
   "_comment": "겜코리아 체험 데이터 — 역사/자연 마커와 분리. 삭제 금지. 젬투어 상품 후보.",
   "_version": "1.0",
-  "_updated": "2026-05-10T02:56:12",
-  "total": 505,
+  "_updated": "2026-05-10T03:00:13",
+  "total": 517,
   "experiences": [
     {
       "experience_id": "EX-SE-MKT-001",
@@ -7040,7 +7040,7 @@
         "유네스코"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:50:27",
       "operation_status": "active",
       "operating_hours": "11:00·13:00·14:00 (일 3회)",
@@ -7081,7 +7081,7 @@
         "겨울여행"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:50:27",
       "operation_status": "seasonal",
       "operating_hours": "11~1월 감귤 시즌",
@@ -7162,7 +7162,7 @@
         "폭포"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:50:27",
       "operation_status": "active",
       "operating_hours": "09:00~17:00 (사전 출입 신청)",
@@ -7202,7 +7202,7 @@
         "힐링"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:50:27",
       "operation_status": "seasonal",
       "operating_hours": "07:30~18:00 (7~8월 연꽃 시즌)",
@@ -7242,7 +7242,7 @@
         "전통공예"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:50:27",
       "operation_status": "active",
       "operating_hours": "10:00~17:00",
@@ -7283,7 +7283,7 @@
         "힐링"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:50:27",
       "operation_status": "active",
       "operating_hours": "09:00~18:00",
@@ -20608,6 +20608,492 @@
       "operation_status": "annual",
       "operating_hours": "10월 황금 시즌 (연중 무료)",
       "phone": "033-430-2704"
+    },
+    {
+      "experience_id": "EX-GN-NAT-046",
+      "name": "창원 봉림사 은행나무",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 창원시",
+      "address": "경상남도 창원시 의창구 봉림동 봉림사",
+      "lat": 35.25,
+      "lng": 128.5833,
+      "price": "무료",
+      "duration": "1시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "경남 창원 봉림사 경내에 수령 400년 이상의 은행나무가 10월 황금빛으로 물드는 가을 명소를 탐방하는 체험이다. 작은 사찰 마당을 가득 채우는 황금 은행잎 낙엽이 경남 최고의 가을 사찰 명소다.",
+      "source_urls": [
+        "https://www.changwon.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "봉림사은행",
+        "창원",
+        "경남",
+        "은행나무",
+        "가을단풍",
+        "사찰",
+        "황금빛"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:00:13",
+      "operation_status": "annual",
+      "operating_hours": "10월 은행 시즌 (무료)",
+      "phone": "055-225-3691"
+    },
+    {
+      "experience_id": "EX-JN-NAT-049",
+      "name": "고흥 우주발사전망대",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 고흥군",
+      "address": "전라남도 고흥군 봉래면 나로우주센터로 490",
+      "lat": 34.4319,
+      "lng": 127.5344,
+      "price": "성인 3,000원",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "한국 최초 우주 발사체 나로호가 발사된 나로우주센터 인근 우주발사전망대를 탐방하는 체험이다. 발사대 방향으로 전망할 수 있는 전망대에서 한국 우주 개발의 역사를 이해하는 교육 체험이다.",
+      "source_urls": [
+        "https://www.kari.re.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "우주발사전망대",
+        "고흥",
+        "전남",
+        "나로호",
+        "우주개발",
+        "발사대",
+        "어린이"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:00:13",
+      "operation_status": "active",
+      "operating_hours": "09:00~17:00",
+      "phone": "061-830-8888"
+    },
+    {
+      "experience_id": "EX-GW-NAT-045",
+      "name": "평창 메밀꽃밭+이효석 문학촌",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 평창군",
+      "address": "강원특별자치도 평창군 봉평면 이효석길 33",
+      "lat": 37.5658,
+      "lng": 128.4906,
+      "price": "성인 2,000원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "메밀꽃 필 무렵 소설 배경지 평창 봉평 메밀꽃밭과 이효석 문학관을 탐방하는 체험이다. 매년 8~9월 하얀 메밀꽃이 봉평 들판을 가득 채우는 장관과 함께 소설 속 배경 공간을 직접 걸을 수 있다.",
+      "source_urls": [
+        "https://www.hyoseok.com/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "봉평메밀꽃",
+        "이효석",
+        "평창",
+        "강원",
+        "메밀꽃필무렵",
+        "문학여행",
+        "8~9월"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:00:13",
+      "operation_status": "annual",
+      "operating_hours": "8~9월 메밀꽃 시즌",
+      "phone": "033-330-2700"
+    },
+    {
+      "experience_id": "EX-GN-NAT-047",
+      "name": "거창 수승대 계곡 피서",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 거창군",
+      "address": "경상남도 거창군 위천면 수승대로 890",
+      "lat": 35.7119,
+      "lng": 127.8456,
+      "price": "무료",
+      "duration": "3~5시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "어린이",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "경남 거창 수승대 계곡에서 여름 피서를 즐기는 체험이다. 수승대 바위와 맑은 계곡물이 어우러지는 경관이 아름다우며 유학자 퇴계 이황과 인연이 있는 역사 유적도 함께 볼 수 있다.",
+      "source_urls": [
+        "https://www.geochang.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "수승대",
+        "거창",
+        "경남",
+        "계곡피서",
+        "수승대바위",
+        "이황",
+        "여름"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:00:13",
+      "operation_status": "seasonal",
+      "operating_hours": "6~9월 (무료)",
+      "phone": "055-940-3423"
+    },
+    {
+      "experience_id": "EX-GG-NAT-049",
+      "name": "의정부 부대찌개 원조 거리",
+      "category_main": "문화/체험",
+      "category_sub": "지역 먹거리",
+      "region_main": "GG",
+      "region_sub": "경기도 의정부시",
+      "address": "경기도 의정부시 의정부동 부대찌개 거리",
+      "lat": 37.7381,
+      "lng": 127.0436,
+      "price": "1만원~",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "한국 부대찌개의 발원지 의정부에서 원조 부대찌개를 맛보는 먹거리 투어다. 6·25 전쟁 후 미군 부대 음식을 활용한 한국식 부대찌개의 발원지에서 50년 이상 된 원조 노포들을 방문한다.",
+      "source_urls": [
+        "https://www.ui4u.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "의정부부대찌개",
+        "의정부",
+        "경기",
+        "부대찌개원조",
+        "미군부대음식",
+        "노포",
+        "향토"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:00:13",
+      "operation_status": "active",
+      "operating_hours": "11:00~22:00",
+      "phone": "031-828-2114"
+    },
+    {
+      "experience_id": "EX-JN-NAT-050",
+      "name": "나주 영산강 황포돛배",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 나주시",
+      "address": "전라남도 나주시 영강길 77 황포돛배 선착장",
+      "lat": 35.0181,
+      "lng": 126.7181,
+      "price": "성인 10,000원~",
+      "duration": "1시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "조선 시대 영산강을 오가던 황포돛배를 타고 나주 영산강을 유람하는 체험이다. 전통 돛배를 타고 영산강 갈대밭과 노을을 감상하며 나주 고려시대 포구 문화를 이해한다.",
+      "source_urls": [
+        "https://www.naju.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "황포돛배",
+        "나주",
+        "전남",
+        "영산강",
+        "전통돛배",
+        "포구문화",
+        "갈대"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:00:13",
+      "operation_status": "active",
+      "operating_hours": "10:00~17:00",
+      "phone": "061-330-8722"
+    },
+    {
+      "experience_id": "EX-GW-NAT-046",
+      "name": "평창 알펜시아 바이애슬론 코스",
+      "category_main": "문화/체험",
+      "category_sub": "스포츠 체험",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 평창군",
+      "address": "강원특별자치도 평창군 대관령면 올림픽로 715",
+      "lat": 37.6592,
+      "lng": 128.6956,
+      "price": "성인 10,000원~",
+      "duration": "1~2시간",
+      "reservation_required": true,
+      "target_user": [
+        "개인",
+        "청년"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "2018 평창동계올림픽 바이애슬론 경기장에서 사격과 크로스컨트리 스키를 결합한 바이애슬론 입문 체험을 즐기는 프로그램이다. 올림픽 선수들이 사용했던 사격장을 직접 체험한다.",
+      "source_urls": [
+        "https://www.alpensia.com/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "바이애슬론",
+        "알펜시아",
+        "평창",
+        "올림픽경기장",
+        "사격",
+        "크로스컨트리",
+        "스포츠"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:00:13",
+      "operation_status": "active",
+      "operating_hours": "09:00~17:00",
+      "phone": "033-339-0000"
+    },
+    {
+      "experience_id": "EX-GN-NAT-048",
+      "name": "남해 물미해안 드라이브",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 남해군",
+      "address": "경상남도 남해군 설천면 물미해안로",
+      "lat": 34.915,
+      "lng": 127.8636,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "경남 남해 설천면 물미해안도로를 드라이브하는 체험이다. 남해 다도해를 옆에 두고 달리는 해안 드라이브 코스로 창선교 너머 창선도와 연결되는 아름다운 해안선이 펼쳐진다.",
+      "source_urls": [
+        "https://www.namhae.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "물미해안",
+        "남해",
+        "경남",
+        "해안드라이브",
+        "다도해",
+        "창선도",
+        "드라이브"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:00:13",
+      "operation_status": "active",
+      "operating_hours": "연중 (무료)",
+      "phone": "055-860-3671"
+    },
+    {
+      "experience_id": "EX-GG-NAT-050",
+      "name": "연천 고대산 가을 단풍",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GG",
+      "region_sub": "경기도 연천군",
+      "address": "경기도 연천군 신서면 고대산 일원",
+      "lat": 38.0917,
+      "lng": 127.2222,
+      "price": "무료",
+      "duration": "3~4시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "경기도 연천군 고대산에서 가을 단풍 트레킹을 즐기는 체험이다. 해발 832m 고대산은 경기 북부 최고 단풍 명소로 10월 중순 붉은 단풍이 절정이며 한탄강 주상절리와 연계하면 연천 완벽 가을 코스다.",
+      "source_urls": [
+        "https://www.yeoncheon.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "고대산",
+        "연천",
+        "경기",
+        "단풍",
+        "가을트레킹",
+        "한탄강",
+        "경기북부"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:00:13",
+      "operation_status": "annual",
+      "operating_hours": "10월 단풍 시즌 (무료)",
+      "phone": "031-839-2562"
+    },
+    {
+      "experience_id": "EX-JN-NAT-051",
+      "name": "진도 신비의 바닷길 걷기",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 진도군",
+      "address": "전라남도 진도군 고군면 회동리 신비의 바닷길 선착장",
+      "lat": 34.4833,
+      "lng": 126.3111,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인",
+        "외국인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "매년 음력 2~3월 사리 때 진도와 모도 사이 2.8km 바닷길이 열리는 자연 현상을 직접 걷는 체험이다. 갈라진 바닷속 길을 직접 걸으면서 조개·게 등을 잡는 특별한 자연 체험이다.",
+      "source_urls": [
+        "https://www.jindo.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "진도신비의바닷길",
+        "진도",
+        "전남",
+        "바다갈라짐",
+        "걷기체험",
+        "음력23월",
+        "조개잡기"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:00:13",
+      "operation_status": "annual",
+      "operating_hours": "매년 음력 2~3월 사리 때",
+      "phone": "061-540-6431"
+    },
+    {
+      "experience_id": "EX-GN-NAT-049",
+      "name": "통영 박경리 토지길 탐방",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 통영시",
+      "address": "경상남도 통영시 동피랑 일원",
+      "lat": 34.8463,
+      "lng": 128.4339,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "소설 토지의 작가 박경리의 고향 통영에서 그의 문학 발자취를 탐방하는 체험이다. 동피랑 벽화마을과 박경리 기념관·생가를 연결하는 코스로 통영의 문학·예술 정신을 이해한다.",
+      "source_urls": [
+        "https://www.tongyeong.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "박경리",
+        "통영",
+        "경남",
+        "토지",
+        "동피랑",
+        "문학투어",
+        "생가"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:00:13",
+      "operation_status": "active",
+      "operating_hours": "연중 (무료)",
+      "phone": "055-650-2703"
+    },
+    {
+      "experience_id": "EX-GG-NAT-051",
+      "name": "파주 오두산 통일전망대",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GG",
+      "region_sub": "경기도 파주시",
+      "address": "경기도 파주시 탄현면 필승로 369",
+      "lat": 37.8639,
+      "lng": 126.7072,
+      "price": "성인 3,000원",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인",
+        "외국인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "한강과 임진강이 합류하는 파주 오두산 통일전망대에서 북한을 바라보는 역사 탐방이다. 맑은 날 망원경으로 북한 황해도 개풍군을 볼 수 있으며 분단 역사를 이해하는 교육 체험이다.",
+      "source_urls": [
+        "https://www.tongiltour.co.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "통일전망대",
+        "파주",
+        "경기",
+        "북한조망",
+        "한강임진강합류",
+        "분단",
+        "교육"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:00:13",
+      "operation_status": "active",
+      "operating_hours": "09:00~16:00",
+      "phone": "031-945-0171"
     }
   ],
   "last_updated": "2026-05-07T04:18:31"
