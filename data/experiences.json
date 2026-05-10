@@ -1,8 +1,8 @@
 {
   "_comment": "겜코리아 체험 데이터 — 역사/자연 마커와 분리. 삭제 금지. 젬투어 상품 후보.",
   "_version": "1.0",
-  "_updated": "2026-05-10T03:24:27",
-  "total": 589,
+  "_updated": "2026-05-10T03:28:20",
+  "total": 601,
   "experiences": [
     {
       "experience_id": "EX-SE-MKT-001",
@@ -10540,7 +10540,7 @@
         "가족체험"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-10T01:24:29",
       "operation_status": "seasonal",
       "operating_hours": "12~2월 천혜향 시즌",
@@ -10581,7 +10581,7 @@
         "가족"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-10T01:24:29",
       "operation_status": "active",
       "operating_hours": "10:00~23:00",
@@ -10621,7 +10621,7 @@
         "가족체험"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-10T01:24:29",
       "operation_status": "seasonal",
       "operating_hours": "4~5월 죽순 시즌",
@@ -10661,7 +10661,7 @@
         "자연체험"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-10T01:24:29",
       "operation_status": "active",
       "operating_hours": "09:00~18:00 (동절기 17:00)",
@@ -10702,7 +10702,7 @@
         "먹거리"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-10T01:24:29",
       "operation_status": "active",
       "operating_hours": "11:00~22:00",
@@ -10742,7 +10742,7 @@
         "겨울탐조"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-10T01:24:29",
       "operation_status": "seasonal",
       "operating_hours": "12~2월 두루미 월동 시즌",
@@ -24015,6 +24015,491 @@
       "operation_status": "active",
       "operating_hours": "일출 전 탐방 신청",
       "phone": "061-780-7700"
+    },
+    {
+      "experience_id": "EX-GW-NAT-063",
+      "name": "고성 화진포 호수+이승만 별장",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 고성군",
+      "address": "강원특별자치도 고성군 현내면 화진포길 280",
+      "lat": 38.3972,
+      "lng": 128.4808,
+      "price": "성인 3,000원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "고성 화진포 석호에서 이승만·이기붕·김일성의 별장을 탐방하는 역사 체험이다. 남북 최고 지도자들이 동시에 사용했던 별장들이 한 호수 주변에 모여있는 독특한 역사 현장을 방문한다.",
+      "source_urls": [
+        "https://www.goseong.org/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "화진포별장",
+        "고성",
+        "강원",
+        "이승만",
+        "화진포",
+        "남북별장",
+        "한반도역사"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:28:20",
+      "operation_status": "active",
+      "operating_hours": "09:00~17:00",
+      "phone": "033-680-3677"
+    },
+    {
+      "experience_id": "EX-JN-NAT-074",
+      "name": "순천 낙안읍성 전통 체험",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 순천시",
+      "address": "전라남도 순천시 낙안면 낙안읍성",
+      "lat": 34.9825,
+      "lng": 127.3875,
+      "price": "성인 4,000원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인",
+        "외국인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "낙안읍성 민속마을에서 전통 체험을 즐기는 코스다. 줄다리기·팽이치기·윷놀이·전통 의상 착용 등 조선 시대 서민 생활 체험을 즐기며 실제 주민이 거주하는 살아있는 민속 마을 문화를 이해한다.",
+      "source_urls": [
+        "https://www.nagan.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "낙안읍성체험",
+        "순천",
+        "전남",
+        "전통체험",
+        "줄다리기",
+        "살아있는민속",
+        "윷놀이"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:28:20",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00",
+      "phone": "061-749-8831"
+    },
+    {
+      "experience_id": "EX-GN-NAT-071",
+      "name": "통영 달아 일몰 전망대",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 통영시",
+      "address": "경상남도 통영시 산양읍 달아길 165",
+      "lat": 34.8256,
+      "lng": 128.3933,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "통영 달아 공원 전망대에서 한려해상국립공원 다도해 일몰을 감상하는 체험이다. 150여 개 섬이 파노라마로 펼쳐지는 경남 최고 일몰 전망대로 붉게 물드는 다도해 석양이 압도적이다.",
+      "source_urls": [
+        "https://www.tongyeong.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "달아전망대",
+        "통영",
+        "경남",
+        "다도해일몰",
+        "한려해상",
+        "섬파노라마",
+        "석양"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:28:20",
+      "operation_status": "active",
+      "operating_hours": "연중 (무료)",
+      "phone": "055-650-4681"
+    },
+    {
+      "experience_id": "EX-GG-NAT-065",
+      "name": "양주 회암사지+북한산 한북정맥",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GG",
+      "region_sub": "경기도 양주시",
+      "address": "경기도 양주시 회천읍 회암사길 281",
+      "lat": 37.8492,
+      "lng": 127.0647,
+      "price": "회암사지 무료",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "고려 말 최대 사찰 회암사지와 주변 한북정맥 트레킹을 즐기는 역사+자연 코스다. 무학대사·이성계가 주석했던 회암사 터를 탐방하고 북한강 조망이 아름다운 한북정맥 능선을 걷는다.",
+      "source_urls": [
+        "https://www.yangju.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "회암사지",
+        "양주",
+        "경기",
+        "무학대사",
+        "이성계",
+        "역사탐방",
+        "한북정맥"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:28:20",
+      "operation_status": "active",
+      "operating_hours": "연중 (무료)",
+      "phone": "031-8082-4245"
+    },
+    {
+      "experience_id": "EX-JN-NAT-075",
+      "name": "여수 향일암 새벽 일출",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 여수시",
+      "address": "전라남도 여수시 돌산읍 향일암로 60",
+      "lat": 34.6539,
+      "lng": 127.7547,
+      "price": "성인 2,000원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "한국 4대 기도 명소 여수 향일암에서 새벽 일출을 감상하는 특별 체험이다. 절벽 위 사찰에서 바라보는 남해 다도해 일출이 압도적이며 새벽 예불 소리와 함께 맞이하는 일출이 특히 감동적이다.",
+      "source_urls": [
+        "https://www.hyangiram.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "향일암일출",
+        "여수",
+        "전남",
+        "한국4대기도",
+        "다도해일출",
+        "새벽예불",
+        "절벽사찰"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:28:20",
+      "operation_status": "active",
+      "operating_hours": "04:30~20:00",
+      "phone": "061-644-4742"
+    },
+    {
+      "experience_id": "EX-GN-NAT-072",
+      "name": "합천 해인사 홍류동+단풍",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 합천군",
+      "address": "경상남도 합천군 가야면 홍류동 계곡",
+      "lat": 35.79,
+      "lng": 128.0992,
+      "price": "무료",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "합천 해인사 가는 길 홍류동 계곡에서 가을 단풍을 감상하는 트레킹 체험이다. 붉게 물든 단풍이 계곡물과 함께 흐르는 홍류동 구간이 합천 최고 단풍 명소로 10월 중순 절정이 된다.",
+      "source_urls": [
+        "https://www.hc.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "홍류동단풍",
+        "해인사",
+        "합천",
+        "경남",
+        "계곡단풍",
+        "가야산",
+        "가을명소"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:28:20",
+      "operation_status": "annual",
+      "operating_hours": "10월 단풍 시즌 (무료)",
+      "phone": "055-930-3400"
+    },
+    {
+      "experience_id": "EX-GG-NAT-066",
+      "name": "연천 고대산 한탄강 코스",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GG",
+      "region_sub": "경기도 연천군",
+      "address": "경기도 연천군 고대산 입구",
+      "lat": 38.0917,
+      "lng": 127.2222,
+      "price": "무료",
+      "duration": "3~4시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "연천 고대산 등산과 한탄강 주상절리 트레일을 하루에 즐기는 연천 완벽 코스다. 고대산 정상에서 내려다보는 한탄강 협곡 전경과 하산 후 한탄강 트레일을 걷는 경기도 최고 자연 여행이다.",
+      "source_urls": [
+        "https://www.yeoncheon.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "고대산한탄강",
+        "연천",
+        "경기",
+        "고대산",
+        "한탄강주상절리",
+        "코스여행",
+        "협곡"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:28:20",
+      "operation_status": "annual",
+      "operating_hours": "연중 (무료)",
+      "phone": "031-839-2562"
+    },
+    {
+      "experience_id": "EX-JN-NAT-076",
+      "name": "고창 내장산 우화정 단풍",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "JN",
+      "region_sub": "전라북도 고창군",
+      "address": "전라북도 정읍시 내장동 내장산 우화정",
+      "lat": 35.4869,
+      "lng": 126.8836,
+      "price": "국립공원 무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "내장산 우화정 연못에서 가을 단풍이 수면에 반영되는 절경을 감상하는 체험이다. 내장사 입구부터 우화정까지 이어지는 단풍 터널과 연못 반영이 어우러지는 장면이 내장산 단풍 하이라이트다.",
+      "source_urls": [
+        "https://naejang.knps.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "우화정단풍",
+        "내장산",
+        "정읍",
+        "전북",
+        "단풍반영",
+        "연못",
+        "한국단풍1번지"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:28:20",
+      "operation_status": "annual",
+      "operating_hours": "10~11월 단풍 시즌 (무료)",
+      "phone": "063-538-7875"
+    },
+    {
+      "experience_id": "EX-GN-NAT-073",
+      "name": "밀양 위양지 이팝나무 봄",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 밀양시",
+      "address": "경상남도 밀양시 부북면 위양리 위양못",
+      "lat": 35.4886,
+      "lng": 128.7861,
+      "price": "무료",
+      "duration": "1시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "밀양 위양지 연못 주변 이팝나무가 5월에 하얀 꽃을 피우는 봄 명소를 탐방하는 체험이다. 300년 된 이팝나무 다섯 그루가 연못가에 하얀 꽃을 피워 반영이 이루어지는 경남 최고의 봄 포토존이다.",
+      "source_urls": [
+        "https://www.miryang.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "위양지이팝나무",
+        "밀양",
+        "경남",
+        "이팝꽃",
+        "연못반영",
+        "5월꽃",
+        "포토존"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:28:20",
+      "operation_status": "annual",
+      "operating_hours": "5월 이팝나무 개화 시즌 (무료)",
+      "phone": "055-359-5638"
+    },
+    {
+      "experience_id": "EX-GG-NAT-067",
+      "name": "인천 소래포구 새우젓+어시장",
+      "category_main": "문화/체험",
+      "category_sub": "지역 먹거리",
+      "region_main": "GG",
+      "region_sub": "인천광역시 남동구",
+      "address": "인천광역시 남동구 논현동 소래포구",
+      "lat": 37.3983,
+      "lng": 126.7244,
+      "price": "무료 입장",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "인천 소래포구 어시장에서 새우젓·꽃게·낙지 등 서해 해산물을 구경하고 맛보는 먹거리 투어다. 서울 근교 30분 거리 서해안 어시장으로 수도권 최대 규모 수산물 직판 시장이다.",
+      "source_urls": [
+        "https://www.namdong.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "소래포구",
+        "인천",
+        "서해해산물",
+        "새우젓",
+        "꽃게",
+        "수산물직판",
+        "서울근교"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:28:20",
+      "operation_status": "active",
+      "operating_hours": "06:00~21:00",
+      "phone": "032-441-6266"
+    },
+    {
+      "experience_id": "EX-JN-NAT-077",
+      "name": "담양 창평 전통 마을 투어",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 담양군",
+      "address": "전라남도 담양군 창평면 창평리",
+      "lat": 35.2267,
+      "lng": 126.995,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "슬로시티 1호로 지정된 담양 창평 한옥 마을을 탐방하는 역사 문화 체험이다. 조선 시대 유학자 가문들이 형성한 전통 한옥 마을에서 창평 한과·막걸리·쌀엿 전통 먹거리도 함께 즐긴다.",
+      "source_urls": [
+        "https://www.damyang.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "창평슬로시티",
+        "담양",
+        "전남",
+        "전통마을",
+        "한옥",
+        "창평한과",
+        "슬로시티"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:28:20",
+      "operation_status": "active",
+      "operating_hours": "연중 (무료)",
+      "phone": "061-380-3000"
+    },
+    {
+      "experience_id": "EX-GN-NAT-074",
+      "name": "경주 황룡사지+국립경주박물관",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GB",
+      "region_sub": "경상북도 경주시",
+      "address": "경상북도 경주시 구황동 황룡사지",
+      "lat": 35.8406,
+      "lng": 129.2256,
+      "price": "박물관 무료",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인",
+        "외국인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "신라 최대 사찰 황룡사지와 국립경주박물관을 연계하는 역사 탐방이다. 6세기에 지어진 대형 사찰 황룡사 터에서 신라 불교 문화를 이해하고 박물관에서 출토 유물을 관람하는 경주 필수 역사 코스다.",
+      "source_urls": [
+        "https://gyeongju.museum.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "황룡사지",
+        "국립경주박물관",
+        "경주",
+        "경북",
+        "신라",
+        "황룡사",
+        "무료"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:28:20",
+      "operation_status": "active",
+      "operating_hours": "박물관 09:00~18:00 (무료)",
+      "phone": "054-740-7500"
     }
   ],
   "last_updated": "2026-05-07T04:18:31"
