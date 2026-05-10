@@ -1,8 +1,8 @@
 {
   "_comment": "겜코리아 체험 데이터 — 역사/자연 마커와 분리. 삭제 금지. 젬투어 상품 후보.",
   "_version": "1.0",
-  "_updated": "2026-05-10T02:07:46",
-  "total": 361,
+  "_updated": "2026-05-10T02:11:47",
+  "total": 373,
   "experiences": [
     {
       "experience_id": "EX-SE-MKT-001",
@@ -4107,7 +4107,7 @@
         "성곽야경"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:27:32",
       "operation_status": "seasonal",
       "operating_hours": "야간 투어: 4~10월 (금·토 운영)",
@@ -4148,7 +4148,7 @@
         "역사교육"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:27:32",
       "operation_status": "active",
       "operating_hours": "09:00~18:00 (월요일 휴관)",
@@ -4190,7 +4190,7 @@
         "노동당사"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:27:32",
       "operation_status": "active",
       "operating_hours": "09:00~16:00 (사전 예약 필수)",
@@ -4231,7 +4231,7 @@
         "성동구"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:27:32",
       "operation_status": "active",
       "operating_hours": "10:00~21:00",
@@ -4272,7 +4272,7 @@
         "커플"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:27:32",
       "operation_status": "active",
       "operating_hours": "10:00~18:00",
@@ -4313,7 +4313,7 @@
         "꽹과리"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:27:32",
       "operation_status": "active",
       "operating_hours": "10:00~18:00",
@@ -14767,6 +14767,495 @@
       "operation_status": "active",
       "operating_hours": "연중",
       "phone": "033-640-4533"
+    },
+    {
+      "experience_id": "EX-JN-NAT-014",
+      "name": "순천 낙안읍성 돌담 산책",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 순천시",
+      "address": "전라남도 순천시 낙안면 상촌리 낙안읍성",
+      "lat": 34.9825,
+      "lng": 127.3875,
+      "price": "성인 4,000원",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "조선 시대 원형 보존 낙안읍성 안 실제 주민이 거주하는 살아있는 민속 마을을 탐방하는 체험이다. 돌담길·초가집·동헌·객사가 500년 시간 그대로 보존된 곳으로 사계절 아름다운 경관이 펼쳐진다.",
+      "source_urls": [
+        "https://www.nagan.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "낙안읍성",
+        "순천",
+        "전남",
+        "돌담",
+        "초가집",
+        "살아있는민속마을",
+        "조선시대"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:11:47",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00",
+      "phone": "061-749-8831"
+    },
+    {
+      "experience_id": "EX-CB-NAT-005",
+      "name": "충주 활옥 동굴 체험",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "CB",
+      "region_sub": "충청북도 충주시",
+      "address": "충청북도 충주시 목벌동 7 활옥동굴",
+      "lat": 36.9744,
+      "lng": 127.895,
+      "price": "성인 13,000원",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "일제강점기 금·은·동을 채굴하던 활옥 광산이 테마파크형 동굴로 변신했다. 자전거를 타고 동굴 안을 탐험하는 자전거 동굴 체험과 보트 체험이 특색 있으며 연중 13도를 유지한다.",
+      "source_urls": [
+        "https://www.hwalokcave.com/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "활옥동굴",
+        "충주",
+        "충북",
+        "자전거동굴",
+        "광산",
+        "보트",
+        "여름피서"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:11:47",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00",
+      "phone": "043-842-7700"
+    },
+    {
+      "experience_id": "EX-GN-NAT-012",
+      "name": "거제 맹종죽 숲 힐링 체험",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 거제시",
+      "address": "경상남도 거제시 하청면 유계리 맹종죽테마파크",
+      "lat": 34.9403,
+      "lng": 128.5931,
+      "price": "성인 3,000원",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "국내 최대 맹종죽(왕대나무) 군락지 거제 맹종죽 테마파크에서 대나무 숲 힐링 체험을 즐기는 프로그램이다. 높이 20m 왕대나무들이 만들어내는 녹색 터널과 대나무 바람 소리가 특별한 힐링 공간이다.",
+      "source_urls": [
+        "https://www.geoje.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "맹종죽",
+        "거제",
+        "경남",
+        "왕대나무",
+        "힐링",
+        "대나무숲",
+        "피톤치드"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:11:47",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00",
+      "phone": "055-639-6615"
+    },
+    {
+      "experience_id": "EX-GW-NAT-016",
+      "name": "강화도 석모도 민머루 해변",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GW",
+      "region_sub": "인천광역시 강화군",
+      "address": "인천광역시 강화군 삼산면 매음리 민머루해변",
+      "lat": 37.5683,
+      "lng": 126.3958,
+      "price": "무료",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "석모도 서쪽 해안 민머루 해변에서 서해 낙조를 감상하는 체험이다. 넓은 갯벌과 함께 펼쳐지는 붉은 서해 석양이 강화 최고의 일몰 포인트로 알려져 있으며 모래찜질로도 유명하다.",
+      "source_urls": [
+        "https://www.ganghwa.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "민머루해변",
+        "석모도",
+        "강화",
+        "인천",
+        "서해낙조",
+        "갯벌",
+        "모래찜질"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:11:47",
+      "operation_status": "active",
+      "operating_hours": "연중 (무료)",
+      "phone": "032-932-5464"
+    },
+    {
+      "experience_id": "EX-JN-NAT-015",
+      "name": "구례 산수유 마을 봄 투어",
+      "category_main": "문화/체험",
+      "category_sub": "축제",
+      "region_main": "JN",
+      "region_sub": "전라남도 구례군",
+      "address": "전라남도 구례군 산동면 현천리 산수유마을",
+      "lat": 35.2158,
+      "lng": 127.5453,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "매년 3월 초순 전남 구례 산동면 산수유 마을에서 노란 산수유꽃이 만개하는 봄 풍경을 감상하는 체험이다. 한국에서 가장 이른 봄꽃 중 하나인 산수유가 마을 전체를 노랗게 물들이는 장관이 펼쳐진다.",
+      "source_urls": [
+        "https://www.gurye.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "구례산수유",
+        "구례",
+        "전남",
+        "산수유꽃",
+        "봄꽃",
+        "이른봄",
+        "노란꽃"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:11:47",
+      "operation_status": "annual",
+      "operating_hours": "3월 초순 산수유 시즌",
+      "phone": "061-780-2555"
+    },
+    {
+      "experience_id": "EX-GG-NAT-016",
+      "name": "연천 전곡리 구석기 테마파크",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GG",
+      "region_sub": "경기도 연천군",
+      "address": "경기도 연천군 전곡읍 평화로 443번길 34",
+      "lat": 38.1028,
+      "lng": 127.1231,
+      "price": "성인 3,000원",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "어린이"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "한국에서 최초로 아슐리안형 구석기 유물이 발견된 전곡리 선사유적지에 조성된 테마파크를 탐방하는 체험이다. 어린이가 직접 구석기 시대 체험을 할 수 있는 실물 크기 유적지 모형과 체험관이 있다.",
+      "source_urls": [
+        "https://www.yeoncheon.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "전곡리구석기",
+        "연천",
+        "경기",
+        "선사시대",
+        "아슐리안",
+        "어린이체험",
+        "구석기"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:11:47",
+      "operation_status": "active",
+      "operating_hours": "09:30~17:30 (월요일 휴관)",
+      "phone": "031-839-2561"
+    },
+    {
+      "experience_id": "EX-GN-NAT-013",
+      "name": "함양 상림공원 연꽃 투어",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 함양군",
+      "address": "경상남도 함양군 함양읍 상림리 상림공원",
+      "lat": 35.5253,
+      "lng": 127.7197,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "신라 최치원이 홍수를 막기 위해 조성한 1,100년 역사 인공 숲 함양 상림공원에서 여름 연꽃을 감상하는 체험이다. 국내 최고령 인공 숲에서 7~8월 피는 연꽃이 천 년 역사와 어우러지는 특별한 풍경이다.",
+      "source_urls": [
+        "https://www.hamyang.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "함양상림공원",
+        "함양",
+        "경남",
+        "최치원",
+        "인공숲",
+        "연꽃",
+        "1100년"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:11:47",
+      "operation_status": "active",
+      "operating_hours": "연중 (무료)",
+      "phone": "055-960-5510"
+    },
+    {
+      "experience_id": "EX-JJ-NAT-005",
+      "name": "제주 에코랜드 증기기관차 투어",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "JJ",
+      "region_sub": "제주특별자치도 제주시",
+      "address": "제주특별자치도 제주시 조천읍 번영로 1278-169",
+      "lat": 33.4992,
+      "lng": 126.6739,
+      "price": "성인 17,000원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "어린이",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "제주 비자림 곶자왈 생태 숲을 1800년대 영국 증기기관차 스타일 열차를 타고 탐방하는 체험이다. 4개 테마 호수와 에코 숲을 순환하며 제주 자연을 체험하는 힐링 코스다.",
+      "source_urls": [
+        "https://www.ecolandjeju.co.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "제주에코랜드",
+        "제주",
+        "증기기관차",
+        "곶자왈",
+        "비자림",
+        "생태숲",
+        "어린이"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:11:47",
+      "operation_status": "active",
+      "operating_hours": "08:30~18:00",
+      "phone": "064-802-8000"
+    },
+    {
+      "experience_id": "EX-GG-NAT-017",
+      "name": "인천 을왕리 썰물 갯벌 투어",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GG",
+      "region_sub": "인천광역시 중구",
+      "address": "인천광역시 중구 을왕동 을왕리해수욕장",
+      "lat": 37.4758,
+      "lng": 126.5868,
+      "price": "무료",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "어린이"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "을왕리해수욕장 썰물 때 드러나는 갯벌에서 조개·게·낙지를 잡는 체험이다. 인천공항 15분 거리로 접근성이 좋고 어린이 갯벌 체험학습 코스로 인기가 높다.",
+      "source_urls": [
+        "https://www.icjgss.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "을왕리갯벌",
+        "인천",
+        "을왕리",
+        "갯벌체험",
+        "조개잡기",
+        "인천공항근처",
+        "어린이"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:11:47",
+      "operation_status": "seasonal",
+      "operating_hours": "썰물 시간 (조석표 확인)",
+      "phone": "032-752-4141"
+    },
+    {
+      "experience_id": "EX-JN-NAT-016",
+      "name": "고창 고인돌 공원+람사르 갯벌",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "JN",
+      "region_sub": "전라북도 고창군",
+      "address": "전라북도 고창군 죽림리 매산마을 고인돌공원",
+      "lat": 35.4394,
+      "lng": 126.6358,
+      "price": "고인돌공원 성인 3,000원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "유네스코 세계유산 고창 고인돌 공원과 람사르 습지 고창 갯벌을 하루에 탐방하는 이색 코스다. 청동기 시대 무덤 고인돌 447기와 서해 생태 갯벌을 함께 경험하는 전북 대표 역사+자연 코스다.",
+      "source_urls": [
+        "https://www.gochang.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "고창고인돌",
+        "고창",
+        "전북",
+        "유네스코",
+        "람사르갯벌",
+        "청동기",
+        "세계유산"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:11:47",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00",
+      "phone": "063-560-2979"
+    },
+    {
+      "experience_id": "EX-GW-NAT-017",
+      "name": "영월 고씨동굴+선암마을 코스",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 영월군",
+      "address": "강원특별자치도 영월군 김삿갓면 고씨굴길 1",
+      "lat": 37.1858,
+      "lng": 128.4697,
+      "price": "동굴 성인 5,000원",
+      "duration": "3~5시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "임진왜란 피란처 고씨동굴 탐방 후 김삿갓 유적지와 선암마을을 돌아보는 영월 하루 코스다. 영월은 단종 유배지이자 한국 지질 유산이 집중된 곳으로 역사와 자연을 함께 즐길 수 있다.",
+      "source_urls": [
+        "https://www.yw.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "고씨동굴",
+        "영월",
+        "강원",
+        "김삿갓",
+        "단종",
+        "하루코스",
+        "지질공원"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:11:47",
+      "operation_status": "active",
+      "operating_hours": "09:00~17:00",
+      "phone": "033-372-8445"
+    },
+    {
+      "experience_id": "EX-GG-NAT-018",
+      "name": "수원 화성 행궁 판타지 미디어아트",
+      "category_main": "문화/체험",
+      "category_sub": "야경/야간투어",
+      "region_main": "GG",
+      "region_sub": "경기도 수원시",
+      "address": "경기도 수원시 팔달구 행궁로 11",
+      "lat": 37.2791,
+      "lng": 126.993,
+      "price": "성인 10,000원",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "가족",
+        "외국인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "수원화성행궁에서 진행되는 야간 미디어아트 체험이다. 조선 시대 정조대왕의 일대기와 화성 건설 역사를 최첨단 미디어아트로 표현한 몰입형 야간 전시로 화성행궁 건물 전체가 스크린이 된다.",
+      "source_urls": [
+        "https://www.swcf.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "화성행궁미디어아트",
+        "수원화성",
+        "행궁",
+        "야간",
+        "미디어아트",
+        "정조대왕",
+        "경기"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:11:47",
+      "operation_status": "seasonal",
+      "operating_hours": "야간 운영 (행사 시즌)",
+      "phone": "031-290-3600"
     }
   ],
   "last_updated": "2026-05-07T04:18:31"
