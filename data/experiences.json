@@ -1,8 +1,8 @@
 {
   "_comment": "겜코리아 체험 데이터 — 역사/자연 마커와 분리. 삭제 금지. 젬투어 상품 후보.",
   "_version": "1.0",
-  "_updated": "2026-05-10T02:36:03",
-  "total": 445,
+  "_updated": "2026-05-10T02:40:07",
+  "total": 457,
   "experiences": [
     {
       "experience_id": "EX-SE-MKT-001",
@@ -5819,7 +5819,7 @@
         "숲명상"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:39:16",
       "operation_status": "active",
       "operating_hours": "10:00~17:00",
@@ -5859,7 +5859,7 @@
         "성산일출봉"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:39:16",
       "operation_status": "active",
       "operating_hours": "연중",
@@ -5900,7 +5900,7 @@
         "마애삼존불"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:39:16",
       "operation_status": "active",
       "operating_hours": "10:00~17:00",
@@ -5941,7 +5941,7 @@
         "해양레포츠"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:39:16",
       "operation_status": "seasonal",
       "operating_hours": "09:00~17:00 (4~11월)",
@@ -5981,7 +5981,7 @@
         "전남"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:39:16",
       "operation_status": "seasonal",
       "operating_hours": "05:00~17:00 (일출 투어 포함)",
@@ -6021,7 +6021,7 @@
         "광주맛"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:39:16",
       "operation_status": "active",
       "operating_hours": "10:00~16:00",
@@ -18179,6 +18179,492 @@
       "operation_status": "active",
       "operating_hours": "연중 (무료)",
       "phone": "031-532-6135"
+    },
+    {
+      "experience_id": "EX-GN-NAT-029",
+      "name": "하동 화개 쌍계사 벚꽃+십리길",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 하동군",
+      "address": "경상남도 하동군 화개면 쌍계사 십리벚꽃길",
+      "lat": 35.0834,
+      "lng": 127.6842,
+      "price": "무료",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "하동 화개장터에서 쌍계사까지 4km 십리벚꽃길을 걸으며 천 년 사찰 쌍계사를 방문하는 봄 체험이다. 수령 100년 이상 왕벚나무 꽃터널과 사찰 경내 봄 꽃이 어우러지는 한국 최고 봄 트레킹 코스다.",
+      "source_urls": [
+        "https://www.hadong.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "쌍계사벚꽃",
+        "하동",
+        "십리벚꽃길",
+        "경남",
+        "봄여행",
+        "사찰",
+        "화개장터"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:40:07",
+      "operation_status": "annual",
+      "operating_hours": "3월 말~4월 초 벚꽃 시즌",
+      "phone": "055-880-2960"
+    },
+    {
+      "experience_id": "EX-GW-NAT-032",
+      "name": "강릉 정동진 모래시계+일출",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 강릉시",
+      "address": "강원특별자치도 강릉시 강동면 헌화로 950-39",
+      "lat": 37.6788,
+      "lng": 129.0286,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "세계에서 가장 바다에 가까운 기차역 정동진에서 일출을 감상하는 체험이다. 드라마 모래시계 촬영지이며 매년 새해 수십만 명이 일출을 맞이하는 동해 최고 일출 명소다.",
+      "source_urls": [
+        "https://www.gn.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "정동진일출",
+        "정동진",
+        "강릉",
+        "강원",
+        "동해일출",
+        "모래시계",
+        "기차역"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:40:07",
+      "operation_status": "active",
+      "operating_hours": "연중",
+      "phone": "033-640-4533"
+    },
+    {
+      "experience_id": "EX-JN-NAT-033",
+      "name": "완도 해조류 체험마을",
+      "category_main": "문화/체험",
+      "category_sub": "해양체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 완도군",
+      "address": "전라남도 완도군 완도읍 개포리 일원",
+      "lat": 34.3176,
+      "lng": 126.7557,
+      "price": "1인 20,000원~",
+      "duration": "2~3시간",
+      "reservation_required": true,
+      "target_user": [
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "해조류 왕국 완도에서 미역·다시마·톳 채취와 해조류 요리를 즐기는 어촌 체험이다. 청정 완도 앞바다 수하식 양식장에서 해조류를 직접 채취하고 해조류를 활용한 건강 요리를 만든다.",
+      "source_urls": [
+        "https://www.wando.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "완도해조류",
+        "완도",
+        "전남",
+        "미역",
+        "다시마",
+        "어촌체험",
+        "해조류요리"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:40:07",
+      "operation_status": "active",
+      "operating_hours": "09:00~17:00",
+      "phone": "061-550-5114"
+    },
+    {
+      "experience_id": "EX-GN-NAT-030",
+      "name": "창원 진해 해군사관학교 투어",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 창원시",
+      "address": "경상남도 창원시 진해구 중원로 1 해군사관학교",
+      "lat": 35.16,
+      "lng": 128.6747,
+      "price": "무료 (사전 신청)",
+      "duration": "2~3시간",
+      "reservation_required": true,
+      "target_user": [
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "대한민국 해군 장교를 양성하는 해군사관학교를 탐방하는 역사 교육 체험이다. 이순신 장군 동상·해군 함정 전시·사관학교 교정을 견학하며 한국 해군 역사를 이해한다.",
+      "source_urls": [
+        "https://www.navy.mil.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "해군사관학교",
+        "진해",
+        "창원",
+        "경남",
+        "이순신",
+        "해군역사",
+        "교육"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:40:07",
+      "operation_status": "active",
+      "operating_hours": "평일 사전 신청 (주말 제한)",
+      "phone": "055-549-0114"
+    },
+    {
+      "experience_id": "EX-JB-NAT-010",
+      "name": "임실 치즈 테마파크",
+      "category_main": "문화/체험",
+      "category_sub": "어린이 체험",
+      "region_main": "JB",
+      "region_sub": "전라북도 임실군",
+      "address": "전라북도 임실군 임실읍 치즈마을로 2",
+      "lat": 35.6163,
+      "lng": 127.2794,
+      "price": "성인 5,000원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "어린이"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "국내 최초 치즈 제조지 임실의 치즈 테마파크를 탐방하는 체험이다. 치즈 마을 전체를 테마파크로 꾸며 치즈 만들기·피자 만들기·소 먹이 주기·양몰이 등 다양한 체험 프로그램을 운영한다.",
+      "source_urls": [
+        "https://www.cheesemaul.com/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "임실치즈테마파크",
+        "임실",
+        "전북",
+        "치즈",
+        "어린이체험",
+        "피자만들기",
+        "가족"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:40:07",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00",
+      "phone": "063-643-3700"
+    },
+    {
+      "experience_id": "EX-GW-NAT-033",
+      "name": "원주 간현 관광지 래프팅",
+      "category_main": "문화/체험",
+      "category_sub": "어드벤처/레포츠",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 원주시",
+      "address": "강원특별자치도 원주시 지정면 간현리 섬강",
+      "lat": 37.405,
+      "lng": 127.9322,
+      "price": "1인 30,000원~",
+      "duration": "2시간",
+      "reservation_required": true,
+      "target_user": [
+        "개인",
+        "커플",
+        "청년"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "원주 섬강에서 래프팅을 즐기는 체험이다. 섬강의 급류와 협곡을 고무보트로 내려오며 뮤지엄 산 방문과 연계하면 원주 완벽 하루 코스가 완성된다.",
+      "source_urls": [
+        "https://www.wonju.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "간현래프팅",
+        "원주",
+        "강원",
+        "래프팅",
+        "섬강",
+        "급류",
+        "여름"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:40:07",
+      "operation_status": "seasonal",
+      "operating_hours": "5~10월",
+      "phone": "033-732-8800"
+    },
+    {
+      "experience_id": "EX-GG-NAT-037",
+      "name": "인천 차이나타운 짜장면+만두 투어",
+      "category_main": "문화/체험",
+      "category_sub": "지역 먹거리",
+      "region_main": "GG",
+      "region_sub": "인천광역시 중구",
+      "address": "인천광역시 중구 차이나타운로 56",
+      "lat": 37.4758,
+      "lng": 126.6168,
+      "price": "먹거리 별도",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인",
+        "외국인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "한국 짜장면의 발원지 인천 차이나타운에서 짜장면·짬뽕·만두를 먹는 먹거리 투어다. 1905년 공화춘에서 처음 선보인 한국식 짜장면의 역사를 직접 경험하는 코스다.",
+      "source_urls": [
+        "https://www.icjgss.or.kr/chinatown/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "차이나타운짜장면",
+        "인천",
+        "중구",
+        "짜장면",
+        "공화춘",
+        "한국최초",
+        "먹거리"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:40:07",
+      "operation_status": "active",
+      "operating_hours": "11:00~21:00",
+      "phone": "032-773-9988"
+    },
+    {
+      "experience_id": "EX-GN-NAT-031",
+      "name": "진주 남강 벚꽃 워킹",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 진주시",
+      "address": "경상남도 진주시 남강변 벚꽃길",
+      "lat": 35.1894,
+      "lng": 128.1058,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "진주 남강변 3km 벚꽃 길을 걷는 봄 체험이다. 진주성·촉석루를 배경으로 남강 양쪽 제방에 핀 벚꽃이 봄 진주 최고 경관을 만들며 봄 진주 남강 유등축제와 연계하면 최고의 진주 봄 코스다.",
+      "source_urls": [
+        "https://www.jinju.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "진주남강벚꽃",
+        "진주",
+        "경남",
+        "벚꽃",
+        "남강",
+        "진주성",
+        "봄"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:40:07",
+      "operation_status": "annual",
+      "operating_hours": "3월 말~4월 초 벚꽃 시즌",
+      "phone": "055-749-2696"
+    },
+    {
+      "experience_id": "EX-JN-NAT-034",
+      "name": "고흥 거금도 바다 낚시",
+      "category_main": "문화/체험",
+      "category_sub": "낚시/어촌 체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 고흥군",
+      "address": "전라남도 고흥군 금산면 거금도 방파제",
+      "lat": 34.5119,
+      "lng": 127.1089,
+      "price": "1인 20,000원~",
+      "duration": "3~4시간",
+      "reservation_required": true,
+      "target_user": [
+        "개인",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "고흥 거금도에서 방파제 낚시와 선상 낚시를 즐기는 체험이다. 남해 청정 해역 거금도에서 우럭·농어·볼락 등 다양한 어종을 낚시하고 직접 잡은 물고기로 회를 즐기는 어촌 체험이다.",
+      "source_urls": [
+        "https://www.goh.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "거금도낚시",
+        "고흥",
+        "전남",
+        "방파제낚시",
+        "선상낚시",
+        "우럭",
+        "남해"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:40:07",
+      "operation_status": "active",
+      "operating_hours": "연중",
+      "phone": "061-830-8777"
+    },
+    {
+      "experience_id": "EX-GG-NAT-038",
+      "name": "경기 이천 쌀 수확 체험",
+      "category_main": "문화/체험",
+      "category_sub": "농촌 체험",
+      "region_main": "GG",
+      "region_sub": "경기도 이천시",
+      "address": "경기도 이천시 부발읍 임금님표쌀농장",
+      "lat": 37.2641,
+      "lng": 127.4731,
+      "price": "1인 15,000원~",
+      "duration": "2~3시간",
+      "reservation_required": true,
+      "target_user": [
+        "가족",
+        "어린이"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "이천 임금님표 쌀 농장에서 9~10월 벼 수확 체험을 즐기는 농촌 체험이다. 조선 왕실에 진상했던 이천 쌀 낫으로 직접 베기·탈곡·도정 과정을 체험하고 갓 지은 이천 쌀밥을 맛볼 수 있다.",
+      "source_urls": [
+        "https://www.icheon.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "이천쌀수확",
+        "이천",
+        "경기",
+        "벼베기",
+        "임금님표쌀",
+        "탈곡",
+        "가을체험"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:40:07",
+      "operation_status": "seasonal",
+      "operating_hours": "9~10월 벼 수확 시즌",
+      "phone": "031-644-2538"
+    },
+    {
+      "experience_id": "EX-CB-NAT-007",
+      "name": "보은 법주사 연등 법회",
+      "category_main": "문화/체험",
+      "category_sub": "사찰 체험",
+      "region_main": "CB",
+      "region_sub": "충청북도 보은군",
+      "address": "충청북도 보은군 속리산면 법주사로 379",
+      "lat": 36.5439,
+      "lng": 127.8492,
+      "price": "성인 5,000원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "가족",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "국보 팔상전이 있는 속리산 법주사에서 봄 연등 법회와 경내 탐방을 즐기는 체험이다. 석가탄신일 전후 화려한 연등이 경내를 가득 채우는 장관과 조선 유일 목탑 팔상전을 함께 관람한다.",
+      "source_urls": [
+        "https://www.beopjusa.org/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "법주사연등",
+        "보은",
+        "충북",
+        "속리산",
+        "팔상전",
+        "목탑",
+        "연등법회"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:40:07",
+      "operation_status": "annual",
+      "operating_hours": "석가탄신일 전후 (음력 4월)",
+      "phone": "043-543-3615"
+    },
+    {
+      "experience_id": "EX-GN-NAT-032",
+      "name": "하동 지리산 화개재 철쭉 트레킹",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 하동군",
+      "address": "경상남도 하동군 화개면 지리산 화개재",
+      "lat": 35.1639,
+      "lng": 127.7236,
+      "price": "무료",
+      "duration": "3~5시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "지리산 화개재 능선에서 5월 철쭉이 만개하는 시기에 트레킹하는 체험이다. 섬진강 하동에서 출발해 지리산 능선에 오르면 붉은 철쭉 군락과 전남·경남이 한눈에 보이는 전경이 펼쳐진다.",
+      "source_urls": [
+        "https://www.hadong.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "화개재철쭉",
+        "하동",
+        "지리산",
+        "경남",
+        "철쭉",
+        "트레킹",
+        "5월"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:40:07",
+      "operation_status": "annual",
+      "operating_hours": "5월 철쭉 시즌",
+      "phone": "055-880-2960"
     }
   ],
   "last_updated": "2026-05-07T04:18:31"
