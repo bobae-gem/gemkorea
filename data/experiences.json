@@ -1,8 +1,8 @@
 {
   "_comment": "겜코리아 체험 데이터 — 역사/자연 마커와 분리. 삭제 금지. 젬투어 상품 후보.",
   "_version": "1.0",
-  "_updated": "2026-05-10T22:53:58",
-  "total": 721,
+  "_updated": "2026-05-10T22:57:50",
+  "total": 733,
   "experiences": [
     {
       "experience_id": "EX-SE-MKT-001",
@@ -29345,6 +29345,489 @@
       "operation_status": "annual",
       "operating_hours": "10~11월 단풍 시즌",
       "phone": "063-538-7875"
+    },
+    {
+      "experience_id": "EX-GG-NAT-080",
+      "name": "화성 융릉·건릉 트레킹",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GG",
+      "region_sub": "경기도 화성시",
+      "address": "경기도 화성시 안녕동 융릉로 일대",
+      "lat": 37.215,
+      "lng": 127.0561,
+      "price": "성인 1,000원",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "정조의 아버지 사도세자(장조)가 묻힌 융릉과 정조의 건릉을 탐방하는 역사 체험이다. 정조가 매년 참배한 화성 융릉·건릉은 소나무 숲 속 아름다운 왕릉으로 유네스코 세계문화유산이다.",
+      "source_urls": [
+        "https://royaltombs.cha.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "융릉건릉",
+        "화성",
+        "경기",
+        "정조",
+        "사도세자",
+        "유네스코왕릉",
+        "소나무숲"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-10T22:57:50",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00",
+      "phone": "031-222-0797"
+    },
+    {
+      "experience_id": "EX-JN-CUL-051",
+      "name": "나주 나주읍성 역사 투어",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 나주시",
+      "address": "전라남도 나주시 과원동 나주읍성 일대",
+      "lat": 35.0258,
+      "lng": 126.7128,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "조선 시대 전라도의 중심 도시였던 나주의 읍성과 관아를 탐방하는 역사 체험이다. 고려·조선 시대 전남 도청 역할을 한 나주 읍성 복원 구역을 걸으며 나주목 역사를 체험한다.",
+      "source_urls": [
+        "https://www.naju.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "나주읍성",
+        "나주",
+        "전남",
+        "나주목",
+        "조선나주",
+        "읍성투어",
+        "전라감영"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T22:57:50",
+      "operation_status": "active",
+      "operating_hours": "연중 (무료)",
+      "phone": "061-330-1261"
+    },
+    {
+      "experience_id": "EX-GN-CUL-076",
+      "name": "남해 독일마을 맥주 축제",
+      "category_main": "문화/체험",
+      "category_sub": "축제",
+      "region_main": "GN",
+      "region_sub": "경상남도 남해군",
+      "address": "경상남도 남해군 삼동면 독일마을 일대",
+      "lat": 34.7889,
+      "lng": 127.9119,
+      "price": "입장 무료 (음식·음료 별도)",
+      "duration": "4~6시간",
+      "reservation_required": false,
+      "target_user": [
+        "청년",
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "경남 남해 독일마을에서 매년 10월 열리는 맥주 축제 코리안 옥토버페스트다. 파독 광부·간호사들이 독일 문화를 가져온 남해 독일마을에서 독일 소시지·맥주와 함께 이국적 축제 분위기를 즐긴다.",
+      "source_urls": [
+        "https://www.namhae.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "남해독일마을맥주축제",
+        "남해",
+        "경남",
+        "옥토버페스트",
+        "독일맥주",
+        "파독간호사",
+        "10월"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-10T22:57:50",
+      "operation_status": "annual",
+      "operating_hours": "10월 축제 기간",
+      "phone": "055-863-8000"
+    },
+    {
+      "experience_id": "EX-GG-CUL-080",
+      "name": "의왕 왕송호수 철도 박물관",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GG",
+      "region_sub": "경기도 의왕시",
+      "address": "경기도 의왕시 철도박물관로 142",
+      "lat": 37.3556,
+      "lng": 126.9864,
+      "price": "성인 2,000원",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "어린이"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "한국 철도 역사를 한눈에 볼 수 있는 경기 의왕 철도박물관을 탐방하는 체험이다. 실제 증기기관차·전기기관차 실물과 한국 철도 100년 역사를 전시한 국내 유일 종합 철도 박물관이다.",
+      "source_urls": [
+        "https://www.railroadmuseum.co.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "의왕철도박물관",
+        "의왕",
+        "경기",
+        "철도박물관",
+        "증기기관차",
+        "철도역사",
+        "어린이"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T22:57:50",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00 (월 휴관)",
+      "phone": "031-461-3610"
+    },
+    {
+      "experience_id": "EX-JB-NAT-069",
+      "name": "진안 운일암반일암 계곡",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "JB",
+      "region_sub": "전라북도 진안군",
+      "address": "전라북도 진안군 주천면 운장산로 일대",
+      "lat": 35.8383,
+      "lng": 127.3644,
+      "price": "무료",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "전북 진안 주천면 운일암반일암 계곡을 탐방하는 자연 체험이다. 기암괴석과 맑은 계곡이 어우러지는 운일암반일암은 낮에도 하루 한 번 해가 뜨고 진다는 뜻으로 깊은 계곡 속 신비로운 경관이 있다.",
+      "source_urls": [
+        "https://www.jinan.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "운일암반일암",
+        "진안",
+        "전북",
+        "계곡",
+        "기암괴석",
+        "여름계곡",
+        "주천"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-10T22:57:50",
+      "operation_status": "seasonal",
+      "operating_hours": "연중 (여름 계곡 시즌 최적)",
+      "phone": "063-430-2513"
+    },
+    {
+      "experience_id": "EX-CB-NAT-047",
+      "name": "단양 사인암 트레킹",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "CB",
+      "region_sub": "충청북도 단양군",
+      "address": "충청북도 단양군 대강면 사인암길 27",
+      "lat": 36.9328,
+      "lng": 128.2944,
+      "price": "무료",
+      "duration": "1시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "충북 단양 남한강변 기암절벽 사인암을 탐방하는 자연 체험이다. 단양8경 중 하나인 사인암은 남한강 물 위로 솟아오른 30m 수직 절벽으로 조선 시대 화가들의 그림 소재로 자주 등장한 단양 최고 비경이다.",
+      "source_urls": [
+        "https://www.danyang.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "단양사인암",
+        "단양",
+        "충북",
+        "사인암",
+        "단양8경",
+        "남한강절벽",
+        "기암괴석"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T22:57:50",
+      "operation_status": "active",
+      "operating_hours": "연중 (무료)",
+      "phone": "043-422-1146"
+    },
+    {
+      "experience_id": "EX-GW-NAT-078",
+      "name": "인제 합강정 강수욕",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 인제군",
+      "address": "강원특별자치도 인제군 인제읍 합강리 합강정",
+      "lat": 38.0656,
+      "lng": 128.1681,
+      "price": "무료",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "강원 인제 내린천과 소양강이 합류하는 합강정에서 강수욕을 즐기는 여름 체험이다. 맑고 깨끗한 1급수 내린천에서 강수욕·래프팅·플라이낚시를 즐기는 강원 최고 여름 강수욕 명소다.",
+      "source_urls": [
+        "https://www.inje.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "인제합강정강수욕",
+        "인제",
+        "강원",
+        "내린천",
+        "강수욕",
+        "1급수",
+        "여름"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-10T22:57:50",
+      "operation_status": "seasonal",
+      "operating_hours": "여름 (6~8월)",
+      "phone": "033-460-2170"
+    },
+    {
+      "experience_id": "EX-JN-NAT-096",
+      "name": "광주 무등산 트레킹",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "JN",
+      "region_sub": "광주광역시 동구",
+      "address": "광주광역시 동구 무등산 일원",
+      "lat": 35.1303,
+      "lng": 127.0133,
+      "price": "무료",
+      "duration": "4~5시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "광주의 진산 무등산 정상 천왕봉까지 트레킹하는 체험이다. 국립공원 무등산의 주상절리 서석대·입석대는 수천만 년 전 화산 활동으로 형성된 거대한 돌기둥으로 무등산 최고 비경이다.",
+      "source_urls": [
+        "https://modeungsan.knps.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "무등산트레킹",
+        "광주",
+        "전남",
+        "무등산",
+        "서석대",
+        "입석대",
+        "주상절리"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T22:57:50",
+      "operation_status": "active",
+      "operating_hours": "연중 (무료)",
+      "phone": "062-227-1187"
+    },
+    {
+      "experience_id": "EX-GN-NAT-088",
+      "name": "거제 지세포 야경+해산물",
+      "category_main": "문화/체험",
+      "category_sub": "야경/야간투어",
+      "region_main": "GN",
+      "region_sub": "경상남도 거제시",
+      "address": "경상남도 거제시 일운면 지세포리",
+      "lat": 34.8725,
+      "lng": 128.7153,
+      "price": "해산물 별도",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "경남 거제 지세포 항구에서 야경과 함께 신선한 해산물을 즐기는 야간 체험이다. 거제도 항구 중 지세포가 밤 분위기가 아름답고 신선한 통영·거제 해산물을 저렴하게 즐길 수 있는 로컬 명소다.",
+      "source_urls": [
+        "https://www.geoje.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "거제지세포야경",
+        "거제",
+        "경남",
+        "지세포",
+        "해산물",
+        "항구야경",
+        "로컬명소"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T22:57:50",
+      "operation_status": "active",
+      "operating_hours": "저녁 17:00~22:00",
+      "phone": "055-639-3000"
+    },
+    {
+      "experience_id": "EX-GB-NAT-046",
+      "name": "문경새재 트레킹",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GB",
+      "region_sub": "경상북도 문경시",
+      "address": "경상북도 문경시 문경읍 새재로 932 문경새재",
+      "lat": 36.7983,
+      "lng": 128.0911,
+      "price": "성인 2,000원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "조선 시대 영남에서 한양으로 가는 가장 중요한 관문 경북 문경새재를 트레킹하는 역사 체험이다. 문경새재 옛길을 따라 주흘관·조곡관·조령관 3개 관문을 통과하며 조선 시대 역사를 체험한다.",
+      "source_urls": [
+        "https://www.mungyeongsaejae.com/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "문경새재트레킹",
+        "문경",
+        "경북",
+        "문경새재",
+        "옛길",
+        "3관문",
+        "조선시대"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-10T22:57:50",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00",
+      "phone": "054-550-8361"
+    },
+    {
+      "experience_id": "EX-GG-NAT-081",
+      "name": "강화 마니산 트레킹",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GG",
+      "region_sub": "인천광역시 강화군",
+      "address": "인천광역시 강화군 화도면 마니산로 661",
+      "lat": 37.5753,
+      "lng": 126.4517,
+      "price": "성인 2,000원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "단군이 하늘에 제사를 지냈다는 인천 강화 마니산 정상 참성단까지 트레킹하는 역사 체험이다. 한라산과 백두산의 중간 높이에 위치한 마니산 정상에서 강화 바다 전경이 펼쳐지는 역사·자연 체험이다.",
+      "source_urls": [
+        "https://www.ganghwa.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "강화마니산",
+        "강화도",
+        "인천",
+        "마니산",
+        "참성단",
+        "단군",
+        "강화바다"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-10T22:57:50",
+      "operation_status": "active",
+      "operating_hours": "연중",
+      "phone": "032-930-3114"
+    },
+    {
+      "experience_id": "EX-JN-CUL-052",
+      "name": "영광 백수해안도로 낙조",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 영광군",
+      "address": "전라남도 영광군 백수읍 해안로 일대",
+      "lat": 35.3608,
+      "lng": 126.4889,
+      "price": "무료",
+      "duration": "1시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "전남 영광 백수해안도로에서 서해 낙조를 감상하는 체험이다. 16.8km 해안도로를 따라 드라이브하며 서해 낙조를 즐기는 코스로 죽도봉 낙조 전망대가 영광 최고 낙조 포인트다.",
+      "source_urls": [
+        "https://www.yeonggwang.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "영광백수해안도로",
+        "영광",
+        "전남",
+        "서해낙조",
+        "해안도로드라이브",
+        "죽도봉낙조",
+        "일몰"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T22:57:50",
+      "operation_status": "active",
+      "operating_hours": "일몰 전 방문 (무료)",
+      "phone": "061-350-5422"
     }
   ],
   "last_updated": "2026-05-07T04:18:31"
