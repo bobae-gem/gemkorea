@@ -1,8 +1,8 @@
 {
   "_comment": "겜코리아 체험 데이터 — 역사/자연 마커와 분리. 삭제 금지. 젬투어 상품 후보.",
   "_version": "1.0",
-  "_updated": "2026-05-10T01:59:39",
-  "total": 337,
+  "_updated": "2026-05-10T02:03:44",
+  "total": 349,
   "experiences": [
     {
       "experience_id": "EX-SE-MKT-001",
@@ -3621,7 +3621,7 @@
         "커플체험"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-08T09:35:30",
       "operation_status": "active",
       "operating_hours": "10:00~18:00",
@@ -3662,7 +3662,7 @@
         "꽃체험"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-08T09:35:30",
       "operation_status": "seasonal",
       "operating_hours": "3월 매화 시즌 운영",
@@ -3703,7 +3703,7 @@
         "첨성대"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-08T09:35:30",
       "operation_status": "annual",
       "operating_hours": "매년 10월 (5~7일간)",
@@ -3743,7 +3743,7 @@
         "국제축제"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-08T09:35:30",
       "operation_status": "annual",
       "operating_hours": "매년 9~10월 (10일간)",
@@ -3784,7 +3784,7 @@
         "낭만여행"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-08T09:35:30",
       "operation_status": "annual",
       "operating_hours": "매년 8월 (2주간)",
@@ -3825,7 +3825,7 @@
         "경기"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-08T09:35:30",
       "operation_status": "active",
       "operating_hours": "09:30~18:00 (연중무휴)",
@@ -13791,6 +13791,494 @@
       "operation_status": "active",
       "operating_hours": "새벽 05:00~07:00 (경매)",
       "phone": "051-245-2594"
+    },
+    {
+      "experience_id": "EX-GW-NAT-011",
+      "name": "평창 이효석 문학관·메밀꽃 투어",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 평창군",
+      "address": "강원특별자치도 평창군 봉평면 이효석길 33",
+      "lat": 37.5658,
+      "lng": 128.4906,
+      "price": "성인 2,000원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "메밀꽃 필 무렵의 작가 이효석 생가와 문학관을 탐방하고 봉평 메밀꽃밭을 걷는 체험이다. 매년 8~9월 소설 속 배경이 그대로 재현된 봉평 메밀꽃밭이 하얗게 물드는 장관을 감상할 수 있다.",
+      "source_urls": [
+        "https://www.hyoseok.com/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "이효석문학관",
+        "봉평",
+        "메밀꽃",
+        "평창",
+        "강원",
+        "문학여행",
+        "메밀꽃필무렵"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:03:44",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00",
+      "phone": "033-330-2700"
+    },
+    {
+      "experience_id": "EX-JN-NAT-009",
+      "name": "고흥 나로우주센터+유자농장 코스",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 고흥군",
+      "address": "전라남도 고흥군 봉래면 나로우주센터로 490",
+      "lat": 34.4319,
+      "lng": 127.5344,
+      "price": "우주과학관 성인 3,000원",
+      "duration": "3~5시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "나로우주센터 우주과학관 탐방 후 고흥 유자농장 체험을 묶은 하루 코스다. 한국 우주 개발의 상징 나로호 발사대와 우주 체험관을 탐방하고 고흥 특산 유자를 직접 따는 이색 조합 체험이다.",
+      "source_urls": [
+        "https://www.kari.re.kr/narospacecenter/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "나로우주센터",
+        "고흥",
+        "우주",
+        "유자농장",
+        "코스여행",
+        "전남",
+        "이색조합"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:03:44",
+      "operation_status": "active",
+      "operating_hours": "09:30~17:30 (월요일 휴관)",
+      "phone": "061-830-8700"
+    },
+    {
+      "experience_id": "EX-GN-NAT-007",
+      "name": "함안 아라가야 고분군 트레킹",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 함안군",
+      "address": "경상남도 함안군 가야읍 가야리 말이산 고분군",
+      "lat": 35.2733,
+      "lng": 128.4072,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "유네스코 등재 추진 중인 아라가야 말이산 고분군을 탐방하는 역사 트레킹이다. 하늘에서 내려다보면 별자리 모양인 1~6세기 가야 왕릉급 고분 13기가 능선을 따라 줄지어 있다.",
+      "source_urls": [
+        "https://www.haman.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "말이산고분군",
+        "함안",
+        "아라가야",
+        "경남",
+        "가야역사",
+        "고분",
+        "별자리모양"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:03:44",
+      "operation_status": "active",
+      "operating_hours": "연중 (무료)",
+      "phone": "055-580-2481"
+    },
+    {
+      "experience_id": "EX-JN-NAT-010",
+      "name": "장흥 우드랜드 편백 숲 힐링",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 장흥군",
+      "address": "전라남도 장흥군 장흥읍 우드랜드길 180",
+      "lat": 34.6736,
+      "lng": 126.9131,
+      "price": "성인 3,000원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "장흥 편백 나무 숲 1,000ha에서 피톤치드 가득한 삼림욕을 즐기는 힐링 체험이다. 국내 최대 편백 군락지 중 하나로 가족 단위 힐링 코스로 인기가 높으며 편백 온천도 운영한다.",
+      "source_urls": [
+        "https://www.jhwoodland.co.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "장흥우드랜드",
+        "장흥",
+        "전남",
+        "편백숲",
+        "피톤치드",
+        "삼림욕",
+        "편백온천"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:03:44",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00",
+      "phone": "061-864-0063"
+    },
+    {
+      "experience_id": "EX-GG-NAT-012",
+      "name": "파주 임진각 평화 누리 투어",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GG",
+      "region_sub": "경기도 파주시",
+      "address": "경기도 파주시 문산읍 임진각로 148",
+      "lat": 37.8839,
+      "lng": 126.7728,
+      "price": "무료 (일부 유료)",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인",
+        "외국인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "임진강 남쪽 임진각 평화 누리 공원에서 분단 현장을 탐방하는 체험이다. 망배단·임진각·자유의 다리·평화의 종·바람의 언덕 등을 걸으며 6·25 전쟁과 분단의 역사를 이해한다.",
+      "source_urls": [
+        "https://www.ggtour.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "임진각",
+        "파주",
+        "경기",
+        "분단",
+        "자유의다리",
+        "6·25",
+        "평화공원"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:03:44",
+      "operation_status": "active",
+      "operating_hours": "연중 (무료)",
+      "phone": "031-953-4744"
+    },
+    {
+      "experience_id": "EX-CB-NAT-004",
+      "name": "영동 와인 코리아 포도 따기",
+      "category_main": "문화/체험",
+      "category_sub": "농촌 체험",
+      "region_main": "CB",
+      "region_sub": "충청북도 영동군",
+      "address": "충청북도 영동군 영동읍 와인코리아로 77",
+      "lat": 36.175,
+      "lng": 127.7798,
+      "price": "1인 15,000원~",
+      "duration": "1~2시간",
+      "reservation_required": true,
+      "target_user": [
+        "개인",
+        "커플",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "한국 와인의 고장 영동에서 직접 포도를 따고 와인 시음을 즐기는 체험이다. 9~10월 포도 수확 시즌에 와인 코리아 포도밭에서 청포도·적포도를 직접 수확하고 영동 와이너리를 탐방한다.",
+      "source_urls": [
+        "https://www.ydwine.com/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "영동와인",
+        "영동",
+        "충북",
+        "포도따기",
+        "와인시음",
+        "한국와인",
+        "와이너리"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:03:44",
+      "operation_status": "seasonal",
+      "operating_hours": "9~10월 포도 시즌",
+      "phone": "043-740-3625"
+    },
+    {
+      "experience_id": "EX-JB-NAT-003",
+      "name": "순창 강천산 단풍 트레킹",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "JB",
+      "region_sub": "전라북도 순창군",
+      "address": "전라북도 순창군 팔덕면 강천산길 7",
+      "lat": 35.4325,
+      "lng": 127.115,
+      "price": "성인 3,000원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "전북 단풍 1번지 순창 강천산 군립공원에서 가을 단풍 트레킹을 즐기는 체험이다. 현수교·계곡·폭포와 함께 붉게 물든 단풍이 어우러지는 10~11월 절경이 전북에서 가장 아름다운 단풍 명소다.",
+      "source_urls": [
+        "https://www.sunchang.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "강천산",
+        "순창",
+        "전북",
+        "단풍",
+        "현수교",
+        "계곡",
+        "가을트레킹"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:03:44",
+      "operation_status": "active",
+      "operating_hours": "연중 (09:00~17:00)",
+      "phone": "063-650-1672"
+    },
+    {
+      "experience_id": "EX-GN-NAT-008",
+      "name": "남해 다랭이 논 트레킹",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 남해군",
+      "address": "경상남도 남해군 남면 홍현리 다랭이마을",
+      "lat": 34.7978,
+      "lng": 127.8781,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "한국의 계단식 논 절경 남해 가천 다랭이마을을 탐방하는 체험이다. 바다가 보이는 가파른 경사에 45단 계단식 논이 층층이 쌓인 풍경이 국내 최고의 농촌 경관으로 꼽히며 사계절 모두 아름답다.",
+      "source_urls": [
+        "https://www.namhae.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "다랭이마을",
+        "남해",
+        "경남",
+        "계단식논",
+        "가천마을",
+        "농촌경관",
+        "바다뷰"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:03:44",
+      "operation_status": "active",
+      "operating_hours": "연중 (무료)",
+      "phone": "055-860-3671"
+    },
+    {
+      "experience_id": "EX-IC-NAT-001",
+      "name": "인천 실미도 갯벌 체험",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "IC",
+      "region_sub": "인천광역시 중구",
+      "address": "인천광역시 중구 무의동 실미도",
+      "lat": 37.3975,
+      "lng": 126.5411,
+      "price": "무료",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "어린이"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "무의도 실미도에서 바지락·조개·게를 직접 잡는 갯벌 체험이다. 썰물 때 드러나는 실미도 갯벌에서 맨발로 갯벌을 걷고 해산물을 잡는 자연 체험으로 어린이 체험학습 코스로 인기가 높다.",
+      "source_urls": [
+        "https://www.icjgss.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "실미도갯벌",
+        "무의도",
+        "인천",
+        "갯벌체험",
+        "조개잡기",
+        "어린이체험",
+        "바지락"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:03:44",
+      "operation_status": "seasonal",
+      "operating_hours": "썰물 시간 (조석표 확인)",
+      "phone": "032-752-4141"
+    },
+    {
+      "experience_id": "EX-GW-NAT-012",
+      "name": "화천 파로호 얼음 낚시 체험",
+      "category_main": "문화/체험",
+      "category_sub": "낚시/어촌 체험",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 화천군",
+      "address": "강원특별자치도 화천군 화천읍 파로호 일원",
+      "lat": 38.1064,
+      "lng": 127.7082,
+      "price": "1인 20,000원~",
+      "duration": "3~5시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "어린이",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "화천 파로호에서 겨울 얼음낚시를 즐기는 체험이다. 화천 산천어축제 외 시간에도 파로호에서 빙어·피라미·잉어를 낚는 얼음낚시를 즐길 수 있으며 잡은 물고기를 즉석에서 구워 먹을 수 있다.",
+      "source_urls": [
+        "https://www.hwacheon.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "파로호얼음낚시",
+        "화천",
+        "강원",
+        "얼음낚시",
+        "빙어",
+        "겨울체험",
+        "가족"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:03:44",
+      "operation_status": "seasonal",
+      "operating_hours": "1~2월 결빙 기간",
+      "phone": "033-440-2732"
+    },
+    {
+      "experience_id": "EX-GN-NAT-009",
+      "name": "울산 태화강 국가 정원",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GN",
+      "region_sub": "울산광역시 중구",
+      "address": "울산광역시 중구 태화로 일원",
+      "lat": 35.5439,
+      "lng": 129.3019,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "전국 2번째 국가 정원으로 지정된 울산 태화강 국가 정원을 탐방하는 체험이다. 봄 유채꽃·청보리, 여름 해바라기, 가을 국화, 겨울 철새가 이어지는 사계절 정원이며 십리 대나무 숲이 명물이다.",
+      "source_urls": [
+        "https://www.ulsan.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "태화강국가정원",
+        "울산",
+        "국가정원",
+        "십리대나무",
+        "유채꽃",
+        "사계절",
+        "무료"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:03:44",
+      "operation_status": "active",
+      "operating_hours": "연중 (무료)",
+      "phone": "052-229-3800"
+    },
+    {
+      "experience_id": "EX-GG-NAT-013",
+      "name": "포천 비둘기낭 폭포 협곡 트레킹",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GG",
+      "region_sub": "경기도 포천시",
+      "address": "경기도 포천시 영북면 대회산리 비둘기낭",
+      "lat": 38.0167,
+      "lng": 127.2153,
+      "price": "무료",
+      "duration": "1시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "한탄강 주상절리 구간에 숨겨진 폭포 비둘기낭을 탐방하는 체험이다. 현무암 절벽 사이에 숨어있는 폭포로 KBS 드라마 선덕여왕·응답하라 1988 촬영지이며 주상절리 지형과 어우러지는 신비로운 분위기가 특징이다.",
+      "source_urls": [
+        "https://www.pocheon.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "비둘기낭폭포",
+        "포천",
+        "경기",
+        "한탄강",
+        "주상절리",
+        "폭포",
+        "드라마촬영지"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:03:44",
+      "operation_status": "active",
+      "operating_hours": "연중 (무료)",
+      "phone": "031-538-3363"
     }
   ],
   "last_updated": "2026-05-07T04:18:31"
