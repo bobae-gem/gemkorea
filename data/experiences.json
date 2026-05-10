@@ -1,8 +1,8 @@
 {
   "_comment": "겜코리아 체험 데이터 — 역사/자연 마커와 분리. 삭제 금지. 젬투어 상품 후보.",
   "_version": "1.0",
-  "_updated": "2026-05-10T00:00:32",
-  "total": 230,
+  "_updated": "2026-05-10T00:05:14",
+  "total": 242,
   "experiences": [
     {
       "experience_id": "EX-SE-MKT-001",
@@ -581,7 +581,7 @@
         "종로"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-06T02:13:45",
       "operation_status": "active",
       "operating_hours": "",
@@ -695,7 +695,7 @@
         "신라"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-06T02:13:45",
       "operation_status": "active",
       "operating_hours": "",
@@ -909,7 +909,7 @@
         "선명상"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-06T02:13:45",
       "operation_status": "active",
       "operating_hours": "",
@@ -9445,6 +9445,494 @@
       "operation_status": "active",
       "operating_hours": "09:00~17:00",
       "phone": "033-576-0656"
+    },
+    {
+      "experience_id": "EX-GG-FES-001",
+      "name": "가평 자라섬 재즈 페스티벌",
+      "category_main": "문화/체험",
+      "category_sub": "축제",
+      "region_main": "GG",
+      "region_sub": "경기도 가평군",
+      "address": "경기도 가평군 가평읍 자라섬로 60",
+      "lat": 37.835,
+      "lng": 127.5106,
+      "price": "1일권 80,000원~",
+      "duration": "1박 2일",
+      "reservation_required": true,
+      "target_user": [
+        "커플",
+        "청년",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "매년 10월 북한강 자라섬에서 열리는 아시아 최대 규모의 재즈 뮤직 페스티벌이다. 강변 야외 무대에서 국내외 재즈 뮤지션들의 공연을 들으며 캠핑까지 즐기는 가을 대표 축제다.",
+      "source_urls": [
+        "https://www.jarasumjazz.com/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "자라섬재즈",
+        "가평",
+        "재즈페스티벌",
+        "북한강",
+        "경기",
+        "가을축제",
+        "캠핑"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-10T00:05:14",
+      "operation_status": "annual",
+      "operating_hours": "매년 10월 (4일간)",
+      "phone": "031-581-2839"
+    },
+    {
+      "experience_id": "EX-SE-FES-001",
+      "name": "서울 빛초롱 축제 (청계천)",
+      "category_main": "문화/체험",
+      "category_sub": "야경/야간투어",
+      "region_main": "SE",
+      "region_sub": "서울특별시 중구",
+      "address": "서울특별시 중구 청계천로 일원",
+      "lat": 37.5698,
+      "lng": 126.9849,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "커플",
+        "외국인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "매년 11월 서울 청계천에서 열리는 무료 등불 축제다. 청계천 2km 구간을 형형색색의 전통 등과 미디어아트 설치물이 가득 채우며 한국의 전통 등 문화를 현대적으로 재해석한 서울 대표 겨울 야경 축제다.",
+      "source_urls": [
+        "https://www.seoullantern.org/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "빛초롱축제",
+        "청계천",
+        "서울",
+        "등불축제",
+        "무료",
+        "야경",
+        "겨울축제"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-10T00:05:14",
+      "operation_status": "annual",
+      "operating_hours": "매년 11월 (2주간) 18:00~23:00",
+      "phone": "02-2133-2714"
+    },
+    {
+      "experience_id": "EX-GN-FES-003",
+      "name": "밀양 아리랑 대축제",
+      "category_main": "문화/체험",
+      "category_sub": "축제",
+      "region_main": "GN",
+      "region_sub": "경상남도 밀양시",
+      "address": "경상남도 밀양시 밀양대로 2337",
+      "lat": 35.5036,
+      "lng": 128.7456,
+      "price": "무료",
+      "duration": "3~5시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "매년 5월 밀양에서 열리는 3대 아리랑 중 하나인 밀양아리랑 축제다. 밀양 나봉 설화를 바탕으로 한 아리랑 공연·농악·씨름이 펼쳐지며 밀양 얼음골 주변 자연과 함께 즐기는 봄 축제다.",
+      "source_urls": [
+        "https://www.miryang.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "밀양아리랑",
+        "밀양",
+        "아리랑축제",
+        "경남",
+        "무료",
+        "봄축제",
+        "전통공연"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T00:05:14",
+      "operation_status": "annual",
+      "operating_hours": "매년 5월 (5일간)",
+      "phone": "055-359-5604"
+    },
+    {
+      "experience_id": "EX-JB-FES-002",
+      "name": "전주 국제 영화제 체험",
+      "category_main": "문화/체험",
+      "category_sub": "문화예술",
+      "region_main": "JB",
+      "region_sub": "전라북도 전주시",
+      "address": "전라북도 전주시 완산구 전주객사3길 22",
+      "lat": 35.8186,
+      "lng": 127.1504,
+      "price": "영화 1편 8,000원~",
+      "duration": "영화별 상이",
+      "reservation_required": true,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "매년 4~5월 전주에서 열리는 국제 영화제에서 전 세계 독립영화와 예술 영화를 감상하는 체험이다. 한옥마을 인근 영화관들에서 상영하는 영화를 보고 감독과의 대화에 참여할 수 있다.",
+      "source_urls": [
+        "https://www.jiff.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "전주국제영화제",
+        "전주",
+        "JIFF",
+        "독립영화",
+        "예술영화",
+        "전북",
+        "영화축제"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T00:05:14",
+      "operation_status": "annual",
+      "operating_hours": "매년 4~5월 (10일간)",
+      "phone": "063-288-5433"
+    },
+    {
+      "experience_id": "EX-GW-FES-002",
+      "name": "평창 대관령 눈꽃축제",
+      "category_main": "문화/체험",
+      "category_sub": "축제",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 평창군",
+      "address": "강원특별자치도 평창군 대관령면 올림픽로 715",
+      "lat": 37.6604,
+      "lng": 128.7186,
+      "price": "무료 (체험 별도)",
+      "duration": "3~5시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "어린이",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "매년 1월 해발 700m 대관령에서 열리는 눈꽃 겨울 축제다. 눈 조각 전시·눈썰매·얼음 미끄럼틀·스노우 래프팅을 즐길 수 있으며 알펜시아 스키장과 연계하면 완벽한 겨울 여행이 된다.",
+      "source_urls": [
+        "https://www.snowflower.co.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "눈꽃축제",
+        "평창",
+        "대관령",
+        "겨울축제",
+        "강원",
+        "눈조각",
+        "눈썰매"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-10T00:05:14",
+      "operation_status": "annual",
+      "operating_hours": "매년 1월 (2주간)",
+      "phone": "033-335-3995"
+    },
+    {
+      "experience_id": "EX-JN-FES-003",
+      "name": "광양 매화 축제",
+      "category_main": "문화/체험",
+      "category_sub": "축제",
+      "region_main": "JN",
+      "region_sub": "전라남도 광양시",
+      "address": "전라남도 광양시 다압면 매화로 1",
+      "lat": 35.0586,
+      "lng": 127.7094,
+      "price": "무료",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "매년 3월 전남 광양 다압면에서 열리는 한국 최대 매화 축제다. 섬진강 변 청매실 농원의 매화가 만개하는 시기에 하얀 매화꽃이 산 전체를 뒤덮는 장관이 펼쳐진다.",
+      "source_urls": [
+        "https://www.maehwa.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "광양매화축제",
+        "광양",
+        "전남",
+        "매화",
+        "섬진강",
+        "봄축제",
+        "청매실농원"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-10T00:05:14",
+      "operation_status": "annual",
+      "operating_hours": "매년 3월 (2주간)",
+      "phone": "061-797-2657"
+    },
+    {
+      "experience_id": "EX-GG-FES-002",
+      "name": "안성 국제 남사당 보부상 축제",
+      "category_main": "문화/체험",
+      "category_sub": "축제",
+      "region_main": "GG",
+      "region_sub": "경기도 안성시",
+      "address": "경기도 안성시 보개면 남사당길 2",
+      "lat": 37.0094,
+      "lng": 127.2747,
+      "price": "무료",
+      "duration": "3~5시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "어린이",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "유네스코 인류무형문화유산 남사당 풍물놀이의 고장 안성에서 열리는 축제다. 풍물·버나·매·살판·어름·덜미(꼭두각시) 등 남사당의 6가지 공연 예술을 한번에 볼 수 있다.",
+      "source_urls": [
+        "https://www.namsadang.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "남사당축제",
+        "안성",
+        "경기",
+        "유네스코",
+        "풍물놀이",
+        "남사당",
+        "보부상"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T00:05:14",
+      "operation_status": "annual",
+      "operating_hours": "매년 9~10월 (5일간)",
+      "phone": "031-676-2618"
+    },
+    {
+      "experience_id": "EX-JJ-FES-002",
+      "name": "제주 들불축제",
+      "category_main": "문화/체험",
+      "category_sub": "축제",
+      "region_main": "JJ",
+      "region_sub": "제주특별자치도 제주시",
+      "address": "제주특별자치도 제주시 애월읍 새별오름 일원",
+      "lat": 33.3889,
+      "lng": 126.3608,
+      "price": "무료",
+      "duration": "3~5시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "매년 음력 정월대보름 새별오름에서 제주 전통 방목지 불 놓기 의례를 재현하는 축제다. 오름 전체가 불길에 휩싸이는 장관이 펼쳐지며 달맞이·쥐불놀이·소원풍등 날리기를 함께 즐긴다.",
+      "source_urls": [
+        "https://www.jejufire.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "제주들불축제",
+        "제주",
+        "새별오름",
+        "정월대보름",
+        "불축제",
+        "전통행사",
+        "소원풍등"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T00:05:14",
+      "operation_status": "annual",
+      "operating_hours": "매년 2~3월 정월대보름",
+      "phone": "064-728-2752"
+    },
+    {
+      "experience_id": "EX-GW-FES-003",
+      "name": "인제 빙어 송어 축제",
+      "category_main": "문화/체험",
+      "category_sub": "낚시/어촌 체험",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 인제군",
+      "address": "강원특별자치도 인제군 남면 소양로 226",
+      "lat": 38.0628,
+      "lng": 128.1711,
+      "price": "1인 25,000원~",
+      "duration": "3~5시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "어린이",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "매년 1~2월 인제 소양강 상류에서 빙어와 송어를 낚시로 잡는 겨울 축제다. 꽁꽁 언 강 위에서 얼음낚시와 썰매·눈놀이를 즐기며 잡은 물고기를 즉석에서 회와 튀김으로 맛볼 수 있다.",
+      "source_urls": [
+        "https://www.inje.go.kr/tour/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "빙어축제",
+        "인제",
+        "강원",
+        "송어",
+        "겨울축제",
+        "얼음낚시",
+        "소양강"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T00:05:14",
+      "operation_status": "annual",
+      "operating_hours": "매년 1~2월 (3주간)",
+      "phone": "033-461-4296"
+    },
+    {
+      "experience_id": "EX-GB-FES-003",
+      "name": "청도 소싸움 축제",
+      "category_main": "문화/체험",
+      "category_sub": "축제",
+      "region_main": "GB",
+      "region_sub": "경상북도 청도군",
+      "address": "경상북도 청도군 화양읍 청도읍성로 26",
+      "lat": 35.6493,
+      "lng": 128.7361,
+      "price": "성인 7,000원",
+      "duration": "3~5시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "청도 전통 소싸움 경기를 관람하는 축제다. 한국에서 유일하게 연중 상설 소싸움 경기가 열리는 청도에서 천년 전통의 소싸움 문화를 체험한다. 봄·가을 축제 기간에 특별 대형 경기가 열린다.",
+      "source_urls": [
+        "https://www.cheongdo.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "소싸움",
+        "청도",
+        "경북",
+        "전통경기",
+        "소싸움축제",
+        "청도소싸움",
+        "상설경기"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-10T00:05:14",
+      "operation_status": "active",
+      "operating_hours": "연중 상설 (토·일·공휴일)",
+      "phone": "054-370-6206"
+    },
+    {
+      "experience_id": "EX-JN-FES-004",
+      "name": "보성 다향제 녹차 축제",
+      "category_main": "문화/체험",
+      "category_sub": "축제",
+      "region_main": "JN",
+      "region_sub": "전라남도 보성군",
+      "address": "전라남도 보성군 보성읍 봉산리 대한다원",
+      "lat": 34.7718,
+      "lng": 127.0792,
+      "price": "무료 (체험 별도)",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "매년 5월 보성 대한다원에서 열리는 한국 최대 녹차 축제다. 신록의 차밭 사이를 걸으며 채다·덖음 체험을 하고 다양한 녹차 음식을 맛볼 수 있는 전남 봄 축제의 대표격이다.",
+      "source_urls": [
+        "https://www.daehandawon.com/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "다향제",
+        "보성",
+        "녹차축제",
+        "전남",
+        "대한다원",
+        "차밭",
+        "봄축제"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T00:05:14",
+      "operation_status": "annual",
+      "operating_hours": "매년 5월 (1주일간)",
+      "phone": "061-852-4005"
+    },
+    {
+      "experience_id": "EX-GN-FES-004",
+      "name": "남해 보물섬 마늘 축제",
+      "category_main": "문화/체험",
+      "category_sub": "농촌 체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 남해군",
+      "address": "경상남도 남해군 삼동면 남해바래길 일원",
+      "lat": 34.8233,
+      "lng": 127.8789,
+      "price": "무료 (체험 별도)",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "매년 6월 남해 특산품 남해 마늘을 주제로 열리는 농촌 축제다. 마늘 캐기 체험·마늘 요리 경연·한방 마늘 음식 시식이 펼쳐지며 남해 독일마을과 함께 하루 코스로 즐기기 좋다.",
+      "source_urls": [
+        "https://www.namhae.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "남해마늘축제",
+        "남해",
+        "경남",
+        "마늘",
+        "농촌축제",
+        "특산품",
+        "보물섬"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T00:05:14",
+      "operation_status": "annual",
+      "operating_hours": "매년 6월 (3일간)",
+      "phone": "055-860-3001"
     }
   ],
   "last_updated": "2026-05-07T04:18:31"
