@@ -1,8 +1,8 @@
 {
   "_comment": "겜코리아 체험 데이터 — 역사/자연 마커와 분리. 삭제 금지. 젬투어 상품 후보.",
   "_version": "1.0",
-  "_updated": "2026-05-10T03:08:15",
-  "total": 541,
+  "_updated": "2026-05-10T03:12:13",
+  "total": 553,
   "experiences": [
     {
       "experience_id": "EX-SE-MKT-001",
@@ -7808,7 +7808,7 @@
         "도예체험"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:54:12",
       "operation_status": "active",
       "operating_hours": "11:00~21:00",
@@ -7848,7 +7848,7 @@
         "내륙습지"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:54:12",
       "operation_status": "active",
       "operating_hours": "09:00~18:00",
@@ -7888,7 +7888,7 @@
         "커플"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:54:12",
       "operation_status": "active",
       "operating_hours": "09:00~22:00",
@@ -7928,7 +7928,7 @@
         "역사교육"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:54:12",
       "operation_status": "active",
       "operating_hours": "09:00~18:00 (월요일 휴관)",
@@ -7969,7 +7969,7 @@
         "역사"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:54:12",
       "operation_status": "active",
       "operating_hours": "09:00~18:00",
@@ -8215,7 +8215,7 @@
         "무료"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T13:25:12",
       "operation_status": "seasonal",
       "operating_hours": "일몰 후 ~ 22:00 (행사 시즌)",
@@ -22067,6 +22067,491 @@
       "operation_status": "active",
       "operating_hours": "연중 (무료)",
       "phone": "055-225-3691"
+    },
+    {
+      "experience_id": "EX-GW-NAT-052",
+      "name": "강화 석모도 보문사+민머루",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GW",
+      "region_sub": "인천광역시 강화군",
+      "address": "인천광역시 강화군 삼산면 석모도",
+      "lat": 37.5683,
+      "lng": 126.3957,
+      "price": "보문사 성인 2,000원",
+      "duration": "3~4시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "석모도 보문사 마애석불과 민머루 서해 낙조를 하루에 즐기는 강화도 최고 코스다. 돌계단 400개를 올라가면 절벽 마애석불과 황해 전경이 펼쳐지고 민머루 갯벌에서 서해 일몰을 감상한다.",
+      "source_urls": [
+        "https://www.ganghwa.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "보문사",
+        "민머루",
+        "석모도",
+        "강화",
+        "인천",
+        "마애석불",
+        "서해낙조"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:12:13",
+      "operation_status": "active",
+      "operating_hours": "연중",
+      "phone": "032-932-5464"
+    },
+    {
+      "experience_id": "EX-JN-NAT-058",
+      "name": "고창 선운사 동백꽃+꽃무릇 코스",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "JN",
+      "region_sub": "전라북도 고창군",
+      "address": "전라북도 고창군 아산면 선운사로 250",
+      "lat": 35.5028,
+      "lng": 126.5936,
+      "price": "성인 3,000원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "선운사에서 봄 동백꽃(3~4월)과 가을 꽃무릇(9월) 두 시즌 모두 아름다운 꽃 탐방 코스다. 봄에는 절벽 군락 동백꽃이, 가을에는 빨간 꽃무릇이 사찰을 물드는 전북 최고의 계절 꽃 명소다.",
+      "source_urls": [
+        "https://www.gochang.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "선운사동백꽃무릇",
+        "선운사",
+        "고창",
+        "전북",
+        "동백꽃",
+        "꽃무릇",
+        "계절꽃"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:12:13",
+      "operation_status": "annual",
+      "operating_hours": "봄 3~4월 동백 / 가을 9월 꽃무릇",
+      "phone": "063-561-1422"
+    },
+    {
+      "experience_id": "EX-GN-NAT-058",
+      "name": "경주 황리단길 야간 투어",
+      "category_main": "문화/체험",
+      "category_sub": "야경/야간투어",
+      "region_main": "GB",
+      "region_sub": "경상북도 경주시",
+      "address": "경상북도 경주시 황남동 황리단길",
+      "lat": 35.8347,
+      "lng": 129.2194,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "청년",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "경주 황남동 황리단길을 야간에 탐방하는 체험이다. 한옥·근대 건물 사이에 카페·식당·공방이 어우러진 경주 최고 트렌디 거리로 밤에는 조명과 함께 독특한 분위기를 연출한다.",
+      "source_urls": [
+        "https://www.gyeongju.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "황리단길야간",
+        "경주",
+        "경북",
+        "야경",
+        "카페",
+        "한옥",
+        "트렌디거리"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:12:13",
+      "operation_status": "active",
+      "operating_hours": "연중 (야경: 17:00~23:00)",
+      "phone": "054-779-6100"
+    },
+    {
+      "experience_id": "EX-GW-NAT-053",
+      "name": "가평 남이섬+청평호 당일 코스",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GG",
+      "region_sub": "경기도 가평군",
+      "address": "경기도 가평군 가평읍 가평로 150",
+      "lat": 37.835,
+      "lng": 127.5106,
+      "price": "남이섬 16,000원~",
+      "duration": "5~7시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "남이섬·자라섬·청평호를 하루에 즐기는 가평 완벽 당일 코스다. 서울에서 1시간 30분 거리 가평에서 메타세쿼이아·자전거·보트·카누를 차례로 즐기는 수도권 최고 당일치기 코스다.",
+      "source_urls": [
+        "https://www.gapyeong.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "남이섬청평호",
+        "가평",
+        "경기",
+        "당일코스",
+        "메타세쿼이아",
+        "자전거",
+        "보트"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:12:13",
+      "operation_status": "active",
+      "operating_hours": "연중",
+      "phone": "031-580-2726"
+    },
+    {
+      "experience_id": "EX-JN-NAT-059",
+      "name": "진도 소포만 일몰+갯벌",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 진도군",
+      "address": "전라남도 진도군 임회면 소포리 소포만",
+      "lat": 34.4,
+      "lng": 126.3,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "진도 소포만에서 서해 일몰과 갯벌을 함께 즐기는 체험이다. 진도 신비의 바닷길과 함께 방문하면 완벽한 진도 하루 코스가 되며 특히 붉게 물드는 소포만 일몰이 진도 최고 낙조 명소다.",
+      "source_urls": [
+        "https://www.jindo.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "소포만일몰",
+        "진도",
+        "전남",
+        "서해일몰",
+        "갯벌",
+        "신비의바닷길",
+        "낙조"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:12:13",
+      "operation_status": "active",
+      "operating_hours": "연중 (무료)",
+      "phone": "061-540-6431"
+    },
+    {
+      "experience_id": "EX-GN-NAT-059",
+      "name": "창녕 우포늪 철새 트레킹",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 창녕군",
+      "address": "경상남도 창녕군 유어면 우포길 220",
+      "lat": 35.5556,
+      "lng": 128.4258,
+      "price": "무료",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "우포늪 둘레 8km를 걸으며 습지 생태계와 철새를 관찰하는 트레킹 체험이다. 겨울 철새 시즌이 아닌 봄·여름에도 수달·가창오리·백로가 서식하는 국내 최대 자연 내륙 습지를 탐방한다.",
+      "source_urls": [
+        "https://www.upo.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "우포늪트레킹",
+        "창녕",
+        "경남",
+        "습지트레킹",
+        "수달",
+        "철새",
+        "8km"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:12:13",
+      "operation_status": "active",
+      "operating_hours": "연중 (무료)",
+      "phone": "055-532-1403"
+    },
+    {
+      "experience_id": "EX-GW-NAT-054",
+      "name": "속초 외옹치 언덕+속초 영랑호",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 속초시",
+      "address": "강원특별자치도 속초시 영랑호변로 일원",
+      "lat": 38.2167,
+      "lng": 128.585,
+      "price": "무료",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "속초 영랑호 둘레길 5km를 걸으며 설악산 반영을 감상하는 체험이다. 봄 벚꽃·여름 수련·가을 갈대·겨울 설경이 사계절 아름다운 속초 시내 호수 산책 코스로 맑은 날 설악산이 호수에 완벽히 반영된다.",
+      "source_urls": [
+        "https://www.sokcho.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "영랑호",
+        "속초",
+        "강원",
+        "설악산반영",
+        "호수산책",
+        "사계절",
+        "수련"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:12:13",
+      "operation_status": "active",
+      "operating_hours": "연중 (무료)",
+      "phone": "033-639-2690"
+    },
+    {
+      "experience_id": "EX-JN-NAT-060",
+      "name": "장흥 토요시장+탁리 음식",
+      "category_main": "문화/체험",
+      "category_sub": "전통시장",
+      "region_main": "JN",
+      "region_sub": "전라남도 장흥군",
+      "address": "전라남도 장흥군 장흥읍 토요시장",
+      "lat": 34.6817,
+      "lng": 126.9072,
+      "price": "무료 입장",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "장흥 토요시장에서 장흥 특산 한우·표고버섯·유자·키조개를 맛보는 먹거리 체험이다. 매주 토요일 열리는 장흥 오일장은 지역민들이 직접 재배한 농산물을 파는 진짜 오일장 문화를 체험할 수 있다.",
+      "source_urls": [
+        "https://www.jangheung.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "장흥토요시장",
+        "장흥",
+        "전남",
+        "장흥한우",
+        "표고버섯",
+        "키조개",
+        "오일장"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:12:13",
+      "operation_status": "active",
+      "operating_hours": "매주 토요일 08:00~18:00",
+      "phone": "061-860-0614"
+    },
+    {
+      "experience_id": "EX-GG-NAT-057",
+      "name": "양주 천보산 산행+보물 찾기",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GG",
+      "region_sub": "경기도 양주시",
+      "address": "경기도 양주시 백석읍 기산로 305",
+      "lat": 37.8367,
+      "lng": 127.0619,
+      "price": "무료",
+      "duration": "3~4시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "어린이",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "경기도 양주 천보산 등산과 보물 찾기 형식의 어린이 자연 탐방 프로그램이다. 국립회암사지박물관과 연계하면 역사+자연 양주 완벽 코스가 된다.",
+      "source_urls": [
+        "https://www.yangju.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "천보산",
+        "양주",
+        "경기",
+        "산행",
+        "어린이자연탐방",
+        "회암사지",
+        "가족"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:12:13",
+      "operation_status": "active",
+      "operating_hours": "연중 (무료)",
+      "phone": "031-8082-4245"
+    },
+    {
+      "experience_id": "EX-GN-NAT-060",
+      "name": "남해 화방사+창선교 야경",
+      "category_main": "문화/체험",
+      "category_sub": "야경/야간투어",
+      "region_main": "GN",
+      "region_sub": "경상남도 남해군",
+      "address": "경상남도 남해군 창선면 창선대교",
+      "lat": 34.9306,
+      "lng": 128.0181,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "남해 창선교 야경을 드라이브하며 감상하는 체험이다. 섬과 섬을 이어주는 창선교 5개 연속 교량에 야간 조명이 켜지면 다도해 위 불빛이 아름답고 화방사 가을 단풍과 세트 코스로 즐기기 좋다.",
+      "source_urls": [
+        "https://www.namhae.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "창선교야경",
+        "남해",
+        "경남",
+        "야경드라이브",
+        "다도해",
+        "교량",
+        "불빛"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:12:13",
+      "operation_status": "active",
+      "operating_hours": "연중 (무료)",
+      "phone": "055-860-3671"
+    },
+    {
+      "experience_id": "EX-GW-NAT-055",
+      "name": "철원 한탄강 지질 트레일",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 철원군",
+      "address": "강원특별자치도 철원군 갈말읍 한탄강 일원",
+      "lat": 38.1614,
+      "lng": 127.2989,
+      "price": "무료",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "유네스코 세계지질공원 한탄강 트레일을 탐방하는 체험이다. 50만 년 전 화산 현무암 협곡을 따라 걷는 코스로 주상절리·현무암 절벽·재인폭포를 연계한 지질 교육 체험 코스다.",
+      "source_urls": [
+        "https://www.cwg.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "한탄강지질트레일",
+        "철원",
+        "강원",
+        "유네스코",
+        "화산현무암",
+        "주상절리",
+        "지질공원"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:12:13",
+      "operation_status": "active",
+      "operating_hours": "연중 (무료)",
+      "phone": "033-450-5558"
+    },
+    {
+      "experience_id": "EX-JN-NAT-061",
+      "name": "고창 갯벌+고인돌 세계유산 코스",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "JN",
+      "region_sub": "전라북도 고창군",
+      "address": "전라북도 고창군 심원면 람사르고창갯벌",
+      "lat": 35.4394,
+      "lng": 126.6358,
+      "price": "고인돌 성인 3,000원",
+      "duration": "3~5시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "유네스코 람사르 습지 고창 갯벌과 유네스코 세계문화유산 고인돌을 하루에 방문하는 이중 유산 코스다. 한 지역에 두 개 유네스코 유산이 있는 드문 코스로 역사+자연 교육 체험이다.",
+      "source_urls": [
+        "https://www.gochang.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "고창갯벌고인돌",
+        "고창",
+        "전북",
+        "유네스코이중유산",
+        "람사르갯벌",
+        "세계문화유산",
+        "이중유산"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:12:13",
+      "operation_status": "active",
+      "operating_hours": "연중",
+      "phone": "063-560-2979"
     }
   ],
   "last_updated": "2026-05-07T04:18:31"
