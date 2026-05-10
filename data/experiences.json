@@ -1,8 +1,8 @@
 {
   "_comment": "겜코리아 체험 데이터 — 역사/자연 마커와 분리. 삭제 금지. 젬투어 상품 후보.",
   "_version": "1.0",
-  "_updated": "2026-05-10T23:09:17",
-  "total": 769,
+  "_updated": "2026-05-10T23:13:04",
+  "total": 781,
   "experiences": [
     {
       "experience_id": "EX-SE-MKT-001",
@@ -31277,6 +31277,494 @@
       "operation_status": "annual",
       "operating_hours": "5~6월 양귀비 시즌 (무료)",
       "phone": "031-8082-6114"
+    },
+    {
+      "experience_id": "EX-SE-NAT-077",
+      "name": "서울 남산 봉수대 야경",
+      "category_main": "문화/체험",
+      "category_sub": "야경/야간투어",
+      "region_main": "SE",
+      "region_sub": "서울특별시 중구",
+      "address": "서울특별시 중구 삼일대로 231 남산 봉수대",
+      "lat": 37.5512,
+      "lng": 126.9882,
+      "price": "무료 (케이블카 왕복 10,500원)",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "서울 남산 봉수대에서 서울 야경을 감상하는 체험이다. 조선 시대 봉화 신호를 보내던 남산 봉수대에서 내려다보는 서울 야경이 서울타워와 함께 360도 파노라마로 펼쳐지는 서울 대표 야경 명소다.",
+      "source_urls": [
+        "https://www.doorseoulsouth.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "남산봉수대야경",
+        "서울",
+        "중구",
+        "남산",
+        "봉수대",
+        "서울야경",
+        "남산타워"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-10T23:13:04",
+      "operation_status": "active",
+      "operating_hours": "연중 (무료, 케이블카 10:00~23:00)",
+      "phone": "02-3783-5900"
+    },
+    {
+      "experience_id": "EX-GG-NAT-087",
+      "name": "안성 팜랜드 농장 체험",
+      "category_main": "문화/체험",
+      "category_sub": "농촌 체험",
+      "region_main": "GG",
+      "region_sub": "경기도 안성시",
+      "address": "경기도 안성시 공도읍 대신두길 28 안성팜랜드",
+      "lat": 37.0978,
+      "lng": 127.2047,
+      "price": "성인 15,000원",
+      "duration": "3~4시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "어린이",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "경기 안성 안성팜랜드에서 양치기·동물 먹이 주기·목장 체험을 즐기는 농장 체험이다. 한국마사회가 운영하는 대형 목장형 테마파크로 말·소·양·닭 등 다양한 동물과 교감하는 가족 체험이다.",
+      "source_urls": [
+        "https://www.anseongfarm.co.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "안성팜랜드",
+        "안성",
+        "경기",
+        "목장체험",
+        "양치기",
+        "동물먹이",
+        "가족체험"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T23:13:04",
+      "operation_status": "active",
+      "operating_hours": "10:00~17:30",
+      "phone": "031-678-2200"
+    },
+    {
+      "experience_id": "EX-JN-NAT-101",
+      "name": "장흥 우드랜드 편백 힐링",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 장흥군",
+      "address": "전라남도 장흥군 장흥읍 우드랜드길 180",
+      "lat": 34.6819,
+      "lng": 126.9233,
+      "price": "성인 3,000원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "전남 장흥 우드랜드에서 100ha 편백 숲 힐링 체험을 즐기는 프로그램이다. 국내 최대 편백 휴양림 장흥 우드랜드에서 편백 족욕·아로마 체험·숲 명상을 즐기는 전남 대표 숲 치유 체험이다.",
+      "source_urls": [
+        "https://www.jangheung.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "장흥우드랜드편백",
+        "장흥",
+        "전남",
+        "편백힐링",
+        "우드랜드",
+        "숲치유",
+        "피톤치드"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-10T23:13:04",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00",
+      "phone": "061-864-0063"
+    },
+    {
+      "experience_id": "EX-GN-NAT-092",
+      "name": "남해 보리암 일출",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 남해군",
+      "address": "경상남도 남해군 상주면 보리암로 941",
+      "lat": 34.7819,
+      "lng": 127.9344,
+      "price": "성인 1,000원",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "한국 4대 기도처 경남 남해 금산 보리암에서 새벽 일출을 감상하는 체험이다. 해발 681m 금산 정상 보리암에서 남해 다도해 일출이 구름 위 섬들과 어우러지는 장관이 한국 최고 기도처 일출 명소다.",
+      "source_urls": [
+        "https://www.boriam.org/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "남해보리암일출",
+        "남해",
+        "경남",
+        "보리암",
+        "한국4대기도처",
+        "금산",
+        "남해일출"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-10T23:13:04",
+      "operation_status": "active",
+      "operating_hours": "새벽 04:00~ (일출 전)",
+      "phone": "055-862-6115"
+    },
+    {
+      "experience_id": "EX-GG-CUL-084",
+      "name": "광명 광명동굴 탐험",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GG",
+      "region_sub": "경기도 광명시",
+      "address": "경기도 광명시 가학동 광명동굴",
+      "lat": 37.4408,
+      "lng": 126.8647,
+      "price": "성인 8,000원",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "경기 광명 폐금광을 활용해 조성한 광명동굴을 탐방하는 체험이다. 1912년 일제강점기 개설된 금광이 1972년 폐광된 후 문화 공간으로 재생돼 와인 동굴·황금폭포·동굴 아쿠아 등 이색 체험을 즐길 수 있다.",
+      "source_urls": [
+        "https://www.gmcave.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "광명동굴",
+        "광명",
+        "경기",
+        "폐광",
+        "와인동굴",
+        "일제강점기금광",
+        "동굴재생"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T23:13:04",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00 (월 휴관)",
+      "phone": "02-2680-6900"
+    },
+    {
+      "experience_id": "EX-JB-NAT-072",
+      "name": "순창 강천산 단풍 트레킹",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "JB",
+      "region_sub": "전라북도 순창군",
+      "address": "전라북도 순창군 팔덕면 강천사길 27",
+      "lat": 35.4889,
+      "lng": 126.9278,
+      "price": "성인 3,000원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "전북 순창 강천산에서 10~11월 단풍 트레킹을 즐기는 체험이다. 전북 최고 단풍 명소 강천산에서 강천사·비룡폭포·구장군폭포를 거쳐 구름다리까지 이어지는 단풍 속 계곡 트레킹이 압도적이다.",
+      "source_urls": [
+        "https://www.sunchang.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "순창강천산단풍",
+        "순창",
+        "전북",
+        "강천산",
+        "단풍트레킹",
+        "강천사",
+        "계곡"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T23:13:04",
+      "operation_status": "annual",
+      "operating_hours": "10~11월 단풍 시즌",
+      "phone": "063-650-1683"
+    },
+    {
+      "experience_id": "EX-CB-CUL-075",
+      "name": "공주 공산성 역사 투어",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "CB",
+      "region_sub": "충청남도 공주시",
+      "address": "충청남도 공주시 웅진로 280 공산성",
+      "lat": 36.4631,
+      "lng": 127.1236,
+      "price": "성인 3,000원",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "유네스코 세계문화유산 백제역사유적지구 충남 공주 공산성을 탐방하는 역사 체험이다. 475~538년 백제 웅진 도읍기 왕성이었던 공산성에서 금강 절경과 백제 역사를 함께 체험한다.",
+      "source_urls": [
+        "https://www.gongsan.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "공주공산성",
+        "공주",
+        "충남",
+        "백제역사",
+        "유네스코",
+        "공산성",
+        "금강"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-10T23:13:04",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00",
+      "phone": "041-856-7700"
+    },
+    {
+      "experience_id": "EX-GW-NAT-082",
+      "name": "양양 서피비치 서핑",
+      "category_main": "문화/체험",
+      "category_sub": "어드벤처/레포츠",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 양양군",
+      "address": "강원특별자치도 양양군 현남면 하조대해안로 10",
+      "lat": 38.0581,
+      "lng": 128.6036,
+      "price": "강습 포함 80,000원~",
+      "duration": "2시간",
+      "reservation_required": true,
+      "target_user": [
+        "청년",
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "한국 서핑의 성지 강원 양양 서피비치에서 서핑을 즐기는 어드벤처 체험이다. 한국에서 서핑 조건이 가장 좋은 양양 서피비치에서 초보자 강습부터 프리서핑까지 즐기는 강원 대표 여름 레저다.",
+      "source_urls": [
+        "https://www.surfyy.com/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "양양서피비치서핑",
+        "양양",
+        "강원",
+        "서핑",
+        "서피비치",
+        "동해",
+        "여름레저"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-10T23:13:04",
+      "operation_status": "seasonal",
+      "operating_hours": "5~10월 (예약 필수)",
+      "phone": "033-672-5466"
+    },
+    {
+      "experience_id": "EX-JN-CUL-056",
+      "name": "해남 두륜산 케이블카",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 해남군",
+      "address": "전라남도 해남군 삼산면 두륜산공원길 일대",
+      "lat": 34.5272,
+      "lng": 126.6419,
+      "price": "성인 왕복 10,000원",
+      "duration": "2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "전남 해남 두륜산 케이블카를 타고 정상 전망대에서 완도·진도 방향 남해 다도해 전망을 즐기는 체험이다. 두륜산 정상에서 맑은 날 제주도 한라산까지 보이는 전망이 압도적인 전남 최고 조망 명소다.",
+      "source_urls": [
+        "https://www.haenam.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "해남두륜산케이블카",
+        "해남",
+        "전남",
+        "두륜산",
+        "다도해전망",
+        "케이블카",
+        "한라산"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T23:13:04",
+      "operation_status": "active",
+      "operating_hours": "09:00~17:30",
+      "phone": "061-534-8992"
+    },
+    {
+      "experience_id": "EX-GN-CUL-080",
+      "name": "진주 남강 유등 축제",
+      "category_main": "문화/체험",
+      "category_sub": "축제",
+      "region_main": "GN",
+      "region_sub": "경상남도 진주시",
+      "address": "경상남도 진주시 남강로 일대",
+      "lat": 35.1906,
+      "lng": 128.1086,
+      "price": "무료~성인 5,000원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "매년 10월 경남 진주 남강에서 열리는 한국 최대 유등 축제다. 임진왜란 진주성 전투에서 군인과 가족의 통신 수단으로 쓰인 유등이 지금은 수만 개 화려한 등불로 남강을 수놓는 세계적 축제다.",
+      "source_urls": [
+        "https://www.jinju.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "진주유등축제",
+        "진주",
+        "경남",
+        "남강",
+        "유등",
+        "10월",
+        "임진왜란"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-10T23:13:04",
+      "operation_status": "annual",
+      "operating_hours": "10월 개최 (약 2주)",
+      "phone": "055-749-2480"
+    },
+    {
+      "experience_id": "EX-GB-CUL-049",
+      "name": "성주 독용산성 가야 역사",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GB",
+      "region_sub": "경상북도 성주군",
+      "address": "경상북도 성주군 금수면 독용산성로 일대",
+      "lat": 35.8667,
+      "lng": 128.1833,
+      "price": "무료",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "경북 성주 독용산성에서 가야 역사 트레킹을 즐기는 체험이다. 삼국 시대 대가야 방어성인 성주 독용산성은 가야산·성주 일대를 조망하는 뛰어난 전망으로 가야 역사와 자연을 함께 즐기는 코스다.",
+      "source_urls": [
+        "https://www.seongju.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "성주독용산성",
+        "성주",
+        "경북",
+        "가야역사",
+        "대가야",
+        "산성",
+        "성주참외"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T23:13:04",
+      "operation_status": "active",
+      "operating_hours": "연중 (무료)",
+      "phone": "054-930-6114"
+    },
+    {
+      "experience_id": "EX-GG-NAT-088",
+      "name": "광주 곤지암 리조트 스키",
+      "category_main": "문화/체험",
+      "category_sub": "어드벤처/레포츠",
+      "region_main": "GG",
+      "region_sub": "경기도 광주시",
+      "address": "경기도 광주시 도척면 도척윗로 278 곤지암리조트",
+      "lat": 37.3344,
+      "lng": 127.5006,
+      "price": "리프트 평일 55,000원~",
+      "duration": "4~6시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "청년",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "수도권 최고 스키장 경기 광주 곤지암 리조트에서 스키·보드를 즐기는 겨울 체험이다. 서울에서 1시간 거리 최고급 시설의 곤지암 리조트는 수도권 스키어들의 성지로 슬로프 14개를 갖춘 대형 리조트다.",
+      "source_urls": [
+        "https://www.konjiamresort.co.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "곤지암리조트스키",
+        "광주",
+        "경기",
+        "스키",
+        "보드",
+        "수도권스키장",
+        "겨울레저"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T23:13:04",
+      "operation_status": "seasonal",
+      "operating_hours": "12~3월 (주중~주말 다름)",
+      "phone": "031-610-6000"
     }
   ],
   "last_updated": "2026-05-07T04:18:31"
