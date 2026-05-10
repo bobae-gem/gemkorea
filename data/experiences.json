@@ -1,8 +1,8 @@
 {
   "_comment": "겜코리아 체험 데이터 — 역사/자연 마커와 분리. 삭제 금지. 젬투어 상품 후보.",
   "_version": "1.0",
-  "_updated": "2026-05-10T23:01:40",
-  "total": 745,
+  "_updated": "2026-05-10T23:05:32",
+  "total": 757,
   "experiences": [
     {
       "experience_id": "EX-SE-MKT-001",
@@ -30314,6 +30314,488 @@
       "operation_status": "active",
       "operating_hours": "연중",
       "phone": "054-870-5300"
+    },
+    {
+      "experience_id": "EX-GG-NAT-083",
+      "name": "파주 출판도시 책문화 투어",
+      "category_main": "문화/체험",
+      "category_sub": "문화투어",
+      "region_main": "GG",
+      "region_sub": "경기도 파주시",
+      "address": "경기도 파주시 문발동 출판도시 일대",
+      "lat": 37.7606,
+      "lng": 126.7156,
+      "price": "무료~상이",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "경기 파주에 조성된 국내 최대 출판 도시 파주출판도시를 탐방하는 문화 체험이다. 400여 개 출판사·디자인사가 모인 출판도시에서 독립 서점·갤러리·전시관을 탐방하는 인문학 여행 코스다.",
+      "source_urls": [
+        "https://www.pajubookcity.org/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "파주출판도시",
+        "파주",
+        "경기",
+        "출판도시",
+        "독립서점",
+        "책",
+        "인문학"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-10T23:05:32",
+      "operation_status": "active",
+      "operating_hours": "10:00~18:00 (일부 월 휴무)",
+      "phone": "031-955-0082"
+    },
+    {
+      "experience_id": "EX-JN-NAT-098",
+      "name": "진도 운림산방 투어",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 진도군",
+      "address": "전라남도 진도군 의신면 운림산방로 315",
+      "lat": 34.5031,
+      "lng": 126.3308,
+      "price": "성인 2,000원",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "조선 후기 남종화의 대가 소치 허련이 살았던 전남 진도 운림산방을 탐방하는 예술·역사 체험이다. 연못과 추사 영향을 받은 그림들이 전시된 운림산방은 한국 남종화의 성지로 진도 대표 명소다.",
+      "source_urls": [
+        "https://www.jindo.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "진도운림산방",
+        "진도",
+        "전남",
+        "소치허련",
+        "남종화",
+        "추사김정희",
+        "운림산방"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-10T23:05:32",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00",
+      "phone": "061-540-6068"
+    },
+    {
+      "experience_id": "EX-GN-NAT-090",
+      "name": "사천 항공 레포츠 체험",
+      "category_main": "문화/체험",
+      "category_sub": "어드벤처/레포츠",
+      "region_main": "GN",
+      "region_sub": "경상남도 사천시",
+      "address": "경상남도 사천시 정동면 사천대로 12 항공레포츠",
+      "lat": 35.0744,
+      "lng": 128.1483,
+      "price": "패러글라이딩 80,000원~",
+      "duration": "1~2시간",
+      "reservation_required": true,
+      "target_user": [
+        "청년",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "한국 항공 산업의 중심 경남 사천에서 패러글라이딩·경비행기 체험 등 항공 레포츠를 즐기는 프로그램이다. 사천 비행장 인근 항공레포츠 특구에서 남해 다도해와 사천만을 조망하며 비행을 즐긴다.",
+      "source_urls": [
+        "https://www.sacheon.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "사천항공레포츠",
+        "사천",
+        "경남",
+        "패러글라이딩",
+        "경비행기",
+        "항공레포츠",
+        "남해"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T23:05:32",
+      "operation_status": "active",
+      "operating_hours": "날씨 양호 시 (예약 필수)",
+      "phone": "055-832-3963"
+    },
+    {
+      "experience_id": "EX-GG-CUL-082",
+      "name": "성남 한국잡월드",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GG",
+      "region_sub": "경기도 성남시",
+      "address": "경기도 성남시 분당구 분당수서로 501",
+      "lat": 37.3928,
+      "lng": 127.1125,
+      "price": "어린이 5,000원~",
+      "duration": "3~4시간",
+      "reservation_required": true,
+      "target_user": [
+        "가족",
+        "어린이"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "경기 성남 한국잡월드에서 어린이·청소년이 다양한 직업을 직접 체험하는 진로 탐색 프로그램이다. 40여 가지 직업 체험 시설을 갖춘 국내 최대 직업 체험관으로 소방관·의사·방송작가 등을 체험한다.",
+      "source_urls": [
+        "https://www.koreajobworld.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "한국잡월드",
+        "성남",
+        "경기",
+        "직업체험",
+        "어린이체험",
+        "진로탐색",
+        "분당"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T23:05:32",
+      "operation_status": "active",
+      "operating_hours": "10:00~17:00 (월 휴관, 예약 필수)",
+      "phone": "1588-8253"
+    },
+    {
+      "experience_id": "EX-JB-NAT-070",
+      "name": "정읍 구절초 꽃단지",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "JB",
+      "region_sub": "전라북도 정읍시",
+      "address": "전라북도 정읍시 산내면 구절초지방정원로 428",
+      "lat": 35.5261,
+      "lng": 127.1161,
+      "price": "성인 4,000원",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "전북 정읍 구절초 꽃단지에서 9~10월 구절초 축제를 즐기는 체험이다. 30만 평 구절초 꽃밭이 가을에 흰 꽃으로 덮이는 전북 최대 가을 꽃 명소로 구절초 향기와 함께하는 가을 산책이다.",
+      "source_urls": [
+        "https://www.jeongeup.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "정읍구절초꽃단지",
+        "정읍",
+        "전북",
+        "구절초",
+        "가을꽃",
+        "9월10월",
+        "꽃단지"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-10T23:05:32",
+      "operation_status": "annual",
+      "operating_hours": "9~10월 시즌",
+      "phone": "063-535-0484"
+    },
+    {
+      "experience_id": "EX-CB-CUL-074",
+      "name": "괴산 산막이 옛길 트레킹",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "CB",
+      "region_sub": "충청북도 괴산군",
+      "address": "충청북도 괴산군 칠성면 산막이로 352",
+      "lat": 36.8364,
+      "lng": 127.8589,
+      "price": "무료",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "충북 괴산 달천변 산막이 옛길을 트레킹하는 자연 체험이다. 100년 전 사람들이 걸었던 산막이 마을 옛길을 따라 괴산호 절경과 기암괴석을 감상하는 충북 대표 올레길 코스다.",
+      "source_urls": [
+        "https://www.goesan.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "괴산산막이옛길",
+        "괴산",
+        "충북",
+        "산막이옛길",
+        "괴산호",
+        "트레킹",
+        "올레길"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-10T23:05:32",
+      "operation_status": "active",
+      "operating_hours": "연중 (무료)",
+      "phone": "043-830-3542"
+    },
+    {
+      "experience_id": "EX-GW-NAT-080",
+      "name": "강릉 경포 스카이 바이크",
+      "category_main": "문화/체험",
+      "category_sub": "어드벤처/레포츠",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 강릉시",
+      "address": "강원특별자치도 강릉시 경포로 365",
+      "lat": 37.7847,
+      "lng": 128.8989,
+      "price": "2인 기준 13,000원~",
+      "duration": "30분",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "강릉 경포호수 위 레일 위를 달리는 스카이 바이크 체험이다. 경포호 수면 위 4m 높이 레일을 페달을 밟아 달리며 경포호와 동해 바다를 동시에 감상하는 강릉 대표 레저 체험이다.",
+      "source_urls": [
+        "https://www.gangneung.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "강릉경포스카이바이크",
+        "강릉",
+        "강원",
+        "경포호",
+        "스카이바이크",
+        "동해바다",
+        "레저"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T23:05:32",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00",
+      "phone": "033-641-9620"
+    },
+    {
+      "experience_id": "EX-JN-CUL-054",
+      "name": "무안 회산백련지 연꽃",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 무안군",
+      "address": "전라남도 무안군 일로읍 회산백련지길 180",
+      "lat": 35.0244,
+      "lng": 126.6431,
+      "price": "성인 2,000원",
+      "duration": "1시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "전남 무안 회산백련지에서 7~8월 백련꽃이 만개하는 계절 체험이다. 33만 평 수면을 덮는 백련이 피는 동양 최대 백련 자생지로 7~8월 무안 회산백련지가 연꽃 체험의 성지다.",
+      "source_urls": [
+        "https://www.muan.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "무안회산백련지",
+        "무안",
+        "전남",
+        "백련꽃",
+        "연꽃",
+        "7월8월",
+        "동양최대백련"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-10T23:05:32",
+      "operation_status": "annual",
+      "operating_hours": "7~8월 연꽃 시즌",
+      "phone": "061-450-5360"
+    },
+    {
+      "experience_id": "EX-GN-CUL-078",
+      "name": "창녕 우포생태관 체험",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 창녕군",
+      "address": "경상남도 창녕군 유어면 세진리 우포생태관",
+      "lat": 35.5567,
+      "lng": 128.5175,
+      "price": "성인 1,000원",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "어린이",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "경남 창녕 우포늪 인근 우포생태관에서 우포늪 생태를 체험하는 자연 교육 프로그램이다. 1억 4천만 년 전 형성된 우포늪 생태계를 배우고 갈대·수생식물·철새 관찰을 즐기는 생태 교육 체험이다.",
+      "source_urls": [
+        "https://www.upo.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "창녕우포생태관",
+        "창녕",
+        "경남",
+        "우포늪",
+        "생태체험",
+        "철새",
+        "자연교육"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T23:05:32",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00",
+      "phone": "055-530-1570"
+    },
+    {
+      "experience_id": "EX-GB-NAT-048",
+      "name": "의성 산운 생태공원",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GB",
+      "region_sub": "경상북도 의성군",
+      "address": "경상북도 의성군 금성면 산운리 산운생태공원",
+      "lat": 36.3728,
+      "lng": 128.6994,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "경북 의성 금성산 아래 산운마을 옛 전통 가옥과 생태공원을 탐방하는 자연·역사 체험이다. 안동 소씨 집성촌 산운마을에 조선 시대 가옥이 잘 보존돼 있으며 봄 유채꽃 노란 물결이 아름답다.",
+      "source_urls": [
+        "https://www.uiseong.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "의성산운생태공원",
+        "의성",
+        "경북",
+        "산운마을",
+        "유채꽃",
+        "전통가옥",
+        "봄꽃"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T23:05:32",
+      "operation_status": "annual",
+      "operating_hours": "연중 (무료, 봄 유채꽃 4~5월 최고)",
+      "phone": "054-830-6114"
+    },
+    {
+      "experience_id": "EX-GG-NAT-084",
+      "name": "이천 테르메덴 온천",
+      "category_main": "문화/체험",
+      "category_sub": "웰니스",
+      "region_main": "GG",
+      "region_sub": "경기도 이천시",
+      "address": "경기도 이천시 모가면 테르메로 12",
+      "lat": 37.3264,
+      "lng": 127.5233,
+      "price": "성인 30,000원~",
+      "duration": "3~4시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "경기도 이천 자연 온천수를 활용한 독일식 스파 테르메덴을 즐기는 웰니스 체험이다. 지하 200m 온천수를 활용한 탄산온천·소금온천·찜질방 시설을 갖춘 국내 대표 온천 스파다.",
+      "source_urls": [
+        "https://www.termeden.com/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "이천테르메덴온천",
+        "이천",
+        "경기",
+        "테르메덴",
+        "온천스파",
+        "탄산온천",
+        "웰니스"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T23:05:32",
+      "operation_status": "active",
+      "operating_hours": "10:00~21:00",
+      "phone": "031-645-2000"
+    },
+    {
+      "experience_id": "EX-JN-NAT-099",
+      "name": "신안 퍼플섬 (박지도)",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 신안군",
+      "address": "전라남도 신안군 안좌면 박지도 일대",
+      "lat": 34.7514,
+      "lng": 126.0336,
+      "price": "무료 (배편 별도)",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "전남 신안 안좌면 박지도·반월도 퍼플섬에서 보라색 꽃과 마을을 감상하는 이색 체험이다. 섬 전체를 보라색으로 꾸민 퍼플섬이 세계 최초 자연+인공 보라 마을로 전 세계 미디어에 소개됐다.",
+      "source_urls": [
+        "https://www.shinan.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "신안퍼플섬",
+        "신안",
+        "전남",
+        "박지도",
+        "퍼플섬",
+        "보라색섬",
+        "세계최초"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-10T23:05:32",
+      "operation_status": "active",
+      "operating_hours": "연중",
+      "phone": "061-240-8312"
     }
   ],
   "last_updated": "2026-05-07T04:18:31"
