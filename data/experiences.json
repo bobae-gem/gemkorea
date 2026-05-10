@@ -1,8 +1,8 @@
 {
   "_comment": "겜코리아 체험 데이터 — 역사/자연 마커와 분리. 삭제 금지. 젬투어 상품 후보.",
   "_version": "1.0",
-  "_updated": "2026-05-10T01:55:28",
-  "total": 325,
+  "_updated": "2026-05-10T01:59:39",
+  "total": 337,
   "experiences": [
     {
       "experience_id": "EX-SE-MKT-001",
@@ -3337,7 +3337,7 @@
         "무료"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-08T09:27:54",
       "operation_status": "active",
       "operating_hours": "09:00~18:00 (월요일 휴관)",
@@ -3377,7 +3377,7 @@
         "전남"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-08T09:27:54",
       "operation_status": "active",
       "operating_hours": "09:00~18:00 (월요일 휴관)",
@@ -3417,7 +3417,7 @@
         "무료박물관"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-08T09:27:54",
       "operation_status": "active",
       "operating_hours": "09:00~18:00 (월요일 휴관)",
@@ -3457,7 +3457,7 @@
         "울주군"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-08T09:27:54",
       "operation_status": "active",
       "operating_hours": "09:00~18:00 (월요일 휴관)",
@@ -3539,7 +3539,7 @@
         "여름여행"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-08T09:35:30",
       "operation_status": "seasonal",
       "operating_hours": "09:00~18:00 (5~10월)",
@@ -3580,7 +3580,7 @@
         "오름"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-08T09:35:30",
       "operation_status": "annual",
       "operating_hours": "음력 정월대보름 전후 (매년 2~3월)",
@@ -13304,6 +13304,493 @@
       "operation_status": "active",
       "operating_hours": "연중",
       "phone": "061-850-5210"
+    },
+    {
+      "experience_id": "EX-GW-NAT-010",
+      "name": "원주 뮤지엄 산 야간 개장",
+      "category_main": "문화/체험",
+      "category_sub": "야경/야간투어",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 원주시",
+      "address": "강원특별자치도 원주시 지정면 오크밸리2길 260",
+      "lat": 37.4048,
+      "lng": 128.0631,
+      "price": "성인 25,000원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "안도 타다오 설계 뮤지엄 산의 야간 개장 시즌에 방문하는 체험이다. 노출 콘크리트 건물과 야외 수공원이 야간 조명으로 완전히 다른 분위기를 연출하며 제임스 터렐 빛 체험관도 야간에 더욱 몽환적이다.",
+      "source_urls": [
+        "https://www.museumsan.org/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "뮤지엄산야간",
+        "원주",
+        "강원",
+        "안도타다오",
+        "야경",
+        "제임스터렐",
+        "야간개장"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:59:39",
+      "operation_status": "seasonal",
+      "operating_hours": "야간 시즌 운영 (홈페이지 확인)",
+      "phone": "033-730-9000"
+    },
+    {
+      "experience_id": "EX-GG-CUL-009",
+      "name": "인천 영종도 을왕리 낙조 포차",
+      "category_main": "문화/체험",
+      "category_sub": "지역 먹거리",
+      "region_main": "GG",
+      "region_sub": "인천광역시 중구",
+      "address": "인천광역시 중구 을왕동 을왕리해수욕장 포차거리",
+      "lat": 37.4758,
+      "lng": 126.5411,
+      "price": "먹거리 별도",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인",
+        "청년"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "인천공항 옆 영종도 을왕리 포차 거리에서 서해 낙조를 감상하며 해산물과 조개구이를 즐기는 체험이다. 서울에서 1시간, 인천공항 15분 거리의 서해 일몰 포차 명소다.",
+      "source_urls": [
+        "https://www.icjgss.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "을왕리포차",
+        "영종도",
+        "인천",
+        "서해낙조",
+        "조개구이",
+        "포차",
+        "인천공항근처"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:59:39",
+      "operation_status": "active",
+      "operating_hours": "16:00~23:00",
+      "phone": "032-752-4141"
+    },
+    {
+      "experience_id": "EX-GW-CUL-007",
+      "name": "속초 중앙시장 닭강정·오징어 투어",
+      "category_main": "문화/체험",
+      "category_sub": "지역 먹거리",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 속초시",
+      "address": "강원특별자치도 속초시 중앙로147번길 12",
+      "lat": 38.2067,
+      "lng": 128.5919,
+      "price": "먹거리 별도",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "가족",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "속초 중앙시장에서 명물 닭강정·오징어순대·아바이순대를 맛보는 로컬 먹거리 투어다. 설악산 등산 후 마무리 코스로 가장 알려진 속초 대표 먹거리 골목이다.",
+      "source_urls": [
+        "https://www.sokcho.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "속초중앙시장",
+        "속초",
+        "닭강정",
+        "오징어순대",
+        "강원",
+        "먹거리투어",
+        "설악산후"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:59:39",
+      "operation_status": "active",
+      "operating_hours": "09:00~21:00",
+      "phone": "033-635-3406"
+    },
+    {
+      "experience_id": "EX-GG-CUL-010",
+      "name": "춘천 닭갈비 골목 투어",
+      "category_main": "문화/체험",
+      "category_sub": "지역 먹거리",
+      "region_main": "GG",
+      "region_sub": "강원특별자치도 춘천시",
+      "address": "강원특별자치도 춘천시 낙원길 일원",
+      "lat": 37.8813,
+      "lng": 127.7274,
+      "price": "1인 10,000원~",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "춘천 닭갈비의 원조 춘천 명동 닭갈비 골목에서 철판 닭갈비를 즐기는 먹거리 투어다. 기름 없이 철판에 고추장 양념 닭고기를 볶아 먹는 춘천 닭갈비는 전국 닭갈비의 원조다.",
+      "source_urls": [
+        "https://www.chuncheon.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "춘천닭갈비",
+        "춘천",
+        "강원",
+        "닭갈비골목",
+        "철판닭갈비",
+        "원조",
+        "먹거리"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:59:39",
+      "operation_status": "active",
+      "operating_hours": "11:00~21:00",
+      "phone": "033-251-5572"
+    },
+    {
+      "experience_id": "EX-JN-CUL-004",
+      "name": "전주 초코파이 마을 투어",
+      "category_main": "문화/체험",
+      "category_sub": "지역 먹거리",
+      "region_main": "JN",
+      "region_sub": "전라북도 전주시",
+      "address": "전라북도 전주시 완산구 한옥마을 초코파이 거리",
+      "lat": 35.8152,
+      "lng": 127.1532,
+      "price": "먹거리 별도",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "전주 한옥마을 인근 초코파이 거리를 탐방하는 체험이다. 전통 한과 팥앙금에 초코파이를 접목한 전주 한옥마을 대표 먹거리로 원조 집에서 갓 구운 초코파이를 맛볼 수 있다.",
+      "source_urls": [
+        "https://www.jeonju.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "전주초코파이",
+        "전주",
+        "전북",
+        "한옥마을",
+        "초코파이거리",
+        "전통간식",
+        "맛집"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:59:39",
+      "operation_status": "active",
+      "operating_hours": "10:00~21:00",
+      "phone": "063-282-1330"
+    },
+    {
+      "experience_id": "EX-GG-CUL-011",
+      "name": "화성 궁평항 새우젓+낙지 투어",
+      "category_main": "문화/체험",
+      "category_sub": "지역 먹거리",
+      "region_main": "GG",
+      "region_sub": "경기도 화성시",
+      "address": "경기도 화성시 서신면 궁평항로 1069-13",
+      "lat": 37.1539,
+      "lng": 126.6622,
+      "price": "먹거리 별도",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "서해 궁평항에서 낙지전골·꽃게찜·새우젓을 맛보는 로컬 해산물 먹거리 투어다. 서울에서 1시간 거리의 서해 어항으로 수도권 가성비 해산물 명소로 알려져 있다.",
+      "source_urls": [
+        "https://www.hwaseong.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "궁평항",
+        "화성",
+        "경기",
+        "낙지",
+        "꽃게",
+        "새우젓",
+        "서해해산물"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:59:39",
+      "operation_status": "active",
+      "operating_hours": "09:00~21:00",
+      "phone": "031-357-5074"
+    },
+    {
+      "experience_id": "EX-GN-CUL-004",
+      "name": "통영 이순신공원 야간 야경",
+      "category_main": "문화/체험",
+      "category_sub": "야경/야간투어",
+      "region_main": "GN",
+      "region_sub": "경상남도 통영시",
+      "address": "경상남도 통영시 여황로 211 (통영 이순신공원)",
+      "lat": 34.8435,
+      "lng": 128.4311,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "통영 남쪽 언덕 이순신공원에서 한려해상국립공원 다도해 야경을 감상하는 체험이다. 이순신 장군 동상이 있는 언덕에서 내려다보는 통영항과 강구안 야경이 통영 최고의 야경 뷰포인트다.",
+      "source_urls": [
+        "https://www.tongyeong.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "통영이순신공원",
+        "통영",
+        "경남",
+        "야경",
+        "다도해",
+        "한려해상",
+        "이순신"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:59:39",
+      "operation_status": "active",
+      "operating_hours": "연중 (야경: 일몰~22:00)",
+      "phone": "055-650-4681"
+    },
+    {
+      "experience_id": "EX-JN-CUL-005",
+      "name": "목포 꽃게무침 골목 투어",
+      "category_main": "문화/체험",
+      "category_sub": "지역 먹거리",
+      "region_main": "JN",
+      "region_sub": "전라남도 목포시",
+      "address": "전라남도 목포시 항동 꽃게무침 거리",
+      "lat": 34.7942,
+      "lng": 126.3872,
+      "price": "2인 40,000원~",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "목포 항동 꽃게무침 골목에서 목포식 꽃게무침을 맛보는 먹거리 투어다. 목포 앞바다에서 잡은 꽃게를 고추장·마늘·참기름으로 무친 목포 대표 향토음식으로 밥 한 그릇을 비우게 하는 맛이다.",
+      "source_urls": [
+        "https://www.mokpo.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "꽃게무침",
+        "목포",
+        "전남",
+        "목포먹거리",
+        "향토음식",
+        "꽃게",
+        "먹거리골목"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:59:39",
+      "operation_status": "active",
+      "operating_hours": "11:00~21:00",
+      "phone": "061-270-8432"
+    },
+    {
+      "experience_id": "EX-GG-CUL-012",
+      "name": "이천 도자기 축제+도예 마을 투어",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GG",
+      "region_sub": "경기도 이천시",
+      "address": "경기도 이천시 사음동 도예마을 일원",
+      "lat": 37.2707,
+      "lng": 127.4445,
+      "price": "입장 무료 (체험 별도)",
+      "duration": "3~5시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "이천 도예마을 50여 개 도예 공방을 탐방하는 투어다. 고려·조선 왕실 도자기 산지 이천에서 현대 도예가들의 공방을 방문하고 물레 체험을 즐기며 이천 쌀밥 정식으로 마무리하는 코스다.",
+      "source_urls": [
+        "https://www.icheon.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "이천도예마을",
+        "이천",
+        "경기",
+        "도예공방",
+        "왕실도자기",
+        "이천쌀밥",
+        "물레체험"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:59:39",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00",
+      "phone": "031-644-2538"
+    },
+    {
+      "experience_id": "EX-GW-CUL-008",
+      "name": "강릉 커피 거리+순두부 투어",
+      "category_main": "문화/체험",
+      "category_sub": "지역 먹거리",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 강릉시",
+      "address": "강원특별자치도 강릉시 안목항 커피거리 일원",
+      "lat": 37.7695,
+      "lng": 128.9469,
+      "price": "먹거리 별도",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "강릉 안목 커피거리에서 강릉 커피 문화를 체험하고 초당동 순두부찌개로 마무리하는 투어다. 강릉은 한국 커피 문화의 발상지로 1986년부터 시작된 안목 커피자판기 문화에서 특화 카페 문화가 시작됐다.",
+      "source_urls": [
+        "https://www.gn.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "강릉커피거리",
+        "강릉",
+        "강원",
+        "안목커피",
+        "초당순두부",
+        "커피문화",
+        "바리스타"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:59:39",
+      "operation_status": "active",
+      "operating_hours": "10:00~21:00",
+      "phone": "033-660-3689"
+    },
+    {
+      "experience_id": "EX-JB-CUL-007",
+      "name": "전주 막걸리 골목 투어",
+      "category_main": "문화/체험",
+      "category_sub": "지역 먹거리",
+      "region_main": "JB",
+      "region_sub": "전라북도 전주시",
+      "address": "전라북도 전주시 완산구 삼천동 막걸리 골목",
+      "lat": 35.8044,
+      "lng": 127.1381,
+      "price": "1만원~",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "성인",
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "전주 막걸리 골목에서 전통 방식 막걸리와 안주를 즐기는 체험이다. 막걸리를 주문하면 전통 안주가 계속 나오는 전주만의 문화로 두부김치·빈대떡·파전 등이 막걸리와 함께 제공된다.",
+      "source_urls": [
+        "https://www.jeonju.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "전주막걸리골목",
+        "전주",
+        "전북",
+        "막걸리",
+        "전통안주",
+        "파전",
+        "빈대떡"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:59:39",
+      "operation_status": "active",
+      "operating_hours": "17:00~23:00",
+      "phone": "063-282-1330"
+    },
+    {
+      "experience_id": "EX-GN-CUL-005",
+      "name": "부산 자갈치 시장 새벽 경매 투어",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GN",
+      "region_sub": "부산광역시 서구",
+      "address": "부산광역시 서구 자갈치해안로 52",
+      "lat": 35.0969,
+      "lng": 129.0272,
+      "price": "무료 관람",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "부산 자갈치시장에서 새벽 5~7시 진행되는 수산물 경매를 관람하는 체험이다. 배에서 막 내린 신선한 해산물이 빠른 속도로 경매되는 장면이 부산 로컬 문화의 가장 생생한 현장이다.",
+      "source_urls": [
+        "https://www.jagalchi.co.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "자갈치경매",
+        "부산",
+        "새벽경매",
+        "자갈치시장",
+        "수산물",
+        "로컬",
+        "생생현장"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:59:39",
+      "operation_status": "active",
+      "operating_hours": "새벽 05:00~07:00 (경매)",
+      "phone": "051-245-2594"
     }
   ],
   "last_updated": "2026-05-07T04:18:31"
