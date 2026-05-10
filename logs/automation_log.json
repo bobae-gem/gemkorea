@@ -1448,6 +1448,24 @@
       "content_generated": 5,
       "total_experiences": 673,
       "total_experience_shorts": 296
+    },
+    {
+      "time": "2026-05-10T22:46:31",
+      "mode": "B+C (통합)",
+      "type": "체험학습+체험숏츠",
+      "new_collected": 12,
+      "content_generated": 6,
+      "total_experiences": 685,
+      "total_experience_shorts": 302
+    },
+    {
+      "time": "2026-05-10T22:46:31",
+      "mode": "B+C (통합)",
+      "type": "체험학습+체험숏츠",
+      "new_collected": 12,
+      "content_generated": 6,
+      "total_experiences": 697,
+      "total_experience_shorts": 308
     }
   ]
 }
