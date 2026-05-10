@@ -1,8 +1,8 @@
 {
   "_comment": "겜코리아 체험 데이터 — 역사/자연 마커와 분리. 삭제 금지. 젬투어 상품 후보.",
   "_version": "1.0",
-  "_updated": "2026-05-09T23:54:37",
-  "total": 218,
+  "_updated": "2026-05-10T00:00:32",
+  "total": 230,
   "experiences": [
     {
       "experience_id": "EX-SE-MKT-001",
@@ -966,7 +966,7 @@
         "신라"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-06T02:13:45",
       "operation_status": "active",
       "operating_hours": "",
@@ -1024,7 +1024,7 @@
         "온돌"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-06T02:13:45",
       "operation_status": "active",
       "operating_hours": "",
@@ -8955,6 +8955,496 @@
       "operation_status": "annual",
       "operating_hours": "09:00~18:00 (비엔날레 기간/상설 운영)",
       "phone": "062-608-4114"
+    },
+    {
+      "experience_id": "EX-GW-CUL-003",
+      "name": "춘천 김유정 문학촌 체험",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 춘천시",
+      "address": "강원특별자치도 춘천시 신동면 김유정로 1430-14",
+      "lat": 37.7603,
+      "lng": 127.6442,
+      "price": "성인 2,000원",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "가족",
+        "외국인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "봄봄·동백꽃 등 한국 단편 소설의 거장 김유정의 생가와 문학관을 탐방하는 체험이다. 춘천 금병산 자락에 복원된 1930년대 실레 마을에서 김유정 소설 속 배경을 직접 걸어볼 수 있다.",
+      "source_urls": [
+        "https://www.kimyujeong.org/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "김유정문학촌",
+        "춘천",
+        "강원",
+        "봄봄",
+        "동백꽃",
+        "문학체험",
+        "실레마을"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-10T00:00:32",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00 (월요일 휴관)",
+      "phone": "033-261-4650"
+    },
+    {
+      "experience_id": "EX-GB-CUL-002",
+      "name": "안동 독립운동 기념관 체험",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GB",
+      "region_sub": "경상북도 안동시",
+      "address": "경상북도 안동시 경동로 695",
+      "lat": 36.573,
+      "lng": 128.7294,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "독립운동의 성지 안동에서 이육사·류인식·김동삼 등 안동 출신 독립운동가들의 항일 투쟁 역사를 체험형 전시로 이해하는 기념관이다. 안동이 왜 독립운동가를 가장 많이 배출한 고장인지 알게 된다.",
+      "source_urls": [
+        "https://www.andong.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "안동독립운동",
+        "안동",
+        "경북",
+        "이육사",
+        "항일",
+        "무료",
+        "독립운동가"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T00:00:32",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00 (월요일 휴관)",
+      "phone": "054-821-0649"
+    },
+    {
+      "experience_id": "EX-JN-CUL-002",
+      "name": "목포 근대 역사 문화 거리 투어",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 목포시",
+      "address": "전라남도 목포시 영산로29번길 6",
+      "lat": 34.7942,
+      "lng": 126.3872,
+      "price": "무료 (해설 5,000원)",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인",
+        "외국인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "1897년 개항 이후 일제강점기 목포의 근대 건축물이 밀집한 역사 문화 거리를 탐방한다. 구 일본 영사관·동양척식주식회사·적산가옥 등 80여 개 근대 건축물이 보존된 목포 근대 거리에서 역사를 걷는다.",
+      "source_urls": [
+        "https://www.mokpo.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "목포근대거리",
+        "목포",
+        "전남",
+        "개항역사",
+        "일제강점기",
+        "근대건축",
+        "적산가옥"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-10T00:00:32",
+      "operation_status": "active",
+      "operating_hours": "연중 (해설 투어: 화~일)",
+      "phone": "061-270-8432"
+    },
+    {
+      "experience_id": "EX-IC-CUL-002",
+      "name": "인천 개항장 문화 지구 투어",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "IC",
+      "region_sub": "인천광역시 중구",
+      "address": "인천광역시 중구 신포로23번길 일원",
+      "lat": 37.4752,
+      "lng": 126.6167,
+      "price": "무료",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인",
+        "외국인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "1883년 개항한 인천 중구 개항장 일대를 걷는 역사 투어다. 구 일본 제1은행·인천부청·대불호텔 터·자유공원까지 한국 근대 개항 역사를 그대로 간직한 건물들이 밀집한 거리를 탐방한다.",
+      "source_urls": [
+        "https://www.icjgss.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "인천개항장",
+        "인천",
+        "중구",
+        "개항역사",
+        "근대건축",
+        "1883년",
+        "자유공원"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-10T00:00:32",
+      "operation_status": "active",
+      "operating_hours": "연중",
+      "phone": "032-760-6470"
+    },
+    {
+      "experience_id": "EX-DJ-CUL-001",
+      "name": "대전 성심당 빵 투어",
+      "category_main": "문화/체험",
+      "category_sub": "지역 먹거리",
+      "region_main": "DJ",
+      "region_sub": "대전광역시 중구",
+      "address": "대전광역시 중구 대종로480번길 15",
+      "lat": 36.3278,
+      "lng": 127.4264,
+      "price": "빵 가격 별도",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "가족",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "1956년 창업해 70년 역사를 가진 대전 대표 빵집 성심당 본점 방문 체험이다. 튀김소보로·판타롱부추빵·망고시루 등 성심당만의 인기 메뉴를 맛보고 대전 빵 문화의 상징을 직접 경험한다.",
+      "source_urls": [
+        "https://www.sungsimdang.co.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "성심당",
+        "대전",
+        "빵",
+        "튀김소보로",
+        "70년역사",
+        "대전빵",
+        "부추빵"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-10T00:00:32",
+      "operation_status": "active",
+      "operating_hours": "08:00~23:00 (연중)",
+      "phone": "042-253-9811"
+    },
+    {
+      "experience_id": "EX-US-CUL-001",
+      "name": "울산 고래 생태 체험관",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "US",
+      "region_sub": "울산광역시 남구",
+      "address": "울산광역시 남구 장생포고래로 244",
+      "lat": 35.4692,
+      "lng": 129.3781,
+      "price": "성인 5,000원",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "어린이",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "과거 국내 최대 고래잡이 항구였던 장생포에서 고래 생태와 포경 역사를 이해하는 체험 박물관이다. 실제 고래 뼈대 전시·고래 관찰 유람선 탑승·고래 고기 시식 코스를 함께 즐길 수 있다.",
+      "source_urls": [
+        "https://www.whalecity.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "고래체험관",
+        "울산",
+        "장생포",
+        "고래",
+        "포경역사",
+        "가족체험",
+        "울주군"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T00:00:32",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00 (월요일 휴관)",
+      "phone": "052-226-0980"
+    },
+    {
+      "experience_id": "EX-GW-CUL-004",
+      "name": "원주 뮤지엄 산 건축 투어",
+      "category_main": "문화/체험",
+      "category_sub": "문화예술",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 원주시",
+      "address": "강원특별자치도 원주시 지정면 오크밸리2길 260",
+      "lat": 37.4048,
+      "lng": 128.0631,
+      "price": "성인 25,000원",
+      "duration": "3~4시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "세계적 건축가 안도 타다오가 설계한 뮤지엄 산을 탐방한다. 자연 속에 노출 콘크리트로 지어진 건물 자체가 예술이며 제임스 터렐의 빛 체험관과 야외 조각 공원이 어우러진다.",
+      "source_urls": [
+        "https://www.museumsan.org/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "뮤지엄산",
+        "원주",
+        "안도타다오",
+        "건축",
+        "제임스터렐",
+        "강원",
+        "자연속미술관"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-10T00:00:32",
+      "operation_status": "active",
+      "operating_hours": "10:00~18:00 (월요일 휴관)",
+      "phone": "033-730-9000"
+    },
+    {
+      "experience_id": "EX-GG-CUL-003",
+      "name": "광명 동굴 체험",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GG",
+      "region_sub": "경기도 광명시",
+      "address": "경기도 광명시 가학로85번길 142",
+      "lat": 37.4362,
+      "lng": 126.8697,
+      "price": "성인 8,000원",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "일제강점기 금·은을 채굴하던 폐광이 문화 예술 공간으로 탈바꿈한 광명 동굴이다. 황금 폭포·와인 동굴·동굴 아쿠아리움·미디어아트 공간이 조성되어 있으며 연중 10~15도를 유지한다.",
+      "source_urls": [
+        "https://www.gm.go.kr/cave/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "광명동굴",
+        "광명",
+        "경기",
+        "폐광",
+        "황금폭포",
+        "와인동굴",
+        "미디어아트"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-10T00:00:32",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00 (월요일 휴관)",
+      "phone": "02-2680-6448"
+    },
+    {
+      "experience_id": "EX-JB-CUL-004",
+      "name": "군산 근대 역사 벽화 투어",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "JB",
+      "region_sub": "전라북도 군산시",
+      "address": "전라북도 군산시 구영1길 일원",
+      "lat": 35.9736,
+      "lng": 126.7166,
+      "price": "무료",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인",
+        "외국인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "영화 8월의 크리스마스·건축학개론 촬영지 군산 구도심을 걷는 근대 역사 투어다. 일제강점기 쌀 수탈 현장인 군산 근대 건축물과 벽화 마을을 탐방하며 군산의 역사와 영화 속 장면들을 직접 만난다.",
+      "source_urls": [
+        "https://www.gunsan.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "군산근대역사",
+        "군산",
+        "전북",
+        "8월의크리스마스",
+        "건축학개론",
+        "일제강점기",
+        "벽화마을"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-10T00:00:32",
+      "operation_status": "active",
+      "operating_hours": "연중",
+      "phone": "063-454-3304"
+    },
+    {
+      "experience_id": "EX-CN-CUL-002",
+      "name": "공주 황새 생태 탐방",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "CN",
+      "region_sub": "충청남도 예산군",
+      "address": "충청남도 예산군 광시면 광시리 황새공원",
+      "lat": 36.6572,
+      "lng": 126.8011,
+      "price": "성인 3,000원",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "어린이",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "한국에서 멸종됐다가 복원된 천연기념물 황새를 가까이서 관찰하는 생태 탐방 체험이다. 예산 황새공원에서 황새 번식·먹이 주기 체험과 습지 생태 교육 프로그램을 운영한다.",
+      "source_urls": [
+        "https://www.yesan.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "황새공원",
+        "예산",
+        "충남",
+        "황새",
+        "천연기념물",
+        "생태체험",
+        "복원종"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T00:00:32",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00",
+      "phone": "041-339-8053"
+    },
+    {
+      "experience_id": "EX-GN-CUL-002",
+      "name": "합천 해인사 팔만대장경 탐방",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 합천군",
+      "address": "경상남도 합천군 가야면 해인사길 122",
+      "lat": 35.79,
+      "lng": 128.0992,
+      "price": "성인 3,000원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인",
+        "외국인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "유네스코 세계유산 팔만대장경이 봉안된 해인사를 탐방한다. 780년 동안 변형 없이 보존된 나무 경판 8만여 장의 비밀과 장경판전의 과학적 환기 시스템을 직접 보고 이해하는 역사 체험이다.",
+      "source_urls": [
+        "https://www.haeinsa.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "해인사",
+        "팔만대장경",
+        "합천",
+        "유네스코",
+        "경남",
+        "불교문화",
+        "장경판전"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-10T00:00:32",
+      "operation_status": "active",
+      "operating_hours": "08:30~18:00",
+      "phone": "055-934-3000"
+    },
+    {
+      "experience_id": "EX-GW-CUL-005",
+      "name": "강원 삼척 해양 레일바이크",
+      "category_main": "문화/체험",
+      "category_sub": "어드벤처/레포츠",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 삼척시",
+      "address": "강원특별자치도 삼척시 근덕면 공양왕길 2",
+      "lat": 37.3369,
+      "lng": 129.2136,
+      "price": "2인 35,000원",
+      "duration": "1~2시간",
+      "reservation_required": true,
+      "target_user": [
+        "커플",
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "동해 해안선을 따라 달리는 삼척 해양 레일바이크다. 파란 동해 바다와 기암절벽을 옆에 두고 레일 위를 달리는 코스로 정선 레일바이크와 달리 바다 위를 달리는 느낌이 특별하다.",
+      "source_urls": [
+        "https://www.samcheok.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "해양레일바이크",
+        "삼척",
+        "강원",
+        "동해",
+        "해안선",
+        "레일바이크",
+        "기암절벽"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-10T00:00:32",
+      "operation_status": "active",
+      "operating_hours": "09:00~17:00",
+      "phone": "033-576-0656"
     }
   ],
   "last_updated": "2026-05-07T04:18:31"
