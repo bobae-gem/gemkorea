@@ -1,8 +1,8 @@
 {
   "_comment": "겜코리아 체험 데이터 — 역사/자연 마커와 분리. 삭제 금지. 젬투어 상품 후보.",
   "_version": "1.0",
-  "_updated": "2026-05-10T22:57:50",
-  "total": 733,
+  "_updated": "2026-05-10T23:01:40",
+  "total": 745,
   "experiences": [
     {
       "experience_id": "EX-SE-MKT-001",
@@ -29828,6 +29828,492 @@
       "operation_status": "active",
       "operating_hours": "일몰 전 방문 (무료)",
       "phone": "061-350-5422"
+    },
+    {
+      "experience_id": "EX-SE-CUL-076",
+      "name": "서울 경복궁 수문장 교대식",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "SE",
+      "region_sub": "서울특별시 종로구",
+      "address": "서울특별시 종로구 사직로 161 경복궁",
+      "lat": 37.5796,
+      "lng": 126.9769,
+      "price": "무료 (경복궁 입장 성인 3,000원)",
+      "duration": "30분",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "서울 경복궁 흥례문 앞에서 하루 두 번 진행하는 조선 시대 수문장 교대식을 관람하는 체험이다. 실제 전통 무복을 착용한 수문장들의 교대 의식을 무료로 관람할 수 있는 경복궁 대표 역사 체험이다.",
+      "source_urls": [
+        "https://www.royalpalace.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "경복궁수문장교대식",
+        "경복궁",
+        "서울",
+        "수문장교대",
+        "조선시대",
+        "무료관람",
+        "전통의식"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-10T23:01:40",
+      "operation_status": "active",
+      "operating_hours": "10:00, 14:00 (화~일, 우천 중단)",
+      "phone": "02-3700-3900"
+    },
+    {
+      "experience_id": "EX-GG-NAT-082",
+      "name": "양평 용문산 은행나무",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GG",
+      "region_sub": "경기도 양평군",
+      "address": "경기도 양평군 용문면 용문산관광로 398",
+      "lat": 37.5681,
+      "lng": 127.6453,
+      "price": "성인 2,000원",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "경기 양평 용문사 경내에 위치한 천연기념물 은행나무를 탐방하는 체험이다. 1,100년 수령의 용문사 은행나무는 높이 42m·둘레 14m로 국내 최대 은행나무로 10~11월 황금빛 단풍이 압도적이다.",
+      "source_urls": [
+        "https://www.yongmunsa.biz/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "용문사은행나무",
+        "양평",
+        "경기",
+        "용문산",
+        "1100년은행나무",
+        "천연기념물",
+        "가을단풍"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-10T23:01:40",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00",
+      "phone": "031-773-3797"
+    },
+    {
+      "experience_id": "EX-JN-NAT-097",
+      "name": "고흥 우주발사체 테마파크",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 고흥군",
+      "address": "전라남도 고흥군 봉래면 우주발사대길 100 나로우주센터",
+      "lat": 34.4317,
+      "lng": 127.5344,
+      "price": "성인 3,000원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "어린이",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "한국 최초 우주 발사 기지 전남 고흥 나로우주센터 우주과학관을 탐방하는 체험이다. 나로호·누리호 발사 역사와 우주 과학을 체험하는 공간으로 실제 발사체 모형을 직접 볼 수 있다.",
+      "source_urls": [
+        "https://www.kari.re.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "나로우주센터",
+        "고흥",
+        "전남",
+        "나로호",
+        "누리호",
+        "우주발사체",
+        "과학체험"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-10T23:01:40",
+      "operation_status": "active",
+      "operating_hours": "10:00~17:30 (월 휴관)",
+      "phone": "061-830-8700"
+    },
+    {
+      "experience_id": "EX-GN-NAT-089",
+      "name": "남해 원예예술촌",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 남해군",
+      "address": "경상남도 남해군 삼동면 예술길 129",
+      "lat": 34.8033,
+      "lng": 127.9067,
+      "price": "성인 7,000원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "경남 남해 앵강만이 내려다보이는 원예예술촌을 탐방하는 자연·예술 체험이다. 16개국 예술가들의 독특한 컨셉 정원과 테마 별장이 어우러진 복합 예술 공간으로 미나리꽃 시즌에 더욱 아름답다.",
+      "source_urls": [
+        "https://www.namhae.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "남해원예예술촌",
+        "남해",
+        "경남",
+        "원예예술촌",
+        "앵강만",
+        "16개국예술정원",
+        "미나리꽃"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T23:01:40",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00",
+      "phone": "055-867-4702"
+    },
+    {
+      "experience_id": "EX-CB-CUL-073",
+      "name": "충주 세계무술공원 체험",
+      "category_main": "문화/체험",
+      "category_sub": "어드벤처/레포츠",
+      "region_main": "CB",
+      "region_sub": "충청북도 충주시",
+      "address": "충청북도 충주시 탄금대로 2 세계무술공원",
+      "lat": 36.9825,
+      "lng": 127.9072,
+      "price": "성인 5,000원",
+      "duration": "2시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "충북 충주 탄금호 수변 세계무술공원에서 태권도·합기도·검도 등 한국 전통 무술을 체험하는 프로그램이다. 세계무술축제 상설 개최지 충주에서 다양한 무예 시연과 직접 체험을 즐길 수 있다.",
+      "source_urls": [
+        "https://www.wmmaf.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "충주세계무술공원",
+        "충주",
+        "충북",
+        "태권도체험",
+        "세계무술",
+        "전통무예",
+        "탄금호"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T23:01:40",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00",
+      "phone": "043-854-3011"
+    },
+    {
+      "experience_id": "EX-GW-NAT-079",
+      "name": "고성 DMZ 박물관",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 고성군",
+      "address": "강원특별자치도 고성군 현내면 통일전망대로 369",
+      "lat": 38.5578,
+      "lng": 128.3572,
+      "price": "성인 3,000원",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "강원 고성 비무장지대 인접 DMZ 박물관을 탐방하는 역사 체험이다. 분단 역사와 DMZ 생태를 배우는 박물관 탐방 후 고성 통일전망대에서 금강산 비로봉을 볼 수 있는 분단 역사 체험 코스다.",
+      "source_urls": [
+        "https://www.dmzmuseum.com/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "고성DMZ박물관",
+        "고성",
+        "강원",
+        "DMZ",
+        "분단역사",
+        "통일전망대",
+        "금강산"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-10T23:01:40",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00",
+      "phone": "033-681-0625"
+    },
+    {
+      "experience_id": "EX-JB-CUL-070",
+      "name": "익산 보석박물관",
+      "category_main": "문화/체험",
+      "category_sub": "문화투어",
+      "region_main": "JB",
+      "region_sub": "전라북도 익산시",
+      "address": "전라북도 익산시 왕궁면 호반로 8",
+      "lat": 35.9494,
+      "lng": 127.0144,
+      "price": "성인 5,000원",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "한국 보석 산업의 중심 전북 익산의 보석박물관을 탐방하는 체험이다. 익산이 한국 귀금속·보석 산업의 50% 이상을 차지하는 보석도시임을 알 수 있는 박물관으로 희귀 보석·원석 3만여 점을 전시한다.",
+      "source_urls": [
+        "https://www.gemmuseum.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "익산보석박물관",
+        "익산",
+        "전북",
+        "보석박물관",
+        "귀금속",
+        "보석도시",
+        "원석"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T23:01:40",
+      "operation_status": "active",
+      "operating_hours": "10:00~18:00 (월 휴관)",
+      "phone": "063-859-4641"
+    },
+    {
+      "experience_id": "EX-GN-CUL-077",
+      "name": "밀양 표충사 트레킹",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 밀양시",
+      "address": "경상남도 밀양시 단장면 표충로 1720",
+      "lat": 35.4817,
+      "lng": 128.9281,
+      "price": "성인 1,500원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "임진왜란 승병 사명대사의 호국 정신이 담긴 경남 밀양 표충사를 탐방하는 역사 체험이다. 재약산 자락 표충사에는 전국에서 유일하게 유교식 사당과 불교 사찰이 공존하는 독특한 구조가 있다.",
+      "source_urls": [
+        "https://www.pyo-chungsa.org/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "밀양표충사",
+        "밀양",
+        "경남",
+        "표충사",
+        "사명대사",
+        "유교불교공존",
+        "임진왜란"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T23:01:40",
+      "operation_status": "active",
+      "operating_hours": "06:00~18:00",
+      "phone": "055-352-1150"
+    },
+    {
+      "experience_id": "EX-GG-CUL-081",
+      "name": "이천 설봉공원 봄 꽃길",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GG",
+      "region_sub": "경기도 이천시",
+      "address": "경기도 이천시 관고동 설봉공원로 185",
+      "lat": 37.2769,
+      "lng": 127.4456,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "경기 이천 설봉호수 주변 설봉공원에서 봄 꽃을 즐기는 체험이다. 벚꽃·개나리·진달래가 동시에 피는 4월 설봉공원이 경기 동부 최고 봄꽃 산책지로 설봉호수와 꽃이 어우러지는 경치가 아름답다.",
+      "source_urls": [
+        "https://www.icheon.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "이천설봉공원봄꽃",
+        "이천",
+        "경기",
+        "설봉공원",
+        "설봉호수",
+        "봄꽃",
+        "벚꽃"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T23:01:40",
+      "operation_status": "annual",
+      "operating_hours": "4월 봄꽃 시즌 (무료)",
+      "phone": "031-644-2000"
+    },
+    {
+      "experience_id": "EX-JN-CUL-053",
+      "name": "해남 대흥사 두륜산 트레킹",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 해남군",
+      "address": "전라남도 해남군 삼산면 대흥사길 400",
+      "lat": 34.5292,
+      "lng": 126.6564,
+      "price": "성인 2,500원",
+      "duration": "3~4시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "유네스코 세계문화유산 산사 전남 해남 두륜산 대흥사를 탐방하는 역사 트레킹이다. 임진왜란 피해를 전혀 받지 않은 천년 고찰 대흥사에서 초의선사·추사 김정희의 인연을 따라 트레킹한다.",
+      "source_urls": [
+        "https://www.daeheungsa.co.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "해남대흥사",
+        "해남",
+        "전남",
+        "두륜산",
+        "대흥사",
+        "유네스코산사",
+        "초의선사"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T23:01:40",
+      "operation_status": "active",
+      "operating_hours": "08:00~18:00",
+      "phone": "061-534-5502"
+    },
+    {
+      "experience_id": "EX-GW-CUL-071",
+      "name": "평창 월정사 전나무 숲",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 평창군",
+      "address": "강원특별자치도 평창군 진부면 오대산로 374-8",
+      "lat": 37.7506,
+      "lng": 128.5556,
+      "price": "성인 4,000원",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "강원 평창 오대산 월정사 일주문에서 금강교까지 약 1km 이어지는 아름다운 전나무 숲길을 산책하는 체험이다. 수령 100~200년 전나무들이 울창하게 늘어선 월정사 전나무 숲이 국내 최고 산림욕 코스다.",
+      "source_urls": [
+        "https://www.woljeongsa.org/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "월정사전나무숲",
+        "평창",
+        "강원",
+        "월정사",
+        "전나무숲",
+        "오대산",
+        "삼림욕"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-10T23:01:40",
+      "operation_status": "active",
+      "operating_hours": "연중",
+      "phone": "033-339-6800"
+    },
+    {
+      "experience_id": "EX-GB-NAT-047",
+      "name": "청송 주왕산 계곡 트레킹",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GB",
+      "region_sub": "경상북도 청송군",
+      "address": "경상북도 청송군 부동면 주왕산로 494",
+      "lat": 36.3914,
+      "lng": 129.1517,
+      "price": "성인 4,000원",
+      "duration": "3~4시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "경북 청송 주왕산 국립공원 기암 협곡과 폭포를 탐방하는 트레킹이다. 주산지·대전사·주왕굴을 거쳐 제1~3폭포까지 이어지는 계곡 트레킹이 청송 청정 자연 속 국내 최고 절벽 협곡 코스다.",
+      "source_urls": [
+        "https://juwangsan.knps.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "청송주왕산",
+        "청송",
+        "경북",
+        "주왕산",
+        "계곡트레킹",
+        "기암협곡",
+        "국립공원"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-10T23:01:40",
+      "operation_status": "active",
+      "operating_hours": "연중",
+      "phone": "054-870-5300"
     }
   ],
   "last_updated": "2026-05-07T04:18:31"
