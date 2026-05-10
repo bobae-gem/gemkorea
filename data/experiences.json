@@ -1,8 +1,8 @@
 {
   "_comment": "겜코리아 체험 데이터 — 역사/자연 마커와 분리. 삭제 금지. 젬투어 상품 후보.",
   "_version": "1.0",
-  "_updated": "2026-05-10T01:34:47",
-  "total": 290,
+  "_updated": "2026-05-10T01:39:27",
+  "total": 301,
   "experiences": [
     {
       "experience_id": "EX-SE-MKT-001",
@@ -2355,7 +2355,7 @@
         "가족여행"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-08T09:22:53",
       "operation_status": "active",
       "operating_hours": "09:30~22:00 (금·토·일 23:00)",
@@ -2396,7 +2396,7 @@
         "신라문화"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-08T09:22:53",
       "operation_status": "active",
       "operating_hours": "10:00~18:00 (시즌·요일별 상이)",
@@ -2436,7 +2436,7 @@
         "워터파크"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-08T09:22:53",
       "operation_status": "active",
       "operating_hours": "10:00~20:00 (시즌별 상이)",
@@ -2475,7 +2475,7 @@
         "가족여행"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-08T09:22:53",
       "operation_status": "active",
       "operating_hours": "09:30~18:00 (성수기 연장)",
@@ -2516,7 +2516,7 @@
         "에버랜드"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-08T09:22:53",
       "operation_status": "seasonal",
       "operating_hours": "10:00~20:00 (하계 운영, 실내관 연중)",
@@ -2557,7 +2557,7 @@
         "리조트"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-08T09:22:53",
       "operation_status": "seasonal",
       "operating_hours": "10:00~18:00 (하계 운영)",
@@ -2599,7 +2599,7 @@
         "겨울여행"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-08T09:22:53",
       "operation_status": "seasonal",
       "operating_hours": "08:30~22:00 (야간 스키)",
@@ -2641,7 +2641,7 @@
         "눈썰매"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-08T09:22:53",
       "operation_status": "seasonal",
       "operating_hours": "08:30~22:00 (야간)",
@@ -11882,6 +11882,454 @@
       "operation_status": "active",
       "operating_hours": "09:00~18:00",
       "phone": "064-799-0002"
+    },
+    {
+      "experience_id": "EX-GW-NAT-003",
+      "name": "속초 설악산 케이블카 단풍 투어",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 속초시",
+      "address": "강원특별자치도 속초시 설악산로 833",
+      "lat": 38.1192,
+      "lng": 128.4668,
+      "price": "케이블카 왕복 성인 14,000원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "설악산 권금성 케이블카를 타고 가을 단풍 절정 시즌에 방문하는 투어다. 10월 중순 울산바위·공룡능선 단풍이 절정일 때 케이블카로 올라가면 단풍 물든 설악산을 공중에서 감상할 수 있다.",
+      "source_urls": [
+        "https://www.sorakcablecar.co.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "설악산케이블카",
+        "속초",
+        "강원",
+        "단풍",
+        "울산바위",
+        "권금성",
+        "가을"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:39:27",
+      "operation_status": "active",
+      "operating_hours": "08:30~17:00",
+      "phone": "033-636-4300"
+    },
+    {
+      "experience_id": "EX-JN-NAT-001",
+      "name": "고흥 나로도 우주 센터 투어",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 고흥군",
+      "address": "전라남도 고흥군 봉래면 나로우주센터로 490",
+      "lat": 34.4319,
+      "lng": 127.5344,
+      "price": "성인 3,000원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "어린이",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "한국 최초 우주 발사체 나로호가 발사된 나로우주센터 우주과학관을 탐방하는 체험이다. 실물 크기 로켓 모형·발사 시뮬레이션·우주 체험 전시관을 통해 한국 우주 개발 역사를 이해한다.",
+      "source_urls": [
+        "https://www.kari.re.kr/narospacecenter/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "나로우주센터",
+        "고흥",
+        "전남",
+        "우주",
+        "나로호",
+        "발사체",
+        "어린이체험"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:39:27",
+      "operation_status": "active",
+      "operating_hours": "09:30~17:30 (월요일 휴관)",
+      "phone": "061-830-8700"
+    },
+    {
+      "experience_id": "EX-GG-NAT-003",
+      "name": "연천 재인폭포·한탄강 트레킹",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GG",
+      "region_sub": "경기도 연천군",
+      "address": "경기도 연천군 연천읍 고문리 일원",
+      "lat": 38.1056,
+      "lng": 127.0811,
+      "price": "무료",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "유네스코 세계지질공원 한탄강 구간에서 재인폭포와 화산 지형 트레킹을 즐기는 체험이다. 높이 18m 재인폭포와 현무암 절벽으로 이어지는 한탄강 트레킹 코스가 아름다우며 무료로 즐길 수 있다.",
+      "source_urls": [
+        "https://www.yeoncheon.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "재인폭포",
+        "연천",
+        "경기",
+        "한탄강",
+        "화산지형",
+        "트레킹",
+        "무료"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:39:27",
+      "operation_status": "active",
+      "operating_hours": "연중",
+      "phone": "031-839-2562"
+    },
+    {
+      "experience_id": "EX-GW-NAT-004",
+      "name": "강릉 경포 자전거 라이딩",
+      "category_main": "문화/체험",
+      "category_sub": "어드벤처/레포츠",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 강릉시",
+      "address": "강원특별자치도 강릉시 경포로 일원",
+      "lat": 37.7752,
+      "lng": 128.8912,
+      "price": "자전거 대여 2시간 5,000원~",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "강릉 경포호 둘레길과 경포해변을 연결하는 자전거 라이딩 코스다. 소나무 숲길·경포호·경포해변을 자전거로 이어가며 강릉 최고의 자연 경관을 즐기는 힐링 코스다.",
+      "source_urls": [
+        "https://www.gn.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "경포자전거",
+        "강릉",
+        "강원",
+        "경포호",
+        "경포해변",
+        "소나무숲",
+        "힐링"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:39:27",
+      "operation_status": "active",
+      "operating_hours": "자전거 대여: 09:00~18:00",
+      "phone": "033-660-3689"
+    },
+    {
+      "experience_id": "EX-JN-NAT-002",
+      "name": "순천 선암사 승선교 탐방",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 순천시",
+      "address": "전라남도 순천시 승주읍 선암사길 450",
+      "lat": 34.9725,
+      "lng": 127.2861,
+      "price": "성인 3,000원",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "1,400년 역사 선암사와 보물 승선교를 탐방하는 체험이다. 승선교는 현존하는 한국 최고(最古)의 홍예교로 봄 매화와 어우러지는 풍경이 국내 최고의 사찰 풍경 중 하나로 꼽힌다.",
+      "source_urls": [
+        "https://www.seonamsa.net/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "선암사",
+        "승선교",
+        "순천",
+        "전남",
+        "홍예교",
+        "보물",
+        "사찰"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:39:27",
+      "operation_status": "active",
+      "operating_hours": "07:00~19:00",
+      "phone": "061-754-5247"
+    },
+    {
+      "experience_id": "EX-GG-NAT-004",
+      "name": "광릉 국립수목원 체험",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GG",
+      "region_sub": "경기도 포천시",
+      "address": "경기도 포천시 소홀읍 광릉수목원로 415",
+      "lat": 37.75,
+      "lng": 127.1611,
+      "price": "성인 1,000원",
+      "duration": "2~4시간",
+      "reservation_required": true,
+      "target_user": [
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "세조 왕릉 광릉의 500년 왕실 보호림에서 조성된 국립수목원이다. 사전 예약제로 운영하는 특별한 수목원으로 500년 된 전나무·잣나무 숲이 장관이며 산림박물관·특수식물원을 함께 관람할 수 있다.",
+      "source_urls": [
+        "https://www.kna.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "국립수목원",
+        "광릉",
+        "포천",
+        "경기",
+        "500년숲",
+        "예약제",
+        "희귀식물"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:39:27",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00 (월·화 휴관, 예약 필수)",
+      "phone": "031-540-2000"
+    },
+    {
+      "experience_id": "EX-JB-NAT-001",
+      "name": "부안 내소사 전나무 숲길",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "JB",
+      "region_sub": "전라북도 부안군",
+      "address": "전라북도 부안군 진서면 내소사로 243",
+      "lat": 35.6581,
+      "lng": 126.6908,
+      "price": "성인 3,000원",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "600년 수령 전나무 숲길을 걸어 신라 시대 내소사에 이르는 탐방이다. 내소사 가는 전나무 숲 500m 구간이 한국 100대 명품 숲으로 선정됐으며 가을 전나무 향이 특히 진하다.",
+      "source_urls": [
+        "https://www.buan.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "내소사",
+        "부안",
+        "전북",
+        "전나무숲",
+        "600년수령",
+        "사찰",
+        "가을향기"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:39:27",
+      "operation_status": "active",
+      "operating_hours": "07:00~18:00",
+      "phone": "063-583-7281"
+    },
+    {
+      "experience_id": "EX-GN-NAT-002",
+      "name": "사천 선진리성 벚꽃 투어",
+      "category_main": "문화/체험",
+      "category_sub": "축제",
+      "region_main": "GN",
+      "region_sub": "경상남도 사천시",
+      "address": "경상남도 사천시 용현면 선진리 일원",
+      "lat": 35.0167,
+      "lng": 128.1178,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "임진왜란 격전지 사천 선진리성에서 봄 벚꽃을 감상하는 투어다. 임진왜란 이순신 장군 사천해전 현장 위에 피어난 벚꽃이 역사와 자연이 공존하는 특별한 풍경을 만들어낸다.",
+      "source_urls": [
+        "https://www.sacheon.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "선진리성",
+        "사천",
+        "경남",
+        "벚꽃",
+        "이순신",
+        "임진왜란",
+        "봄"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:39:27",
+      "operation_status": "annual",
+      "operating_hours": "3월 말~4월 초 벚꽃 시즌",
+      "phone": "055-831-2114"
+    },
+    {
+      "experience_id": "EX-CB-NAT-001",
+      "name": "단양 도담삼봉 유람선 투어",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "CB",
+      "region_sub": "충청북도 단양군",
+      "address": "충청북도 단양군 단양읍 도담삼봉길 일원",
+      "lat": 36.9845,
+      "lng": 128.3659,
+      "price": "유람선 성인 6,000원",
+      "duration": "1시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "충주호 남한강 위에 솟은 도담삼봉을 유람선을 타고 가까이서 감상하는 투어다. 조선 시대부터 유명한 절경으로 정도전이 사랑했던 곳이며 사시사철 다른 경관으로 유명하다.",
+      "source_urls": [
+        "https://www.danyang.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "도담삼봉",
+        "단양",
+        "충북",
+        "유람선",
+        "남한강",
+        "충주호",
+        "정도전"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:39:27",
+      "operation_status": "active",
+      "operating_hours": "09:00~17:00",
+      "phone": "043-421-0001"
+    },
+    {
+      "experience_id": "EX-GN-NAT-003",
+      "name": "밀양 얼음골 여름 체험",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 밀양시",
+      "address": "경상남도 밀양시 산내면 얼음골로 70",
+      "lat": 35.5036,
+      "lng": 128.9711,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "여름에 얼음이 어는 신비로운 자연 현상 밀양 얼음골을 탐방하는 체험이다. 7~8월 폭염 때 기암절벽 사이에서 차가운 공기와 얼음이 나오는 천연기념물 지형을 직접 체험한다.",
+      "source_urls": [
+        "https://www.miryang.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "밀양얼음골",
+        "밀양",
+        "경남",
+        "여름체험",
+        "천연기념물",
+        "얼음",
+        "신비현상"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:39:27",
+      "operation_status": "seasonal",
+      "operating_hours": "7~8월 여름 (자연 발생)",
+      "phone": "055-359-5638"
+    },
+    {
+      "experience_id": "EX-JN-NAT-003",
+      "name": "신안 천일염 생산 체험",
+      "category_main": "문화/체험",
+      "category_sub": "농촌 체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 신안군",
+      "address": "전라남도 신안군 증도면 증도해변로 일원",
+      "lat": 34.9672,
+      "lng": 126.1881,
+      "price": "1인 15,000원",
+      "duration": "2~3시간",
+      "reservation_required": true,
+      "target_user": [
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "유네스코 생물권 보전지역 증도에서 천일염 생산 전 과정을 체험하는 프로그램이다. 염전에서 직접 소금을 긁어모으고 간수 빼는 과정을 배우며 신안 천일염이 왜 세계 최고 품질인지 이해한다.",
+      "source_urls": [
+        "https://www.sinan.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "천일염",
+        "신안",
+        "전남",
+        "증도",
+        "염전체험",
+        "소금만들기",
+        "유네스코"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:39:27",
+      "operation_status": "seasonal",
+      "operating_hours": "5~9월 소금 생산 시즌",
+      "phone": "061-240-8556"
     }
   ],
   "last_updated": "2026-05-07T04:18:31"
