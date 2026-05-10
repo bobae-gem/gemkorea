@@ -1,8 +1,8 @@
 {
   "_comment": "겜코리아 체험 데이터 — 역사/자연 마커와 분리. 삭제 금지. 젬투어 상품 후보.",
   "_version": "1.0",
-  "_updated": "2026-05-10T02:15:50",
-  "total": 385,
+  "_updated": "2026-05-10T02:19:51",
+  "total": 397,
   "experiences": [
     {
       "experience_id": "EX-SE-MKT-001",
@@ -4597,7 +4597,7 @@
         "승마체험"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:31:29",
       "operation_status": "active",
       "operating_hours": "09:00~17:00",
@@ -4637,7 +4637,7 @@
         "수도권근교"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:31:29",
       "operation_status": "active",
       "operating_hours": "연중 (예약 필수)",
@@ -4677,7 +4677,7 @@
         "힐링"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:31:29",
       "operation_status": "seasonal",
       "operating_hours": "5~10월",
@@ -4718,7 +4718,7 @@
         "야경"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:31:29",
       "operation_status": "active",
       "operating_hours": "14:00~22:00 (화요일 휴관)",
@@ -4759,7 +4759,7 @@
         "남부천문"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:31:29",
       "operation_status": "active",
       "operating_hours": "14:00~22:00 (화요일 휴관)",
@@ -4799,7 +4799,7 @@
         "서해체험"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:31:29",
       "operation_status": "seasonal",
       "operating_hours": "4~10월 (썰물 시간대)",
@@ -15742,6 +15742,493 @@
       "operation_status": "seasonal",
       "operating_hours": "썰물 시간 (4~10월)",
       "phone": "063-580-4434"
+    },
+    {
+      "experience_id": "EX-GN-NAT-017",
+      "name": "사천 항공우주박물관 체험",
+      "category_main": "문화/체험",
+      "category_sub": "박물관",
+      "region_main": "GN",
+      "region_sub": "경상남도 사천시",
+      "address": "경상남도 사천시 사남면 공단1로 200",
+      "lat": 35.0833,
+      "lng": 128.1583,
+      "price": "성인 6,000원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "어린이",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "한국 항공 산업의 성지 사천에 위치한 항공우주박물관이다. 실물 전투기·헬기·우주 로켓 모형과 함께 비행 시뮬레이터 체험이 가능하며 KAI(한국항공우주산업) 공장 인근이다.",
+      "source_urls": [
+        "https://www.aerospacemuseum.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "항공우주박물관",
+        "사천",
+        "경남",
+        "전투기",
+        "헬기",
+        "비행시뮬레이터",
+        "어린이"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:19:51",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00 (월요일 휴관)",
+      "phone": "055-851-6565"
+    },
+    {
+      "experience_id": "EX-GW-NAT-020",
+      "name": "속초 아바이마을+영금정 투어",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 속초시",
+      "address": "강원특별자치도 속초시 영금정로 43",
+      "lat": 38.2146,
+      "lng": 128.5878,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인",
+        "외국인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "속초 영금정 바위에서 동해 파도와 함께 일출을 감상하는 체험이다. 영금정은 파도가 바위에 부딪힐 때 거문고 소리처럼 들린다는 뜻으로 속초 도심 최고의 일출 명소다.",
+      "source_urls": [
+        "https://www.sokcho.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "영금정",
+        "속초",
+        "강원",
+        "동해일출",
+        "파도소리",
+        "설악산뷰",
+        "아바이마을"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:19:51",
+      "operation_status": "active",
+      "operating_hours": "연중 (무료)",
+      "phone": "033-639-2690"
+    },
+    {
+      "experience_id": "EX-JN-NAT-020",
+      "name": "강진 월출산 천황사 코스",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 강진군",
+      "address": "전라남도 강진군 성전면 월하리 천황사 입구",
+      "lat": 34.7442,
+      "lng": 126.7753,
+      "price": "성인 1,000원",
+      "duration": "3~4시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "월출산 국립공원 천황사 입구에서 구름다리까지 이어지는 바위 협곡 탐방 코스다. 가파른 화강암 바위를 오르는 난이도 있는 코스로 구름다리에서 전남 남도 전체가 내려다보이는 전망이 장관이다.",
+      "source_urls": [
+        "https://woulchulsan.knps.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "월출산",
+        "강진",
+        "전남",
+        "천황사",
+        "구름다리",
+        "바위협곡",
+        "남도전망"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:19:51",
+      "operation_status": "active",
+      "operating_hours": "일출~16:00",
+      "phone": "061-473-5211"
+    },
+    {
+      "experience_id": "EX-GG-NAT-021",
+      "name": "파주 장릉+율곡수목원 코스",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GG",
+      "region_sub": "경기도 파주시",
+      "address": "경기도 파주시 탄현면 장릉로 90",
+      "lat": 37.7514,
+      "lng": 126.7278,
+      "price": "성인 1,000원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "인조대왕 장릉과 율곡수목원을 함께 탐방하는 파주 역사+자연 하루 코스다. 유네스코 세계유산 조선 왕릉 장릉에서 인조 역사를 배우고 인근 율곡수목원의 계절 꽃을 감상한다.",
+      "source_urls": [
+        "https://royaltombs.cha.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "장릉",
+        "파주",
+        "경기",
+        "인조",
+        "조선왕릉",
+        "유네스코",
+        "율곡수목원"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:19:51",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00 (월요일 휴관)",
+      "phone": "031-945-9242"
+    },
+    {
+      "experience_id": "EX-GG-NAT-022",
+      "name": "인천 송도 해돋이 공원 야경",
+      "category_main": "문화/체험",
+      "category_sub": "야경/야간투어",
+      "region_main": "GG",
+      "region_sub": "인천광역시 연수구",
+      "address": "인천광역시 연수구 컨벤시아대로 160 (센트럴파크)",
+      "lat": 37.3906,
+      "lng": 126.6463,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "인천 송도 국제도시 센트럴파크에서 야경을 감상하는 체험이다. 인천 스카이라인과 센트럴파크 수변이 어우러지는 야경이 아름다우며 야간 보트 투어도 운영된다.",
+      "source_urls": [
+        "https://www.incheon.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "송도센트럴파크",
+        "인천",
+        "송도",
+        "야경",
+        "야간보트",
+        "국제도시",
+        "수변"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:19:51",
+      "operation_status": "active",
+      "operating_hours": "연중 (무료)",
+      "phone": "032-260-4630"
+    },
+    {
+      "experience_id": "EX-JN-NAT-021",
+      "name": "광양 섬진강 재첩국 투어",
+      "category_main": "문화/체험",
+      "category_sub": "지역 먹거리",
+      "region_main": "JN",
+      "region_sub": "전라남도 광양시",
+      "address": "전라남도 광양시 광양읍 섬진강변 재첩국 거리",
+      "lat": 34.9878,
+      "lng": 127.6278,
+      "price": "1만원~",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "섬진강 명물 재첩국 골목에서 아침 재첩국을 즐기는 먹거리 투어다. 새벽부터 갓 잡은 재첩으로 끓인 맑은 재첩국이 섬진강 여행의 완벽한 마무리를 장식한다.",
+      "source_urls": [
+        "https://www.gwangyang.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "재첩국",
+        "광양",
+        "전남",
+        "섬진강",
+        "재첩국거리",
+        "아침식사",
+        "조개국"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:19:51",
+      "operation_status": "active",
+      "operating_hours": "06:00~15:00",
+      "phone": "061-797-3721"
+    },
+    {
+      "experience_id": "EX-GG-NAT-023",
+      "name": "용인 에버랜드 로스트밸리 사파리",
+      "category_main": "문화/체험",
+      "category_sub": "테마파크",
+      "region_main": "GG",
+      "region_sub": "경기도 용인시",
+      "address": "경기도 용인시 처인구 포곡읍 에버랜드로 199",
+      "lat": 37.2928,
+      "lng": 127.2014,
+      "price": "에버랜드 입장 포함",
+      "duration": "1시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "어린이"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "에버랜드 안 로스트밸리 사파리에서 코끼리·기린·하마·악어 등 동물들과 트램을 타고 가까이서 만나는 체험이다. 동물이 트램 위로 먹이를 먹으러 오는 순간이 하이라이트다.",
+      "source_urls": [
+        "https://www.everland.com/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "로스트밸리",
+        "에버랜드",
+        "용인",
+        "경기",
+        "사파리",
+        "기린",
+        "코끼리"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:19:51",
+      "operation_status": "active",
+      "operating_hours": "에버랜드 운영 시간 동일",
+      "phone": "031-320-5000"
+    },
+    {
+      "experience_id": "EX-GW-NAT-021",
+      "name": "강릉 강문 솟대다리 야경",
+      "category_main": "문화/체험",
+      "category_sub": "야경/야간투어",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 강릉시",
+      "address": "강원특별자치도 강릉시 강문동 솟대다리",
+      "lat": 37.78,
+      "lng": 128.9453,
+      "price": "무료",
+      "duration": "1시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "강릉 경포해변과 경포호를 연결하는 솟대다리에서 야경을 감상하는 체험이다. 솟대 조형물들이 조명을 받아 빛나고 양쪽으로 경포해변 동해와 경포호가 동시에 보이는 강릉 야경 명소다.",
+      "source_urls": [
+        "https://www.gn.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "솟대다리",
+        "강릉",
+        "강원",
+        "야경",
+        "경포호",
+        "경포해변",
+        "무료"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:19:51",
+      "operation_status": "active",
+      "operating_hours": "연중 (야경: 일몰~22:00)",
+      "phone": "033-640-4533"
+    },
+    {
+      "experience_id": "EX-JN-NAT-022",
+      "name": "무주 반딧불 축제 체험",
+      "category_main": "문화/체험",
+      "category_sub": "축제",
+      "region_main": "JN",
+      "region_sub": "전라북도 무주군",
+      "address": "전라북도 무주군 설천면 무주리조트 일원",
+      "lat": 35.9064,
+      "lng": 127.6289,
+      "price": "성인 10,000원~",
+      "duration": "2~3시간",
+      "reservation_required": true,
+      "target_user": [
+        "가족",
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "매년 8~9월 무주에서 열리는 반딧불 축제에서 청정 자연 지표종 반딧불이를 관찰하는 체험이다. 무주 남대천에서 반딧불이가 날아다니는 장관을 야간에 관찰하고 반딧불이 생태 교육을 받는다.",
+      "source_urls": [
+        "https://www.firefly.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "무주반딧불축제",
+        "무주",
+        "전북",
+        "반딧불이",
+        "야간자연",
+        "생태관찰",
+        "청정자연"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:19:51",
+      "operation_status": "annual",
+      "operating_hours": "매년 8~9월 (1주일간)",
+      "phone": "063-320-2062"
+    },
+    {
+      "experience_id": "EX-GN-NAT-018",
+      "name": "거제 이수도 스노클링 체험",
+      "category_main": "문화/체험",
+      "category_sub": "해양 레포츠",
+      "region_main": "GN",
+      "region_sub": "경상남도 거제시",
+      "address": "경상남도 거제시 남부면 이수도",
+      "lat": 34.8242,
+      "lng": 128.6686,
+      "price": "1인 40,000원~",
+      "duration": "2~3시간",
+      "reservation_required": true,
+      "target_user": [
+        "개인",
+        "커플",
+        "청년"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "거제도 남쪽 이수도 앞바다에서 스노클링을 즐기는 해양 레포츠 체험이다. 남해안 최고의 투명도를 자랑하는 이수도 해역에서 산호초와 열대어를 관찰하며 서해와는 다른 남해 바닷속 세계를 탐험한다.",
+      "source_urls": [
+        "https://www.geoje.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "이수도스노클링",
+        "거제",
+        "경남",
+        "스노클링",
+        "산호초",
+        "남해",
+        "해양레포츠"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:19:51",
+      "operation_status": "seasonal",
+      "operating_hours": "6~9월 (예약 필수)",
+      "phone": "055-639-3003"
+    },
+    {
+      "experience_id": "EX-JJ-NAT-006",
+      "name": "제주 수월봉 지질 트레킹",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "JJ",
+      "region_sub": "제주특별자치도 제주시",
+      "address": "제주특별자치도 제주시 한경면 고산리 수월봉",
+      "lat": 33.2981,
+      "lng": 126.1639,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "유네스코 세계지질공원 수월봉 화산 응회환을 탐방하는 지질 트레킹이다. 2만 5천 년 전 화산 폭발로 형성된 절벽 단면이 지질학 교과서 같은 구조를 보여주며 차귀도와 서해 낙조가 함께 보인다.",
+      "source_urls": [
+        "https://www.visitjeju.net/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "수월봉",
+        "제주",
+        "유네스코",
+        "화산응회환",
+        "차귀도",
+        "서해낙조",
+        "지질공원"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:19:51",
+      "operation_status": "active",
+      "operating_hours": "연중 (무료)",
+      "phone": "064-728-3988"
+    },
+    {
+      "experience_id": "EX-GG-NAT-024",
+      "name": "양주 장흥 아트파크 자연+예술",
+      "category_main": "문화/체험",
+      "category_sub": "미술관",
+      "region_main": "GG",
+      "region_sub": "경기도 양주시",
+      "address": "경기도 양주시 장흥면 권율로 117",
+      "lat": 37.8093,
+      "lng": 126.9872,
+      "price": "성인 5,000원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "경기도 양주 자연 속에 조성된 장흥 아트파크에서 야외 조각 작품을 감상하는 체험이다. 넓은 자연 공원에 한국 대표 조각가들의 작품이 설치되어 있으며 계절마다 다른 자연과 예술의 조화를 즐길 수 있다.",
+      "source_urls": [
+        "https://www.jangheungartpark.org/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "장흥아트파크",
+        "양주",
+        "경기",
+        "야외조각",
+        "자연미술관",
+        "조각공원",
+        "드라이브"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:19:51",
+      "operation_status": "active",
+      "operating_hours": "10:00~18:00 (월요일 휴관)",
+      "phone": "031-855-0048"
     }
   ],
   "last_updated": "2026-05-07T04:18:31"
