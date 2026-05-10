@@ -1,8 +1,8 @@
 {
   "_comment": "겜코리아 체험 데이터 — 역사/자연 마커와 분리. 삭제 금지. 젬투어 상품 후보.",
   "_version": "1.0",
-  "_updated": "2026-05-10T02:44:08",
-  "total": 469,
+  "_updated": "2026-05-10T02:48:07",
+  "total": 481,
   "experiences": [
     {
       "experience_id": "EX-SE-MKT-001",
@@ -6306,7 +6306,7 @@
         "먹거리투어"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:43:01",
       "operation_status": "active",
       "operating_hours": "17:00~02:00",
@@ -6347,7 +6347,7 @@
         "경기"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:43:01",
       "operation_status": "active",
       "operating_hours": "11:00~23:00",
@@ -6388,7 +6388,7 @@
         "돌담"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:43:01",
       "operation_status": "active",
       "operating_hours": "09:00~18:00",
@@ -6428,7 +6428,7 @@
         "외국인체험"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:43:01",
       "operation_status": "active",
       "operating_hours": "10:00~18:00",
@@ -6469,7 +6469,7 @@
         "스릴"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:43:01",
       "operation_status": "active",
       "operating_hours": "에버랜드 운영시간 동일",
@@ -6510,7 +6510,7 @@
         "외국인"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:43:01",
       "operation_status": "active",
       "operating_hours": "12:00~23:00",
@@ -19147,6 +19147,492 @@
       "operation_status": "active",
       "operating_hours": "09:00~18:00",
       "phone": "055-359-5638"
+    },
+    {
+      "experience_id": "EX-GN-NAT-036",
+      "name": "남해 보리암+금산 트레킹",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 남해군",
+      "address": "경상남도 남해군 상주면 보리암로 665",
+      "lat": 34.8344,
+      "lng": 127.9222,
+      "price": "성인 1,000원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "금산 꼭대기 절벽에 매달린 한국 3대 기도 명소 보리암을 트레킹하는 체험이다. 보리암에서 내려다보는 남해 다도해 전경이 압도적이며 해수관음상과 함께 태양빛이 들어오는 새벽 체험이 특히 아름답다.",
+      "source_urls": [
+        "https://www.namhae.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "보리암",
+        "금산",
+        "남해",
+        "경남",
+        "3대기도명소",
+        "다도해전경",
+        "트레킹"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:48:07",
+      "operation_status": "active",
+      "operating_hours": "04:00~19:00",
+      "phone": "055-862-6115"
+    },
+    {
+      "experience_id": "EX-GW-NAT-036",
+      "name": "강화 마니산+함허동천 계곡",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GW",
+      "region_sub": "인천광역시 강화군",
+      "address": "인천광역시 강화군 화도면 마니산 일원",
+      "lat": 37.5941,
+      "lng": 126.4353,
+      "price": "성인 1,000원",
+      "duration": "3~4시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "강화 마니산 등산 후 함허동천 계곡에서 여름 물놀이를 즐기는 코스다. 단군 천제 참성단과 계곡을 하루에 즐기는 강화도 최고 여름 코스로 인천에서 1시간 거리다.",
+      "source_urls": [
+        "https://www.ganghwa.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "마니산",
+        "함허동천",
+        "강화",
+        "인천",
+        "계곡",
+        "여름",
+        "단군"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:48:07",
+      "operation_status": "seasonal",
+      "operating_hours": "연중 (계곡: 6~9월)",
+      "phone": "032-930-4020"
+    },
+    {
+      "experience_id": "EX-JN-NAT-039",
+      "name": "고흥 팔영산 8봉 일출 등산",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 고흥군",
+      "address": "전라남도 고흥군 점암면 팔영산 일원",
+      "lat": 34.5908,
+      "lng": 127.4472,
+      "price": "성인 1,000원",
+      "duration": "4~5시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "8개의 암봉이 연속으로 솟은 팔영산 1봉~8봉을 일출 시간에 등산하는 체험이다. 이른 새벽 1봉에 올라 동해 방향 일출을 보고 각 봉우리에서 다른 다도해 파노라마를 즐기는 전남 최고 암봉 등산 코스다.",
+      "source_urls": [
+        "https://www.goheung.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "팔영산",
+        "고흥",
+        "전남",
+        "8봉",
+        "일출등산",
+        "암봉",
+        "다도해"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:48:07",
+      "operation_status": "active",
+      "operating_hours": "일출 전 입산 가능",
+      "phone": "061-830-8700"
+    },
+    {
+      "experience_id": "EX-GG-NAT-042",
+      "name": "양평 세미원 수련꽃 투어",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GG",
+      "region_sub": "경기도 양평군",
+      "address": "경기도 양평군 양서면 양수리 세미원",
+      "lat": 37.535,
+      "lng": 127.4681,
+      "price": "성인 5,000원",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "두물머리 북한강변 세미원에서 여름 연꽃·수련을 감상하는 체험이다. 7~8월 수만 송이 연꽃과 수련이 가득 피어나는 수도권 최고 여름 꽃 명소로 연꽃 교육 프로그램도 운영된다.",
+      "source_urls": [
+        "https://www.semiwon.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "세미원",
+        "양평",
+        "경기",
+        "연꽃",
+        "수련",
+        "여름꽃",
+        "두물머리"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:48:07",
+      "operation_status": "seasonal",
+      "operating_hours": "09:00~18:00 (7~8월 연꽃 시즌)",
+      "phone": "031-775-1835"
+    },
+    {
+      "experience_id": "EX-JN-NAT-040",
+      "name": "장성 남창계곡 여름 물놀이",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 장성군",
+      "address": "전라남도 장성군 북이면 남창계곡",
+      "lat": 35.3708,
+      "lng": 126.85,
+      "price": "무료",
+      "duration": "3~5시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "어린이"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "전남 장성 남창계곡에서 여름 물놀이와 계곡 트레킹을 즐기는 체험이다. 맑고 시원한 계곡물과 주변 자연이 어우러지는 남도 대표 피서지로 전남에서 가장 깨끗한 계곡 중 하나다.",
+      "source_urls": [
+        "https://www.jangseong.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "남창계곡",
+        "장성",
+        "전남",
+        "계곡",
+        "물놀이",
+        "피서",
+        "여름"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:48:07",
+      "operation_status": "seasonal",
+      "operating_hours": "6~9월 (무료)",
+      "phone": "061-390-7211"
+    },
+    {
+      "experience_id": "EX-GN-NAT-037",
+      "name": "창원 주남저수지 철새 탐조",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 창원시",
+      "address": "경상남도 창원시 의창구 동읍 주남로 126",
+      "lat": 35.3025,
+      "lng": 128.6708,
+      "price": "무료",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "창원 주남저수지에서 겨울 철새를 탐조하는 체험이다. 해마다 수십만 마리의 가창오리·재두루미·청둥오리 등이 월동하는 동아시아 최대 내륙 철새 도래지 중 하나로 망원경 탐조가 특별하다.",
+      "source_urls": [
+        "https://www.changwon.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "주남저수지",
+        "창원",
+        "경남",
+        "철새탐조",
+        "가창오리",
+        "겨울탐조",
+        "철새"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:48:07",
+      "operation_status": "seasonal",
+      "operating_hours": "11~3월 철새 시즌 (무료)",
+      "phone": "055-225-3691"
+    },
+    {
+      "experience_id": "EX-GG-NAT-043",
+      "name": "남양주 한음저수지 낚시",
+      "category_main": "문화/체험",
+      "category_sub": "낚시/어촌 체험",
+      "region_main": "GG",
+      "region_sub": "경기도 남양주시",
+      "address": "경기도 남양주시 진접읍 한음저수지",
+      "lat": 37.7097,
+      "lng": 127.2142,
+      "price": "1인 10,000원~",
+      "duration": "3~5시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "경기도 남양주 한음저수지에서 잉어·붕어 낚시를 즐기는 체험이다. 경관이 아름다운 저수지에서 초보자도 즐길 수 있는 낚시 체험으로 서울 근교 당일치기 낚시 코스로 인기다.",
+      "source_urls": [
+        "https://www.nyj.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "한음저수지낚시",
+        "남양주",
+        "경기",
+        "잉어낚시",
+        "붕어",
+        "서울근교",
+        "당일치기"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:48:07",
+      "operation_status": "seasonal",
+      "operating_hours": "4~11월 낚시 시즌",
+      "phone": "031-590-8305"
+    },
+    {
+      "experience_id": "EX-JN-NAT-041",
+      "name": "여수 오동도 모노레일+동백",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 여수시",
+      "address": "전라남도 여수시 수정동 오동도 일원",
+      "lat": 34.739,
+      "lng": 127.7381,
+      "price": "모노레일 성인 3,000원",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "여수 오동도를 모노레일로 탐방하는 체험이다. 섬 전체를 모노레일로 둘러볼 수 있으며 2~3월 동백 시즌에는 붉은 동백꽃이 모노레일 창밖으로 펼쳐지는 특별한 경험을 할 수 있다.",
+      "source_urls": [
+        "https://www.yeosu.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "오동도모노레일",
+        "여수",
+        "전남",
+        "동백",
+        "모노레일",
+        "봄꽃",
+        "남해"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:48:07",
+      "operation_status": "active",
+      "operating_hours": "09:00~22:00",
+      "phone": "061-659-1819"
+    },
+    {
+      "experience_id": "EX-GG-NAT-044",
+      "name": "포천 허브아일랜드 허브 체험",
+      "category_main": "문화/체험",
+      "category_sub": "농촌 체험",
+      "region_main": "GG",
+      "region_sub": "경기도 포천시",
+      "address": "경기도 포천시 신북면 청신로947번길 35",
+      "lat": 38.0152,
+      "lng": 127.2152,
+      "price": "성인 12,000원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "포천 허브아일랜드에서 라벤더·로즈마리·민트 등 허브를 수확하고 허브 오일·허브차·허브 비누를 직접 만드는 체험이다. 허브 향기 가득한 정원을 산책하고 허브 레스토랑에서 식사도 즐길 수 있다.",
+      "source_urls": [
+        "https://www.herbisland.co.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "허브아일랜드",
+        "포천",
+        "경기",
+        "라벤더",
+        "허브체험",
+        "향수만들기",
+        "커플"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:48:07",
+      "operation_status": "active",
+      "operating_hours": "09:00~22:00",
+      "phone": "031-535-6494"
+    },
+    {
+      "experience_id": "EX-GN-NAT-038",
+      "name": "고성 당항포 이순신 해전 체험",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 고성군",
+      "address": "경상남도 고성군 회화면 당항만로 1116",
+      "lat": 35.0167,
+      "lng": 128.3392,
+      "price": "성인 3,000원",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "임진왜란 이순신 장군 당항포대첩 현장을 탐방하는 역사 체험이다. 1592년·1594년 두 차례 왜선을 격멸한 당항포에서 거북선 복원 모형과 이순신 영상관을 통해 해전 역사를 이해한다.",
+      "source_urls": [
+        "https://www.goseong.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "당항포",
+        "고성",
+        "이순신",
+        "경남",
+        "임진왜란",
+        "당항포대첩",
+        "거북선"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:48:07",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00",
+      "phone": "055-670-4168"
+    },
+    {
+      "experience_id": "EX-GW-NAT-037",
+      "name": "강원 정선 화암 8경 트레킹",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 정선군",
+      "address": "강원특별자치도 정선군 화암면 화암리 일원",
+      "lat": 37.38,
+      "lng": 128.7628,
+      "price": "무료",
+      "duration": "3~5시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "정선 화암 8경(화암약수·화암동굴·용마폭포·소금강 등)을 하루에 탐방하는 트레킹 코스다. 정선 5일장과 아리랑 문화 중심지이기도 한 화암에서 자연과 역사를 동시에 즐기는 코스다.",
+      "source_urls": [
+        "https://www.jeongseon.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "화암8경",
+        "정선",
+        "강원",
+        "화암약수",
+        "용마폭포",
+        "정선아리랑",
+        "트레킹"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:48:07",
+      "operation_status": "active",
+      "operating_hours": "연중 (무료)",
+      "phone": "033-560-2660"
+    },
+    {
+      "experience_id": "EX-JN-NAT-042",
+      "name": "곡성 섬진강 기차마을 레일바이크",
+      "category_main": "문화/체험",
+      "category_sub": "어드벤처/레포츠",
+      "region_main": "JN",
+      "region_sub": "전라남도 곡성군",
+      "address": "전라남도 곡성군 오곡면 기차마을로 232",
+      "lat": 35.2783,
+      "lng": 127.2878,
+      "price": "레일바이크 2인 15,000원~",
+      "duration": "1~2시간",
+      "reservation_required": true,
+      "target_user": [
+        "커플",
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "섬진강 변 폐기찻길을 레일바이크로 달리는 체험이다. 곡성 기차마을에서 출발해 섬진강 절경 구간을 달리며 드라마·CF 촬영지로 유명한 섬진강 봄 경관을 즐길 수 있다.",
+      "source_urls": [
+        "https://www.gstrain.co.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "곡성레일바이크",
+        "곡성",
+        "전남",
+        "섬진강",
+        "레일바이크",
+        "기차마을",
+        "봄꽃"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:48:07",
+      "operation_status": "active",
+      "operating_hours": "09:00~17:00",
+      "phone": "061-363-9900"
     }
   ],
   "last_updated": "2026-05-07T04:18:31"
