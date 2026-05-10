@@ -1,8 +1,8 @@
 {
   "_comment": "겜코리아 체험 데이터 — 역사/자연 마커와 분리. 삭제 금지. 젬투어 상품 후보.",
   "_version": "1.0",
-  "_updated": "2026-05-10T03:16:08",
-  "total": 565,
+  "_updated": "2026-05-10T03:20:29",
+  "total": 577,
   "experiences": [
     {
       "experience_id": "EX-SE-MKT-001",
@@ -9562,7 +9562,7 @@
         "전통공연"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-10T00:05:14",
       "operation_status": "annual",
       "operating_hours": "매년 5월 (5일간)",
@@ -9602,7 +9602,7 @@
         "영화축제"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-10T00:05:14",
       "operation_status": "annual",
       "operating_hours": "매년 4~5월 (10일간)",
@@ -9725,7 +9725,7 @@
         "보부상"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-10T00:05:14",
       "operation_status": "annual",
       "operating_hours": "매년 9~10월 (5일간)",
@@ -9807,7 +9807,7 @@
         "소양강"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-10T00:05:14",
       "operation_status": "annual",
       "operating_hours": "매년 1~2월 (3주간)",
@@ -9888,7 +9888,7 @@
         "봄축제"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-10T00:05:14",
       "operation_status": "annual",
       "operating_hours": "매년 5월 (1주일간)",
@@ -9928,7 +9928,7 @@
         "보물섬"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-10T00:05:14",
       "operation_status": "annual",
       "operating_hours": "매년 6월 (3일간)",
@@ -23038,6 +23038,496 @@
       "operation_status": "active",
       "operating_hours": "08:30~17:00",
       "phone": "061-534-5502"
+    },
+    {
+      "experience_id": "EX-GW-NAT-057",
+      "name": "강원 횡성 안흥 레일파크",
+      "category_main": "문화/체험",
+      "category_sub": "어드벤처/레포츠",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 횡성군",
+      "address": "강원특별자치도 횡성군 안흥면 안흥찐빵마을",
+      "lat": 37.4378,
+      "lng": 128.0453,
+      "price": "레일바이크 2인 15,000원~",
+      "duration": "1~2시간",
+      "reservation_required": true,
+      "target_user": [
+        "커플",
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "횡성 안흥면에서 찐빵을 먹고 레일바이크를 즐기는 코스다. 안흥 찐빵 골목에서 전통 가마솥 찐빵을 맛보고 인근 레일파크에서 레일바이크를 타는 강원도 먹거리+레저 코스다.",
+      "source_urls": [
+        "https://www.hsg.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "안흥찐빵레일파크",
+        "횡성",
+        "강원",
+        "레일바이크",
+        "찐빵",
+        "전통먹거리",
+        "커플"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:20:29",
+      "operation_status": "active",
+      "operating_hours": "레일파크 09:00~17:00",
+      "phone": "033-340-2604"
+    },
+    {
+      "experience_id": "EX-JN-NAT-066",
+      "name": "무안 황토 색갯벌 체험",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 무안군",
+      "address": "전라남도 무안군 해제면 황토갯벌체험마을",
+      "lat": 34.9658,
+      "lng": 126.3689,
+      "price": "1인 10,000원~",
+      "duration": "2~3시간",
+      "reservation_required": true,
+      "target_user": [
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "무안 황토 갯벌에서 황토 성분 피부 마사지와 조개 잡기를 즐기는 체험이다. 무안 갯벌은 일반 갯벌과 달리 황토 성분이 풍부해 피부 미용에 효과적이라고 알려져 있다.",
+      "source_urls": [
+        "https://www.muan.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "무안황토갯벌",
+        "무안",
+        "전남",
+        "황토",
+        "갯벌마사지",
+        "조개잡기",
+        "힐링"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:20:29",
+      "operation_status": "seasonal",
+      "operating_hours": "5~9월 (썰물 시간)",
+      "phone": "061-450-5260"
+    },
+    {
+      "experience_id": "EX-GN-NAT-065",
+      "name": "진해 벚꽃 기차 여행",
+      "category_main": "문화/체험",
+      "category_sub": "축제",
+      "region_main": "GN",
+      "region_sub": "경상남도 창원시",
+      "address": "경상남도 창원시 진해구 진해역",
+      "lat": 35.1328,
+      "lng": 128.6483,
+      "price": "기차 편도 5,000원~",
+      "duration": "3~4시간",
+      "reservation_required": true,
+      "target_user": [
+        "커플",
+        "개인",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "진해 군항제 기간 운행하는 벚꽃 기차를 타고 진해 벚꽃 명소를 탐방하는 체험이다. 경화역 벚꽃 철로와 여좌천 로망스다리 등 진해 대표 벚꽃 명소를 기차로 편리하게 연결하는 봄 특별 체험이다.",
+      "source_urls": [
+        "https://www.changwon.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "진해벚꽃기차",
+        "진해",
+        "창원",
+        "경남",
+        "군항제",
+        "벚꽃",
+        "기차여행"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:20:29",
+      "operation_status": "annual",
+      "operating_hours": "매년 3~4월 군항제 기간",
+      "phone": "055-225-3691"
+    },
+    {
+      "experience_id": "EX-GG-NAT-061",
+      "name": "서울 북한산 등산+천년사찰",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GG",
+      "region_sub": "서울특별시 강북구",
+      "address": "서울특별시 강북구 우이동 북한산 국립공원",
+      "lat": 37.6586,
+      "lng": 127.0108,
+      "price": "무료",
+      "duration": "3~5시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "서울 도심에서 가장 가까운 북한산 국립공원에서 등산하며 진관사·도선사 등 천년 사찰을 탐방하는 체험이다. 서울에서 지하철로 접근 가능한 국립공원으로 연간 수백만 명이 방문하는 수도권 최고 등산지다.",
+      "source_urls": [
+        "https://bukhansan.knps.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "북한산",
+        "서울",
+        "강북구",
+        "국립공원",
+        "진관사",
+        "도선사",
+        "등산"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:20:29",
+      "operation_status": "active",
+      "operating_hours": "연중 (무료)",
+      "phone": "02-909-0497"
+    },
+    {
+      "experience_id": "EX-JN-NAT-067",
+      "name": "순창 강천산 폭포 코스",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "JN",
+      "region_sub": "전라북도 순창군",
+      "address": "전라북도 순창군 팔덕면 강천산길 7",
+      "lat": 35.4325,
+      "lng": 127.115,
+      "price": "성인 3,000원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "전북 순창 강천산 군립공원에서 현수교와 폭포를 연계한 트레킹 코스를 즐기는 체험이다. 강천사 경내와 폭포·계곡·현수교가 어우러지는 코스가 사계절 아름다우며 가을 단풍이 특히 유명하다.",
+      "source_urls": [
+        "https://www.sunchang.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "강천산폭포",
+        "순창",
+        "전북",
+        "현수교",
+        "강천사",
+        "계곡",
+        "사계절"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:20:29",
+      "operation_status": "active",
+      "operating_hours": "09:00~17:00",
+      "phone": "063-650-1672"
+    },
+    {
+      "experience_id": "EX-GN-NAT-066",
+      "name": "거제 신선대 공원+학동해변",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 거제시",
+      "address": "경상남도 거제시 남부면 학동리 학동해변",
+      "lat": 34.8128,
+      "lng": 128.6897,
+      "price": "무료",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "거제 신선대 공원과 학동 흑진주 몽돌 해변을 함께 즐기는 코스다. 신선대 기암절벽 전망과 검은 몽돌이 깔린 학동 해변이 어우러지는 거제 남부 최고 자연 코스다.",
+      "source_urls": [
+        "https://www.geoje.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "신선대공원",
+        "학동해변",
+        "거제",
+        "경남",
+        "몽돌해변",
+        "기암절벽",
+        "거제남부"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:20:29",
+      "operation_status": "active",
+      "operating_hours": "연중 (무료)",
+      "phone": "055-639-4172"
+    },
+    {
+      "experience_id": "EX-GW-NAT-058",
+      "name": "강원 동해 추암 촛대바위",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 동해시",
+      "address": "강원특별자치도 동해시 추암동 촛대바위",
+      "lat": 37.4486,
+      "lng": 129.1628,
+      "price": "무료",
+      "duration": "1시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "동해 추암해수욕장 앞 해돋이 명소 추암 촛대바위를 탐방하는 체험이다. 바다 위에 솟은 기암절벽 군락이 새해 일출 명소로 유명하며 고성 공룡 발자국과 함께 삼척 여행 코스다.",
+      "source_urls": [
+        "https://www.donghae.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "추암촛대바위",
+        "동해",
+        "강원",
+        "해돋이",
+        "기암절벽",
+        "삼척",
+        "일출"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:20:29",
+      "operation_status": "active",
+      "operating_hours": "연중 (무료)",
+      "phone": "033-530-2231"
+    },
+    {
+      "experience_id": "EX-JN-NAT-068",
+      "name": "광주 충장로+광주천 야간 산책",
+      "category_main": "문화/체험",
+      "category_sub": "야경/야간투어",
+      "region_main": "JN",
+      "region_sub": "광주광역시 동구",
+      "address": "광주광역시 동구 충장로 일원",
+      "lat": 35.1486,
+      "lng": 126.9181,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인",
+        "청년"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "광주 충장로 패션 거리와 광주천을 야간 산책하는 체험이다. 광주 최대 번화가 충장로의 야경과 광주천 수변 LED 조명이 어우러지는 광주 야경 코스로 대학생·청년들이 즐겨 찾는다.",
+      "source_urls": [
+        "https://www.gwangju.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "충장로야경",
+        "광주천",
+        "광주",
+        "야간산책",
+        "광주야경",
+        "번화가",
+        "젊음의거리"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:20:29",
+      "operation_status": "active",
+      "operating_hours": "연중 (야경: 일몰~23:00, 무료)",
+      "phone": "062-226-3434"
+    },
+    {
+      "experience_id": "EX-GG-NAT-062",
+      "name": "수원 영통 광교 호수 공원",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GG",
+      "region_sub": "경기도 수원시",
+      "address": "경기도 수원시 영통구 광교중앙로 광교 호수공원",
+      "lat": 37.3119,
+      "lng": 127.0542,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "수원 광교신도시 광교 호수공원에서 봄꽃과 호수 경관을 즐기는 체험이다. 원천저수지와 신대저수지를 연결한 광교 호수는 봄 벚꽃·여름 수련·가을 억새·겨울 설경이 사계절 아름다운 수원 근교 자연 명소다.",
+      "source_urls": [
+        "https://www.suwon.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "광교호수공원",
+        "수원",
+        "경기",
+        "광교신도시",
+        "봄꽃",
+        "사계절",
+        "호수"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:20:29",
+      "operation_status": "active",
+      "operating_hours": "연중 (무료)",
+      "phone": "031-228-4700"
+    },
+    {
+      "experience_id": "EX-JN-NAT-069",
+      "name": "고흥 팔영산 케이블카",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 고흥군",
+      "address": "전라남도 고흥군 점암면 팔영산 케이블카 정류장",
+      "lat": 34.5908,
+      "lng": 127.4472,
+      "price": "케이블카 왕복 성인 13,000원",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "팔영산 케이블카를 타고 8개 암봉에서 고흥 다도해를 조망하는 체험이다. 케이블카로 쉽게 올라가면 등산 없이도 팔영산 정상부에서 고흥·나로도·영남·여수 등 남해안 절경을 즐길 수 있다.",
+      "source_urls": [
+        "https://www.goheung.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "팔영산케이블카",
+        "고흥",
+        "전남",
+        "다도해",
+        "8봉",
+        "남해안절경",
+        "비등산코스"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:20:29",
+      "operation_status": "active",
+      "operating_hours": "09:00~17:00",
+      "phone": "061-830-8700"
+    },
+    {
+      "experience_id": "EX-GN-NAT-067",
+      "name": "진주 촉석루+진양호 유람선",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 진주시",
+      "address": "경상남도 진주시 남강변 촉석루",
+      "lat": 35.1894,
+      "lng": 128.1058,
+      "price": "진양호 유람선 성인 8,000원~",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "논개의 역사가 깃든 촉석루와 진양호 유람선을 하루에 즐기는 진주 역사+자연 코스다. 임진왜란 논개 의기를 기리는 촉석루에서 남강 역사를 이해하고 진양호 유람선으로 진주 전경을 감상한다.",
+      "source_urls": [
+        "https://www.jinju.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "촉석루진양호",
+        "진주",
+        "경남",
+        "논개",
+        "촉석루",
+        "진양호",
+        "유람선"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:20:29",
+      "operation_status": "active",
+      "operating_hours": "연중",
+      "phone": "055-749-2696"
+    },
+    {
+      "experience_id": "EX-GW-NAT-059",
+      "name": "영월 선암마을 한반도 지형+단종유배지",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 영월군",
+      "address": "강원특별자치도 영월군 한반도면 선암마을",
+      "lat": 37.2097,
+      "lng": 128.4592,
+      "price": "무료",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "가족",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "한반도 모양의 특이한 자연 지형과 단종 유배지 청령포를 하루에 탐방하는 영월 역사+자연 코스다. 조선 단종의 슬픈 유배 역사와 세계 유일 한반도 지형을 함께 이해하는 영월 완벽 여행이다.",
+      "source_urls": [
+        "https://www.yw.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "한반도지형단종유배",
+        "영월",
+        "강원",
+        "선암마을",
+        "청령포",
+        "단종",
+        "역사자연"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:20:29",
+      "operation_status": "active",
+      "operating_hours": "연중",
+      "phone": "033-372-8445"
     }
   ],
   "last_updated": "2026-05-07T04:18:31"
