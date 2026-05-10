@@ -1,8 +1,8 @@
 {
   "_comment": "겜코리아 체험 데이터 — 역사/자연 마커와 분리. 삭제 금지. 젬투어 상품 후보.",
   "_version": "1.0",
-  "_updated": "2026-05-10T01:29:39",
-  "total": 278,
+  "_updated": "2026-05-10T01:34:47",
+  "total": 290,
   "experiences": [
     {
       "experience_id": "EX-SE-MKT-001",
@@ -2007,7 +2007,7 @@
         "https://www.wando.go.kr/"
       ],
       "operation_status": "운영중",
-      "shorts_status": "waiting"
+      "shorts_status": "review_pending"
     },
     {
       "experience_id": "EX-GW-FRM-001",
@@ -2034,7 +2034,7 @@
         "https://www.ganghwa.go.kr/"
       ],
       "operation_status": "운영중",
-      "shorts_status": "waiting"
+      "shorts_status": "review_pending"
     },
     {
       "experience_id": "EX-GW-NAT-001",
@@ -2115,7 +2115,7 @@
         "https://www.visitjeju.net/"
       ],
       "operation_status": "운영중",
-      "shorts_status": "waiting"
+      "shorts_status": "review_pending"
     },
     {
       "experience_id": "EX-SE-ART-002",
@@ -2169,7 +2169,7 @@
         "https://www.jeonjucenter.or.kr/"
       ],
       "operation_status": "운영중",
-      "shorts_status": "waiting"
+      "shorts_status": "review_pending"
     },
     {
       "experience_id": "EX-SE-ART-003",
@@ -2196,7 +2196,7 @@
         "https://www.insadong.info/"
       ],
       "operation_status": "운영중",
-      "shorts_status": "waiting"
+      "shorts_status": "review_pending"
     },
     {
       "experience_id": "EX-JN-FRM-002",
@@ -2223,7 +2223,7 @@
         "https://www.daehandawon.com/"
       ],
       "operation_status": "운영중",
-      "shorts_status": "waiting"
+      "shorts_status": "review_pending"
     },
     {
       "experience_id": "EX-GB-ART-002",
@@ -2250,7 +2250,7 @@
         "https://www.hahoe.or.kr/"
       ],
       "operation_status": "운영중",
-      "shorts_status": "waiting"
+      "shorts_status": "review_pending"
     },
     {
       "experience_id": "EX-GB-ART-001",
@@ -2277,7 +2277,7 @@
         "https://www.andong.go.kr/"
       ],
       "operation_status": "운영중",
-      "shorts_status": "waiting"
+      "shorts_status": "review_pending"
     },
     {
       "experience_id": "EX-GG-FAM-002",
@@ -2314,7 +2314,7 @@
         "가족여행"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-08T09:22:53",
       "operation_status": "active",
       "operating_hours": "10:00~22:00 (시즌별 상이)",
@@ -11396,6 +11396,492 @@
       "operation_status": "active",
       "operating_hours": "09:00~18:00",
       "phone": "055-639-6615"
+    },
+    {
+      "experience_id": "EX-GW-AGR-003",
+      "name": "고성 딸기·토마토 스마트팜 체험",
+      "category_main": "문화/체험",
+      "category_sub": "농촌 체험",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 고성군",
+      "address": "강원특별자치도 고성군 간성읍 스마트팜단지",
+      "lat": 38.3792,
+      "lng": 128.4781,
+      "price": "1인 12,000원",
+      "duration": "1~2시간",
+      "reservation_required": true,
+      "target_user": [
+        "가족",
+        "어린이"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "강원도 고성 스마트팜 단지에서 첨단 농업 기술과 전통 딸기·토마토 수확을 동시에 체험하는 미래 농업 투어다. IT 기술로 온도·습도를 자동 제어하는 스마트팜 시스템을 배우고 직접 수확한 과일을 먹을 수 있다.",
+      "source_urls": [
+        "https://www.goseong.org/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "스마트팜",
+        "고성",
+        "강원",
+        "미래농업",
+        "딸기",
+        "토마토",
+        "어린이체험"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:34:47",
+      "operation_status": "active",
+      "operating_hours": "09:00~17:00",
+      "phone": "033-680-3380"
+    },
+    {
+      "experience_id": "EX-JN-AGR-005",
+      "name": "강진 청자 도요지 발굴 체험",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 강진군",
+      "address": "전라남도 강진군 대구면 청자촌길 33",
+      "lat": 34.5747,
+      "lng": 126.7342,
+      "price": "1인 12,000원",
+      "duration": "1~2시간",
+      "reservation_required": true,
+      "target_user": [
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "고려청자 최대 생산지 강진에서 도요지 발굴 체험과 청자 물레 성형을 함께 즐기는 체험이다. 900년 전 청자를 구워낸 도요지 가마터를 직접 발굴하고 청자 파편을 모아 복원하는 역사 탐구 체험이다.",
+      "source_urls": [
+        "https://www.gangjin.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "강진청자",
+        "도요지발굴",
+        "강진",
+        "전남",
+        "고려청자",
+        "가마터",
+        "역사체험"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:34:47",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00",
+      "phone": "061-430-3524"
+    },
+    {
+      "experience_id": "EX-GN-AGR-003",
+      "name": "거제 멍게·해삼 해상 채취 체험",
+      "category_main": "문화/체험",
+      "category_sub": "해양체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 거제시",
+      "address": "경상남도 거제시 동부면 학동리 어촌 선착장",
+      "lat": 34.8462,
+      "lng": 128.7089,
+      "price": "1인 35,000원",
+      "duration": "2~3시간",
+      "reservation_required": true,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "거제 앞바다 양식장에서 배를 타고 멍게·해삼을 직접 채취하는 해양 체험이다. 어부 아저씨에게 수하식 멍게 양식 과정을 배우고 방금 채취한 멍게를 현장에서 잘라 먹는 특별한 경험이다.",
+      "source_urls": [
+        "https://www.geoje.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "멍게채취",
+        "거제",
+        "경남",
+        "해상체험",
+        "어부",
+        "양식장",
+        "현장먹거리"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:34:47",
+      "operation_status": "seasonal",
+      "operating_hours": "4~7월 멍게 시즌",
+      "phone": "055-639-6615"
+    },
+    {
+      "experience_id": "EX-GJ-AGR-002",
+      "name": "광주 전통 시장 요리 투어",
+      "category_main": "문화/체험",
+      "category_sub": "지역 먹거리",
+      "region_main": "GJ",
+      "region_sub": "광주광역시 동구",
+      "address": "광주광역시 동구 충장로 양동시장 일원",
+      "lat": 35.1534,
+      "lng": 126.9074,
+      "price": "1만원~",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "광주 대표 전통 시장인 양동시장·대인시장을 탐방하며 광주 5미(김치·홍어삼합·돼지국밥·떡갈비·보리밥)를 맛보는 먹거리 투어다. 광주 예술의 거리와 연계해 예술+음식 하루 코스로 즐길 수 있다.",
+      "source_urls": [
+        "https://www.gwangju.go.kr/tour/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "광주양동시장",
+        "광주",
+        "광주5미",
+        "홍어삼합",
+        "떡갈비",
+        "보리밥",
+        "먹거리투어"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:34:47",
+      "operation_status": "active",
+      "operating_hours": "09:00~20:00",
+      "phone": "062-226-3434"
+    },
+    {
+      "experience_id": "EX-CB-AGR-003",
+      "name": "단양 마늘 흑마늘 만들기 체험",
+      "category_main": "문화/체험",
+      "category_sub": "발효/음식",
+      "region_main": "CB",
+      "region_sub": "충청북도 단양군",
+      "address": "충청북도 단양군 단양읍 단양마늘 체험장",
+      "lat": 36.9845,
+      "lng": 128.3659,
+      "price": "1인 15,000원",
+      "duration": "1~2시간",
+      "reservation_required": true,
+      "target_user": [
+        "개인",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "단양 특산 마늘로 흑마늘을 직접 만드는 체험이다. 흑마늘이 어떻게 만들어지는지 열처리·발효 과정을 배우고 흑마늘 요리를 함께 즐기며 건강한 발효 식품 문화를 체험한다.",
+      "source_urls": [
+        "https://www.dyfarm.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "흑마늘",
+        "단양",
+        "충북",
+        "흑마늘만들기",
+        "마늘",
+        "발효",
+        "건강체험"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:34:47",
+      "operation_status": "active",
+      "operating_hours": "10:00~17:00",
+      "phone": "043-421-0001"
+    },
+    {
+      "experience_id": "EX-GW-AGR-004",
+      "name": "횡성 한우 목장 체험",
+      "category_main": "문화/체험",
+      "category_sub": "농촌 체험",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 횡성군",
+      "address": "강원특별자치도 횡성군 횡성읍 한우마을 일원",
+      "lat": 37.4912,
+      "lng": 127.9877,
+      "price": "체험 1인 15,000원",
+      "duration": "2시간",
+      "reservation_required": true,
+      "target_user": [
+        "가족",
+        "어린이"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "횡성 한우 목장에서 소 먹이 주기·그루밍·한우 브랜드 역사를 배우는 농촌 체험이다. 체험 후 횡성 한우 구이를 정상 가격보다 저렴하게 먹을 수 있는 목장 식당도 운영된다.",
+      "source_urls": [
+        "https://www.hsg.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "횡성한우",
+        "횡성",
+        "강원",
+        "한우목장",
+        "먹이주기",
+        "소체험",
+        "가족여행"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:34:47",
+      "operation_status": "active",
+      "operating_hours": "09:00~17:00",
+      "phone": "033-340-2480"
+    },
+    {
+      "experience_id": "EX-JB-CUL-006",
+      "name": "남원 춘향제 체험",
+      "category_main": "문화/체험",
+      "category_sub": "축제",
+      "region_main": "JB",
+      "region_sub": "전라북도 남원시",
+      "address": "전라북도 남원시 광한루원 일원",
+      "lat": 35.4162,
+      "lng": 127.3897,
+      "price": "무료 (일부 유료)",
+      "duration": "3~5시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "매년 5월 판소리 춘향전의 배경지 남원 광한루원에서 열리는 춘향제 축제다. 춘향 선발대회·그네뛰기·사또 행차 재현·판소리 공연이 열리며 남원 춘향테마파크와 함께 즐기기 좋다.",
+      "source_urls": [
+        "https://www.chunhyang.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "춘향제",
+        "남원",
+        "전북",
+        "춘향전",
+        "광한루원",
+        "판소리",
+        "봄축제"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:34:47",
+      "operation_status": "annual",
+      "operating_hours": "매년 5월 (5일간)",
+      "phone": "063-620-6655"
+    },
+    {
+      "experience_id": "EX-GG-CUL-007",
+      "name": "파주 DMZ 지뢰 평화 아트 센터",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GG",
+      "region_sub": "경기도 파주시",
+      "address": "경기도 파주시 탄현면 헤이리마을길 일원",
+      "lat": 37.7374,
+      "lng": 126.7224,
+      "price": "성인 8,000원",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "DMZ와 분단 상황을 아트로 표현한 파주 헤이리 예술마을 내 갤러리를 탐방하는 체험이다. 분단과 평화를 주제로 한 설치미술·회화·사진 전시를 통해 한반도 분단을 예술적 시각으로 이해한다.",
+      "source_urls": [
+        "https://www.heyri.net/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "DMZ아트",
+        "파주",
+        "헤이리",
+        "분단아트",
+        "평화미술관",
+        "경기",
+        "현대미술"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:34:47",
+      "operation_status": "active",
+      "operating_hours": "10:00~18:00",
+      "phone": "031-946-8551"
+    },
+    {
+      "experience_id": "EX-JN-CUL-003",
+      "name": "보성 녹차 아이스크림 만들기",
+      "category_main": "문화/체험",
+      "category_sub": "발효/음식",
+      "region_main": "JN",
+      "region_sub": "전라남도 보성군",
+      "address": "전라남도 보성군 보성읍 녹차로 763 (대한다원)",
+      "lat": 34.7718,
+      "lng": 127.0792,
+      "price": "1인 10,000원",
+      "duration": "1시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "어린이",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "보성 대한다원에서 직접 딴 녹차 잎으로 녹차 아이스크림을 만드는 체험이다. 녹차 가루를 넣고 아이스크림을 직접 만들면서 보성 녹차의 맛과 향을 즐기는 달콤한 체험이다.",
+      "source_urls": [
+        "https://www.daehandawon.com/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "보성녹차",
+        "녹차아이스크림",
+        "보성",
+        "전남",
+        "녹차만들기",
+        "달콤체험",
+        "어린이"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:34:47",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00",
+      "phone": "061-852-4005"
+    },
+    {
+      "experience_id": "EX-GG-CUL-008",
+      "name": "이천 쌀막걸리 빚기 체험",
+      "category_main": "문화/체험",
+      "category_sub": "발효/음식",
+      "region_main": "GG",
+      "region_sub": "경기도 이천시",
+      "address": "경기도 이천시 부발읍 경충대로 일원",
+      "lat": 37.2641,
+      "lng": 127.4731,
+      "price": "1인 25,000원",
+      "duration": "2시간",
+      "reservation_required": true,
+      "target_user": [
+        "성인",
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "이천 임금님표 쌀을 사용해 전통 방식으로 막걸리를 빚는 체험이다. 쌀 찌기·누룩 섞기·발효 과정을 배우고 완성된 막걸리를 시음하며 한국 전통 주조 문화를 이해하는 프로그램이다.",
+      "source_urls": [
+        "https://www.icheon.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "이천막걸리",
+        "이천",
+        "경기",
+        "쌀막걸리",
+        "막걸리빚기",
+        "전통주",
+        "발효"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:34:47",
+      "operation_status": "active",
+      "operating_hours": "11:00~17:00",
+      "phone": "031-644-2538"
+    },
+    {
+      "experience_id": "EX-GW-SPT-002",
+      "name": "양양 서핑+카페 투어",
+      "category_main": "문화/체험",
+      "category_sub": "해양 레포츠",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 양양군",
+      "address": "강원특별자치도 양양군 현남면 인구리 해변",
+      "lat": 38.0783,
+      "lng": 128.7112,
+      "price": "서핑 강습 1인 50,000원~",
+      "duration": "3~4시간",
+      "reservation_required": true,
+      "target_user": [
+        "청년",
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "양양 인구해변에서 서핑 강습을 받고 해변 카페 거리를 투어하는 코스다. 파도 위에서 균형 잡는 서핑의 쾌감과 함께 감성 카페 문화를 즐기는 청년 여행의 대표 코스다.",
+      "source_urls": [
+        "https://www.yangyang.go.kr/tour/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "양양서핑",
+        "양양",
+        "강원",
+        "인구해변",
+        "서핑카페",
+        "청년여행",
+        "여름"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:34:47",
+      "operation_status": "seasonal",
+      "operating_hours": "4~10월 서핑 시즌",
+      "phone": "033-670-2520"
+    },
+    {
+      "experience_id": "EX-JJ-SPT-001",
+      "name": "제주 UTV 오프로드 체험",
+      "category_main": "문화/체험",
+      "category_sub": "어드벤처/레포츠",
+      "region_main": "JJ",
+      "region_sub": "제주특별자치도 제주시",
+      "address": "제주특별자치도 제주시 애월읍 오프로드 파크",
+      "lat": 33.4619,
+      "lng": 126.3456,
+      "price": "2인 80,000원~",
+      "duration": "1시간",
+      "reservation_required": true,
+      "target_user": [
+        "커플",
+        "개인",
+        "청년"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "제주 오프로드 파크에서 UTV(2인승 사륜 오프로드 차량)를 타고 제주 중산간 비포장 코스를 질주하는 어드벤처 체험이다. 한라산이 보이는 제주 중산간 오프로드를 UTV로 달리며 스릴을 즐긴다.",
+      "source_urls": [
+        "https://www.visitjeju.net/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "UTV오프로드",
+        "제주",
+        "오프로드",
+        "어드벤처",
+        "중산간",
+        "스릴",
+        "커플"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:34:47",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00",
+      "phone": "064-799-0002"
     }
   ],
   "last_updated": "2026-05-07T04:18:31"
