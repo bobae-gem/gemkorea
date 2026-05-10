@@ -1,8 +1,8 @@
 {
   "_comment": "겜코리아 체험 데이터 — 역사/자연 마커와 분리. 삭제 금지. 젬투어 상품 후보.",
   "_version": "1.0",
-  "_updated": "2026-05-10T00:05:14",
-  "total": 242,
+  "_updated": "2026-05-10T00:49:32",
+  "total": 254,
   "experiences": [
     {
       "experience_id": "EX-SE-MKT-001",
@@ -1219,7 +1219,7 @@
         "이색마을"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-06T02:13:45",
       "operation_status": "needs_check",
       "operating_hours": "",
@@ -1631,7 +1631,7 @@
         "함경도"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "operation_status": "needs_check",
       "operating_hours": "",
       "phone": "",
@@ -1677,7 +1677,7 @@
         "한국전쟁"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "operation_status": "needs_check",
       "operating_hours": "",
       "phone": "",
@@ -9933,6 +9933,495 @@
       "operation_status": "annual",
       "operating_hours": "매년 6월 (3일간)",
       "phone": "055-860-3001"
+    },
+    {
+      "experience_id": "EX-GW-SKI-003",
+      "name": "강원 알펜시아 스키점프대 견학",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 평창군",
+      "address": "강원특별자치도 평창군 대관령면 올림픽로 715",
+      "lat": 37.6637,
+      "lng": 128.6935,
+      "price": "성인 5,000원",
+      "duration": "1시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "2018 평창동계올림픽 스키점프 경기장을 견학하는 체험이다. 엘리베이터로 스키점프대 정상에 올라가면 선수들이 도약하는 시점에서 내려다보는 뷰가 아찔하다. 올림픽 성화대도 함께 볼 수 있다.",
+      "source_urls": [
+        "https://www.alpensia.com/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "스키점프대",
+        "알펜시아",
+        "평창",
+        "2018올림픽",
+        "강원",
+        "스키",
+        "올림픽유산"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-10T00:49:32",
+      "operation_status": "active",
+      "operating_hours": "09:00~17:00",
+      "phone": "033-339-0000"
+    },
+    {
+      "experience_id": "EX-GG-SPT-002",
+      "name": "인천 SSG랜더스필드 야구 관람",
+      "category_main": "문화/체험",
+      "category_sub": "스포츠 체험",
+      "region_main": "IC",
+      "region_sub": "인천광역시 미추홀구",
+      "address": "인천광역시 미추홀구 매소홀로 618",
+      "lat": 37.437,
+      "lng": 126.6931,
+      "price": "1만원~",
+      "duration": "3~4시간",
+      "reservation_required": true,
+      "target_user": [
+        "가족",
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "SSG랜더스 홈 구장 SSG랜더스필드에서 한국 프로야구를 직접 관람하는 체험이다. 치킨·맥주·핫도그와 함께 응원 문화를 즐기는 한국만의 야구 문화를 체험할 수 있다.",
+      "source_urls": [
+        "https://www.ssglanders.com/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "야구관람",
+        "인천",
+        "SSG랜더스",
+        "프로야구",
+        "스포츠",
+        "치킨맥주",
+        "응원"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T00:49:32",
+      "operation_status": "seasonal",
+      "operating_hours": "시즌 경기 일정 확인 (3~10월)",
+      "phone": "032-422-3003"
+    },
+    {
+      "experience_id": "EX-SE-SPT-002",
+      "name": "서울 LG트윈스 잠실 야구 관람",
+      "category_main": "문화/체험",
+      "category_sub": "스포츠 체험",
+      "region_main": "SE",
+      "region_sub": "서울특별시 송파구",
+      "address": "서울특별시 송파구 올림픽로 25 잠실야구장",
+      "lat": 37.5121,
+      "lng": 127.0726,
+      "price": "1만원~",
+      "duration": "3~4시간",
+      "reservation_required": true,
+      "target_user": [
+        "가족",
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "잠실 야구장에서 LG트윈스·두산 베어스 홈경기를 관람하는 체험이다. 응원봉·치어리더·떡볶이·핫도그와 함께하는 한국 야구 응원 문화는 외국인들이 가장 좋아하는 한국 체험 중 하나다.",
+      "source_urls": [
+        "https://www.lgtwins.com/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "잠실야구장",
+        "서울",
+        "LG트윈스",
+        "두산베어스",
+        "프로야구",
+        "응원문화",
+        "외국인체험"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-10T00:49:32",
+      "operation_status": "seasonal",
+      "operating_hours": "시즌 경기 일정 (3~10월)",
+      "phone": "02-2240-1700"
+    },
+    {
+      "experience_id": "EX-JN-AGR-002",
+      "name": "장흥 표고버섯 따기 체험",
+      "category_main": "문화/체험",
+      "category_sub": "농촌 체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 장흥군",
+      "address": "전라남도 장흥군 장흥읍 평화리 버섯농장 일원",
+      "lat": 34.6811,
+      "lng": 126.9075,
+      "price": "1인 12,000원~",
+      "duration": "1~2시간",
+      "reservation_required": true,
+      "target_user": [
+        "가족",
+        "어린이",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "전국 표고버섯 생산의 30%를 담당하는 장흥에서 참나무 원목 표고버섯을 직접 따는 체험이다. 갓 딴 표고버섯을 즉석 구이로 먹으며 표고버섯의 향이 도심 마트 버섯과 얼마나 다른지 알게 된다.",
+      "source_urls": [
+        "https://www.jangheung.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "표고버섯",
+        "장흥",
+        "전남",
+        "버섯따기",
+        "농촌체험",
+        "원목표고",
+        "가족체험"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T00:49:32",
+      "operation_status": "active",
+      "operating_hours": "09:00~17:00",
+      "phone": "061-860-0614"
+    },
+    {
+      "experience_id": "EX-GN-AGR-001",
+      "name": "하동 야생차 채다 체험",
+      "category_main": "문화/체험",
+      "category_sub": "농촌 체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 하동군",
+      "address": "경상남도 하동군 화개면 화개로 일원",
+      "lat": 35.0834,
+      "lng": 127.6842,
+      "price": "1인 20,000원",
+      "duration": "2~3시간",
+      "reservation_required": true,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "한국 최초 차 재배지 하동 화개에서 1,200년 된 야생 차나무에서 직접 찻잎을 따는 체험이다. 지리산 자락 화개천 변의 야생 차밭을 걸으며 찻잎을 따고 직접 덖어 나만의 녹차를 만들어 간다.",
+      "source_urls": [
+        "https://www.hadong.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "야생차",
+        "하동",
+        "경남",
+        "채다",
+        "화개",
+        "지리산",
+        "1200년차나무"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-10T00:49:32",
+      "operation_status": "seasonal",
+      "operating_hours": "4~5월 봄 차 시즌",
+      "phone": "055-880-2960"
+    },
+    {
+      "experience_id": "EX-GG-AGR-002",
+      "name": "파주 딸기 따기 체험",
+      "category_main": "문화/체험",
+      "category_sub": "농촌 체험",
+      "region_main": "GG",
+      "region_sub": "경기도 파주시",
+      "address": "경기도 파주시 파평면 일원",
+      "lat": 37.905,
+      "lng": 126.8833,
+      "price": "1인 15,000원~",
+      "duration": "1~2시간",
+      "reservation_required": true,
+      "target_user": [
+        "가족",
+        "어린이",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "파주 딸기 농장에서 직접 딸기를 따는 농촌 체험이다. 12~5월 딸기 시즌에 운영하며 비닐하우스 안에서 빨갛게 익은 딸기를 바로 따 먹을 수 있다. 직접 딴 딸기를 바구니에 담아 가져갈 수 있다.",
+      "source_urls": [
+        "https://www.paju.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "딸기따기",
+        "파주",
+        "경기",
+        "딸기농장",
+        "농촌체험",
+        "가족",
+        "어린이"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-10T00:49:32",
+      "operation_status": "seasonal",
+      "operating_hours": "12~5월 딸기 시즌",
+      "phone": "031-940-4523"
+    },
+    {
+      "experience_id": "EX-GN-SPT-001",
+      "name": "부산 세계 수영 선수권 아쿠아틱센터",
+      "category_main": "문화/체험",
+      "category_sub": "스포츠 체험",
+      "region_main": "GN",
+      "region_sub": "부산광역시 사상구",
+      "address": "부산광역시 사상구 삼락동 아쿠아틱센터로 22",
+      "lat": 35.1763,
+      "lng": 128.9912,
+      "price": "성인 5,000원",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "2023 세계수영선수권대회가 열린 아쿠아틱센터에서 수영·다이빙을 즐기는 스포츠 체험이다. 국제 규격 50m 수영장과 다이빙 풀을 일반에 개방하며 세계 선수권 성화와 기념 전시도 관람할 수 있다.",
+      "source_urls": [
+        "https://www.bsaquatics.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "아쿠아틱센터",
+        "부산",
+        "수영",
+        "다이빙",
+        "2023세계수영",
+        "스포츠",
+        "수영장"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T00:49:32",
+      "operation_status": "active",
+      "operating_hours": "06:00~21:00 (월요일 휴관)",
+      "phone": "051-320-3000"
+    },
+    {
+      "experience_id": "EX-GG-SPT-003",
+      "name": "수원 KT위즈파크 야구 관람",
+      "category_main": "문화/체험",
+      "category_sub": "스포츠 체험",
+      "region_main": "GG",
+      "region_sub": "경기도 수원시",
+      "address": "경기도 수원시 장안구 경수대로 893",
+      "lat": 37.2995,
+      "lng": 126.973,
+      "price": "1만원~",
+      "duration": "3~4시간",
+      "reservation_required": true,
+      "target_user": [
+        "가족",
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "KT위즈 홈 구장 수원 KT위즈파크에서 한국 프로야구를 직접 관람하는 체험이다. 수원화성 인근에 위치해 야구 관람 후 화성행궁·야경 투어와 연계할 수 있는 수원만의 스포츠+역사 코스다.",
+      "source_urls": [
+        "https://www.ktwiz.co.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "KT위즈",
+        "수원야구",
+        "수원",
+        "프로야구",
+        "스포츠",
+        "야구관람",
+        "수원화성연계"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T00:49:32",
+      "operation_status": "seasonal",
+      "operating_hours": "시즌 경기 일정 (3~10월)",
+      "phone": "031-251-2255"
+    },
+    {
+      "experience_id": "EX-GW-SPT-001",
+      "name": "강원 원주 치악산 국립공원 트레킹",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 원주시",
+      "address": "강원특별자치도 원주시 소초면 치악로 일원",
+      "lat": 37.3681,
+      "lng": 128.0992,
+      "price": "무료",
+      "duration": "3~5시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "은혜 갚은 꿩 전설이 있는 치악산 국립공원을 트레킹하는 체험이다. 구룡사 계곡 코스가 가장 유명하며 가을 단풍 시즌에 계곡과 단풍이 어우러지는 경관이 강원도 최고 수준이다.",
+      "source_urls": [
+        "https://chiaksan.knps.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "치악산",
+        "원주",
+        "강원",
+        "국립공원",
+        "트레킹",
+        "구룡사",
+        "단풍"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T00:49:32",
+      "operation_status": "active",
+      "operating_hours": "연중",
+      "phone": "033-740-9900"
+    },
+    {
+      "experience_id": "EX-GB-SPT-001",
+      "name": "경주 양동마을 고택 하룻밤",
+      "category_main": "문화/체험",
+      "category_sub": "한옥 숙박",
+      "region_main": "GB",
+      "region_sub": "경상북도 경주시",
+      "address": "경상북도 경주시 강동면 양동마을길 93",
+      "lat": 35.904,
+      "lng": 129.2425,
+      "price": "1박 60,000원~",
+      "duration": "1박 2일",
+      "reservation_required": true,
+      "target_user": [
+        "커플",
+        "개인",
+        "외국인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "유네스코 세계유산 양동마을 500년 된 고택에서 하룻밤 묵는 체험이다. 500년 이상 유지된 한국 최고(最古) 씨족 마을에서 전통 온돌 생활을 체험하며 양반 문화의 진수를 느낄 수 있다.",
+      "source_urls": [
+        "https://yangdong.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "양동마을",
+        "경주",
+        "경북",
+        "유네스코",
+        "고택숙박",
+        "한옥",
+        "500년마을"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-10T00:49:32",
+      "operation_status": "active",
+      "operating_hours": "연중 (예약 필수)",
+      "phone": "054-762-6080"
+    },
+    {
+      "experience_id": "EX-JN-SPT-001",
+      "name": "여수 엑스포 해양 공원 야경",
+      "category_main": "문화/체험",
+      "category_sub": "야경/야간투어",
+      "region_main": "JN",
+      "region_sub": "전라남도 여수시",
+      "address": "전라남도 여수시 박람회길 1 (엑스포 공원)",
+      "lat": 34.759,
+      "lng": 127.6775,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "2012 여수 세계 박람회 이후 해양 공원으로 탈바꿈한 엑스포 공원의 야경 투어다. 케이블카 야간 탑승과 함께 여수 돌산도·오동도·거문도가 펼쳐지는 남해 야경을 무료로 감상할 수 있다.",
+      "source_urls": [
+        "https://www.expo2012yeosu.com/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "여수엑스포",
+        "여수",
+        "전남",
+        "야경",
+        "해양공원",
+        "케이블카",
+        "무료야경"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-10T00:49:32",
+      "operation_status": "active",
+      "operating_hours": "10:00~22:00",
+      "phone": "061-659-2012"
+    },
+    {
+      "experience_id": "EX-GJ-CUL-002",
+      "name": "광주 518 민주화운동 역사 탐방",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GJ",
+      "region_sub": "광주광역시 북구",
+      "address": "광주광역시 북구 민주로 200 (5·18 민주묘지)",
+      "lat": 35.184,
+      "lng": 126.9003,
+      "price": "무료",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "청년",
+        "외국인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "1980년 5·18 민주화운동의 현장을 탐방하는 역사 투어다. 국립5·18민주묘지·5·18 기념공원·전남도청 앞 광장을 걸으며 한국 민주화 역사의 가장 중요한 순간을 직접 체험한다.",
+      "source_urls": [
+        "https://www.518.org/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "5·18민주화운동",
+        "광주",
+        "민주화",
+        "역사탐방",
+        "국립묘지",
+        "전남도청",
+        "민주주의"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-10T00:49:32",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00 (월요일 휴관)",
+      "phone": "062-376-5197"
     }
   ],
   "last_updated": "2026-05-07T04:18:31"
