@@ -1,8 +1,8 @@
 {
   "_comment": "겜코리아 체험 데이터 — 역사/자연 마커와 분리. 삭제 금지. 젬투어 상품 후보.",
   "_version": "1.0",
-  "_updated": "2026-05-10T02:52:17",
-  "total": 493,
+  "_updated": "2026-05-10T02:56:12",
+  "total": 505,
   "experiences": [
     {
       "experience_id": "EX-SE-MKT-001",
@@ -6795,7 +6795,7 @@
         "대나무"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:46:43",
       "operation_status": "active",
       "operating_hours": "09:00~18:00",
@@ -6836,7 +6836,7 @@
         "가족여행"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:46:43",
       "operation_status": "seasonal",
       "operating_hours": "연중 (성수기: 7~8월)",
@@ -6877,7 +6877,7 @@
         "외국인체험"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:46:43",
       "operation_status": "active",
       "operating_hours": "09:00~17:00 (예약 필수)",
@@ -6917,7 +6917,7 @@
         "군부대체험"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:46:43",
       "operation_status": "active",
       "operating_hours": "사전 예약 필수",
@@ -6958,7 +6958,7 @@
         "외국인"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:46:43",
       "operation_status": "active",
       "operating_hours": "10:00~18:00 (시설별 상이)",
@@ -6999,7 +6999,7 @@
         "메타세쿼이아"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:46:43",
       "operation_status": "active",
       "operating_hours": "07:30~21:00",
@@ -20119,6 +20119,495 @@
       "operation_status": "active",
       "operating_hours": "09:00~18:00",
       "phone": "061-540-6242"
+    },
+    {
+      "experience_id": "EX-GW-NAT-041",
+      "name": "영월 한반도 지형 전망대",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 영월군",
+      "address": "강원특별자치도 영월군 한반도면 옹정리",
+      "lat": 37.2097,
+      "lng": 128.4592,
+      "price": "무료",
+      "duration": "1시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "강원도 영월 서강이 한반도 모양으로 휘어 흐르는 특이한 지형을 전망대에서 내려다보는 체험이다. 하늘에서 내려다본 것 같은 한반도 지형이 실제로 존재하는 자연 지형으로 전 세계에서 유일하다.",
+      "source_urls": [
+        "https://www.yw.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "한반도지형",
+        "영월",
+        "강원",
+        "서강",
+        "전망대",
+        "자연지형",
+        "특이지형"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:56:12",
+      "operation_status": "active",
+      "operating_hours": "연중 (무료)",
+      "phone": "033-372-8445"
+    },
+    {
+      "experience_id": "EX-JN-NAT-046",
+      "name": "순천 낙안읍성 봄꽃 투어",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 순천시",
+      "address": "전라남도 순천시 낙안면 낙안읍성",
+      "lat": 34.9825,
+      "lng": 127.3875,
+      "price": "성인 4,000원",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "낙안읍성 민속마을에서 봄꽃이 만발하는 시기를 즐기는 체험이다. 4~5월 초가집 담장 너머 매화·벚꽃·유채꽃이 조선 시대 성벽과 어우러지는 아름다운 풍경이 전남 봄 여행 최고 명소 중 하나다.",
+      "source_urls": [
+        "https://www.nagan.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "낙안읍성봄꽃",
+        "낙안",
+        "순천",
+        "전남",
+        "봄꽃",
+        "초가집",
+        "성벽"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:56:12",
+      "operation_status": "annual",
+      "operating_hours": "4~5월 봄꽃 시즌",
+      "phone": "061-749-8831"
+    },
+    {
+      "experience_id": "EX-GW-NAT-042",
+      "name": "강원 평창 두타연+방태산 계곡",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 인제군",
+      "address": "강원특별자치도 인제군 기린면 방태산휴양로 160",
+      "lat": 38.0572,
+      "lng": 128.2828,
+      "price": "무료 (입산 신청 필요)",
+      "duration": "2~3시간",
+      "reservation_required": true,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "민통선 인근 청정 두타연 폭포와 방태산 계곡을 탐방하는 체험이다. 민간인 출입 통제 덕분에 원시 자연이 보존된 계곡으로 1급수 열목어가 서식하며 여름 피서지로 최고의 환경을 갖추고 있다.",
+      "source_urls": [
+        "https://www.yanggu.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "두타연",
+        "방태산",
+        "인제",
+        "강원",
+        "열목어",
+        "민통선",
+        "청정계곡"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:56:12",
+      "operation_status": "active",
+      "operating_hours": "사전 입산 신청 (5~10월)",
+      "phone": "033-463-2590"
+    },
+    {
+      "experience_id": "EX-GN-NAT-043",
+      "name": "거제 저도 비경 유람선 투어",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 거제시",
+      "address": "경상남도 거제시 동부면 저도 선착장",
+      "lat": 34.8728,
+      "lng": 128.7483,
+      "price": "유람선 성인 12,000원~",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "청정 바다 거제 저도를 유람선으로 탐방하는 체험이다. 청와대 대통령 별장이 있어 오랫동안 출입이 제한됐다가 최근 개방된 저도의 에메랄드빛 바다와 원시 자연 경관을 유람선으로 감상한다.",
+      "source_urls": [
+        "https://www.geoje.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "저도유람선",
+        "거제",
+        "경남",
+        "청와대별장섬",
+        "에메랄드바다",
+        "원시자연",
+        "개방"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:56:12",
+      "operation_status": "active",
+      "operating_hours": "09:00~17:00",
+      "phone": "055-639-4172"
+    },
+    {
+      "experience_id": "EX-GG-NAT-047",
+      "name": "과천 서울대공원 캠핑+동물원",
+      "category_main": "문화/체험",
+      "category_sub": "캠핑/글램핑",
+      "region_main": "GG",
+      "region_sub": "경기도 과천시",
+      "address": "경기도 과천시 막계동 서울대공원 캠핑장",
+      "lat": 37.4261,
+      "lng": 126.984,
+      "price": "캠핑 1박 50,000원~",
+      "duration": "1박 2일",
+      "reservation_required": true,
+      "target_user": [
+        "가족",
+        "어린이"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "서울대공원 내 캠핑장에서 동물원과 함께 즐기는 가족 캠핑 체험이다. 캠핑 후 이른 아침 문 열기 전 동물원을 먼저 입장하는 특별 체험도 있으며 어린이에게 최고의 기억이 된다.",
+      "source_urls": [
+        "https://grandpark.seoul.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "서울대공원캠핑",
+        "과천",
+        "경기",
+        "동물원캠핑",
+        "가족캠핑",
+        "어린이체험",
+        "서울근교"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:56:12",
+      "operation_status": "active",
+      "operating_hours": "연중 (예약 필수)",
+      "phone": "02-500-7335"
+    },
+    {
+      "experience_id": "EX-JN-NAT-047",
+      "name": "함평 엑스포공원 봄 나비 투어",
+      "category_main": "문화/체험",
+      "category_sub": "축제",
+      "region_main": "JN",
+      "region_sub": "전라남도 함평군",
+      "address": "전라남도 함평군 함평읍 엑스포공원길 6",
+      "lat": 35.0667,
+      "lng": 126.5167,
+      "price": "성인 5,000원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "어린이"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "매년 4~5월 전남 함평 나비대축제 기간에 엑스포 공원을 방문하는 체험이다. 수십만 마리의 나비가 방생되는 봄 축제로 나비 생태 관찰·나비 날리기·곤충 체험 등을 즐길 수 있다.",
+      "source_urls": [
+        "https://www.hampyeong.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "함평나비축제",
+        "함평",
+        "전남",
+        "나비",
+        "봄꽃",
+        "어린이체험",
+        "나비방생"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:56:12",
+      "operation_status": "annual",
+      "operating_hours": "매년 4~5월 (2주간)",
+      "phone": "061-320-2400"
+    },
+    {
+      "experience_id": "EX-GN-NAT-044",
+      "name": "합천 해인사 팔만대장경 산책",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 합천군",
+      "address": "경상남도 합천군 가야면 해인사길 122",
+      "lat": 35.79,
+      "lng": 128.0992,
+      "price": "성인 3,000원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인",
+        "외국인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "팔만대장경을 봉안한 해인사를 천천히 산책하며 경내 사계절 경관을 감상하는 체험이다. 가야산 계곡을 따라 오르는 홍류동 산책로와 해인사 경내가 어우러지는 자연+역사 힐링 코스다.",
+      "source_urls": [
+        "https://www.haeinsa.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "해인사",
+        "합천",
+        "경남",
+        "팔만대장경",
+        "가야산",
+        "홍류동",
+        "산책"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:56:12",
+      "operation_status": "active",
+      "operating_hours": "08:30~18:00",
+      "phone": "055-934-3000"
+    },
+    {
+      "experience_id": "EX-GW-NAT-043",
+      "name": "횡성 안흥 가마솥 찐빵 투어",
+      "category_main": "문화/체험",
+      "category_sub": "지역 먹거리",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 횡성군",
+      "address": "강원특별자치도 횡성군 안흥면 안흥찐빵마을",
+      "lat": 37.4378,
+      "lng": 128.0453,
+      "price": "먹거리 별도",
+      "duration": "1시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "강원도 횡성 안흥면 찐빵 마을에서 가마솥으로 찐 전통 찐빵을 맛보는 먹거리 체험이다. 70년 이상 가마솥 찜 방식을 유지하는 안흥 찐빵은 강원도 대표 향토 음식으로 서울~강릉 고속도로 인근 위치로 접근성도 좋다.",
+      "source_urls": [
+        "https://www.hsg.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "안흥찐빵",
+        "횡성",
+        "강원",
+        "가마솥찐빵",
+        "전통찐빵",
+        "향토음식",
+        "70년"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:56:12",
+      "operation_status": "active",
+      "operating_hours": "07:00~21:00",
+      "phone": "033-340-2604"
+    },
+    {
+      "experience_id": "EX-GG-NAT-048",
+      "name": "인천 차이나타운 공화춘 탐방",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GG",
+      "region_sub": "인천광역시 중구",
+      "address": "인천광역시 중구 차이나타운로 56",
+      "lat": 37.4758,
+      "lng": 126.6168,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인",
+        "외국인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "한국 짜장면의 발원지 인천 차이나타운 공화춘 자리에 세워진 짜장면 박물관을 탐방하는 역사 체험이다. 1905년 중국인 주방장이 처음 만든 한국식 짜장면의 역사부터 현재까지를 체험형 전시로 이해한다.",
+      "source_urls": [
+        "https://www.icjgss.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "공화춘",
+        "인천차이나타운",
+        "짜장면박물관",
+        "인천",
+        "중구",
+        "짜장면역사",
+        "1905년"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:56:12",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00 (월요일 휴관)",
+      "phone": "032-773-9988"
+    },
+    {
+      "experience_id": "EX-JN-NAT-048",
+      "name": "광주 이강주 전통 양조 체험",
+      "category_main": "문화/체험",
+      "category_sub": "발효/음식",
+      "region_main": "JN",
+      "region_sub": "전라남도 나주시",
+      "address": "전라남도 나주시 이강주 양조장",
+      "lat": 35.0181,
+      "lng": 126.7181,
+      "price": "1인 25,000원",
+      "duration": "2시간",
+      "reservation_required": true,
+      "target_user": [
+        "성인",
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "조선 시대 진상주 이강주를 직접 만드는 전통 양조 체험이다. 조선 시대 3대 명주 이강주는 배·생강·계피·꿀이 들어가는 전통 리큐르로 그 제조 과정을 배우고 시음하는 체험이다.",
+      "source_urls": [
+        "https://www.legangjoo.com/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "이강주",
+        "나주",
+        "전남",
+        "전통술",
+        "조선3대명주",
+        "양조체험",
+        "리큐르"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:56:12",
+      "operation_status": "active",
+      "operating_hours": "10:00~17:00 (예약 필수)",
+      "phone": "061-334-4641"
+    },
+    {
+      "experience_id": "EX-GN-NAT-045",
+      "name": "밀양 트리파크 짚트랙",
+      "category_main": "문화/체험",
+      "category_sub": "어드벤처/레포츠",
+      "region_main": "GN",
+      "region_sub": "경상남도 밀양시",
+      "address": "경상남도 밀양시 산내면 경전 숲 밀양트리파크",
+      "lat": 35.4672,
+      "lng": 128.9697,
+      "price": "1인 40,000원~",
+      "duration": "2~3시간",
+      "reservation_required": true,
+      "target_user": [
+        "개인",
+        "커플",
+        "청년"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "밀양 얼음골 인근 트리파크에서 짚트랙·스카이워크·어드벤처 코스를 즐기는 체험이다. 울창한 소나무 숲 사이를 짚트랙으로 날아가며 밀양 얼음골·영남알프스 전경을 즐기는 짜릿한 어드벤처다.",
+      "source_urls": [
+        "https://www.miryang.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "밀양트리파크",
+        "밀양",
+        "경남",
+        "짚트랙",
+        "어드벤처",
+        "얼음골",
+        "영남알프스"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:56:12",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00",
+      "phone": "055-356-3388"
+    },
+    {
+      "experience_id": "EX-GW-NAT-044",
+      "name": "강원 홍천 은행나무 숲",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 홍천군",
+      "address": "강원특별자치도 홍천군 내촌면 와야리 은행나무숲",
+      "lat": 37.7875,
+      "lng": 128.1744,
+      "price": "무료",
+      "duration": "1시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "강원도 홍천 내촌면에 은행나무 수천 그루가 황금빛으로 물드는 10월 절경을 감상하는 체험이다. 30년 전 한 개인이 심기 시작한 은행나무 숲이 이제 국내 최대 규모 은행나무 숲이 됐다.",
+      "source_urls": [
+        "https://www.hongcheon.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "홍천은행나무숲",
+        "홍천",
+        "강원",
+        "황금은행",
+        "가을단풍",
+        "10월",
+        "사유지"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:56:12",
+      "operation_status": "annual",
+      "operating_hours": "10월 황금 시즌 (연중 무료)",
+      "phone": "033-430-2704"
     }
   ],
   "last_updated": "2026-05-07T04:18:31"
