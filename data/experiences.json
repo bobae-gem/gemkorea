@@ -1,8 +1,8 @@
 {
   "_comment": "겜코리아 체험 데이터 — 역사/자연 마커와 분리. 삭제 금지. 젬투어 상품 후보.",
   "_version": "1.0",
-  "_updated": "2026-05-10T23:05:32",
-  "total": 757,
+  "_updated": "2026-05-10T23:09:17",
+  "total": 769,
   "experiences": [
     {
       "experience_id": "EX-SE-MKT-001",
@@ -30796,6 +30796,487 @@
       "operation_status": "active",
       "operating_hours": "연중",
       "phone": "061-240-8312"
+    },
+    {
+      "experience_id": "EX-SE-CUL-077",
+      "name": "서울 창덕궁 후원 비밀 정원",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "SE",
+      "region_sub": "서울특별시 종로구",
+      "address": "서울특별시 종로구 율곡로 99 창덕궁",
+      "lat": 37.5792,
+      "lng": 126.9914,
+      "price": "후원 포함 성인 8,000원",
+      "duration": "2~3시간",
+      "reservation_required": true,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "서울 창덕궁 후원(비원)을 특별 탐방하는 역사 체험이다. 유네스코 세계문화유산 창덕궁 후원은 조선 왕이 산책하던 비밀 정원으로 사전 예약제 운영으로 인원 제한해 고즈넉하게 즐길 수 있다.",
+      "source_urls": [
+        "https://www.cdg.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "창덕궁후원",
+        "창덕궁",
+        "서울",
+        "비원",
+        "조선왕정원",
+        "유네스코",
+        "비밀정원"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-10T23:09:17",
+      "operation_status": "active",
+      "operating_hours": "예약제 가이드 투어 10:00~14:30",
+      "phone": "02-3668-2300"
+    },
+    {
+      "experience_id": "EX-GG-NAT-085",
+      "name": "양평 산음 자연휴양림",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GG",
+      "region_sub": "경기도 양평군",
+      "address": "경기도 양평군 단월면 산음리로 200 산음자연휴양림",
+      "lat": 37.6269,
+      "lng": 127.6822,
+      "price": "성인 1,000원",
+      "duration": "1일",
+      "reservation_required": true,
+      "target_user": [
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "경기 양평 산음자연휴양림에서 숲 속 하룻밤 캠핑과 삼림욕을 즐기는 체험이다. 서울에서 1시간 거리 국립 자연휴양림으로 수목원 산책·숲 치유 프로그램·야영장 이용이 가능한 수도권 최고 국립 숲 체험지다.",
+      "source_urls": [
+        "https://www.huyang.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "양평산음자연휴양림",
+        "양평",
+        "경기",
+        "자연휴양림",
+        "삼림욕",
+        "캠핑",
+        "국립"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T23:09:17",
+      "operation_status": "active",
+      "operating_hours": "연중 (예약 필수)",
+      "phone": "031-775-5461"
+    },
+    {
+      "experience_id": "EX-JN-NAT-100",
+      "name": "여수 오동도 동백 투어",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 여수시",
+      "address": "전라남도 여수시 오동도로 222 오동도",
+      "lat": 34.7436,
+      "lng": 127.7636,
+      "price": "무료 (여객선 왕복 3,000원)",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "전남 여수 오동도 동백나무 숲을 탐방하는 체험이다. 겨울 동백꽃이 피는 2~3월 오동도 전체가 붉은 동백으로 물드는 장관이 여수 최고 겨울 명소로 동백 향기와 바다가 어우러지는 코스다.",
+      "source_urls": [
+        "https://www.yeosu.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "여수오동도동백",
+        "여수",
+        "전남",
+        "오동도",
+        "동백",
+        "겨울꽃",
+        "동백터널"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-10T23:09:17",
+      "operation_status": "annual",
+      "operating_hours": "2~3월 동백 시즌",
+      "phone": "061-659-1819"
+    },
+    {
+      "experience_id": "EX-GN-NAT-091",
+      "name": "고성 공룡박물관 투어",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 고성군",
+      "address": "경상남도 고성군 회화면 공룡로 618 공룡박물관",
+      "lat": 34.9867,
+      "lng": 128.3167,
+      "price": "성인 5,000원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "어린이"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "세계 3대 공룡 화석 산지 경남 고성에 위치한 공룡박물관을 탐방하는 체험이다. 실제 공룡 화석과 공룡 골격 표본이 전시된 박물관에서 7,000만 년 전 공룡 세계를 체험한다.",
+      "source_urls": [
+        "https://museum.goseong.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "고성공룡박물관",
+        "고성",
+        "경남",
+        "공룡박물관",
+        "공룡화석",
+        "어린이체험",
+        "백악기"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T23:09:17",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00 (월 휴관)",
+      "phone": "055-670-4451"
+    },
+    {
+      "experience_id": "EX-GG-CUL-083",
+      "name": "하남 미사리 카페 거리",
+      "category_main": "문화/체험",
+      "category_sub": "지역 먹거리",
+      "region_main": "GG",
+      "region_sub": "경기도 하남시",
+      "address": "경기도 하남시 미사대로 한강변 카페 거리",
+      "lat": 37.5569,
+      "lng": 127.2075,
+      "price": "카페 별도",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "청년"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "경기 하남 미사한강공원변 카페 거리에서 한강 뷰를 즐기며 카페를 탐방하는 체험이다. 한강을 바라보며 커피를 즐기는 루프탑 카페들이 밀집한 미사리 카페 거리가 수도권 커플 데이트 코스 1순위다.",
+      "source_urls": [
+        "https://www.hanam.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "하남미사리카페거리",
+        "하남",
+        "경기",
+        "미사리",
+        "한강뷰카페",
+        "루프탑카페",
+        "데이트"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T23:09:17",
+      "operation_status": "active",
+      "operating_hours": "10:00~22:00",
+      "phone": "031-790-5200"
+    },
+    {
+      "experience_id": "EX-JB-NAT-071",
+      "name": "완주 고산자연휴양림",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "JB",
+      "region_sub": "전라북도 완주군",
+      "address": "전라북도 완주군 고산면 오산리 고산자연휴양림",
+      "lat": 35.9317,
+      "lng": 127.2478,
+      "price": "성인 1,000원",
+      "duration": "1일",
+      "reservation_required": true,
+      "target_user": [
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "전북 완주 고산자연휴양림에서 국립 숲 속 하룻밤 캠핑 체험이다. 아름다운 계곡과 울창한 숲이 어우러진 고산자연휴양림에서 삼림욕·야영·계곡 수영을 즐기는 전북 대표 가족 힐링 체험이다.",
+      "source_urls": [
+        "https://www.huyang.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "완주고산자연휴양림",
+        "완주",
+        "전북",
+        "자연휴양림",
+        "국립",
+        "계곡",
+        "캠핑"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T23:09:17",
+      "operation_status": "seasonal",
+      "operating_hours": "연중 (여름 성수기 예약 필수)",
+      "phone": "063-262-7067"
+    },
+    {
+      "experience_id": "EX-CB-NAT-048",
+      "name": "제천 의림지 역사 산책",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "CB",
+      "region_sub": "충청북도 제천시",
+      "address": "충청북도 제천시 모산동 의림지",
+      "lat": 37.1469,
+      "lng": 128.1858,
+      "price": "무료",
+      "duration": "1시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "충북 제천 의림지를 산책하며 삼국 시대 역사를 배우는 체험이다. 삼한 시대 조성된 의림지는 우리나라에서 가장 오래된 저수지로 1,800년 역사의 저수지 제방을 따라 산책하는 역사 체험이다.",
+      "source_urls": [
+        "https://www.jecheon.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "제천의림지",
+        "제천",
+        "충북",
+        "의림지",
+        "삼한시대저수지",
+        "역사산책",
+        "1800년"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-10T23:09:17",
+      "operation_status": "active",
+      "operating_hours": "연중 (무료)",
+      "phone": "043-641-5720"
+    },
+    {
+      "experience_id": "EX-GW-NAT-081",
+      "name": "춘천 소양강 스카이워크",
+      "category_main": "문화/체험",
+      "category_sub": "어드벤처/레포츠",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 춘천시",
+      "address": "강원특별자치도 춘천시 근화동 소양강 스카이워크",
+      "lat": 37.8875,
+      "lng": 127.7219,
+      "price": "성인 2,000원",
+      "duration": "30분",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "강원 춘천 소양강 위에 만들어진 투명 바닥 스카이워크를 걷는 어드벤처 체험이다. 소양강 수면 위 60m 높이 155m 길이 투명 유리 스카이워크에서 소양강 전경을 내려다보며 아찔함을 즐긴다.",
+      "source_urls": [
+        "https://www.chuncheon.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "춘천소양강스카이워크",
+        "춘천",
+        "강원",
+        "소양강",
+        "스카이워크",
+        "투명바닥",
+        "어드벤처"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-10T23:09:17",
+      "operation_status": "active",
+      "operating_hours": "10:00~20:00",
+      "phone": "033-250-3354"
+    },
+    {
+      "experience_id": "EX-JN-CUL-055",
+      "name": "영광 불갑사 상사화",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 영광군",
+      "address": "전라남도 영광군 불갑면 불갑사로 450",
+      "lat": 35.2258,
+      "lng": 126.65,
+      "price": "성인 1,000원",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "전남 영광 불갑사 주변 상사화 군락을 감상하는 9월 체험이다. 전국 최대 상사화 군락지 불갑사에서 9월 초 붉은 상사화(꽃무릇)가 일제히 피는 장관이 전남 가을 꽃 명소 1순위다.",
+      "source_urls": [
+        "https://www.yeonggwang.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "영광불갑사상사화",
+        "영광",
+        "전남",
+        "불갑사",
+        "상사화",
+        "꽃무릇",
+        "9월"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T23:09:17",
+      "operation_status": "annual",
+      "operating_hours": "9월 초 상사화 시즌",
+      "phone": "061-350-5323"
+    },
+    {
+      "experience_id": "EX-GN-CUL-079",
+      "name": "함안 아라가야 유물 체험",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 함안군",
+      "address": "경상남도 함안군 가야읍 가야로 19 함안박물관",
+      "lat": 35.2678,
+      "lng": 128.3978,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "경남 함안에서 가야 고분군 아라가야 역사를 체험하는 유적 탐방이다. 유네스코 세계문화유산 등재된 함안 말이산 고분군 일대를 탐방하고 박물관에서 가야 토기·철기 유물을 관람한다.",
+      "source_urls": [
+        "https://www.haman.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "함안아라가야",
+        "함안",
+        "경남",
+        "아라가야",
+        "말이산고분군",
+        "유네스코가야",
+        "가야토기"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-10T23:09:17",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00",
+      "phone": "055-580-2650"
+    },
+    {
+      "experience_id": "EX-GB-CUL-048",
+      "name": "경주 천마총 금관 투어",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GB",
+      "region_sub": "경상북도 경주시",
+      "address": "경상북도 경주시 황남동 90 대릉원 천마총",
+      "lat": 35.8342,
+      "lng": 129.22,
+      "price": "성인 3,000원",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "신라 왕릉 대릉원 안 천마총 내부를 탐방하는 역사 체험이다. 1973년 발굴된 천마총에서 신라 금관·금제 허리띠·천마도 등 화려한 신라 황금 문화재가 발굴됐으며 내부 입장이 가능한 유일한 신라 왕릉이다.",
+      "source_urls": [
+        "https://www.gyeongju.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "경주천마총",
+        "경주",
+        "경북",
+        "천마총",
+        "신라금관",
+        "대릉원",
+        "신라황금"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-10T23:09:17",
+      "operation_status": "active",
+      "operating_hours": "09:00~22:00",
+      "phone": "054-779-6100"
+    },
+    {
+      "experience_id": "EX-GG-NAT-086",
+      "name": "양주 나리공원 양귀비",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GG",
+      "region_sub": "경기도 양주시",
+      "address": "경기도 양주시 광사동 나리공원 일대",
+      "lat": 37.7883,
+      "lng": 127.0692,
+      "price": "무료",
+      "duration": "1시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "경기 양주 나리공원에서 5~6월 양귀비 꽃밭을 감상하는 체험이다. 50만 평 나리공원에 심어진 30만 그루 양귀비꽃이 5~6월 붉은빛으로 물드는 경기 북부 최대 봄꽃 명소다.",
+      "source_urls": [
+        "https://www.yangju.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "양주나리공원양귀비",
+        "양주",
+        "경기",
+        "나리공원",
+        "양귀비",
+        "봄꽃",
+        "5월6월"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T23:09:17",
+      "operation_status": "annual",
+      "operating_hours": "5~6월 양귀비 시즌 (무료)",
+      "phone": "031-8082-6114"
     }
   ],
   "last_updated": "2026-05-07T04:18:31"
