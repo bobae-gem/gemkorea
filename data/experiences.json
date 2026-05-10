@@ -1,8 +1,8 @@
 {
   "_comment": "겜코리아 체험 데이터 — 역사/자연 마커와 분리. 삭제 금지. 젬투어 상품 후보.",
   "_version": "1.0",
-  "_updated": "2026-05-10T23:13:04",
-  "total": 781,
+  "_updated": "2026-05-10T23:16:56",
+  "total": 793,
   "experiences": [
     {
       "experience_id": "EX-SE-MKT-001",
@@ -31765,6 +31765,489 @@
       "operation_status": "seasonal",
       "operating_hours": "12~3월 (주중~주말 다름)",
       "phone": "031-610-6000"
+    },
+    {
+      "experience_id": "EX-GG-NAT-089",
+      "name": "연천 재인폭포 트레킹",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GG",
+      "region_sub": "경기도 연천군",
+      "address": "경기도 연천군 연천읍 부곡리 재인폭포",
+      "lat": 38.0964,
+      "lng": 127.0733,
+      "price": "무료",
+      "duration": "1시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "경기 연천 한탄강 지질공원 내 재인폭포를 탐방하는 자연 체험이다. 18m 현무암 절벽 위에서 쏟아지는 재인폭포가 화산 지형과 어우러지는 절경으로 유네스코 세계지질공원 핵심 명소다.",
+      "source_urls": [
+        "https://www.yeoncheon.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "연천재인폭포",
+        "연천",
+        "경기",
+        "재인폭포",
+        "한탄강",
+        "현무암",
+        "유네스코세계지질공원"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-10T23:16:56",
+      "operation_status": "active",
+      "operating_hours": "연중 (무료)",
+      "phone": "031-839-2061"
+    },
+    {
+      "experience_id": "EX-JN-NAT-102",
+      "name": "곡성 섬진강 기차마을",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "JN",
+      "region_sub": "전라북도 곡성군",
+      "address": "전라북도 곡성군 오곡면 기차마을로 232",
+      "lat": 35.2956,
+      "lng": 127.3131,
+      "price": "증기기관차 성인 6,000원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "전남 곡성 섬진강변 기차마을에서 실제 증기기관차를 타는 체험이다. 폐철도 구간을 복원한 곡성 기차마을에서 1920년대 증기기관차를 타고 섬진강 절경을 즐기는 레트로 기차 여행이다.",
+      "source_urls": [
+        "https://www.gokseong.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "곡성기차마을",
+        "곡성",
+        "전남",
+        "증기기관차",
+        "섬진강",
+        "레트로기차",
+        "기차마을"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-10T23:16:56",
+      "operation_status": "active",
+      "operating_hours": "10:00~17:00",
+      "phone": "061-363-9900"
+    },
+    {
+      "experience_id": "EX-GN-NAT-093",
+      "name": "사천 삼천포 대교 야경",
+      "category_main": "문화/체험",
+      "category_sub": "야경/야간투어",
+      "region_main": "GN",
+      "region_sub": "경상남도 사천시",
+      "address": "경상남도 사천시 대방동 삼천포대교 일대",
+      "lat": 34.9497,
+      "lng": 128.0894,
+      "price": "무료",
+      "duration": "1시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "사천과 남해를 연결하는 경남 삼천포대교 야경을 감상하는 체험이다. 해지개길을 따라 삼천포대교 5개 교량 조명이 켜진 야경이 한려수도 섬들과 어우러지는 경남 최고 다리 야경 명소다.",
+      "source_urls": [
+        "https://www.sacheon.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "삼천포대교야경",
+        "사천",
+        "경남",
+        "삼천포대교",
+        "한려수도",
+        "다리야경",
+        "해지개길"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T23:16:56",
+      "operation_status": "active",
+      "operating_hours": "일몰~23:00 (무료)",
+      "phone": "055-831-2114"
+    },
+    {
+      "experience_id": "EX-GG-CUL-085",
+      "name": "가평 아침고요 야간 조명",
+      "category_main": "문화/체험",
+      "category_sub": "야경/야간투어",
+      "region_main": "GG",
+      "region_sub": "경기도 가평군",
+      "address": "경기도 가평군 상면 수목원로 432 아침고요수목원",
+      "lat": 37.7806,
+      "lng": 127.5347,
+      "price": "성인 14,000원 (야간)",
+      "duration": "2시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "경기 가평 아침고요수목원 겨울 야간 조명 축제 오색별빛정원전을 즐기는 체험이다. 겨울 12월~2월 수목원 전체에 수십만 개 조명이 켜져 몽환적 겨울 야경을 만드는 수도권 최고 겨울 야경 축제다.",
+      "source_urls": [
+        "https://www.morningcalm.co.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "아침고요수목원야간조명",
+        "가평",
+        "경기",
+        "오색별빛정원전",
+        "겨울야경",
+        "조명축제",
+        "수목원"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T23:16:56",
+      "operation_status": "seasonal",
+      "operating_hours": "12~2월 17:00~21:00",
+      "phone": "1544-6703"
+    },
+    {
+      "experience_id": "EX-JB-NAT-073",
+      "name": "무주 덕유산 향적봉 설경",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "JB",
+      "region_sub": "전라북도 무주군",
+      "address": "전라북도 무주군 설천면 무주구천동로 구천동",
+      "lat": 35.8919,
+      "lng": 127.7019,
+      "price": "케이블카 왕복 성인 16,000원",
+      "duration": "3~4시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "전북 무주 덕유산 향적봉에서 겨울 설경 트레킹을 즐기는 체험이다. 덕유산 케이블카로 오르는 향적봉 1,614m 정상에서 눈꽃·설경이 아름다운 겨울 트레킹이 전북 최고 겨울 산행 코스다.",
+      "source_urls": [
+        "https://www.deogyusan.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "무주덕유산향적봉설경",
+        "무주",
+        "전북",
+        "덕유산",
+        "향적봉",
+        "겨울설경",
+        "눈꽃"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T23:16:56",
+      "operation_status": "seasonal",
+      "operating_hours": "겨울 설경 시즌 (케이블카 09:00~16:00)",
+      "phone": "063-322-9400"
+    },
+    {
+      "experience_id": "EX-CB-NAT-049",
+      "name": "단양 도담삼봉 유람선",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "CB",
+      "region_sub": "충청북도 단양군",
+      "address": "충청북도 단양군 단양읍 도담리 도담삼봉",
+      "lat": 37.0108,
+      "lng": 128.2731,
+      "price": "성인 유람선 5,000원",
+      "duration": "1시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "충북 단양 남한강 한가운데 3개 봉우리 섬 도담삼봉을 유람선으로 탐방하는 체험이다. 단양8경 중 제1경으로 남한강에서 솟아오른 3개 석회암 봉우리 도담삼봉의 사계절 절경을 유람선에서 즐긴다.",
+      "source_urls": [
+        "https://www.danyang.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "단양도담삼봉유람선",
+        "단양",
+        "충북",
+        "도담삼봉",
+        "단양8경",
+        "남한강",
+        "유람선"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-10T23:16:56",
+      "operation_status": "active",
+      "operating_hours": "09:00~17:00",
+      "phone": "043-422-1146"
+    },
+    {
+      "experience_id": "EX-GW-NAT-083",
+      "name": "강원 가리왕산 조망 트레킹",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 정선군",
+      "address": "강원특별자치도 정선군 북면 방아다리로 일대",
+      "lat": 37.5408,
+      "lng": 128.5872,
+      "price": "무료",
+      "duration": "4~5시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "강원 정선 가리왕산 국립공원에서 조망 트레킹을 즐기는 체험이다. 2018 평창동계올림픽 알파인스키 경기장이 있던 가리왕산은 1,561m 정상에서 동해·오대산·태백산 조망이 압도적인 강원 비경이다.",
+      "source_urls": [
+        "https://www.inje.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "정선가리왕산트레킹",
+        "정선",
+        "강원",
+        "가리왕산",
+        "평창올림픽",
+        "조망트레킹",
+        "국립공원"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T23:16:56",
+      "operation_status": "active",
+      "operating_hours": "연중 (무료)",
+      "phone": "033-560-2811"
+    },
+    {
+      "experience_id": "EX-JN-CUL-057",
+      "name": "전주 막걸리 골목 투어",
+      "category_main": "문화/체험",
+      "category_sub": "지역 먹거리",
+      "region_main": "JN",
+      "region_sub": "전라북도 전주시",
+      "address": "전라북도 전주시 완산구 삼천동 막걸리 골목",
+      "lat": 35.8211,
+      "lng": 127.1269,
+      "price": "막걸리 안주 별도",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "청년",
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "전북 전주 삼천동 막걸리 골목에서 전주 막걸리와 안주를 즐기는 로컬 문화 체험이다. 전주 3대 음식 문화 중 하나인 막걸리 골목은 막걸리 한 잔에 안주가 자동으로 계속 나오는 전주만의 독특한 술 문화다.",
+      "source_urls": [
+        "https://www.jeonju.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "전주막걸리골목",
+        "전주",
+        "전북",
+        "막걸리",
+        "삼천동",
+        "전주음식문화",
+        "로컬"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-10T23:16:56",
+      "operation_status": "active",
+      "operating_hours": "저녁 16:00~23:00",
+      "phone": "063-281-2891"
+    },
+    {
+      "experience_id": "EX-GN-CUL-081",
+      "name": "거제 바람의 언덕",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 거제시",
+      "address": "경상남도 거제시 남부면 해금강로 일대",
+      "lat": 34.7844,
+      "lng": 128.6278,
+      "price": "무료",
+      "duration": "1시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "경남 거제 남단 바람의 언덕에서 한려수도 남해 전경을 감상하는 체험이다. 드라마·영화 촬영지로 유명한 거제 바람의 언덕에서 풍차와 억새가 어우러지는 경치가 거제 최고 뷰포인트로 꼽힌다.",
+      "source_urls": [
+        "https://www.geoje.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "거제바람의언덕",
+        "거제",
+        "경남",
+        "바람의언덕",
+        "풍차",
+        "드라마촬영지",
+        "한려수도"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-10T23:16:56",
+      "operation_status": "active",
+      "operating_hours": "연중 (무료)",
+      "phone": "055-639-3000"
+    },
+    {
+      "experience_id": "EX-GB-CUL-050",
+      "name": "김천 직지사 역사 투어",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GB",
+      "region_sub": "경상북도 김천시",
+      "address": "경상북도 김천시 대항면 직지사로 직지사",
+      "lat": 36.0694,
+      "lng": 128.0478,
+      "price": "성인 3,000원",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "신라 418년 아도화상이 창건한 경북 김천 직지사를 탐방하는 역사 체험이다. 한국 불교 조계종 8교구 본사 직지사는 임진왜란 승병 사명대사의 사찰로 황악산 자락 천년 고찰이다.",
+      "source_urls": [
+        "https://www.jikjisa.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "김천직지사",
+        "김천",
+        "경북",
+        "직지사",
+        "사명대사",
+        "황악산",
+        "신라"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T23:16:56",
+      "operation_status": "active",
+      "operating_hours": "07:00~18:00",
+      "phone": "054-429-1700"
+    },
+    {
+      "experience_id": "EX-GG-NAT-090",
+      "name": "인천 소래포구 해산물",
+      "category_main": "문화/체험",
+      "category_sub": "지역 먹거리",
+      "region_main": "GG",
+      "region_sub": "인천광역시 남동구",
+      "address": "인천광역시 남동구 포구로 83 소래포구",
+      "lat": 37.4389,
+      "lng": 126.7367,
+      "price": "먹거리 별도",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "인천 소래포구에서 활어회와 각종 해산물을 즐기는 먹거리 체험이다. 수도권 최대 어시장 소래포구에서 꽃게·새우·활어 등 신선한 서해 해산물을 저렴하게 즐기는 수도권 로컬 먹거리 명소다.",
+      "source_urls": [
+        "https://www.namdong.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "인천소래포구",
+        "인천",
+        "소래포구",
+        "꽃게",
+        "활어",
+        "수도권어시장",
+        "해산물"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-10T23:16:56",
+      "operation_status": "active",
+      "operating_hours": "07:00~22:00",
+      "phone": "032-466-8986"
+    },
+    {
+      "experience_id": "EX-JN-CUL-058",
+      "name": "제주 올레길 7코스",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "JJ",
+      "region_sub": "제주특별자치도 서귀포시",
+      "address": "제주특별자치도 서귀포시 월평동 올레길 7코스 일대",
+      "lat": 33.2422,
+      "lng": 126.4233,
+      "price": "무료",
+      "duration": "4~5시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "제주 올레길 7코스 외돌개~월평 구간을 걷는 체험이다. 외돌개 기암과 범섬·문섬 해상 전망, 자연 해안 절벽을 따라 걷는 7코스가 21개 올레길 코스 중 경치 최고로 꼽히는 대표 제주 트레킹이다.",
+      "source_urls": [
+        "https://www.jejuolle.org/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "제주올레길7코스",
+        "제주",
+        "서귀포",
+        "외돌개",
+        "올레길",
+        "자연해안절벽",
+        "범섬"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T23:16:56",
+      "operation_status": "active",
+      "operating_hours": "연중 (무료)",
+      "phone": "064-762-2190"
     }
   ],
   "last_updated": "2026-05-07T04:18:31"
