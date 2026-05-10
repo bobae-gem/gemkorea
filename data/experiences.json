@@ -1,8 +1,8 @@
 {
   "_comment": "겜코리아 체험 데이터 — 역사/자연 마커와 분리. 삭제 금지. 젬투어 상품 후보.",
   "_version": "1.0",
-  "_updated": "2026-05-10T02:31:57",
-  "total": 433,
+  "_updated": "2026-05-10T02:36:03",
+  "total": 445,
   "experiences": [
     {
       "experience_id": "EX-SE-MKT-001",
@@ -5575,7 +5575,7 @@
         "외국인"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:39:16",
       "operation_status": "active",
       "operating_hours": "10:00~23:00 (금·토 24:00)",
@@ -5616,7 +5616,7 @@
         "골목투어"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:39:16",
       "operation_status": "active",
       "operating_hours": "09:00~18:00",
@@ -5657,7 +5657,7 @@
         "외국인체험"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:39:16",
       "operation_status": "active",
       "operating_hours": "11:00~18:00",
@@ -5698,7 +5698,7 @@
         "외국인체험"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:39:16",
       "operation_status": "active",
       "operating_hours": "10:00~17:00",
@@ -5739,7 +5739,7 @@
         "강화"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:39:16",
       "operation_status": "active",
       "operating_hours": "조석표 참고",
@@ -5779,7 +5779,7 @@
         "돌담"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:39:16",
       "operation_status": "active",
       "operating_hours": "연중 (자전거 대여: 09:00~17:00)",
@@ -17691,6 +17691,494 @@
       "operation_status": "seasonal",
       "operating_hours": "6~7월 야생화 시즌",
       "phone": "033-550-2082"
+    },
+    {
+      "experience_id": "EX-GN-NAT-027",
+      "name": "남해 설천 달래마을 매화",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 남해군",
+      "address": "경상남도 남해군 설천면 달래마을",
+      "lat": 34.9108,
+      "lng": 127.8814,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "남해 설천면 달래마을에서 3월 매화꽃을 감상하는 체험이다. 섬진강 광양과 달리 남해 섬마을 분위기에서 매화꽃을 즐기는 숨은 봄 명소로 알려져 있다.",
+      "source_urls": [
+        "https://www.namhae.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "남해매화",
+        "남해",
+        "경남",
+        "달래마을",
+        "봄꽃",
+        "매화",
+        "숨은명소"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:36:03",
+      "operation_status": "annual",
+      "operating_hours": "3월 초~중순 매화 시즌",
+      "phone": "055-860-3671"
+    },
+    {
+      "experience_id": "EX-GW-NAT-030",
+      "name": "강원 평창 오대산 월정사 전나무 숲",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 평창군",
+      "address": "강원특별자치도 평창군 진부면 오대산로 374-8",
+      "lat": 37.7122,
+      "lng": 128.5697,
+      "price": "성인 4,000원",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "오대산 월정사 입구 1km 전나무 숲길을 걷는 체험이다. 700년 이상 된 전나무들이 하늘을 가릴 만큼 빽빽이 들어선 숲길이 국내 최고 산책로 중 하나로 꼽히며 사계절 다른 아름다움을 선사한다.",
+      "source_urls": [
+        "https://www.woljeongsa.org/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "월정사전나무숲",
+        "오대산",
+        "평창",
+        "강원",
+        "700년전나무",
+        "사찰",
+        "산책"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:36:03",
+      "operation_status": "active",
+      "operating_hours": "연중",
+      "phone": "033-339-6800"
+    },
+    {
+      "experience_id": "EX-GG-NAT-033",
+      "name": "인천 강화 전등사 은행나무",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GG",
+      "region_sub": "인천광역시 강화군",
+      "address": "인천광역시 강화군 길상면 전등사로 37-41",
+      "lat": 37.6456,
+      "lng": 126.4503,
+      "price": "성인 3,000원",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "한국 최고(最古) 불교 사찰 전등사에서 가을 은행나무 단풍을 감상하는 체험이다. 2000년 역사를 가진 전등사의 은행나무 황금빛이 10~11월 경내를 물들이는 장관이 펼쳐진다.",
+      "source_urls": [
+        "https://www.jeondeungsa.org/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "전등사",
+        "강화",
+        "인천",
+        "은행나무",
+        "가을단풍",
+        "최고사찰",
+        "강화도"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:36:03",
+      "operation_status": "active",
+      "operating_hours": "08:30~18:30",
+      "phone": "032-937-0125"
+    },
+    {
+      "experience_id": "EX-JN-NAT-029",
+      "name": "영광 불갑사 상사화 축제",
+      "category_main": "문화/체험",
+      "category_sub": "축제",
+      "region_main": "JN",
+      "region_sub": "전라남도 영광군",
+      "address": "전라남도 영광군 불갑면 불갑사로 450",
+      "lat": 35.2753,
+      "lng": 126.6053,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "매년 9월 전남 영광 불갑사에서 열리는 상사화(꽃무릇) 축제다. 꽃이 피고 질 때 잎이 없는 상사화가 9월에 붉게 만개하면 사찰 경내 전체가 붉은 꽃 카펫으로 뒤덮이는 장관이 펼쳐진다.",
+      "source_urls": [
+        "https://www.yeonggwang.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "불갑사상사화",
+        "영광",
+        "전남",
+        "꽃무릇",
+        "9월",
+        "붉은꽃",
+        "축제"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:36:03",
+      "operation_status": "annual",
+      "operating_hours": "9월 상사화 시즌",
+      "phone": "061-350-5584"
+    },
+    {
+      "experience_id": "EX-GG-NAT-034",
+      "name": "안산 대부도 갯벌+낙조",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GG",
+      "region_sub": "경기도 안산시",
+      "address": "경기도 안산시 단원구 대부도동 대부도",
+      "lat": 37.2856,
+      "lng": 126.5222,
+      "price": "무료",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "서울 근교 대부도 갯벌에서 조개·게 잡기 체험과 서해 낙조를 함께 즐기는 체험이다. 시화호 인근 대부도는 조개구이 식당가와 함께 수도권 가족 주말 나들이 코스로 인기가 높다.",
+      "source_urls": [
+        "https://www.ansan.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "대부도",
+        "안산",
+        "경기",
+        "갯벌",
+        "조개잡기",
+        "낙조",
+        "조개구이"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:36:03",
+      "operation_status": "active",
+      "operating_hours": "조석표 확인 (무료)",
+      "phone": "031-481-3407"
+    },
+    {
+      "experience_id": "EX-JN-NAT-030",
+      "name": "곡성 섬진강 기차마을 봄꽃",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 곡성군",
+      "address": "전라남도 곡성군 오곡면 기차마을로 232",
+      "lat": 35.2783,
+      "lng": 127.2878,
+      "price": "유료 (기차마을 입장)",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "섬진강 기차마을에서 벚꽃·유채꽃이 만발하는 봄 풍경을 즐기는 체험이다. 증기기관차를 타고 섬진강 봄 꽃길을 달리는 경험이 전라남도 봄 여행 최고 코스 중 하나다.",
+      "source_urls": [
+        "https://www.gstrain.co.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "곡성기차마을봄꽃",
+        "곡성",
+        "전남",
+        "벚꽃",
+        "유채꽃",
+        "증기기관차",
+        "섬진강"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:36:03",
+      "operation_status": "annual",
+      "operating_hours": "3월 말~4월 초 봄꽃 시즌",
+      "phone": "061-363-9900"
+    },
+    {
+      "experience_id": "EX-GW-NAT-031",
+      "name": "강원 홍천 수타사 단풍 트레킹",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 홍천군",
+      "address": "강원특별자치도 홍천군 동면 수타사로 473",
+      "lat": 37.8089,
+      "lng": 128.1869,
+      "price": "무료",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "강원도 대표 단풍 사찰 수타사에서 가을 단풍 트레킹을 즐기는 체험이다. 수타사 계곡을 따라 이어지는 단풍길이 강원도 단풍 명소 중 가장 색이 선명하고 아름답다고 알려져 있다.",
+      "source_urls": [
+        "https://www.hongcheon.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "수타사",
+        "홍천",
+        "강원",
+        "단풍",
+        "계곡",
+        "가을트레킹",
+        "선명한단풍"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:36:03",
+      "operation_status": "annual",
+      "operating_hours": "10~11월 단풍 시즌",
+      "phone": "033-435-1921"
+    },
+    {
+      "experience_id": "EX-JN-NAT-031",
+      "name": "고창 선운사 꽃무릇",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "JN",
+      "region_sub": "전라북도 고창군",
+      "address": "전라북도 고창군 아산면 선운사로 250",
+      "lat": 35.5028,
+      "lng": 126.5936,
+      "price": "성인 3,000원",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "선운사 주변 9월 꽃무릇 군락이 만개하는 시기에 방문하는 가을 체험이다. 선운사 입구 숲길과 도솔암 주변에 빨간 꽃무릇이 빽빽이 피어 영광 불갑사와 함께 전국 꽃무릇 2대 명소로 꼽힌다.",
+      "source_urls": [
+        "https://www.gochang.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "선운사꽃무릇",
+        "선운사",
+        "고창",
+        "전북",
+        "꽃무릇",
+        "9월",
+        "붉은꽃"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:36:03",
+      "operation_status": "annual",
+      "operating_hours": "9월 꽃무릇 시즌",
+      "phone": "063-561-1422"
+    },
+    {
+      "experience_id": "EX-GG-NAT-035",
+      "name": "경기 연천 재인폭포 캐니어닝",
+      "category_main": "문화/체험",
+      "category_sub": "어드벤처/레포츠",
+      "region_main": "GG",
+      "region_sub": "경기도 연천군",
+      "address": "경기도 연천군 연천읍 고문리 재인폭포",
+      "lat": 38.1056,
+      "lng": 127.0811,
+      "price": "1인 50,000원~",
+      "duration": "2~3시간",
+      "reservation_required": true,
+      "target_user": [
+        "개인",
+        "청년",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "한탄강 현무암 협곡 재인폭포에서 캐니어닝(계곡 타기) 어드벤처를 즐기는 체험이다. 현무암 협곡을 타고 내려오면서 폭포 아래 풀장으로 뛰어드는 극한 어드벤처가 경기도 최고 스릴 체험이다.",
+      "source_urls": [
+        "https://www.yeoncheon.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "재인폭포캐니어닝",
+        "연천",
+        "경기",
+        "캐니어닝",
+        "한탄강",
+        "현무암",
+        "스릴"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:36:03",
+      "operation_status": "seasonal",
+      "operating_hours": "5~9월",
+      "phone": "031-839-2562"
+    },
+    {
+      "experience_id": "EX-JN-NAT-032",
+      "name": "보성 율포해변 갯벌+녹차 세트",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 보성군",
+      "address": "전라남도 보성군 회천면 율포리 율포해변",
+      "lat": 34.7536,
+      "lng": 127.0747,
+      "price": "녹차 해수풀 5,000원~",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "보성 율포해변 갯벌 체험과 천연 녹차 해수풀 족욕을 함께 즐기는 힐링 세트 체험이다. 전국 유일 녹차 성분 해수풀에서 피부 미용 족욕을 즐기고 갯벌에서 바지락을 캐는 색다른 보성 코스다.",
+      "source_urls": [
+        "https://www.boseong.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "율포해변",
+        "보성",
+        "전남",
+        "갯벌",
+        "녹차해수풀",
+        "족욕",
+        "힐링"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:36:03",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00",
+      "phone": "061-850-5210"
+    },
+    {
+      "experience_id": "EX-GN-NAT-028",
+      "name": "통영 충렬사+세병관 역사 투어",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 통영시",
+      "address": "경상남도 통영시 여황로 327 충렬사",
+      "lat": 34.8545,
+      "lng": 128.4341,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "이순신 장군을 모신 충렬사와 조선 시대 통제영 세병관을 탐방하는 역사 투어다. 세병관은 임진왜란 후 통제사 이경준이 세운 건물로 현존하는 지방 관아 건물 중 규모가 가장 크다.",
+      "source_urls": [
+        "https://www.tongyeong.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "충렬사",
+        "세병관",
+        "통영",
+        "이순신",
+        "경남",
+        "조선시대",
+        "임진왜란"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:36:03",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00 (무료)",
+      "phone": "055-650-4681"
+    },
+    {
+      "experience_id": "EX-GG-NAT-036",
+      "name": "포천 산정호수 걷기+단풍 코스",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GG",
+      "region_sub": "경기도 포천시",
+      "address": "경기도 포천시 영북면 산정호수로 395",
+      "lat": 38.1069,
+      "lng": 127.3414,
+      "price": "주차 별도 (무료 탐방)",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "포천 산정호수 6.5km 둘레길을 걷는 체험이다. 명성산 자락 산정호수는 봄·여름 초록, 가을 단풍, 겨울 설경이 사계절 아름다우며 특히 10~11월 명성산 억새와 단풍이 국내 최고 가을 경관을 자랑한다.",
+      "source_urls": [
+        "https://www.pocheon.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "산정호수",
+        "포천",
+        "경기",
+        "억새",
+        "단풍",
+        "걷기",
+        "가을"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:36:03",
+      "operation_status": "active",
+      "operating_hours": "연중 (무료)",
+      "phone": "031-532-6135"
     }
   ],
   "last_updated": "2026-05-07T04:18:31"
