@@ -1,8 +1,8 @@
 {
   "_comment": "겜코리아 체험 데이터 — 역사/자연 마커와 분리. 삭제 금지. 젬투어 상품 후보.",
   "_version": "1.0",
-  "_updated": "2026-05-10T00:49:32",
-  "total": 254,
+  "_updated": "2026-05-10T01:24:29",
+  "total": 266,
   "experiences": [
     {
       "experience_id": "EX-SE-MKT-001",
@@ -1129,7 +1129,7 @@
         "유자"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-06T02:13:45",
       "operation_status": "needs_check",
       "operating_hours": "",
@@ -1265,7 +1265,7 @@
         "10월"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-06T02:13:45",
       "operation_status": "needs_check",
       "operating_hours": "",
@@ -1492,7 +1492,7 @@
         "광진구"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-06T02:13:45",
       "operation_status": "needs_check",
       "operating_hours": "",
@@ -1538,7 +1538,7 @@
         "경기"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-06T02:13:45",
       "operation_status": "needs_check",
       "operating_hours": "",
@@ -1584,7 +1584,7 @@
         "가족"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-06T02:13:45",
       "operation_status": "needs_check",
       "operating_hours": "",
@@ -1764,7 +1764,7 @@
         "https://www.jeonjuhanji.kr/"
       ],
       "operation_status": "운영중",
-      "shorts_status": "waiting"
+      "shorts_status": "review_pending"
     },
     {
       "experience_id": "EX-GB-CRF-001",
@@ -1791,7 +1791,7 @@
         "https://www.hahoe.or.kr/"
       ],
       "operation_status": "운영중",
-      "shorts_status": "waiting"
+      "shorts_status": "review_pending"
     },
     {
       "experience_id": "EX-GG-CRF-001",
@@ -1818,7 +1818,7 @@
         "https://www.icheon.go.kr/ceramic/"
       ],
       "operation_status": "운영중",
-      "shorts_status": "waiting"
+      "shorts_status": "review_pending"
     },
     {
       "experience_id": "EX-CN-CRF-001",
@@ -1899,7 +1899,7 @@
         "https://www.andongsoju.net/"
       ],
       "operation_status": "운영중",
-      "shorts_status": "waiting"
+      "shorts_status": "review_pending"
     },
     {
       "experience_id": "EX-JN-FRM-003",
@@ -10422,6 +10422,492 @@
       "operation_status": "active",
       "operating_hours": "09:00~18:00 (월요일 휴관)",
       "phone": "062-376-5197"
+    },
+    {
+      "experience_id": "EX-GW-NIG-002",
+      "name": "강원 태백산 눈꽃 트레킹",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 태백시",
+      "address": "강원특별자치도 태백시 태백산로 1210",
+      "lat": 37.0858,
+      "lng": 128.9178,
+      "price": "성인 2,000원",
+      "duration": "3~5시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "해발 1,567m 태백산 천제단까지 이어지는 눈꽃 트레킹이다. 겨울 능선에 눈이 쌓이면 주목 군락이 온통 하얀 눈꽃으로 뒤덮여 동화 속 풍경이 펼쳐진다. 한국에서 가장 일찍 눈꽃을 볼 수 있는 명산이다.",
+      "source_urls": [
+        "https://taebaeksan.knps.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "태백산",
+        "눈꽃트레킹",
+        "태백",
+        "강원",
+        "주목군락",
+        "겨울등산",
+        "천제단"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-10T01:24:29",
+      "operation_status": "seasonal",
+      "operating_hours": "일출~일몰 (겨울 시즌)",
+      "phone": "033-552-0552"
+    },
+    {
+      "experience_id": "EX-GG-NIG-003",
+      "name": "서울 한강 야간 자전거 투어",
+      "category_main": "문화/체험",
+      "category_sub": "어드벤처/레포츠",
+      "region_main": "GG",
+      "region_sub": "서울특별시 영등포구",
+      "address": "서울특별시 영등포구 여의도한강공원 자전거 대여소",
+      "lat": 37.5283,
+      "lng": 126.9315,
+      "price": "자전거 대여 1시간 3,000원~",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인",
+        "청년"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "서울 한강 자전거 도로를 야간에 달리는 투어다. 여의도에서 반포대교 달빛무지개분수·63빌딩·마포대교 야경을 자전거로 달리며 즐기는 서울 야경 최고의 코스다.",
+      "source_urls": [
+        "https://hangang.seoul.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "한강자전거",
+        "서울",
+        "야경",
+        "여의도",
+        "반포대교",
+        "한강공원",
+        "야간투어"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-10T01:24:29",
+      "operation_status": "seasonal",
+      "operating_hours": "자전거 대여 06:00~22:00",
+      "phone": "02-3780-0570"
+    },
+    {
+      "experience_id": "EX-JJ-AGR-002",
+      "name": "제주 천혜향 귤 따기 체험",
+      "category_main": "문화/체험",
+      "category_sub": "농촌 체험",
+      "region_main": "JJ",
+      "region_sub": "제주특별자치도 서귀포시",
+      "address": "제주특별자치도 서귀포시 남원읍 일원",
+      "lat": 33.2853,
+      "lng": 126.6875,
+      "price": "1인 12,000원~",
+      "duration": "1~2시간",
+      "reservation_required": true,
+      "target_user": [
+        "가족",
+        "어린이",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "제주 서귀포 농장에서 천혜향·한라봉·레드향 등 제주 프리미엄 감귤을 직접 따는 농촌 체험이다. 일반 귤보다 크고 당도가 높은 천혜향을 농장에서 바로 따 먹는 달콤한 경험이다.",
+      "source_urls": [
+        "https://www.visitjeju.net/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "천혜향따기",
+        "제주",
+        "서귀포",
+        "감귤농장",
+        "농촌체험",
+        "한라봉",
+        "가족체험"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:24:29",
+      "operation_status": "seasonal",
+      "operating_hours": "12~2월 천혜향 시즌",
+      "phone": "064-730-3500"
+    },
+    {
+      "experience_id": "EX-GG-NIG-004",
+      "name": "인천 월미도 문화의 거리 야경",
+      "category_main": "문화/체험",
+      "category_sub": "야경/야간투어",
+      "region_main": "GG",
+      "region_sub": "인천광역시 중구",
+      "address": "인천광역시 중구 월미로 일원",
+      "lat": 37.4758,
+      "lng": 126.5868,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "인천 월미도 해안을 따라 놀이공원·횟집·카페·유람선이 펼쳐지는 월미도 문화의 거리를 야간에 탐방하는 투어다. 서울과 가까운 인천 대표 야경 명소로 디스코 팡팡·바이킹 등 놀이기구도 즐길 수 있다.",
+      "source_urls": [
+        "https://www.icjgss.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "월미도",
+        "인천",
+        "야경",
+        "놀이공원",
+        "바이킹",
+        "유람선",
+        "가족"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:24:29",
+      "operation_status": "active",
+      "operating_hours": "10:00~23:00",
+      "phone": "032-765-4860"
+    },
+    {
+      "experience_id": "EX-JN-AGR-003",
+      "name": "담양 죽순 수확 체험",
+      "category_main": "문화/체험",
+      "category_sub": "농촌 체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 담양군",
+      "address": "전라남도 담양군 담양읍 죽녹원 인근",
+      "lat": 35.322,
+      "lng": 126.9877,
+      "price": "1인 12,000원",
+      "duration": "1~2시간",
+      "reservation_required": true,
+      "target_user": [
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "대나무의 고장 담양에서 봄철 죽순을 직접 캐는 체험이다. 4~5월 죽순 시즌에 대나무 숲에서 갓 솟아오른 죽순을 직접 수확하고 죽순 요리를 함께 체험한다.",
+      "source_urls": [
+        "https://www.damyang.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "죽순수확",
+        "담양",
+        "전남",
+        "대나무",
+        "죽순",
+        "봄농사",
+        "가족체험"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:24:29",
+      "operation_status": "seasonal",
+      "operating_hours": "4~5월 죽순 시즌",
+      "phone": "061-380-3151"
+    },
+    {
+      "experience_id": "EX-GW-ECO-003",
+      "name": "양구 생태식물원 방문",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 양구군",
+      "address": "강원특별자치도 양구군 양구읍 박수근로 265",
+      "lat": 38.1044,
+      "lng": 127.9855,
+      "price": "성인 3,000원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "DMZ 인접 양구에 위치한 생태식물원으로 희귀 고산 식물과 습지 생태계를 탐방한다. 민통선 근처의 청정 자연 환경에서 자라는 특별한 식물들을 관찰하고 자연 생태 교육 프로그램에 참여할 수 있다.",
+      "source_urls": [
+        "https://www.yanggu.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "생태식물원",
+        "양구",
+        "강원",
+        "DMZ",
+        "고산식물",
+        "습지생태",
+        "자연체험"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:24:29",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00 (동절기 17:00)",
+      "phone": "033-480-2594"
+    },
+    {
+      "experience_id": "EX-GG-CUL-004",
+      "name": "의정부 부대찌개 골목 투어",
+      "category_main": "문화/체험",
+      "category_sub": "지역 먹거리",
+      "region_main": "GG",
+      "region_sub": "경기도 의정부시",
+      "address": "경기도 의정부시 의정부동 부대찌개 거리 일원",
+      "lat": 37.7381,
+      "lng": 127.0436,
+      "price": "1만원~",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "한국 부대찌개의 발원지 의정부 부대찌개 거리를 탐방하는 먹거리 투어다. 6·25 전쟁 후 미군 부대 음식으로 시작한 부대찌개의 역사와 함께 30년 이상 된 원조 노포들을 방문한다.",
+      "source_urls": [
+        "https://www.ui4u.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "부대찌개",
+        "의정부",
+        "경기",
+        "부대찌개거리",
+        "원조",
+        "한국음식역사",
+        "먹거리"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:24:29",
+      "operation_status": "active",
+      "operating_hours": "11:00~22:00",
+      "phone": "031-828-2114"
+    },
+    {
+      "experience_id": "EX-GW-AGR-001",
+      "name": "철원 두루미 탐조 투어",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 철원군",
+      "address": "강원특별자치도 철원군 동송읍 이평리 일원",
+      "lat": 38.2714,
+      "lng": 127.3146,
+      "price": "탐조 투어 1인 15,000원",
+      "duration": "3~4시간",
+      "reservation_required": true,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "겨울 철원평야에 수천 마리의 천연기념물 두루미와 재두루미가 월동하는 장관을 탐조하는 투어다. 망원경으로 두루미 군무를 관찰하고 DMZ 비무장지대 자연 보전의 아이러니를 이해하는 특별한 체험이다.",
+      "source_urls": [
+        "https://www.cwg.go.kr/tour/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "두루미탐조",
+        "철원",
+        "강원",
+        "DMZ",
+        "두루미",
+        "재두루미",
+        "겨울탐조"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:24:29",
+      "operation_status": "seasonal",
+      "operating_hours": "12~2월 두루미 월동 시즌",
+      "phone": "033-450-5558"
+    },
+    {
+      "experience_id": "EX-GJ-AGR-001",
+      "name": "광주 무등산 수박 따기 체험",
+      "category_main": "문화/체험",
+      "category_sub": "농촌 체험",
+      "region_main": "GJ",
+      "region_sub": "광주광역시 북구",
+      "address": "광주광역시 북구 무등로 일원",
+      "lat": 35.1353,
+      "lng": 127.0026,
+      "price": "1인 15,000원",
+      "duration": "1~2시간",
+      "reservation_required": true,
+      "target_user": [
+        "가족",
+        "어린이"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "무등산 자락 고랭지에서 재배되는 광주 특산 수박 수확 체험이다. 여름 수박 시즌에 포전에서 직접 수박을 고르고 따며 현장에서 잘라 먹는 체험으로 어린이 농촌 교육 프로그램이 풍부하다.",
+      "source_urls": [
+        "https://www.gwangju.go.kr/tour/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "수박따기",
+        "광주",
+        "무등산",
+        "농촌체험",
+        "수박",
+        "여름체험",
+        "어린이"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:24:29",
+      "operation_status": "seasonal",
+      "operating_hours": "7~8월 수박 시즌",
+      "phone": "062-226-3434"
+    },
+    {
+      "experience_id": "EX-CB-AGR-002",
+      "name": "단양 마늘 수확 체험",
+      "category_main": "문화/체험",
+      "category_sub": "농촌 체험",
+      "region_main": "CB",
+      "region_sub": "충청북도 단양군",
+      "address": "충청북도 단양군 단양읍 마늘농장 일원",
+      "lat": 36.9845,
+      "lng": 128.3659,
+      "price": "1인 10,000원",
+      "duration": "1~2시간",
+      "reservation_required": true,
+      "target_user": [
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "단양 특산품 단양 마늘을 직접 수확하는 농촌 체험이다. 6~7월 수확 시즌에 운영하며 마늘을 캐고 묶고 건조하는 전 과정을 체험한다. 단양 마늘을 한 망 가져갈 수 있다.",
+      "source_urls": [
+        "https://www.dyfarm.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "마늘수확",
+        "단양",
+        "충북",
+        "마늘",
+        "농촌체험",
+        "가족",
+        "여름체험"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:24:29",
+      "operation_status": "seasonal",
+      "operating_hours": "6~7월 마늘 시즌",
+      "phone": "043-421-0001"
+    },
+    {
+      "experience_id": "EX-JN-AGR-004",
+      "name": "해남 고구마 캐기 체험",
+      "category_main": "문화/체험",
+      "category_sub": "농촌 체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 해남군",
+      "address": "전라남도 해남군 해남읍 고구마농장 일원",
+      "lat": 34.5735,
+      "lng": 126.5993,
+      "price": "1인 12,000원",
+      "duration": "1~2시간",
+      "reservation_required": true,
+      "target_user": [
+        "가족",
+        "어린이"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "전국 최대 고구마 산지 해남에서 직접 고구마를 캐는 농촌 체험이다. 9~11월 수확 시즌에 운영하며 땅속에서 고구마를 직접 캐내는 체험과 함께 군고구마·고구마 줄기 요리도 즐길 수 있다.",
+      "source_urls": [
+        "https://www.haenam.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "고구마캐기",
+        "해남",
+        "전남",
+        "농촌체험",
+        "가을체험",
+        "어린이",
+        "가족"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:24:29",
+      "operation_status": "seasonal",
+      "operating_hours": "9~11월 수확 시즌",
+      "phone": "061-530-5114"
+    },
+    {
+      "experience_id": "EX-GG-AGR-003",
+      "name": "포천 허브 농장 체험",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GG",
+      "region_sub": "경기도 포천시",
+      "address": "경기도 포천시 신북면 청신로947번길 35 (허브아일랜드)",
+      "lat": 38.0152,
+      "lng": 127.2152,
+      "price": "성인 12,000원~",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "포천 허브아일랜드에서 라벤더·로즈마리·바질 등 허브를 직접 수확하고 허브차·허브 오일·향수를 만드는 체험이다. 수십만 개의 조명이 켜지는 야간 정원도 함께 즐길 수 있다.",
+      "source_urls": [
+        "https://www.herbisland.co.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "허브체험",
+        "포천",
+        "경기",
+        "라벤더",
+        "허브농장",
+        "향수만들기",
+        "야경"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:24:29",
+      "operation_status": "active",
+      "operating_hours": "09:00~22:00",
+      "phone": "031-535-6494"
     }
   ],
   "last_updated": "2026-05-07T04:18:31"
