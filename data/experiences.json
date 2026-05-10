@@ -1,8 +1,8 @@
 {
   "_comment": "겜코리아 체험 데이터 — 역사/자연 마커와 분리. 삭제 금지. 젬투어 상품 후보.",
   "_version": "1.0",
-  "_updated": "2026-05-10T02:40:07",
-  "total": 457,
+  "_updated": "2026-05-10T02:44:08",
+  "total": 469,
   "experiences": [
     {
       "experience_id": "EX-SE-MKT-001",
@@ -6062,7 +6062,7 @@
         "마포"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:43:01",
       "operation_status": "active",
       "operating_hours": "10:00~21:00",
@@ -6103,7 +6103,7 @@
         "한복대여"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:43:01",
       "operation_status": "active",
       "operating_hours": "09:00~17:00 (화요일 휴궁)",
@@ -6143,7 +6143,7 @@
         "북아트"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:43:01",
       "operation_status": "active",
       "operating_hours": "10:00~17:00",
@@ -6184,7 +6184,7 @@
         "외국인체험"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:43:01",
       "operation_status": "active",
       "operating_hours": "10:00~17:00",
@@ -6224,7 +6224,7 @@
         "강원"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:43:01",
       "operation_status": "active",
       "operating_hours": "09:00~14:00 (예약 필수)",
@@ -6265,7 +6265,7 @@
         "댓잎소리"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:43:01",
       "operation_status": "active",
       "operating_hours": "09:00~19:00",
@@ -18665,6 +18665,488 @@
       "operation_status": "annual",
       "operating_hours": "5월 철쭉 시즌",
       "phone": "055-880-2960"
+    },
+    {
+      "experience_id": "EX-JN-NAT-035",
+      "name": "담양 메타세쿼이아 가로수길",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 담양군",
+      "address": "전라남도 담양군 담양읍 메타세쿼이아로 20",
+      "lat": 35.3422,
+      "lng": 126.9878,
+      "price": "성인 2,000원",
+      "duration": "1시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "담양 읍내에서 국도변 메타세쿼이아 나무 수백 그루가 2km 가로수 터널을 이루는 체험이다. 봄 초록·가을 단풍·겨울 설경이 각각 다른 아름다움을 보여주며 드라이브와 도보 산책 모두 즐길 수 있다.",
+      "source_urls": [
+        "https://www.damyang.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "메타세쿼이아",
+        "담양",
+        "전남",
+        "가로수길",
+        "사계절",
+        "드라이브",
+        "산책"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:44:08",
+      "operation_status": "active",
+      "operating_hours": "연중",
+      "phone": "061-380-2910"
+    },
+    {
+      "experience_id": "EX-GW-NAT-034",
+      "name": "고성 공룡 발자국+공룡박물관",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GW",
+      "region_sub": "경상남도 고성군",
+      "address": "경상남도 고성군 하이면 공룡로 618",
+      "lat": 35.0167,
+      "lng": 128.3392,
+      "price": "성인 9,000원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "어린이"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "세계 3대 공룡 화석지 경남 고성에서 공룡 발자국 화석과 박물관을 탐방하는 체험이다. 1억 년 전 공룡이 걸어간 실제 발자국이 해안 암반에 남아있으며 직접 밟아볼 수 있다.",
+      "source_urls": [
+        "https://www.coseong.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "고성공룡발자국",
+        "고성",
+        "경남",
+        "공룡",
+        "화석",
+        "1억년전",
+        "어린이"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:44:08",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00",
+      "phone": "055-670-4161"
+    },
+    {
+      "experience_id": "EX-GG-NAT-039",
+      "name": "광명 동굴 와인+아쿠아리움",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GG",
+      "region_sub": "경기도 광명시",
+      "address": "경기도 광명시 가학로85번길 142",
+      "lat": 37.4362,
+      "lng": 126.8697,
+      "price": "성인 8,000원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "일제강점기 금광이었던 광명 동굴에서 와인 동굴·황금 폭포·동굴 아쿠아리움을 탐방하는 체험이다. 연중 10도를 유지하는 동굴 안에서 열대어를 보고 와인을 시음하는 색다른 경험이다.",
+      "source_urls": [
+        "https://www.gm.go.kr/cave/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "광명동굴",
+        "광명",
+        "경기",
+        "와인동굴",
+        "아쿠아리움",
+        "황금폭포",
+        "폐광"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:44:08",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00 (월요일 휴관)",
+      "phone": "02-2680-6448"
+    },
+    {
+      "experience_id": "EX-JN-NAT-036",
+      "name": "진안 구봉산 구름다리",
+      "category_main": "문화/체험",
+      "category_sub": "어드벤처/레포츠",
+      "region_main": "JN",
+      "region_sub": "전라북도 진안군",
+      "address": "전라북도 진안군 진안읍 구봉로 산 정상",
+      "lat": 35.8217,
+      "lng": 127.4358,
+      "price": "성인 3,000원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "진안 구봉산 정상부 9개 봉우리 사이를 연결하는 구름다리를 건너는 어드벤처 체험이다. 산 정상부 구름다리 아래로 아찔하게 내려다보이는 전북 진안고원 전경이 압도적이다.",
+      "source_urls": [
+        "https://www.jinan.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "구봉산구름다리",
+        "진안",
+        "전북",
+        "구름다리",
+        "어드벤처",
+        "진안고원",
+        "아찔"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:44:08",
+      "operation_status": "active",
+      "operating_hours": "09:00~17:00",
+      "phone": "063-430-2400"
+    },
+    {
+      "experience_id": "EX-GN-NAT-033",
+      "name": "합천 영암사지 단풍 탐방",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 합천군",
+      "address": "경상남도 합천군 가회면 황매산 아래 영암사지",
+      "lat": 35.5014,
+      "lng": 127.9478,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "황매산 자락 합천 영암사지에서 가을 단풍을 감상하는 체험이다. 통일 신라 시대 폐사지에 남은 탑과 석조 유물 주변으로 단풍이 물드는 경관이 합천에서 가장 아름다운 가을 명소다.",
+      "source_urls": [
+        "https://www.hc.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "영암사지",
+        "합천",
+        "경남",
+        "단풍",
+        "폐사지",
+        "석탑",
+        "가을"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:44:08",
+      "operation_status": "annual",
+      "operating_hours": "10~11월 단풍 시즌 (무료)",
+      "phone": "055-930-3400"
+    },
+    {
+      "experience_id": "EX-GW-NAT-035",
+      "name": "원주 치악산 황장사 코스",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 원주시",
+      "address": "강원특별자치도 원주시 신림면 치악로 1739",
+      "lat": 37.3528,
+      "lng": 128.0922,
+      "price": "무료",
+      "duration": "3~4시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "치악산 국립공원 황장사 코스를 트레킹하는 체험이다. 은혜 갚은 꿩 전설이 있는 황장사 방향 코스가 가장 아름다운 계곡 코스로 여름 피서지이자 가을 단풍 명소다.",
+      "source_urls": [
+        "https://chiaksan.knps.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "치악산황장사",
+        "원주",
+        "강원",
+        "계곡",
+        "국립공원",
+        "가을단풍",
+        "꿩전설"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:44:08",
+      "operation_status": "active",
+      "operating_hours": "연중",
+      "phone": "033-740-9900"
+    },
+    {
+      "experience_id": "EX-JN-NAT-037",
+      "name": "광양 금호동 매화꽃 길",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 광양시",
+      "address": "전라남도 광양시 다압면 금호동 매화길",
+      "lat": 35.0586,
+      "lng": 127.7094,
+      "price": "무료",
+      "duration": "1시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "광양 다압면 금호동 매화 마을에서 3월 매화꽃을 감상하는 봄 체험이다. 청매실 농원 대형 매화밭과 달리 소박한 마을 골목 담장 너머 매화꽃이 더 자연스럽고 아름다운 숨은 봄 명소다.",
+      "source_urls": [
+        "https://www.gwangyang.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "광양매화",
+        "금호동",
+        "광양",
+        "전남",
+        "매화",
+        "봄꽃",
+        "숨은명소"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:44:08",
+      "operation_status": "annual",
+      "operating_hours": "3월 매화 시즌",
+      "phone": "061-797-2657"
+    },
+    {
+      "experience_id": "EX-GN-NAT-034",
+      "name": "사천 가산어촌 체험마을",
+      "category_main": "문화/체험",
+      "category_sub": "해양체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 사천시",
+      "address": "경상남도 사천시 사남면 가산어촌체험마을",
+      "lat": 35.07,
+      "lng": 128.07,
+      "price": "1인 12,000원~",
+      "duration": "2시간",
+      "reservation_required": true,
+      "target_user": [
+        "가족",
+        "어린이"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "사천 남해안에서 조개·낙지·바지락을 잡는 갯벌 어촌 체험이다. 맨발로 갯벌을 걷고 해산물을 잡은 후 즉석에서 구워 먹는 어촌 체험으로 어린이 체험학습 코스로 인기다.",
+      "source_urls": [
+        "https://www.sacheon.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "가산어촌체험",
+        "사천",
+        "경남",
+        "갯벌",
+        "조개잡기",
+        "바지락",
+        "어촌체험"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:44:08",
+      "operation_status": "seasonal",
+      "operating_hours": "5~10월 (썰물 시간)",
+      "phone": "055-831-2114"
+    },
+    {
+      "experience_id": "EX-GG-NAT-040",
+      "name": "여주 세종대왕릉 야간 개방",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GG",
+      "region_sub": "경기도 여주시",
+      "address": "경기도 여주시 능서면 왕대리 세종대왕릉",
+      "lat": 37.2921,
+      "lng": 127.5583,
+      "price": "성인 500원",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "여주 세종대왕릉이 특정 시기 야간 개방될 때 달빛 아래 왕릉을 탐방하는 체험이다. 조선 왕릉의 소나무 숲이 밤에 더 신비롭게 보이며 달빛 왕릉 야경이 아름다운 특별한 체험이다.",
+      "source_urls": [
+        "https://royaltombs.cha.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "세종대왕릉야간",
+        "여주",
+        "경기",
+        "야간개방",
+        "달빛왕릉",
+        "소나무숲",
+        "조선왕릉"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:44:08",
+      "operation_status": "seasonal",
+      "operating_hours": "특정 시기 야간 개방 (홈페이지 확인)",
+      "phone": "031-884-9191"
+    },
+    {
+      "experience_id": "EX-JN-NAT-038",
+      "name": "보성 태백산맥 문학 투어",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 보성군",
+      "address": "전라남도 보성군 벌교읍 태백산맥길 일원",
+      "lat": 34.8289,
+      "lng": 127.3428,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "조정래 소설 태백산맥의 배경지 벌교에서 소설 속 공간을 직접 걷는 문학 투어다. 벌교 홍교·현부자 음식점·소화 다리 등 소설 속 공간이 실제로 남아있어 문학과 역사를 동시에 체험한다.",
+      "source_urls": [
+        "https://www.boseong.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "태백산맥문학",
+        "벌교",
+        "보성",
+        "전남",
+        "조정래",
+        "문학투어",
+        "한국전쟁"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:44:08",
+      "operation_status": "active",
+      "operating_hours": "연중 (무료)",
+      "phone": "061-850-5210"
+    },
+    {
+      "experience_id": "EX-GG-NAT-041",
+      "name": "인천 자유공원+개항장 야경",
+      "category_main": "문화/체험",
+      "category_sub": "야경/야간투어",
+      "region_main": "GG",
+      "region_sub": "인천광역시 중구",
+      "address": "인천광역시 중구 자유공원로 19 자유공원",
+      "lat": 37.4769,
+      "lng": 126.6214,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "인천 자유공원 정상에서 인천항·차이나타운·개항장 야경을 감상하는 체험이다. 1888년 조성된 한국 최초 서양식 공원에서 맥아더 동상과 함께 인천 항구 전체 야경이 한눈에 들어온다.",
+      "source_urls": [
+        "https://www.icjgss.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "인천자유공원",
+        "인천",
+        "야경",
+        "개항장",
+        "맥아더",
+        "차이나타운",
+        "한국최초"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:44:08",
+      "operation_status": "active",
+      "operating_hours": "연중 (무료)",
+      "phone": "032-760-6470"
+    },
+    {
+      "experience_id": "EX-GN-NAT-035",
+      "name": "밀양 만어사 중생대 바위",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 밀양시",
+      "address": "경상남도 밀양시 삼랑진읍 만어로 776",
+      "lat": 35.5125,
+      "lng": 128.9789,
+      "price": "성인 2,000원",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "중생대 경상계 지층이 그대로 노출된 밀양 만어사 암괴류를 탐방하는 체험이다. 만어사 마당 가득 어류 형태를 한 물고기 바위(어산불영)가 종(쇠 두드리면 소리남)처럼 소리가 나는 신비한 자연 현상이다.",
+      "source_urls": [
+        "https://www.miryang.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "만어사",
+        "밀양",
+        "경남",
+        "어산불영",
+        "물고기바위",
+        "소리나는돌",
+        "신비"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:44:08",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00",
+      "phone": "055-359-5638"
     }
   ],
   "last_updated": "2026-05-07T04:18:31"
