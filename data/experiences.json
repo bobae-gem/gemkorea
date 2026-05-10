@@ -1,8 +1,8 @@
 {
   "_comment": "겜코리아 체험 데이터 — 역사/자연 마커와 분리. 삭제 금지. 젬투어 상품 후보.",
   "_version": "1.0",
-  "_updated": "2026-05-10T03:04:11",
-  "total": 529,
+  "_updated": "2026-05-10T03:08:15",
+  "total": 541,
   "experiences": [
     {
       "experience_id": "EX-SE-MKT-001",
@@ -7568,7 +7568,7 @@
         "외국인"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:54:12",
       "operation_status": "active",
       "operating_hours": "10:00~21:00 (야경: 일몰~24:00)",
@@ -7608,7 +7608,7 @@
         "겨울여행"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:54:12",
       "operation_status": "seasonal",
       "operating_hours": "11~3월 굴 시즌",
@@ -7648,7 +7648,7 @@
         "어촌체험"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:54:12",
       "operation_status": "seasonal",
       "operating_hours": "4~6월 멸치 시즌",
@@ -7688,7 +7688,7 @@
         "신립장군"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:54:12",
       "operation_status": "active",
       "operating_hours": "연중 (무료)",
@@ -7728,7 +7728,7 @@
         "3대대첩"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:54:12",
       "operation_status": "active",
       "operating_hours": "09:00~18:00 (동절기 17:00)",
@@ -7768,7 +7768,7 @@
         "미꾸라지"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:54:12",
       "operation_status": "active",
       "operating_hours": "11:00~21:00",
@@ -21581,6 +21581,492 @@
       "operation_status": "active",
       "operating_hours": "연중",
       "phone": "031-860-2022"
+    },
+    {
+      "experience_id": "EX-GW-NAT-049",
+      "name": "강원 삼척 초당굴+환선굴 코스",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 삼척시",
+      "address": "강원특별자치도 삼척시 환선굴길 226",
+      "lat": 37.3456,
+      "lng": 129.1194,
+      "price": "환선굴 성인 5,000원~",
+      "duration": "3~5시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "국내 최대 석회암 동굴 환선굴과 추암 촛대바위를 하루에 탐방하는 삼척 동굴 코스다. 환선굴의 신비로운 지하 세계와 동해 해안 절경이 어우러지는 강원도 대표 자연 체험 코스다.",
+      "source_urls": [
+        "https://www.samcheok.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "환선굴",
+        "삼척",
+        "강원",
+        "추암촛대바위",
+        "석회암동굴",
+        "지하세계",
+        "동해해안"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:08:15",
+      "operation_status": "active",
+      "operating_hours": "09:00~17:00",
+      "phone": "033-541-9266"
+    },
+    {
+      "experience_id": "EX-JN-NAT-055",
+      "name": "광주 무등산 서석대 일출",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "JN",
+      "region_sub": "광주광역시 동구",
+      "address": "광주광역시 동구 무등로 무등산 국립공원",
+      "lat": 35.1353,
+      "lng": 127.0026,
+      "price": "무료",
+      "duration": "4~5시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "광주 무등산 서석대에서 새벽 일출을 감상하는 체험이다. 서석대의 주상절리 기암절벽이 일출 빛에 물드는 장면이 무등산 최고의 새벽 경관으로 꼽히며 광주 시내 전체가 발아래 보인다.",
+      "source_urls": [
+        "https://mudeungsan.knps.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "서석대일출",
+        "무등산",
+        "광주",
+        "주상절리",
+        "새벽",
+        "일출",
+        "광주시내전경"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:08:15",
+      "operation_status": "active",
+      "operating_hours": "일출 전 입산 가능",
+      "phone": "062-227-1187"
+    },
+    {
+      "experience_id": "EX-GN-NAT-054",
+      "name": "거제 바람의 언덕 파노라마",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 거제시",
+      "address": "경상남도 거제시 남부면 바람의 언덕",
+      "lat": 34.7869,
+      "lng": 128.6533,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "거제도 남쪽 바람의 언덕에서 한려해상 다도해 파노라마를 감상하는 체험이다. 풍차와 초지가 어우러진 제주도 같은 풍경으로 드라마·CF 촬영지이며 신선대·공곶이와 연계하면 거제 최고 여행 코스가 된다.",
+      "source_urls": [
+        "https://www.geoje.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "바람의언덕",
+        "거제",
+        "경남",
+        "다도해",
+        "풍차",
+        "파노라마",
+        "드라마촬영지"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:08:15",
+      "operation_status": "active",
+      "operating_hours": "연중 (무료)",
+      "phone": "055-639-4172"
+    },
+    {
+      "experience_id": "EX-GG-NAT-055",
+      "name": "파주 DMZ 생태 탐조 투어",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GG",
+      "region_sub": "경기도 파주시",
+      "address": "경기도 파주시 군내면 통일로 일원",
+      "lat": 37.9286,
+      "lng": 126.7653,
+      "price": "탐조 투어 1인 20,000원~",
+      "duration": "3~4시간",
+      "reservation_required": true,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "파주 임진강 DMZ 접경 지역에서 두루미·재두루미·독수리 등 겨울 철새를 탐조하는 체험이다. 분단이 아이러니하게 만들어낸 생태 낙원 DMZ에서 수천 마리 철새 군무를 관찰하는 특별한 투어다.",
+      "source_urls": [
+        "https://www.paju.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "DMZ탐조",
+        "파주",
+        "경기",
+        "두루미",
+        "겨울철새",
+        "임진강",
+        "분단역설"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:08:15",
+      "operation_status": "seasonal",
+      "operating_hours": "12~2월 철새 시즌 (예약 필수)",
+      "phone": "031-953-4744"
+    },
+    {
+      "experience_id": "EX-GN-NAT-055",
+      "name": "합천 해인사 가을 단풍 탐방",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 합천군",
+      "address": "경상남도 합천군 가야면 해인사길 122",
+      "lat": 35.79,
+      "lng": 128.0992,
+      "price": "성인 3,000원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "팔만대장경이 있는 해인사 경내와 홍류동 계곡의 가을 단풍을 감상하는 체험이다. 10월 홍류동 계곡 단풍이 절정일 때 경남 최고의 단풍 명소로 꼽히며 가야산 능선 단풍과 사찰이 어우러지는 경관이 아름답다.",
+      "source_urls": [
+        "https://www.haeinsa.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "해인사단풍",
+        "합천",
+        "경남",
+        "홍류동",
+        "가을단풍",
+        "가야산",
+        "사찰"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:08:15",
+      "operation_status": "annual",
+      "operating_hours": "10월 단풍 시즌",
+      "phone": "055-934-3000"
+    },
+    {
+      "experience_id": "EX-JN-NAT-056",
+      "name": "순천만 국가정원 체험",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 순천시",
+      "address": "전라남도 순천시 국가정원1호길 47",
+      "lat": 34.8922,
+      "lng": 127.4936,
+      "price": "성인 8,000원",
+      "duration": "3~4시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "국내 1호 국가정원 순천만 국가정원을 탐방하는 체험이다. 세계 12개국 정원과 한국 전통 정원이 함께 조성된 40만 평 규모의 정원으로 계절마다 다른 꽃과 경관이 펼쳐진다.",
+      "source_urls": [
+        "https://www.suncheonbay.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "순천만국가정원",
+        "순천",
+        "전남",
+        "국가정원",
+        "세계정원",
+        "사계절꽃",
+        "40만평"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:08:15",
+      "operation_status": "active",
+      "operating_hours": "09:00~19:00",
+      "phone": "1577-2013"
+    },
+    {
+      "experience_id": "EX-GW-NAT-050",
+      "name": "춘천 레고랜드+위도 보트",
+      "category_main": "문화/체험",
+      "category_sub": "어린이 체험",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 춘천시",
+      "address": "강원특별자치도 춘천시 스프링시티로 35",
+      "lat": 37.8733,
+      "lng": 127.7561,
+      "price": "성인 59,000원~",
+      "duration": "5~8시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "어린이"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "춘천 의암호 위도에 조성된 레고랜드코리아와 레고 테마 체험을 즐기는 어린이 가족 체험이다. 레고를 테마로 한 40여 개 놀이기구와 레고 빌딩 체험이 어린이에게 최고의 기억을 선물한다.",
+      "source_urls": [
+        "https://www.legoland.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "레고랜드",
+        "춘천",
+        "강원",
+        "레고",
+        "어린이",
+        "가족",
+        "테마파크"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:08:15",
+      "operation_status": "active",
+      "operating_hours": "10:00~18:00",
+      "phone": "033-815-0000"
+    },
+    {
+      "experience_id": "EX-GN-NAT-056",
+      "name": "함안 국화 향기 가을 축제",
+      "category_main": "문화/체험",
+      "category_sub": "축제",
+      "region_main": "GN",
+      "region_sub": "경상남도 함안군",
+      "address": "경상남도 함안군 함안읍 대사리 함안 아라가야 테마파크",
+      "lat": 35.2731,
+      "lng": 128.3975,
+      "price": "무료",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "매년 10~11월 함안에서 열리는 국화 향기 축제를 방문하는 체험이다. 수십만 송이 국화가 만발하는 함안의 가을 대표 축제로 국화 조형물·국화 터널·국화 향기 가득한 경관을 즐길 수 있다.",
+      "source_urls": [
+        "https://www.haman.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "함안국화축제",
+        "함안",
+        "경남",
+        "국화꽃",
+        "가을축제",
+        "10~11월",
+        "국화향"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:08:15",
+      "operation_status": "annual",
+      "operating_hours": "매년 10~11월 (2주간)",
+      "phone": "055-580-2481"
+    },
+    {
+      "experience_id": "EX-GG-NAT-056",
+      "name": "용인 캐리비안베이 파도풀 피서",
+      "category_main": "문화/체험",
+      "category_sub": "워터파크",
+      "region_main": "GG",
+      "region_sub": "경기도 용인시",
+      "address": "경기도 용인시 처인구 포곡읍 에버랜드로 199",
+      "lat": 37.2918,
+      "lng": 127.2003,
+      "price": "성인 55,000원~",
+      "duration": "4~8시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "청년",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "에버랜드 옆 캐리비안베이 워터파크에서 아시아 최대 파도풀 피서를 즐기는 체험이다. 여름 성수기 최고 37,000명이 몰리는 최대 워터파크로 파도풀·워터슬라이드·실내 스파가 갖춰져 있다.",
+      "source_urls": [
+        "https://www.everland.com/caribbean/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "캐리비안베이",
+        "용인",
+        "경기",
+        "파도풀",
+        "워터파크",
+        "에버랜드",
+        "여름피서"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:08:15",
+      "operation_status": "seasonal",
+      "operating_hours": "하계 10:00~20:00 (실내관 연중)",
+      "phone": "031-320-5000"
+    },
+    {
+      "experience_id": "EX-JN-NAT-057",
+      "name": "완도 신지도 명사십리 해변",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 완도군",
+      "address": "전라남도 완도군 신지면 명사십리해변로 11",
+      "lat": 34.3317,
+      "lng": 126.8086,
+      "price": "무료",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "완도 신지도 명사십리 해변에서 여름 해수욕과 갯벌 체험을 즐기는 체험이다. 4km 백사장과 소나무 숲이 어우러지는 전남 최고 해수욕장으로 완도 청산도와 함께 묶으면 완벽한 남도 섬 여행이 된다.",
+      "source_urls": [
+        "https://www.wando.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "명사십리해변",
+        "완도",
+        "전남",
+        "신지도",
+        "백사장",
+        "소나무숲",
+        "해수욕"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:08:15",
+      "operation_status": "seasonal",
+      "operating_hours": "6~8월 성수기 (무료)",
+      "phone": "061-550-5114"
+    },
+    {
+      "experience_id": "EX-GW-NAT-051",
+      "name": "고성 DMZ 박물관+화진포",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 고성군",
+      "address": "강원특별자치도 고성군 현내면 통일전망대로 369",
+      "lat": 38.3719,
+      "lng": 128.4583,
+      "price": "DMZ 박물관 성인 3,000원",
+      "duration": "3~4시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "강원도 고성 DMZ 박물관과 화진포를 하루에 탐방하는 코스다. 한국에서 가장 북쪽에 위치한 DMZ 박물관에서 분단 역사를 이해하고 천혜의 자연 화진포 호수에서 힐링을 즐기는 코스다.",
+      "source_urls": [
+        "https://www.goseong.org/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "고성DMZ박물관",
+        "화진포",
+        "고성",
+        "강원",
+        "분단역사",
+        "한국최북단",
+        "DMZ"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:08:15",
+      "operation_status": "active",
+      "operating_hours": "09:00~17:00",
+      "phone": "033-681-0625"
+    },
+    {
+      "experience_id": "EX-GN-NAT-057",
+      "name": "창원 마창대교+귀산 해안",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 창원시",
+      "address": "경상남도 창원시 마산합포구 귀산동 해안",
+      "lat": 35.1586,
+      "lng": 128.5611,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "창원 마창대교와 귀산 해안 산책로를 드라이브·산책하는 체험이다. 마산만을 가로지르는 마창대교 야경과 귀산 해안가에서 바라보는 진해만 전경이 창원 최고의 드라이브·산책 코스다.",
+      "source_urls": [
+        "https://www.changwon.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "귀산해안",
+        "창원",
+        "경남",
+        "마창대교",
+        "해안산책",
+        "마산만",
+        "드라이브"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:08:15",
+      "operation_status": "active",
+      "operating_hours": "연중 (무료)",
+      "phone": "055-225-3691"
     }
   ],
   "last_updated": "2026-05-07T04:18:31"
