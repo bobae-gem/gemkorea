@@ -1,8 +1,8 @@
 {
   "_comment": "겜코리아 체험 데이터 — 역사/자연 마커와 분리. 삭제 금지. 젬투어 상품 후보.",
   "_version": "1.0",
-  "_updated": "2026-05-10T02:11:47",
-  "total": 373,
+  "_updated": "2026-05-10T02:15:50",
+  "total": 385,
   "experiences": [
     {
       "experience_id": "EX-SE-MKT-001",
@@ -4354,7 +4354,7 @@
         "중구"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:27:32",
       "operation_status": "active",
       "operating_hours": "연중 (해설 투어: 화~일 10시·14시)",
@@ -4395,7 +4395,7 @@
         "예술인마을"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:27:32",
       "operation_status": "active",
       "operating_hours": "10:00~17:00",
@@ -4435,7 +4435,7 @@
         "북촌"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:27:32",
       "operation_status": "active",
       "operating_hours": "09:00~18:00 (월요일 휴관)",
@@ -4475,7 +4475,7 @@
         "한국전쟁"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:27:32",
       "operation_status": "active",
       "operating_hours": "09:00~18:00 (연중무휴)",
@@ -4516,7 +4516,7 @@
         "돌산갓"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:27:32",
       "operation_status": "active",
       "operating_hours": "10:00~16:00",
@@ -4557,7 +4557,7 @@
         "한라산"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:31:29",
       "operation_status": "active",
       "operating_hours": "09:00~18:00",
@@ -15256,6 +15256,492 @@
       "operation_status": "seasonal",
       "operating_hours": "야간 운영 (행사 시즌)",
       "phone": "031-290-3600"
+    },
+    {
+      "experience_id": "EX-GG-NAT-019",
+      "name": "파주 장단콩 두부 만들기 체험",
+      "category_main": "문화/체험",
+      "category_sub": "발효/음식",
+      "region_main": "GG",
+      "region_sub": "경기도 파주시",
+      "address": "경기도 파주시 적성면 장단콩마을",
+      "lat": 37.9236,
+      "lng": 126.8789,
+      "price": "1인 15,000원",
+      "duration": "2시간",
+      "reservation_required": true,
+      "target_user": [
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "파주 장단콩 마을에서 직접 두부를 만드는 농촌 체험이다. 파주 특산품 장단콩을 갈아 간수를 넣어 두부를 만드는 전통 방식을 배우며 갓 만든 두부를 즉석에서 맛볼 수 있다.",
+      "source_urls": [
+        "https://www.paju.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "장단콩두부",
+        "파주",
+        "경기",
+        "두부만들기",
+        "장단콩",
+        "전통음식",
+        "농촌체험"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:15:50",
+      "operation_status": "active",
+      "operating_hours": "10:00~17:00",
+      "phone": "031-940-4523"
+    },
+    {
+      "experience_id": "EX-JN-NAT-017",
+      "name": "고창 복분자 따기 체험",
+      "category_main": "문화/체험",
+      "category_sub": "농촌 체험",
+      "region_main": "JN",
+      "region_sub": "전라북도 고창군",
+      "address": "전라북도 고창군 심원면 복분자마을",
+      "lat": 35.42,
+      "lng": 126.5867,
+      "price": "1인 12,000원",
+      "duration": "1~2시간",
+      "reservation_required": true,
+      "target_user": [
+        "가족",
+        "어린이",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "전국 복분자 생산 1위 고창에서 6~7월 복분자를 직접 따는 농촌 체험이다. 갓 딴 복분자를 현장에서 먹고 복분자 잼·와인 만들기 체험도 함께 즐길 수 있다.",
+      "source_urls": [
+        "https://www.gochang.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "복분자따기",
+        "고창",
+        "전북",
+        "복분자",
+        "여름체험",
+        "농촌",
+        "가족체험"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:15:50",
+      "operation_status": "seasonal",
+      "operating_hours": "6~7월 복분자 시즌",
+      "phone": "063-560-2979"
+    },
+    {
+      "experience_id": "EX-GN-NAT-014",
+      "name": "함안 악어 등 수상 레포츠",
+      "category_main": "문화/체험",
+      "category_sub": "어드벤처/레포츠",
+      "region_main": "GN",
+      "region_sub": "경상남도 함안군",
+      "address": "경상남도 함안군 칠원읍 함안댐 수변공원",
+      "lat": 35.25,
+      "lng": 128.3894,
+      "price": "1인 30,000원~",
+      "duration": "1~2시간",
+      "reservation_required": true,
+      "target_user": [
+        "개인",
+        "청년",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "함안댐 수변에서 카약·SUP·수상스키 등 다양한 수상 레포츠를 즐기는 체험이다. 산으로 둘러싸인 호수에서 즐기는 수상 레포츠가 여름 경남 최고 피서 코스 중 하나다.",
+      "source_urls": [
+        "https://www.haman.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "함안수상레포츠",
+        "함안",
+        "경남",
+        "카약",
+        "SUP",
+        "수상스키",
+        "여름여행"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:15:50",
+      "operation_status": "seasonal",
+      "operating_hours": "5~10월",
+      "phone": "055-580-2481"
+    },
+    {
+      "experience_id": "EX-JN-NAT-018",
+      "name": "진도 신비의 바닷길 체험",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 진도군",
+      "address": "전라남도 진도군 고군면 회동리 신비의 바닷길",
+      "lat": 34.4833,
+      "lng": 126.3111,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인",
+        "외국인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "매년 음력 2~3월 사리 때 진도와 모도 사이 2.8km 바다가 갈라지는 신비의 바닷길이 열리는 자연 현상을 체험한다. 국제적으로 한국의 모세의 기적으로 알려진 자연 현상이다.",
+      "source_urls": [
+        "https://www.jindo.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "신비의바닷길",
+        "진도",
+        "전남",
+        "바다갈라짐",
+        "모세의기적",
+        "자연현상",
+        "음력23월"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:15:50",
+      "operation_status": "annual",
+      "operating_hours": "매년 음력 2~3월 사리 때",
+      "phone": "061-540-6431"
+    },
+    {
+      "experience_id": "EX-GW-NAT-018",
+      "name": "강화도 마니산 등산",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GW",
+      "region_sub": "인천광역시 강화군",
+      "address": "인천광역시 강화군 화도면 마니산로 585",
+      "lat": 37.5941,
+      "lng": 126.4353,
+      "price": "성인 1,000원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "단군이 천제를 올렸다는 강화도 마니산(472m) 참성단까지 등산하는 체험이다. 정상에서 바라보는 서해와 강화도 전경이 아름다우며 매년 개천절에 단군제가 열린다.",
+      "source_urls": [
+        "https://www.ganghwa.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "마니산",
+        "강화도",
+        "참성단",
+        "단군",
+        "인천",
+        "등산",
+        "개천절"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:15:50",
+      "operation_status": "active",
+      "operating_hours": "연중",
+      "phone": "032-930-4020"
+    },
+    {
+      "experience_id": "EX-JB-NAT-005",
+      "name": "남원 광한루 춘향 체험",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "JB",
+      "region_sub": "전라북도 남원시",
+      "address": "전라북도 남원시 요천로 1447 광한루원",
+      "lat": 35.418,
+      "lng": 127.3908,
+      "price": "성인 3,000원",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인",
+        "외국인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "춘향전의 배경지 남원 광한루원에서 판소리 춘향가와 관련된 역사 문화를 체험하는 투어다. 이몽룡과 성춘향이 그네를 타던 완월정·춘향사당·춘향제 기간 다양한 전통 공연이 펼쳐진다.",
+      "source_urls": [
+        "https://www.gwanghallu.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "광한루",
+        "남원",
+        "춘향전",
+        "전북",
+        "춘향",
+        "이몽룡",
+        "판소리"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:15:50",
+      "operation_status": "active",
+      "operating_hours": "08:00~21:00",
+      "phone": "063-620-6655"
+    },
+    {
+      "experience_id": "EX-GN-NAT-015",
+      "name": "거제 공곶이 수선화 투어",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 거제시",
+      "address": "경상남도 거제시 일운면 지세포리 공곶이",
+      "lat": 34.8611,
+      "lng": 128.7333,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "거제 동쪽 해안 공곶이에서 3~4월 수선화와 동백이 만발하는 봄 풍경을 감상하는 체험이다. 부부가 30년간 가꾼 개인 정원이 천국의 정원이라 불리는 봄 명소로 알려져 있다.",
+      "source_urls": [
+        "https://www.geoje.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "공곶이",
+        "거제",
+        "경남",
+        "수선화",
+        "동백",
+        "봄꽃",
+        "비밀정원"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:15:50",
+      "operation_status": "annual",
+      "operating_hours": "3~4월 수선화 시즌",
+      "phone": "055-639-3000"
+    },
+    {
+      "experience_id": "EX-GG-NAT-020",
+      "name": "성남 모란 민속 5일장 투어",
+      "category_main": "문화/체험",
+      "category_sub": "전통시장",
+      "region_main": "GG",
+      "region_sub": "경기도 성남시",
+      "address": "경기도 성남시 중원구 모란로 일원",
+      "lat": 37.4344,
+      "lng": 127.1278,
+      "price": "무료 입장",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "수도권 최대 규모 전통 5일장 성남 모란 장을 탐방하는 체험이다. 매월 4·9·14·19·24·29일에 열리며 전국 각지 농산물·수산물·의류·먹거리가 모이는 전통 장터 문화를 체험할 수 있다.",
+      "source_urls": [
+        "https://www.seongnam.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "모란시장",
+        "성남",
+        "경기",
+        "5일장",
+        "전통시장",
+        "수도권",
+        "재래시장"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:15:50",
+      "operation_status": "active",
+      "operating_hours": "4·9·14·19·24·29일 (07:00~17:00)",
+      "phone": "031-729-3114"
+    },
+    {
+      "experience_id": "EX-GW-NAT-019",
+      "name": "인제 빙벽 등반 체험",
+      "category_main": "문화/체험",
+      "category_sub": "어드벤처/레포츠",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 인제군",
+      "address": "강원특별자치도 인제군 북면 한계령로 빙벽",
+      "lat": 38.1678,
+      "lng": 128.1519,
+      "price": "1인 40,000원~",
+      "duration": "2~3시간",
+      "reservation_required": true,
+      "target_user": [
+        "개인",
+        "청년",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "겨울 인제 설악산 인근에서 자연 빙벽을 도구를 이용해 등반하는 극한 어드벤처 체험이다. 얼음 도끼와 아이젠을 착용하고 수직 빙벽을 오르는 짜릿한 겨울 스포츠를 초보자도 강사와 함께 즐길 수 있다.",
+      "source_urls": [
+        "https://www.inje.go.kr/tour/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "빙벽등반",
+        "인제",
+        "강원",
+        "겨울어드벤처",
+        "빙벽",
+        "아이스클라이밍",
+        "극한체험"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:15:50",
+      "operation_status": "seasonal",
+      "operating_hours": "1~2월 빙벽 시즌",
+      "phone": "033-461-4296"
+    },
+    {
+      "experience_id": "EX-JN-NAT-019",
+      "name": "무안 황토 갯벌 체험",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 무안군",
+      "address": "전라남도 무안군 해제면 황토갯벌 체험마을",
+      "lat": 34.9658,
+      "lng": 126.3689,
+      "price": "1인 10,000원~",
+      "duration": "2~3시간",
+      "reservation_required": true,
+      "target_user": [
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "전남 무안 황토 갯벌에서 맨발로 걷고 황토 피부 마사지를 즐기는 특별한 체험이다. 황토 성분이 풍부한 무안 갯벌은 피부 미용에 효과적이며 게·낙지·조개를 직접 잡는 갯벌 생태 체험도 함께한다.",
+      "source_urls": [
+        "https://www.muan.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "무안황토갯벌",
+        "무안",
+        "전남",
+        "황토",
+        "갯벌",
+        "피부",
+        "낙지잡기"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:15:50",
+      "operation_status": "seasonal",
+      "operating_hours": "5~9월 갯벌 시즌",
+      "phone": "061-450-5260"
+    },
+    {
+      "experience_id": "EX-GN-NAT-016",
+      "name": "창원 안민도로 자전거 투어",
+      "category_main": "문화/체험",
+      "category_sub": "어드벤처/레포츠",
+      "region_main": "GN",
+      "region_sub": "경상남도 창원시",
+      "address": "경상남도 창원시 진해구 안민도로",
+      "lat": 35.1439,
+      "lng": 128.6975,
+      "price": "무료 (자전거 대여 별도)",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "벚꽃 명소로 유명한 창원 진해 안민도로를 자전거로 달리는 체험이다. 3~4월 벚꽃 시즌에 8km 벚꽃 터널을 자전거로 통과하는 코스로 군항제 기간 가장 아름답다.",
+      "source_urls": [
+        "https://www.changwon.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "안민도로",
+        "창원",
+        "진해",
+        "경남",
+        "벚꽃",
+        "자전거",
+        "군항제"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:15:50",
+      "operation_status": "annual",
+      "operating_hours": "3~4월 벚꽃 시즌",
+      "phone": "055-225-3691"
+    },
+    {
+      "experience_id": "EX-JB-NAT-006",
+      "name": "부안 변산반도 바지락 캐기",
+      "category_main": "문화/체험",
+      "category_sub": "해양체험",
+      "region_main": "JB",
+      "region_sub": "전라북도 부안군",
+      "address": "전라북도 부안군 진서면 변산해변 일원",
+      "lat": 35.6581,
+      "lng": 126.5194,
+      "price": "1인 10,000원~",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "어린이"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "변산반도 서해 갯벌에서 바지락과 동죽을 직접 캐는 어촌 체험이다. 썰물 때 드러나는 변산 갯벌에서 갈퀴로 바지락을 캐고 즉석에서 바지락 칼국수를 즐기는 코스다.",
+      "source_urls": [
+        "https://www.buan.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "바지락캐기",
+        "변산반도",
+        "부안",
+        "전북",
+        "갯벌",
+        "바지락칼국수",
+        "어촌체험"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:15:50",
+      "operation_status": "seasonal",
+      "operating_hours": "썰물 시간 (4~10월)",
+      "phone": "063-580-4434"
     }
   ],
   "last_updated": "2026-05-07T04:18:31"
