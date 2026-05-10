@@ -1,8 +1,8 @@
 {
   "_comment": "겜코리아 체험 데이터 — 역사/자연 마커와 분리. 삭제 금지. 젬투어 상품 후보.",
   "_version": "1.0",
-  "_updated": "2026-05-10T03:00:13",
-  "total": 517,
+  "_updated": "2026-05-10T03:04:11",
+  "total": 529,
   "experiences": [
     {
       "experience_id": "EX-SE-MKT-001",
@@ -7324,7 +7324,7 @@
         "탈놀이"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:50:27",
       "operation_status": "active",
       "operating_hours": "토·일 14:00 (하절기), 15:00 (동절기)",
@@ -7364,7 +7364,7 @@
         "실내관광"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:50:27",
       "operation_status": "active",
       "operating_hours": "09:00~18:00",
@@ -7405,7 +7405,7 @@
         "야경"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:50:27",
       "operation_status": "active",
       "operating_hours": "수·토 21:00까지 야간 개장",
@@ -7446,7 +7446,7 @@
         "외국인체험"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:50:27",
       "operation_status": "active",
       "operating_hours": "09:00~18:00",
@@ -7487,7 +7487,7 @@
         "석촌호수"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:50:27",
       "operation_status": "active",
       "operating_hours": "롯데월드 운영시간 동일",
@@ -7527,7 +7527,7 @@
         "자연속미술관"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:54:12",
       "operation_status": "active",
       "operating_hours": "10:00~18:00 (월요일 휴관)",
@@ -21094,6 +21094,493 @@
       "operation_status": "active",
       "operating_hours": "09:00~16:00",
       "phone": "031-945-0171"
+    },
+    {
+      "experience_id": "EX-GN-NAT-050",
+      "name": "통영 스카이라인 루지",
+      "category_main": "문화/체험",
+      "category_sub": "어드벤처/레포츠",
+      "region_main": "GN",
+      "region_sub": "경상남도 통영시",
+      "address": "경상남도 통영시 발개로 205",
+      "lat": 34.8555,
+      "lng": 128.4241,
+      "price": "1인 10,000원~",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "통영 미륵산 케이블카와 연계해 언덕에서 카트를 타고 내려오는 루지 체험이다. 중력을 이용해 트랙을 내려오는 스카이라인 루지는 속도 조절이 가능해 어린이부터 성인까지 즐길 수 있다.",
+      "source_urls": [
+        "https://www.tongyeong.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "통영루지",
+        "통영",
+        "경남",
+        "루지",
+        "어드벤처",
+        "케이블카",
+        "가족"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:04:11",
+      "operation_status": "active",
+      "operating_hours": "09:30~17:30",
+      "phone": "055-649-3804"
+    },
+    {
+      "experience_id": "EX-GW-NAT-047",
+      "name": "원주 소금산 출렁다리 세트",
+      "category_main": "문화/체험",
+      "category_sub": "어드벤처/레포츠",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 원주시",
+      "address": "강원특별자치도 원주시 지정면 소금산길 12",
+      "lat": 37.4608,
+      "lng": 127.9419,
+      "price": "성인 3,000원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "섬강 협곡 100m 높이 출렁다리와 뮤지엄 산을 하루에 즐기는 원주 최고 어드벤처+예술 코스다. 투명 바닥 출렁다리에서 짜릿함을 즐기고 안도 타다오의 뮤지엄 산에서 건축·예술을 감상하는 완벽 코스다.",
+      "source_urls": [
+        "https://www.wonju.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "소금산출렁다리",
+        "뮤지엄산",
+        "원주",
+        "강원",
+        "출렁다리",
+        "안도타다오",
+        "어드벤처+예술"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:04:11",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00",
+      "phone": "033-737-3011"
+    },
+    {
+      "experience_id": "EX-GN-NAT-051",
+      "name": "울산 장생포 고래투어",
+      "category_main": "문화/체험",
+      "category_sub": "해양체험",
+      "region_main": "GN",
+      "region_sub": "울산광역시 남구",
+      "address": "울산광역시 남구 장생포고래로 244",
+      "lat": 35.4692,
+      "lng": 129.3781,
+      "price": "고래투어 성인 20,000원~",
+      "duration": "2시간",
+      "reservation_required": true,
+      "target_user": [
+        "가족",
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "과거 고래잡이 항구였던 울산 장생포에서 고래 관찰 유람선을 타는 체험이다. 동해 고래 서식 해역으로 나가 밍크고래·돌고래를 바다에서 직접 관찰하는 특별한 해양 생태 체험이다.",
+      "source_urls": [
+        "https://www.whalecity.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "고래투어",
+        "울산",
+        "장생포",
+        "고래관찰",
+        "밍크고래",
+        "돌고래",
+        "해양생태"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:04:11",
+      "operation_status": "seasonal",
+      "operating_hours": "5~10월 (예약 필수)",
+      "phone": "052-226-0980"
+    },
+    {
+      "experience_id": "EX-JN-NAT-052",
+      "name": "여수 돌산 갓밭 가을 경관",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 여수시",
+      "address": "전라남도 여수시 돌산읍 갓밭 일원",
+      "lat": 34.6882,
+      "lng": 127.7325,
+      "price": "무료",
+      "duration": "1시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "여수 돌산도 특산 갓이 재배되는 갓밭에서 11~12월 초록빛 갓밭 경관을 감상하는 체험이다. 돌산 해안과 갓밭이 어우러지는 경관이 아름다우며 갓김치 담그기 체험과 함께하는 여수 가을 코스다.",
+      "source_urls": [
+        "https://www.yeosu.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "돌산갓밭",
+        "여수",
+        "전남",
+        "갓밭",
+        "가을경관",
+        "돌산도",
+        "갓김치"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:04:11",
+      "operation_status": "seasonal",
+      "operating_hours": "11~12월 갓 시즌 (무료)",
+      "phone": "061-659-3745"
+    },
+    {
+      "experience_id": "EX-GG-NAT-052",
+      "name": "서울 근교 전곡 선사 유적 투어",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GG",
+      "region_sub": "경기도 연천군",
+      "address": "경기도 연천군 전곡읍 평화로443번길 34",
+      "lat": 38.1028,
+      "lng": 127.1231,
+      "price": "성인 3,000원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "어린이",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "경기도 연천 전곡리 구석기 유적지에 조성된 체험형 테마파크와 선사박물관을 탐방하는 체험이다. 70만 년 전 전기 구석기 문화를 어린이들이 직접 체험하며 배우는 역사 교육 체험이다.",
+      "source_urls": [
+        "https://www.yeoncheon.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "전곡선사유적",
+        "연천",
+        "경기",
+        "구석기",
+        "70만년전",
+        "어린이체험",
+        "역사교육"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:04:11",
+      "operation_status": "active",
+      "operating_hours": "09:30~17:30 (월요일 휴관)",
+      "phone": "031-839-2561"
+    },
+    {
+      "experience_id": "EX-GN-NAT-052",
+      "name": "남해 창선·삼천포 대교 드라이브",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 남해군",
+      "address": "경상남도 남해군 창선면 창선대교 일원",
+      "lat": 34.9306,
+      "lng": 128.0181,
+      "price": "무료",
+      "duration": "1시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "남해 창선도·삼천포를 연결하는 다섯 개 다리를 드라이브하는 체험이다. 섬과 섬 사이 바다 위를 달리는 5개 연속 교량 드라이브 코스가 독특하며 일몰 시간 드라이브가 특히 아름답다.",
+      "source_urls": [
+        "https://www.namhae.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "창선삼천포대교",
+        "남해",
+        "경남",
+        "드라이브",
+        "5개다리",
+        "일몰드라이브",
+        "섬"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:04:11",
+      "operation_status": "active",
+      "operating_hours": "연중 (무료)",
+      "phone": "055-860-3671"
+    },
+    {
+      "experience_id": "EX-GG-NAT-053",
+      "name": "가평 청평 아침호수 카누",
+      "category_main": "문화/체험",
+      "category_sub": "어드벤처/레포츠",
+      "region_main": "GG",
+      "region_sub": "경기도 가평군",
+      "address": "경기도 가평군 청평면 청평리 청평호",
+      "lat": 37.7703,
+      "lng": 127.4867,
+      "price": "1인 20,000원~",
+      "duration": "1~2시간",
+      "reservation_required": true,
+      "target_user": [
+        "커플",
+        "개인",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "경기도 가평 청평호에서 카누를 타며 이른 아침 물안개 호수를 즐기는 체험이다. 이른 아침 잔잔한 청평호 수면에 물안개가 피어오를 때 카누를 타면 동화 같은 분위기를 즐길 수 있다.",
+      "source_urls": [
+        "https://www.gapyeong.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "청평호카누",
+        "가평",
+        "경기",
+        "카누",
+        "물안개",
+        "이른아침",
+        "청평호"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:04:11",
+      "operation_status": "seasonal",
+      "operating_hours": "5~10월",
+      "phone": "031-585-7401"
+    },
+    {
+      "experience_id": "EX-JN-NAT-053",
+      "name": "광주 5·18 민주광장 투어",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "JN",
+      "region_sub": "광주광역시 동구",
+      "address": "광주광역시 동구 금남로 1가 5·18민주광장",
+      "lat": 35.1486,
+      "lng": 126.9161,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "청년",
+        "외국인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "1980년 5·18 민주화운동의 중심 광장이었던 광주 구 전남도청과 5·18민주광장을 탐방하는 역사 체험이다. 국립아시아문화전당으로 변신한 공간에서 5·18 역사와 현재 문화 예술이 공존하는 현장을 이해한다.",
+      "source_urls": [
+        "https://www.gwangju.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "5·18민주광장",
+        "광주",
+        "전남도청",
+        "민주화운동",
+        "역사탐방",
+        "아시아문화전당",
+        "무료"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:04:11",
+      "operation_status": "active",
+      "operating_hours": "연중 (무료)",
+      "phone": "062-380-8888"
+    },
+    {
+      "experience_id": "EX-GW-NAT-048",
+      "name": "속초 외옹치 바다향기 산책로",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 속초시",
+      "address": "강원특별자치도 속초시 외옹치 해안가",
+      "lat": 38.2044,
+      "lng": 128.5917,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "속초 외옹치 해안 절벽에 조성된 바다향기 산책로를 걷는 체험이다. 2.2km 해안 산책로 중 일부 구간이 유리 바닥으로 되어있어 발아래 동해 바다가 보이는 스릴 있는 트레킹 코스다.",
+      "source_urls": [
+        "https://www.sokcho.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "외옹치",
+        "속초",
+        "강원",
+        "바다향기산책로",
+        "해안산책로",
+        "유리바닥",
+        "동해"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:04:11",
+      "operation_status": "active",
+      "operating_hours": "연중 (무료)",
+      "phone": "033-639-2690"
+    },
+    {
+      "experience_id": "EX-GN-NAT-053",
+      "name": "진해 불모산 철쭉 트레킹",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 창원시",
+      "address": "경상남도 창원시 성산구 불모산",
+      "lat": 35.1758,
+      "lng": 128.7419,
+      "price": "무료",
+      "duration": "3~4시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "창원 진해 불모산에서 5월 철쭉이 만개하는 시기에 트레킹하는 체험이다. 군항제 벚꽃 시즌과 연이어 철쭉이 피는 불모산은 진해의 봄을 두 번 즐기는 코스로 경남 봄 트레킹 명소다.",
+      "source_urls": [
+        "https://www.changwon.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "불모산철쭉",
+        "진해",
+        "창원",
+        "경남",
+        "철쭉",
+        "5월",
+        "봄트레킹"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:04:11",
+      "operation_status": "annual",
+      "operating_hours": "5월 철쭉 시즌 (무료)",
+      "phone": "055-225-3691"
+    },
+    {
+      "experience_id": "EX-JN-NAT-054",
+      "name": "화순 세량지 벚꽃 반영",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 화순군",
+      "address": "전라남도 화순군 이양면 증리 세량지",
+      "lat": 34.9781,
+      "lng": 127.1367,
+      "price": "무료",
+      "duration": "1시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "전남 화순 세량지에서 봄 벚꽃이 저수지 수면에 반영되는 아름다운 장면을 감상하는 체험이다. 새벽 수면이 잔잔할 때 벚꽃 반영이 완벽한 대칭을 이루는 장면이 전국 사진가들이 찾는 봄 포토 명소다.",
+      "source_urls": [
+        "https://www.hwasun.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "세량지벚꽃",
+        "화순",
+        "전남",
+        "벚꽃반영",
+        "새벽",
+        "봄꽃",
+        "사진명소"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:04:11",
+      "operation_status": "annual",
+      "operating_hours": "3월 말~4월 초 벚꽃 시즌 (무료)",
+      "phone": "061-379-3886"
+    },
+    {
+      "experience_id": "EX-GG-NAT-054",
+      "name": "동두천 자유시장 로데오거리",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GG",
+      "region_sub": "경기도 동두천시",
+      "address": "경기도 동두천시 생연동 자유시장 일원",
+      "lat": 37.9044,
+      "lng": 127.0667,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "동두천 미군 기지 인근 자유시장과 로데오거리를 탐방하는 역사 문화 체험이다. 한국 록과 힙합 문화의 발상지 동두천에서 한국 대중음악 역사와 다문화 혼합 문화를 이해하는 독특한 여행 체험이다.",
+      "source_urls": [
+        "https://www.ddc.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "동두천자유시장",
+        "동두천",
+        "경기",
+        "로데오거리",
+        "미군기지",
+        "록문화",
+        "다문화"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:04:11",
+      "operation_status": "active",
+      "operating_hours": "연중",
+      "phone": "031-860-2022"
     }
   ],
   "last_updated": "2026-05-07T04:18:31"
