@@ -1,8 +1,8 @@
 {
   "_comment": "겜코리아 체험 데이터 — 역사/자연 마커와 분리. 삭제 금지. 젬투어 상품 후보.",
   "_version": "1.0",
-  "_updated": "2026-05-10T03:20:29",
-  "total": 577,
+  "_updated": "2026-05-10T03:24:27",
+  "total": 589,
   "experiences": [
     {
       "experience_id": "EX-SE-MKT-001",
@@ -9766,7 +9766,7 @@
         "소원풍등"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-10T00:05:14",
       "operation_status": "annual",
       "operating_hours": "매년 2~3월 정월대보름",
@@ -10009,7 +10009,7 @@
         "응원"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-10T00:49:32",
       "operation_status": "seasonal",
       "operating_hours": "시즌 경기 일정 확인 (3~10월)",
@@ -10091,7 +10091,7 @@
         "가족체험"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-10T00:49:32",
       "operation_status": "active",
       "operating_hours": "09:00~17:00",
@@ -10212,7 +10212,7 @@
         "수영장"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-10T00:49:32",
       "operation_status": "active",
       "operating_hours": "06:00~21:00 (월요일 휴관)",
@@ -10253,7 +10253,7 @@
         "수원화성연계"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-10T00:49:32",
       "operation_status": "seasonal",
       "operating_hours": "시즌 경기 일정 (3~10월)",
@@ -10294,7 +10294,7 @@
         "단풍"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-10T00:49:32",
       "operation_status": "active",
       "operating_hours": "연중",
@@ -23528,6 +23528,493 @@
       "operation_status": "active",
       "operating_hours": "연중",
       "phone": "033-372-8445"
+    },
+    {
+      "experience_id": "EX-GW-NAT-060",
+      "name": "속초 청초호 카약+영금정",
+      "category_main": "문화/체험",
+      "category_sub": "어드벤처/레포츠",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 속초시",
+      "address": "강원특별자치도 속초시 청초호 일원",
+      "lat": 38.2022,
+      "lng": 128.5872,
+      "price": "카약 1인 20,000원~",
+      "duration": "2~3시간",
+      "reservation_required": true,
+      "target_user": [
+        "커플",
+        "개인",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "속초 청초호에서 카약을 타고 영금정 바위 해안까지 이동하는 해양 레저 체험이다. 잔잔한 청초호에서 카약을 배우고 동해 바다로 나가 설악산을 배경으로 패들링하는 특별한 경험이다.",
+      "source_urls": [
+        "https://www.sokcho.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "청초호카약",
+        "영금정",
+        "속초",
+        "강원",
+        "카약",
+        "해양레저",
+        "설악산배경"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:24:27",
+      "operation_status": "seasonal",
+      "operating_hours": "5~10월",
+      "phone": "033-639-2690"
+    },
+    {
+      "experience_id": "EX-JN-NAT-070",
+      "name": "구례 화엄사 가을 단풍",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 구례군",
+      "address": "전라남도 구례군 마산면 화엄사로 539",
+      "lat": 35.2156,
+      "lng": 127.5053,
+      "price": "성인 4,000원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "지리산 자락 화엄사에서 10~11월 가을 단풍을 감상하는 체험이다. 화엄사 각황전과 계곡 단풍이 어우러지는 전남 최고 단풍 사찰로 구례 산수유 마을과 함께 구례 가을 완벽 코스다.",
+      "source_urls": [
+        "https://www.hwaeomsa.org/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "화엄사단풍",
+        "구례",
+        "전남",
+        "지리산",
+        "각황전",
+        "가을트레킹",
+        "단풍"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:24:27",
+      "operation_status": "annual",
+      "operating_hours": "10~11월 단풍 시즌",
+      "phone": "061-782-7600"
+    },
+    {
+      "experience_id": "EX-GN-NAT-068",
+      "name": "밀양 임천서원+영남루 투어",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 밀양시",
+      "address": "경상남도 밀양시 중앙로 324 영남루",
+      "lat": 35.4939,
+      "lng": 128.7436,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "가족",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "관동팔경 버금가는 영남루와 밀양 임천서원을 탐방하는 역사 체험이다. 영남루는 밀양강이 내려다보이는 조선 시대 누각으로 한국 3대 누각 중 하나이며 얼음골·표충사와 함께 밀양 완벽 역사 코스다.",
+      "source_urls": [
+        "https://www.miryang.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "영남루",
+        "밀양",
+        "경남",
+        "조선3대누각",
+        "밀양강",
+        "임천서원",
+        "역사"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:24:27",
+      "operation_status": "active",
+      "operating_hours": "연중 (무료)",
+      "phone": "055-359-5638"
+    },
+    {
+      "experience_id": "EX-GG-NAT-063",
+      "name": "고양 행주산성+한강변 봄꽃",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GG",
+      "region_sub": "경기도 고양시",
+      "address": "경기도 고양시 덕양구 행주로 15번길 89",
+      "lat": 37.6089,
+      "lng": 126.8366,
+      "price": "행주산성 성인 1,000원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "행주산성 역사 탐방 후 한강변 봄꽃을 즐기는 고양 봄 코스다. 임진왜란 행주대첩 현장에서 역사를 이해하고 한강변 유채꽃·벚꽃이 피는 봄 시즌에 방문하면 역사+자연의 완벽한 봄 여행이 된다.",
+      "source_urls": [
+        "https://www.goyang.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "행주산성봄꽃",
+        "고양",
+        "경기",
+        "행주대첩",
+        "한강변",
+        "봄꽃",
+        "역사+자연"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:24:27",
+      "operation_status": "annual",
+      "operating_hours": "3~4월 봄꽃 시즌",
+      "phone": "031-924-9520"
+    },
+    {
+      "experience_id": "EX-JN-NAT-071",
+      "name": "광양 망덕산 편백 숲길",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 광양시",
+      "address": "전라남도 광양시 봉강면 망덕산 편백 숲",
+      "lat": 34.9878,
+      "lng": 127.635,
+      "price": "무료",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "광양 망덕산 편백 숲길을 걷는 피톤치드 힐링 트레킹이다. 광양 섬진강 인근에 위치해 매화꽃 시즌에 편백 숲 트레킹과 매화 꽃밭을 동시에 즐기는 광양 봄 완벽 힐링 코스다.",
+      "source_urls": [
+        "https://www.gwangyang.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "망덕산편백숲",
+        "광양",
+        "전남",
+        "편백",
+        "피톤치드",
+        "매화꽃",
+        "봄힐링"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:24:27",
+      "operation_status": "active",
+      "operating_hours": "연중 (무료)",
+      "phone": "061-797-2657"
+    },
+    {
+      "experience_id": "EX-GN-NAT-069",
+      "name": "양산 천성산 습지 트레킹",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 양산시",
+      "address": "경상남도 양산시 하북면 내원사길 천성산",
+      "lat": 35.3411,
+      "lng": 129.0097,
+      "price": "무료",
+      "duration": "3~4시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "경남 양산 천성산 정상부 고산 습지 화엄늪을 탐방하는 트레킹이다. 해발 800m 고산에 형성된 희귀 습지 생태계를 탐방하며 경남 최고 고산 습지 경관을 즐기는 코스다.",
+      "source_urls": [
+        "https://www.yangsan.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "천성산습지",
+        "화엄늪",
+        "양산",
+        "경남",
+        "고산습지",
+        "트레킹",
+        "희귀생태"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:24:27",
+      "operation_status": "active",
+      "operating_hours": "연중",
+      "phone": "055-370-2114"
+    },
+    {
+      "experience_id": "EX-GW-NAT-061",
+      "name": "속초 아이들과 설악수련관",
+      "category_main": "문화/체험",
+      "category_sub": "캠핑/글램핑",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 속초시",
+      "address": "강원특별자치도 속초시 설악산로 830",
+      "lat": 38.1186,
+      "lng": 128.4639,
+      "price": "1박 30,000원~",
+      "duration": "1박 2일",
+      "reservation_required": true,
+      "target_user": [
+        "가족",
+        "어린이"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "설악산 입구에 위치한 설악 수련관에서 어린이와 함께하는 숙박 체험이다. 설악산 국립공원 탐방과 야외 모닥불·별 관측을 결합한 가족 캠핑 체험으로 어린이에게 특별한 자연 체험을 선물한다.",
+      "source_urls": [
+        "https://seorak.knps.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "설악수련관",
+        "속초",
+        "강원",
+        "설악산",
+        "어린이캠핑",
+        "가족",
+        "야외"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:24:27",
+      "operation_status": "seasonal",
+      "operating_hours": "5~10월 (예약 필수)",
+      "phone": "033-636-7700"
+    },
+    {
+      "experience_id": "EX-JN-NAT-072",
+      "name": "담양 한옥마을 대나무 악기 체험",
+      "category_main": "문화/체험",
+      "category_sub": "문화예술",
+      "region_main": "JN",
+      "region_sub": "전라남도 담양군",
+      "address": "전라남도 담양군 담양읍 추성로 일원",
+      "lat": 35.3179,
+      "lng": 126.9817,
+      "price": "1인 20,000원",
+      "duration": "1~2시간",
+      "reservation_required": true,
+      "target_user": [
+        "가족",
+        "개인",
+        "외국인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "담양 대나무를 이용해 전통 대나무 악기(단소·퉁소·소금)를 만들고 연주하는 체험이다. 대나무의 고장 담양에서 대나무가 악기가 되는 전통 공예 문화를 직접 체험한다.",
+      "source_urls": [
+        "https://www.damyang.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "담양대나무악기",
+        "담양",
+        "전남",
+        "단소",
+        "퉁소",
+        "전통악기",
+        "대나무공예"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:24:27",
+      "operation_status": "active",
+      "operating_hours": "10:00~17:00",
+      "phone": "061-380-2910"
+    },
+    {
+      "experience_id": "EX-GG-NAT-064",
+      "name": "가평 잣나무 숲길 피톤치드",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GG",
+      "region_sub": "경기도 가평군",
+      "address": "경기도 가평군 가평읍 잣나무로 일원",
+      "lat": 37.8583,
+      "lng": 127.5097,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "잣의 고장 가평에서 잣나무 숲길을 걷는 피톤치드 힐링 체험이다. 잣나무 특유의 향기가 가득한 숲길을 산책하며 자연 치유를 즐기고 가을에는 잣나무에서 잣이 떨어지는 장면을 볼 수 있다.",
+      "source_urls": [
+        "https://www.gapyeong.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "가평잣나무숲",
+        "가평",
+        "경기",
+        "잣나무",
+        "피톤치드",
+        "삼림욕",
+        "힐링"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:24:27",
+      "operation_status": "active",
+      "operating_hours": "연중 (무료)",
+      "phone": "031-580-2726"
+    },
+    {
+      "experience_id": "EX-GN-NAT-070",
+      "name": "거제 흑진주 몽돌해변 석양",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 거제시",
+      "address": "경상남도 거제시 동부면 학동리 몽돌해변",
+      "lat": 34.8128,
+      "lng": 128.6897,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "거제 학동 흑진주 몽돌해변에서 일몰을 감상하는 체험이다. 검은 몽돌 해변 위로 붉은 석양이 지는 장면과 파도 소리가 몽돌에 부딪히는 소리가 어우러지는 거제 최고의 저녁 명소다.",
+      "source_urls": [
+        "https://www.geoje.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "학동몽돌해변",
+        "거제",
+        "경남",
+        "흑진주",
+        "일몰",
+        "몽돌",
+        "파도소리"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:24:27",
+      "operation_status": "active",
+      "operating_hours": "연중 (무료)",
+      "phone": "055-639-4172"
+    },
+    {
+      "experience_id": "EX-GW-NAT-062",
+      "name": "평창 봉평 메밀꽃밭 사진 투어",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 평창군",
+      "address": "강원특별자치도 평창군 봉평면 메밀꽃밭",
+      "lat": 37.5658,
+      "lng": 128.4906,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "평창 봉평 메밀꽃밭에서 8~9월 하얀 메밀꽃을 배경으로 사진을 찍는 체험이다. 이효석 소설 메밀꽃 필 무렵의 배경지 봉평 들판이 하얗게 물드는 장관을 카메라에 담는 사진 여행이다.",
+      "source_urls": [
+        "https://www.hyoseok.com/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "봉평메밀꽃밭",
+        "평창",
+        "강원",
+        "메밀꽃",
+        "사진투어",
+        "이효석",
+        "봄"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:24:27",
+      "operation_status": "annual",
+      "operating_hours": "8~9월 메밀꽃 시즌",
+      "phone": "033-330-2700"
+    },
+    {
+      "experience_id": "EX-JN-NAT-073",
+      "name": "구례 지리산 노고단 일출",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 구례군",
+      "address": "전라남도 구례군 마산면 산동로 지리산 노고단",
+      "lat": 35.3444,
+      "lng": 127.4614,
+      "price": "탐방 신청 필수",
+      "duration": "4~5시간",
+      "reservation_required": true,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "지리산 노고단에서 새벽 일출을 감상하는 트레킹 체험이다. 해발 1,507m 노고단에서 바라보는 섬진강·남해·구름 바다가 어우러지는 일출이 한국 국립공원 최고 일출 명소 중 하나다.",
+      "source_urls": [
+        "https://jiri.knps.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "노고단일출",
+        "지리산",
+        "구례",
+        "전남",
+        "섬진강",
+        "구름바다",
+        "새벽트레킹"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:24:27",
+      "operation_status": "active",
+      "operating_hours": "일출 전 탐방 신청",
+      "phone": "061-780-7700"
     }
   ],
   "last_updated": "2026-05-07T04:18:31"
