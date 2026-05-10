@@ -1,8 +1,8 @@
 {
   "_comment": "겜코리아 체험 데이터 — 역사/자연 마커와 분리. 삭제 금지. 젬투어 상품 후보.",
   "_version": "1.0",
-  "_updated": "2026-05-10T01:39:27",
-  "total": 301,
+  "_updated": "2026-05-10T01:51:04",
+  "total": 313,
   "experiences": [
     {
       "experience_id": "EX-SE-MKT-001",
@@ -2683,7 +2683,7 @@
         "겨울여행"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-08T09:22:53",
       "operation_status": "seasonal",
       "operating_hours": "08:30~21:00",
@@ -2724,7 +2724,7 @@
         "여름여행"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-08T09:22:53",
       "operation_status": "seasonal",
       "operating_hours": "상시 (성수기 4~10월)",
@@ -2766,7 +2766,7 @@
         "가족여행"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-08T09:22:53",
       "operation_status": "active",
       "operating_hours": "09:00~17:00",
@@ -2807,7 +2807,7 @@
         "천체"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-08T09:22:53",
       "operation_status": "active",
       "operating_hours": "09:30~17:30 (월요일 휴관)",
@@ -2849,7 +2849,7 @@
         "부산항"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-08T09:22:53",
       "operation_status": "active",
       "operating_hours": "09:00~18:00 (월요일 휴관)",
@@ -2890,7 +2890,7 @@
         "서울근교"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-08T09:22:53",
       "operation_status": "active",
       "operating_hours": "09:30~17:30 (월요일 휴관)",
@@ -3052,7 +3052,7 @@
         "여름여행"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-08T09:27:54",
       "operation_status": "seasonal",
       "operating_hours": "08:00~17:00 (5~10월)",
@@ -3093,7 +3093,7 @@
         "스릴체험"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-08T09:27:54",
       "operation_status": "active",
       "operating_hours": "09:00~17:00",
@@ -12330,6 +12330,492 @@
       "operation_status": "seasonal",
       "operating_hours": "5~9월 소금 생산 시즌",
       "phone": "061-240-8556"
+    },
+    {
+      "experience_id": "EX-GW-NAT-005",
+      "name": "원주 소금산 출렁다리",
+      "category_main": "문화/체험",
+      "category_sub": "어드벤처/레포츠",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 원주시",
+      "address": "강원특별자치도 원주시 지정면 소금산길 12",
+      "lat": 37.4608,
+      "lng": 127.9419,
+      "price": "성인 3,000원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "섬강 협곡 100m 높이에 설치된 길이 200m 출렁다리를 건너는 어드벤처 체험이다. 투명 바닥 출렁다리를 걸으면 발아래로 섬강과 기암절벽이 내려다보이며 짜릿한 스릴을 느낄 수 있다.",
+      "source_urls": [
+        "https://www.wonju.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "소금산출렁다리",
+        "원주",
+        "강원",
+        "출렁다리",
+        "섬강",
+        "협곡",
+        "어드벤처"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:51:04",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00 (월요일 휴관)",
+      "phone": "033-737-3011"
+    },
+    {
+      "experience_id": "EX-GN-NAT-004",
+      "name": "남해 보물섬 이순신 순국 공원",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 남해군",
+      "address": "경상남도 남해군 고현면 관음포리 이순신공원",
+      "lat": 34.845,
+      "lng": 127.9236,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "노량해전에서 이순신 장군이 전사한 현장 관음포 앞바다를 내려다보며 이충무공 순국 공원을 탐방한다. 이순신의 마지막 전투와 최후를 기억하는 추모 공간으로 남해 바다가 한눈에 펼쳐진다.",
+      "source_urls": [
+        "https://www.namhae.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "이순신순국공원",
+        "남해",
+        "노량해전",
+        "이순신",
+        "경남",
+        "임진왜란",
+        "순국"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:51:04",
+      "operation_status": "active",
+      "operating_hours": "연중 (무료)",
+      "phone": "055-860-3710"
+    },
+    {
+      "experience_id": "EX-CB-NAT-002",
+      "name": "충주 수안보 온천 체험",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "CB",
+      "region_sub": "충청북도 충주시",
+      "address": "충청북도 충주시 수안보면 수안보로 일원",
+      "lat": 36.8403,
+      "lng": 127.9631,
+      "price": "입욕 성인 8,000원~",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "한국 최초의 온천 휴양지 수안보에서 탄산수소나트륨 성분의 천연 온천을 즐기는 체험이다. 고려 시대부터 왕실에서 사용했다는 기록이 있는 수안보 온천은 피부 미용에 탁월하다.",
+      "source_urls": [
+        "https://www.suanbo.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "수안보온천",
+        "충주",
+        "충북",
+        "온천",
+        "탄산온천",
+        "역사온천",
+        "피부미용"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:51:04",
+      "operation_status": "active",
+      "operating_hours": "06:00~22:00",
+      "phone": "043-846-0500"
+    },
+    {
+      "experience_id": "EX-GG-NAT-005",
+      "name": "양평 두물머리 아침 사진 투어",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GG",
+      "region_sub": "경기도 양평군",
+      "address": "경기도 양평군 양서면 양수리 두물머리 일원",
+      "lat": 37.5334,
+      "lng": 127.4772,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "남한강과 북한강이 만나는 두물머리에서 이른 아침 물안개와 느티나무를 배경으로 사진을 찍는 투어다. 새벽 6시 안개가 강을 덮을 때 400년 된 느티나무 실루엣이 연출하는 풍경이 사진 명소다.",
+      "source_urls": [
+        "https://www.yangpyeong.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "두물머리",
+        "양평",
+        "경기",
+        "물안개",
+        "느티나무",
+        "사진명소",
+        "새벽"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:51:04",
+      "operation_status": "active",
+      "operating_hours": "연중 (새벽 5~9시 추천)",
+      "phone": "031-771-2068"
+    },
+    {
+      "experience_id": "EX-JN-NAT-004",
+      "name": "화순 운주사 천불천탑 탐방",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 화순군",
+      "address": "전라남도 화순군 도암면 천불로 780",
+      "lat": 34.9453,
+      "lng": 126.9317,
+      "price": "성인 2,000원",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "화순 운주사에는 천 개의 석불과 천 개의 석탑이 가득 들어찬 신비로운 사찰이다. 누워있는 와불 2구를 포함한 특이한 형태의 불상들이 계곡을 가득 채우고 있어 다른 곳에서 볼 수 없는 독특한 분위기를 자아낸다.",
+      "source_urls": [
+        "https://www.hwasun.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "운주사",
+        "화순",
+        "전남",
+        "천불천탑",
+        "와불",
+        "신비",
+        "석불"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:51:04",
+      "operation_status": "active",
+      "operating_hours": "08:30~17:30",
+      "phone": "061-374-0660"
+    },
+    {
+      "experience_id": "EX-GG-NAT-006",
+      "name": "용인 호암미술관·에버랜드 세트",
+      "category_main": "문화/체험",
+      "category_sub": "미술관",
+      "region_main": "GG",
+      "region_sub": "경기도 용인시",
+      "address": "경기도 용인시 처인구 포곡읍 에버랜드로 562번길 38",
+      "lat": 37.2832,
+      "lng": 127.1873,
+      "price": "성인 10,000원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "삼성 이병철 회장이 설립한 한국 미술 전문 미술관으로 수준 높은 한국 고미술과 현대 미술을 전시한다. 에버랜드와 인접해 있어 미술관 관람 후 에버랜드로 이동하는 문화+놀이 세트 코스가 가능하다.",
+      "source_urls": [
+        "https://hoammuseum.com/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "호암미술관",
+        "용인",
+        "경기",
+        "한국미술",
+        "삼성",
+        "에버랜드",
+        "미술관"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:51:04",
+      "operation_status": "active",
+      "operating_hours": "10:00~18:00 (월요일 휴관)",
+      "phone": "031-320-1801"
+    },
+    {
+      "experience_id": "EX-GW-NAT-006",
+      "name": "강릉 하슬라아트월드 야경",
+      "category_main": "문화/체험",
+      "category_sub": "야경/야간투어",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 강릉시",
+      "address": "강원특별자치도 강릉시 강동면 율곡로 1441",
+      "lat": 37.702,
+      "lng": 129.0544,
+      "price": "성인 12,000원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "강릉 동해 바다가 내려다보이는 절벽 위에 조성된 복합 예술 공간 하슬라아트월드를 야간에 탐방한다. 야외 조각 공원과 미디어아트 전시가 동해 바다 야경과 어우러지는 강릉 대표 문화 야경 명소다.",
+      "source_urls": [
+        "https://www.haslla.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "하슬라아트월드",
+        "강릉",
+        "강원",
+        "야경",
+        "동해",
+        "조각공원",
+        "미디어아트"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:51:04",
+      "operation_status": "active",
+      "operating_hours": "10:00~21:00",
+      "phone": "033-644-9411"
+    },
+    {
+      "experience_id": "EX-JN-NAT-005",
+      "name": "여수 향일암 일출 탐방",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 여수시",
+      "address": "전라남도 여수시 돌산읍 향일암로 60",
+      "lat": 34.6539,
+      "lng": 127.7547,
+      "price": "성인 2,000원",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "바위 절벽에 매달린 천년 고찰 향일암에서 해가 뜨는 일출을 감상하는 탐방이다. 향일암은 해를 향한다는 뜻으로 남해 다도해를 배경으로 한 일출이 한국 4대 일출 명소 중 하나다.",
+      "source_urls": [
+        "https://www.hyangiram.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "향일암",
+        "여수",
+        "전남",
+        "일출",
+        "4대일출",
+        "남해",
+        "다도해"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:51:04",
+      "operation_status": "active",
+      "operating_hours": "04:30~20:00",
+      "phone": "061-644-4742"
+    },
+    {
+      "experience_id": "EX-GG-NAT-007",
+      "name": "포천 산정호수 자전거 투어",
+      "category_main": "문화/체험",
+      "category_sub": "어드벤처/레포츠",
+      "region_main": "GG",
+      "region_sub": "경기도 포천시",
+      "address": "경기도 포천시 영북면 산정호수로 395",
+      "lat": 38.1069,
+      "lng": 127.3414,
+      "price": "자전거 대여 1시간 5,000원~",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "명성산 자락에 위치한 산정호수 주변을 자전거로 라이딩하는 체험이다. 6.5km 호수 둘레길을 자전거로 돌며 명성산과 호수가 어우러지는 경관을 즐기고 가을 억새 시즌에 특히 아름답다.",
+      "source_urls": [
+        "https://www.pocheon.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "산정호수",
+        "포천",
+        "경기",
+        "자전거",
+        "명성산",
+        "억새",
+        "가을"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:51:04",
+      "operation_status": "active",
+      "operating_hours": "자전거 대여 09:00~18:00",
+      "phone": "031-532-6135"
+    },
+    {
+      "experience_id": "EX-GW-NAT-007",
+      "name": "인제 방태산 자연휴양림",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 인제군",
+      "address": "강원특별자치도 인제군 기린면 방태산휴양로 160",
+      "lat": 38.0572,
+      "lng": 128.2828,
+      "price": "성인 1,000원",
+      "duration": "2~5시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "강원도 오지 방태산의 원시림 속 자연휴양림에서 트레킹과 계곡 물놀이를 즐기는 체험이다. 인적이 드문 청정 자연 속에서 여름 계곡 수영과 가을 단풍을 즐길 수 있다.",
+      "source_urls": [
+        "https://www.huyang.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "방태산휴양림",
+        "인제",
+        "강원",
+        "원시림",
+        "계곡",
+        "자연",
+        "힐링"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:51:04",
+      "operation_status": "active",
+      "operating_hours": "연중",
+      "phone": "033-463-2590"
+    },
+    {
+      "experience_id": "EX-JN-NAT-006",
+      "name": "완도 청산도 걷기 여행",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 완도군",
+      "address": "전라남도 완도군 청산면 청산리 청산도 일원",
+      "lat": 34.1958,
+      "lng": 126.8681,
+      "price": "배 왕복 10,000원 (자전거 대여 별도)",
+      "duration": "1박 2일",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "아시아 최초 슬로시티 완도 청산도에서 섬 둘레 42km 슬로길을 천천히 걷는 힐링 여행이다. 청보리밭·돌담길·당리 해변을 따라 걷는 코스로 완주하면 청산도 슬로걷기 인증서를 받을 수 있다.",
+      "source_urls": [
+        "https://www.wando.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "청산도",
+        "완도",
+        "전남",
+        "슬로길",
+        "걷기여행",
+        "청보리",
+        "슬로시티"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:51:04",
+      "operation_status": "active",
+      "operating_hours": "연중",
+      "phone": "061-554-1501"
+    },
+    {
+      "experience_id": "EX-GG-NAT-008",
+      "name": "가평 아침고요수목원 사계절",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GG",
+      "region_sub": "경기도 가평군",
+      "address": "경기도 가평군 상면 수목원로 432",
+      "lat": 37.8119,
+      "lng": 127.4547,
+      "price": "성인 13,000원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "가평 아침고요수목원은 한반도 지형 정원·일출 정원·하경 정원·분재 정원 등 특색 있는 테마 정원으로 꾸며진 사계절 식물원이다. 겨울 빛 축제·봄 튤립·가을 단풍·여름 수국이 시즌별로 유명하다.",
+      "source_urls": [
+        "https://www.morningcalm.co.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "아침고요수목원",
+        "가평",
+        "경기",
+        "수목원",
+        "사계절",
+        "빛축제",
+        "튤립"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:51:04",
+      "operation_status": "active",
+      "operating_hours": "08:30~20:00 (계절별 상이)",
+      "phone": "1544-6703"
     }
   ],
   "last_updated": "2026-05-07T04:18:31"
