@@ -1,8 +1,8 @@
 {
   "_comment": "겜코리아 체험 데이터 — 역사/자연 마커와 분리. 삭제 금지. 젬투어 상품 후보.",
   "_version": "1.0",
-  "_updated": "2026-05-10T01:24:29",
-  "total": 266,
+  "_updated": "2026-05-10T01:29:39",
+  "total": 278,
   "experiences": [
     {
       "experience_id": "EX-SE-MKT-001",
@@ -1727,7 +1727,7 @@
         "쇼핑"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "operation_status": "needs_check",
       "operating_hours": "",
       "phone": "",
@@ -1845,7 +1845,7 @@
         "https://www.najuindigo.com/"
       ],
       "operation_status": "운영중",
-      "shorts_status": "waiting"
+      "shorts_status": "review_pending"
     },
     {
       "experience_id": "EX-GB-CRF-002",
@@ -1872,7 +1872,7 @@
         "https://www.gyeongju.go.kr/"
       ],
       "operation_status": "운영중",
-      "shorts_status": "waiting"
+      "shorts_status": "review_pending"
     },
     {
       "experience_id": "EX-CN-FRM-001",
@@ -1926,7 +1926,7 @@
         "https://www.sunchang.go.kr/jang/"
       ],
       "operation_status": "운영중",
-      "shorts_status": "waiting"
+      "shorts_status": "review_pending"
     },
     {
       "experience_id": "EX-JJ-OCN-001",
@@ -1953,7 +1953,7 @@
         "https://www.haenyeo.go.kr/"
       ],
       "operation_status": "운영중",
-      "shorts_status": "waiting"
+      "shorts_status": "review_pending"
     },
     {
       "experience_id": "EX-CN-OCN-001",
@@ -1980,7 +1980,7 @@
         "https://www.taean.go.kr/"
       ],
       "operation_status": "운영중",
-      "shorts_status": "waiting"
+      "shorts_status": "review_pending"
     },
     {
       "experience_id": "EX-JN-OCN-001",
@@ -2061,7 +2061,7 @@
         "https://www.pc.go.kr/"
       ],
       "operation_status": "운영중",
-      "shorts_status": "waiting"
+      "shorts_status": "review_pending"
     },
     {
       "experience_id": "EX-GW-NAT-002",
@@ -2088,7 +2088,7 @@
         "https://www.yangyang.go.kr/"
       ],
       "operation_status": "운영중",
-      "shorts_status": "waiting"
+      "shorts_status": "review_pending"
     },
     {
       "experience_id": "EX-JJ-NAT-001",
@@ -2142,7 +2142,7 @@
         "https://www.gugak.go.kr/"
       ],
       "operation_status": "운영중",
-      "shorts_status": "waiting"
+      "shorts_status": "review_pending"
     },
     {
       "experience_id": "EX-JB-ART-001",
@@ -10908,6 +10908,494 @@
       "operation_status": "active",
       "operating_hours": "09:00~22:00",
       "phone": "031-535-6494"
+    },
+    {
+      "experience_id": "EX-GW-AGR-002",
+      "name": "양평 블루베리 따기 체험",
+      "category_main": "문화/체험",
+      "category_sub": "농촌 체험",
+      "region_main": "GW",
+      "region_sub": "경기도 양평군",
+      "address": "경기도 양평군 양평읍 블루베리농장 일원",
+      "lat": 37.4888,
+      "lng": 127.4956,
+      "price": "1인 12,000원~",
+      "duration": "1~2시간",
+      "reservation_required": true,
+      "target_user": [
+        "가족",
+        "어린이",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "양평 블루베리 농장에서 직접 블루베리를 따는 여름 농촌 체험이다. 6~8월 수확 시즌에 운영하며 유기농 블루베리를 바로 따 먹으며 직접 딴 것을 바구니에 담아 가져갈 수 있다.",
+      "source_urls": [
+        "https://www.yangpyeong.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "블루베리따기",
+        "양평",
+        "경기",
+        "블루베리",
+        "여름체험",
+        "농촌",
+        "가족"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:29:39",
+      "operation_status": "seasonal",
+      "operating_hours": "6~8월 수확 시즌",
+      "phone": "031-773-5555"
+    },
+    {
+      "experience_id": "EX-GG-AGR-004",
+      "name": "강화도 인삼 캐기 체험",
+      "category_main": "문화/체험",
+      "category_sub": "농촌 체험",
+      "region_main": "GG",
+      "region_sub": "인천광역시 강화군",
+      "address": "인천광역시 강화군 양도면 인삼밭 일원",
+      "lat": 37.6645,
+      "lng": 126.5222,
+      "price": "1인 20,000원~",
+      "duration": "1~2시간",
+      "reservation_required": true,
+      "target_user": [
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "강화도 특산 강화 인삼을 직접 캐는 농촌 체험이다. 9~10월 수확 시즌에 운영하며 땅속에서 직접 인삼을 캐내고 씻어 수삼 주스와 인삼 요리를 즐기는 체험이다.",
+      "source_urls": [
+        "https://www.ganghwa.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "인삼캐기",
+        "강화도",
+        "인천",
+        "강화인삼",
+        "농촌체험",
+        "수삼",
+        "가족체험"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:29:39",
+      "operation_status": "seasonal",
+      "operating_hours": "9~10월 수확 시즌",
+      "phone": "032-934-7887"
+    },
+    {
+      "experience_id": "EX-GN-AGR-002",
+      "name": "산청 유기농 논 모내기 체험",
+      "category_main": "문화/체험",
+      "category_sub": "농촌 체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 산청군",
+      "address": "경상남도 산청군 산청읍 유기농논 일원",
+      "lat": 35.4136,
+      "lng": 127.8734,
+      "price": "1인 10,000원",
+      "duration": "2~3시간",
+      "reservation_required": true,
+      "target_user": [
+        "가족",
+        "어린이",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "지리산 자락 산청에서 유기농 논에 직접 모내기를 하는 전통 농경 체험이다. 5~6월 모내기 시즌에 운영하며 전통 방식 모내기 후 산청 전통 음식으로 새참을 즐기는 농촌 문화 체험이다.",
+      "source_urls": [
+        "https://www.sancheong.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "모내기체험",
+        "산청",
+        "경남",
+        "유기농",
+        "전통농사",
+        "새참",
+        "지리산"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:29:39",
+      "operation_status": "seasonal",
+      "operating_hours": "5~6월 모내기 시즌",
+      "phone": "055-970-6400"
+    },
+    {
+      "experience_id": "EX-JN-FES-005",
+      "name": "진도 강강술래 체험",
+      "category_main": "문화/체험",
+      "category_sub": "문화예술",
+      "region_main": "JN",
+      "region_sub": "전라남도 진도군",
+      "address": "전라남도 진도군 진도읍 남동리 강강술래 전수관",
+      "lat": 34.4897,
+      "lng": 126.264,
+      "price": "체험 1인 10,000원",
+      "duration": "1~2시간",
+      "reservation_required": true,
+      "target_user": [
+        "가족",
+        "개인",
+        "외국인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "유네스코 인류무형문화유산 강강술래의 본고장 진도에서 직접 손을 잡고 강강술래를 배우는 체험이다. 전수관에서 전문 전수자에게 기본 강강술래부터 빠른 배기 강강술래까지 배운다.",
+      "source_urls": [
+        "https://www.jindo.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "강강술래",
+        "진도",
+        "전남",
+        "유네스코",
+        "전통무용",
+        "여성문화",
+        "추석"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:29:39",
+      "operation_status": "active",
+      "operating_hours": "화~일 10:00~17:00",
+      "phone": "061-540-6479"
+    },
+    {
+      "experience_id": "EX-GN-FES-005",
+      "name": "고성 공룡 세계 엑스포 체험",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 고성군",
+      "address": "경상남도 고성군 회화면 당항만로 1116",
+      "lat": 35.0167,
+      "lng": 128.3392,
+      "price": "성인 9,000원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "어린이"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "세계 3대 공룡 화석지 고성에서 열리는 공룡 엑스포와 체험 파크를 탐방하는 체험이다. 실물 크기 공룡 로봇·공룡 화석 발굴 체험·공룡 기차를 즐기며 1억 년 전 지구를 상상하는 어린이 교육 여행이다.",
+      "source_urls": [
+        "https://www.coseong.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "공룡엑스포",
+        "고성",
+        "경남",
+        "공룡",
+        "어린이",
+        "화석발굴",
+        "가족여행"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:29:39",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00",
+      "phone": "055-670-4161"
+    },
+    {
+      "experience_id": "EX-CB-CUL-002",
+      "name": "청주 고인쇄박물관 활자 체험",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "CB",
+      "region_sub": "충청북도 청주시",
+      "address": "충청북도 청주시 흥덕구 직지로 713",
+      "lat": 36.6275,
+      "lng": 127.4447,
+      "price": "성인 3,000원",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인",
+        "외국인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "세계 최초 금속활자본 직지심체요절이 인쇄된 흥덕사 터에 세워진 고인쇄박물관에서 금속활자 인쇄를 직접 체험한다. 구텐베르크보다 78년 앞선 직지심체요절의 역사를 배우고 직접 활자를 배열해 인쇄해볼 수 있다.",
+      "source_urls": [
+        "https://jikjimuseum.cheongju.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "고인쇄박물관",
+        "청주",
+        "직지심체요절",
+        "금속활자",
+        "세계최초",
+        "충북",
+        "활판인쇄"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:29:39",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00 (월요일 휴관)",
+      "phone": "043-201-4266"
+    },
+    {
+      "experience_id": "EX-GG-CUL-005",
+      "name": "여주 세종대왕 역사 체험",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GG",
+      "region_sub": "경기도 여주시",
+      "address": "경기도 여주시 능서면 왕대리 세종대왕릉",
+      "lat": 37.2921,
+      "lng": 127.5583,
+      "price": "성인 500원",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인",
+        "외국인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "세종대왕이 잠든 영릉(英陵)을 탐방하며 한글 창제·측우기·해시계 등 세종대왕의 업적을 체험형 전시로 이해하는 역사 투어다. 조선 왕릉 유네스코 세계유산 구역 안에 세종 과학관도 함께 운영된다.",
+      "source_urls": [
+        "https://royaltombs.cha.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "세종대왕릉",
+        "여주",
+        "경기",
+        "세종대왕",
+        "한글",
+        "유네스코",
+        "조선왕릉"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:29:39",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00 (월요일 휴관)",
+      "phone": "031-884-9191"
+    },
+    {
+      "experience_id": "EX-GW-CUL-006",
+      "name": "강릉 오죽헌 신사임당 서예 체험",
+      "category_main": "문화/체험",
+      "category_sub": "문화예술",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 강릉시",
+      "address": "강원특별자치도 강릉시 율곡로3139번길 24",
+      "lat": 37.7704,
+      "lng": 128.8978,
+      "price": "체험 1인 10,000원",
+      "duration": "1시간",
+      "reservation_required": true,
+      "target_user": [
+        "개인",
+        "커플",
+        "외국인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "5만원권 지폐의 신사임당과 5000원권의 율곡 이이가 태어난 강릉 오죽헌에서 전통 서예와 그림 체험을 하는 프로그램이다. 신사임당의 초충도 문양을 붓으로 직접 그리고 율곡 이이의 한자 글씨를 써본다.",
+      "source_urls": [
+        "https://ojukheon.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "오죽헌",
+        "강릉",
+        "신사임당",
+        "율곡이이",
+        "서예체험",
+        "초충도",
+        "5만원지폐"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:29:39",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00",
+      "phone": "033-660-3301"
+    },
+    {
+      "experience_id": "EX-JJ-CUL-002",
+      "name": "제주 흑돼지 직화구이 체험",
+      "category_main": "문화/체험",
+      "category_sub": "발효/음식",
+      "region_main": "JJ",
+      "region_sub": "제주특별자치도 제주시",
+      "address": "제주특별자치도 제주시 연동 일원",
+      "lat": 33.4892,
+      "lng": 126.4983,
+      "price": "2인 60,000원~",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "제주 흑돼지를 직화 화로에 직접 구워 먹는 체험이다. 제주 재래 흑돼지는 일반 삼겹살과 달리 살코기 비율이 높고 특유의 고소함이 있어 제주 대표 먹거리로 꼽힌다.",
+      "source_urls": [
+        "https://www.visitjeju.net/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "제주흑돼지",
+        "제주",
+        "재래흑돼지",
+        "직화구이",
+        "제주먹거리",
+        "흑돼지삼겹살",
+        "가족"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:29:39",
+      "operation_status": "active",
+      "operating_hours": "11:00~22:00",
+      "phone": "064-799-0001"
+    },
+    {
+      "experience_id": "EX-GG-CUL-006",
+      "name": "수원 왕갈비 만들기 체험",
+      "category_main": "문화/체험",
+      "category_sub": "발효/음식",
+      "region_main": "GG",
+      "region_sub": "경기도 수원시",
+      "address": "경기도 수원시 팔달구 화성행궁 인근",
+      "lat": 37.279,
+      "lng": 126.9932,
+      "price": "1인 30,000원",
+      "duration": "2시간",
+      "reservation_required": true,
+      "target_user": [
+        "가족",
+        "개인",
+        "외국인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "정조대왕이 사랑했다는 수원 왕갈비의 전통 양념 레시피를 배우고 직접 재워 구워 먹는 체험이다. 화성행궁 인근 요리 공방에서 조선 시대 왕갈비 역사와 양념 비법을 배운다.",
+      "source_urls": [
+        "https://www.suwon.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "수원왕갈비",
+        "수원",
+        "경기",
+        "갈비",
+        "정조대왕",
+        "왕갈비",
+        "요리체험"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:29:39",
+      "operation_status": "active",
+      "operating_hours": "11:00~18:00",
+      "phone": "031-228-4700"
+    },
+    {
+      "experience_id": "EX-JB-CUL-005",
+      "name": "익산 마한 백제 고분 투어",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "JB",
+      "region_sub": "전라북도 익산시",
+      "address": "전라북도 익산시 왕궁면 왕궁리 유적지",
+      "lat": 35.9622,
+      "lng": 126.9765,
+      "price": "성인 1,000원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "유네스코 세계유산 익산 왕궁리 유적과 미륵사지를 탐방하는 백제 역사 투어다. 백제 최전성기 무왕의 수도였던 익산에서 마한과 백제의 교차점을 이해하고 국내 최대 사지 미륵사지 석탑을 관람한다.",
+      "source_urls": [
+        "https://iksan.museum.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "익산왕궁리",
+        "미륵사지",
+        "익산",
+        "전북",
+        "백제",
+        "유네스코",
+        "무왕"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:29:39",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00 (월요일 휴관)",
+      "phone": "063-859-4631"
+    },
+    {
+      "experience_id": "EX-GN-CUL-003",
+      "name": "거제 포로수용소 VR 체험",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 거제시",
+      "address": "경상남도 거제시 계룡로 61",
+      "lat": 34.8804,
+      "lng": 128.6201,
+      "price": "성인 9,000원",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "6·25 전쟁 거제 포로수용소 역사관에서 VR 체험으로 1952년 거제 포로 반란 사건을 체험하는 역사 투어다. 당시 포로들의 생활상과 전쟁 포로 국제법을 이해하는 체험형 전시가 운영된다.",
+      "source_urls": [
+        "https://www.geojedpow.com/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "거제포로수용소",
+        "거제",
+        "경남",
+        "6·25전쟁",
+        "VR체험",
+        "포로수용소",
+        "한국전쟁"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:29:39",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00",
+      "phone": "055-639-6615"
     }
   ],
   "last_updated": "2026-05-07T04:18:31"
