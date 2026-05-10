@@ -1,8 +1,8 @@
 {
   "_comment": "겜코리아 체험 데이터 — 역사/자연 마커와 분리. 삭제 금지. 젬투어 상품 후보.",
   "_version": "1.0",
-  "_updated": "2026-05-10T02:03:44",
-  "total": 349,
+  "_updated": "2026-05-10T02:07:46",
+  "total": 361,
   "experiences": [
     {
       "experience_id": "EX-SE-MKT-001",
@@ -3865,7 +3865,7 @@
         "자연체험"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-08T09:35:30",
       "operation_status": "active",
       "operating_hours": "09:00~19:00 (계절별 상이)",
@@ -3905,7 +3905,7 @@
         "핸드드립"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-08T09:35:30",
       "operation_status": "active",
       "operating_hours": "09:00~20:00",
@@ -3946,7 +3946,7 @@
         "외국인체험"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-08T09:35:30",
       "operation_status": "active",
       "operating_hours": "10:00~17:00",
@@ -3986,7 +3986,7 @@
         "해산물"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-08T09:35:30",
       "operation_status": "seasonal",
       "operating_hours": "11~4월 굴 시즌 운영",
@@ -4026,7 +4026,7 @@
         "다시마"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:27:32",
       "operation_status": "seasonal",
       "operating_hours": "3~5월 미역 시즌",
@@ -4066,7 +4066,7 @@
         "강원도밥상"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:27:32",
       "operation_status": "seasonal",
       "operating_hours": "5~6월 나물 시즌",
@@ -14279,6 +14279,494 @@
       "operation_status": "active",
       "operating_hours": "연중 (무료)",
       "phone": "031-538-3363"
+    },
+    {
+      "experience_id": "EX-JN-NAT-011",
+      "name": "해남 땅끝 마을 투어",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 해남군",
+      "address": "전라남도 해남군 송지면 땅끝마을길 97",
+      "lat": 34.2839,
+      "lng": 126.5358,
+      "price": "케이블카 왕복 6,000원",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "한반도 최남단 땅끝마을을 탐방하는 체험이다. 한반도 지도에서 가장 남쪽 끄트머리에 해당하는 사자봉까지 모노레일을 타고 올라가면 남해 다도해가 파노라마로 펼쳐진다.",
+      "source_urls": [
+        "https://www.haenam.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "땅끝마을",
+        "해남",
+        "전남",
+        "한반도최남단",
+        "사자봉",
+        "다도해",
+        "모노레일"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:07:46",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00",
+      "phone": "061-534-8989"
+    },
+    {
+      "experience_id": "EX-GN-NAT-010",
+      "name": "사천 비토섬 갯벌+일몰",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 사천시",
+      "address": "경상남도 사천시 서포면 비토리 비토섬",
+      "lat": 34.9558,
+      "lng": 128.0358,
+      "price": "무료",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "남해 다도해에 숨겨진 비토섬에서 갯벌 체험과 서해 일몰을 함께 즐기는 체험이다. 토끼와 거북이 이야기 전설이 깃든 섬으로 썰물 때 갯벌이 드러나면 바지락·게를 잡을 수 있다.",
+      "source_urls": [
+        "https://www.sacheon.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "비토섬",
+        "사천",
+        "경남",
+        "갯벌",
+        "일몰",
+        "다도해",
+        "토끼거북이"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:07:46",
+      "operation_status": "active",
+      "operating_hours": "연중 (조석표 확인)",
+      "phone": "055-831-2114"
+    },
+    {
+      "experience_id": "EX-JB-NAT-004",
+      "name": "부안 격포 채석강 석양 투어",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "JB",
+      "region_sub": "전라북도 부안군",
+      "address": "전라북도 부안군 변산면 격포리 채석강",
+      "lat": 35.6044,
+      "lng": 126.4917,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "변산반도 격포 채석강에서 저녁 석양을 감상하는 체험이다. 7천만 년 전 퇴적암 절벽이 일몰 빛에 황금빛으로 물드는 장면이 1시간 중 5분간 펼쳐지는 서해 일몰 명소다.",
+      "source_urls": [
+        "https://www.buan.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "채석강",
+        "격포",
+        "부안",
+        "전북",
+        "석양",
+        "서해일몰",
+        "퇴적암"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:07:46",
+      "operation_status": "active",
+      "operating_hours": "연중",
+      "phone": "063-580-4434"
+    },
+    {
+      "experience_id": "EX-GN-NAT-011",
+      "name": "하동 지리산 쌍계사 벚꽃 투어",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 하동군",
+      "address": "경상남도 하동군 화개면 쌍계사 앞 십리벚꽃길",
+      "lat": 35.0834,
+      "lng": 127.6842,
+      "price": "무료",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "섬진강 화개장터에서 쌍계사까지 이어지는 4km 십리벚꽃길을 걷는 봄 체험이다. 수령 100년 이상 왕벚나무들이 만드는 벚꽃 터널은 한국에서 가장 긴 직선 벚꽃 터널로 꼽힌다.",
+      "source_urls": [
+        "https://www.hadong.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "쌍계사벚꽃",
+        "화개",
+        "하동",
+        "경남",
+        "십리벚꽃길",
+        "섬진강",
+        "봄여행"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:07:46",
+      "operation_status": "annual",
+      "operating_hours": "3월 말~4월 초 벚꽃 시즌",
+      "phone": "055-880-2960"
+    },
+    {
+      "experience_id": "EX-GW-NAT-013",
+      "name": "인제 아이들 캠핑 체험",
+      "category_main": "문화/체험",
+      "category_sub": "캠핑/글램핑",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 인제군",
+      "address": "강원특별자치도 인제군 인제읍 인제로 176",
+      "lat": 38.0628,
+      "lng": 128.1711,
+      "price": "1박 60,000원~",
+      "duration": "1박 2일",
+      "reservation_required": true,
+      "target_user": [
+        "가족",
+        "어린이"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "강원도 인제 계곡 옆 어린이 전용 체험 캠핑장에서 텐트 치기·모닥불·별 관측·계곡 물놀이를 즐기는 가족 캠핑 체험이다. 어린이 자연 생태 교육 프로그램이 함께 운영된다.",
+      "source_urls": [
+        "https://www.inje.go.kr/tour/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "인제캠핑",
+        "인제",
+        "강원",
+        "가족캠핑",
+        "어린이",
+        "모닥불",
+        "계곡"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:07:46",
+      "operation_status": "seasonal",
+      "operating_hours": "5~10월 캠핑 시즌",
+      "phone": "033-460-8036"
+    },
+    {
+      "experience_id": "EX-JN-NAT-012",
+      "name": "신안 퍼플 섬 (반월도) 체험",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 신안군",
+      "address": "전라남도 신안군 안좌면 반월도",
+      "lat": 34.9117,
+      "lng": 126.3489,
+      "price": "배 왕복 6,000원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "섬 전체가 보라색으로 꾸며진 신안 반월도를 방문하는 체험이다. 보라색 꽃·건물·다리·자전거가 섬 전체를 물들인 인스타그램 명소로 퍼플 브릿지가 걸쳐진 두 섬을 자전거로 이동할 수 있다.",
+      "source_urls": [
+        "https://www.sinan.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "퍼플섬",
+        "반월도",
+        "신안",
+        "전남",
+        "보라색섬",
+        "인스타명소",
+        "퍼플브릿지"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:07:46",
+      "operation_status": "active",
+      "operating_hours": "연중",
+      "phone": "061-240-8555"
+    },
+    {
+      "experience_id": "EX-GG-NAT-014",
+      "name": "가평 자라섬 캠핑 체험",
+      "category_main": "문화/체험",
+      "category_sub": "캠핑/글램핑",
+      "region_main": "GG",
+      "region_sub": "경기도 가평군",
+      "address": "경기도 가평군 가평읍 자라섬로 60",
+      "lat": 37.835,
+      "lng": 127.5106,
+      "price": "1박 50,000원~",
+      "duration": "1박 2일",
+      "reservation_required": true,
+      "target_user": [
+        "커플",
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "서울에서 1시간 30분 거리 북한강 자라섬에서 즐기는 캠핑 체험이다. 봄 유채꽃·가을 재즈 페스티벌 시즌에 캠핑하면 꽃과 음악이 더해져 특별한 경험이 된다.",
+      "source_urls": [
+        "https://www.gapyeong.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "자라섬캠핑",
+        "가평",
+        "경기",
+        "북한강",
+        "재즈",
+        "유채꽃",
+        "봄가을캠핑"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:07:46",
+      "operation_status": "active",
+      "operating_hours": "연중",
+      "phone": "031-580-2726"
+    },
+    {
+      "experience_id": "EX-JJ-NAT-004",
+      "name": "제주 협재·금릉 에메랄드 해수욕",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "JJ",
+      "region_sub": "제주특별자치도 제주시",
+      "address": "제주특별자치도 제주시 한림읍 협재리",
+      "lat": 33.3949,
+      "lng": 126.2395,
+      "price": "무료",
+      "duration": "2~4시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "제주 서쪽 협재해수욕장과 금릉 해수욕장에서 에메랄드빛 바다를 즐기는 체험이다. 비양도를 배경으로 한 얕은 수심과 투명한 바닷물이 스노클링·튜브·모래놀이를 즐기기에 완벽하다.",
+      "source_urls": [
+        "https://www.visitjeju.net/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "협재해수욕장",
+        "금릉",
+        "제주",
+        "에메랄드",
+        "비양도",
+        "해수욕",
+        "스노클링"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:07:46",
+      "operation_status": "seasonal",
+      "operating_hours": "6~8월 성수기",
+      "phone": "064-728-3988"
+    },
+    {
+      "experience_id": "EX-GW-NAT-014",
+      "name": "태백 고원 여름 배추밭 풍경",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 태백시",
+      "address": "강원특별자치도 태백시 매봉산 고랭지 채소밭",
+      "lat": 37.1439,
+      "lng": 129.0069,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "해발 1,100m 태백 고원 매봉산 고랭지 배추밭 풍경을 감상하는 체험이다. 8월이면 층층이 펼쳐진 초록 배추밭이 구름 위에 떠있는 것처럼 보이며 매봉산 풍력발전소와 함께 장관을 이룬다.",
+      "source_urls": [
+        "https://www.taebaek.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "태백고원배추밭",
+        "태백",
+        "강원",
+        "매봉산",
+        "고랭지",
+        "풍력발전소",
+        "여름"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:07:46",
+      "operation_status": "seasonal",
+      "operating_hours": "8~9월 배추 시즌",
+      "phone": "033-550-2082"
+    },
+    {
+      "experience_id": "EX-GG-NAT-015",
+      "name": "가을 용인 한택식물원",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GG",
+      "region_sub": "경기도 용인시",
+      "address": "경기도 용인시 처인구 백암면 한택로 2",
+      "lat": 37.2,
+      "lng": 127.3722,
+      "price": "성인 12,000원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "국내 최대 사립 식물원 용인 한택식물원에서 사계절 식물을 탐방하는 체험이다. 5,300여 종 6만 여 본의 식물이 자라며 봄 튤립·여름 연꽃·가을 국화·겨울 설경이 각각 아름답다.",
+      "source_urls": [
+        "https://www.hantaek.co.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "한택식물원",
+        "용인",
+        "경기",
+        "식물원",
+        "튤립",
+        "연꽃",
+        "국화"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:07:46",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00",
+      "phone": "031-333-3558"
+    },
+    {
+      "experience_id": "EX-JN-NAT-013",
+      "name": "화순 세량지 봄 벚꽃 투어",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 화순군",
+      "address": "전라남도 화순군 이양면 증리 세량지",
+      "lat": 34.9781,
+      "lng": 127.1367,
+      "price": "무료",
+      "duration": "1시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "전남 화순의 작은 저수지 세량지에서 봄 벚꽃과 수면 반사를 감상하는 체험이다. 저수지 주변 벚나무 꽃이 수면에 반사되는 구도가 국내 봄 사진 명소 중 하나로 알려져 있다.",
+      "source_urls": [
+        "https://www.hwasun.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "세량지",
+        "화순",
+        "전남",
+        "벚꽃",
+        "수면반사",
+        "봄꽃",
+        "사진명소"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:07:46",
+      "operation_status": "annual",
+      "operating_hours": "3월 말~4월 초 벚꽃 시즌",
+      "phone": "061-379-3886"
+    },
+    {
+      "experience_id": "EX-GW-NAT-015",
+      "name": "강릉 정동진 모래시계 공원",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 강릉시",
+      "address": "강원특별자치도 강릉시 강동면 헌화로 950",
+      "lat": 37.6788,
+      "lng": 129.0286,
+      "price": "모래시계 공원 무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "세계에서 바다와 가장 가까운 기차역 정동진에서 드라마 모래시계 촬영지와 초대형 모래시계 공원을 탐방하는 체험이다. 매년 새해 수만 명이 일출을 맞이하는 강원도 대표 일출 명소다.",
+      "source_urls": [
+        "https://www.gangneung.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "정동진모래시계",
+        "정동진",
+        "강릉",
+        "강원",
+        "드라마모래시계",
+        "일출",
+        "기차역"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:07:46",
+      "operation_status": "active",
+      "operating_hours": "연중",
+      "phone": "033-640-4533"
     }
   ],
   "last_updated": "2026-05-07T04:18:31"
