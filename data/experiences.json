@@ -1,8 +1,8 @@
 {
   "_comment": "겜코리아 체험 데이터 — 역사/자연 마커와 분리. 삭제 금지. 젬투어 상품 후보.",
   "_version": "1.0",
-  "_updated": "2026-05-10T03:28:20",
-  "total": 601,
+  "_updated": "2026-05-10T03:34:02",
+  "total": 613,
   "experiences": [
     {
       "experience_id": "EX-SE-MKT-001",
@@ -10782,7 +10782,7 @@
         "어린이"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-10T01:24:29",
       "operation_status": "seasonal",
       "operating_hours": "7~8월 수박 시즌",
@@ -10822,7 +10822,7 @@
         "여름체험"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-10T01:24:29",
       "operation_status": "seasonal",
       "operating_hours": "6~7월 마늘 시즌",
@@ -10862,7 +10862,7 @@
         "가족"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-10T01:24:29",
       "operation_status": "seasonal",
       "operating_hours": "9~11월 수확 시즌",
@@ -10903,7 +10903,7 @@
         "야경"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-10T01:24:29",
       "operation_status": "active",
       "operating_hours": "09:00~22:00",
@@ -10944,7 +10944,7 @@
         "가족"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-10T01:29:39",
       "operation_status": "seasonal",
       "operating_hours": "6~8월 수확 시즌",
@@ -10984,7 +10984,7 @@
         "가족체험"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-10T01:29:39",
       "operation_status": "seasonal",
       "operating_hours": "9~10월 수확 시즌",
@@ -24500,6 +24500,491 @@
       "operation_status": "active",
       "operating_hours": "박물관 09:00~18:00 (무료)",
       "phone": "054-740-7500"
+    },
+    {
+      "experience_id": "EX-GW-NAT-064",
+      "name": "평창 봉평 효석문화마을",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 평창군",
+      "address": "강원특별자치도 평창군 봉평면 이효석길 33-39",
+      "lat": 37.5658,
+      "lng": 128.4906,
+      "price": "박물관 성인 2,000원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "메밀꽃 필 무렵 소설 배경지 평창 봉평에서 이효석 문학 체험을 즐기는 코스다. 이효석 생가·문학관·실레 마을 산책로를 탐방하며 소설 속 공간을 직접 걷는 문학 여행이다.",
+      "source_urls": [
+        "https://www.hyoseok.com/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "효석문화마을",
+        "봉평",
+        "평창",
+        "강원",
+        "이효석",
+        "메밀꽃필무렵",
+        "문학체험"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:34:02",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00",
+      "phone": "033-330-2700"
+    },
+    {
+      "experience_id": "EX-JN-NAT-078",
+      "name": "장성 백암산 갈대 억새 투어",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 장성군",
+      "address": "전라남도 장성군 북일면 약수리 백암산",
+      "lat": 35.4214,
+      "lng": 126.8869,
+      "price": "무료",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "전남 장성 백암산에서 10~11월 가을 갈대와 억새가 황금빛으로 물드는 장관을 감상하는 트레킹이다. 백암산 계곡과 능선을 따라 갈대·억새가 어우러지는 경관이 전남에서 손꼽히는 가을 트레킹 코스다.",
+      "source_urls": [
+        "https://www.jangseong.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "백암산억새",
+        "장성",
+        "전남",
+        "갈대",
+        "억새",
+        "가을단풍",
+        "트레킹"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:34:02",
+      "operation_status": "annual",
+      "operating_hours": "10~11월 시즌 (무료)",
+      "phone": "061-390-7211"
+    },
+    {
+      "experience_id": "EX-GN-NAT-075",
+      "name": "창원 북면 벚꽃 가도",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 창원시",
+      "address": "경상남도 창원시 북면 화천리 벚꽃 가도",
+      "lat": 35.3558,
+      "lng": 128.5678,
+      "price": "무료",
+      "duration": "1시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "창원 북면 화천리 벚꽃 가도를 드라이브하는 봄 체험이다. 3~4월 벚꽃이 만개하면 도로 양쪽 벚나무가 꽃 터널을 형성해 진해 군항제보다 덜 알려진 숨은 벚꽃 명소로 꼽힌다.",
+      "source_urls": [
+        "https://www.changwon.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "창원북면벚꽃",
+        "창원",
+        "경남",
+        "벚꽃드라이브",
+        "숨은명소",
+        "봄",
+        "꽃터널"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:34:02",
+      "operation_status": "annual",
+      "operating_hours": "3~4월 벚꽃 시즌 (무료)",
+      "phone": "055-225-3691"
+    },
+    {
+      "experience_id": "EX-GG-NAT-068",
+      "name": "가평 청평 유원지 수상 레저",
+      "category_main": "문화/체험",
+      "category_sub": "어드벤처/레포츠",
+      "region_main": "GG",
+      "region_sub": "경기도 가평군",
+      "address": "경기도 가평군 청평면 청평리 청평호",
+      "lat": 37.7703,
+      "lng": 127.4867,
+      "price": "1인 20,000원~",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "청년",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "가평 청평호에서 수상스키·웨이크보드·카약 등 다양한 수상 레저를 즐기는 체험이다. 서울에서 1시간 30분 거리 북한강 청평호가 여름 수상 레저의 성지로 수도권 최대 레저 밀집 지역이다.",
+      "source_urls": [
+        "https://www.gapyeong.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "청평유원지",
+        "가평",
+        "경기",
+        "수상레저",
+        "웨이크보드",
+        "카약",
+        "여름"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:34:02",
+      "operation_status": "seasonal",
+      "operating_hours": "5~10월",
+      "phone": "031-585-7401"
+    },
+    {
+      "experience_id": "EX-JN-NAT-079",
+      "name": "광양 구봉산 편백 명상",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 광양시",
+      "address": "전라남도 광양시 광양읍 구봉산 편백 숲",
+      "lat": 34.9697,
+      "lng": 127.6067,
+      "price": "무료",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "광양 구봉산에 조성된 편백 숲에서 명상과 삼림욕을 즐기는 체험이다. 광양 시내 바로 옆에 위치한 자연 치유 공간으로 피톤치드 가득한 편백 숲에서 도심 힐링 체험을 즐길 수 있다.",
+      "source_urls": [
+        "https://www.gwangyang.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "구봉산편백숲",
+        "광양",
+        "전남",
+        "편백",
+        "명상",
+        "피톤치드",
+        "시내근교힐링"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:34:02",
+      "operation_status": "active",
+      "operating_hours": "연중 (무료)",
+      "phone": "061-797-2657"
+    },
+    {
+      "experience_id": "EX-GN-NAT-076",
+      "name": "고성 왕곡마을 전통 가옥",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 고성군",
+      "address": "경상남도 고성군 시천면 왕곡리",
+      "lat": 34.98,
+      "lng": 128.25,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "조선 시대 원형이 잘 보존된 경남 고성 왕곡마을을 탐방하는 체험이다. 조선 후기 양반 가옥들이 지형에 맞게 자연스럽게 배치된 전통 마을로 낙안읍성과 함께 경상도 대표 전통 가옥 마을이다.",
+      "source_urls": [
+        "https://www.goseong.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "왕곡마을",
+        "고성",
+        "경남",
+        "조선가옥",
+        "전통마을",
+        "양반",
+        "원형보존"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:34:02",
+      "operation_status": "active",
+      "operating_hours": "연중 (무료)",
+      "phone": "055-670-4161"
+    },
+    {
+      "experience_id": "EX-GW-NAT-065",
+      "name": "영월 동강 뗏목+래프팅",
+      "category_main": "문화/체험",
+      "category_sub": "어드벤처/레포츠",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 영월군",
+      "address": "강원특별자치도 영월군 동강 일원",
+      "lat": 37.2097,
+      "lng": 128.4653,
+      "price": "1인 20,000원~",
+      "duration": "2시간",
+      "reservation_required": true,
+      "target_user": [
+        "개인",
+        "커플",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "동강에서 래프팅 또는 전통 뗏목을 타고 협곡 절경을 감상하는 어드벤처 체험이다. 영월 동강은 석회암 협곡이 아름다운 강으로 S자 굽이마다 절경이 펼쳐지며 동강할미꽃 자생지이기도 하다.",
+      "source_urls": [
+        "https://www.yw.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "동강래프팅",
+        "영월",
+        "강원",
+        "뗏목",
+        "협곡",
+        "동강",
+        "동강할미꽃"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:34:02",
+      "operation_status": "seasonal",
+      "operating_hours": "4~10월",
+      "phone": "033-372-8445"
+    },
+    {
+      "experience_id": "EX-JN-NAT-080",
+      "name": "광주 사직공원 야경",
+      "category_main": "문화/체험",
+      "category_sub": "야경/야간투어",
+      "region_main": "JN",
+      "region_sub": "광주광역시 북구",
+      "address": "광주광역시 북구 사직동 사직공원",
+      "lat": 35.1794,
+      "lng": 126.9064,
+      "price": "무료",
+      "duration": "1시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "광주 시내 전경이 한눈에 보이는 사직공원 전망대에서 야경을 감상하는 체험이다. 광주 중심부에 위치한 공원으로 광주천·무등산 방향 야경이 아름답고 봄에는 벚꽃 명소로도 유명하다.",
+      "source_urls": [
+        "https://www.gwangju.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "사직공원야경",
+        "광주",
+        "광주야경",
+        "전망대",
+        "무등산",
+        "봄벚꽃",
+        "무료"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:34:02",
+      "operation_status": "active",
+      "operating_hours": "연중 (무료, 야경: 일몰~22:00)",
+      "phone": "062-226-3434"
+    },
+    {
+      "experience_id": "EX-GG-NAT-069",
+      "name": "화성 공룡알 화석+시화호",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GG",
+      "region_sub": "경기도 화성시",
+      "address": "경기도 화성시 송산면 시화호 공룡알 화석지",
+      "lat": 37.1822,
+      "lng": 126.7086,
+      "price": "무료",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "어린이"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "천연기념물 화성 공룡알 화석 산지와 시화호 생태 공원을 함께 탐방하는 코스다. 8,000만 년 전 공룡알 화석을 직접 밟아보고 시화호 갈대밭·철새 탐조까지 역사+자연 교육 코스다.",
+      "source_urls": [
+        "https://www.hwaseong.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "공룡알화석",
+        "시화호",
+        "화성",
+        "경기",
+        "공룡",
+        "어린이",
+        "천연기념물"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:34:02",
+      "operation_status": "active",
+      "operating_hours": "연중 (무료)",
+      "phone": "031-369-6003"
+    },
+    {
+      "experience_id": "EX-JN-NAT-081",
+      "name": "순천 송광사 겨울 설경",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 순천시",
+      "address": "전라남도 순천시 송광면 송광사안길 100",
+      "lat": 34.9767,
+      "lng": 127.2825,
+      "price": "성인 3,000원",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "한국 3대 사찰 순천 송광사에서 겨울 설경을 감상하는 특별 체험이다. 천년 고찰 경내에 눈이 쌓이면 기와지붕과 설경이 어우러지는 아름다운 겨울 사찰 풍경이 전남 최고의 겨울 명소다.",
+      "source_urls": [
+        "https://www.songgwangsa.org/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "송광사설경",
+        "순천",
+        "전남",
+        "겨울설경",
+        "천년사찰",
+        "기와지붕",
+        "한국3대사찰"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:34:02",
+      "operation_status": "seasonal",
+      "operating_hours": "겨울 설경 시즌",
+      "phone": "061-755-0107"
+    },
+    {
+      "experience_id": "EX-GN-NAT-077",
+      "name": "통영 욕지도 고구마 캐기",
+      "category_main": "문화/체험",
+      "category_sub": "농촌 체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 통영시",
+      "address": "경상남도 통영시 욕지면 욕지도",
+      "lat": 34.6778,
+      "lng": 128.3219,
+      "price": "체험 포함 배편 20,000원~",
+      "duration": "3~5시간",
+      "reservation_required": true,
+      "target_user": [
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "통영 욕지도에서 섬 특산 고구마를 직접 캐는 농촌 체험이다. 배를 타고 욕지도에 들어가 9~11월 수확 시즌에 섬 고구마를 직접 캐고 욕지도 해산물과 함께 먹는 특별한 섬 체험이다.",
+      "source_urls": [
+        "https://www.tongyeong.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "욕지도고구마",
+        "통영",
+        "경남",
+        "섬고구마",
+        "욕지도",
+        "농촌체험",
+        "가을"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:34:02",
+      "operation_status": "seasonal",
+      "operating_hours": "9~11월 수확 시즌",
+      "phone": "055-650-4681"
+    },
+    {
+      "experience_id": "EX-GW-NAT-066",
+      "name": "강릉 남항진 해변+물회",
+      "category_main": "문화/체험",
+      "category_sub": "지역 먹거리",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 강릉시",
+      "address": "강원특별자치도 강릉시 남항진동 남항진 해변",
+      "lat": 37.7533,
+      "lng": 128.9147,
+      "price": "물회 먹거리 별도",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "강릉 남항진 해변에서 동해 물회를 즐기는 먹거리 체험이다. 강릉 커피 거리와 경포해변보다 덜 알려진 남항진 해변이 로컬들이 즐기는 진짜 동해 해변이며 신선한 물회 맛집들이 모여있다.",
+      "source_urls": [
+        "https://www.gn.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "남항진해변",
+        "강릉",
+        "강원",
+        "물회",
+        "동해",
+        "로컬해변",
+        "신선물회"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:34:02",
+      "operation_status": "active",
+      "operating_hours": "연중",
+      "phone": "033-640-4533"
     }
   ],
   "last_updated": "2026-05-07T04:18:31"
