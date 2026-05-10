@@ -1,8 +1,8 @@
 {
   "_comment": "겜코리아 체험 데이터 — 역사/자연 마커와 분리. 삭제 금지. 젬투어 상품 후보.",
   "_version": "1.0",
-  "_updated": "2026-05-10T03:49:00",
-  "total": 661,
+  "_updated": "2026-05-10T03:52:49",
+  "total": 673,
   "experiences": [
     {
       "experience_id": "EX-SE-MKT-001",
@@ -26073,7 +26073,7 @@
         "사찰음식"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-10T03:45:15",
       "operation_status": "active",
       "operating_hours": "08:00~18:00",
@@ -26356,7 +26356,7 @@
         "겨울설경"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-10T03:45:15",
       "operation_status": "active",
       "operating_hours": "09:00~16:30 (동절기 10:00)",
@@ -26928,6 +26928,488 @@
       "operation_status": "active",
       "operating_hours": "연중 (무료)",
       "phone": "054-679-6111"
+    },
+    {
+      "experience_id": "EX-GG-NAT-073",
+      "name": "연천 한탄강 지질 트레킹",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GG",
+      "region_sub": "경기도 연천군",
+      "address": "경기도 연천군 전곡읍 한탄강로 일대",
+      "lat": 38.0047,
+      "lng": 127.0608,
+      "price": "무료",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "유네스코 세계지질공원 한탄강에서 주상절리·현무암 협곡을 탐방하는 지질 트레킹이다. 한탄강 지질 트레일을 따라 화산 용암이 굳어 형성된 주상절리 협곡과 폭포를 직접 걸으며 탐방한다.",
+      "source_urls": [
+        "https://www.hantangeopark.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "한탄강지질트레킹",
+        "연천",
+        "경기",
+        "주상절리",
+        "현무암협곡",
+        "유네스코세계지질공원",
+        "화산지형"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:52:49",
+      "operation_status": "active",
+      "operating_hours": "연중 (무료)",
+      "phone": "031-839-2061"
+    },
+    {
+      "experience_id": "EX-JN-CUL-047",
+      "name": "나주 금성관 역사 투어",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 나주시",
+      "address": "전라남도 나주시 금성관길 8 나주목 관아",
+      "lat": 35.0264,
+      "lng": 126.7111,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "조선 시대 전라남도 도청 역할을 한 나주목 관아와 금성관을 탐방하는 역사 체험이다. 광주보다 나주가 더 큰 도시였던 조선 시대 역사를 배우는 체험으로 나주 읍성 곳곳에 관아 유적이 남아있다.",
+      "source_urls": [
+        "https://www.naju.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "나주금성관",
+        "나주",
+        "전남",
+        "나주목관아",
+        "조선나주",
+        "읍성",
+        "전남도청조선"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:52:49",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00 (무료)",
+      "phone": "061-330-1261"
+    },
+    {
+      "experience_id": "EX-GN-CUL-071",
+      "name": "합천 해인사 팔만대장경 참배",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 합천군",
+      "address": "경상남도 합천군 가야면 해인사길 122",
+      "lat": 35.7978,
+      "lng": 128.0025,
+      "price": "성인 3,000원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "팔만대장경이 보관된 경남 합천 해인사를 참배하는 역사 체험이다. 세계 최대 목판 인쇄물 팔만대장경이 800년 동안 보존된 해인사 장경판전이 유네스코 세계문화유산으로 등재된 성지다.",
+      "source_urls": [
+        "https://www.haeinsa.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "해인사팔만대장경",
+        "합천",
+        "경남",
+        "팔만대장경",
+        "해인사",
+        "장경판전",
+        "유네스코"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-10T03:52:49",
+      "operation_status": "active",
+      "operating_hours": "08:30~18:00",
+      "phone": "055-934-3000"
+    },
+    {
+      "experience_id": "EX-GW-NAT-073",
+      "name": "강릉 솔향수목원 힐링",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 강릉시",
+      "address": "강원특별자치도 강릉시 구정면 수목원길 156",
+      "lat": 37.6583,
+      "lng": 128.9256,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "강원도 강릉 솔향수목원에서 소나무 숲 힐링 트레킹을 즐기는 자연 체험이다. 강릉 소나무(금강송)의 명산지 강릉에 조성된 수목원으로 금강송·곰솔·해송 등 다양한 소나무 숲을 무료로 즐길 수 있다.",
+      "source_urls": [
+        "https://www.solhyang.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "강릉솔향수목원",
+        "강릉",
+        "강원",
+        "소나무",
+        "금강송",
+        "수목원",
+        "힐링"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:52:49",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00 (무료)",
+      "phone": "033-660-2322"
+    },
+    {
+      "experience_id": "EX-JB-CUL-066",
+      "name": "고창 선운산 도솔암 트레킹",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "JB",
+      "region_sub": "전라북도 고창군",
+      "address": "전라북도 고창군 아산면 선운사로 250 선운산 도솔암",
+      "lat": 35.5069,
+      "lng": 126.6072,
+      "price": "성인 3,000원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "전북 고창 선운산 도솔암까지 트레킹하는 역사·자연 체험이다. 절벽 위에 위치한 도솔암에는 국내 최대 마애불 중 하나인 도솔암 마애불이 새겨져 있어 트레킹과 역사 체험을 동시에 즐긴다.",
+      "source_urls": [
+        "https://www.seonunsa.org/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "선운산도솔암",
+        "고창",
+        "전북",
+        "선운산",
+        "도솔암",
+        "마애불",
+        "트레킹"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:52:49",
+      "operation_status": "active",
+      "operating_hours": "연중",
+      "phone": "063-561-1422"
+    },
+    {
+      "experience_id": "EX-GG-NAT-074",
+      "name": "가평 아침고요 수목원",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GG",
+      "region_sub": "경기도 가평군",
+      "address": "경기도 가평군 상면 수목원로 432",
+      "lat": 37.7806,
+      "lng": 127.5347,
+      "price": "성인 11,000원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "한국 정원 미학을 담은 경기 가평 아침고요수목원을 탐방하는 체험이다. 사계절 테마 정원과 야간 조명 축제인 오색별빛정원전이 유명하며 한국 최초 개인 수목원으로 꽃과 자연을 즐기는 명소다.",
+      "source_urls": [
+        "https://www.morningcalm.co.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "아침고요수목원",
+        "가평",
+        "경기",
+        "한국정원",
+        "야간조명",
+        "계절정원",
+        "오색별빛"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:52:49",
+      "operation_status": "active",
+      "operating_hours": "08:30~20:00 (시즌 상이)",
+      "phone": "1544-6703"
+    },
+    {
+      "experience_id": "EX-JN-NAT-088",
+      "name": "무안 황토 갯벌 체험",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 무안군",
+      "address": "전라남도 무안군 현경면 황토갯벌로 일대",
+      "lat": 34.9361,
+      "lng": 126.4644,
+      "price": "무료~체험비 상이",
+      "duration": "2시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "어린이"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "전남 무안 황토 갯벌에서 맨손 조개잡이와 갯벌 생태 체험을 즐기는 프로그램이다. 무안 황토 갯벌은 영양분이 풍부한 황토가 섞인 갯벌로 낙지·조개 등 해산물이 풍부한 갯벌 체험지다.",
+      "source_urls": [
+        "https://www.muan.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "무안황토갯벌",
+        "무안",
+        "전남",
+        "갯벌체험",
+        "황토갯벌",
+        "낙지",
+        "조개잡이"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:52:49",
+      "operation_status": "seasonal",
+      "operating_hours": "봄~가을 썰물 시간",
+      "phone": "061-450-5116"
+    },
+    {
+      "experience_id": "EX-GN-NAT-083",
+      "name": "창녕 우포늪 탐조",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 창녕군",
+      "address": "경상남도 창녕군 유어면 우포늪길 220",
+      "lat": 35.5508,
+      "lng": 128.5008,
+      "price": "무료",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "국내 최대 자연 내륙 습지 경남 창녕 우포늪에서 탐조 체험을 즐기는 프로그램이다. 1억 4천만 년 전 형성된 우포늪에서 저어새·노랑부리저어새·흰꼬리수리 등 희귀 조류를 관찰하는 생태 체험이다.",
+      "source_urls": [
+        "https://www.upo.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "우포늪탐조",
+        "창녕",
+        "경남",
+        "우포늪",
+        "자연습지",
+        "탐조",
+        "저어새"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:52:49",
+      "operation_status": "active",
+      "operating_hours": "연중 (무료)",
+      "phone": "055-530-1583"
+    },
+    {
+      "experience_id": "EX-CB-NAT-045",
+      "name": "보은 속리산 법주사 참배",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "CB",
+      "region_sub": "충청북도 보은군",
+      "address": "충청북도 보은군 속리산면 법주사로 84",
+      "lat": 36.5394,
+      "lng": 127.8003,
+      "price": "성인 5,000원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "유네스코 세계문화유산 산사 충북 속리산 법주사를 참배하는 역사 체험이다. 553년 창건된 천년 고찰로 한국 최대 금동미륵대불과 팔상전(국보)이 있는 법주사에서 산사의 고요함을 즐긴다.",
+      "source_urls": [
+        "https://www.beopjusa.org/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "법주사",
+        "보은",
+        "충북",
+        "속리산",
+        "금동미륵대불",
+        "팔상전",
+        "유네스코산사"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-10T03:52:49",
+      "operation_status": "active",
+      "operating_hours": "06:00~18:00",
+      "phone": "043-543-3615"
+    },
+    {
+      "experience_id": "EX-GW-CUL-069",
+      "name": "원주 뮤지엄 산 건축 투어",
+      "category_main": "문화/체험",
+      "category_sub": "문화투어",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 원주시",
+      "address": "강원특별자치도 원주시 지정면 오크밸리2길 260",
+      "lat": 37.4019,
+      "lng": 127.965,
+      "price": "성인 22,000원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "세계적 건축가 안도 다다오가 설계한 원주 뮤지엄 산(Museum SAN)을 탐방하는 건축·예술 체험이다. 자연과 건축이 어우러진 노출 콘크리트 건물과 제임스 터렐의 빛 설치 작품을 감상한다.",
+      "source_urls": [
+        "https://www.museumsan.org/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "뮤지엄산",
+        "원주",
+        "강원",
+        "안도다다오",
+        "노출콘크리트",
+        "제임스터렐",
+        "건축여행"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-10T03:52:49",
+      "operation_status": "active",
+      "operating_hours": "10:00~18:00 (월 휴관)",
+      "phone": "033-730-9000"
+    },
+    {
+      "experience_id": "EX-JN-NAT-089",
+      "name": "곡성 섬진강 레일바이크",
+      "category_main": "문화/체험",
+      "category_sub": "어드벤처/레포츠",
+      "region_main": "JN",
+      "region_sub": "전라북도 곡성군",
+      "address": "전라북도 곡성군 오곡면 기차마을로 232",
+      "lat": 35.2942,
+      "lng": 127.3092,
+      "price": "2인 기준 20,000원",
+      "duration": "1시간",
+      "reservation_required": true,
+      "target_user": [
+        "커플",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "전북 곡성 섬진강변을 달리는 레일바이크를 타는 어드벤처 체험이다. 폐철도 구간을 활용한 곡성 레일바이크는 섬진강을 옆에 끼고 달리며 매화꽃·벚꽃 시즌에 특히 아름다운 봄 코스다.",
+      "source_urls": [
+        "https://www.gokseong.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "곡성레일바이크",
+        "곡성",
+        "전북",
+        "섬진강",
+        "레일바이크",
+        "매화",
+        "벚꽃"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:52:49",
+      "operation_status": "active",
+      "operating_hours": "09:00~17:00 (예약 필수)",
+      "phone": "061-363-9900"
+    },
+    {
+      "experience_id": "EX-GG-CUL-075",
+      "name": "포천 산정호수 드라이브",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GG",
+      "region_sub": "경기도 포천시",
+      "address": "경기도 포천시 영북면 산정리 산정호수",
+      "lat": 38.0744,
+      "lng": 127.2408,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "경기도 포천 산정호수를 둘러싸고 달리는 드라이브 코스 체험이다. 수도권에서 1시간 30분 거리 포천 산정호수는 명성산 자락에 위치한 산악 호수로 가을 억새 시즌과 겨울 설경이 아름답다.",
+      "source_urls": [
+        "https://www.pocheon.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "포천산정호수",
+        "포천",
+        "경기",
+        "산정호수",
+        "드라이브",
+        "명성산억새",
+        "가을"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:52:49",
+      "operation_status": "active",
+      "operating_hours": "연중 (무료)",
+      "phone": "031-538-3030"
     }
   ],
   "last_updated": "2026-05-07T04:18:31"
