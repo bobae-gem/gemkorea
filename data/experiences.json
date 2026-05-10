@@ -1,8 +1,8 @@
 {
   "_comment": "겜코리아 체험 데이터 — 역사/자연 마커와 분리. 삭제 금지. 젬투어 상품 후보.",
   "_version": "1.0",
-  "_updated": "2026-05-10T03:34:02",
-  "total": 613,
+  "_updated": "2026-05-10T03:37:41",
+  "total": 625,
   "experiences": [
     {
       "experience_id": "EX-SE-MKT-001",
@@ -11025,7 +11025,7 @@
         "지리산"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-10T01:29:39",
       "operation_status": "seasonal",
       "operating_hours": "5~6월 모내기 시즌",
@@ -11066,7 +11066,7 @@
         "추석"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-10T01:29:39",
       "operation_status": "active",
       "operating_hours": "화~일 10:00~17:00",
@@ -11106,7 +11106,7 @@
         "가족여행"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-10T01:29:39",
       "operation_status": "active",
       "operating_hours": "09:00~18:00",
@@ -11147,7 +11147,7 @@
         "활판인쇄"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-10T01:29:39",
       "operation_status": "active",
       "operating_hours": "09:00~18:00 (월요일 휴관)",
@@ -11188,7 +11188,7 @@
         "조선왕릉"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-10T01:29:39",
       "operation_status": "active",
       "operating_hours": "09:00~18:00 (월요일 휴관)",
@@ -11229,7 +11229,7 @@
         "5만원지폐"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-10T01:29:39",
       "operation_status": "active",
       "operating_hours": "09:00~18:00",
@@ -24985,6 +24985,492 @@
       "operation_status": "active",
       "operating_hours": "연중",
       "phone": "033-640-4533"
+    },
+    {
+      "experience_id": "EX-JB-NAT-062",
+      "name": "전주 한옥마을 한지 뜨기",
+      "category_main": "문화/체험",
+      "category_sub": "전통공예",
+      "region_main": "JB",
+      "region_sub": "전라북도 전주시",
+      "address": "전라북도 전주시 완산구 전통문화관길 35",
+      "lat": 35.8152,
+      "lng": 127.1538,
+      "price": "성인 8,000원~",
+      "duration": "1~2시간",
+      "reservation_required": true,
+      "target_user": [
+        "가족",
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "전주 한옥마을에서 전통 한지를 직접 뜨는 공예 체험이다. 전주는 조선 시대 최고급 한지 생산지로 한지 장인에게 배우며 닥나무 섬유로 한지를 만드는 과정을 체험할 수 있다.",
+      "source_urls": [
+        "https://www.jeonjuhanok.com/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "한지뜨기",
+        "전주한옥마을",
+        "전주",
+        "전북",
+        "한지",
+        "전통공예",
+        "닥나무"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:37:41",
+      "operation_status": "active",
+      "operating_hours": "10:00~18:00",
+      "phone": "063-281-2891"
+    },
+    {
+      "experience_id": "EX-JN-CUL-042",
+      "name": "목포 근대역사관 투어",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 목포시",
+      "address": "전라남도 목포시 영산로 29번길 6",
+      "lat": 34.7933,
+      "lng": 126.3919,
+      "price": "성인 2,000원",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "일제강점기 목포 일본 영사관 건물을 재활용한 목포 근대역사관을 탐방하는 체험이다. 목포 개항기 근대 건축물 군락이 살아있어 드라마·영화 촬영지로도 유명한 근대 역사 투어 명소다.",
+      "source_urls": [
+        "https://www.mokpo.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "목포근대역사관",
+        "목포",
+        "전남",
+        "근대건축",
+        "일제강점기",
+        "개항기",
+        "드라마촬영지"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:37:41",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00 (월 휴관)",
+      "phone": "061-242-0340"
+    },
+    {
+      "experience_id": "EX-GW-CUL-067",
+      "name": "춘천 인형극제 관람",
+      "category_main": "문화/체험",
+      "category_sub": "축제",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 춘천시",
+      "address": "강원특별자치도 춘천시 춘천인형극제 공원",
+      "lat": 37.8822,
+      "lng": 127.7339,
+      "price": "무료~유료 다양",
+      "duration": "4~8시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "어린이"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "매년 5~6월 춘천에서 열리는 세계 수준 인형극 축제를 관람하는 체험이다. 40년 역사의 춘천 인형극제는 세계 30개국 이상 극단이 참가하는 아시아 최대 인형극 페스티벌이다.",
+      "source_urls": [
+        "https://www.cocofesta.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "춘천인형극제",
+        "춘천",
+        "강원",
+        "인형극",
+        "세계인형극",
+        "아시아최대",
+        "5월6월"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:37:41",
+      "operation_status": "annual",
+      "operating_hours": "5~6월 개최 (무료 야외공연 다수)",
+      "phone": "033-242-8871"
+    },
+    {
+      "experience_id": "EX-GG-CUL-070",
+      "name": "수원 화성행궁 무예 공연",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GG",
+      "region_sub": "경기도 수원시",
+      "address": "경기도 수원시 팔달구 남창동 6-2 화성행궁",
+      "lat": 37.2789,
+      "lng": 127.0178,
+      "price": "공연 관람 무료",
+      "duration": "1시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "수원 화성행궁 앞에서 진행되는 정조시대 무예 재현 공연을 관람하는 체험이다. 주말 정기 공연으로 조선 정조 시대 무예 24기를 재현한 공연이 화성행궁 광장에서 펼쳐진다.",
+      "source_urls": [
+        "https://www.swcf.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "화성행궁무예공연",
+        "수원화성행궁",
+        "수원",
+        "경기",
+        "정조",
+        "무예24기",
+        "유네스코"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:37:41",
+      "operation_status": "active",
+      "operating_hours": "주말 11:00, 14:00, 16:00",
+      "phone": "031-228-4677"
+    },
+    {
+      "experience_id": "EX-JB-NAT-063",
+      "name": "완주 대둔산 케이블카+암릉",
+      "category_main": "문화/체험",
+      "category_sub": "어드벤처/레포츠",
+      "region_main": "JB",
+      "region_sub": "전라북도 완주군",
+      "address": "전라북도 완주군 운주면 대둔산공원길 55",
+      "lat": 36.0197,
+      "lng": 127.3039,
+      "price": "케이블카 성인 왕복 10,000원",
+      "duration": "3~4시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "전북 완주 대둔산에서 케이블카와 암릉 트레킹을 즐기는 어드벤처 체험이다. 대둔산 기암절벽과 케이블카를 타고 전망대에 올라 충남·전북 경계 명산의 절경을 즐기는 코스다.",
+      "source_urls": [
+        "https://www.wanju.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "대둔산케이블카",
+        "완주",
+        "전북",
+        "대둔산",
+        "케이블카",
+        "암릉",
+        "기암절벽"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:37:41",
+      "operation_status": "active",
+      "operating_hours": "09:00~17:00",
+      "phone": "063-261-1411"
+    },
+    {
+      "experience_id": "EX-GN-CUL-068",
+      "name": "거제 포로수용소 역사 투어",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 거제시",
+      "address": "경상남도 거제시 계룡로 61 거제포로수용소",
+      "lat": 34.8936,
+      "lng": 128.6231,
+      "price": "성인 9,000원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "한국전쟁 당시 가장 큰 포로수용소였던 거제 포로수용소 유적공원을 탐방하는 역사 체험이다. 6.25 전쟁 당시 17만 명 이상의 포로가 수용됐던 실제 장소로 전쟁 역사를 생생히 체험한다.",
+      "source_urls": [
+        "https://www.pow.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "거제포로수용소",
+        "거제",
+        "경남",
+        "한국전쟁",
+        "6.25",
+        "포로수용소",
+        "역사"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:37:41",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00 (연중)",
+      "phone": "055-639-8125"
+    },
+    {
+      "experience_id": "EX-CB-CUL-069",
+      "name": "단양 고수동굴 탐험",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "CB",
+      "region_sub": "충청북도 단양군",
+      "address": "충청북도 단양군 단양읍 고수동굴길 8",
+      "lat": 36.9925,
+      "lng": 128.3672,
+      "price": "성인 11,000원",
+      "duration": "1시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "어린이",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "국내 최대 규모 석회암 동굴 단양 고수동굴을 탐험하는 자연 체험이다. 천연기념물로 지정된 고수동굴은 4억 년 전 형성된 석회암 동굴로 종유석·석순·석주 등 신비한 동굴 생태를 관찰할 수 있다.",
+      "source_urls": [
+        "https://www.gosudongkul.com/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "고수동굴",
+        "단양",
+        "충북",
+        "석회암동굴",
+        "종유석",
+        "천연기념물",
+        "4억년"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:37:41",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00",
+      "phone": "043-422-3072"
+    },
+    {
+      "experience_id": "EX-JN-CUL-043",
+      "name": "보성 녹차밭 차 따기",
+      "category_main": "문화/체험",
+      "category_sub": "농촌 체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 보성군",
+      "address": "전라남도 보성군 보성읍 녹차로 775",
+      "lat": 34.7856,
+      "lng": 127.0786,
+      "price": "체험 5,000원~",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "한국 최대 녹차 산지 보성 녹차밭에서 직접 찻잎을 따는 체험이다. 드라마·영화 촬영지로 유명한 보성 대한다원에서 4~5월 햇녹차 따기 체험과 녹차 시음을 즐길 수 있다.",
+      "source_urls": [
+        "https://www.dhdawon.com/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "보성녹차밭",
+        "보성",
+        "전남",
+        "녹차따기",
+        "보성다원",
+        "촬영지",
+        "차이"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:37:41",
+      "operation_status": "seasonal",
+      "operating_hours": "4~5월 햇녹차 시즌 09:00~18:00",
+      "phone": "061-852-4540"
+    },
+    {
+      "experience_id": "EX-GG-CUL-071",
+      "name": "파주 임진각 평화 누리",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GG",
+      "region_sub": "경기도 파주시",
+      "address": "경기도 파주시 문산읍 임진각로 148-40",
+      "lat": 37.8881,
+      "lng": 126.7336,
+      "price": "무료",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "한반도 분단의 현장 파주 임진각과 평화 누리 공원을 탐방하는 역사 체험이다. DMZ 비무장지대 인접 임진각에서 망배단·자유의 다리·평화 누리 바람 개비 공원까지 분단 역사를 생각하는 코스다.",
+      "source_urls": [
+        "https://www.paju.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "임진각",
+        "파주",
+        "경기",
+        "임진각평화누리",
+        "DMZ",
+        "자유의다리",
+        "분단역사"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:37:41",
+      "operation_status": "active",
+      "operating_hours": "연중 24시간 (무료)",
+      "phone": "031-953-4744"
+    },
+    {
+      "experience_id": "EX-GW-NAT-067",
+      "name": "원주 소금산 출렁다리",
+      "category_main": "문화/체험",
+      "category_sub": "어드벤처/레포츠",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 원주시",
+      "address": "강원특별자치도 원주시 지정면 소금산길 12",
+      "lat": 37.4011,
+      "lng": 127.9836,
+      "price": "성인 3,000원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "국내 최장 산악 출렁다리 원주 소금산 출렁다리를 걷는 어드벤처 체험이다. 길이 200m 높이 100m 소금산 출렁다리에서 섬강 계곡의 절경을 내려다보며 짜릿함을 즐길 수 있다.",
+      "source_urls": [
+        "https://www.wonju.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "소금산출렁다리",
+        "원주",
+        "강원",
+        "출렁다리",
+        "섬강",
+        "계곡",
+        "어드벤처"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:37:41",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00",
+      "phone": "033-737-9900"
+    },
+    {
+      "experience_id": "EX-JB-CUL-064",
+      "name": "익산 백제 역사 지구 투어",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "JB",
+      "region_sub": "전라북도 익산시",
+      "address": "전라북도 익산시 금마면 미륵사지로 362 미륵사지",
+      "lat": 35.9761,
+      "lng": 126.9994,
+      "price": "성인 1,500원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "유네스코 세계유산 익산 백제역사유적지구를 탐방하는 역사 체험이다. 동양 최대 사찰 터 미륵사지, 백제 무왕의 왕궁 왕궁리 유적까지 서동 설화와 백제 역사를 체험한다.",
+      "source_urls": [
+        "https://www.mireuksaji.org/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "익산미륵사지",
+        "익산",
+        "전북",
+        "유네스코",
+        "백제역사유적",
+        "미륵사지",
+        "서동설화"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:37:41",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00",
+      "phone": "063-830-0950"
+    },
+    {
+      "experience_id": "EX-GN-NAT-078",
+      "name": "하동 화개장터 벚꽃 드라이브",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 하동군",
+      "address": "경상남도 하동군 화개면 화개장터",
+      "lat": 35.1147,
+      "lng": 127.7208,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "경남 하동 쌍계사 십리 벚꽃 가도를 드라이브하는 봄 체험이다. 섬진강변 화개장터에서 쌍계사까지 10리 4km 벚꽃 터널 드라이브는 매년 3~4월 한국 최고 벚꽃 드라이브 코스로 꼽힌다.",
+      "source_urls": [
+        "https://www.hadong.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "하동벚꽃",
+        "화개장터",
+        "하동",
+        "경남",
+        "벚꽃드라이브",
+        "쌍계사",
+        "섬진강"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:37:41",
+      "operation_status": "annual",
+      "operating_hours": "3~4월 벚꽃 시즌 (무료)",
+      "phone": "055-880-2952"
     }
   ],
   "last_updated": "2026-05-07T04:18:31"
