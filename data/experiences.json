@@ -1,8 +1,8 @@
 {
   "_comment": "겜코리아 체험 데이터 — 역사/자연 마커와 분리. 삭제 금지. 젬투어 상품 후보.",
   "_version": "1.0",
-  "_updated": "2026-05-10T03:37:41",
-  "total": 625,
+  "_updated": "2026-05-10T03:41:29",
+  "total": 637,
   "experiences": [
     {
       "experience_id": "EX-SE-MKT-001",
@@ -25021,7 +25021,7 @@
         "닥나무"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-10T03:37:41",
       "operation_status": "active",
       "operating_hours": "10:00~18:00",
@@ -25061,7 +25061,7 @@
         "드라마촬영지"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-10T03:37:41",
       "operation_status": "active",
       "operating_hours": "09:00~18:00 (월 휴관)",
@@ -25471,6 +25471,491 @@
       "operation_status": "annual",
       "operating_hours": "3~4월 벚꽃 시즌 (무료)",
       "phone": "055-880-2952"
+    },
+    {
+      "experience_id": "EX-SE-CUL-073",
+      "name": "서울 인사동 전통 공예 투어",
+      "category_main": "문화/체험",
+      "category_sub": "전통공예",
+      "region_main": "SE",
+      "region_sub": "서울특별시 종로구",
+      "address": "서울특별시 종로구 인사동길 일대",
+      "lat": 37.5726,
+      "lng": 126.9856,
+      "price": "체험별 상이",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "서울 인사동에서 한국화·한지공예·도자기·목공예 등 전통 공예 체험을 즐기는 투어다. 인사동 공방 밀집 골목을 따라 다양한 전통 공예 체험이 집약된 서울 대표 공예 체험 거리다.",
+      "source_urls": [
+        "https://www.jongno.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "인사동공예투어",
+        "인사동",
+        "서울",
+        "전통공예",
+        "한지공예",
+        "도자기",
+        "종로"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:41:29",
+      "operation_status": "active",
+      "operating_hours": "10:00~21:00",
+      "phone": "02-734-0222"
+    },
+    {
+      "experience_id": "EX-JB-CUL-065",
+      "name": "전주 가맥집 투어",
+      "category_main": "문화/체험",
+      "category_sub": "지역 먹거리",
+      "region_main": "JB",
+      "region_sub": "전라북도 전주시",
+      "address": "전라북도 전주시 완산구 가맥거리 일대",
+      "lat": 35.8144,
+      "lng": 127.1497,
+      "price": "1인 10,000원~",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "청년",
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "전주 특유의 가맥집 문화를 체험하는 투어다. 가맥이란 가게에서 맥주를 파는 전주만의 독특한 음주 문화로 일반 가게·편의점에서 두부·마른안주와 함께 저렴하게 맥주를 즐기는 전주 로컬 문화다.",
+      "source_urls": [
+        "https://www.jeonjufood.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "전주가맥",
+        "전주",
+        "전북",
+        "가맥집",
+        "전주맥주",
+        "로컬문화",
+        "한국음주문화"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:41:29",
+      "operation_status": "active",
+      "operating_hours": "저녁 16:00~22:00",
+      "phone": "063-220-5831"
+    },
+    {
+      "experience_id": "EX-GN-NAT-079",
+      "name": "남해 독일마을 이국적 산책",
+      "category_main": "문화/체험",
+      "category_sub": "문화투어",
+      "region_main": "GN",
+      "region_sub": "경상남도 남해군",
+      "address": "경상남도 남해군 삼동면 독일로 92",
+      "lat": 34.7889,
+      "lng": 127.9119,
+      "price": "입장 무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "한국 남해에 조성된 독일 스타일 마을 독일마을을 산책하는 이색 체험이다. 1960~70년대 독일 파견 광부·간호사 출신 교포들이 정착해 만든 독일식 건축 마을로 남해 바다 배경이 이국적이다.",
+      "source_urls": [
+        "https://www.namhae.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "남해독일마을",
+        "남해",
+        "경남",
+        "독일마을",
+        "이국적",
+        "교포정착",
+        "파독광부"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-10T03:41:29",
+      "operation_status": "active",
+      "operating_hours": "연중 (무료)",
+      "phone": "055-863-3427"
+    },
+    {
+      "experience_id": "EX-GW-NAT-068",
+      "name": "삼척 해양레일바이크",
+      "category_main": "문화/체험",
+      "category_sub": "어드벤처/레포츠",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 삼척시",
+      "address": "강원특별자치도 삼척시 근덕면 공양왕길 2",
+      "lat": 37.4267,
+      "lng": 129.2267,
+      "price": "2인 이상 기준 28,000원~",
+      "duration": "1시간",
+      "reservation_required": true,
+      "target_user": [
+        "커플",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "삼척 바다 위를 달리는 해양 레일바이크를 타는 어드벤처 체험이다. 폐철로를 활용한 삼척 해양레일바이크는 동해 바다 절경을 바라보며 5.4km 코스를 달리는 강원도 대표 레저 체험이다.",
+      "source_urls": [
+        "https://www.samcheok.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "삼척레일바이크",
+        "삼척",
+        "강원",
+        "해양레일바이크",
+        "동해바다",
+        "폐철로",
+        "레저"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-10T03:41:29",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00",
+      "phone": "033-576-0656"
+    },
+    {
+      "experience_id": "EX-JN-NAT-082",
+      "name": "순천만 일몰 갈대밭",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 순천시",
+      "address": "전라남도 순천시 순천만길 513-25",
+      "lat": 34.9025,
+      "lng": 127.485,
+      "price": "성인 8,000원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "유네스코 세계자연유산 순천만 갈대밭에서 일몰을 감상하는 체험이다. 10~11월 황금빛 갈대가 물드는 시즌에 용산 전망대에서 S자 수로와 일몰이 어우러지는 순천만의 절경을 즐긴다.",
+      "source_urls": [
+        "https://www.suncheonbay.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "순천만갈대밭",
+        "순천만",
+        "전남",
+        "갈대밭",
+        "일몰",
+        "유네스코",
+        "흑두루미"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-10T03:41:29",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00",
+      "phone": "061-749-6054"
+    },
+    {
+      "experience_id": "EX-GW-NAT-069",
+      "name": "정선 아리랑 공연 체험",
+      "category_main": "문화/체험",
+      "category_sub": "전통공연",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 정선군",
+      "address": "강원특별자치도 정선군 정선읍 봉양리 아리랑공연장",
+      "lat": 37.3808,
+      "lng": 128.6594,
+      "price": "무료~",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "유네스코 인류무형문화유산 정선 아리랑을 직접 공연·체험하는 프로그램이다. 강원 정선의 산골 정서가 담긴 정선 아리랑은 한 맺힌 메나리조 선율이 특징으로 국내 아리랑 중 가장 슬프고 독특하다.",
+      "source_urls": [
+        "https://www.jeongseonarrang.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "정선아리랑",
+        "정선",
+        "강원",
+        "유네스코아리랑",
+        "전통공연",
+        "메나리조",
+        "아리랑"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:41:29",
+      "operation_status": "active",
+      "operating_hours": "공연 일정 확인 후 방문",
+      "phone": "033-562-1000"
+    },
+    {
+      "experience_id": "EX-GJ-CUL-012",
+      "name": "광주 1913 송정역 시장",
+      "category_main": "문화/체험",
+      "category_sub": "지역 먹거리",
+      "region_main": "GJ",
+      "region_sub": "광주광역시 광산구",
+      "address": "광주광역시 광산구 송정로 8번길 13",
+      "lat": 35.1372,
+      "lng": 126.7939,
+      "price": "먹거리 별도",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "1913년 개설된 송정 전통 시장이 2016년 리뉴얼돼 청년 상인·레트로 감성이 어우러진 1913 송정역 시장으로 재탄생했다. KTX 광주송정역 옆에 위치해 여행자 방문이 많은 광주 대표 먹거리 시장이다.",
+      "source_urls": [
+        "https://www.1913songjungstation.com/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "1913송정역시장",
+        "광주",
+        "광주광산구",
+        "전통시장",
+        "청년상인",
+        "레트로",
+        "먹거리"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:41:29",
+      "operation_status": "active",
+      "operating_hours": "10:00~21:00 (화 휴무)",
+      "phone": "062-941-1913"
+    },
+    {
+      "experience_id": "EX-GG-NAT-070",
+      "name": "안산 대부도 바지락 조개잡이",
+      "category_main": "문화/체험",
+      "category_sub": "농촌 체험",
+      "region_main": "GG",
+      "region_sub": "경기도 안산시",
+      "address": "경기도 안산시 단원구 대부도 갯벌 일대",
+      "lat": 37.2133,
+      "lng": 126.5658,
+      "price": "1인 5,000원~",
+      "duration": "2시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "어린이"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "경기도 안산 대부도 갯벌에서 바지락·조개를 직접 잡는 갯벌 체험이다. 서울에서 1시간 거리 대부도 갯벌이 수도권 최대 갯벌 체험지로 물빠진 갯벌에서 맨손으로 바지락을 잡는 인기 가족 체험이다.",
+      "source_urls": [
+        "https://www.ansan.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "대부도갯벌체험",
+        "대부도",
+        "안산",
+        "경기",
+        "바지락잡기",
+        "조개잡이",
+        "갯벌"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-10T03:41:29",
+      "operation_status": "seasonal",
+      "operating_hours": "썰물 시간 확인 필수 (봄~가을)",
+      "phone": "031-481-2580"
+    },
+    {
+      "experience_id": "EX-JN-CUL-044",
+      "name": "고창 선운사 꽃무릇 트레킹",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "JN",
+      "region_sub": "전라북도 고창군",
+      "address": "전라북도 고창군 아산면 선운사로 250",
+      "lat": 35.5061,
+      "lng": 126.6086,
+      "price": "성인 3,000원",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "전북 고창 선운사 일원에서 9월 하순~10월 초 꽃무릇이 붉게 물드는 시즌에 트레킹을 즐기는 체험이다. 고창 선운사 꽃무릇 군락이 전국 최대 규모로 선운사 계곡과 어우러지는 붉은 꽃무릇 절경이다.",
+      "source_urls": [
+        "https://www.seonunsa.org/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "선운사꽃무릇",
+        "고창",
+        "전북",
+        "꽃무릇",
+        "상사화",
+        "선운사",
+        "9월"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:41:29",
+      "operation_status": "annual",
+      "operating_hours": "9월 하순~10월 초 시즌",
+      "phone": "063-561-1422"
+    },
+    {
+      "experience_id": "EX-GN-CUL-069",
+      "name": "사천 항공우주박물관 체험",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 사천시",
+      "address": "경상남도 사천시 사남면 공단1로 78",
+      "lat": 35.0281,
+      "lng": 128.1164,
+      "price": "성인 9,000원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "어린이"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "대한민국 항공우주 역사와 산업을 체험하는 사천 항공우주박물관 투어다. T-50 고등훈련기·KF-21 모형 등 한국 항공기 실물을 관람하고 비행 시뮬레이터를 직접 조종하는 과학 체험이다.",
+      "source_urls": [
+        "https://www.aerospacemuseum.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "사천항공우주박물관",
+        "사천",
+        "경남",
+        "항공우주",
+        "T-50",
+        "KF-21",
+        "비행시뮬레이터"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:41:29",
+      "operation_status": "active",
+      "operating_hours": "09:30~17:30 (월 휴관)",
+      "phone": "055-851-6565"
+    },
+    {
+      "experience_id": "EX-JN-NAT-083",
+      "name": "임실 치즈마을 피자 만들기",
+      "category_main": "문화/체험",
+      "category_sub": "농촌 체험",
+      "region_main": "JN",
+      "region_sub": "전라북도 임실군",
+      "address": "전라북도 임실군 임실읍 치즈마을 5길 12",
+      "lat": 35.6178,
+      "lng": 127.2889,
+      "price": "체험 18,000원~",
+      "duration": "1~2시간",
+      "reservation_required": true,
+      "target_user": [
+        "가족",
+        "어린이",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "한국 치즈의 발상지 전북 임실 치즈마을에서 직접 치즈와 피자를 만드는 체험이다. 벨기에 신부 지정환에 의해 시작된 임실 치즈 역사를 배우고 직접 피자를 만들어 먹는 가족 체험이다.",
+      "source_urls": [
+        "https://www.imsil-cheese.com/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "임실치즈마을",
+        "임실",
+        "전북",
+        "치즈만들기",
+        "피자만들기",
+        "지정환신부",
+        "치즈발상지"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:41:29",
+      "operation_status": "active",
+      "operating_hours": "10:00~17:00 (예약 필수)",
+      "phone": "063-643-3700"
+    },
+    {
+      "experience_id": "EX-CB-NAT-043",
+      "name": "충주 활 체험 국궁장",
+      "category_main": "문화/체험",
+      "category_sub": "어드벤처/레포츠",
+      "region_main": "CB",
+      "region_sub": "충청북도 충주시",
+      "address": "충청북도 충주시 충의로 50 충주국궁장",
+      "lat": 36.9908,
+      "lng": 127.9261,
+      "price": "성인 3,000원~",
+      "duration": "1시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "충북 충주 국궁장에서 전통 활 국궁을 직접 쏘는 체험이다. 충주는 조선 시대 훈련 지역으로 전통 국궁 체험이 잘 보존된 곳으로 40~145m 표적 사거리에서 화살을 쏘는 정통 국궁 체험을 즐길 수 있다.",
+      "source_urls": [
+        "https://www.chungju.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "충주국궁체험",
+        "충주",
+        "충북",
+        "국궁",
+        "활",
+        "전통무예",
+        "조선"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:41:29",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00",
+      "phone": "043-850-6821"
     }
   ],
   "last_updated": "2026-05-07T04:18:31"
