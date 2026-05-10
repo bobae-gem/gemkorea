@@ -1,8 +1,8 @@
 {
   "_comment": "겜코리아 체험 데이터 — 역사/자연 마커와 분리. 삭제 금지. 젬투어 상품 후보.",
   "_version": "1.0",
-  "_updated": "2026-05-10T02:48:07",
-  "total": 481,
+  "_updated": "2026-05-10T02:52:17",
+  "total": 493,
   "experiences": [
     {
       "experience_id": "EX-SE-MKT-001",
@@ -6551,7 +6551,7 @@
         "먹거리투어"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:46:43",
       "operation_status": "active",
       "operating_hours": "야시장: 화~일 19:00~23:00",
@@ -6591,7 +6591,7 @@
         "강원"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:46:43",
       "operation_status": "active",
       "operating_hours": "07:00~18:00",
@@ -6632,7 +6632,7 @@
         "서초"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:46:43",
       "operation_status": "active",
       "operating_hours": "매주 토요일 15:00 (무료)",
@@ -6673,7 +6673,7 @@
         "경기전"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:46:43",
       "operation_status": "active",
       "operating_hours": "야간: 18:00~22:00",
@@ -6713,7 +6713,7 @@
         "말타기"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:46:43",
       "operation_status": "active",
       "operating_hours": "화~일 10:00~17:00",
@@ -6754,7 +6754,7 @@
         "자연"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:46:43",
       "operation_status": "active",
       "operating_hours": "10:00~17:00",
@@ -19633,6 +19633,492 @@
       "operation_status": "active",
       "operating_hours": "09:00~17:00",
       "phone": "061-363-9900"
+    },
+    {
+      "experience_id": "EX-GW-NAT-038",
+      "name": "양구 해안분지 DMZ 생태 탐방",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 양구군",
+      "address": "강원특별자치도 양구군 해안면 해안분지",
+      "lat": 38.2308,
+      "lng": 128.0983,
+      "price": "입산 허가 필요",
+      "duration": "3~4시간",
+      "reservation_required": true,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "강원도 양구 해안분지(펀치볼)에서 6·25 전쟁 격전지와 DMZ 접경 지역 생태를 탐방하는 체험이다. 해발 500~600m 분지 형태의 특이한 지형과 전쟁 유적·자연 생태가 공존하는 희귀 체험 공간이다.",
+      "source_urls": [
+        "https://www.yanggu.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "해안분지",
+        "양구",
+        "강원",
+        "DMZ",
+        "6·25전쟁",
+        "펀치볼",
+        "분지지형"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:52:17",
+      "operation_status": "active",
+      "operating_hours": "사전 입산 허가 필수",
+      "phone": "033-480-2251"
+    },
+    {
+      "experience_id": "EX-GN-NAT-039",
+      "name": "남해 섬섬길 해안 트레킹",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 남해군",
+      "address": "경상남도 남해군 남해읍 설천면 섬섬길 일원",
+      "lat": 34.845,
+      "lng": 127.8919,
+      "price": "무료",
+      "duration": "3~5시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "남해 해안을 따라 걷는 섬섬길 트레킹 코스를 체험하는 프로그램이다. 남해 다도해의 섬들을 바라보며 해안 절벽과 논밭이 어우러지는 독특한 경관을 즐기는 경남 최고의 해안 트레킹 코스다.",
+      "source_urls": [
+        "https://www.namhae.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "섬섬길",
+        "남해",
+        "경남",
+        "해안트레킹",
+        "다도해",
+        "절벽",
+        "논밭"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:52:17",
+      "operation_status": "active",
+      "operating_hours": "연중 (무료)",
+      "phone": "055-860-3671"
+    },
+    {
+      "experience_id": "EX-GW-NAT-039",
+      "name": "삼척 죽서루+오십천 유람",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 삼척시",
+      "address": "강원특별자치도 삼척시 죽서루길 37",
+      "lat": 37.4486,
+      "lng": 129.1628,
+      "price": "성인 2,000원",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "관동팔경 중 하나인 삼척 죽서루에서 오십천 절벽 위 절경을 감상하는 체험이다. 고려 시대 창건된 죽서루는 자연 바위 위에 세워진 독특한 구조로 오십천 계곡과 어우러지는 풍경이 아름답다.",
+      "source_urls": [
+        "https://www.samcheok.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "죽서루",
+        "삼척",
+        "강원",
+        "관동팔경",
+        "오십천",
+        "고려",
+        "바위위건물"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:52:17",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00",
+      "phone": "033-570-3670"
+    },
+    {
+      "experience_id": "EX-GN-NAT-040",
+      "name": "하동 평사리 최참판댁 걷기",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 하동군",
+      "address": "경상남도 하동군 악양면 평사리 들판 일원",
+      "lat": 35.0672,
+      "lng": 127.6889,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "소설 토지의 배경 평사리 들판을 걸으며 섬진강을 바라보는 문학 체험이다. 최참판댁 고택에서 내려다보이는 악양 들판과 섬진강 풍경이 소설 속 장면을 그대로 재현하는 하동 문학 여행의 핵심이다.",
+      "source_urls": [
+        "https://www.hadong.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "평사리",
+        "하동",
+        "토지",
+        "박경리",
+        "경남",
+        "문학여행",
+        "섬진강"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:52:17",
+      "operation_status": "active",
+      "operating_hours": "연중 (무료)",
+      "phone": "055-880-2960"
+    },
+    {
+      "experience_id": "EX-GG-NAT-045",
+      "name": "수원 광교산 수변공원 봄나들이",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GG",
+      "region_sub": "경기도 수원시",
+      "address": "경기도 수원시 장안구 광교산 일원",
+      "lat": 37.32,
+      "lng": 127.0356,
+      "price": "무료",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "수원 광교산과 수변공원을 연계하는 봄 나들이 코스다. 벚꽃 시즌 광교 호수 공원과 광교산 등산이 어우러지는 수원 시민 대표 봄 코스로 수원화성과 함께 묶으면 수원 완벽 봄 여행이다.",
+      "source_urls": [
+        "https://www.suwon.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "광교산",
+        "수원",
+        "경기",
+        "봄벚꽃",
+        "광교호수",
+        "수변공원",
+        "봄나들이"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:52:17",
+      "operation_status": "seasonal",
+      "operating_hours": "3월 말~4월 초 벚꽃 시즌 (무료)",
+      "phone": "031-228-4700"
+    },
+    {
+      "experience_id": "EX-JN-NAT-043",
+      "name": "장흥 편백 우드랜드 산림욕",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 장흥군",
+      "address": "전라남도 장흥군 장흥읍 우드랜드길 180",
+      "lat": 34.6736,
+      "lng": 126.9131,
+      "price": "성인 3,000원",
+      "duration": "2~4시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "전국 최대 편백 군락지 장흥 우드랜드에서 힐링 삼림욕과 편백 족욕을 즐기는 체험이다. 1,000ha 편백나무 숲에서 피톤치드 가득한 공기를 마시며 트레킹하는 전남 대표 치유 체험이다.",
+      "source_urls": [
+        "https://www.jhwoodland.co.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "장흥우드랜드",
+        "장흥",
+        "전남",
+        "편백숲",
+        "삼림욕",
+        "족욕",
+        "치유"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:52:17",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00",
+      "phone": "061-864-0063"
+    },
+    {
+      "experience_id": "EX-GN-NAT-041",
+      "name": "창녕 화왕산 억새 트레킹",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 창녕군",
+      "address": "경상남도 창녕군 창녕읍 화왕산 일원",
+      "lat": 35.5444,
+      "lng": 128.5222,
+      "price": "무료",
+      "duration": "3~4시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "해발 757m 화왕산 정상부 억새 평원을 탐방하는 가을 트레킹이다. 10월 억새가 온통 황금빛으로 물드는 화왕산은 경남 최고의 가을 억새 명소이며 화왕산성 역사도 함께 즐길 수 있다.",
+      "source_urls": [
+        "https://www.cng.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "화왕산",
+        "창녕",
+        "경남",
+        "억새",
+        "가을트레킹",
+        "화왕산성",
+        "황금억새"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:52:17",
+      "operation_status": "annual",
+      "operating_hours": "10월 억새 시즌",
+      "phone": "055-530-1400"
+    },
+    {
+      "experience_id": "EX-GW-NAT-040",
+      "name": "속초 청초호 봄꽃 투어",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 속초시",
+      "address": "강원특별자치도 속초시 청초호 수변공원",
+      "lat": 38.2022,
+      "lng": 128.5872,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "속초 청초호 수변공원에서 봄꽃을 감상하는 체험이다. 아바이마을을 품은 청초호 주변 벚꽃과 유채꽃이 설악산을 배경으로 피어나는 봄 경관이 아름다운 속초 봄 필수 코스다.",
+      "source_urls": [
+        "https://www.sokcho.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "청초호봄꽃",
+        "속초",
+        "강원",
+        "벚꽃",
+        "유채꽃",
+        "설악산배경",
+        "봄"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:52:17",
+      "operation_status": "annual",
+      "operating_hours": "3월 말~4월 중순 봄꽃 시즌 (무료)",
+      "phone": "033-639-2690"
+    },
+    {
+      "experience_id": "EX-JN-NAT-044",
+      "name": "해남 두륜산 케이블카 남해 조망",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 해남군",
+      "address": "전라남도 해남군 삼산면 대흥사길 400",
+      "lat": 34.4667,
+      "lng": 126.5875,
+      "price": "케이블카 왕복 성인 13,000원",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "해남 두륜산 케이블카를 타고 한반도 최남단 남해 다도해를 조망하는 체험이다. 2.3km 케이블카로 올라가면 제주도·보길도·흑산도까지 보이는 전남 최고의 전망 포인트가 열린다.",
+      "source_urls": [
+        "https://www.haenam.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "두륜산케이블카",
+        "해남",
+        "전남",
+        "남해다도해",
+        "제주도조망",
+        "케이블카",
+        "전망"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:52:17",
+      "operation_status": "active",
+      "operating_hours": "09:00~17:00",
+      "phone": "061-534-8900"
+    },
+    {
+      "experience_id": "EX-GN-NAT-042",
+      "name": "진해 군항제+경화역 벚꽃",
+      "category_main": "문화/체험",
+      "category_sub": "축제",
+      "region_main": "GN",
+      "region_sub": "경상남도 창원시",
+      "address": "경상남도 창원시 진해구 경화역 일원",
+      "lat": 35.1578,
+      "lng": 128.6792,
+      "price": "무료",
+      "duration": "3~5시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "매년 3~4월 한국 최대 벚꽃 축제 진해 군항제에서 36만 그루 왕벚나무를 감상하는 봄 체험이다. 경화역 철로변 벚꽃 터널이 군항제의 하이라이트로 전국 사진가들이 몰리는 봄 최고 포토 명소다.",
+      "source_urls": [
+        "https://www.changwon.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "군항제",
+        "진해",
+        "경화역",
+        "창원",
+        "경남",
+        "벚꽃",
+        "봄축제"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:52:17",
+      "operation_status": "annual",
+      "operating_hours": "매년 3~4월 (10일간)",
+      "phone": "055-225-3691"
+    },
+    {
+      "experience_id": "EX-GG-NAT-046",
+      "name": "가평 잣 수확 체험",
+      "category_main": "문화/체험",
+      "category_sub": "농촌 체험",
+      "region_main": "GG",
+      "region_sub": "경기도 가평군",
+      "address": "경기도 가평군 가평읍 잣농장 일원",
+      "lat": 37.8583,
+      "lng": 127.5097,
+      "price": "1인 15,000원~",
+      "duration": "1~2시간",
+      "reservation_required": true,
+      "target_user": [
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "잣의 고장 가평에서 9~10월 잣을 직접 수확하는 농촌 체험이다. 가평 특산품 잣나무 농장에서 잣구르미(잣송이)를 직접 수확하고 즉석에서 까서 맛볼 수 있다.",
+      "source_urls": [
+        "https://www.gapyeong.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "잣수확체험",
+        "가평",
+        "경기",
+        "잣",
+        "잣나무",
+        "가을체험",
+        "특산품"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:52:17",
+      "operation_status": "seasonal",
+      "operating_hours": "9~10월 잣 수확 시즌",
+      "phone": "031-580-2726"
+    },
+    {
+      "experience_id": "EX-JN-NAT-045",
+      "name": "진도 운림산방+쌍계사 벚꽃",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 진도군",
+      "address": "전라남도 진도군 의신면 운림산방로 315",
+      "lat": 34.4394,
+      "lng": 126.2231,
+      "price": "성인 2,000원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "조선 시대 남종화의 거장 허련(소치)이 그림 그리던 운림산방을 탐방하는 체험이다. 운림산방 연못과 동백나무·봄 벚꽃이 어우러지는 정원이 아름다우며 진도 쌍계사 벚꽃과 연계하면 진도 봄 완벽 코스다.",
+      "source_urls": [
+        "https://www.jindo.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "운림산방",
+        "진도",
+        "전남",
+        "허련",
+        "소치",
+        "봄벚꽃",
+        "남종화"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:52:17",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00",
+      "phone": "061-540-6242"
     }
   ],
   "last_updated": "2026-05-07T04:18:31"
