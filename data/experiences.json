@@ -1,8 +1,8 @@
 {
   "_comment": "겜코리아 체험 데이터 — 역사/자연 마커와 분리. 삭제 금지. 젬투어 상품 후보.",
   "_version": "1.0",
-  "_updated": "2026-05-10T03:41:29",
-  "total": 637,
+  "_updated": "2026-05-10T03:45:15",
+  "total": 649,
   "experiences": [
     {
       "experience_id": "EX-SE-MKT-001",
@@ -24657,7 +24657,7 @@
         "여름"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-10T03:34:02",
       "operation_status": "seasonal",
       "operating_hours": "5~10월",
@@ -24697,7 +24697,7 @@
         "시내근교힐링"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-10T03:34:02",
       "operation_status": "active",
       "operating_hours": "연중 (무료)",
@@ -24738,7 +24738,7 @@
         "원형보존"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-10T03:34:02",
       "operation_status": "active",
       "operating_hours": "연중 (무료)",
@@ -24779,7 +24779,7 @@
         "동강할미꽃"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-10T03:34:02",
       "operation_status": "seasonal",
       "operating_hours": "4~10월",
@@ -24859,7 +24859,7 @@
         "천연기념물"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-10T03:34:02",
       "operation_status": "active",
       "operating_hours": "연중 (무료)",
@@ -24980,7 +24980,7 @@
         "신선물회"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-10T03:34:02",
       "operation_status": "active",
       "operating_hours": "연중",
@@ -25956,6 +25956,491 @@
       "operation_status": "active",
       "operating_hours": "09:00~18:00",
       "phone": "043-850-6821"
+    },
+    {
+      "experience_id": "EX-GG-NAT-071",
+      "name": "여주 도예 체험 — 고려청자",
+      "category_main": "문화/체험",
+      "category_sub": "전통공예",
+      "region_main": "GG",
+      "region_sub": "경기도 여주시",
+      "address": "경기도 여주시 신지리 도예촌 일대",
+      "lat": 37.3319,
+      "lng": 127.6397,
+      "price": "체험 15,000원~",
+      "duration": "2~3시간",
+      "reservation_required": true,
+      "target_user": [
+        "개인",
+        "커플",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "경기도 여주 도예촌에서 고려청자 스타일 도자기를 직접 빚는 체험이다. 여주는 양질의 백토가 나는 지역으로 조선 시대 왕실 도자기 분원이 있던 도예 역사의 고장이다.",
+      "source_urls": [
+        "https://www.yeoju.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "여주도예체험",
+        "여주",
+        "경기",
+        "도자기",
+        "청자",
+        "분원",
+        "전통공예"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:45:15",
+      "operation_status": "active",
+      "operating_hours": "10:00~17:00",
+      "phone": "031-880-4611"
+    },
+    {
+      "experience_id": "EX-JN-CUL-045",
+      "name": "강진 청자박물관 도예 체험",
+      "category_main": "문화/체험",
+      "category_sub": "전통공예",
+      "region_main": "JN",
+      "region_sub": "전라남도 강진군",
+      "address": "전라남도 강진군 대구면 청자촌길 33",
+      "lat": 34.6478,
+      "lng": 126.7139,
+      "price": "체험 8,000원~",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "고려 청자의 본산 강진 청자박물관에서 청자 도예를 직접 체험하는 프로그램이다. 고려 시대 전국 청자 생산량의 60%를 책임진 강진 가마터에서 청자 역사를 배우고 직접 만드는 체험이다.",
+      "source_urls": [
+        "https://www.gangjin.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "강진청자박물관",
+        "강진",
+        "전남",
+        "고려청자",
+        "도예체험",
+        "가마터",
+        "청자"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:45:15",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00",
+      "phone": "061-430-3755"
+    },
+    {
+      "experience_id": "EX-GN-NAT-080",
+      "name": "양산 통도사 산사 체험",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 양산시",
+      "address": "경상남도 양산시 하북면 통도사로 108",
+      "lat": 35.4903,
+      "lng": 129.0575,
+      "price": "무료 (산사 체험 상이)",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "삼보사찰 중 불보사찰 경남 양산 통도사를 탐방하고 산사 체험을 하는 코스다. 한국 3대 사찰 통도사에서 부처님 사리를 모신 적멸보궁을 참배하고 사찰 음식 체험을 즐긴다.",
+      "source_urls": [
+        "https://www.tongdosa.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "통도사",
+        "양산",
+        "경남",
+        "삼보사찰",
+        "불보사찰",
+        "적멸보궁",
+        "사찰음식"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:45:15",
+      "operation_status": "active",
+      "operating_hours": "08:00~18:00",
+      "phone": "055-382-7182"
+    },
+    {
+      "experience_id": "EX-GW-NAT-070",
+      "name": "강릉 커피 거리 바리스타 체험",
+      "category_main": "문화/체험",
+      "category_sub": "지역 먹거리",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 강릉시",
+      "address": "강원특별자치도 강릉시 강문동 커피 거리 일대",
+      "lat": 37.7803,
+      "lng": 128.9481,
+      "price": "체험 10,000원~",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "국내 커피 문화의 발상지 강릉에서 바리스타 체험을 즐기는 프로그램이다. 한국 최초 바리스타 박이추가 강릉에 정착하면서 형성된 강릉 커피 거리에서 커피 원두 선별·로스팅·추출 체험을 즐긴다.",
+      "source_urls": [
+        "https://www.gn.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "강릉커피거리",
+        "강릉",
+        "강원",
+        "커피",
+        "바리스타체험",
+        "박이추",
+        "로스팅"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:45:15",
+      "operation_status": "active",
+      "operating_hours": "10:00~20:00",
+      "phone": "033-640-4533"
+    },
+    {
+      "experience_id": "EX-CB-NAT-044",
+      "name": "충주 수안보 온천 족욕",
+      "category_main": "문화/체험",
+      "category_sub": "웰니스",
+      "region_main": "CB",
+      "region_sub": "충청북도 충주시",
+      "address": "충청북도 충주시 수안보면 온천리 수안보 온천",
+      "lat": 36.8119,
+      "lng": 128.0903,
+      "price": "무료~성인 8,000원",
+      "duration": "1시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "한국에서 가장 오래된 자연 온천 충주 수안보 온천에서 족욕을 즐기는 웰니스 체험이다. 고려 시대부터 기록이 남아있는 역사 깊은 수안보 온천에서 알칼리성 탄산수소나트륨 성분 온천수를 즐긴다.",
+      "source_urls": [
+        "https://www.suanbo.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "수안보온천",
+        "충주",
+        "충북",
+        "온천",
+        "족욕",
+        "고려시대온천",
+        "탄산수소나트륨"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:45:15",
+      "operation_status": "active",
+      "operating_hours": "연중",
+      "phone": "043-845-1011"
+    },
+    {
+      "experience_id": "EX-JN-NAT-084",
+      "name": "함평 나비 대축제",
+      "category_main": "문화/체험",
+      "category_sub": "축제",
+      "region_main": "JN",
+      "region_sub": "전라남도 함평군",
+      "address": "전라남도 함평군 함평읍 기각리 함평엑스포공원",
+      "lat": 35.0639,
+      "lng": 126.5169,
+      "price": "성인 5,000원~",
+      "duration": "4~6시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "어린이",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "매년 4~5월 전남 함평에서 열리는 나비 대축제다. 살아있는 나비·곤충 체험, 나비 날리기, 수십 종 희귀 나비 관찰 등 아이들에게 최고의 자연 교육 축제로 함평 대표 봄 축제다.",
+      "source_urls": [
+        "https://www.hampyeong.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "함평나비축제",
+        "함평",
+        "전남",
+        "나비축제",
+        "곤충체험",
+        "봄축제",
+        "가족"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:45:15",
+      "operation_status": "annual",
+      "operating_hours": "4~5월 축제 기간",
+      "phone": "061-320-2114"
+    },
+    {
+      "experience_id": "EX-GG-CUL-072",
+      "name": "고양 행주산성 역사 체험",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GG",
+      "region_sub": "경기도 고양시",
+      "address": "경기도 고양시 덕양구 행주내동 574 행주산성",
+      "lat": 37.6244,
+      "lng": 126.8192,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "임진왜란 행주대첩의 현장 경기 고양 행주산성을 탐방하는 역사 체험이다. 권율 장군이 2,300명으로 3만 왜군을 물리친 행주대첩 현장에서 역사 재현 행사와 성곽 걷기를 즐긴다.",
+      "source_urls": [
+        "https://www.goyang.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "행주산성",
+        "고양",
+        "경기",
+        "행주대첩",
+        "임진왜란",
+        "권율",
+        "한강"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:45:15",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00 (무료)",
+      "phone": "031-978-9820"
+    },
+    {
+      "experience_id": "EX-JB-NAT-064",
+      "name": "남원 춘향제 체험",
+      "category_main": "문화/체험",
+      "category_sub": "축제",
+      "region_main": "JB",
+      "region_sub": "전라북도 남원시",
+      "address": "전라북도 남원시 향단길 33 광한루원",
+      "lat": 35.4053,
+      "lng": 127.3897,
+      "price": "광한루원 성인 3,000원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "판소리 춘향전의 배경지 전북 남원에서 매년 5월 춘향제를 즐기는 체험이다. 광한루원에서 춘향과 이몽룡의 사랑 이야기를 배경으로 다양한 전통 공연과 체험 행사가 열린다.",
+      "source_urls": [
+        "https://www.namwon.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "남원춘향제",
+        "남원",
+        "전북",
+        "광한루원",
+        "춘향전",
+        "판소리",
+        "봄축제"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:45:15",
+      "operation_status": "annual",
+      "operating_hours": "5월 연례 개최",
+      "phone": "063-620-6614"
+    },
+    {
+      "experience_id": "EX-GN-CUL-070",
+      "name": "밀양 얼음골 피서 체험",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 밀양시",
+      "address": "경상남도 밀양시 산내면 얼음골로 100",
+      "lat": 35.5089,
+      "lng": 128.8381,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "여름에도 얼음이 어는 신비로운 천연기념물 밀양 얼음골을 탐방하는 체험이다. 여름 한낮에도 바위틈에서 찬 공기가 나오고 얼음이 얼어있는 역전 현상을 직접 체험하는 자연 체험이다.",
+      "source_urls": [
+        "https://www.miryang.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "밀양얼음골",
+        "밀양",
+        "경남",
+        "얼음골",
+        "천연기념물",
+        "역전현상",
+        "여름얼음"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:45:15",
+      "operation_status": "seasonal",
+      "operating_hours": "여름 (6~8월)",
+      "phone": "055-359-5757"
+    },
+    {
+      "experience_id": "EX-GW-NAT-071",
+      "name": "인제 자작나무 숲 트레킹",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 인제군",
+      "address": "강원특별자치도 인제군 인제읍 원대리 자작나무숲",
+      "lat": 38.0833,
+      "lng": 128.1219,
+      "price": "무료",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "국내 최대 자작나무 숲 강원 인제 원대리 자작나무 숲에서 트레킹을 즐기는 체험이다. 흰 자작나무 700만 그루가 뻗은 숲에서 눈 쌓인 겨울 또는 신록 여름 트레킹이 가능한 비경이다.",
+      "source_urls": [
+        "https://www.inje.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "인제자작나무숲",
+        "인제",
+        "강원",
+        "자작나무",
+        "원대리",
+        "숲트레킹",
+        "겨울설경"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:45:15",
+      "operation_status": "active",
+      "operating_hours": "09:00~16:30 (동절기 10:00)",
+      "phone": "033-460-8036"
+    },
+    {
+      "experience_id": "EX-JN-NAT-085",
+      "name": "나주 배 따기 체험",
+      "category_main": "문화/체험",
+      "category_sub": "농촌 체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 나주시",
+      "address": "전라남도 나주시 왕곡면 나주배 산지 일대",
+      "lat": 35.0172,
+      "lng": 126.7847,
+      "price": "체험 10,000원~",
+      "duration": "1~2시간",
+      "reservation_required": true,
+      "target_user": [
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "전국 최대 배 산지 전남 나주에서 배 따기 체험을 즐기는 프로그램이다. 8~10월 나주 배 수확 시즌에 직접 배를 따고 현장에서 먹는 체험으로 나주 배가 달고 큰 이유를 배울 수 있다.",
+      "source_urls": [
+        "https://www.naju.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "나주배따기",
+        "나주",
+        "전남",
+        "나주배",
+        "배따기체험",
+        "영산강",
+        "배산지"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:45:15",
+      "operation_status": "seasonal",
+      "operating_hours": "8~10월 수확 시즌",
+      "phone": "061-330-1261"
+    },
+    {
+      "experience_id": "EX-GB-CUL-043",
+      "name": "문경 도자기 체험",
+      "category_main": "문화/체험",
+      "category_sub": "전통공예",
+      "region_main": "GB",
+      "region_sub": "경상북도 문경시",
+      "address": "경상북도 문경시 문경읍 새재로 1391",
+      "lat": 36.7394,
+      "lng": 128.1494,
+      "price": "체험 15,000원~",
+      "duration": "2시간",
+      "reservation_required": true,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "경북 문경에서 전통 도자기를 직접 빚는 체험이다. 문경은 조선 시대 왕실 도자기를 공급하던 사옹원 분원이 설치됐던 전통 도예의 고장으로 백토 질이 좋아 지금도 도예촌이 활발하다.",
+      "source_urls": [
+        "https://www.gbmg.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "문경도자기체험",
+        "문경",
+        "경북",
+        "도자기",
+        "사옹원분원",
+        "조선도자기",
+        "도예"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:45:15",
+      "operation_status": "active",
+      "operating_hours": "10:00~17:00",
+      "phone": "054-550-6421"
     }
   ],
   "last_updated": "2026-05-07T04:18:31"
