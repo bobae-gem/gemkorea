@@ -1,8 +1,8 @@
 {
   "_comment": "겜코리아 체험 데이터 — 역사/자연 마커와 분리. 삭제 금지. 젬투어 상품 후보.",
   "_version": "1.0",
-  "_updated": "2026-05-10T02:27:54",
-  "total": 421,
+  "_updated": "2026-05-10T02:31:57",
+  "total": 433,
   "experiences": [
     {
       "experience_id": "EX-SE-MKT-001",
@@ -5331,7 +5331,7 @@
         "태권도성지"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:35:31",
       "operation_status": "active",
       "operating_hours": "09:00~17:00 (토·일 체험 프로그램)",
@@ -5372,7 +5372,7 @@
         "유네스코"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:35:31",
       "operation_status": "active",
       "operating_hours": "조석표 참고 (썰물 때 운영)",
@@ -5413,7 +5413,7 @@
         "조선군사"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:35:31",
       "operation_status": "active",
       "operating_hours": "10:00~17:00 (화요일 휴무)",
@@ -5453,7 +5453,7 @@
         "한약재"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:35:31",
       "operation_status": "active",
       "operating_hours": "09:00~18:00 (월요일 휴관)",
@@ -5493,7 +5493,7 @@
         "채식"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:35:31",
       "operation_status": "active",
       "operating_hours": "10:00~15:00 (예약 필수)",
@@ -5534,7 +5534,7 @@
         "고려문화"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:35:31",
       "operation_status": "active",
       "operating_hours": "09:00~18:00",
@@ -17206,6 +17206,491 @@
       "operation_status": "active",
       "operating_hours": "09:00~18:00",
       "phone": "033-660-3301"
+    },
+    {
+      "experience_id": "EX-GN-NAT-024",
+      "name": "거제 해금강 유람선 투어",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 거제시",
+      "address": "경상남도 거제시 남부면 갈곶리 해금강 선착장",
+      "lat": 34.7511,
+      "lng": 128.7339,
+      "price": "유람선 성인 14,000원~",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "거제도 최남단 해금강 기암절벽을 유람선으로 탐방하는 체험이다. 한국의 금강이라 불리는 해금강 절벽·동굴·기암이 어우러지는 남해 절경을 뱃길로 감상하며 학동 흑진주 해변도 함께 방문한다.",
+      "source_urls": [
+        "https://www.geoje.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "해금강유람선",
+        "거제",
+        "경남",
+        "해금강",
+        "기암절벽",
+        "동굴",
+        "남해절경"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:31:57",
+      "operation_status": "active",
+      "operating_hours": "09:00~17:00",
+      "phone": "055-632-5186"
+    },
+    {
+      "experience_id": "EX-GW-NAT-027",
+      "name": "춘천 소양강 스카이워크",
+      "category_main": "문화/체험",
+      "category_sub": "어드벤처/레포츠",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 춘천시",
+      "address": "강원특별자치도 춘천시 영서로 2663",
+      "lat": 37.8845,
+      "lng": 127.7352,
+      "price": "무료",
+      "duration": "30분~1시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "소양강 위로 174m 뻗어나간 유리 바닥 스카이워크를 걷는 체험이다. 투명 유리 바닥 아래로 소양강이 흐르는 아찔한 체험과 함께 의암호와 강촌 전경을 감상할 수 있는 춘천 인기 명소다.",
+      "source_urls": [
+        "https://www.chuncheon.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "소양강스카이워크",
+        "춘천",
+        "강원",
+        "유리바닥",
+        "스카이워크",
+        "소양강",
+        "무료"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:31:57",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00 (무료)",
+      "phone": "033-250-4312"
+    },
+    {
+      "experience_id": "EX-JN-NAT-027",
+      "name": "담양 소쇄원+식영정 선비 투어",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 담양군",
+      "address": "전라남도 담양군 남면 소쇄원길 17",
+      "lat": 35.3006,
+      "lng": 126.9589,
+      "price": "소쇄원 성인 2,000원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "소쇄원·식영정·가사문학관을 연결하는 담양 선비 문화 투어다. 가사 문학의 발원지 담양에서 정철의 관동별곡·사미인곡 배경지를 직접 걸으며 조선 시대 선비 정신을 이해한다.",
+      "source_urls": [
+        "https://www.damyang.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "소쇄원",
+        "담양",
+        "선비투어",
+        "식영정",
+        "가사문학",
+        "관동별곡",
+        "전남"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:31:57",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00",
+      "phone": "061-380-2679"
+    },
+    {
+      "experience_id": "EX-GG-NAT-030",
+      "name": "양평 들꽃수목원 사계절",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GG",
+      "region_sub": "경기도 양평군",
+      "address": "경기도 양평군 양평읍 두물머리로 160",
+      "lat": 37.5214,
+      "lng": 127.4842,
+      "price": "성인 8,000원",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "두물머리 인근 양평 들꽃수목원에서 사계절 야생화를 감상하는 체험이다. 북한강변에 위치해 계절마다 다른 야생화와 강 전망이 아름다우며 봄 수선화·여름 수국·가을 국화가 특히 유명하다.",
+      "source_urls": [
+        "https://www.wildflower.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "들꽃수목원",
+        "양평",
+        "경기",
+        "야생화",
+        "수선화",
+        "수국",
+        "두물머리"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:31:57",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00",
+      "phone": "031-772-1800"
+    },
+    {
+      "experience_id": "EX-GN-NAT-025",
+      "name": "창녕 우포늪 조류 탐조",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 창녕군",
+      "address": "경상남도 창녕군 유어면 우포길 220",
+      "lat": 35.5556,
+      "lng": 128.4258,
+      "price": "무료",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "국내 최대 자연 내륙 습지 우포늪에서 천연기념물 조류를 탐조하는 체험이다. 람사르 보호 습지로 황새·저어새·재두루미·가창오리 등 희귀 조류 수만 마리가 찾아오는 겨울철 탐조 명소다.",
+      "source_urls": [
+        "https://www.upo.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "우포늪탐조",
+        "창녕",
+        "경남",
+        "황새",
+        "저어새",
+        "람사르",
+        "겨울탐조"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:31:57",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00 (무료)",
+      "phone": "055-532-1403"
+    },
+    {
+      "experience_id": "EX-JB-NAT-009",
+      "name": "진안 마이산 탑사 벚꽃",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "JB",
+      "region_sub": "전라북도 진안군",
+      "address": "전라북도 진안군 마령면 마이산로 240",
+      "lat": 35.7478,
+      "lng": 127.4181,
+      "price": "성인 3,000원",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "전북 명산 마이산(686m) 탑사 800년 된 돌탑군과 4월 벚꽃을 함께 감상하는 체험이다. 마이산은 말귀 모양 두 봉우리와 탑사 돌탑 100여 기가 어우러지는 신비로운 경관으로 전북 최고 기경 중 하나다.",
+      "source_urls": [
+        "https://www.jinan.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "마이산",
+        "진안",
+        "전북",
+        "탑사",
+        "돌탑",
+        "벚꽃",
+        "말귀모양"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:31:57",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00",
+      "phone": "063-432-1330"
+    },
+    {
+      "experience_id": "EX-GW-NAT-028",
+      "name": "강릉 경포 일출+오죽헌 아침 코스",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 강릉시",
+      "address": "강원특별자치도 강릉시 경포동 경포해변",
+      "lat": 37.7752,
+      "lng": 128.8912,
+      "price": "무료",
+      "duration": "3~4시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "경포해변 새해 일출 감상 후 오죽헌 아침 고요 탐방으로 이어지는 강릉 아침 코스다. 일출 직후 관광객이 빠진 경포호 산책과 문을 열기 직전 오죽헌을 먼저 둘러보는 강릉 얼리버드 코스다.",
+      "source_urls": [
+        "https://www.gn.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "경포일출",
+        "강릉",
+        "경포해변",
+        "오죽헌",
+        "새벽코스",
+        "강원",
+        "아침여행"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:31:57",
+      "operation_status": "active",
+      "operating_hours": "새벽 4~9시",
+      "phone": "033-640-4533"
+    },
+    {
+      "experience_id": "EX-GN-NAT-026",
+      "name": "밀양 표충사 사명대사 역사 탐방",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 밀양시",
+      "address": "경상남도 밀양시 단장면 표충로 1338",
+      "lat": 35.4697,
+      "lng": 128.9161,
+      "price": "성인 2,000원",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "임진왜란 승병 사명대사의 영정이 봉안된 표충사를 탐방하는 역사 체험이다. 표충비각에서 국가 위기 때 눈물처럼 물이 흘러내린다는 이야기의 사명대사 표충비를 직접 보고 역사를 이해한다.",
+      "source_urls": [
+        "https://www.miryang.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "표충사",
+        "밀양",
+        "사명대사",
+        "경남",
+        "임진왜란",
+        "승병",
+        "역사탐방"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:31:57",
+      "operation_status": "active",
+      "operating_hours": "06:00~18:00",
+      "phone": "055-354-1185"
+    },
+    {
+      "experience_id": "EX-GG-NAT-031",
+      "name": "화성 제부도 모세의 기적 체험",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GG",
+      "region_sub": "경기도 화성시",
+      "address": "경기도 화성시 서신면 제부리 제부도",
+      "lat": 37.2133,
+      "lng": 126.6503,
+      "price": "무료",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "하루 두 번 썰물 때 바닷길이 열리는 경기도 제부도에서 모세의 기적 현상을 체험하는 투어다. 2.3km 바닷길이 열리는 시간에 걸어서 섬에 들어갈 수 있으며 서해 갯벌 생태 체험도 즐긴다.",
+      "source_urls": [
+        "https://www.hwaseong.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "제부도",
+        "화성",
+        "경기",
+        "모세의기적",
+        "바닷길",
+        "갯벌",
+        "서해"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:31:57",
+      "operation_status": "active",
+      "operating_hours": "썰물 시간 (조석표 확인)",
+      "phone": "031-357-3557"
+    },
+    {
+      "experience_id": "EX-JN-NAT-028",
+      "name": "신안 천사의 섬 도초도 자전거",
+      "category_main": "문화/체험",
+      "category_sub": "어드벤처/레포츠",
+      "region_main": "JN",
+      "region_sub": "전라남도 신안군",
+      "address": "전라남도 신안군 도초면 도초도",
+      "lat": 34.7208,
+      "lng": 125.9044,
+      "price": "배 왕복+자전거 대여",
+      "duration": "1박 2일",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "신안 천사의 섬 도초도에서 자전거를 타고 섬 일주를 즐기는 체험이다. 아름다운 해안선과 천일염 염전·비금도 연도교를 자전거로 달리며 신안 섬 특유의 느린 여행을 즐긴다.",
+      "source_urls": [
+        "https://www.sinan.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "도초도자전거",
+        "신안",
+        "전남",
+        "섬자전거",
+        "천사의섬",
+        "비금도",
+        "느린여행"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:31:57",
+      "operation_status": "active",
+      "operating_hours": "연중",
+      "phone": "061-240-8556"
+    },
+    {
+      "experience_id": "EX-GG-NAT-032",
+      "name": "남양주 조안면 생태 탐방",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GG",
+      "region_sub": "경기도 남양주시",
+      "address": "경기도 남양주시 조안면 다산길",
+      "lat": 37.6358,
+      "lng": 127.3764,
+      "price": "무료",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "남양주 다산 정약용 유적지와 조안면 북한강 생태 탐방로를 걷는 체험이다. 실학의 거장 정약용이 태어난 마재 마을과 북한강이 만나는 두물머리 수변 생태를 함께 탐방하는 코스다.",
+      "source_urls": [
+        "https://www.nyj.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "다산정약용",
+        "남양주",
+        "경기",
+        "조안면",
+        "북한강",
+        "실학",
+        "생태탐방"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:31:57",
+      "operation_status": "active",
+      "operating_hours": "연중 (무료)",
+      "phone": "031-590-8305"
+    },
+    {
+      "experience_id": "EX-GW-NAT-029",
+      "name": "태백 함백산 야생화 트레킹",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 태백시",
+      "address": "강원특별자치도 태백시 함백산 일원",
+      "lat": 37.1614,
+      "lng": 128.8933,
+      "price": "무료",
+      "duration": "3~5시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "해발 1,573m 함백산 정상부 고산 초원에서 피는 야생화 트레킹이다. 6~7월 금강초롱꽃·동자꽃·범꼬리 등 고산 야생화가 만발하는 시기에 트레킹하면 다른 곳에서 볼 수 없는 희귀 야생화를 만날 수 있다.",
+      "source_urls": [
+        "https://www.taebaek.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "함백산",
+        "태백",
+        "강원",
+        "야생화",
+        "고산초원",
+        "금강초롱",
+        "6~7월"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:31:57",
+      "operation_status": "seasonal",
+      "operating_hours": "6~7월 야생화 시즌",
+      "phone": "033-550-2082"
     }
   ],
   "last_updated": "2026-05-07T04:18:31"
