@@ -1,8 +1,8 @@
 {
   "_comment": "겜코리아 체험 데이터 — 역사/자연 마커와 분리. 삭제 금지. 젬투어 상품 후보.",
   "_version": "1.0",
-  "_updated": "2026-05-10T01:51:04",
-  "total": 313,
+  "_updated": "2026-05-10T01:55:28",
+  "total": 325,
   "experiences": [
     {
       "experience_id": "EX-SE-MKT-001",
@@ -2970,7 +2970,7 @@
         "경남"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-08T09:27:54",
       "operation_status": "active",
       "operating_hours": "09:00~18:00 (월요일 휴관)",
@@ -3011,7 +3011,7 @@
         "인천"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-08T09:27:54",
       "operation_status": "active",
       "operating_hours": "09:00~17:00",
@@ -3133,7 +3133,7 @@
         "광주시내전망"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-08T09:27:54",
       "operation_status": "active",
       "operating_hours": "날씨 좋은 날 운영 (요일 무관)",
@@ -3174,7 +3174,7 @@
         "정조대왕"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-08T09:27:54",
       "operation_status": "active",
       "operating_hours": "연중 (예약 필수)",
@@ -3215,7 +3215,7 @@
         "경남"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-08T09:27:54",
       "operation_status": "active",
       "operating_hours": "연중 (예약 필수)",
@@ -3256,7 +3256,7 @@
         "무료체험"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-08T09:27:54",
       "operation_status": "active",
       "operating_hours": "10:00~20:00 (연중무휴)",
@@ -3297,7 +3297,7 @@
         "무료박물관"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-08T09:27:54",
       "operation_status": "active",
       "operating_hours": "09:30~17:30 (월요일 휴관)",
@@ -12816,6 +12816,494 @@
       "operation_status": "active",
       "operating_hours": "08:30~20:00 (계절별 상이)",
       "phone": "1544-6703"
+    },
+    {
+      "experience_id": "EX-GW-NAT-008",
+      "name": "설악산 울산바위 트레킹",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 속초시",
+      "address": "강원특별자치도 속초시 설악동 설악산 국립공원",
+      "lat": 38.1192,
+      "lng": 128.4668,
+      "price": "국립공원 입장 무료",
+      "duration": "3~4시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "설악산의 상징 울산바위(해발 873m)까지 등산로를 따라 트레킹하는 체험이다. 왕복 약 4km 코스로 능선 위에서 동해와 설악산 전경이 한눈에 펼쳐지는 장관을 감상할 수 있다.",
+      "source_urls": [
+        "https://seorak.knps.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "울산바위",
+        "설악산",
+        "속초",
+        "강원",
+        "트레킹",
+        "동해전망",
+        "암봉"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:55:28",
+      "operation_status": "active",
+      "operating_hours": "일출~16:00 (동절기 15:00)",
+      "phone": "033-801-0900"
+    },
+    {
+      "experience_id": "EX-JB-NAT-002",
+      "name": "전주 한옥마을 한지등 만들기",
+      "category_main": "문화/체험",
+      "category_sub": "전통공예",
+      "region_main": "JB",
+      "region_sub": "전라북도 전주시",
+      "address": "전라북도 전주시 완산구 한옥마을 일원",
+      "lat": 35.8147,
+      "lng": 127.1524,
+      "price": "1인 15,000원",
+      "duration": "1~2시간",
+      "reservation_required": true,
+      "target_user": [
+        "개인",
+        "커플",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "전주 한옥마을에서 천년 역사 전주 한지로 연등과 조명등을 만드는 공예 체험이다. 한지 등 안에 촛불을 켜면 은은하게 빛나는 한지의 아름다움을 즐길 수 있다.",
+      "source_urls": [
+        "https://hanok.jeonju.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "한지등",
+        "전주",
+        "전북",
+        "한옥마을",
+        "연등",
+        "한지공예",
+        "전통조명"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:55:28",
+      "operation_status": "active",
+      "operating_hours": "10:00~17:00",
+      "phone": "063-281-2514"
+    },
+    {
+      "experience_id": "EX-GG-NAT-009",
+      "name": "남양주 물의정원 계절 꽃 체험",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GG",
+      "region_sub": "경기도 남양주시",
+      "address": "경기도 남양주시 조안면 북한강로 398",
+      "lat": 37.6414,
+      "lng": 127.4019,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "북한강 물가에 조성된 남양주 물의정원에서 계절 꽃을 즐기는 체험이다. 봄 유채꽃·수선화·봄 튤립, 여름 수국·코스모스, 가을 핑크뮬리가 차례로 피어나는 수도권 대표 꽃 명소다.",
+      "source_urls": [
+        "https://www.ggnmj.com/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "물의정원",
+        "남양주",
+        "경기",
+        "꽃",
+        "유채꽃",
+        "핑크뮬리",
+        "북한강"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:55:28",
+      "operation_status": "active",
+      "operating_hours": "연중 (일출~일몰)",
+      "phone": "031-590-8305"
+    },
+    {
+      "experience_id": "EX-GN-NAT-005",
+      "name": "진해 군항제 벚꽃 투어",
+      "category_main": "문화/체험",
+      "category_sub": "축제",
+      "region_main": "GN",
+      "region_sub": "경상남도 창원시",
+      "address": "경상남도 창원시 진해구 여좌천 일원",
+      "lat": 35.1399,
+      "lng": 128.6975,
+      "price": "무료",
+      "duration": "3~5시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "매년 3~4월 한국 최대 규모 벚꽃 축제가 열리는 경남 창원 진해에서 36만 그루 왕벚나무 터널을 걷는 봄 체험이다. 여좌천 로망스다리·경화역·안민도로 등 진해 전역의 벚꽃을 감상한다.",
+      "source_urls": [
+        "https://www.changwon.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "군항제",
+        "진해",
+        "창원",
+        "경남",
+        "벚꽃",
+        "봄축제",
+        "여좌천"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:55:28",
+      "operation_status": "annual",
+      "operating_hours": "매년 3~4월 (10일간)",
+      "phone": "055-225-3691"
+    },
+    {
+      "experience_id": "EX-JN-NAT-007",
+      "name": "장성 백양사 단풍 트레킹",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 장성군",
+      "address": "전라남도 장성군 북하면 백양로 1239",
+      "lat": 35.4714,
+      "lng": 126.8933,
+      "price": "성인 3,000원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "백양산 계곡을 따라 걸으며 백양사의 단풍과 쌍계루 반영을 감상하는 가을 트레킹이다. 10~11월 백양사 쌍계루와 계곡 수면이 단풍으로 물드는 반영 풍경이 전남 최고의 가을 명소다.",
+      "source_urls": [
+        "https://www.baekyangsa.org/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "백양사",
+        "장성",
+        "전남",
+        "단풍",
+        "쌍계루",
+        "반영",
+        "가을트레킹"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:55:28",
+      "operation_status": "active",
+      "operating_hours": "06:00~18:00",
+      "phone": "061-392-7502"
+    },
+    {
+      "experience_id": "EX-GG-NAT-010",
+      "name": "강화도 마니산 단군 천제 투어",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GG",
+      "region_sub": "인천광역시 강화군",
+      "address": "인천광역시 강화군 화도면 마니산로 585",
+      "lat": 37.5941,
+      "lng": 126.4353,
+      "price": "성인 1,000원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "단군 할아버지가 하늘에 제사를 지냈다는 마니산(해발 472m) 참성단까지 트레킹하는 체험이다. 정상 참성단에서 서해와 강화 평야가 내려다보이며 매년 개천절에 단군 천제 행사가 열린다.",
+      "source_urls": [
+        "https://www.ganghwa.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "마니산",
+        "강화도",
+        "참성단",
+        "단군",
+        "인천",
+        "트레킹",
+        "개천절"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:55:28",
+      "operation_status": "active",
+      "operating_hours": "연중",
+      "phone": "032-930-4020"
+    },
+    {
+      "experience_id": "EX-GW-NAT-009",
+      "name": "정선 화암동굴 판타지 체험",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 정선군",
+      "address": "강원특별자치도 정선군 화암면 화암리 66",
+      "lat": 37.38,
+      "lng": 128.7628,
+      "price": "성인 9,000원",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "과거 금광으로 쓰이던 화암동굴이 테마파크 형식의 체험 동굴로 변신했다. 황금의 나라·동굴의 신비·지하 광장 등 테마별로 꾸며진 공간을 모노레일을 타고 탐방하는 판타지 체험이다.",
+      "source_urls": [
+        "https://www.jeongseon.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "화암동굴",
+        "정선",
+        "강원",
+        "테마동굴",
+        "금광",
+        "모노레일",
+        "판타지"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:55:28",
+      "operation_status": "active",
+      "operating_hours": "09:00~17:00",
+      "phone": "033-560-3011"
+    },
+    {
+      "experience_id": "EX-JJ-NAT-003",
+      "name": "제주 만장굴 탐방",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "JJ",
+      "region_sub": "제주특별자치도 제주시",
+      "address": "제주특별자치도 제주시 구좌읍 만장굴길 182",
+      "lat": 33.5281,
+      "lng": 126.7713,
+      "price": "성인 4,000원",
+      "duration": "1시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "유네스코 세계자연유산 제주 만장굴은 길이 7.4km로 세계 최대 용암동굴 중 하나다. 개방 구간 1km를 걸으며 높이 7m의 거대 용암 석주와 화산 지형을 직접 탐방할 수 있다.",
+      "source_urls": [
+        "https://www.visitjeju.net/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "만장굴",
+        "제주",
+        "구좌읍",
+        "용암동굴",
+        "유네스코",
+        "세계자연유산",
+        "화산지형"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:55:28",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00 (화요일 휴관)",
+      "phone": "064-710-7903"
+    },
+    {
+      "experience_id": "EX-CB-NAT-003",
+      "name": "충주호 유람선 투어",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "CB",
+      "region_sub": "충청북도 충주시",
+      "address": "충청북도 충주시 동량면 충주호 선착장",
+      "lat": 36.9845,
+      "lng": 128.1234,
+      "price": "성인 17,000원~",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "충주댐이 만들어낸 충주호를 유람선을 타고 탐방하는 체험이다. 청풍·단양 구간 단애 절벽과 호수가 어우러지는 한국의 장가계로 불리는 절경을 뱃길로 감상할 수 있다.",
+      "source_urls": [
+        "https://www.chungjuho.com/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "충주호유람선",
+        "충주호",
+        "충주",
+        "충북",
+        "단양",
+        "청풍",
+        "유람선"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:55:28",
+      "operation_status": "active",
+      "operating_hours": "09:00~17:00",
+      "phone": "043-851-5771"
+    },
+    {
+      "experience_id": "EX-GN-NAT-006",
+      "name": "밀양 위양지 이팝나무 축제",
+      "category_main": "문화/체험",
+      "category_sub": "축제",
+      "region_main": "GN",
+      "region_sub": "경상남도 밀양시",
+      "address": "경상남도 밀양시 부북면 위양리 위양못",
+      "lat": 35.4886,
+      "lng": 128.7861,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "매년 5월 위양지 연못 주변 이팝나무가 하얀 꽃을 피울 때 방문하는 봄꽃 명소다. 300년 이상 된 이팝나무들이 연못가에 늘어서며 하얀 꽃이 수면에 반사되는 풍경이 경남 최고의 5월 포토존이다.",
+      "source_urls": [
+        "https://www.miryang.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "위양지",
+        "밀양",
+        "이팝나무",
+        "경남",
+        "봄꽃",
+        "연못반영",
+        "5월명소"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:55:28",
+      "operation_status": "annual",
+      "operating_hours": "5월 이팝나무 개화 시즌",
+      "phone": "055-359-5638"
+    },
+    {
+      "experience_id": "EX-GG-NAT-011",
+      "name": "화성 공룡알 화석 산지 체험",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GG",
+      "region_sub": "경기도 화성시",
+      "address": "경기도 화성시 송산면 고정리 공룡알화석산지",
+      "lat": 37.1822,
+      "lng": 126.7086,
+      "price": "무료 (박물관 성인 3,000원)",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "어린이"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "천연기념물 414호인 화성 시화호 공룡알 화석 산지를 탐방하는 체험이다. 8,000만 년 전 공룡알 화석이 집단으로 발견된 현장을 걸으며 공룡 화석 박물관에서 공룡의 실제 생태를 배운다.",
+      "source_urls": [
+        "https://www.hwaseong.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "공룡알화석",
+        "화성",
+        "경기",
+        "공룡알",
+        "천연기념물",
+        "어린이",
+        "시화호"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:55:28",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00 (월요일 휴관)",
+      "phone": "031-369-6003"
+    },
+    {
+      "experience_id": "EX-JN-NAT-008",
+      "name": "보성 봇재 대나무숲 소리길",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 보성군",
+      "address": "전라남도 보성군 웅치면 용반리 봇재 대나무길",
+      "lat": 34.7718,
+      "lng": 127.0792,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "보성 녹차밭 인근 봇재에 위치한 대나무 숲길을 걸으며 대나무 바람 소리를 듣는 힐링 체험이다. 촘촘한 대나무들이 바람에 흔들리며 내는 청아한 소리가 가득한 200m 소리길이 명상 코스로 유명하다.",
+      "source_urls": [
+        "https://www.boseong.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "봇재대나무",
+        "보성",
+        "전남",
+        "대나무소리",
+        "힐링",
+        "명상",
+        "청아"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T01:55:28",
+      "operation_status": "active",
+      "operating_hours": "연중",
+      "phone": "061-850-5210"
     }
   ],
   "last_updated": "2026-05-07T04:18:31"
