@@ -1,8 +1,8 @@
 {
   "_comment": "겜코리아 체험 데이터 — 역사/자연 마커와 분리. 삭제 금지. 젬투어 상품 후보.",
   "_version": "1.0",
-  "_updated": "2026-05-10T02:23:51",
-  "total": 409,
+  "_updated": "2026-05-10T02:27:54",
+  "total": 421,
   "experiences": [
     {
       "experience_id": "EX-SE-MKT-001",
@@ -5085,7 +5085,7 @@
         "겨울여행"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:35:31",
       "operation_status": "seasonal",
       "operating_hours": "1~2월 결빙 기간",
@@ -5126,7 +5126,7 @@
         "산천어"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:35:31",
       "operation_status": "annual",
       "operating_hours": "매년 1월 (3주간)",
@@ -5167,7 +5167,7 @@
         "여름여행"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:35:31",
       "operation_status": "seasonal",
       "operating_hours": "5~10월",
@@ -5208,7 +5208,7 @@
         "케이블카"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:35:31",
       "operation_status": "active",
       "operating_hours": "09:30~18:00 (연중)",
@@ -5249,7 +5249,7 @@
         "케이블카"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:35:31",
       "operation_status": "active",
       "operating_hours": "08:30~17:00 (연중, 기상 악화 시 운휴)",
@@ -5290,7 +5290,7 @@
         "청년여행"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T12:35:31",
       "operation_status": "active",
       "operating_hours": "10:00~18:00",
@@ -16716,6 +16716,496 @@
       "operation_status": "active",
       "operating_hours": "연중 (야경: 일몰~22:00)",
       "phone": "055-225-3691"
+    },
+    {
+      "experience_id": "EX-GN-NAT-023",
+      "name": "진주 남강 유람선+촉석루 투어",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 진주시",
+      "address": "경상남도 진주시 남강변 선착장",
+      "lat": 35.1894,
+      "lng": 128.1058,
+      "price": "유람선 성인 8,000원~",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "남강을 유람선으로 오가며 논개의 역사가 깃든 촉석루와 진주성을 감상하는 체험이다. 유등축제 기간에는 수천 개 등불이 강에 떠있는 장관을 뱃길로 감상할 수 있다.",
+      "source_urls": [
+        "https://www.jinju.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "진주유람선",
+        "촉석루",
+        "진주",
+        "경남",
+        "남강",
+        "논개",
+        "유등축제"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:27:54",
+      "operation_status": "active",
+      "operating_hours": "09:00~20:00",
+      "phone": "055-749-2696"
+    },
+    {
+      "experience_id": "EX-JN-NAT-025",
+      "name": "장성 홍길동테마파크",
+      "category_main": "문화/체험",
+      "category_sub": "어린이 체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 장성군",
+      "address": "전라남도 장성군 황룡면 홍길동로 431",
+      "lat": 35.3639,
+      "lng": 126.7831,
+      "price": "성인 5,000원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "어린이"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "의적 홍길동의 고향 장성에 조성된 테마파크다. 홍길동 소설 배경과 전통 무예 체험·활쏘기·전통 의상 착용을 즐기며 조선 시대 서민 의적 문화를 어린이들이 재미있게 체험한다.",
+      "source_urls": [
+        "https://www.jangseong.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "홍길동테마파크",
+        "장성",
+        "전남",
+        "홍길동",
+        "의적",
+        "어린이체험",
+        "전통무예"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:27:54",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00 (월요일 휴관)",
+      "phone": "061-394-7242"
+    },
+    {
+      "experience_id": "EX-GW-NAT-024",
+      "name": "속초 청초호 수상 레저 투어",
+      "category_main": "문화/체험",
+      "category_sub": "어드벤처/레포츠",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 속초시",
+      "address": "강원특별자치도 속초시 청초호 선착장",
+      "lat": 38.2022,
+      "lng": 128.5872,
+      "price": "1인 15,000원~",
+      "duration": "1시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "속초 청초호에서 수상 자전거·모터보트·카약 등 수상 레저를 즐기는 체험이다. 설악산과 속초 시내가 보이는 청초호에서 여름철 피서와 레저를 한 번에 즐길 수 있는 코스다.",
+      "source_urls": [
+        "https://www.sokcho.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "청초호",
+        "속초",
+        "강원",
+        "수상레저",
+        "모터보트",
+        "카약",
+        "여름"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:27:54",
+      "operation_status": "seasonal",
+      "operating_hours": "5~10월",
+      "phone": "033-639-2690"
+    },
+    {
+      "experience_id": "EX-GG-NAT-027",
+      "name": "광주(경기) 남한산성 전통 먹거리",
+      "category_main": "문화/체험",
+      "category_sub": "지역 먹거리",
+      "region_main": "GG",
+      "region_sub": "경기도 광주시",
+      "address": "경기도 광주시 남한산성면 남한산성로 784",
+      "lat": 37.4803,
+      "lng": 127.1754,
+      "price": "먹거리 별도",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "가족",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "남한산성 산성마을에서 두부전골·도토리묵·산채 비빔밥 등 전통 먹거리를 즐기는 체험이다. 유네스코 세계유산 탐방 후 산성 마을 음식점에서 먹는 두부전골이 등산 마무리 코스로 인기다.",
+      "source_urls": [
+        "https://www.namhansansung.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "남한산성먹거리",
+        "광주",
+        "경기",
+        "두부전골",
+        "도토리묵",
+        "산채비빔밥",
+        "등산후"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:27:54",
+      "operation_status": "active",
+      "operating_hours": "10:00~20:00",
+      "phone": "031-743-6610"
+    },
+    {
+      "experience_id": "EX-JB-NAT-008",
+      "name": "고창 청보리밭 봄 투어",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "JB",
+      "region_sub": "전라북도 고창군",
+      "address": "전라북도 고창군 공음면 학원농장 청보리밭",
+      "lat": 35.3797,
+      "lng": 126.5992,
+      "price": "무료 (주차 별도)",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "매년 4~5월 전북 고창 학원농장 청보리밭이 초록 물결로 가득 차는 봄 풍경을 감상하는 체험이다. 30만 평 청보리밭 사이를 걷는 코스가 전북 봄 최고 명소로 꼽힌다.",
+      "source_urls": [
+        "https://www.gochang.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "고창청보리",
+        "고창",
+        "전북",
+        "청보리밭",
+        "봄여행",
+        "학원농장",
+        "초록물결"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:27:54",
+      "operation_status": "annual",
+      "operating_hours": "4~5월 청보리 시즌",
+      "phone": "063-560-2979"
+    },
+    {
+      "experience_id": "EX-GW-NAT-025",
+      "name": "강원 평창 대관령 삼양목장 체험",
+      "category_main": "문화/체험",
+      "category_sub": "농촌 체험",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 평창군",
+      "address": "강원특별자치도 평창군 대관령면 꽃밭양지길 708-9",
+      "lat": 37.6731,
+      "lng": 128.7128,
+      "price": "성인 12,000원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "해발 1,000m 대관령 삼양목장에서 소·양·말 먹이 주기와 양 몰이 체험을 즐기는 목장 체험이다. 광활한 초원 위에서 동물 체험과 함께 드라마·CF 촬영지 초원 뷰를 감상할 수 있다.",
+      "source_urls": [
+        "https://www.samyangfarm.co.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "삼양목장",
+        "평창",
+        "대관령",
+        "강원",
+        "양몰이",
+        "목장체험",
+        "초원"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:27:54",
+      "operation_status": "active",
+      "operating_hours": "08:30~17:30",
+      "phone": "033-335-5044"
+    },
+    {
+      "experience_id": "EX-JN-NAT-026",
+      "name": "곡성 기차마을 섬진강 드레지나",
+      "category_main": "문화/체험",
+      "category_sub": "어드벤처/레포츠",
+      "region_main": "JN",
+      "region_sub": "전라남도 곡성군",
+      "address": "전라남도 곡성군 오곡면 기차마을로 232",
+      "lat": 35.2783,
+      "lng": 127.2878,
+      "price": "레일바이크 2인 15,000원~",
+      "duration": "1~2시간",
+      "reservation_required": true,
+      "target_user": [
+        "가족",
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "섬진강 변 기찻길을 레일바이크로 달리고 증기기관차를 타는 체험이다. 드라마·CF 촬영지로 유명한 섬진강변 봄 벚꽃 시즌에 레일바이크를 타면 꽃과 강의 완벽한 조합을 즐길 수 있다.",
+      "source_urls": [
+        "https://www.gstrain.co.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "곡성기차마을",
+        "곡성",
+        "전남",
+        "레일바이크",
+        "섬진강",
+        "드라마촬영지",
+        "봄"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:27:54",
+      "operation_status": "active",
+      "operating_hours": "09:00~17:00",
+      "phone": "061-363-9900"
+    },
+    {
+      "experience_id": "EX-GG-NAT-028",
+      "name": "의왕 레일파크 왕송호수",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GG",
+      "region_sub": "경기도 의왕시",
+      "address": "경기도 의왕시 철도박물관로 142 (왕송호수)",
+      "lat": 37.3431,
+      "lng": 126.9692,
+      "price": "성인 8,000원~",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "커플",
+        "어린이"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "경기도 의왕 왕송호수에서 레일바이크와 수변 산책을 즐기는 체험이다. 철도박물관과 연계해 기차·레일바이크·호수가 어우러지는 수도권 근교 가족 나들이 코스다.",
+      "source_urls": [
+        "https://www.uiwang.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "의왕레일파크",
+        "의왕",
+        "경기",
+        "왕송호수",
+        "레일바이크",
+        "철도박물관",
+        "가족"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:27:54",
+      "operation_status": "active",
+      "operating_hours": "10:00~18:00",
+      "phone": "031-458-5765"
+    },
+    {
+      "experience_id": "EX-JJ-NAT-008",
+      "name": "제주 승마 공원 해변 승마",
+      "category_main": "문화/체험",
+      "category_sub": "승마/레포츠",
+      "region_main": "JJ",
+      "region_sub": "제주특별자치도 제주시",
+      "address": "제주특별자치도 제주시 애월읍 해안도로 일원",
+      "lat": 33.4556,
+      "lng": 126.3108,
+      "price": "1인 30,000원~",
+      "duration": "1시간",
+      "reservation_required": true,
+      "target_user": [
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "제주 애월 해안도로에서 한라산과 에메랄드 바다를 배경으로 말을 타는 해변 승마 체험이다. 제주 바다를 바라보며 말을 타는 경험이 제주 승마 중 가장 아름다운 코스로 꼽힌다.",
+      "source_urls": [
+        "https://www.visitjeju.net/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "제주해변승마",
+        "애월",
+        "제주",
+        "해변",
+        "한라산",
+        "에메랄드바다",
+        "커플"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:27:54",
+      "operation_status": "active",
+      "operating_hours": "09:00~17:00",
+      "phone": "064-799-0003"
+    },
+    {
+      "experience_id": "EX-GG-NAT-029",
+      "name": "서울 한강 자전거+피크닉",
+      "category_main": "문화/체험",
+      "category_sub": "어드벤처/레포츠",
+      "region_main": "GG",
+      "region_sub": "서울특별시 마포구",
+      "address": "서울특별시 마포구 여의도 한강공원",
+      "lat": 37.5283,
+      "lng": 126.9315,
+      "price": "자전거 대여 1시간 3,000원",
+      "duration": "3~4시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "한강 자전거길과 피크닉을 결합한 서울 도심 여행 체험이다. 여의도~반포~한남 구간을 자전거로 달리고 공원 잔디에서 피크닉을 즐기는 서울 시민과 여행자 모두에게 인기 있는 코스다.",
+      "source_urls": [
+        "https://hangang.seoul.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "한강자전거",
+        "서울",
+        "여의도",
+        "피크닉",
+        "반포",
+        "한강공원",
+        "힐링"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:27:54",
+      "operation_status": "active",
+      "operating_hours": "자전거 대여 06:00~22:00",
+      "phone": "02-3780-0570"
+    },
+    {
+      "experience_id": "EX-CB-NAT-006",
+      "name": "제천 의림지+청풍호 유람선",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "CB",
+      "region_sub": "충청북도 제천시",
+      "address": "충청북도 제천시 청풍면 청풍호로 1457",
+      "lat": 37.0267,
+      "lng": 128.1844,
+      "price": "유람선 성인 13,000원~",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "충주호 상류 청풍호를 유람선으로 탐방하는 체험이다. 한국의 장가계라 불리는 청풍호 단애 절벽과 능강계곡이 어우러지는 절경을 뱃길로 감상하는 충북 대표 레저 코스다.",
+      "source_urls": [
+        "https://www.jecheon.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "청풍호유람선",
+        "제천",
+        "충북",
+        "청풍호",
+        "단애절벽",
+        "능강계곡",
+        "유람선"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:27:54",
+      "operation_status": "active",
+      "operating_hours": "09:00~17:00",
+      "phone": "043-647-6979"
+    },
+    {
+      "experience_id": "EX-GW-NAT-026",
+      "name": "강릉 오죽헌+경포대 역사 코스",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 강릉시",
+      "address": "강원특별자치도 강릉시 율곡로3139번길 24",
+      "lat": 37.7704,
+      "lng": 128.8978,
+      "price": "오죽헌 성인 3,000원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인",
+        "외국인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "5000원권 신사임당과 5000원권 율곡 이이가 태어난 오죽헌과 관동팔경 경포대를 함께 탐방하는 강릉 역사 코스다. 조선 시대 예술·학문의 성지를 걸으며 강릉 역사를 이해한다.",
+      "source_urls": [
+        "https://ojukheon.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "오죽헌",
+        "경포대",
+        "강릉",
+        "신사임당",
+        "율곡이이",
+        "관동팔경",
+        "5000원"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T02:27:54",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00",
+      "phone": "033-660-3301"
     }
   ],
   "last_updated": "2026-05-07T04:18:31"
