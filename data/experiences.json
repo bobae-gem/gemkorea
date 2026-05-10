@@ -1,8 +1,8 @@
 {
   "_comment": "겜코리아 체험 데이터 — 역사/자연 마커와 분리. 삭제 금지. 젬투어 상품 후보.",
   "_version": "1.0",
-  "_updated": "2026-05-10T03:45:15",
-  "total": 649,
+  "_updated": "2026-05-10T03:49:00",
+  "total": 661,
   "experiences": [
     {
       "experience_id": "EX-SE-MKT-001",
@@ -25101,7 +25101,7 @@
         "5월6월"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-10T03:37:41",
       "operation_status": "annual",
       "operating_hours": "5~6월 개최 (무료 야외공연 다수)",
@@ -25142,7 +25142,7 @@
         "유네스코"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-10T03:37:41",
       "operation_status": "active",
       "operating_hours": "주말 11:00, 14:00, 16:00",
@@ -25182,7 +25182,7 @@
         "기암절벽"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-10T03:37:41",
       "operation_status": "active",
       "operating_hours": "09:00~17:00",
@@ -25222,7 +25222,7 @@
         "역사"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-10T03:37:41",
       "operation_status": "active",
       "operating_hours": "09:00~18:00 (연중)",
@@ -25263,7 +25263,7 @@
         "4억년"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-10T03:37:41",
       "operation_status": "active",
       "operating_hours": "09:00~18:00",
@@ -26441,6 +26441,493 @@
       "operation_status": "active",
       "operating_hours": "10:00~17:00",
       "phone": "054-550-6421"
+    },
+    {
+      "experience_id": "EX-JN-NAT-086",
+      "name": "여수 돌산 갓김치 담그기",
+      "category_main": "문화/체험",
+      "category_sub": "지역 먹거리",
+      "region_main": "JN",
+      "region_sub": "전라남도 여수시",
+      "address": "전라남도 여수시 돌산읍 돌산로 일대",
+      "lat": 34.6958,
+      "lng": 127.8053,
+      "price": "체험 15,000원~",
+      "duration": "2시간",
+      "reservation_required": true,
+      "target_user": [
+        "가족",
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "여수 돌산도 특산물 갓으로 갓김치를 직접 담그는 발효 체험이다. 돌산갓은 해풍을 맞아 자란 갓으로 알싸한 향이 강하고 빛깔이 아름다워 여수 갓김치의 원료로 쓰이는 명품 재료다.",
+      "source_urls": [
+        "https://www.yeosu.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "돌산갓김치",
+        "여수",
+        "전남",
+        "갓김치담그기",
+        "돌산갓",
+        "발효체험",
+        "여수특산"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:49:00",
+      "operation_status": "active",
+      "operating_hours": "10:00~16:00 (예약 필수)",
+      "phone": "061-659-3986"
+    },
+    {
+      "experience_id": "EX-GG-CUL-073",
+      "name": "이천 도자기 체험 — 설봉공원",
+      "category_main": "문화/체험",
+      "category_sub": "전통공예",
+      "region_main": "GG",
+      "region_sub": "경기도 이천시",
+      "address": "경기도 이천시 설봉공원로 99 이천도자예술마을",
+      "lat": 37.2742,
+      "lng": 127.4419,
+      "price": "체험 10,000원~",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "대한민국 최고의 도자기 도시 경기 이천에서 물레 도자기를 직접 빚는 체험이다. 이천은 조선 시대 왕실 사기를 굽던 분원이 있던 곳으로 지금도 전국 최고 품질의 도자기를 생산하는 곳이다.",
+      "source_urls": [
+        "https://www.icheon.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "이천도자기체험",
+        "이천",
+        "경기",
+        "도자기",
+        "물레",
+        "설봉공원",
+        "분원"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:49:00",
+      "operation_status": "active",
+      "operating_hours": "10:00~18:00",
+      "phone": "031-632-0902"
+    },
+    {
+      "experience_id": "EX-GN-NAT-081",
+      "name": "거제 외도 보타니아",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 거제시",
+      "address": "경상남도 거제시 일운면 외도길 17 외도 선착장",
+      "lat": 34.7922,
+      "lng": 128.5194,
+      "price": "성인 11,000원 (배편 별도)",
+      "duration": "3~4시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "남해 거제 앞바다 외도에 조성된 아름다운 정원 외도 보타니아를 탐방하는 체험이다. 개인이 30년에 걸쳐 가꾼 섬 전체 정원으로 야자나무·선인장·아열대 식물이 가득한 이국적 섬 정원이다.",
+      "source_urls": [
+        "https://www.oedobotania.com/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "외도보타니아",
+        "거제",
+        "경남",
+        "외도",
+        "섬정원",
+        "아열대식물",
+        "야자나무"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:49:00",
+      "operation_status": "active",
+      "operating_hours": "08:30~17:00 (계절 상이)",
+      "phone": "055-681-4541"
+    },
+    {
+      "experience_id": "EX-GG-CUL-074",
+      "name": "남양주 다산 정약용 유적지",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GG",
+      "region_sub": "경기도 남양주시",
+      "address": "경기도 남양주시 조안면 다산로 747번길 11",
+      "lat": 37.5511,
+      "lng": 127.2833,
+      "price": "성인 2,000원",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "조선 최고 실학자 정약용의 생가 여유당과 다산 기념관을 탐방하는 역사 체험이다. 한강변 아름다운 경치 속에 다산의 사상·저술·유배 생활을 배우는 역사 교육 체험이다.",
+      "source_urls": [
+        "https://www.dasan.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "다산정약용",
+        "남양주",
+        "경기",
+        "여유당",
+        "정약용",
+        "실학",
+        "조선"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:49:00",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00 (월 휴관)",
+      "phone": "031-590-2837"
+    },
+    {
+      "experience_id": "EX-JB-NAT-065",
+      "name": "무주 반딧불이 축제",
+      "category_main": "문화/체험",
+      "category_sub": "축제",
+      "region_main": "JB",
+      "region_sub": "전라북도 무주군",
+      "address": "전라북도 무주군 설천면 무주구천동로 일대",
+      "lat": 35.9419,
+      "lng": 127.6619,
+      "price": "무료~성인 10,000원",
+      "duration": "4~6시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "전북 무주에서 매년 8~9월 열리는 반딧불이 생태 축제다. 청정 무주 계곡에서 반딧불이 군무를 감상하는 체험으로 오염되지 않은 1급수 계곡에서만 사는 반딧불이의 빛 향연을 야간에 감상한다.",
+      "source_urls": [
+        "https://www.muju.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "무주반딧불이축제",
+        "무주",
+        "전북",
+        "반딧불이",
+        "생태축제",
+        "여름밤",
+        "1급수"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:49:00",
+      "operation_status": "annual",
+      "operating_hours": "8~9월 야간 개최",
+      "phone": "063-324-0301"
+    },
+    {
+      "experience_id": "EX-GW-CUL-068",
+      "name": "영월 별마로 천문대 별 관측",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 영월군",
+      "address": "강원특별자치도 영월군 영월읍 천문대길 397",
+      "lat": 37.1722,
+      "lng": 128.4558,
+      "price": "성인 10,000원",
+      "duration": "2~3시간",
+      "reservation_required": true,
+      "target_user": [
+        "커플",
+        "개인",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "해발 799m 봉래산 정상 영월 별마로 천문대에서 별 관측을 즐기는 체험이다. 강원도 영월의 청정 하늘에서 망원경으로 은하·성단·행성을 관찰하는 국내 최고 수준 천문 체험이다.",
+      "source_urls": [
+        "https://www.ywobs.co.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "영월별마로천문대",
+        "영월",
+        "강원",
+        "천문대",
+        "별관측",
+        "봉래산",
+        "은하"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:49:00",
+      "operation_status": "active",
+      "operating_hours": "14:00~22:00 (예약 필수)",
+      "phone": "033-372-8445"
+    },
+    {
+      "experience_id": "EX-JN-NAT-087",
+      "name": "강진 다산초당 차밭 트레킹",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 강진군",
+      "address": "전라남도 강진군 도암면 다산초당길 68-35",
+      "lat": 34.5917,
+      "lng": 126.7781,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "다산 정약용이 18년 유배 생활 중 목민심서를 집필한 강진 다산초당과 주변 차밭을 트레킹하는 역사 체험이다. 다산이 직접 차를 재배하고 제다(製茶)를 즐긴 역사적인 차밭길을 걸을 수 있다.",
+      "source_urls": [
+        "https://www.gangjin.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "강진다산초당",
+        "강진",
+        "전남",
+        "정약용유배지",
+        "목민심서",
+        "차밭트레킹",
+        "다산"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:49:00",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00 (무료)",
+      "phone": "061-430-3783"
+    },
+    {
+      "experience_id": "EX-GG-NAT-072",
+      "name": "광명 기아 EVO 센터 체험",
+      "category_main": "문화/체험",
+      "category_sub": "어드벤처/레포츠",
+      "region_main": "GG",
+      "region_sub": "경기도 광명시",
+      "address": "경기도 광명시 일직동 기아 오토랜드 광명",
+      "lat": 37.4347,
+      "lng": 126.8536,
+      "price": "무료~30,000원",
+      "duration": "1~2시간",
+      "reservation_required": true,
+      "target_user": [
+        "청년",
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "기아 자동차 광명 공장에 설치된 EVO 드라이빙 체험 센터에서 전기차 체험을 즐기는 프로그램이다. EV6·EV9 등 기아 전기차를 직접 시승하고 공장 견학까지 즐기는 무료 체험이다.",
+      "source_urls": [
+        "https://www.kia.com/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "기아EVO센터",
+        "광명",
+        "경기",
+        "전기차체험",
+        "EV6",
+        "기아자동차",
+        "공장견학"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:49:00",
+      "operation_status": "active",
+      "operating_hours": "10:00~17:00 (예약 필수)",
+      "phone": "02-3484-7702"
+    },
+    {
+      "experience_id": "EX-GN-NAT-082",
+      "name": "함양 상림공원 숲 산책",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 함양군",
+      "address": "경상남도 함양군 함양읍 필봉산길 49",
+      "lat": 35.5219,
+      "lng": 127.71,
+      "price": "무료",
+      "duration": "1시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "한국에서 가장 오래된 인공 숲 경남 함양 상림을 산책하는 자연 체험이다. 신라 시대 최치원이 조성한 1,100년 역사의 천연기념물 상림공원에서 역사와 자연을 동시에 즐기는 코스다.",
+      "source_urls": [
+        "https://www.hamyang.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "함양상림",
+        "함양",
+        "경남",
+        "상림공원",
+        "최치원",
+        "천연기념물",
+        "천년숲"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:49:00",
+      "operation_status": "active",
+      "operating_hours": "연중 (무료)",
+      "phone": "055-960-5553"
+    },
+    {
+      "experience_id": "EX-GW-NAT-072",
+      "name": "태백 고원 하이킹 — 함백산",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 태백시",
+      "address": "강원특별자치도 태백시 백병산로 일대",
+      "lat": 37.1483,
+      "lng": 128.9658,
+      "price": "무료",
+      "duration": "3~4시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "해발 1,573m 함백산에서 고원 하이킹을 즐기는 체험이다. 만항재에서 출발해 함백산 정상까지 운탄고도 1330 코스를 걸으며 강원 고원의 설경·야생화·만항재 철쭉 절경을 즐기는 트레킹이다.",
+      "source_urls": [
+        "https://www.taebaek.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "함백산하이킹",
+        "태백",
+        "강원",
+        "함백산",
+        "운탄고도",
+        "만항재",
+        "고원트레킹"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:49:00",
+      "operation_status": "active",
+      "operating_hours": "연중 (무료)",
+      "phone": "033-550-2085"
+    },
+    {
+      "experience_id": "EX-JN-CUL-046",
+      "name": "전주 비빔밥 만들기 체험",
+      "category_main": "문화/체험",
+      "category_sub": "지역 먹거리",
+      "region_main": "JN",
+      "region_sub": "전라북도 전주시",
+      "address": "전라북도 전주시 완산구 전통문화관길 일대",
+      "lat": 35.8173,
+      "lng": 127.1539,
+      "price": "체험 12,000원~",
+      "duration": "1~2시간",
+      "reservation_required": true,
+      "target_user": [
+        "가족",
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "전주 한옥마을에서 전주비빔밥을 직접 만드는 쿠킹 체험이다. 전주비빔밥 30가지 이상 재료를 직접 준비하고 황포묵·육회·비빔장 등 전주 특유의 재료를 넣어 만드는 정통 전주비빔밥 체험이다.",
+      "source_urls": [
+        "https://www.jeonjufood.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "전주비빔밥만들기",
+        "전주한옥마을",
+        "전주",
+        "전북",
+        "전주비빔밥",
+        "쿠킹체험",
+        "한국음식"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:49:00",
+      "operation_status": "active",
+      "operating_hours": "10:00~17:00 (예약 필수)",
+      "phone": "063-281-2891"
+    },
+    {
+      "experience_id": "EX-GB-CUL-044",
+      "name": "봉화 닭실마을 조선 양반 체험",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GB",
+      "region_sub": "경상북도 봉화군",
+      "address": "경상북도 봉화군 봉화읍 해저리 닭실마을",
+      "lat": 36.9331,
+      "lng": 128.6806,
+      "price": "무료~체험 상이",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "조선 시대 안동 권씨 집성촌 경북 봉화 닭실마을에서 조선 양반 생활을 체험하는 프로그램이다. 청암정·석천정사 등 조선 정자 문화가 아름답게 보존된 곳으로 한국 최고 정자 마을 체험이다.",
+      "source_urls": [
+        "https://www.bonghwa.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "봉화닭실마을",
+        "봉화",
+        "경북",
+        "조선양반체험",
+        "청암정",
+        "안동권씨",
+        "집성촌"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:49:00",
+      "operation_status": "active",
+      "operating_hours": "연중 (무료)",
+      "phone": "054-679-6111"
     }
   ],
   "last_updated": "2026-05-07T04:18:31"
