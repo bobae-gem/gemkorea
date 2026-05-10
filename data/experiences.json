@@ -1,8 +1,8 @@
 {
   "_comment": "겜코리아 체험 데이터 — 역사/자연 마커와 분리. 삭제 금지. 젬투어 상품 후보.",
   "_version": "1.0",
-  "_updated": "2026-05-10T03:12:13",
-  "total": 553,
+  "_updated": "2026-05-10T03:16:08",
+  "total": 565,
   "experiences": [
     {
       "experience_id": "EX-SE-MKT-001",
@@ -8583,7 +8583,7 @@
         "심화체험"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T23:54:37",
       "operation_status": "active",
       "operating_hours": "10:00~17:00",
@@ -8706,7 +8706,7 @@
         "외국인"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T23:54:37",
       "operation_status": "active",
       "operating_hours": "공연별 상이 (예약 필수)",
@@ -8870,7 +8870,7 @@
         "전통도시락"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-09T23:54:37",
       "operation_status": "seasonal",
       "operating_hours": "봄·가을 주말 (4~5월·9~10월)",
@@ -9031,7 +9031,7 @@
         "독립운동가"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-10T00:00:32",
       "operation_status": "active",
       "operating_hours": "09:00~18:00 (월요일 휴관)",
@@ -9195,7 +9195,7 @@
         "울주군"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-10T00:00:32",
       "operation_status": "active",
       "operating_hours": "09:00~18:00 (월요일 휴관)",
@@ -9358,7 +9358,7 @@
         "복원종"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-10T00:00:32",
       "operation_status": "active",
       "operating_hours": "09:00~18:00",
@@ -22552,6 +22552,492 @@
       "operation_status": "active",
       "operating_hours": "연중",
       "phone": "063-560-2979"
+    },
+    {
+      "experience_id": "EX-GW-NAT-056",
+      "name": "원주 섬강 래프팅+뮤지엄 산",
+      "category_main": "문화/체험",
+      "category_sub": "어드벤처/레포츠",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 원주시",
+      "address": "강원특별자치도 원주시 지정면 간현 섬강",
+      "lat": 37.405,
+      "lng": 127.9322,
+      "price": "1인 30,000원~",
+      "duration": "2시간",
+      "reservation_required": true,
+      "target_user": [
+        "개인",
+        "커플",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "원주 섬강에서 래프팅을 즐기고 세계적 건축가 안도 타다오의 뮤지엄 산을 탐방하는 원주 완벽 하루 코스다. 급류 래프팅의 스릴과 예술·건축의 감동을 하루에 즐기는 독특한 조합이다.",
+      "source_urls": [
+        "https://www.wonju.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "원주래프팅",
+        "뮤지엄산",
+        "원주",
+        "강원",
+        "섬강",
+        "안도타다오",
+        "하루코스"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:16:08",
+      "operation_status": "seasonal",
+      "operating_hours": "5~10월",
+      "phone": "033-732-8800"
+    },
+    {
+      "experience_id": "EX-JN-NAT-062",
+      "name": "신안 박지도+반월도 퍼플 투어",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 신안군",
+      "address": "전라남도 신안군 안좌면 반월도",
+      "lat": 34.9117,
+      "lng": 126.3489,
+      "price": "배 왕복 6,000원",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "신안 박지도와 반월도를 연결하는 보라색 퍼플 브릿지와 섬 전체 보라색 인테리어를 탐방하는 체험이다. 퍼플 브릿지 위에서 바라보는 다도해와 보라색 꽃밭이 국내 최고 인스타 명소 중 하나다.",
+      "source_urls": [
+        "https://www.sinan.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "퍼플브릿지",
+        "박지도",
+        "반월도",
+        "신안",
+        "전남",
+        "보라색",
+        "인스타명소"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:16:08",
+      "operation_status": "active",
+      "operating_hours": "연중",
+      "phone": "061-240-8555"
+    },
+    {
+      "experience_id": "EX-GN-NAT-061",
+      "name": "거제 외도·해금강 섬 투어",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 거제시",
+      "address": "경상남도 거제시 남부면 외도해상농원",
+      "lat": 34.7869,
+      "lng": 128.7361,
+      "price": "외도 성인 14,000원~",
+      "duration": "3~4시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "거제 외도 보타니아 섬 정원과 해금강 기암절벽을 유람선으로 탐방하는 코스다. 부부가 30년 가꾼 지중해 스타일 섬 정원 외도와 한국의 금강이라는 해금강의 절경을 뱃길로 동시에 즐긴다.",
+      "source_urls": [
+        "https://www.oedobotania.com/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "외도보타니아",
+        "해금강",
+        "거제",
+        "경남",
+        "섬정원",
+        "기암절벽",
+        "유람선"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:16:08",
+      "operation_status": "active",
+      "operating_hours": "09:00~17:00",
+      "phone": "055-632-5258"
+    },
+    {
+      "experience_id": "EX-GG-NAT-058",
+      "name": "연천 임진강 두루미 탐조",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GG",
+      "region_sub": "경기도 연천군",
+      "address": "경기도 연천군 임진강 탐조 지점",
+      "lat": 38.05,
+      "lng": 127.05,
+      "price": "탐조 투어 1인 15,000원~",
+      "duration": "2~3시간",
+      "reservation_required": true,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "연천 임진강에서 겨울 두루미와 재두루미를 탐조하는 체험이다. 수천 마리 두루미가 월동하는 임진강 접경 지역에서 두루미 군무를 망원경으로 관찰하는 특별한 생태 탐조 체험이다.",
+      "source_urls": [
+        "https://www.yeoncheon.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "임진강두루미",
+        "연천",
+        "경기",
+        "두루미탐조",
+        "겨울철새",
+        "임진강",
+        "접경"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:16:08",
+      "operation_status": "seasonal",
+      "operating_hours": "12~2월 (예약 필수)",
+      "phone": "031-839-2562"
+    },
+    {
+      "experience_id": "EX-GN-NAT-062",
+      "name": "고성 통일전망대 북한 조망",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GN",
+      "region_sub": "강원특별자치도 고성군",
+      "address": "강원특별자치도 고성군 현내면 통일전망대로 369",
+      "lat": 38.3719,
+      "lng": 128.4583,
+      "price": "성인 3,000원",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "한국 최북단에서 북한 해금강을 조망하는 고성 통일전망대 체험이다. 맑은 날 망원경으로 북한 금강산·해금강·고성항이 보이며 한국에서 가장 북쪽에서 분단 현장을 체험하는 역사 교육 투어다.",
+      "source_urls": [
+        "https://www.goseong.org/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "통일전망대",
+        "고성",
+        "강원",
+        "북한조망",
+        "금강산",
+        "한국최북단",
+        "분단역사"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:16:08",
+      "operation_status": "active",
+      "operating_hours": "09:00~16:00",
+      "phone": "033-681-0625"
+    },
+    {
+      "experience_id": "EX-JN-NAT-063",
+      "name": "완도 강진만 갯벌+다산초당",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 강진군",
+      "address": "전라남도 강진군 도암면 만덕리 다산초당",
+      "lat": 34.6142,
+      "lng": 126.7897,
+      "price": "다산초당 무료",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "정약용이 유배 생활을 하며 동의보감과 목민심서를 집필한 강진 다산초당을 탐방하는 역사 체험이다. 강진만 갯벌 생태 탐방과 함께하면 완벽한 강진 역사+자연 하루 코스가 된다.",
+      "source_urls": [
+        "https://www.gangjin.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "다산초당",
+        "강진",
+        "전남",
+        "정약용",
+        "유배지",
+        "목민심서",
+        "강진만"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:16:08",
+      "operation_status": "active",
+      "operating_hours": "연중 (무료)",
+      "phone": "061-430-3312"
+    },
+    {
+      "experience_id": "EX-GG-NAT-059",
+      "name": "가평 아이스클라이밍 실내",
+      "category_main": "문화/체험",
+      "category_sub": "어드벤처/레포츠",
+      "region_main": "GG",
+      "region_sub": "경기도 가평군",
+      "address": "경기도 가평군 가평읍 일원",
+      "lat": 37.8583,
+      "lng": 127.5097,
+      "price": "1인 30,000원~",
+      "duration": "1~2시간",
+      "reservation_required": true,
+      "target_user": [
+        "개인",
+        "청년",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "가평 실내 아이스클라이밍 센터에서 겨울 빙벽 등반을 즐기는 어드벤처 체험이다. 실내 인공 빙벽을 도끼와 아이젠을 착용하고 오르는 체험으로 초보자도 교관의 지도 아래 안전하게 즐길 수 있다.",
+      "source_urls": [
+        "https://www.gapyeong.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "아이스클라이밍",
+        "가평",
+        "경기",
+        "빙벽등반",
+        "실내어드벤처",
+        "겨울레저",
+        "스릴"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:16:08",
+      "operation_status": "seasonal",
+      "operating_hours": "11~3월 겨울 시즌",
+      "phone": "031-585-7401"
+    },
+    {
+      "experience_id": "EX-GN-NAT-063",
+      "name": "경남 하동 섬진강 래프팅",
+      "category_main": "문화/체험",
+      "category_sub": "어드벤처/레포츠",
+      "region_main": "GN",
+      "region_sub": "경상남도 하동군",
+      "address": "경상남도 하동군 화개면 섬진강 일원",
+      "lat": 35.0614,
+      "lng": 127.6661,
+      "price": "1인 35,000원~",
+      "duration": "2시간",
+      "reservation_required": true,
+      "target_user": [
+        "개인",
+        "커플",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "섬진강에서 고무보트를 타고 급류를 즐기는 래프팅 체험이다. 벚꽃·매화·새파란 섬진강이 어우러지는 하동 섬진강 래프팅은 봄 시즌에 특히 아름다운 경남 대표 래프팅 코스다.",
+      "source_urls": [
+        "https://www.hadong.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "섬진강래프팅",
+        "하동",
+        "경남",
+        "래프팅",
+        "벚꽃",
+        "섬진강",
+        "급류"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:16:08",
+      "operation_status": "seasonal",
+      "operating_hours": "4~10월",
+      "phone": "055-880-2960"
+    },
+    {
+      "experience_id": "EX-JN-NAT-064",
+      "name": "강진 청자마을 가마터 탐방",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 강진군",
+      "address": "전라남도 강진군 대구면 청자촌길 33",
+      "lat": 34.5747,
+      "lng": 126.7342,
+      "price": "성인 3,000원",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "고려청자 최대 생산지 강진 대구면 청자마을에서 가마터와 도요지를 직접 탐방하는 역사 체험이다. 고려 시대 청자를 구워낸 가마터 위를 걸으며 900년 도자기 역사를 이해한다.",
+      "source_urls": [
+        "https://www.gangjin.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "강진청자마을",
+        "청자가마터",
+        "강진",
+        "전남",
+        "고려청자",
+        "도요지",
+        "900년"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:16:08",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00",
+      "phone": "061-430-3524"
+    },
+    {
+      "experience_id": "EX-GN-NAT-064",
+      "name": "밀양 얼음골·만년빙 체험",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 밀양시",
+      "address": "경상남도 밀양시 산내면 얼음골로 70",
+      "lat": 35.5036,
+      "lng": 128.9711,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "한여름에 얼음이 어는 신비로운 자연 현상 밀양 얼음골에서 만년빙을 직접 체험하는 자연 탐방이다. 7~8월 폭염 때 기암절벽 사이에서 차가운 공기와 얼음 조각이 실제로 나오는 천연기념물 현장이다.",
+      "source_urls": [
+        "https://www.miryang.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "밀양얼음골",
+        "만년빙",
+        "밀양",
+        "경남",
+        "천연기념물",
+        "여름얼음",
+        "신비현상"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:16:08",
+      "operation_status": "seasonal",
+      "operating_hours": "7~8월 여름 시즌 (무료)",
+      "phone": "055-359-5638"
+    },
+    {
+      "experience_id": "EX-GG-NAT-060",
+      "name": "파주 율곡습지공원 철새",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GG",
+      "region_sub": "경기도 파주시",
+      "address": "경기도 파주시 파평면 율곡습지공원",
+      "lat": 37.9019,
+      "lng": 126.8261,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "파주 임진강 율곡습지공원에서 계절 철새와 습지 식물을 탐방하는 생태 체험이다. 봄에는 수달·봄꽃, 겨울에는 재두루미·흰뺨검둥오리가 서식하는 접경 지역 자연 습지 탐방 코스다.",
+      "source_urls": [
+        "https://www.paju.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "율곡습지공원",
+        "파주",
+        "경기",
+        "철새",
+        "수달",
+        "임진강",
+        "생태탐방"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:16:08",
+      "operation_status": "active",
+      "operating_hours": "연중 (무료)",
+      "phone": "031-953-4744"
+    },
+    {
+      "experience_id": "EX-JN-NAT-065",
+      "name": "해남 두륜산 대흥사+케이블카",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 해남군",
+      "address": "전라남도 해남군 삼산면 대흥사길 400",
+      "lat": 34.4667,
+      "lng": 126.5875,
+      "price": "사찰 성인 2,000원+케이블카",
+      "duration": "3~4시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "유네스코 세계유산 대흥사 탐방과 두륜산 케이블카를 함께 즐기는 해남 완벽 코스다. 서산대사·사명대사가 주석했던 대흥사와 케이블카에서 남해 다도해를 조망하는 해남 최고 투어다.",
+      "source_urls": [
+        "https://www.daeheungsa.co.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "대흥사케이블카",
+        "두륜산",
+        "해남",
+        "전남",
+        "유네스코",
+        "서산대사",
+        "남해다도해"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-10T03:16:08",
+      "operation_status": "active",
+      "operating_hours": "08:30~17:00",
+      "phone": "061-534-5502"
     }
   ],
   "last_updated": "2026-05-07T04:18:31"
