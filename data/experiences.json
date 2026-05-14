@@ -1,8 +1,8 @@
 {
   "_comment": "겜코리아 체험 데이터 — 역사/자연 마커와 분리. 삭제 금지. 젬투어 상품 후보.",
   "_version": "1.0",
-  "_updated": "2026-05-14T07:56:45",
-  "total": 843,
+  "_updated": "2026-05-14T07:59:58",
+  "total": 855,
   "experiences": [
     {
       "experience_id": "EX-SE-MKT-001",
@@ -34268,6 +34268,488 @@
       "operation_status": "annual",
       "operating_hours": "4월 봄꽃 시즌 (무료)",
       "phone": "031-729-3411"
+    },
+    {
+      "experience_id": "EX-GG-NAT-103",
+      "name": "광주 남한산성 설경 트레킹",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GG",
+      "region_sub": "경기도 광주시",
+      "address": "경기도 광주시 남한산성면 남한산성로 일대",
+      "lat": 37.48,
+      "lng": 127.1786,
+      "price": "무료",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "경기 광주 남한산성에서 겨울 설경 트레킹을 즐기는 체험이다. 유네스코 세계문화유산 남한산성의 눈 쌓인 성벽 트레킹이 서울·수도권 최고 겨울 설경 코스로 병자호란 역사와 함께 즐기는 체험이다.",
+      "source_urls": [
+        "https://www.namhansansung.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "남한산성설경트레킹",
+        "남한산성",
+        "광주",
+        "경기",
+        "겨울설경",
+        "유네스코",
+        "병자호란"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-14T07:59:58",
+      "operation_status": "seasonal",
+      "operating_hours": "겨울 설경 시즌 (무료)",
+      "phone": "031-743-6610"
+    },
+    {
+      "experience_id": "EX-GN-NAT-100",
+      "name": "남해 앵강만 가을 드라이브",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 남해군",
+      "address": "경상남도 남해군 남면 앵강만로 일대",
+      "lat": 34.8258,
+      "lng": 127.9019,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "경남 남해 앵강만 해안도로를 따라 드라이브하는 가을 체험이다. 남해 섬 내 앵강만을 굽어보며 달리는 해안 드라이브 코스가 억새와 남해 다도해가 어우러지는 10~11월 가을 드라이브 명소다.",
+      "source_urls": [
+        "https://www.namhae.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "남해앵강만드라이브",
+        "남해",
+        "경남",
+        "앵강만",
+        "가을드라이브",
+        "억새",
+        "다도해"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-14T07:59:58",
+      "operation_status": "annual",
+      "operating_hours": "10~11월 가을 시즌 (무료)",
+      "phone": "055-863-3427"
+    },
+    {
+      "experience_id": "EX-JN-NAT-109",
+      "name": "강진 전남도청 옛터 역사",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 강진군",
+      "address": "전라남도 강진군 강진읍 탐진로 일대",
+      "lat": 34.6428,
+      "lng": 126.7686,
+      "price": "무료",
+      "duration": "1시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "전남 강진에서 조선 시대 전라병영성과 전남 지역 역사를 탐방하는 역사 체험이다. 조선 시대 전라도 군사 중심지 전라병영성이 강진에 있었으며 정약용 유배지 사의재와 연계된 역사 코스다.",
+      "source_urls": [
+        "https://www.gangjin.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "강진전라병영성역사",
+        "강진",
+        "전남",
+        "전라병영성",
+        "조선군사",
+        "사의재",
+        "정약용"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-14T07:59:58",
+      "operation_status": "active",
+      "operating_hours": "연중 (무료)",
+      "phone": "061-430-3783"
+    },
+    {
+      "experience_id": "EX-GG-CUL-090",
+      "name": "화성 봉담 딸기 따기",
+      "category_main": "문화/체험",
+      "category_sub": "농촌 체험",
+      "region_main": "GG",
+      "region_sub": "경기도 화성시",
+      "address": "경기도 화성시 봉담읍 일대 딸기 체험 농장",
+      "lat": 37.2153,
+      "lng": 126.9906,
+      "price": "체험 12,000원~",
+      "duration": "1~2시간",
+      "reservation_required": true,
+      "target_user": [
+        "가족",
+        "어린이",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "경기 화성 봉담 딸기 농장에서 딸기를 직접 따는 농촌 체험이다. 수도권 딸기 산지 화성 봉담에서 1~3월 딸기 수확 시즌에 직접 딸기를 따고 먹는 가족 체험으로 서울에서 40분 거리 수도권 최대 딸기 체험 지구다.",
+      "source_urls": [
+        "https://www.hwaseong.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "화성봉담딸기따기",
+        "화성",
+        "경기",
+        "봉담",
+        "딸기체험",
+        "1~3월",
+        "겨울딸기"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-14T07:59:58",
+      "operation_status": "seasonal",
+      "operating_hours": "1~3월 딸기 시즌 (예약 필수)",
+      "phone": "031-369-3001"
+    },
+    {
+      "experience_id": "EX-JB-NAT-076",
+      "name": "군산 새만금 드라이브",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "JB",
+      "region_sub": "전라북도 군산시",
+      "address": "전라북도 군산시 새만금 방조제 일대",
+      "lat": 35.8897,
+      "lng": 126.5553,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "세계 최장 방조제 전북 군산 새만금 방조제 드라이브 체험이다. 33km 새만금 방조제 위를 달리며 서해 낙조를 감상하는 체험으로 방조제 한가운데서 보이는 서해 수평선이 압도적이다.",
+      "source_urls": [
+        "https://www.saemangeum.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "새만금방조제드라이브",
+        "새만금",
+        "군산",
+        "전북",
+        "세계최장방조제",
+        "서해낙조",
+        "드라이브"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-14T07:59:58",
+      "operation_status": "active",
+      "operating_hours": "연중 (무료)",
+      "phone": "063-460-8114"
+    },
+    {
+      "experience_id": "EX-GW-NAT-089",
+      "name": "영월 선암마을 한반도지형",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 영월군",
+      "address": "강원특별자치도 영월군 한반도면 한반도로 24-7",
+      "lat": 37.1819,
+      "lng": 128.4192,
+      "price": "무료",
+      "duration": "1시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "강원 영월 선암마을에서 한반도 지형을 조망하는 체험이다. 강물이 S자로 굽이쳐 만든 지형이 하늘에서 보면 한반도 모양이어서 한반도지형이라 불리는 영월 절경 조망 명소다.",
+      "source_urls": [
+        "https://www.yw.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "영월한반도지형",
+        "영월",
+        "강원",
+        "한반도지형",
+        "선암마을",
+        "절벽조망",
+        "영월강"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-14T07:59:58",
+      "operation_status": "active",
+      "operating_hours": "연중 (무료)",
+      "phone": "033-370-2924"
+    },
+    {
+      "experience_id": "EX-CB-NAT-051",
+      "name": "태안 꽃지해변 낙조",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "CB",
+      "region_sub": "충청남도 태안군",
+      "address": "충청남도 태안군 안면읍 꽃지해안로 꽃지해수욕장",
+      "lat": 36.4436,
+      "lng": 126.4167,
+      "price": "무료",
+      "duration": "1시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "충남 태안 꽃지해변에서 할미바위·할아비바위와 서해 낙조를 감상하는 체험이다. 꽃지해수욕장 앞바다에 우뚝 선 두 바위 사이로 해가 지는 장관이 한국 최고 서해 낙조 포인트로 꼽힌다.",
+      "source_urls": [
+        "https://www.taean.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "태안꽃지해변낙조",
+        "태안",
+        "충남",
+        "꽃지해변",
+        "할미바위",
+        "서해낙조",
+        "일몰"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-14T07:59:58",
+      "operation_status": "active",
+      "operating_hours": "일몰 전 방문 (무료)",
+      "phone": "041-670-2647"
+    },
+    {
+      "experience_id": "EX-GN-NAT-101",
+      "name": "마산 미더덕 제철 체험",
+      "category_main": "문화/체험",
+      "category_sub": "지역 먹거리",
+      "region_main": "GN",
+      "region_sub": "경상남도 창원시",
+      "address": "경상남도 창원시 마산합포구 어시장 일대",
+      "lat": 35.2017,
+      "lng": 128.5672,
+      "price": "먹거리 별도",
+      "duration": "1시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "경남 마산 어시장에서 마산 특산 미더덕을 즐기는 먹거리 체험이다. 3~5월 미더덕 제철에 마산에서 미더덕찜·미더덕 밥 등 마산 특유의 미더덕 요리를 즐기는 마산 대표 봄 먹거리 체험이다.",
+      "source_urls": [
+        "https://www.changwon.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "마산미더덕체험",
+        "마산",
+        "창원",
+        "경남",
+        "미더덕",
+        "봄제철해산물",
+        "마산특산"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-14T07:59:58",
+      "operation_status": "seasonal",
+      "operating_hours": "3~5월 미더덕 제철",
+      "phone": "055-220-4731"
+    },
+    {
+      "experience_id": "EX-GG-NAT-104",
+      "name": "이천 도드람산 진달래",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GG",
+      "region_sub": "경기도 이천시",
+      "address": "경기도 이천시 호법면 도드람산 일대",
+      "lat": 37.2244,
+      "lng": 127.5286,
+      "price": "무료",
+      "duration": "2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "경기 이천 도드람산에서 4월 진달래 트레킹을 즐기는 체험이다. 이천 남부 도드람산 등산로 전체가 진달래꽃으로 물드는 경기 남부 숨은 진달래 명산으로 산 아래 이천 도예촌과 함께 코스를 즐길 수 있다.",
+      "source_urls": [
+        "https://www.icheon.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "이천도드람산진달래",
+        "이천",
+        "경기",
+        "도드람산",
+        "진달래",
+        "봄꽃산행",
+        "도예촌"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-14T07:59:58",
+      "operation_status": "annual",
+      "operating_hours": "4월 진달래 시즌 (무료)",
+      "phone": "031-644-2000"
+    },
+    {
+      "experience_id": "EX-JN-CUL-062",
+      "name": "순창 고추장 마을 체험",
+      "category_main": "문화/체험",
+      "category_sub": "지역 먹거리",
+      "region_main": "JN",
+      "region_sub": "전라북도 순창군",
+      "address": "전라북도 순창군 순창읍 순창고추장마을로 1가길 일대",
+      "lat": 35.3711,
+      "lng": 127.1378,
+      "price": "체험 10,000원~",
+      "duration": "1~2시간",
+      "reservation_required": true,
+      "target_user": [
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "전북 순창 전통 고추장 마을에서 순창 고추장을 직접 담그는 체험이다. 한국 고추장 최대 산지 순창에서 조선 시대 임금 진상품이었던 순창 고추장을 직접 담그고 장독 체험을 하는 발효 음식 체험이다.",
+      "source_urls": [
+        "https://www.sunchang.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "순창고추장마을체험",
+        "순창",
+        "전북",
+        "고추장",
+        "전통발효",
+        "진상품",
+        "장독체험"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-14T07:59:58",
+      "operation_status": "active",
+      "operating_hours": "10:00~17:00 (예약 필수)",
+      "phone": "063-650-1678"
+    },
+    {
+      "experience_id": "EX-GB-NAT-052",
+      "name": "문경 오미자 농장 체험",
+      "category_main": "문화/체험",
+      "category_sub": "농촌 체험",
+      "region_main": "GB",
+      "region_sub": "경상북도 문경시",
+      "address": "경상북도 문경시 동로면 오미자로 일대 오미자 농장",
+      "lat": 36.6581,
+      "lng": 128.2994,
+      "price": "체험 10,000원~",
+      "duration": "1~2시간",
+      "reservation_required": true,
+      "target_user": [
+        "가족",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "경북 문경 오미자 농장에서 오미자를 따고 오미자 차를 만드는 농촌 체험이다. 전국 오미자 1위 생산지 문경에서 8~9월 빨간 오미자를 직접 따고 오미자 청·차 만들기를 체험하는 가을 농촌 체험이다.",
+      "source_urls": [
+        "https://www.gbmg.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "문경오미자농장체험",
+        "문경",
+        "경북",
+        "오미자",
+        "오미자청",
+        "농촌체험",
+        "8~9월수확"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-14T07:59:58",
+      "operation_status": "seasonal",
+      "operating_hours": "8~9월 수확 시즌 (예약 필수)",
+      "phone": "054-550-6421"
+    },
+    {
+      "experience_id": "EX-GW-NAT-090",
+      "name": "횡성 한우 불고기 투어",
+      "category_main": "문화/체험",
+      "category_sub": "지역 먹거리",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 횡성군",
+      "address": "강원특별자치도 횡성군 횡성읍 횡성한우길 일대",
+      "lat": 37.4917,
+      "lng": 127.9839,
+      "price": "2인 기준 60,000원~",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "강원 횡성 한우 거리에서 횡성 한우 불고기를 즐기는 먹거리 체험이다. 청정 강원 횡성 한우가 전국 최고 품질로 유명한데 횡성 읍내 한우 식당 거리에서 신선한 횡성 한우 불고기·구이를 즐긴다.",
+      "source_urls": [
+        "https://www.hsg.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "횡성한우불고기투어",
+        "횡성",
+        "강원",
+        "횡성한우",
+        "한우불고기",
+        "청정강원",
+        "1++한우"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-14T07:59:58",
+      "operation_status": "active",
+      "operating_hours": "11:00~21:00",
+      "phone": "033-340-2114"
     }
   ],
   "last_updated": "2026-05-07T04:18:31"
