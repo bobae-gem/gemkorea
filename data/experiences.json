@@ -1,8 +1,8 @@
 {
   "_comment": "겜코리아 체험 데이터 — 역사/자연 마커와 분리. 삭제 금지. 젬투어 상품 후보.",
   "_version": "1.0",
-  "_updated": "2026-05-10T23:16:56",
-  "total": 793,
+  "_updated": "2026-05-14T07:43:26",
+  "total": 795,
   "experiences": [
     {
       "experience_id": "EX-SE-MKT-001",
@@ -11270,7 +11270,7 @@
         "가족"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-10T01:29:39",
       "operation_status": "active",
       "operating_hours": "11:00~22:00",
@@ -13137,7 +13137,7 @@
         "화산지형"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-10T01:55:28",
       "operation_status": "active",
       "operating_hours": "09:00~18:00 (화요일 휴관)",
@@ -16549,7 +16549,7 @@
         "피톤치드"
       ],
       "tour_status": "candidate",
-      "shorts_status": "waiting",
+      "shorts_status": "review_pending",
       "created_at": "2026-05-10T02:23:51",
       "operation_status": "active",
       "operating_hours": "09:00~13:00 (14:00 이후 입산 제한)",
@@ -32248,6 +32248,87 @@
       "operation_status": "active",
       "operating_hours": "연중 (무료)",
       "phone": "064-762-2190"
+    },
+    {
+      "experience_id": "EX-JJ-NAT-009",
+      "name": "제주 오름 트레킹 — 다랑쉬",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "JJ",
+      "region_sub": "제주특별자치도 제주시",
+      "address": "제주특별자치도 제주시 구좌읍 세화리 다랑쉬오름",
+      "lat": 33.4833,
+      "lng": 126.8264,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "제주 오름의 왕 구좌읍 다랑쉬오름을 트레킹하는 체험이다. 오름 중 가장 아름다운 형태를 가진 다랑쉬오름 정상에서 제주 동부 오름 군락과 성산일출봉이 한눈에 내려다보이는 360도 파노라마 전망이다.",
+      "source_urls": [
+        "https://www.jeju.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "다랑쉬오름",
+        "다랑쉬",
+        "제주",
+        "구좌",
+        "오름트레킹",
+        "오름의왕",
+        "제주오름"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-14T07:43:26",
+      "operation_status": "active",
+      "operating_hours": "연중 (무료)",
+      "phone": "064-728-3012"
+    },
+    {
+      "experience_id": "EX-JJ-CUL-003",
+      "name": "제주 해녀 체험",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "JJ",
+      "region_sub": "제주특별자치도 제주시",
+      "address": "제주특별자치도 제주시 구좌읍 해녀박물관길 26",
+      "lat": 33.5494,
+      "lng": 126.8156,
+      "price": "박물관 성인 1,100원",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "유네스코 인류무형문화유산 제주 해녀 문화를 체험하는 코스다. 해녀박물관에서 제주 해녀의 역사와 문화를 배우고 해녀 물질 시연을 관람하며 제주 해녀의 강인한 삶을 체험한다.",
+      "source_urls": [
+        "https://www.haenyeo.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "제주해녀체험",
+        "해녀박물관",
+        "제주",
+        "구좌",
+        "해녀",
+        "유네스코",
+        "물질"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-14T07:43:26",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00 (월 휴관)",
+      "phone": "064-782-9898"
     }
   ],
   "last_updated": "2026-05-07T04:18:31"
