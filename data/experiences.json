@@ -1,8 +1,8 @@
 {
   "_comment": "겜코리아 체험 데이터 — 역사/자연 마커와 분리. 삭제 금지. 젬투어 상품 후보.",
   "_version": "1.0",
-  "_updated": "2026-05-14T07:43:26",
-  "total": 795,
+  "_updated": "2026-05-14T07:47:04",
+  "total": 807,
   "experiences": [
     {
       "experience_id": "EX-SE-MKT-001",
@@ -32329,6 +32329,487 @@
       "operation_status": "active",
       "operating_hours": "09:00~18:00 (월 휴관)",
       "phone": "064-782-9898"
+    },
+    {
+      "experience_id": "EX-SE-NAT-078",
+      "name": "서울 한강 자전거 투어",
+      "category_main": "문화/체험",
+      "category_sub": "어드벤처/레포츠",
+      "region_main": "SE",
+      "region_sub": "서울특별시",
+      "address": "서울특별시 영등포구 여의도동 한강공원",
+      "lat": 37.5264,
+      "lng": 126.9336,
+      "price": "자전거 대여 3,000원/시간",
+      "duration": "2~4시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "서울 한강변 자전거도로를 따라 라이딩하는 체험이다. 여의도·반포·잠원 한강공원을 연결하는 자전거도로가 서울 대표 도심 라이딩 코스로 한강 노을과 야경을 즐기며 달리는 서울 최고 힐링 코스다.",
+      "source_urls": [
+        "https://hangang.seoul.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "한강자전거투어",
+        "한강",
+        "서울",
+        "자전거",
+        "한강공원",
+        "한강노을",
+        "도심라이딩"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-14T07:47:04",
+      "operation_status": "active",
+      "operating_hours": "연중 (자전거 대여 06:00~22:00)",
+      "phone": "02-3780-0541"
+    },
+    {
+      "experience_id": "EX-GG-NAT-091",
+      "name": "광명 이케아 근처 철산 벚꽃",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GG",
+      "region_sub": "경기도 광명시",
+      "address": "경기도 광명시 철산동 철산천 벚꽃길",
+      "lat": 37.4797,
+      "lng": 126.8647,
+      "price": "무료",
+      "duration": "1시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "경기 광명 철산천변 벚꽃 터널을 산책하는 봄 체험이다. 수도권 숨은 벚꽃 명소 광명 철산천변 벚꽃 가로수 길은 4월 만개 시즌에 완전한 벚꽃 터널이 형성되며 인근 주민만 아는 로컬 명소다.",
+      "source_urls": [
+        "https://www.gm.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "광명철산벚꽃",
+        "광명",
+        "경기",
+        "철산천",
+        "벚꽃",
+        "봄꽃",
+        "로컬명소"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-14T07:47:04",
+      "operation_status": "annual",
+      "operating_hours": "4월 벚꽃 시즌 (무료)",
+      "phone": "02-2680-2114"
+    },
+    {
+      "experience_id": "EX-GN-NAT-094",
+      "name": "지리산 노고단 운무 트레킹",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GN",
+      "region_sub": "전라남도 구례군",
+      "address": "전라남도 구례군 산동면 노고단로 일대",
+      "lat": 35.3067,
+      "lng": 127.5733,
+      "price": "무료",
+      "duration": "3~4시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "지리산 노고단에서 운무(구름 바다)를 감상하는 트레킹이다. 해발 1,507m 노고단은 이른 아침 구름 바다가 펼쳐지는 국내 최고 운무 명소로 상사바위에서 보이는 운해가 압도적이다.",
+      "source_urls": [
+        "https://jirisan.knps.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "지리산노고단운무",
+        "지리산",
+        "노고단",
+        "구례",
+        "전남",
+        "운무",
+        "구름바다"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-14T07:47:04",
+      "operation_status": "active",
+      "operating_hours": "일출 전 도착 권장",
+      "phone": "061-783-1507"
+    },
+    {
+      "experience_id": "EX-GG-NAT-092",
+      "name": "춘천 물레길 카누",
+      "category_main": "문화/체험",
+      "category_sub": "어드벤처/레포츠",
+      "region_main": "GG",
+      "region_sub": "강원특별자치도 춘천시",
+      "address": "강원특별자치도 춘천시 신북읍 물레길 일대",
+      "lat": 37.9603,
+      "lng": 127.7356,
+      "price": "2인 기준 30,000원~",
+      "duration": "2~3시간",
+      "reservation_required": true,
+      "target_user": [
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "강원 춘천 소양호와 의암호를 카누로 탐방하는 수상 체험이다. 물레길이라 불리는 춘천 수상 루트를 카누로 노를 저으며 주변 산과 호수가 어우러지는 춘천 최고 수상 체험이다.",
+      "source_urls": [
+        "https://www.chuncheon.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "춘천물레길카누",
+        "춘천",
+        "강원",
+        "물레길",
+        "카누",
+        "소양호",
+        "수상레저"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-14T07:47:04",
+      "operation_status": "seasonal",
+      "operating_hours": "4~10월 (예약 필수)",
+      "phone": "033-242-3630"
+    },
+    {
+      "experience_id": "EX-JN-NAT-103",
+      "name": "순천 낙안읍성 하룻밤",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 순천시",
+      "address": "전라남도 순천시 낙안면 충민길 30 낙안읍성",
+      "lat": 34.9497,
+      "lng": 127.3706,
+      "price": "숙박 60,000원~",
+      "duration": "1박2일",
+      "reservation_required": true,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "전남 순천 낙안읍성 전통 민속마을에서 하룻밤 숙박 체험이다. 조선 시대 읍성 안에 실제 주민이 거주하는 낙안읍성에서 초가집 숙박·전통 체험을 즐기는 국내 유일 읍성 숙박 체험이다.",
+      "source_urls": [
+        "https://www.suncheon.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "낙안읍성숙박",
+        "낙안읍성",
+        "순천",
+        "전남",
+        "초가집",
+        "전통숙박",
+        "조선읍성"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-14T07:47:04",
+      "operation_status": "active",
+      "operating_hours": "연중 (예약 필수)",
+      "phone": "061-749-8831"
+    },
+    {
+      "experience_id": "EX-GN-CUL-082",
+      "name": "창원 마산 어시장 투어",
+      "category_main": "문화/체험",
+      "category_sub": "지역 먹거리",
+      "region_main": "GN",
+      "region_sub": "경상남도 창원시",
+      "address": "경상남도 창원시 마산합포구 오동동대로 일대",
+      "lat": 35.2044,
+      "lng": 128.5706,
+      "price": "먹거리 별도",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "경남 창원 마산 어시장과 오동동 문화의 거리에서 마산 특산 해산물과 문어를 즐기는 투어다. 마산 아귀찜·문어숙회 발상지 마산 어시장이 새벽부터 싱싱한 남해 해산물을 저렴하게 즐길 수 있는 로컬 명소다.",
+      "source_urls": [
+        "https://www.changwon.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "마산어시장투어",
+        "마산",
+        "창원",
+        "경남",
+        "아귀찜발상지",
+        "문어숙회",
+        "해산물"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-14T07:47:04",
+      "operation_status": "active",
+      "operating_hours": "새벽 04:00~22:00",
+      "phone": "055-220-4731"
+    },
+    {
+      "experience_id": "EX-GG-CUL-086",
+      "name": "수원 통닭거리 투어",
+      "category_main": "문화/체험",
+      "category_sub": "지역 먹거리",
+      "region_main": "GG",
+      "region_sub": "경기도 수원시",
+      "address": "경기도 수원시 팔달구 지동 통닭거리",
+      "lat": 37.2678,
+      "lng": 127.0161,
+      "price": "1인 10,000원~",
+      "duration": "1시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "경기 수원 전통시장 통닭거리에서 수원 왕갈비 옆 수원 통닭을 즐기는 먹거리 체험이다. 수원 남문 시장 옆 통닭 골목이 40년 이상 된 수원 대표 로컬 통닭 명소로 수원 화성 관광 후 필수 코스다.",
+      "source_urls": [
+        "https://www.suwon.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "수원통닭거리",
+        "수원",
+        "경기",
+        "통닭",
+        "남문시장",
+        "로컬명소",
+        "수원화성"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-14T07:47:04",
+      "operation_status": "active",
+      "operating_hours": "11:00~21:00",
+      "phone": "031-228-4677"
+    },
+    {
+      "experience_id": "EX-JB-NAT-074",
+      "name": "전주 한옥마을 야경 산책",
+      "category_main": "문화/체험",
+      "category_sub": "야경/야간투어",
+      "region_main": "JB",
+      "region_sub": "전라북도 전주시",
+      "address": "전라북도 전주시 완산구 풍남동 전주한옥마을",
+      "lat": 35.8152,
+      "lng": 127.1553,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "전북 전주 한옥마을 골목을 야간에 산책하는 체험이다. 600여 채 한옥에 조명이 켜지는 전주 한옥마을 야경이 낮과 전혀 다른 매력으로 경기전 앞 광장과 한옥 처마 조명이 특히 아름답다.",
+      "source_urls": [
+        "https://www.jeonjuhanok.com/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "전주한옥마을야경",
+        "전주한옥마을",
+        "전주",
+        "전북",
+        "야경",
+        "한옥야경",
+        "경기전"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-14T07:47:04",
+      "operation_status": "active",
+      "operating_hours": "일몰~23:00 (무료)",
+      "phone": "063-281-2891"
+    },
+    {
+      "experience_id": "EX-GW-NAT-084",
+      "name": "강릉 주문진 오징어 축제",
+      "category_main": "문화/체험",
+      "category_sub": "지역 먹거리",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 강릉시",
+      "address": "강원특별자치도 강릉시 주문진읍 주문진수산시장",
+      "lat": 37.8953,
+      "lng": 128.8214,
+      "price": "오징어 별도",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "강원 강릉 주문진 수산시장에서 싱싱한 동해 오징어를 즐기는 먹거리 체험이다. 국내 최대 오징어 산지 주문진에서 배에서 갓 올린 신선한 오징어와 건오징어를 저렴하게 구매하는 강릉 로컬 어시장이다.",
+      "source_urls": [
+        "https://www.gn.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "주문진수산시장",
+        "주문진",
+        "강릉",
+        "강원",
+        "오징어",
+        "동해해산물",
+        "어시장"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-14T07:47:04",
+      "operation_status": "active",
+      "operating_hours": "새벽 04:00~20:00",
+      "phone": "033-661-9143"
+    },
+    {
+      "experience_id": "EX-GN-NAT-095",
+      "name": "함양 지리산 천왕봉 트레킹",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 함양군",
+      "address": "경상남도 함양군 마천면 지리산 중산리",
+      "lat": 35.2869,
+      "lng": 127.7006,
+      "price": "무료",
+      "duration": "8~10시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "지리산 경남 중산리 코스로 천왕봉 1,915m까지 트레킹하는 체험이다. 지리산 최고봉 천왕봉 일출이 한반도 5대 일출 명소 중 하나로 정상에서 보이는 운해와 남해 조망이 압도적이다.",
+      "source_urls": [
+        "https://jirisan.knps.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "지리산천왕봉트레킹",
+        "지리산",
+        "천왕봉",
+        "함양",
+        "경남",
+        "천왕봉일출",
+        "운해"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-14T07:47:04",
+      "operation_status": "active",
+      "operating_hours": "새벽 입산 (시즌 제한 확인)",
+      "phone": "055-972-7790"
+    },
+    {
+      "experience_id": "EX-GG-NAT-093",
+      "name": "하남 미사 한강 카약",
+      "category_main": "문화/체험",
+      "category_sub": "어드벤처/레포츠",
+      "region_main": "GG",
+      "region_sub": "경기도 하남시",
+      "address": "경기도 하남시 미사대로 미사한강공원",
+      "lat": 37.5569,
+      "lng": 127.2075,
+      "price": "1인 20,000원~",
+      "duration": "1~2시간",
+      "reservation_required": true,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "경기 하남 미사한강공원에서 한강 카약을 즐기는 수상 체험이다. 서울 동쪽 미사한강공원에서 한강 카야킹을 즐기는 수도권 한강 수상 레저 명소로 서울 스카이라인을 배경으로 카약을 즐긴다.",
+      "source_urls": [
+        "https://www.hanam.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "하남미사한강카약",
+        "하남",
+        "경기",
+        "미사한강",
+        "카약",
+        "한강수상레저",
+        "서울스카이라인"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-14T07:47:04",
+      "operation_status": "seasonal",
+      "operating_hours": "4~10월 (예약 필수)",
+      "phone": "031-790-5200"
+    },
+    {
+      "experience_id": "EX-JN-CUL-059",
+      "name": "목포 홍어 삼합 투어",
+      "category_main": "문화/체험",
+      "category_sub": "지역 먹거리",
+      "region_main": "JN",
+      "region_sub": "전라남도 목포시",
+      "address": "전라남도 목포시 자유시장 일대",
+      "lat": 34.7947,
+      "lng": 126.3942,
+      "price": "1인 20,000원~",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "전남 목포 자유시장에서 홍어삼합을 즐기는 먹거리 체험이다. 홍어·묵은지·수육을 함께 먹는 목포 홍어삼합은 삭힌 홍어 특유의 향이 로컬들이 즐기는 전남 대표 발효 음식 문화다.",
+      "source_urls": [
+        "https://www.mokpo.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "목포홍어삼합",
+        "목포",
+        "전남",
+        "홍어",
+        "홍어삼합",
+        "발효음식",
+        "자유시장"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-14T07:47:04",
+      "operation_status": "active",
+      "operating_hours": "10:00~21:00",
+      "phone": "061-270-8430"
     }
   ],
   "last_updated": "2026-05-07T04:18:31"
