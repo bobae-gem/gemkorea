@@ -1,8 +1,8 @@
 {
   "_comment": "겜코리아 체험 데이터 — 역사/자연 마커와 분리. 삭제 금지. 젬투어 상품 후보.",
   "_version": "1.0",
-  "_updated": "2026-05-14T07:47:04",
-  "total": 807,
+  "_updated": "2026-05-14T07:50:19",
+  "total": 819,
   "experiences": [
     {
       "experience_id": "EX-SE-MKT-001",
@@ -32810,6 +32810,488 @@
       "operation_status": "active",
       "operating_hours": "10:00~21:00",
       "phone": "061-270-8430"
+    },
+    {
+      "experience_id": "EX-GG-NAT-094",
+      "name": "포천 비둘기낭 폭포",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GG",
+      "region_sub": "경기도 포천시",
+      "address": "경기도 포천시 영북면 대회산리 비둘기낭폭포",
+      "lat": 38.0553,
+      "lng": 127.2314,
+      "price": "무료",
+      "duration": "1시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "경기 포천 한탄강 현무암 협곡 안에 숨겨진 비둘기낭 폭포를 탐방하는 자연 체험이다. 주상절리 현무암 절벽 사이에 숨겨진 비둘기낭 폭포는 드라마 선덕여왕·주몽 촬영지로 신비로운 협곡 폭포다.",
+      "source_urls": [
+        "https://www.pocheon.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "포천비둘기낭폭포",
+        "포천",
+        "경기",
+        "비둘기낭",
+        "한탄강",
+        "주상절리",
+        "드라마촬영지"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-14T07:50:19",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00 (무료)",
+      "phone": "031-538-3030"
+    },
+    {
+      "experience_id": "EX-GW-NAT-085",
+      "name": "인제 원대리 자작나무 사진 투어",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 인제군",
+      "address": "강원특별자치도 인제군 인제읍 원대리 자작나무숲",
+      "lat": 38.0833,
+      "lng": 128.1219,
+      "price": "무료",
+      "duration": "2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "국내 최대 자작나무 숲 강원 인제 원대리에서 사진 촬영 투어를 즐기는 체험이다. 흰 자작나무가 빼곡히 늘어선 숲에서 계절별 다른 풍경을 담는 사진 투어로 눈 내린 겨울과 신록의 여름이 특히 아름답다.",
+      "source_urls": [
+        "https://www.inje.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "인제자작나무사진투어",
+        "인제",
+        "강원",
+        "자작나무숲",
+        "겨울설경",
+        "사진투어",
+        "원대리"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-14T07:50:19",
+      "operation_status": "active",
+      "operating_hours": "09:00~16:30",
+      "phone": "033-460-8036"
+    },
+    {
+      "experience_id": "EX-JN-NAT-104",
+      "name": "영암 월출산 트레킹",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 영암군",
+      "address": "전라남도 영암군 영암읍 천황사로 280",
+      "lat": 34.7519,
+      "lng": 126.7083,
+      "price": "성인 1,500원",
+      "duration": "4~5시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "전남 영암 월출산 국립공원에서 기암절벽 트레킹을 즐기는 체험이다. 호남의 소금강으로 불리는 영암 월출산은 기암절벽과 봉우리가 많아 한국에서 가장 험준한 산 중 하나로 꼽힌다.",
+      "source_urls": [
+        "https://wolchulsan.knps.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "영암월출산트레킹",
+        "영암",
+        "전남",
+        "월출산",
+        "기암절벽",
+        "호남소금강",
+        "국립공원"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-14T07:50:19",
+      "operation_status": "active",
+      "operating_hours": "연중",
+      "phone": "061-473-5210"
+    },
+    {
+      "experience_id": "EX-GB-NAT-049",
+      "name": "울릉도 독도 여행",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GB",
+      "region_sub": "경상북도 울릉군",
+      "address": "경상북도 울릉군 울릉읍 독도리 독도",
+      "lat": 37.2426,
+      "lng": 131.8652,
+      "price": "배편 왕복 70,000원~",
+      "duration": "1일",
+      "reservation_required": true,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "대한민국 최동단 영토 독도에 직접 상륙하는 역사 체험이다. 울릉도에서 쾌속선으로 독도까지 이동해 동도·서도를 탐방하는 체험으로 기상 조건 때문에 상륙 성공률이 30~40%인 특별한 여행이다.",
+      "source_urls": [
+        "https://www.dokdo.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "독도상륙",
+        "독도",
+        "울릉도",
+        "경북",
+        "대한민국최동단",
+        "독도상륙체험",
+        "역사"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-14T07:50:19",
+      "operation_status": "active",
+      "operating_hours": "기상 조건 양호 시 (예약 필수)",
+      "phone": "054-790-6454"
+    },
+    {
+      "experience_id": "EX-GN-NAT-096",
+      "name": "통영 연화도 트레킹",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 통영시",
+      "address": "경상남도 통영시 욕지면 연화도",
+      "lat": 34.7333,
+      "lng": 128.2583,
+      "price": "배편 왕복 20,000원~",
+      "duration": "3~5시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "경남 통영 남해 연화도에서 연꽃 모양 섬을 트레킹하는 체험이다. 통영 남쪽 섬 연화도가 위에서 보면 연꽃 모양이라 연화도인데 섬 전체 트레킹이 가능하며 한려수도 다도해 절경이 아름답다.",
+      "source_urls": [
+        "https://www.tongyeong.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "통영연화도트레킹",
+        "통영",
+        "경남",
+        "연화도",
+        "섬트레킹",
+        "한려수도",
+        "연꽃섬"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-14T07:50:19",
+      "operation_status": "active",
+      "operating_hours": "배편 시간 확인 필수",
+      "phone": "055-650-4681"
+    },
+    {
+      "experience_id": "EX-GG-CUL-087",
+      "name": "성남 판교 테크노밸리 투어",
+      "category_main": "문화/체험",
+      "category_sub": "문화투어",
+      "region_main": "GG",
+      "region_sub": "경기도 성남시",
+      "address": "경기도 성남시 분당구 판교역로 판교테크노밸리",
+      "lat": 37.3942,
+      "lng": 127.1106,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "청년"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "경기 성남 판교 테크노밸리를 탐방하는 IT 문화 투어다. 카카오·네이버·크래프톤 등 한국 대표 IT 기업들이 모인 판교 테크노밸리를 걸으며 한국 디지털 혁신의 현장을 체험하는 IT 투어다.",
+      "source_urls": [
+        "https://www.pangyo.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "판교테크노밸리투어",
+        "판교",
+        "성남",
+        "경기",
+        "카카오",
+        "네이버",
+        "IT투어"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-14T07:50:19",
+      "operation_status": "active",
+      "operating_hours": "평일 (주말 인파 없음)",
+      "phone": "031-8016-6100"
+    },
+    {
+      "experience_id": "EX-GW-NAT-086",
+      "name": "속초 아바이마을 갯배 체험",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 속초시",
+      "address": "강원특별자치도 속초시 청호동 아바이마을",
+      "lat": 38.1989,
+      "lng": 128.5942,
+      "price": "갯배 200원",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "강원 속초 아바이마을에서 손으로 당기는 갯배를 타는 체험이다. 6.25 전쟁 때 북에서 내려온 실향민들이 정착한 아바이마을에서 드라마 가을동화 배경지 갯배와 오징어순대·아바이순대를 즐기는 코스다.",
+      "source_urls": [
+        "https://www.sokcho.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "속초아바이마을갯배",
+        "속초",
+        "강원",
+        "아바이마을",
+        "갯배",
+        "가을동화촬영지",
+        "실향민"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-14T07:50:19",
+      "operation_status": "active",
+      "operating_hours": "07:00~22:00 (갯배 200원)",
+      "phone": "033-639-2690"
+    },
+    {
+      "experience_id": "EX-JN-NAT-105",
+      "name": "여수 금오도 비렁길 트레킹",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "JN",
+      "region_sub": "전라남도 여수시",
+      "address": "전라남도 여수시 남면 금오도 비렁길",
+      "lat": 34.6356,
+      "lng": 127.8056,
+      "price": "배편 왕복 15,000원~",
+      "duration": "4~6시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "전남 여수 금오도 해안 절벽 비렁길을 트레킹하는 체험이다. 금오도 비렁길은 해발 200m 절벽 위 길을 5코스로 걸을 수 있는 남해 최고 절경 트레킹으로 절벽 아래 에메랄드 바다가 압도적이다.",
+      "source_urls": [
+        "https://www.yeosu.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "금오도비렁길",
+        "금오도",
+        "여수",
+        "전남",
+        "해안절벽",
+        "비렁길",
+        "섬트레킹"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-14T07:50:19",
+      "operation_status": "active",
+      "operating_hours": "연중",
+      "phone": "061-659-3986"
+    },
+    {
+      "experience_id": "EX-GG-NAT-095",
+      "name": "양주 장흥 공방예술촌",
+      "category_main": "문화/체험",
+      "category_sub": "전통공예",
+      "region_main": "GG",
+      "region_sub": "경기도 양주시",
+      "address": "경기도 양주시 장흥면 일영로 152-11 공방예술촌",
+      "lat": 37.7078,
+      "lng": 126.9319,
+      "price": "체험별 상이",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "경기 양주 장흥 공방예술촌에서 도예·목공·천연 염색·유리공예 등 다양한 체험을 즐기는 공예 복합 체험이다. 청정 자연 속에 예술가들이 모인 공방촌으로 수도권에서 가장 큰 공방 클러스터다.",
+      "source_urls": [
+        "https://www.yangju.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "양주장흥공방예술촌",
+        "양주",
+        "경기",
+        "장흥",
+        "공방",
+        "도예",
+        "전통공예"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-14T07:50:19",
+      "operation_status": "active",
+      "operating_hours": "10:00~18:00",
+      "phone": "031-8082-6114"
+    },
+    {
+      "experience_id": "EX-CB-CUL-076",
+      "name": "공주 마곡사 봄꽃 트레킹",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "CB",
+      "region_sub": "충청남도 공주시",
+      "address": "충청남도 공주시 사곡면 마곡사로 966",
+      "lat": 36.5406,
+      "lng": 127.0297,
+      "price": "성인 2,000원",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "유네스코 세계문화유산 산사 충남 공주 마곡사를 탐방하는 봄꽃 트레킹이다. 마곡사 진입로 봄꽃과 태화산 자락 천년 고찰이 어우러지는 코스로 백범 김구 선생이 출가했던 사찰이기도 하다.",
+      "source_urls": [
+        "https://www.magoksa.or.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "공주마곡사봄꽃",
+        "공주",
+        "충남",
+        "마곡사",
+        "유네스코산사",
+        "봄꽃",
+        "김구선생"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-14T07:50:19",
+      "operation_status": "annual",
+      "operating_hours": "봄꽃 시즌 / 연중",
+      "phone": "041-841-6220"
+    },
+    {
+      "experience_id": "EX-GN-CUL-083",
+      "name": "김해 가야테마파크",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 김해시",
+      "address": "경상남도 김해시 가야테마길 111 가야테마파크",
+      "lat": 35.2547,
+      "lng": 128.8814,
+      "price": "성인 12,000원",
+      "duration": "3~4시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "어린이"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "가야 역사를 체험하는 경남 김해 가야테마파크를 탐방하는 체험이다. 가야 건국 설화·철기 문화·복식 등을 어린이 눈높이에서 체험하는 가야 역사 교육 테마파크로 구지봉과 연계된 코스다.",
+      "source_urls": [
+        "https://www.gimhae.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "김해가야테마파크",
+        "김해",
+        "경남",
+        "가야",
+        "가야역사",
+        "철기문화",
+        "어린이체험"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-14T07:50:19",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00 (월 휴관)",
+      "phone": "055-340-7900"
+    },
+    {
+      "experience_id": "EX-GG-NAT-096",
+      "name": "용인 에버랜드 튤립 축제",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GG",
+      "region_sub": "경기도 용인시",
+      "address": "경기도 용인시 처인구 에버랜드로 199 에버랜드",
+      "lat": 37.2939,
+      "lng": 127.2031,
+      "price": "성인 56,000원~",
+      "duration": "4~8시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "경기 용인 에버랜드에서 봄 튤립 축제를 즐기는 체험이다. 300만 송이 이상 튤립이 만개하는 4~5월 에버랜드 튤립 축제는 아시아 최대 규모 튤립 정원으로 화려한 봄꽃 풍경이 펼쳐진다.",
+      "source_urls": [
+        "https://www.everland.com/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "에버랜드튤립축제",
+        "에버랜드",
+        "용인",
+        "경기",
+        "튤립",
+        "봄꽃",
+        "아시아최대튤립"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-14T07:50:19",
+      "operation_status": "annual",
+      "operating_hours": "4~5월 튤립 시즌 10:00~22:00",
+      "phone": "031-320-5000"
     }
   ],
   "last_updated": "2026-05-07T04:18:31"
