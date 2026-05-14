@@ -1,8 +1,8 @@
 {
   "_comment": "겜코리아 체험 데이터 — 역사/자연 마커와 분리. 삭제 금지. 젬투어 상품 후보.",
   "_version": "1.0",
-  "_updated": "2026-05-14T07:50:19",
-  "total": 819,
+  "_updated": "2026-05-14T07:53:34",
+  "total": 831,
   "experiences": [
     {
       "experience_id": "EX-SE-MKT-001",
@@ -33292,6 +33292,492 @@
       "operation_status": "annual",
       "operating_hours": "4~5월 튤립 시즌 10:00~22:00",
       "phone": "031-320-5000"
+    },
+    {
+      "experience_id": "EX-GG-NAT-097",
+      "name": "양평 두물머리 카누",
+      "category_main": "문화/체험",
+      "category_sub": "어드벤처/레포츠",
+      "region_main": "GG",
+      "region_sub": "경기도 양평군",
+      "address": "경기도 양평군 양서면 두물머리 카누 체험장",
+      "lat": 37.5281,
+      "lng": 127.3031,
+      "price": "2인 20,000원~",
+      "duration": "1~2시간",
+      "reservation_required": true,
+      "target_user": [
+        "커플",
+        "개인"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "경기 양평 두물머리 남한강·북한강 합류 지점에서 카누를 타는 수상 체험이다. 두물머리 물안개 명소에서 카누로 수면을 가로지르며 400년 느티나무와 경관을 즐기는 색다른 두물머리 체험이다.",
+      "source_urls": [
+        "https://www.yangpyeong.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "양평두물머리카누",
+        "양평",
+        "경기",
+        "두물머리",
+        "카누",
+        "남한강",
+        "수상체험"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-14T07:53:34",
+      "operation_status": "seasonal",
+      "operating_hours": "4~10월 (예약 필수)",
+      "phone": "031-773-8577"
+    },
+    {
+      "experience_id": "EX-JN-NAT-106",
+      "name": "강진 청자촌 도예 체험",
+      "category_main": "문화/체험",
+      "category_sub": "전통공예",
+      "region_main": "JN",
+      "region_sub": "전라남도 강진군",
+      "address": "전라남도 강진군 대구면 청자촌길 33 청자박물관",
+      "lat": 34.6478,
+      "lng": 126.7139,
+      "price": "성인 8,000원~",
+      "duration": "2시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "고려 청자의 본산 전남 강진 청자촌에서 청자 물레 체험을 즐기는 공예 체험이다. 800년 전 고려 최고 청자를 구웠던 가마터 위에서 직접 청자를 빚고 굽는 전통 공예 체험이다.",
+      "source_urls": [
+        "https://www.gangjin.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "강진청자도예체험",
+        "강진",
+        "전남",
+        "청자",
+        "물레체험",
+        "고려청자",
+        "가마터"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-14T07:53:34",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00",
+      "phone": "061-430-3755"
+    },
+    {
+      "experience_id": "EX-GB-NAT-050",
+      "name": "경주 첨성대 별 관측",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GB",
+      "region_sub": "경상북도 경주시",
+      "address": "경상북도 경주시 인왕동 839-1 첨성대",
+      "lat": 35.8347,
+      "lng": 129.2194,
+      "price": "무료",
+      "duration": "1시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "국보 신라 첨성대에서 야경을 감상하고 동양 최고(最古) 천문대 역사를 배우는 체험이다. 7세기 신라 선덕여왕 때 세운 동양에서 가장 오래된 천문 관측대 첨성대는 야간 조명이 켜지면 더욱 아름답다.",
+      "source_urls": [
+        "https://www.gyeongju.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "경주첨성대야경",
+        "첨성대",
+        "경주",
+        "경북",
+        "동양최고천문대",
+        "신라",
+        "국보"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-14T07:53:34",
+      "operation_status": "active",
+      "operating_hours": "연중 (무료, 야경 일몰~22:00)",
+      "phone": "054-779-6100"
+    },
+    {
+      "experience_id": "EX-GN-NAT-097",
+      "name": "창녕 부곡온천 족욕",
+      "category_main": "문화/체험",
+      "category_sub": "웰니스",
+      "region_main": "GN",
+      "region_sub": "경상남도 창녕군",
+      "address": "경상남도 창녕군 부곡면 온천단지길 20",
+      "lat": 35.4072,
+      "lng": 128.7069,
+      "price": "무료~성인 8,000원",
+      "duration": "1시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "한국 최고 온천 중 하나인 경남 창녕 부곡온천에서 족욕을 즐기는 웰니스 체험이다. 국내에서 수온이 가장 높은 78도 온천수로 유명한 부곡온천에서 유황 성분 족욕으로 피부 건강을 즐기는 체험이다.",
+      "source_urls": [
+        "https://www.changnyeong.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "창녕부곡온천족욕",
+        "부곡온천",
+        "창녕",
+        "경남",
+        "최고수온78도",
+        "유황온천",
+        "웰니스"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-14T07:53:34",
+      "operation_status": "active",
+      "operating_hours": "연중",
+      "phone": "055-521-5551"
+    },
+    {
+      "experience_id": "EX-GG-NAT-098",
+      "name": "강화 전등사 은행나무",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GG",
+      "region_sub": "인천광역시 강화군",
+      "address": "인천광역시 강화군 길상면 전등사로 37-41",
+      "lat": 37.6053,
+      "lng": 126.4353,
+      "price": "성인 3,000원",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "인천 강화 전등사를 탐방하고 은행나무와 조각보 도량을 즐기는 체험이다. 381년 창건된 한국에서 가장 오래된 사찰 전등사에서 도금당 나녀상과 독특한 불교 예술을 감상한다.",
+      "source_urls": [
+        "https://www.jeondeungsa.org/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "강화전등사",
+        "전등사",
+        "강화",
+        "인천",
+        "한국최고사찰",
+        "381년",
+        "나녀상"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-14T07:53:34",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00",
+      "phone": "032-937-0125"
+    },
+    {
+      "experience_id": "EX-JB-NAT-075",
+      "name": "진안 운장산 야생화 트레킹",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "JB",
+      "region_sub": "전라북도 진안군",
+      "address": "전라북도 진안군 정천면 운장산로 일대",
+      "lat": 35.8578,
+      "lng": 127.3586,
+      "price": "무료",
+      "duration": "4~5시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "전북 진안 운장산에서 야생화 트레킹을 즐기는 체험이다. 해발 1,126m 운장산은 5~6월 철쭉·6~8월 원추리·9~10월 구절초 등 사계절 야생화가 풍성한 전북 최고 야생화 트레킹 명소다.",
+      "source_urls": [
+        "https://www.jinan.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "진안운장산야생화",
+        "진안",
+        "전북",
+        "운장산",
+        "야생화트레킹",
+        "원추리",
+        "구절초"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-14T07:53:34",
+      "operation_status": "active",
+      "operating_hours": "연중 (무료)",
+      "phone": "063-430-2513"
+    },
+    {
+      "experience_id": "EX-CB-CUL-077",
+      "name": "아산 현충사 이순신 투어",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "CB",
+      "region_sub": "충청남도 아산시",
+      "address": "충청남도 아산시 염치읍 현충사길 126",
+      "lat": 36.8211,
+      "lng": 127.1208,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "충남 아산 현충사에서 이순신 장군의 생가와 유품을 탐방하는 역사 체험이다. 이순신 장군 탄신지이자 생가가 있는 현충사에서 거북선·장검·난중일기 등 이순신 유물을 관람한다.",
+      "source_urls": [
+        "https://www.hyunchungsa.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "아산현충사이순신",
+        "현충사",
+        "아산",
+        "충남",
+        "이순신",
+        "거북선",
+        "난중일기"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-14T07:53:34",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00 (무료)",
+      "phone": "041-539-4600"
+    },
+    {
+      "experience_id": "EX-GW-NAT-087",
+      "name": "평창 알펜시아 스키",
+      "category_main": "문화/체험",
+      "category_sub": "어드벤처/레포츠",
+      "region_main": "GW",
+      "region_sub": "강원특별자치도 평창군",
+      "address": "강원특별자치도 평창군 대관령면 올림픽로 715",
+      "lat": 37.6553,
+      "lng": 128.6828,
+      "price": "리프트 성인 46,000원~",
+      "duration": "4~8시간",
+      "reservation_required": false,
+      "target_user": [
+        "가족",
+        "청년",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "2018 평창동계올림픽 무대 강원 평창 알펜시아 리조트에서 스키·보드를 즐기는 겨울 체험이다. 올림픽 경기장과 함께 위치한 알펜시아에서 동계 올림픽 분위기를 느끼며 스키를 즐기는 특별한 체험이다.",
+      "source_urls": [
+        "https://www.alpensia.com/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "평창알펜시아스키",
+        "평창",
+        "강원",
+        "알펜시아",
+        "스키",
+        "2018평창올림픽",
+        "동계스포츠"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-14T07:53:34",
+      "operation_status": "seasonal",
+      "operating_hours": "12~3월 (주중~주말 다름)",
+      "phone": "033-339-0000"
+    },
+    {
+      "experience_id": "EX-JN-CUL-060",
+      "name": "고흥 녹동항 해산물",
+      "category_main": "문화/체험",
+      "category_sub": "지역 먹거리",
+      "region_main": "JN",
+      "region_sub": "전라남도 고흥군",
+      "address": "전라남도 고흥군 도양읍 녹동항 해산물 시장",
+      "lat": 34.5019,
+      "lng": 127.3711,
+      "price": "먹거리 별도",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "전남 고흥 녹동항 어시장에서 전남 해산물을 즐기는 먹거리 체험이다. 나로우주센터와 가까운 고흥 녹동항이 전남에서 가장 신선한 남해 해산물 집산지로 소라·전복·낙지·꼼장어를 저렴하게 즐길 수 있다.",
+      "source_urls": [
+        "https://www.goheung.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "고흥녹동항해산물",
+        "고흥",
+        "전남",
+        "녹동항",
+        "전복",
+        "소라",
+        "남해해산물"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-14T07:53:34",
+      "operation_status": "active",
+      "operating_hours": "새벽 04:00~20:00",
+      "phone": "061-830-5114"
+    },
+    {
+      "experience_id": "EX-GG-CUL-088",
+      "name": "부천 판타스틱스튜디오",
+      "category_main": "문화/체험",
+      "category_sub": "문화투어",
+      "region_main": "GG",
+      "region_sub": "경기도 부천시",
+      "address": "경기도 부천시 오정구 삼작로 53 부천아트벙커",
+      "lat": 37.5217,
+      "lng": 126.7783,
+      "price": "무료~성인 5,000원",
+      "duration": "2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플",
+        "가족"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "경기 부천 아트벙커에서 쓰레기소각장을 재생한 복합 문화 공간을 탐방하는 체험이다. 폐소각장을 예술 공간으로 재생한 부천아트벙커B39에서 전시·공연·문화 체험을 즐기는 도시 재생 문화 공간이다.",
+      "source_urls": [
+        "https://www.bucheon.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "부천아트벙커",
+        "부천",
+        "경기",
+        "도시재생",
+        "폐소각장",
+        "문화공간",
+        "전시"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-14T07:53:34",
+      "operation_status": "active",
+      "operating_hours": "10:00~18:00 (월 휴관)",
+      "phone": "032-321-3901"
+    },
+    {
+      "experience_id": "EX-GN-NAT-098",
+      "name": "의령 의병 역사 투어",
+      "category_main": "문화/체험",
+      "category_sub": "역사 체험",
+      "region_main": "GN",
+      "region_sub": "경상남도 의령군",
+      "address": "경상남도 의령군 의령읍 의병로 2 의병박물관",
+      "lat": 35.3244,
+      "lng": 128.2614,
+      "price": "무료",
+      "duration": "1~2시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "임진왜란 최초 의병 곽재우 장군의 고장 경남 의령에서 의병 역사를 배우는 체험이다. 홍의장군 곽재우가 의령에서 최초로 의병을 일으킨 역사를 의병박물관에서 체험하고 솥바위도 탐방한다.",
+      "source_urls": [
+        "https://www.uiryeong.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "의령의병역사투어",
+        "의령",
+        "경남",
+        "곽재우",
+        "홍의장군",
+        "임진왜란의병",
+        "최초의병"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "review_pending",
+      "created_at": "2026-05-14T07:53:34",
+      "operation_status": "active",
+      "operating_hours": "09:00~18:00 (무료)",
+      "phone": "055-570-2500"
+    },
+    {
+      "experience_id": "EX-GG-NAT-099",
+      "name": "수원 광교산 트레킹",
+      "category_main": "문화/체험",
+      "category_sub": "자연체험",
+      "region_main": "GG",
+      "region_sub": "경기도 수원시",
+      "address": "경기도 수원시 장안구 광교산로 일대",
+      "lat": 37.3306,
+      "lng": 127.0153,
+      "price": "무료",
+      "duration": "2~3시간",
+      "reservation_required": false,
+      "target_user": [
+        "개인",
+        "커플"
+      ],
+      "nearby_places": [],
+      "related_heritage_ids": [],
+      "short_description": "경기 수원·의왕에 걸친 광교산에서 시민들이 즐기는 도심 근교 트레킹이다. 수원 시내에서 버스로 30분 거리 광교산은 수원·화성을 조망하는 뷰포인트와 청명한 수계가 있는 수도권 대표 도시 근교 산이다.",
+      "source_urls": [
+        "https://www.suwon.go.kr/"
+      ],
+      "data_confidence": "high",
+      "tags": [
+        "수원광교산트레킹",
+        "광교산",
+        "수원",
+        "경기",
+        "도심근교트레킹",
+        "수원화성조망",
+        "자연"
+      ],
+      "tour_status": "candidate",
+      "shorts_status": "waiting",
+      "created_at": "2026-05-14T07:53:34",
+      "operation_status": "active",
+      "operating_hours": "연중 (무료)",
+      "phone": "031-228-4677"
     }
   ],
   "last_updated": "2026-05-07T04:18:31"
